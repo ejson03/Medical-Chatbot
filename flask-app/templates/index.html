@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Youtube Search </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="/static/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<a href="/" class="logo"><strong>Home</strong> </a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="/">HOME</a></li>
+					<li><a href="/generic">ANALYSIS</a></li>
+				</ul>
+			</nav>
+
+		<form action="/get_video" method="POST" >
+			<label for="song">Song Name:</label><br>
+			<input type="text" id="song" name="song" value="Free Bird">
+			<button type="submit">Submit</button>
+			<br>
+		</form>
+
+		<iframe src="{{url}}" allowfullscreen="" width="720" height="480" frameborder="0" id="video"></iframe>
+
+		{% if url != "exit" %}
+    	<script> document.getElementById("video").style.display = "block"; </script>
+		{% else %}
+		<script> document.getElementById("video").style.display = "none"; </script>
+		{% endif %}
+
+
+		<!-- Scripts -->
+			<script src="/static/js/jquery.min.js"></script>
+			<script src="/static/js/jquery.scrolly.min.js"></script>
+			<script src="/static/js/skel.min.js"></script>
+			<script src="/static/js/util.js"></script>
+			<script src="/static/js/main.js"></script>
+
+	</body>
+</html>
