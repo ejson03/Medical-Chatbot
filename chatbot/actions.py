@@ -1,10 +1,7 @@
-import logging
-logger = logging.getLogger(__name__)
 import secrets
 import json
-from rasa_core_sdk import Action, Tracker
-from rasa_core_sdk.events import SlotSet, Restarted, UserUtteranceReverted, AllSlotsReset
-from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk import Action
+from rasa_sdk.events import SlotSet
 import urllib.request
 import urllib.parse
 import re
@@ -21,28 +18,16 @@ def get_url(query):
 
 class ActionGetSong(Action):
     def name(self):
-        return 'action_get_song'
+        return "action_get_song"
 
     def run(self, dispatcher, tracker, domain):
-        logger.debug()
-        emotion = next(tracker.get_latest_entity_values("emotion"), None)
-        print(emotion)
-        if not emotion:
+        emotion = tracker.latest_message['entities'][0]
+        emotion = emotion['value']
+        if len(emotion) == 0:
             dispatcher.utter_message("I couldnt contemplate what you are going thorugh. I'm sorry.")
-            return [UserUtteranceReverted()]
         query = secrets.choice(data[emotion])
         url = get_url(query)
+        print(emotion, query, url)
         dispatcher.utter_message("Here is something for your mood.")
-        dispatcher.utter_custom_json({"payload":"video","data":url})
+        dispatcher.utter_message(json_message={"payload":"video","data":url})
 
-            
-
-	
-
-		
-# class ActionSlotReset(Action): 	
-#     def name(self): 		
-#         return 'action_slot_reset' 	
-#     def run(self, dispatcher, tracker, domain): 		
-#         return[AllSlotsReset()]
-		

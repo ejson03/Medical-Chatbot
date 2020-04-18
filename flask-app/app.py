@@ -1,9 +1,12 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 import urllib.request
 import urllib.parse
 import re
+import requests
 
 app = Flask(__name__)
+RASA_URI = "http://localhost:5005"
+
 
 def get_url(query):
     query_string = urllib.parse.urlencode({"search_query" : query})
@@ -22,6 +25,14 @@ def video():
     query = request.form.get("song")
     url = get_url(query)
     return render_template('index.html', url=url)
+
+@app.route('/rasa', methods=['POST'])
+def action():
+    message = request.json
+    print(f"User Message: {message}")
+    res = requests.post(f"{RASA_URI}/webhooks/rest/webhook", json=message)
+    print(f"Bot Response : {res.json()}")
+    return jsonify(res.json())
 
 
 if __name__ == '__main__':
