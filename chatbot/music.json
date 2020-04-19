@@ -3,10 +3,15 @@
         "lacrimosa",
         "air from the g string",
         "free bird",
-        "one"
+        "e lucevan le estelle"
     ], 
     "happy": [
         "la donna e mobile",
-        "o sole mio"
+        "o sole mio",
+        "libiamo ne lieti calici"
+    ], 
+    "angry":[
+        "master of puppets",
+        "enter sandman"
     ]
 }

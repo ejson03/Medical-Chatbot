@@ -1,4 +1,4 @@
-import secrets
+import random
 import json
 from rasa_sdk import Action
 from rasa_sdk.events import SlotSet
@@ -25,7 +25,7 @@ class ActionGetSong(Action):
         emotion = emotion['value']
         if len(emotion) == 0:
             dispatcher.utter_message("I couldnt contemplate what you are going thorugh. I'm sorry.")
-        query = secrets.choice(data[emotion])
+        query = random.choice(data[emotion])
         url = get_url(query)
         print(emotion, query, url)
         dispatcher.utter_message("Here is something for your mood.")
