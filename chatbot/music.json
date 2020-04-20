@@ -3,15 +3,34 @@
         "lacrimosa",
         "air from the g string",
         "free bird",
-        "e lucevan le estelle"
+        "e lucevan le estelle",
+        "moonlight sonata",
+        "fur elise",
+        "claire de lune",
+        "gymnopedie no 1",
+        "nocturne no 2",
+        "pathetique sonata",
+        "caveliera rusticana intermezzo",
+        "la ci darem la mano",
+        "chorus of the hebrew slaves",
+        "sullaria"
     ], 
     "happy": [
         "la donna e mobile",
         "o sole mio",
-        "libiamo ne lieti calici"
+        "libiamo ne lieti calici",
+        "ode to joy",
+        "votre toast",
+        "pa pa pa papagena",
+        "aida triumphal march",
+        "voi che sapete"
     ], 
     "angry":[
         "master of puppets",
-        "enter sandman"
+        "enter sandman",
+        "der holle rache",
+        "don giovanni a cenar teco",
+        "ride of the valkyries",
+        "radetzky march"
     ]
 }

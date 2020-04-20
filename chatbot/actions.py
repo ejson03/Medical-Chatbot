@@ -31,3 +31,33 @@ class ActionGetSong(Action):
         dispatcher.utter_message("Here is something for your mood.")
         dispatcher.utter_message(json_message={"payload":"video","data":url})
 
+# class ActionGetQuote(Action):
+#     def name(self):
+#         return "action_get_quote"
+
+#     def run(self, dispatcher, tracker, domain):
+#         emotion = tracker.latest_message['entities'][0]
+#         emotion = emotion['value']
+#         if len(emotion) == 0:
+#             dispatcher.utter_message("I couldnt contemplate what you are going thorugh. I'm sorry.")
+#         query = random.choice(data[emotion])
+#         url = get_url(query)
+#         print(emotion, query, url)
+#         dispatcher.utter_message("Here is something for your mood.")
+#         dispatcher.utter_message(json_message={"payload":"video","data":url})
+
+# class ActionGetImage(Action):
+#     def name(self):
+#         return "action_get_image"
+
+#     def run(self, dispatcher, tracker, domain):
+#         emotion = tracker.latest_message['entities'][0]
+#         emotion = emotion['value']
+#         if len(emotion) == 0:
+#             dispatcher.utter_message("I couldnt contemplate what you are going thorugh. I'm sorry.")
+#         query = random.choice(data[emotion])
+#         url = get_url(query)
+#         print(emotion, query, url)
+#         dispatcher.utter_message("Here is something for your mood.")
+#         dispatcher.utter_message(json_message={"payload":"video","data":url})
+
