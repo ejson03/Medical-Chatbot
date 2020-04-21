@@ -24,8 +24,16 @@ from rasa_sdk.forms import FormAction, REQUESTED_SLOT
 from rasa_sdk.executor import CollectingDispatcher
 
 from datetime import datetime, date, time, timedelta
+from fetchable import FetchableClient
+from fetchable import configuration
+
 with open('music.json', 'r') as emotions:
     data = json.load(emotions)
+
+try: 
+    client = FetchableClient(api_version=configuration.api_version.latest)
+except:
+    print("something went wrong.................")
 
 def get_url(query):
     query_string = urllib.parse.urlencode({"search_query" : query})
@@ -76,43 +84,93 @@ class ActionGetSong(Action):
         return "action_get_song"
 
     def run(self, dispatcher, tracker, domain):
-        emotion = tracker.latest_message['entities'][0]
-        emotion = emotion['value']
-        if len(emotion) == 0:
+        emotion = None
+        entities = tracker.latest_message['entities']
+        for entity in entities:
+            if entity['entity'] == "emotion":
+                emotion = entity['value']
+        if emotion:
+            query = random.choice(data[emotion])
+            url = get_url(query)
+            print(emotion, query, url)
+            dispatcher.utter_message("Here is something for your mood.")
+            dispatcher.utter_message(json_message={"payload":"video","data":url})
+        else:
             dispatcher.utter_message("I couldnt contemplate what you are going thorugh. I'm sorry.")
-        query = random.choice(data[emotion])
-        url = get_url(query)
-        print(emotion, query, url)
-        dispatcher.utter_message("Here is something for your mood.")
-        dispatcher.utter_message(json_message={"payload":"video","data":url})
 
-# class ActionGetQuote(Action):
-#     def name(self):
-#         return "action_get_quote"
 
-#     def run(self, dispatcher, tracker, domain):
-#         emotion = tracker.latest_message['entities'][0]
-#         emotion = emotion['value']
-#         if len(emotion) == 0:
-#             dispatcher.utter_message("I couldnt contemplate what you are going thorugh. I'm sorry.")
-#         query = random.choice(data[emotion])
-#         url = get_url(query)
-#         print(emotion, query, url)
-#         dispatcher.utter_message("Here is something for your mood.")
-#         dispatcher.utter_message(json_message={"payload":"video","data":url})
+class ActionGetQuote(Action):
+    def name(self):
+        return "action_get_quote"
 
-# class ActionGetImage(Action):
-#     def name(self):
-#         return "action_get_image"
+    def run(self, dispatcher, tracker, domain):
+        response = client.fetch_quote()
+        if response['status_code'] == 200:
+            dispatcher.utter_message(f"{response['quote']} by {response['author']}")
+        elif response['status_code'] == 1001:
+            dispatcher.utter_message("I caant connect to internet right now !!")
+        else:
+            dispatcher.utter_message("Sorry, if i couldnt help you")
 
-#     def run(self, dispatcher, tracker, domain):
-#         emotion = tracker.latest_message['entities'][0]
-#         emotion = emotion['value']
-#         if len(emotion) == 0:
-#             dispatcher.utter_message("I couldnt contemplate what you are going thorugh. I'm sorry.")
-#         query = random.choice(data[emotion])
-#         url = get_url(query)
-#         print(emotion, query, url)
-#         dispatcher.utter_message("Here is something for your mood.")
-#         dispatcher.utter_message(json_message={"payload":"video","data":url})
+
+class ActionGetJoke(Action):
+    def name(self):
+        return "action_get_joke"
+
+    def run(self, dispatcher, tracker, domain):
+        response = client.fetch_joke()
+        if response['status_code'] == 200:
+            dispatcher.utter_message(f"{response['setup']} {response['pinchline']}")
+        elif response['status_code'] == 1001:
+            dispatcher.utter_message("I caant connect to internet right now !!")
+        else:
+            dispatcher.utter_message("Sorry, if i couldnt help you")
+
+
+class ActionGetFunFact(Action):
+    def name(self):
+        return "action_get_fun_fact"
+
+    def run(self, dispatcher, tracker, domain):
+        response = client.fetch_fun_fact()
+        if response['status_code'] == 200:
+            dispatcher.utter_message(f"{response['fun_fact']}")
+        elif response['status_code'] == 1001:
+            dispatcher.utter_message("I caant connect to internet right now !!")
+        else:
+            dispatcher.utter_message("Sorry, if i couldnt help you")
+
+class ActionGetWordDefinition(Action):
+    def name(self):
+        return "action_get_word_definition"
+
+    def run(self, dispatcher, tracker, domain):
+        entities = tracker.latest_message['entities']
+        word = None
+        for entity in entities:
+            if entity['entity'] == "word":
+                word = entity['value']
+        if word:
+            response = client.fetch_word_definition()
+            
+            if response['status_code'] == 200:
+                 if(len(response['meanings']) == 1):
+                dispatcher.utter_message(f"The definition of {word} is {response['meanings'][0]}")
+                else:
+                    for i, meaning in enumerate(response['meanings']):
+                        user_response += str(i+1) + ", " + meaning + " "
+                    dispatcher.utter_message(user_response.strip())
+
+            elif response['status_code'] == 404:
+                dispatcher.utter_message("Sorry i dont know the meaning of this word....")
+            elif response['status_code'] == 1001:
+                dispatcher.utter_message("I caant connect to internet right now !!")
+            else:
+                dispatcher.utter_message("Sorry, if i couldnt help you")
+        else:
+            dispatcher.utter_message("Does this word exists .. ??")
+                
+    
+
+
 
