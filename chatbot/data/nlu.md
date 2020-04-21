@@ -436,7 +436,6 @@
 - Can you show me something amusing?
 
 
-
 ## intent:medicine
 - What should I take if I have [headache](symptom)
 - I have got a [headache](symptom)

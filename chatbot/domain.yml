@@ -1,11 +1,10 @@
-actions:
+actions:Z
 - utter_greet
 - utter_cheer_up
 - utter_did_that_help
 - utter_goodbye
 - action_get_song
 - action_medicine
-- utter_bye
 - utter_thank
 - utter_default
 - utter_get_happy_images
