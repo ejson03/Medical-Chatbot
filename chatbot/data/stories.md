@@ -11,7 +11,9 @@
 * get_emotion
   - action_get_song
 * affirm
-  - utter_happy
+  - utter_ask_howdoing
+* goodbye
+  - utter_goodbye
 
 ## sad path 2
 * greet
@@ -43,9 +45,6 @@
     - slot{"symptom": "headache"}
     - action_medicine
 
-## story_5
-* bye
-    - utter_bye
 
 ## story_6
 * out_of_scope
@@ -54,18 +53,19 @@
 ## happy_path
 * greet
   - utter_greet
-* mood_happy
-  - utter_happy
-* bye
-  - utter_bye
+* get_emotion
+  - action_get_song
+* goodbye
+  - utter_goodbye
 
 ## sad_path
 * greet
   - utter_greet
-* mood_unhappy
+* get_emotion
   - utter_telljoke
-* bye
-  - utter_bye
+  - action_get_song
+* goodbye
+  - utter_goodbye
 
 ## Generated Story -8395475876387399729
 * greet
@@ -78,8 +78,8 @@
 * medicine{"symptom": "asthma"}
     - slot{"symptom": "asthma"}
     - action_medicine
-* bye
-    - utter_bye
+* goodbye
+  - utter_goodbye
 ## Generated Story -2482295280972878779
 * greet
     - utter_greet

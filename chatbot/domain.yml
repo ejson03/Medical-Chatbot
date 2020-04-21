@@ -11,7 +11,6 @@ actions:
 - utter_get_happy_images
 - utter_ask_name
 - utter_noworries
-- utter_ask_weather
 - utter_ask_builder
 - utter_ask_howdoing
 - utter_ask_howold
@@ -69,8 +68,6 @@ actions:
 - utter_smalltalk_dialog_sorry
 - utter_smalltalk_dialog_what_do_you_mean
 - utter_smalltalk_dialog_wrong
-- utter_smalltalk_emotions_ha_ha
-- utter_smalltalk_emotions_wow
 - utter_smalltalk_greetings_bye
 - utter_smalltalk_greetings_goodevening
 - utter_smalltalk_greetings_goodmorning
@@ -114,6 +111,8 @@ intents:
   - goodbye
   - affirm
   - deny
+  - thank
+  - out_of_scope
   - get_emotion
   - ask_builder
   - ask_howdoing
@@ -121,9 +120,12 @@ intents:
   - ask_time
   - ask_wherefrom
   - ask_whoami
+  - ask_name
   - handleinsult
   - telljoke
+  - medicine
   - ask_whatismyname
+  - get_happy_images
   - ask_languagesbot
   - smalltalk_agent_acquaintance
   - smalltalk_agent_age
