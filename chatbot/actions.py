@@ -154,8 +154,8 @@ class ActionGetWordDefinition(Action):
             response = client.fetch_word_definition()
             
             if response['status_code'] == 200:
-                 if(len(response['meanings']) == 1):
-                dispatcher.utter_message(f"The definition of {word} is {response['meanings'][0]}")
+                if(len(response['meanings']) == 1):
+                    dispatcher.utter_message(f"The definition of {word} is {response['meanings'][0]}")
                 else:
                     for i, meaning in enumerate(response['meanings']):
                         user_response += str(i+1) + ", " + meaning + " "

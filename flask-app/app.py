@@ -3,6 +3,7 @@ import urllib.request
 import urllib.parse
 import re
 import requests
+from report import User
 
 app = Flask(__name__)
 RASA_URI = "http://localhost:5005"
@@ -18,13 +19,17 @@ def get_url(query):
 
 @app.route('/')
 def index():
-    return render_template('index.html', url="exit")
+    return render_template('login.html')
 
-@app.route('/get_video', methods=['POST'])
-def video():
-    query = request.form.get("song")
-    url = get_url(query)
-    return render_template('index.html', url=url)
+@app.route('/login', methods=['POST'])
+def login():
+    name = request.form.get("name")
+    password = request.form.get("pass")
+    print(name, password)
+    if(name == "admin" and password == "admin"):
+        return render_template("admin.html")
+    else:
+        return render_template("user.html")
 
 @app.route('/rasa', methods=['POST'])
 def action():
@@ -33,6 +38,15 @@ def action():
     res = requests.post(f"{RASA_URI}/webhooks/rest/webhook", json=message)
     print(f"Bot Response : {res.json()}")
     return jsonify(res.json())
+
+@app.route('/report', methods=['POST'])
+def send():
+    date = request.form.get("date")
+    name = request.form.get("name")
+    user - User(name)
+    data = user.weeklyReport(date)
+    return {name: data.tolist()}
+
 
 
 if __name__ == '__main__':

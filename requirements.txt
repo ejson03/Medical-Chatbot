@@ -1,0 +1,8 @@
+fetchable 
+flask
+flask_cors
+rasa
+infermedica_api
+fetchable
+pymongo
+python-dotenv
