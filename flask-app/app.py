@@ -1,21 +1,10 @@
 from flask import Flask, render_template, request, jsonify
-import urllib.request
-import urllib.parse
-import re
 import requests
-from report import User
+from report import User, getAllUsers
 
 app = Flask(__name__)
 RASA_URI = "http://localhost:5005"
 
-
-def get_url(query):
-    query_string = urllib.parse.urlencode({"search_query" : query})
-    html_content = urllib.request.urlopen("http://www.youtube.com/results?" + query_string)
-    search_results = re.findall(r'href=\"\/watch\?v=(.{11})', html_content.read().decode())
-    print("https://www.youtube.com/embed/" + search_results[0])
-    url = "https://www.youtube.com/embed/" + search_results[0]
-    return url
 
 @app.route('/')
 def index():
@@ -25,11 +14,11 @@ def index():
 def login():
     name = request.form.get("name")
     password = request.form.get("pass")
-    print(name, password)
+    print(name)
     if(name == "admin" and password == "admin"):
-        return render_template("admin.html")
+        return render_template("admin.html", name = 'admin')
     else:
-        return render_template("user.html")
+        return render_template("user.html", name = name)
 
 @app.route('/rasa', methods=['POST'])
 def action():
@@ -42,11 +31,29 @@ def action():
 @app.route('/report', methods=['POST'])
 def send():
     date = request.form.get("date")
-    name = request.form.get("name")
-    user - User(name)
+    name = request.form.get("username")
+    print(name, date)
+    user = User(name)
     data = user.weeklyReport(date)
-    return {name: data.tolist()}
+    return {
+        'name': data
+    }
 
+@app.route('/users', methods=['GET'])
+def getUsers():
+    users = getAllUsers()
+    print(users)
+    return {
+        'users': users
+    }
+
+@app.route('/users/<user>', methods=['GET'])
+def page(user):
+    return render_template('admin.html', name = user)
+
+@app.route('/logout')
+def logout():
+    return render_template('login.html')
 
 
 if __name__ == '__main__':

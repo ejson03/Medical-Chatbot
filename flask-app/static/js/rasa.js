@@ -1,4 +1,6 @@
-// ========================== greet user proactively ========================
+var user_id = document.getElementById("username").innerHTML;
+console.log(user_id);
+ // ========================== greet user proactively ========================
 $(document).ready(function() {
 
     //drop down menu for close, restart conversation & clear the chats.
@@ -13,7 +15,7 @@ $(document).ready(function() {
 
     //global variables
     action_name = "action_greet_user";
-    user_id = "healthchain";
+
 
     //if you want the bot to start the conversation
     // action_trigger();
@@ -141,7 +143,7 @@ function send(message) {
         url: "/rasa",
         type: "POST",
         contentType: "application/json",
-        data: JSON.stringify({ message: message, sender:'elvis' }),
+        data: JSON.stringify({ message: message, sender: user_id }),
         success: function(botResponse, status) {
             console.log("Response from Rasa: ", botResponse, "\nStatus: ", status);
 
@@ -266,8 +268,9 @@ function setBotResponse(response) {
                     if (response[i].custom.payload == "video") {
                         url = (response[i].custom.data);
                         vid = document.getElementById("video");
+                        dis = document.getElementById("y2j");
+                        dis.style.display = "block";
                         vid.src = url;
-                        vid.style.display = "block";
                     }
                 }
             }

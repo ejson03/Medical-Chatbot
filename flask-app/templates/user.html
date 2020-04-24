@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title> Youtube Search </title>
+		<title> MediBot </title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="/static/css/main.css" />
+	
 
 		   <!--Import Google Icon Font-->
 		   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -19,40 +19,68 @@
 	 
 		   <!--Main css-->
 		   <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+		   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/dash.css">
 		   <meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
+		<aside class="side-nav" id="show-side-navigation1">
+		<i class="fa fa-bars close-aside hidden-sm hidden-md hidden-lg" data-close="show-side-navigation1"></i>
+		<div class="heading">
+		  <img src="https://cdn1.imggmi.com/uploads/2020/3/1/494ae48d461c56437e9bbb02c4928960-full.jpg" alt="">
+		  <div class="info">
+			<h3><a href="#"> Analytica </a></h3>
+			<p>@Medical Heathcare</p>
+		  </div>
+		</div>
+		<div class="search">
+		  <input type="text" placeholder="Type here"><i class="fa fa-search"></i>
+		</div>
+		<ul class="categories">
+		  <li><i class="fa fa-home fa-fw" ></i><a href="#welcome">Home</a></li>
+		  <li><i class="fa fa-support fa-fw"></i><a href="#charts"> Reports</a>
+			<ul id ="users" class="side-nav-dropdown"></ul>
+		  </li>
+		  
+		</ul>
+	  </aside>
+	  <section id="contents">
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<i class="fa fa-align-right"></i>
+			  </button>
+			  <a class="navbar-brand" href="#">my<span class="main-color">Chatbot</span></a>
+			</div>
+			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My profile <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="#"><i class="fa fa-user-o fw"></i> My account</a></li>
+					<li><a href="#"><i class="fa fa-envelope-o fw"></i> My inbox</a></li>
+					<li><a href="#"><i class="fa fa-question-circle-o fw"></i> Help</a></li>
+					<li role="separator" class="divider"></li>
+					<li><a href="/logout"><i class="fa fa-sign-out"></i> Log out</a></li>
+				  </ul>
+				</li>
+				<li><a href="#"><i data-show="show-side-navigation1" class="fa fa-bars show-side-btn"></i></a></li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+		
+		<div id="y2j" class="col-md-4" style="display: none;">
+            <div class="box">
+				<iframe  width="720" height="480" frameborder="0" id="video" allow="autoplay; fullscreen"></iframe>
+            </div>
+        </div>
 
-		<!-- Header -->
-			<header id="header">
-				<a href="/" class="logo"><strong>Home</strong> </a>
-				<nav>
-					<a href="#menu">Menu</a>
-				</nav>
-			</header>
+		<p id="username" style="display: none;">{{ name }}</p>
 
-		<!-- Nav -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="/">HOME</a></li>
-					<li><a href="/generic">ANALYSIS</a></li>
-				</ul>
-			</nav>
-
-		<form action="/get_video" method="POST" >
-			<label for="song">Song Name:</label><br>
-			<input type="text" id="song" name="song" value="Free Bird">
-			<button type="submit">Submit</button>
-			<br>
-		</form>
-
-		<iframe src="{{url}}" width="720" height="480" frameborder="0" id="video" allow="autoplay; fullscreen"></iframe>
-
-		{% if url != "exit" %}
-    	<script> document.getElementById("video").style.display = "block"; </script>
-		{% else %}
-		<script> document.getElementById("video").style.display = "none"; </script>
-		{% endif %}
 
 			<div class="container">
 			   <!-- Modal for rendering the charts, declare this if you want to render charts, 
@@ -98,7 +126,7 @@
 				  <img class="imgProfile" src="/static/images/botAvatar.png" />
 			   </div>
 			</div>
-
+</section>
 
 		<!-- Scripts -->
 			<script src="/static/js/jquery.min.js"></script>

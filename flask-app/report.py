@@ -32,6 +32,12 @@ def getWeek(day):
     end = end.replace(hour=23, minute=59,second=59, microsecond=59).timestamp()
     return start, end
 
+def getAllUsers():
+    rasaDB = getRASADB()
+    conversation = getCollectionConversation(rasaDB)
+    users = conversation.find()
+    users = [user['sender_id'] for user in users]
+    return users
 
 class User:
     def __init__(self, user):
@@ -43,6 +49,7 @@ class User:
         self.date = datetime.now()
 
     def weeklyReport(self, date):
+        date = datetime.strptime(date, '%Y-%m-%d')
         self.start, self.end = getWeek(date)
         query = {'sender_id': self.name} 
         user = self.conversation.find(query)
