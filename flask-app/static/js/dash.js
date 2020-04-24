@@ -101,64 +101,140 @@ $(function () {
     Chart.defaults.scale.gridLines.color = 'rgba(255, 255, 255, 0.02)';
     
     Chart.defaults.global.legend.display = false;
-    
-    var email_list =[]
-    var count_list =[]
-    var email_s_list =[]
-    var email_h_list =[]
-    var spam_list=[]
-    var ham_list=[]
-    var time_list=[]
+
 
     function createChart(data){
-      let emotion = []
+      let happy = []
+      let sad = []
+      let angry = []
       let date = []
+      let emotion = []
       console.log(data)
       data.forEach(stuff => {
-        emotion.push(stuff['emotion']);
+        if(stuff['emotion'] == 'happy'){
+          happy.push(10)
+
+        }
+        else{
+          happy.push(3)
+        }
+        if(stuff['emotion'] == 'sad'){
+          sad.push(8)
+        }
+        else{
+          sad.push(3)
+        }
+        if(stuff['emotion'] == 'angry'){
+          angry.push(6)
+        }
+        else{
+          angry.push(3)
+        }
+        emotion.push(stuff['emotion'])
         date.push(stuff['time'])
       })
-      console.log(emotion, date)
-      var chart = document.getElementById('myChart');
-      var myChart = new Chart(chart, {
+      var count = {};
+      emotion.forEach(inst => count[inst] = (count[inst] || 0) +1);
+
+      new Chart(document.getElementById("line"), {
         type: 'line',
         data: {
-          labels: [1500,1600,1700,1750,1800,1850,1900,1950,1999,2050],
+          labels: date,
           datasets: [{ 
-              data: [86,114,106,106,107,111,133,221,783,2478],
-              label: "Africa",
+              data: happy,
+              label: "Happy",
               borderColor: "#3e95cd",
               fill: false
             }, { 
-              data: [282,350,411,502,635,809,947,1402,3700,5267],
-              label: "Asia",
+              data: sad,
+              label: "Sad",
               borderColor: "#8e5ea2",
               fill: false
             }, { 
-              data: [168,170,178,190,203,276,408,547,675,734],
-              label: "Europe",
+              data: angry,
+              label: "Angry",
               borderColor: "#3cba9f",
               fill: false
-            }, { 
-              data: [40,20,10,16,24,38,74,167,508,784],
-              label: "Latin America",
-              borderColor: "#e8c3b9",
-              fill: false
-            }, { 
-              data: [6,3,2,2,7,26,82,172,312,433],
-              label: "North America",
-              borderColor: "#c45850",
-              fill: false
             }
+
           ]
         },
         options: {
           title: {
             display: true,
-            text: 'World population per region (in millions)'
+            text: 'Emotion Analysis',
+            fontSize: 15
+          },
+          legend: {
+            display: true,
+            position: 'top',
+            labels: {
+              padding: 10,
+              fontSize: 15,
+              fontColor: "#ffffff",
+            }
           }
         }
       });
+
+      new Chart(document.getElementById("pie"), {
+        type: 'pie',
+        data: {
+          labels: Object.keys(count),
+          datasets: [{
+            label: "Emotion",
+            backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f"],
+            data: Object.values(count)
+          }]
+        },
+        options: {
+          title: {
+            display: true,
+            text: 'Perecentage emotion this week'
+          }
+        },
+        legend: {
+          display: true,
+          position: 'bottom',
+          labels: {
+            padding: 10,
+            fontSize: 15,
+            fontColor: "#ffffff",
+          }
+        }
+    });
+
+    new Chart(document.getElementById("bar-chart"), {
+      type: 'bar',
+      data: {
+        labels: Object.keys(count),
+        datasets: [
+          {
+            label: "Emotion",
+            backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f"],
+            data: Object.values(count)
+          }
+        ]
+      },
+      options: {
+        legend: { display: false },
+        title: {
+          display: true,
+          text: 'Predicted world population (millions) in 2050'
+        }
+      },
+      legend: {
+        display: true,
+        position: 'bottom',
+        labels: {
+          padding: 10,
+          fontSize: 15,
+          fontColor: "#ffffff",
+        }
+      }
+  });
+
+
       
     }
 

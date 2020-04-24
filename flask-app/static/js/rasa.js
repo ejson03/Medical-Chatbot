@@ -1,6 +1,7 @@
 var user_id = document.getElementById("username").innerHTML;
-console.log(user_id);
- // ========================== greet user proactively ========================
+
+
+// ========================== greet user proactively ========================
 $(document).ready(function() {
 
     //drop down menu for close, restart conversation & clear the chats.
@@ -39,7 +40,6 @@ function restartConversation() {
 
 // ========================== let the bot start the conversation ========================
 function action_trigger() {
-    console.log("hello")
         // send an event to the bot, so that bot can start the conversation by greeting the user
     $.ajax({
         url: `http://localhost:5005/conversations/healthchain/execute`,

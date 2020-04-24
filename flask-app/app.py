@@ -10,6 +10,10 @@ RASA_URI = "http://localhost:5005"
 def index():
     return render_template('login.html')
 
+@app.route('/home')
+def admin():
+    return render_template("admin.html", name = 'admin')
+    
 @app.route('/login', methods=['POST'])
 def login():
     name = request.form.get("name")

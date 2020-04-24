@@ -20,12 +20,10 @@
           <p>@Medical Heathcare</p>
         </div>
       </div>
-      <div class="search">
-        <input type="text" placeholder="Type here"><i class="fa fa-search"></i>
-      </div>
+      
       <ul class="categories">
-        <li><i class="fa fa-home fa-fw" ></i><a href="#welcome">Home</a></li>
-        <li><i class="fa fa-support fa-fw"></i><a href="#charts"> Reports</a>
+        <li><i class="fa fa-home fa-fw" ></i><a href="/home">Home</a></li>
+        <li><i class="fa fa-support fa-fw"></i><a> Reports</a>
           <ul id ="users" class="side-nav-dropdown"></ul>
         </li>
         
@@ -148,14 +146,27 @@
     <section class="charts">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-10">
+          <div class="col-md-5">
             <div class="chart-container">
-              <h3>Chart</h3>
-              <canvas id="myChart"></canvas>
+              <h3>Line</h3>
+              <canvas width="400" height="225" id="line"></canvas>
             </div>
           </div>
-         
-        </div>
+          <div class="col-md-5">
+            <div class="chart-container">
+              <h3>Pie</h3>
+              <canvas width="400" height="225" id="pie"></canvas>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="chart-container">
+              <h3>Pie</h3>
+              <canvas width="400" height="225" id="bar-chart"></canvas>
+            </div>
+            </div>
+          </div>
+        
+      
       </div>
     </section>
   
