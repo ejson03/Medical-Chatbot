@@ -140,3 +140,4 @@ cython_debug/
 models/
 models
 rasa
+fetchable_auth_keys.json
