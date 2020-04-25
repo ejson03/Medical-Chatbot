@@ -1,0 +1,15 @@
+[
+  {
+    "text": "bravo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "emotion",
+        "start": 0,
+        "end": 5,
+        "extractor": "DIETClassifier",
+        "value": "bravo"
+      }
+    ]
+  }
+]

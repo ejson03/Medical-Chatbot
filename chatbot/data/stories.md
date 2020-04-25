@@ -101,9 +101,8 @@
 ## sad_path
 * greet
   - utter_greet
-* get_emotion
-  - utter_telljoke
-  - action_get_song
+* telljoke
+  - action_get_joke
 * goodbye
   - utter_goodbye
 

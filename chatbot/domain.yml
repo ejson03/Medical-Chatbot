@@ -5,6 +5,7 @@ actions:
 - utter_goodbye
 - action_get_song
 - action_medicine
+- action_get_joke
 - utter_thank
 - utter_default
 - utter_get_happy_images

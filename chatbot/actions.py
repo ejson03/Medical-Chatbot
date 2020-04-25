@@ -31,7 +31,7 @@ with open('music.json', 'r') as emotions:
     data = json.load(emotions)
 
 try: 
-    client = FetchableClient(api_version=configuration.api_version.latest)
+    client = FetchableClient(api_version=configuration.api_version.latest,auth_file='fetchable_auth_keys.json') 
 except:
     print("something went wrong.................")
 
@@ -108,7 +108,7 @@ class ActionGetQuote(Action):
         if response['status_code'] == 200:
             dispatcher.utter_message(f"{response['quote']} by {response['author']}")
         elif response['status_code'] == 1001:
-            dispatcher.utter_message("I caant connect to internet right now !!")
+            dispatcher.utter_message("I cannot connect to internet right now !!")
         else:
             dispatcher.utter_message("Sorry, if i couldnt help you")
 
@@ -119,10 +119,12 @@ class ActionGetJoke(Action):
 
     def run(self, dispatcher, tracker, domain):
         response = client.fetch_joke()
+        print(response)
         if response['status_code'] == 200:
-            dispatcher.utter_message(f"{response['setup']} {response['pinchline']}")
+            dispatcher.utter_message(f"{response['setup']} {response['punchline']}")
+            print(response)
         elif response['status_code'] == 1001:
-            dispatcher.utter_message("I caant connect to internet right now !!")
+            dispatcher.utter_message("I cannot connect to internet right now !!")
         else:
             dispatcher.utter_message("Sorry, if i couldnt help you")
 
@@ -136,7 +138,7 @@ class ActionGetFunFact(Action):
         if response['status_code'] == 200:
             dispatcher.utter_message(f"{response['fun_fact']}")
         elif response['status_code'] == 1001:
-            dispatcher.utter_message("I caant connect to internet right now !!")
+            dispatcher.utter_message("I cannot connect to internet right now !!")
         else:
             dispatcher.utter_message("Sorry, if i couldnt help you")
 
@@ -164,7 +166,7 @@ class ActionGetWordDefinition(Action):
             elif response['status_code'] == 404:
                 dispatcher.utter_message("Sorry i dont know the meaning of this word....")
             elif response['status_code'] == 1001:
-                dispatcher.utter_message("I caant connect to internet right now !!")
+                dispatcher.utter_message("I cannot connect to internet right now !!")
             else:
                 dispatcher.utter_message("Sorry, if i couldnt help you")
         else:

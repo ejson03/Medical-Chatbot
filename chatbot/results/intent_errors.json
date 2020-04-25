@@ -1,0 +1,810 @@
+[
+  {
+    "text": "hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_goodmorning",
+      "confidence": 0.41410842537879944
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_goodmorning",
+      "confidence": 0.915197491645813
+    }
+  },
+  {
+    "text": "good evening",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_goodevening",
+      "confidence": 0.512541651725769
+    }
+  },
+  {
+    "text": "hey there",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_hello",
+      "confidence": 0.5685312151908875
+    }
+  },
+  {
+    "text": "hello mate",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_goodmorning",
+      "confidence": 0.43542855978012085
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_bye",
+      "confidence": 0.4194384217262268
+    }
+  },
+  {
+    "text": "talk to you later",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_bye",
+      "confidence": 0.5018349289894104
+    }
+  },
+  {
+    "text": "yes",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_yes",
+      "confidence": 0.8403329253196716
+    }
+  },
+  {
+    "text": "correct",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_yes",
+      "confidence": 0.40267860889434814
+    }
+  },
+  {
+    "text": "okay",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_yes",
+      "confidence": 0.5079951286315918
+    }
+  },
+  {
+    "text": "no",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.7764322757720947
+    }
+  },
+  {
+    "text": "no way",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.6331681609153748
+    }
+  },
+  {
+    "text": "not really",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.4633209705352783
+    }
+  },
+  {
+    "text": "i am lonely",
+    "intent": "getemotion",
+    "intent_prediction": {
+      "name": "smalltalk_user_lonely",
+      "confidence": 0.4874669313430786
+    }
+  },
+  {
+    "text": "i am feeling lonely",
+    "intent": "getemotion",
+    "intent_prediction": {
+      "name": "smalltalk_user_lonely",
+      "confidence": 0.7605917453765869
+    }
+  },
+  {
+    "text": "i feel lonely",
+    "intent": "getemotion",
+    "intent_prediction": {
+      "name": "smalltalk_user_lonely",
+      "confidence": 0.7652846574783325
+    }
+  },
+  {
+    "text": "I feel good",
+    "intent": "get_happy_images",
+    "intent_prediction": {
+      "name": "smalltalk_user_good",
+      "confidence": 0.43013566732406616
+    }
+  },
+  {
+    "text": "how are you doing this morning",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_how_are_you",
+      "confidence": 0.5415983200073242
+    }
+  },
+  {
+    "text": "how is your day going",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_how_are_you",
+      "confidence": 0.5346614122390747
+    }
+  },
+  {
+    "text": "what about your day",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_how_are_you",
+      "confidence": 0.5866190791130066
+    }
+  },
+  {
+    "text": "Make me laugh.",
+    "intent": "telljoke",
+    "intent_prediction": {
+      "name": "get_happy_images",
+      "confidence": 0.6746801137924194
+    }
+  },
+  {
+    "text": "where did you come from?",
+    "intent": "ask_wherefrom",
+    "intent_prediction": {
+      "name": "smalltalk_agent_origin",
+      "confidence": 0.57114177942276
+    }
+  },
+  {
+    "text": "what is your birthday?",
+    "intent": "ask_howold",
+    "intent_prediction": {
+      "name": "smalltalk_agent_birth_date",
+      "confidence": 0.5637862086296082
+    }
+  },
+  {
+    "text": "when is your birthday?",
+    "intent": "ask_howold",
+    "intent_prediction": {
+      "name": "smalltalk_agent_birth_date",
+      "confidence": 0.7159117460250854
+    }
+  },
+  {
+    "text": "how old are you?",
+    "intent": "smalltalk_agent_age",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.7233757376670837
+    }
+  },
+  {
+    "text": "age of yours",
+    "intent": "smalltalk_agent_age",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.4919340908527374
+    }
+  },
+  {
+    "text": "your age",
+    "intent": "smalltalk_agent_age",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.7222927212715149
+    }
+  },
+  {
+    "text": "what's your age",
+    "intent": "smalltalk_agent_age",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.8102080225944519
+    }
+  },
+  {
+    "text": "tell me your age",
+    "intent": "smalltalk_agent_age",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.8969593048095703
+    }
+  },
+  {
+    "text": "how old are you",
+    "intent": "smalltalk_agent_age",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.7233757376670837
+    }
+  },
+  {
+    "text": "can you get smarter",
+    "intent": "smalltalk_agent_be_clever",
+    "intent_prediction": {
+      "name": "handleinsult",
+      "confidence": 0.553482711315155
+    }
+  },
+  {
+    "text": "when were you born",
+    "intent": "smalltalk_agent_birth_date",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.8435115814208984
+    }
+  },
+  {
+    "text": "who is your boss",
+    "intent": "smalltalk_agent_boss",
+    "intent_prediction": {
+      "name": "ask_builder",
+      "confidence": 0.5385648608207703
+    }
+  },
+  {
+    "text": "who do you work for",
+    "intent": "smalltalk_agent_boss",
+    "intent_prediction": {
+      "name": "ask_builder",
+      "confidence": 0.6202216744422913
+    }
+  },
+  {
+    "text": "you have a lot of knowledge",
+    "intent": "smalltalk_agent_clever",
+    "intent_prediction": {
+      "name": "smalltalk_agent_busy",
+      "confidence": 0.5068507790565491
+    }
+  },
+  {
+    "text": "you are so smart",
+    "intent": "smalltalk_agent_clever",
+    "intent_prediction": {
+      "name": "handleinsult",
+      "confidence": 0.4694078862667084
+    }
+  },
+  {
+    "text": "you are too smart",
+    "intent": "smalltalk_agent_clever",
+    "intent_prediction": {
+      "name": "handleinsult",
+      "confidence": 0.6540118455886841
+    }
+  },
+  {
+    "text": "you are so fine",
+    "intent": "smalltalk_agent_good",
+    "intent_prediction": {
+      "name": "smalltalk_agent_beautiful",
+      "confidence": 0.4523686170578003
+    }
+  },
+  {
+    "text": "I'd like to tell everyone that you are awesome",
+    "intent": "smalltalk_agent_good",
+    "intent_prediction": {
+      "name": "smalltalk_user_likes_agent",
+      "confidence": 0.7109429240226746
+    }
+  },
+  {
+    "text": "I want to have a friend like you",
+    "intent": "smalltalk_agent_my_friend",
+    "intent_prediction": {
+      "name": "smalltalk_user_likes_agent",
+      "confidence": 0.6965807676315308
+    }
+  },
+  {
+    "text": "where are you from",
+    "intent": "smalltalk_agent_origin",
+    "intent_prediction": {
+      "name": "ask_wherefrom",
+      "confidence": 0.6477115750312805
+    }
+  },
+  {
+    "text": "from where are you",
+    "intent": "smalltalk_agent_origin",
+    "intent_prediction": {
+      "name": "ask_wherefrom",
+      "confidence": 0.5261008143424988
+    }
+  },
+  {
+    "text": "where do you live",
+    "intent": "smalltalk_agent_residence",
+    "intent_prediction": {
+      "name": "ask_wherefrom",
+      "confidence": 0.811832070350647
+    }
+  },
+  {
+    "text": "where you live",
+    "intent": "smalltalk_agent_residence",
+    "intent_prediction": {
+      "name": "ask_wherefrom",
+      "confidence": 0.6713365316390991
+    }
+  },
+  {
+    "text": "you're not wrong",
+    "intent": "smalltalk_agent_right",
+    "intent_prediction": {
+      "name": "smalltalk_dialog_wrong",
+      "confidence": 0.7349666357040405
+    }
+  },
+  {
+    "text": "of course",
+    "intent": "smalltalk_confirmation_yes",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6731284856796265
+    }
+  },
+  {
+    "text": "I think so",
+    "intent": "smalltalk_confirmation_yes",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.46543729305267334
+    }
+  },
+  {
+    "text": "right",
+    "intent": "smalltalk_confirmation_yes",
+    "intent_prediction": {
+      "name": "smalltalk_agent_right",
+      "confidence": 0.6987103223800659
+    }
+  },
+  {
+    "text": "ok thank you",
+    "intent": "smalltalk_confirmation_yes",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.6662920117378235
+    }
+  },
+  {
+    "text": "affirmative",
+    "intent": "smalltalk_confirmation_yes",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7467821836471558
+    }
+  },
+  {
+    "text": "perfect",
+    "intent": "smalltalk_appraisal_good",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.6998552083969116
+    }
+  },
+  {
+    "text": "good for you",
+    "intent": "smalltalk_appraisal_good",
+    "intent_prediction": {
+      "name": "smalltalk_agent_good",
+      "confidence": 0.48029932379722595
+    }
+  },
+  {
+    "text": "thank you",
+    "intent": "smalltalk_appraisal_thank_you",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.5681541562080383
+    }
+  },
+  {
+    "text": "thanks",
+    "intent": "smalltalk_appraisal_thank_you",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.5817228555679321
+    }
+  },
+  {
+    "text": "thanks a lot",
+    "intent": "smalltalk_appraisal_thank_you",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.5338587164878845
+    }
+  },
+  {
+    "text": "great thank you",
+    "intent": "smalltalk_appraisal_thank_you",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.6269626617431641
+    }
+  },
+  {
+    "text": "thanks so much",
+    "intent": "smalltalk_appraisal_thank_you",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.6471274495124817
+    }
+  },
+  {
+    "text": "thank you so much",
+    "intent": "smalltalk_appraisal_thank_you",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.7427974343299866
+    }
+  },
+  {
+    "text": "I thank you",
+    "intent": "smalltalk_appraisal_thank_you",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.868886411190033
+    }
+  },
+  {
+    "text": "perfect thank you",
+    "intent": "smalltalk_appraisal_thank_you",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.7201332449913025
+    }
+  },
+  {
+    "text": "great work",
+    "intent": "smalltalk_appraisal_well_done",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.843960165977478
+    }
+  },
+  {
+    "text": "bravo",
+    "intent": "smalltalk_appraisal_well_done",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_cancel",
+      "confidence": 0.3343298137187958
+    }
+  },
+  {
+    "text": "don't do that",
+    "intent": "smalltalk_confirmation_cancel",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.48816803097724915
+    }
+  },
+  {
+    "text": "I don't think so",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7358998656272888
+    }
+  },
+  {
+    "text": "never",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8075984120368958
+    }
+  },
+  {
+    "text": "not that",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_dialog_wrong",
+      "confidence": 0.4141966700553894
+    }
+  },
+  {
+    "text": "no that's wrong",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_dialog_wrong",
+      "confidence": 0.7211399674415588
+    }
+  },
+  {
+    "text": "don't rush",
+    "intent": "smalltalk_dialog_hold_on",
+    "intent_prediction": {
+      "name": "smalltalk_agent_fired",
+      "confidence": 0.49796056747436523
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "smalltalk_greetings_bye",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.471413791179657
+    }
+  },
+  {
+    "text": "see you",
+    "intent": "smalltalk_greetings_bye",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4377703070640564
+    }
+  },
+  {
+    "text": "see ya",
+    "intent": "smalltalk_greetings_bye",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5302407741546631
+    }
+  },
+  {
+    "text": "hello good evening",
+    "intent": "smalltalk_greetings_goodevening",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_goodmorning",
+      "confidence": 0.3840717375278473
+    }
+  },
+  {
+    "text": "hello",
+    "intent": "smalltalk_greetings_hello",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_goodmorning",
+      "confidence": 0.41410842537879944
+    }
+  },
+  {
+    "text": "hi",
+    "intent": "smalltalk_greetings_hello",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5211154222488403
+    }
+  },
+  {
+    "text": "hey",
+    "intent": "smalltalk_greetings_hello",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5939275026321411
+    }
+  },
+  {
+    "text": "heya",
+    "intent": "smalltalk_greetings_hello",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5944750308990479
+    }
+  },
+  {
+    "text": "how's your day going",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.5830085873603821
+    }
+  },
+  {
+    "text": "how are you",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.8515975475311279
+    }
+  },
+  {
+    "text": "is everything all right",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.6821339726448059
+    }
+  },
+  {
+    "text": "how are you doing",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.8373336791992188
+    }
+  },
+  {
+    "text": "are you alright",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.8056342601776123
+    }
+  },
+  {
+    "text": "are you okay",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.7162652611732483
+    }
+  },
+  {
+    "text": "how are you feeling",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.7156826853752136
+    }
+  },
+  {
+    "text": "how are you going",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.631773829460144
+    }
+  },
+  {
+    "text": "is everything okay",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.7575706243515015
+    }
+  },
+  {
+    "text": "how are you today",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.779332160949707
+    }
+  },
+  {
+    "text": "how do you do",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.6182982325553894
+    }
+  },
+  {
+    "text": "how have you been",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.6129807233810425
+    }
+  },
+  {
+    "text": "how is it going",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.626518964767456
+    }
+  },
+  {
+    "text": "how is your day",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.5256851315498352
+    }
+  },
+  {
+    "text": "how is your evening",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.6722655892372131
+    }
+  },
+  {
+    "text": "how was your day",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.4945187568664551
+    }
+  },
+  {
+    "text": "are you having a good day",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.7522699236869812
+    }
+  },
+  {
+    "text": "how's life",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.6940261721611023
+    }
+  },
+  {
+    "text": "I'm fine and you",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.4590516984462738
+    }
+  },
+  {
+    "text": "how's your day",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.6757385730743408
+    }
+  },
+  {
+    "text": "what's up",
+    "intent": "smalltalk_greetings_whatsup",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.4938018321990967
+    }
+  },
+  {
+    "text": "wassup",
+    "intent": "smalltalk_greetings_whatsup",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.6601075530052185
+    }
+  },
+  {
+    "text": "I'm great thanks",
+    "intent": "smalltalk_user_good",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.50975501537323
+    }
+  },
+  {
+    "text": "I'm just playing with you",
+    "intent": "smalltalk_user_joking",
+    "intent_prediction": {
+      "name": "smalltalk_user_excited",
+      "confidence": 0.31916382908821106
+    }
+  },
+  {
+    "text": "I want to sleep",
+    "intent": "smalltalk_user_sleepy",
+    "intent_prediction": {
+      "name": "smalltalk_user_can_not_sleep",
+      "confidence": 0.44136422872543335
+    }
+  }
+]
