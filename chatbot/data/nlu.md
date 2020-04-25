@@ -45,7 +45,6 @@
 - never though of it
 
 ## intent:get_emotion
-## intent:getemotion
 - i am [overjoyed](emotion:happy)
 - i am [excited](emotion:happy)
 - i am [joyful](emotion:happy)

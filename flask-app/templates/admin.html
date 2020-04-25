@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="/static/css/dash.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+.w3-btn {width:150px;}
+  </style>
   </head>
   <body>
     <aside class="side-nav" id="show-side-navigation1">
@@ -138,17 +142,17 @@
     <section>
       <form id="formid" method="POST" action="/report">
         <input name = "username" value="{{name}}" style="display: none;">
-        <p class="lead">Enter the date for weekly analysis</p><br><br>
-        <input type="date" name="date"><br><br>
-        <input type="submit" title="Analyze"><br><br>
+        <p class="lead" style="margin-left: 40%;color:white;">Enter the date for weekly analysis</p><br><br>
+        <input type="date" name="date" style ="width: 10%;border-radius: 5px;margin-left:45%;padding: 10px;"><br><br>
+        <input class="w3-button w3-yellow w3-round-xxlarge" type="submit" title="Analyze" style ="width: 10%;font-size: 20px;margin-left:45%;"><br>
       </form>
     </section>
     <section class="charts">
-      <div class="container-fluid">
+      <div class="container-fluid" id="hidden_div" style="display: none;">
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-5" >
             <div class="chart-container">
-              <h3>Line</h3>
+              <h3> Weekly  Analysis </h3>
               <canvas width="400" height="225" id="line"></canvas>
             </div>
           </div>
@@ -158,9 +162,9 @@
               <canvas width="400" height="225" id="pie"></canvas>
             </div>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5" style="margin-top: 20px;;">
             <div class="chart-container">
-              <h3>Pie</h3>
+              <h3> Emotion Analysis</h3>
               <canvas width="400" height="225" id="bar-chart"></canvas>
             </div>
             </div>
@@ -171,7 +175,8 @@
     </section>
   
 		{% endif %}
-
+    
+  
   <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js"></script>

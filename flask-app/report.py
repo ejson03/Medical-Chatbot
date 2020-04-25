@@ -32,6 +32,12 @@ def getWeek(day):
     end = end.replace(hour=23, minute=59,second=59, microsecond=59).timestamp()
     return start, end
 
+
+def getDay(day):
+    start = day.replace(hour=0, minute=0,second=0, microsecond=0).timestamp()
+    end = day.replace(hour=23, minute=59,second=59, microsecond=59).timestamp()
+    return start, end
+
 def getAllUsers():
     rasaDB = getRASADB()
     conversation = getCollectionConversation(rasaDB)
@@ -66,6 +72,26 @@ class User:
                     'time': event['timestamp'],
                     'emotion': entities[0]['value']
                 }
+
+    # def cleanDay(self, event):
+    #     exlude = ["action_session_start", "action_listen", "action_restart"]
+    #     if event['event'] == 'user' and event['event']=='action' and self.start < event['timestamp'] < self.end:
+    #         if event['event'] == 'action' and event['name'] not in 
+    #         entities= [x for x in event['parse_data']['entities'] if x['entity'] == 'emotion']
+    #         if len(entities) >= 1 :
+    #             return {
+    #                 'time': event['timestamp'],
+    #                 'emotion': entities[0]['value']
+    #             }
+
+    # def generateStory(self):
+    #     now = datetime.now()
+    #     self.start, self.end = getDay(now)
+    #     query = {'sender_id': self.name} 
+    #     user = self.conversation.find(query)
+    #     events = user[0]['events']
+    #     report = list(map(self.cleanDay, events))
+
     
           
         

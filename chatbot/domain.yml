@@ -17,7 +17,6 @@ actions:
 - utter_ask_builder
 - utter_ask_howdoing
 - utter_ask_howold
-- utter_ask_restaurant
 - utter_ask_time
 - utter_ask_wherefrom
 - utter_ask_whoami
@@ -25,7 +24,7 @@ actions:
 - utter_telljoke
 - utter_ask_whatismyname
 - utter_ask_languagesbot
-- utter_happy
+- utter_smalltalk_appraisal_good
 - utter_smalltalk_agent_acquaintance
 - utter_smalltalk_agent_age
 - utter_smalltalk_agent_annoying
@@ -58,7 +57,6 @@ actions:
 - utter_smalltalk_agent_talk_to_me
 - utter_smalltalk_agent_there
 - utter_smalltalk_appraisal_bad
-- utter_smalltalk_appraisal_good
 - utter_smalltalk_appraisal_no_problem
 - utter_smalltalk_appraisal_thank_you
 - utter_smalltalk_appraisal_welcome
@@ -75,7 +73,6 @@ actions:
 - utter_smalltalk_greetings_goodevening
 - utter_smalltalk_greetings_goodmorning
 - utter_smalltalk_greetings_goodnight
-- utter_smalltalk_greetings_hello
 - utter_smalltalk_greetings_how_are_you
 - utter_smalltalk_greetings_nice_to_meet_you
 - utter_smalltalk_greetings_nice_to_see_you
@@ -237,8 +234,6 @@ responses:
   utter_did_that_help:
   - text: "Did that help you?"
 
-  utter_happy:
-  - text: "Great, carry on!"
 
   utter_goodbye:
   - text: "Bye"
@@ -571,15 +566,6 @@ responses:
     - text: "Sleep tight!"
     - text: "Have a good one!"
     - text: "Talk to you soon!"
-
-  utter_smalltalk_greetings_hello:
-    - text: "Hi there, friend!"
-    - text: "Hi!"
-    - text: "Hey!"
-    - text: "Hey there!"
-    - text: "Good day!"
-    - text: "Hello!"
-    - text: "Greetings!"
 
   utter_smalltalk_greetings_how_are_you:
     - text: "Doing great, thanks."

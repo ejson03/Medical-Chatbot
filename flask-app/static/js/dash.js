@@ -191,15 +191,15 @@ $(function () {
           title: {
             display: true,
             text: 'Perecentage emotion this week'
-          }
-        },
-        legend: {
-          display: true,
-          position: 'bottom',
-          labels: {
-            padding: 10,
-            fontSize: 15,
-            fontColor: "#ffffff",
+          },
+          legend: {
+            display: true,
+            position: 'bottom',
+            labels: {
+              padding: 10,
+              fontSize: 15,
+              fontColor: "#ffffff",
+            }
           }
         }
     });
@@ -217,23 +217,24 @@ $(function () {
         ]
       },
       options: {
-        legend: { display: false },
         title: {
           display: true,
-          text: 'Predicted world population (millions) in 2050'
-        }
-      },
-      legend: {
-        display: true,
-        position: 'bottom',
-        labels: {
-          padding: 10,
-          fontSize: 15,
-          fontColor: "#ffffff",
+          text: 'Perecentage emotion this week'
+        },
+        legend: {
+          display: true,
+          position: 'bottom',
+          labels: {
+            padding: 10,
+            fontSize: 15,
+            fontColor: "#ffffff",
+          }
         }
       }
   });
 
+  var x = document.getElementById("hidden_div");
+    x.style.display = "block";
 
       
     }

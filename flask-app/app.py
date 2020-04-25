@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 import requests
 from report import User, getAllUsers
+import os
 
 app = Flask(__name__)
 RASA_URI = "http://localhost:5005"

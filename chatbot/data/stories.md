@@ -17,6 +17,7 @@
     - action_medicine
 * goodbye
     - utter_goodbye
+
 ## Generated Story -2482295280972878779
 * greet
     - utter_greet
@@ -374,9 +375,6 @@
 * smalltalk_greetings_goodnight
   - utter_smalltalk_greetings_goodnight
 
-## path_smalltalk_greetings_hello
-* smalltalk_greetings_hello
-  - utter_smalltalk_greetings_hello
 
 ## path_smalltalk_greetings_how_are_you
 * smalltalk_greetings_how_are_you
