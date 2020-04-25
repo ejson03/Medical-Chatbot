@@ -816,6 +816,150 @@
 - give me a good joke
 - you can say a jok
 
+## intent:tellquote
+- give me a quote
+- quote
+- got a quote
+- quotes are us
+- tell me a quote
+- Say something funny.
+- Give me a quote.
+- Give me a funny quote.
+- What's a good quote?
+- Do you have any quotes?
+- Do you know any quotes?
+- I need a good quote.
+- Tell me the best quote you know.
+- Tell quote.
+- Tell me something funny.
+- Tell me something funny.
+- Share a quote with me!
+- Tell me something humorous!
+- Will you tell me a quote.
+- Can you tell me a quote.
+- Would you tell me a quote
+- Please tell me a quote.
+- Could you tell me a quote.
+- Would you share a quote with me.
+- Could you please share a quote with me.
+- Make me laugh.
+- Tell me something funny.
+- Entertain me with a quote.
+- Tell me something that you think will make me laugh.
+- I want to hear something funny.
+- Give me some comic relief.
+- Can you tell a quote?
+- Know any quotes?
+- Come up with a quote you think I'll find funny.
+- Let's hear a quote from you.
+- say a quote that's funny
+- make me laugh with a quote
+- tell me something funny, like a quote
+- say a quote
+- tell me a short quote
+- tell me a story quote
+- say a funny quote
+- say a quote that's so bad it's funny
+- make me laugh with a bad quote
+- give me a good quote
+- you can say a quot
+
+## intent:tellfunfact
+- give me a fun fact
+- fun fact
+- got a fun fact
+- fun fact are us
+- tell me a fun fact
+- Say something funny.
+- Give me a fun fact.
+- Give me a funny fun fact.
+- What's a good fun fact?
+- Do you have any fun facts?
+- Do you know any fun facts?
+- I need a good fun fact.
+- Tell me the best fun fact you know.
+- Tell fun fact.
+- Tell me something funny.
+- Tell me something funny.
+- Share a fun fact with me!
+- Tell me something humorous!
+- Will you tell me a fun fact.
+- Can you tell me a fun fact.
+- Would you tell me a fun fact
+- Please tell me a fun fact.
+- Could you tell me a fun fact.
+- Would you share a fun fact with me.
+- Could you please share a fun fact with me.
+- Make me laugh.
+- Tell me something funny.
+- Entertain me with a fun fact.
+- Tell me something that you think will make me laugh.
+- I want to hear something funny.
+- Give me some comic relief.
+- Can you tell a fun fact?
+- Know any fun facts?
+- Come up with a fun fact you think I'll find funny.
+- Let's hear a fun fact from you.
+- say a fun fact that's funny
+- make me laugh with a fun fact
+- tell me something funny, like a fun fact
+- say a fun fact
+- tell me a short fun fact
+- tell me a story fun fact
+- say a funny fun fact
+- say a fun fact that's so bad it's funny
+- make me laugh with a bad fun fact
+- give me a good fun fact
+- you can say a funfact
+
+## intent:worddef
+- give me a word definition
+- word definition
+- got a word definition
+- word definition are us
+- tell me a word definition
+- Say something funny.
+- Give me a word definition.
+- Give me a funny word definition.
+- What's a good word definition?
+- Do you have any word definitions?
+- Do you know any word definitions?
+- I need a good word definition.
+- Tell me the best word definition you know.
+- Tell word definition.
+- Tell me something funny.
+- Tell me something funny.
+- Share a word definition with me!
+- Tell me something humorous!
+- Will you tell me a word definition.
+- Can you tell me a word definition.
+- Would you tell me a word definition
+- Please tell me a word definition.
+- Could you tell me a word definition.
+- Would you share a word definition with me.
+- Could you please share a word definition with me.
+- Make me laugh.
+- Tell me something funny.
+- Entertain me with a word definition.
+- Tell me something that you think will make me laugh.
+- I want to hear something funny.
+- Give me some comic relief.
+- Can you tell a word definition?
+- Know any word definitions?
+- Come up with a word definition you think I'll find funny.
+- Let's hear a word definition from you.
+- say a word definition that's funny
+- make me laugh with a word definition
+- tell me something funny, like a word definition
+- say a word definition
+- tell me a short word definition
+- tell me a story word definition
+- say a funny word definition
+- say a word definition that's so bad it's funny
+- make me laugh with a bad word definition
+- give me a good word definition
+- you can say a worddef
+
 ##  intent:ask_wherefrom
 - where do you live?
 - where do you live

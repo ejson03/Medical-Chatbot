@@ -98,11 +98,35 @@
 * goodbye
   - utter_goodbye
 
-## sad_path
+## joke_path
 * greet
   - utter_greet
 * telljoke
   - action_get_joke
+* goodbye
+  - utter_goodbye
+
+## quote_path
+* greet
+  - utter_greet
+* tellquote
+  - action_get_quote
+* goodbye
+  - utter_goodbye
+
+## funfact_path
+* greet
+  - utter_greet
+* tellfunfact
+  - action_get_fun_fact
+* goodbye
+  - utter_goodbye
+
+## wordedef_path
+* greet
+  - utter_greet
+* worddef
+  - action_get_word_definition
 * goodbye
   - utter_goodbye
 
