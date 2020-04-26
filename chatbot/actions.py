@@ -42,43 +42,6 @@ def get_url(query):
     url = f"https://www.youtube.com/embed/{search_results[0]}?autoplay=1"
     return url
 
-
-class ActionMed(Action):
-    def name(self):
-        return 'action_medicine'
-
-    def run(self, dispatcher, tracker, domain):
-        api = infermedica_api.API(app_id='f1acb630', app_key='41b6c31e0d5158d1dbab51958f216cfc')
-        print(api.info()) 
-        choices = {}
-        buttons = []
-        symp = tracker.get_slot('symptom')
-        request = infermedica_api.Diagnosis(sex='male', age='25')
-
-        symp = api.parse(symp).to_dict()
-        symp_id = symp['mentions'][0]['id']
-        request.add_symptom(symp_id, 'present')
-
-        request = api.diagnosis(request)
-        items = request.question.items
-
-        for choice in items:
-            choices[choice['id']] = choice['name']
-
-        response = request.question.text
-
-        for key, value in choices.items():
-            title = value
-            request.add_symptom(key, 'present')
-            request = api.diagnosis(request)
-            text = request.question.text
-            buttons.append({"title": title, "payload": text})
-        #  response = "Let's try this medicine"
-
-        dispatcher.utter_button_message(response, buttons)
-        #  return [SlotSet('symptom', symp)]
-        return []
-
 class ActionGetSong(Action):
     def name(self):
         return "action_get_song"
@@ -142,36 +105,56 @@ class ActionGetFunFact(Action):
         else:
             dispatcher.utter_message("Sorry, if i couldnt help you")
 
-class ActionGetWordDefinition(Action):
-    def name(self):
-        return "action_get_word_definition"
+# '''Get "action_weather" data'''
+# class ActionWeather(Action):
+#     def name(self):
+#         return 'action_weather'
 
-    def run(self, dispatcher, tracker, domain):
-        entities = tracker.latest_message['entities']
-        word = None
-        for entity in entities:
-            if entity['entity'] == "word":
-                word = entity['value']
-        if word:
-            response = client.fetch_word_definition()
-            
-            if response['status_code'] == 200:
-                if(len(response['meanings']) == 1):
-                    dispatcher.utter_message(f"The definition of {word} is {response['meanings'][0]}")
-                else:
-                    for i, meaning in enumerate(response['meanings']):
-                        user_response += str(i+1) + ", " + meaning + " "
-                    dispatcher.utter_message(user_response.strip())
+#     def run(self, dispatcher, tracker, domain):
+#         app_id = "JnnC8L7yA6ebC44rCiuj"
+#         app_key = "twQ8s3NiYo2MCBZfj1pZAQ"
+#         base_url = "https://weather.api.here.com/weather/1.0/report.json?" 
+ 
+#         location = tracker.get_slot('location')
+#         Final_url = base_url + "app_id=" + app_id + "&app_code=" + app_key + "&product=observation&name=" + location 
+ 
+#         weather_data = requests.get(Final_url).json()
 
-            elif response['status_code'] == 404:
-                dispatcher.utter_message("Sorry i dont know the meaning of this word....")
-            elif response['status_code'] == 1001:
-                dispatcher.utter_message("I cannot connect to internet right now !!")
-            else:
-                dispatcher.utter_message("Sorry, if i couldnt help you")
-        else:
-            dispatcher.utter_message("Does this word exists .. ??")
-                
+#         if (len(weather_data) > 2):
+#             # JSON data works just similar to python dictionary and you can access the value using [].
+#             current_temperature =  weather_data['observations']['location'][0]['observation'][0]['temperature']
+#             wind=weather_data['observations']['location'][0]['observation'][0]['windSpeed']
+#             desc=weather_data['observations']['location'][0]['observation'][0]['description']
+
+#             response = """ It is {} in {} at this moment. The temperature is {} degree and the wind speed is {} m/s. """. format(desc, location, current_temperature, wind)
+#             dispatcher.utter_message(response)
+#         else:
+#             dispatcher.utter_message("City Not Found ")
+ 
+
+# '''Get "action_temp" data'''
+# class ActionTemperature(Action):
+#     def name(self):
+#         return 'action_temp'
+      
+#     def run(self, dispatcher, tracker, domain):
+#         app_id = "JnnC8L7yA6ebC44rCiuj"
+#         app_key = "twQ8s3NiYo2MCBZfj1pZAQ"
+#         base_url = "https://weather.api.here.com/weather/1.0/report.json?" 
+ 
+#         location = tracker.get_slot('location')
+#         Final_url = base_url + "app_id=" + app_id + "&app_code=" + app_key + "&product=observation&name=" + location 
+ 
+#         weather_data = requests.get(Final_url).json()
+
+#         if (len(weather_data) > 2):
+#             # JSON data works just similar to python dictionary and you can access the value using [].
+#             current_temperature =  weather_data['observations']['location'][0]['observation'][0]['temperature']
+
+#             response = """ The temperature in {} is now {} degree currently """. format(location, current_temperature)
+#             dispatcher.utter_message(response)
+#         else:
+#             dispatcher.utter_message("City Not Found ")
     
 
 

@@ -4,48 +4,6 @@
 * get_emotion
   - action_get_song
 
-## story_4
-* medicine{"symptom": "headache"}
-    - slot{"symptom": "headache"}
-    - action_medicine
-
-## Generated Story -8395475876387399729
-* greet
-    - utter_greet
-* medicine{"symptom": "asthma"}
-    - slot{"symptom": "asthma"}
-    - action_medicine
-* goodbye
-    - utter_goodbye
-
-## Generated Story -2482295280972878779
-* greet
-    - utter_greet
-* medicine{"symptom": "headache"}
-    - slot{"symptom": "headache"}
-    - action_medicine
-
-## Generated Story 5009547389444319226
-* medicine{"symptom": "headache"}
-    - slot{"symptom": "headache"}
-    - action_medicine
-
-## Generated Story 7042106036174186976
-* medicine{"symptom": "headache"}
-    - slot{"symptom": "headache"}
-    - action_medicine
-
-## Generated Story -1673797503190098972
-* medicine{"symptom": "headache"}
-    - slot{"symptom": "headache"}
-    - action_medicine
-    - slot{"symptom": {"mentions": [{"type": "symptom", "name": "Headache", "orth": "headache", "common_name": "Headache", "id": "s_21", "choice_id": "present"}]}}
-* medicine{"symptom": "headache"}
-    - slot{"symptom": "headache"}
-    - action_medicine
-    - slot{"symptom": {"mentions": [{"type": "symptom", "name": "Headache", "orth": "headache", "common_name": "Headache", "id": "s_21", "choice_id": "present"}]}}
-
-
 ## sad path 1
 * greet
   - utter_greet
@@ -75,17 +33,6 @@
 ## story_2
 * thank
     - utter_thank
-
-## story_3
-* ask_name{"name": "Elvis"}
-    - slot{"name": "Elvis"}
-    - utter_greet
-
-## story_4
-* medicine{"symptom": "headache"}
-    - slot{"symptom": "headache"}
-    - action_medicine
-
 
 ## story_6
 * out_of_scope
@@ -122,62 +69,6 @@
   - action_get_fun_fact
 * goodbye
   - utter_goodbye
-
-## wordedef_path
-* greet
-  - utter_greet
-* worddef
-  - action_get_word_definition
-* goodbye
-  - utter_goodbye
-
-## Generated Story -8395475876387399729
-* greet
-    - utter_greet
-* thank
-    - utter_thank
-* ask_name{"name": "Vedant"}
-    - slot{"name": "Vedant"}
-    - utter_greet
-* medicine{"symptom": "asthma"}
-    - slot{"symptom": "asthma"}
-    - action_medicine
-* goodbye
-  - utter_goodbye
-## Generated Story -2482295280972878779
-* greet
-    - utter_greet
-* medicine{"symptom": "headache"}
-    - slot{"symptom": "headache"}
-    - action_medicine
-
-## Generated Story 5009547389444319226
-* medicine{"symptom": "headache"}
-    - slot{"symptom": "headache"}
-    - action_medicine
-
-## Generated Story 7042106036174186976
-* medicine{"symptom": "headache"}
-    - slot{"symptom": "headache"}
-    - action_medicine
-
-## Generated Story 7439725141992755319
-* get_happy_images
-    - utter_get_happy_images
-* greet
-    - utter_greet
-* thank
-    - utter_thank
-
-## Generated Story -1673797503190098972
-* medicine{"symptom": "headache"}
-    - slot{"symptom": "headache"}
-    - action_medicine
-    - slot{"symptom": {"mentions": [{"type": "symptom", "name": "Headache", "orth": "headache", "common_name": "Headache", "id": "s_21", "choice_id": "present"}]}}
-* medicine{"symptom": "headache"}
-    - slot{"symptom": "headache"}
-    - action_medicine
-    - slot{"symptom": {"mentions": [{"type": "symptom", "name": "Headache", "orth": "headache", "common_name": "Headache", "id": "s_21", "choice_id": "present"}]}}
 
 ## path_smalltalk_agent_acquaintance
 * smalltalk_agent_acquaintance

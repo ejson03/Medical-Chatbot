@@ -4,11 +4,9 @@ actions:
 - utter_did_that_help
 - utter_goodbye
 - action_get_song
-- action_medicine
 - action_get_joke
 - action_get_quote
 - action_get_fun_fact
-- action_get_word_definition
 - utter_thank
 - utter_default
 - utter_get_happy_images
@@ -125,8 +123,6 @@ intents:
   - telljoke
   - tellquote
   - tellfunfact
-  - worddef
-  - medicine
   - ask_whatismyname
   - get_happy_images
   - ask_languagesbot
@@ -219,13 +215,8 @@ entities:
 slots:
   name:
     type: text
-  remedy:
-    type: text
-  symptom:
-    type: text
 
 responses:
-
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -233,7 +224,6 @@ responses:
 
   utter_did_that_help:
   - text: "Did that help you?"
-
 
   utter_goodbye:
   - text: "Bye"
@@ -742,5 +732,5 @@ responses:
     - text: "All right. I'll be here."
 
 session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  session_expiration_time: 10
+  carry_over_slots_to_new_session: False
