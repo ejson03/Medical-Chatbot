@@ -7,16 +7,8 @@ from typing import Dict, Text, Any, List, Union, Type, Optional
 
 import typing
 import logging
-import requests
-import json
-import csv
-import random
-import urllib.request
-import urllib.parse
-import re
-
+from modules.utils import *
 import os
-
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet, AllSlotsReset, EventType
@@ -25,17 +17,6 @@ from rasa_sdk.executor import CollectingDispatcher
 
 from datetime import datetime, date, time, timedelta
 
-
-with open('data/extdata/music.json', 'r') as emotions:
-    data = json.load(emotions)
-
-
-def get_url(query):
-    query_string = urllib.parse.urlencode({"search_query" : query})
-    html_content = urllib.request.urlopen("http://www.youtube.com/results?" + query_string)
-    search_results = re.findall(r'href=\"\/watch\?v=(.{11})', html_content.read().decode())
-    url = f"https://www.youtube.com/embed/{search_results[0]}?autoplay=1"
-    return url
 
 class ActionGetSong(Action):
     def name(self):
@@ -48,15 +29,27 @@ class ActionGetSong(Action):
             if entity['entity'] == "emotion":
                 emotion = entity['value']
         if emotion:
-            query = random.choice(data[emotion])
-            url = get_url(query)
-            print(emotion, query, url)
+            url = get_music(emotion)
             dispatcher.utter_message("Here is something for your mood.")
             dispatcher.utter_message(json_message={"payload":"video","data":url})
         else:
             dispatcher.utter_message("I couldnt contemplate what you are going thorugh. I'm sorry.")
 
+class ActionGetQuote(Action):
+    def name(self):
+        return "action_get_quote"
 
+    def run(self, dispatcher, tracker, domain):
+        image = get_quotes()
+        dispatcher.utter_message(image=image)
+
+class ActionGetJoke(Action):
+    def name(self):
+        return "action_get_joke"
+
+    def run(self, dispatcher, tracker, domain):
+        joke = get_jokes()
+        dispatcher.utter_message(f"{joke}")
 
 '''Get "action_weather" data'''
 class ActionWeather(Action):

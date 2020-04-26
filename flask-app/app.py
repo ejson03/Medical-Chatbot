@@ -30,7 +30,7 @@ def action():
     message = request.json
     print(f"User Message: {message}")
     res = requests.post(f"{RASA_URI}/webhooks/rest/webhook", json=message)
-    print(f"Bot Response : {res.json()}")
+    # print(f"Bot Response : {res.json()}")
     return jsonify(res.json())
 
 @app.route('/report', methods=['POST'])

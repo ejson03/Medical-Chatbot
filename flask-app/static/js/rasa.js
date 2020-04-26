@@ -197,7 +197,7 @@ function setBotResponse(response) {
                 }
                 //check if the response contains "images"
                 if (response[i].hasOwnProperty("image")) {
-                    var BotResponse = '<div class=\"singleCard\">' + '<img class=\"imgcard\" src=\"' + response[i].image + '\">' + '</div><div  style=\"margin-top: 2px;margin-bottom: 2px;\">';
+                    var BotResponse = '<div class=\"singleCard\">' + '<img class=\"imgcard\" src=\"data:image/png;base64,' + response[i].image + '\">' + '</div><div  style=\"margin-top: 2px;margin-bottom: 2px;\">';
                     $(BotResponse).appendTo(".chats").hide().fadeIn(1000);
                 }
                 //check if the response contains "buttons" 
