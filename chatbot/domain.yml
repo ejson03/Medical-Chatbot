@@ -6,7 +6,9 @@ actions:
 - action_get_song
 - action_get_joke
 - action_get_quote
-- action_get_fun_fact
+- action_weather
+- action_temp
+- utter_ask_location
 - utter_thank
 - utter_default
 - utter_get_happy_images
@@ -119,10 +121,12 @@ intents:
   - ask_wherefrom
   - ask_whoami
   - ask_name
+  - ask_weather_location
+  - ask_weather
+  - ask_temperature
   - handleinsult
   - telljoke
   - tellquote
-  - tellfunfact
   - ask_whatismyname
   - get_happy_images
   - ask_languagesbot
@@ -211,41 +215,49 @@ entities:
   - emotion
   - name
   - symptom
+  - location
 
 slots:
   name:
+    type: text
+  location:
     type: text
 
 responses:
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+    - text: "Did that help you?"
 
   utter_goodbye:
-  - text: "Bye"
+    - text: "Bye"
 
   utter_ask_name:
-  - text: Nice name! I shall call you {name} from now.
+    - text: Nice name! I shall call you {name} from now.
 
   utter_bye:
-  - text: Have a nice day!
-  - text: Talk to you later {name}
-  - text: Goodbye
-  - text: Bye, it was nice talking to you!
-  - text: "Talk to you later!"
-  - text: "Have a good day."
-  - text: "Until next time!"
+    - text: Have a nice day!
+    - text: Talk to you later {name}
+    - text: Goodbye
+    - text: Bye, it was nice talking to you!
+    - text: "Talk to you later!"
+    - text: "Have a good day."
+    - text: "Until next time!"
 
   utter_default:
-  - text: Sorry, I did not understand you
+    - text: Sorry, I did not understand you
 
   utter_get_happy_images:
-  - image: http://cutestcats.us/wp-content/uploads/2014/07/The-Happiest-Smiling-Cat-In-The-Universe.jpg
-    text: Here is something to cheer you up
+    - image: http://cutestcats.us/wp-content/uploads/2014/07/The-Happiest-Smiling-Cat-In-The-Universe.jpg
+      text: Here is something to cheer you up
+
+  utter_ask_location:
+    - text: In what location?
+    - text: Which area?
+    - text: Which city specifically?
 
   utter_greet:
   - text: Hello, How can I help you?

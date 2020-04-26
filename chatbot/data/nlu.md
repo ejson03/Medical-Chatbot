@@ -44,6 +44,27 @@
 - not really
 - never though of it
 
+## ask_weather_location
+
+- what's the weather
+- what's the weather in [New Dehi](location)
+- what is the weather
+- what is the weather in [Mumbai](location)
+
+## ask_weather
+
+- what's the weather
+- what's the weather in [New Dehi](location)
+- what is the weather
+- what is the weather in [Mumbai](location)
+
+## ask_temperature
+
+- what's the temperature
+- what's the temperature in [New Dehi](location)
+- what is the temperature
+- what is the temperature in [Mumbai](location)
+
 ## intent:get_emotion
 - i am [overjoyed](emotion:happy)
 - i am [excited](emotion:happy)
@@ -2834,6 +2855,18 @@
 - depression
 - loneliness
 - misery 
+
+## synonym:Delhi
+- New Delhi
+- Old Delhi
+- Del
+- Nizamuddin
+
+## synonym:Mumbai
+- Mumbai
+- Bombay
+- Mum
+
 
 
 

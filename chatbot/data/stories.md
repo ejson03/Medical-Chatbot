@@ -1,3 +1,131 @@
+## story 3
+* ask_weather
+	- utter_ask_location
+
+## story 4
+* ask_weather_location
+	- action_weather
+
+## story 5
+* ask_temperature
+	- action_temp
+## Generated Story 1
+* greet
+    - utter_greet
+* ask_weather_location{"location": "Mumbai"}
+    - slot{"location": "Mumbai"}
+    - action_weather
+    - slot{"location": "Mumbai"}
+    - utter_did_that_help
+* goodbye
+    - utter_goodbye
+
+## Generated Story 2
+* greet
+    - utter_greet
+* ask_weather
+    - utter_ask_location
+* ask_weather_location{"location": "Delhi"}
+    - slot{"location": "Delhi"}
+    - action_weather
+    - slot{"location": "Delhi"}
+    - utter_did_that_help
+* goodbye
+    - utter_goodbye
+
+## Generated Story 3
+* greet
+    - utter_greet
+* ask_temperature{"location": "Banglore"}
+    - slot{"location": "Banglore"}
+    - action_temp
+    - slot{"location": "Banglore"}
+    - utter_did_that_help
+* goodbye
+    - utter_goodbye
+
+## Generated Story 4
+* greet
+    - utter_greet
+* ask_weather
+    - utter_ask_location
+* ask_weather_location{"location": "Pune"}
+    - slot{"location": "Pune"}
+    - action_weather
+    - slot{"location": "Pune"}
+    - utter_did_that_help
+* goodbye
+    - utter_goodbye
+
+## Generated Story 5
+* greet
+    - utter_greet
+* ask_weather
+    - utter_ask_location
+* ask_weather_location{"location": "Chennai"}
+    - slot{"location": "Chennai"}
+    - action_weather
+    - slot{"location": "Chennai"}
+    - utter_did_that_help
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6
+* greet
+    - utter_greet
+* ask_weather_location{"location": "Kolkata"}
+    - slot{"location": "Kolkata"}
+    - action_weather
+    - slot{"location": "Kolkata"}
+    - utter_did_that_help
+* goodbye
+    - utter_goodbye
+
+## Generated Story 7
+* greet
+    - utter_greet
+* ask_weather
+    - utter_ask_location
+* ask_weather_location{"location": "Jaipur"}
+    - slot{"location": "Jaipur"}
+    - action_weather
+    - slot{"location": "Jaipur"}
+    - utter_did_that_help
+* ask_weather_location{"location": "Nagpur"}
+    - slot{"location": "Nagpur"}
+    - action_weather
+    - slot{"location": "Nagpur"}
+    - utter_did_that_help
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8
+* greet
+    - utter_greet
+* ask_temperature{"location": "Bhopal"}
+    - slot{"location": "Bhopal"}
+    - action_temp
+    - slot{"location": "Bhopal"}
+    - utter_did_that_help
+* ask_temperature{"location": "Bhopal"}
+    - slot{"location": "Bhopal"}
+    - action_temp
+    - slot{"location": "Bhopal"}
+    - utter_did_that_help
+* goodbye
+    - utter_goodbye
+
+## Generated Story 9
+* greet
+    - utter_greet
+* ask_weather
+    - utter_ask_location
+* ask_weather_location{"location": "Hyderabad"}
+    - slot{"location": "Hyderabad"}
+    - action_weather
+    - utter_did_that_help
+
+
 ## happy path
 * greet
   - utter_greet
@@ -59,14 +187,6 @@
   - utter_greet
 * tellquote
   - action_get_quote
-* goodbye
-  - utter_goodbye
-
-## funfact_path
-* greet
-  - utter_greet
-* tellfunfact
-  - action_get_fun_fact
 * goodbye
   - utter_goodbye
 
