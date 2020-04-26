@@ -16,7 +16,7 @@ import urllib.parse
 import re
 
 import os
-import infermedica_api
+
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet, AllSlotsReset, EventType
@@ -24,16 +24,11 @@ from rasa_sdk.forms import FormAction, REQUESTED_SLOT
 from rasa_sdk.executor import CollectingDispatcher
 
 from datetime import datetime, date, time, timedelta
-from fetchable import FetchableClient
-from fetchable import configuration
+
 
 with open('data/extdata/music.json', 'r') as emotions:
     data = json.load(emotions)
 
-try: 
-    client = FetchableClient(api_version=configuration.api_version.latest,auth_file='fetchable_auth_keys.json') 
-except:
-    print("something went wrong.................")
 
 def get_url(query):
     query_string = urllib.parse.urlencode({"search_query" : query})
@@ -62,48 +57,6 @@ class ActionGetSong(Action):
             dispatcher.utter_message("I couldnt contemplate what you are going thorugh. I'm sorry.")
 
 
-class ActionGetQuote(Action):
-    def name(self):
-        return "action_get_quote"
-
-    def run(self, dispatcher, tracker, domain):
-        response = client.fetch_quote()
-        if response['status_code'] == 200:
-            dispatcher.utter_message(f"{response['quote']} by {response['author']}")
-        elif response['status_code'] == 1001:
-            dispatcher.utter_message("I cannot connect to internet right now !!")
-        else:
-            dispatcher.utter_message("Sorry, if i couldnt help you")
-
-
-class ActionGetJoke(Action):
-    def name(self):
-        return "action_get_joke"
-
-    def run(self, dispatcher, tracker, domain):
-        response = client.fetch_joke()
-        print(response)
-        if response['status_code'] == 200:
-            dispatcher.utter_message(f"{response['setup']} {response['punchline']}")
-            print(response)
-        elif response['status_code'] == 1001:
-            dispatcher.utter_message("I cannot connect to internet right now !!")
-        else:
-            dispatcher.utter_message("Sorry, if i couldnt help you")
-
-
-class ActionGetFunFact(Action):
-    def name(self):
-        return "action_get_fun_fact"
-
-    def run(self, dispatcher, tracker, domain):
-        response = client.fetch_fun_fact()
-        if response['status_code'] == 200:
-            dispatcher.utter_message(f"{response['fun_fact']}")
-        elif response['status_code'] == 1001:
-            dispatcher.utter_message("I cannot connect to internet right now !!")
-        else:
-            dispatcher.utter_message("Sorry, if i couldnt help you")
 
 # '''Get "action_weather" data'''
 # class ActionWeather(Action):

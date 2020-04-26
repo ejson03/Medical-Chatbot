@@ -60,6 +60,11 @@ def page(user):
 def logout():
     return render_template('login.html')
 
+@app.route('/retrain/<name>')
+def retrain(name):
+    user = User(name)
+    user.generateStory()
+
 
 if __name__ == '__main__':
     app.run(debug=True)

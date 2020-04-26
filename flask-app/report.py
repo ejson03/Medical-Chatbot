@@ -3,6 +3,7 @@ import json,requests
 from pymongo import MongoClient
 from dotenv import load_dotenv
 from datetime import datetime, timedelta
+import uuid 
 
 load_dotenv()
 CONNECTION_STRING = "mongodb://localhost:27017"#os.getenv("MONGODB_STRING")
@@ -73,24 +74,29 @@ class User:
                     'emotion': entities[0]['value']
                 }
 
-    # def cleanDay(self, event):
-    #     exlude = ["action_session_start", "action_listen", "action_restart"]
-    #     if event['event'] == 'user' and event['event']=='action' and self.start < event['timestamp'] < self.end:
-    #         if event['event'] == 'action' and event['name'] not in 
-    #         entities= [x for x in event['parse_data']['entities'] if x['entity'] == 'emotion']
-    #         if len(entities) >= 1 :
-    #             return {
-    #                 'time': event['timestamp'],
-    #                 'emotion': entities[0]['value']
-    #             }
+    def generateStory(self):
+        now = datetime.now()
+        self.start, self.end = getDay(now)
+        query = {'sender_id': self.name} 
+        user = self.conversation.find(query)
+        events = user[0]['events']
+        self.file = f"## story no {uuid.uuid4()} \n"
+        report = list(map(self.cleanDay, events))
+        print(self.file)
+        with open(f'{self.name}.md', 'w+') as f:
+            f.write(self.file)
 
-    # def generateStory(self):
-    #     now = datetime.now()
-    #     self.start, self.end = getDay(now)
-    #     query = {'sender_id': self.name} 
-    #     user = self.conversation.find(query)
-    #     events = user[0]['events']
-    #     report = list(map(self.cleanDay, events))
+    def cleanDay(self, event):
+        exclude = ["action_session_start", "action_listen", "action_restart"]
+        if self.start < event['timestamp'] < self.end :
+            print(event['event'])
+            if event['event'] == 'user' :
+                self.file += f"* {event['parse_data']['intent']['name']} \n"
+
+            if event['event'] == 'action' and event['name'] not in exclude:
+                self.file += f"\t - {event['name']} \n"
+        return 1
+
 
     
           

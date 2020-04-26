@@ -327,12 +327,8 @@ function addSuggestion(textToAdd) {
 
 // on click of suggestions, get the value and send to rasa
 $(document).on("click", ".menu .menuChips", function() {
-    var text = this.innerText;
-    var payload = this.getAttribute('data-payload');
-    console.log("payload: ", this.getAttribute('data-payload'))
-    setUserResponse(text);
-    send(payload);
-
+    var payload = [{'text' : this.getAttribute('data-payload')}];
+    setBotResponse(payload);
     //delete the suggestions once user click on it
     $(".suggestions").remove();
 
