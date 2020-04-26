@@ -9,6 +9,7 @@ import typing
 import logging
 from modules.utils import *
 import os
+import requests
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet, AllSlotsReset, EventType
