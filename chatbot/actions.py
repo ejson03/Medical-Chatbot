@@ -27,7 +27,7 @@ from datetime import datetime, date, time, timedelta
 from fetchable import FetchableClient
 from fetchable import configuration
 
-with open('/data/extdata/music.json', 'r') as emotions:
+with open('data/extdata/music.json', 'r') as emotions:
     data = json.load(emotions)
 
 try: 
