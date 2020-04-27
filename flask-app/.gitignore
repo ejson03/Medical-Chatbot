@@ -139,3 +139,4 @@ cython_debug/
 .vscode/
 rasa
 .env
+.google-cookie
