@@ -114,25 +114,21 @@ mybot.left .profile_div {
 }
 
 mybot .chatCont {
-  position: fixed;
+  position: absolute;
   width: 400px;
   height: 400px !important;
   border: 1px solid #dcdcdc;
-  bottom: 65px;
-  right: 0;
-  background: #efe7dd url("");
+  bottom: 80px;
+  right: 2.5%;
+  background: #efefdd url("");
   border-top-left-radius: 3px;
   z-index: 10000;
   display: none;
 }
 
 mybot .close {
-  position: absolute;
-  right: 5px;
-  margin-top: -60px;
-  color: #868686;
-  font-size: 18px;
-  cursor: pointer;
+  margin-right: 37%;
+  opacity: 1;
 }
 
 mybot .bot_profile {
@@ -156,6 +152,7 @@ mybot .bot_p_img {
 
 mybot .chatForm {
   position: absolute;
+  border: 1px solid #dcdcdc;
   bottom: -65px;
   right: 0;
   margin-bottom: 0;

@@ -3,9 +3,8 @@ $(document).ready(function () {
 	//Widget Code
 	var bot = '<div class="chatCont" id="chatCont">' +
 		'<div class="bot_profile">' +
-		'<img src="logo.jpg" class="bot_p_img">' +
 		'<div class="close">' +
-		'<i class="fa fa-times" aria-hidden="true"></i>' +
+		'<img src="logo.png" class="bot_p_img" opacity: 1;>' +
 		'</div>' +
 		'</div><!--bot_profile end-->' +
 		'<div id="result_div" class="resultDiv"></div>' +
@@ -101,15 +100,9 @@ $(document).ready(function () {
 				setBotResponse('error');
 			}
 		});
+}
 
-
-
-
-
-	}
-
-
-	//------------------------------------ Set bot response in result_div -------------------------------------
+//------------------------------------ Set bot response in result_div -------------------------------------
 	function setBotResponse(val) {
 		setTimeout(function () {
 
@@ -122,15 +115,49 @@ $(document).ready(function () {
 				//if we get message from the bot succesfully
 				var msg = "";
 				for (var i = 0; i < val.length; i++) {
-					if (val[i]["image"]) { //check if there are any images
-						msg += '<p class="botResult"><img  width="200" height="124" src="' + val[i].image + '/"></p><div class="clearfix"></div>';
-					} else {
+					if (val[i].hasOwnProperty("image")) { //check if there are any images
+						msg += '<p class="botResult"><img  width="200" height="124" src=\"data:image/png;base64,' + val[i].image + '/"></p><div class="clearfix"></div>';
+					} else if (val[i].hasOwnProperty("buttons")) {
+						addSuggestion(val[i].buttons);
+					} 
+					else if (val[i].hasOwnProperty("custom")) {
+						if (val[i].custom.payload == "video") {
+							url = (response[i].custom.data);
+							vid = document.getElementById("video");
+							dis = document.getElementById("y2j");
+							dis.style.display = "block";
+							vid.src = url;
+						}
+						if (val[i].custom.payload == "map") {
+							dis = document.getElementById("map");
+							dis.style.display = "block";
+						}
+						//check if the custom payload type is "chart"
+                   		 if (response[i].custom.payload == "chart") {
+							// sample format of the charts data:
+							// var chartData = { "title": "Leaves", "labels": ["Sick Leave", "Casual Leave", "Earned Leave", "Flexi Leave"], "backgroundColor": ["#36a2eb", "#ffcd56", "#ff6384", "#009688", "#c45850"], "chartsData": [5, 10, 22, 3], "chartType": "pie", "displayLegend": "true" }
+
+							//store the below parameters as global variable, 
+							// so that it can be used while displaying the charts in modal.
+							chartData = (response[i].custom.data)
+							title = chartData.title;
+							labels = chartData.labels;
+							backgroundColor = chartData.backgroundColor;
+							chartsData = chartData.chartsData;
+							chartType = chartData.chartType;
+							displayLegend = chartData.displayLegend;
+							// pass the above variable to createChart function
+							createChart(title, labels, backgroundColor, chartsData, chartType, displayLegend)
+							return;
+                    	}
+					}
+					else {
 						msg += '<p class="botResult">' + val[i].text + '</p><div class="clearfix"></div>';
 					}
 
 				}
 				BotResponse = msg;
-				$(BotResponse).appendTo('#result_div');
+				$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
 			}
 			scrollToBottomOfResults();
 			hideSpinner();
@@ -194,3 +221,113 @@ $(document).ready(function () {
 
 
 });
+
+
+//====================================== creating Charts ======================================
+
+//function to create the charts & render it to the canvas
+function createChart(title, labels, backgroundColor, chartsData, chartType, displayLegend) {
+
+    //create the ".chart-container" div that will render the charts in canvas as required by charts.js,
+    // for more info. refer: https://www.chartjs.org/docs/latest/getting-started/usage.html
+    var html = '<div class=\"chart-container\"> <span class=\"modal-trigger\" id=\"expand\" title=\"expand\" href=\"#modal1\"><i class=\"fa fa-external-link\" aria-hidden=\"true\"></i></span> <canvas id=\"chat-chart\" ></canvas> </div> <div style=\"margin-top: 2px;margin-bottom: 2px;\"></div>'
+    $(html).appendTo('.chats');
+
+    //create the context that will draw the charts over the canvas in the ".chart-container" div
+    var ctx = $('#chat-chart');
+
+    // Once you have the element or context, instantiate the chart-type by passing the configuration,
+    //for more info. refer: https://www.chartjs.org/docs/latest/configuration/
+    var data = {
+        labels: labels,
+        datasets: [{
+            label: title,
+            backgroundColor: backgroundColor,
+            data: chartsData,
+            fill: false
+        }]
+    };
+    var options = {
+        title: {
+            display: true,
+            text: title
+        },
+        layout: {
+            padding: {
+                left: 5,
+                right: 0,
+                top: 0,
+                bottom: 0
+            }
+        },
+        legend: {
+            display: displayLegend,
+            position: "right",
+            labels: {
+                boxWidth: 5,
+                fontSize: 10
+            }
+        }
+    }
+
+    //draw the chart by passing the configuration
+    chatChart = new Chart(ctx, {
+        type: chartType,
+        data: data,
+        options: options
+    });
+
+    scrollToBottomOfResults();
+}
+
+// on click of expand button, get the chart data from gloabl variable & render it to modal
+$(document).on("click", "#expand", function() {
+
+    //the parameters are declared gloabally while we get the charts data from rasa.
+    createChartinModal(title, labels, backgroundColor, chartsData, chartType, displayLegend)
+});
+
+//function to render the charts in the modal
+function createChartinModal(title, labels, backgroundColor, chartsData, chartType, displayLegend) {
+    //if you want to display the charts in modal, make sure you have configured the modal in index.html
+    //create the context that will draw the charts over the canvas in the "#modal-chart" div of the modal
+    var ctx = $('#modal-chart');
+
+    // Once you have the element or context, instantiate the chart-type by passing the configuration,
+    //for more info. refer: https://www.chartjs.org/docs/latest/configuration/
+    var data = {
+        labels: labels,
+        datasets: [{
+            label: title,
+            backgroundColor: backgroundColor,
+            data: chartsData,
+            fill: false
+        }]
+    };
+    var options = {
+        title: {
+            display: true,
+            text: title
+        },
+        layout: {
+            padding: {
+                left: 5,
+                right: 0,
+                top: 0,
+                bottom: 0
+            }
+        },
+        legend: {
+            display: displayLegend,
+            position: "right"
+        },
+
+    }
+
+    modalChart = new Chart(ctx, {
+        type: chartType,
+        data: data,
+        options: options
+    });
+
+}
