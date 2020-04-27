@@ -158,6 +158,20 @@
 * greet
     - utter_greet
 
+## story check
+* greet
+    - utter_greet
+* get_emotion
+    - action_get_song
+* show_map
+    - action_get_map
+* goodbye
+    - utter_goodbye
+
+## show map
+* show_map
+  - action_get_map
+
 ## story_2
 * thank
     - utter_thank

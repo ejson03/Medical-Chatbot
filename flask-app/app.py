@@ -18,6 +18,10 @@ def index():
 @app.route('/home')
 def admin():
     return render_template("admin.html", name = 'admin')
+
+@app.route('/home/<name>')
+def userHome(name):
+    return render_template("user.html", name = name, key = GMAP_API_KEY) 
     
 @app.route('/login', methods=['POST'])
 def login():

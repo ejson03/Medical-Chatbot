@@ -44,6 +44,13 @@ class ActionGetQuote(Action):
         image = get_quotes()
         dispatcher.utter_message(image=image)
 
+class ActionShowMap(Action):
+    def name(self):
+        return "action_show_map"
+
+    def run(self, dispatcher, tracker, domain):
+        dispatcher.utter_message(json_message={"payload":"map"})
+
 class ActionGetJoke(Action):
     def name(self):
         return "action_get_joke"

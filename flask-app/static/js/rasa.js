@@ -197,8 +197,14 @@ function setBotResponse(response) {
                 }
                 //check if the response contains "images"
                 if (response[i].hasOwnProperty("image")) {
-                    var BotResponse = '<div class=\"singleCard\">' + '<img class=\"imgcard\" src=\"data:image/png;base64,' + response[i].image + '\">' + '</div><div  style=\"margin-top: 2px;margin-bottom: 2px;\">';
-                    $(BotResponse).appendTo(".chats").hide().fadeIn(1000);
+                    // var BotResponse = '<div class=\"singleCard\">' + '<img class=\"imgcard\" src=\"data:image/png;base64,' + response[i].image + '\">' + '</div><div  style=\"margin-top: 2px;margin-bottom: 2px;\">';
+                    // $(BotResponse).appendTo(".chats").hide().fadeIn(1000);
+                    url = response[i].image;
+                    img = document.getElementById("quote");
+                    box = document.getElementById("quoteBox");
+                    box.style.display = "block";
+                    vid.src = "data:image/png;base64," +  url;
+
                 }
                 //check if the response contains "buttons" 
                 if (response[i].hasOwnProperty("buttons")) {
@@ -271,6 +277,10 @@ function setBotResponse(response) {
                         dis = document.getElementById("y2j");
                         dis.style.display = "block";
                         vid.src = url;
+                    }
+                    if (response[i].custom.payload == "map") {
+                        dis = document.getElementById("map");
+                        dis.style.display = "block";
                     }
                 }
             }

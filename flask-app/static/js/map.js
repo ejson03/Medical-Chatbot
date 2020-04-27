@@ -67,7 +67,6 @@ function processResults(results, status, pagination) {
 
 function createMarkers(places) {
     var bounds = new google.maps.LatLngBounds();
-    var placesList = document.getElementById('places');
 
     for (var i = 0, place; place = places[i]; i++) {
         console.log(places[i])

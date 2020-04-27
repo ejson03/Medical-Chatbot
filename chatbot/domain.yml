@@ -4,6 +4,7 @@ actions:
 - utter_did_that_help
 - utter_goodbye
 - action_get_song
+- action_show_map
 - action_get_joke
 - action_get_quote
 - action_weather
@@ -124,6 +125,7 @@ intents:
   - ask_weather_location
   - ask_weather
   - ask_temperature
+  - show_map
   - handleinsult
   - telljoke
   - tellquote

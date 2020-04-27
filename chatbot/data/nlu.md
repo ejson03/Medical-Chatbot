@@ -65,6 +65,18 @@
 - what is the temperature
 - what is the temperature in [Mumbai](location)
 
+## show_map
+- can you show me all the hospitals nearby
+- i wanna see the nearby hospitals
+- please show me hospitals in my vicinity
+- where can i go
+- is there a solution in my vicinity
+- show me nearby hospitals
+- show me nearby clinics
+- hospitals
+- any doctors nearby
+- any clinics nearby
+
 ## intent:get_emotion
 - i am [overjoyed](emotion:happy)
 - i am [excited](emotion:happy)
