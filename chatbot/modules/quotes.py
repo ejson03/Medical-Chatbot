@@ -61,7 +61,7 @@ def write_image(text):
     text_w, text_h = textsize
     x -= text_w / 2
     y -= text_h / 2
-    draw.multiline_text(align="center", xy=(x, y), text=text, fill=(255,0,0), font=font, spacing=3)
+    draw.multiline_text(align="center", xy=(x, y), text=text, fill=(255,255,102), font=font, spacing=3)
     draw = ImageDraw.Draw(img)
     return img
 
