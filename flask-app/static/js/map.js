@@ -1,14 +1,14 @@
-var map;
+var map1, map2;
 
 function initMap (){
     if (navigator.geolocation) {
         try {
-            navigator.geolocation.getCurrentPosition(function(position) {
+            navigator.geolocation.getCurrentPosition(async function(position) {
                 var myLocation = {
                     lat: position.coords.latitude,
                     lng: position.coords.longitude
                 };
-                setPos(myLocation);
+                await setPos(myLocation);
             },
             function(error){
             switch(error.code){
@@ -43,30 +43,50 @@ function initMap (){
 }
 
 function setPos(myLocation) {
-    map = new google.maps.Map(document.getElementById('map'), {
+    map1 = new google.maps.Map(document.getElementById('map1'), {
         center: myLocation,
         zoom: 10
     });
-
-    var service = new google.maps.places.PlacesService(map);
+    map2 = new google.maps.Map(document.getElementById('map2'), {
+        center: myLocation,
+        zoom: 10
+    });
+    console.log(map1, map2)
+    var service = new google.maps.places.PlacesService(map1);
     service.nearbySearch({
         location: myLocation,
         radius: 4000,
         types: ['hospital']
-    }, processResults);
+    }, processResults1);
+
+    var service = new google.maps.places.PlacesService(map2);
+    service.nearbySearch({
+        location: myLocation,
+        radius: 4000,
+        types: ['hospital']
+    }, processResults2);
 
 }
 
-function processResults(results, status, pagination) {
+function processResults1(results, status, pagination) {
     if (status !== google.maps.places.PlacesServiceStatus.OK) {
         return;
     } else {
-        createMarkers(results);
+        createMarkers(results, map1);
 
     }
 }
 
-function createMarkers(places) {
+function processResults2(results, status, pagination) {
+    if (status !== google.maps.places.PlacesServiceStatus.OK) {
+        return;
+    } else {
+        createMarkers(results, map2);
+
+    }
+}
+
+function createMarkers(places, map) {
     var bounds = new google.maps.LatLngBounds();
 
     for (var i = 0, place; place = places[i]; i++) {
@@ -87,14 +107,14 @@ function createMarkers(places) {
             position: place.geometry.location
         });
         
-        addInfoWindow(marker, place.name, place.vicinity, place.rating)
+        addInfoWindow(map, marker, place.name, place.vicinity, place.rating)
 
         bounds.extend(place.geometry.location);
     }
     map.fitBounds(bounds);
 }
 
-function addInfoWindow(marker, place, address, rating) {
+function addInfoWindow(map, marker, place, address, rating) {
 
     var infoWindow = new google.maps.InfoWindow({
         content: makeContent(place, address, rating)

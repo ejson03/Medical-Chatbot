@@ -164,13 +164,13 @@
 * get_emotion
     - action_get_song
 * show_map
-    - action_get_map
+    - action_show_map
 * goodbye
     - utter_goodbye
 
 ## show map
 * show_map
-  - action_get_map
+  - action_show_map
 
 ## story_2
 * thank

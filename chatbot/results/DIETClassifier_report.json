@@ -1,15 +1,15 @@
 {
-  "symptom": {
+  "emotion": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 399
+  },
+  "location": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 6
-  },
-  "emotion": {
-    "precision": 0.9975,
-    "recall": 1.0,
-    "f1-score": 0.9987484355444306,
-    "support": 399
   },
   "name": {
     "precision": 1.0,
@@ -18,21 +18,21 @@
     "support": 11
   },
   "micro avg": {
-    "precision": 0.9976019184652278,
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.9987995198079231,
+    "f1-score": 1.0,
     "support": 416
   },
   "macro avg": {
-    "precision": 0.9991666666666666,
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.9995828118481436,
+    "f1-score": 1.0,
     "support": 416
   },
   "weighted avg": {
-    "precision": 0.9976021634615384,
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.9987995812072784,
+    "f1-score": 1.0,
     "support": 416
   }
 }

@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
 	//Widget Code
+	var user_id = document.getElementById("username").innerHTML;
 	var bot = '<div class="chatCont" id="chatCont">' +
 		'<div class="bot_profile">' +
 		'<div class="close">' +
@@ -46,9 +47,6 @@ $(document).ready(function () {
 		$('.chatForm').toggle();
 	});
 
-
-
-
 	// on input/text enter--------------------------------------------------------------------------------------
 	$('#chat-input').on('keyup keypress', function (e) {
 		var keyCode = e.keyCode || e.which;
@@ -70,13 +68,11 @@ $(document).ready(function () {
 
 	//------------------------------------------- Call the RASA API--------------------------------------
 	function send(text) {
-
-
 		$.ajax({
 			url: `http://localhost:5005/webhooks/rest/webhook`, //  RASA API
 			type: 'POST',
 			contentType: "application/json",
-			data: JSON.stringify({ message: text, sender: 'vedant' }),
+			data: JSON.stringify({ message: text, sender: user_id }),
 			success: function (data, textStatus, xhr) {
 				console.log(data);
 
@@ -85,7 +81,6 @@ $(document).ready(function () {
 						if (Object.keys(data[0])[i] == "buttons") { //check if buttons(suggestions) are present.
 							addSuggestion(data[0]["buttons"])
 						}
-
 					}
 				}
 
@@ -97,11 +92,20 @@ $(document).ready(function () {
 				setBotResponse('error');
 			}
 		});
-}
+	}
+
+	function stopVideo(){
+		let video = document.getElementById("video");
+		let box = document.getElementById("y2j");
+		if(box.style.display == "block"){
+			box.style.display = "none";
+			video.src = "";
+		}
+   }
 
 //------------------------------------ Set bot response in result_div -------------------------------------
 	function setBotResponse(val) {
-		setTimeout(function () {
+		setTimeout(async function () {
 
 			if ($.trim(val) == '' || val == 'error') { //if there is no response from bot or there is some error
 				val = 'Sorry I wasn\'t able to understand your Query. Let\' try something else!'
@@ -119,24 +123,25 @@ $(document).ready(function () {
 					} 
 					else if (val[i].hasOwnProperty("custom")) {
 						if (val[i].custom.payload == "video") {
-							url = (response[i].custom.data);
+							url = (val[i].custom.data);
 							vid = document.getElementById("video");
 							dis = document.getElementById("y2j");
 							dis.style.display = "block";
 							vid.src = url;
 						}
 						if (val[i].custom.payload == "map") {
-							dis = document.getElementById("map");
+							dis = document.getElementById("map1");
+							await startMap();
 							dis.style.display = "block";
 						}
 						//check if the custom payload type is "chart"
-                   		 if (response[i].custom.payload == "chart") {
+                   		 if (val[i].custom.payload == "chart") {
 							// sample format of the charts data:
 							// var chartData = { "title": "Leaves", "labels": ["Sick Leave", "Casual Leave", "Earned Leave", "Flexi Leave"], "backgroundColor": ["#36a2eb", "#ffcd56", "#ff6384", "#009688", "#c45850"], "chartsData": [5, 10, 22, 3], "chartType": "pie", "displayLegend": "true" }
 
 							//store the below parameters as global variable, 
 							// so that it can be used while displaying the charts in modal.
-							chartData = (response[i].custom.data)
+							chartData = (val[i].custom.data)
 							title = chartData.title;
 							labels = chartData.labels;
 							backgroundColor = chartData.backgroundColor;
@@ -164,6 +169,7 @@ $(document).ready(function () {
 
 	//------------------------------------- Set user response in result_div ------------------------------------
 	function setUserResponse(val) {
+		stopVideo()
 		var UserResponse = '<p class="userEnteredText">' + val + '</p><div class="clearfix"></div>';
 		$(UserResponse).appendTo('#result_div');
 		$("#chat-input").val('');
@@ -328,3 +334,11 @@ function createChartinModal(title, labels, backgroundColor, chartsData, chartTyp
     });
 
 }
+
+function sleep(milliseconds) {
+	const date = Date.now();
+	let currentDate = null;
+	do {
+	  currentDate = Date.now();
+	} while (currentDate - date < milliseconds);
+  }
