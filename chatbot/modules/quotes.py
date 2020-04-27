@@ -1,5 +1,4 @@
 import numpy as np
-import cv2
 from PIL import Image, ImageFont, ImageDraw
 import io, base64, os
 import random
