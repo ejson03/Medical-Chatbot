@@ -4,14 +4,19 @@ from pymongo import MongoClient
 from dotenv import load_dotenv
 from datetime import datetime, timedelta
 import uuid 
+from googlesearch import search
 
 load_dotenv()
-CONNECTION_STRING = "mongodb://localhost:27017"#os.getenv("MONGODB_STRING")
+CONNECTION_STRING = os.getenv("MONGODB_STRING")
 client = MongoClient(CONNECTION_STRING)
 
 if 'analysis' not in client.list_database_names():
     _ = client['analysis'] 
 
+
+def getWeb(name):
+    url = search(name, tld="co.in", num=1)
+    return next(url) #generator object get next value
 
 def getRASADB():
     return client.get_database('rasa')

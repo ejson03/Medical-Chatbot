@@ -1,7 +1,11 @@
 from flask import Flask, render_template, request, jsonify
 import requests
-from report import User, getAllUsers
+from report import User, getAllUsers, getWeb
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+GMAP_API_KEY = os.getenv("KEY")
 
 app = Flask(__name__)
 RASA_URI = "http://localhost:5005"
@@ -23,7 +27,7 @@ def login():
     if(name == "admin" and password == "admin"):
         return render_template("admin.html", name = 'admin')
     else:
-        return render_template("user.html", name = name)
+        return render_template("user.html", name = name, key = GMAP_API_KEY)
 
 @app.route('/rasa', methods=['POST'])
 def action():
@@ -64,6 +68,13 @@ def logout():
 def retrain(name):
     user = User(name)
     user.generateStory()
+
+@app.route('/website/<name>')
+def getWebsite(name):
+    url = getWeb(name)
+    return {
+        'url':url
+    }
 
 
 if __name__ == '__main__':

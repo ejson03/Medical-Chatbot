@@ -1,8 +1,7 @@
-fetchable 
 flask
 flask_cors
 rasa
-infermedica_api
-fetchable
 pymongo
 python-dotenv
+beautifulsoup4
+google
