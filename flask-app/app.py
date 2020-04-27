@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, redirect, url_for
 import requests
 from report import User, getAllUsers, getWeb
 import os
@@ -29,9 +29,9 @@ def login():
     password = request.form.get("pass")
     print(name)
     if(name == "admin" and password == "admin"):
-        return render_template("admin.html", name = 'admin')
+        return redirect(url_for('admin'))
     else:
-        return render_template("user.html", name = name, key = GMAP_API_KEY)
+        return redirect(f'/home/{name}')
 
 @app.route('/rasa', methods=['POST'])
 def action():

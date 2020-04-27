@@ -1,6 +1,6 @@
 var map;
 
-function initMap() {
+function initMap (){
     if (navigator.geolocation) {
         try {
             navigator.geolocation.getCurrentPosition(function(position) {
@@ -39,6 +39,7 @@ function initMap() {
     };
     setPos(myLocation);
     }
+    
 }
 
 function setPos(myLocation) {

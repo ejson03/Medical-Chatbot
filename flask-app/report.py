@@ -4,7 +4,8 @@ from pymongo import MongoClient
 from dotenv import load_dotenv
 from datetime import datetime, timedelta
 import uuid 
-import google
+#import google
+from googlesearch import search
 
 load_dotenv()
 CONNECTION_STRING = os.getenv("MONGODB_STRING")

@@ -28,7 +28,6 @@
 		height: 500px;
 		margin: 100px auto 50px;
 		width: 800px;
-		/* display: none; */
 	  }
 		  </style>
 		   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,7 +36,6 @@
 		<aside class="side-nav" id="show-side-navigation1">
 		<i class="fa fa-bars close-aside hidden-sm hidden-md hidden-lg" data-close="show-side-navigation1"></i>
 		<div class="heading">
-		  <img src="https://cdn1.imggmi.com/uploads/2020/3/1/494ae48d461c56437e9bbb02c4928960-full.jpg" alt="">
 		  <div class="info">
 			<h3><a href="#"> Analytica </a></h3>
 			<p>@Medical Heathcare</p>
@@ -47,14 +45,16 @@
 		  <input type="text" placeholder="Type here"><i class="fa fa-search"></i>
 		</div>
 		<ul class="categories">
-		  <li><i class="fa fa-home fa-fw" ></i><a href="#">Home</a></li>
+		  <li><i class="fa fa-home fa-fw" ></i><a href="/home/{{name}}">Home</a></li>
+		  <li><i class="fa fa-support fa-fw"></i><a href="#chatbot" onclick="chatbot()"> Chatbot</a></li>
 		  <li><i class="fa fa-support fa-fw"></i><a href="/retrain/{{name}}"> Save Stories</a></li>
+		  <li><i class="fa fa-support fa-fw"></i><a href="#showmap" onclick="setup()"> Show Map</a></li>
 		  <li><i class="fa fa-support fa-fw"></i><a href="/logout"> Logout</a>
 		  </li>
 		  
 		</ul>
 	  </aside>
-	  <section id="contents">
+	  <section id="contents" style="display:block">
 		<nav class="navbar navbar-default">
 		  <div class="container-fluid">
 			<div class="navbar-header">
@@ -80,6 +80,9 @@
 			</div>
 		  </div>
 		</nav>
+	  </section>
+
+	  <section id="chatbot">
 		
 		<div id="y2j" class="col-md-4" style="display: none;">
             <div class="box">
@@ -87,7 +90,7 @@
             </div>
 		</div>
 		
-		<div id="map"></div>
+		<div id="map2" name="map"></div>
 
 		<p id="username" style="display: none;">{{ name }}</p>
 
@@ -136,7 +139,11 @@
 				  <img class="imgProfile" src="/static/images/botAvatar.png" />
 			   </div>
 			</div>
-</section>
+	</section>
+
+	<section id="showmap" style="display:none">
+		<div id="map" name="map"></div>
+	</section>
 
 		<!-- Scripts -->
 			<script src="/static/js/jquery.min.js"></script>
@@ -153,8 +160,26 @@
 	  
 			<!--Chart.js Script -->
 			<script type="text/javascript" src="/static/js/chart.min.js"></script>
-			<script src="https://maps.googleapis.com/maps/api/js?key={{key}}&libraries=places&callback=initMap" async defer></script>		
 			<script type="text/javascript" src="/static/js/map.js"></script>
+			<script>
+				let chat = document.getElementById("chatbot");
+				let other = document.getElementById("showmap");
+				console.log(document.getElementsByName('map'));
+				function chatbot(){
+					other.style.display = "none";
+					chat.style.display = "block";
+				}
+				function setup(){
+					chat.style.display = "none";
+					let script = document.createElement("script");
+					script.src = "https://maps.googleapis.com/maps/api/js?key={{key}}&libraries=places&callback=initMap";
+					script.defer = true;
+					script.async = true;
+					document.head.appendChild(script);
+					other.style.display = "block";
+				}
+
+			</script>
 
 	</body>
 </html>
