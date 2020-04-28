@@ -17,6 +17,9 @@ from rasa_sdk.forms import FormAction, REQUESTED_SLOT
 from rasa_sdk.executor import CollectingDispatcher
 
 from datetime import datetime, date, time, timedelta
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 class ActionGetSong(Action):
@@ -66,8 +69,8 @@ class ActionWeather(Action):
         return 'action_weather'
 
     def run(self, dispatcher, tracker, domain):
-        app_id = "JnnC8L7yA6ebC44rCiuj"
-        app_key = "twQ8s3NiYo2MCBZfj1pZAQ"
+        app_id = os.getenv("WEATHER_ID")
+        app_key = os.getenv("WEATHER_KEY")
         base_url = "https://weather.api.here.com/weather/1.0/report.json?" 
  
         location = tracker.get_slot('location')
