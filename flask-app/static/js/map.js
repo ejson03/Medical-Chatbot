@@ -1,6 +1,6 @@
 var map1, map2;
 
-function initMap (){
+async function initMap (){
     if (navigator.geolocation) {
         try {
             navigator.geolocation.getCurrentPosition(async function(position) {
@@ -42,12 +42,12 @@ function initMap (){
     
 }
 
-function setPos(myLocation) {
-    map1 = new google.maps.Map(document.getElementById('map1'), {
+async function setPos(myLocation) {
+    map1 = await new google.maps.Map(document.getElementById('map1'), {
         center: myLocation,
         zoom: 10
     });
-    map2 = new google.maps.Map(document.getElementById('map2'), {
+    map2 = await new google.maps.Map(document.getElementById('map2'), {
         center: myLocation,
         zoom: 10
     });

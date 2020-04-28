@@ -133,12 +133,12 @@ mybot .close {
 mybot .bot_profile {
   position: absolute;
   right: 0;
-  margin-top: -69px;
+  margin-top: -80px;
   text-align: center;
   width: 400px;
   display: none;
   z-index: 1000;
-  background :#efefdd url("") ;
+  background :darkslategrey ;
   border-radius: 10px     10px      0           0;
 }
 

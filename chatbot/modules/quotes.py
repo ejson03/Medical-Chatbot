@@ -22,7 +22,7 @@ def select_font():
     return prefix + random.choice(options)
 
 def recommend_font_size(text):
-    size = 45
+    size = 50
     l = len(text)
     resize_heuristic = 0.9
     resize_actual = 0.985
@@ -61,7 +61,7 @@ def write_image(text):
     text_w, text_h = textsize
     x -= text_w / 2
     y -= text_h / 2
-    draw.multiline_text(align="center", xy=(x, y), text=text, fill=(255,255,102), font=font, spacing=3)
+    draw.multiline_text(align="center", xy=(x, y), text=text, fill=(255,255,255), font=font, spacing=3)
     draw = ImageDraw.Draw(img)
     return img
 

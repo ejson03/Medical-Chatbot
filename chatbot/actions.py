@@ -50,6 +50,7 @@ class ActionShowMap(Action):
 
     def run(self, dispatcher, tracker, domain):
         dispatcher.utter_message(json_message={"payload":"map"})
+        #dispatcher.utter_message("I couldnt contemplate what you are going thorugh. I'm sorry.")
 
 class ActionGetJoke(Action):
     def name(self):
@@ -71,7 +72,6 @@ class ActionWeather(Action):
  
         location = tracker.get_slot('location')
         Final_url = base_url + "app_id=" + app_id + "&app_code=" + app_key + "&product=observation&name=" + location 
- 
         weather_data = requests.get(Final_url).json()
 
         if (len(weather_data) > 2):

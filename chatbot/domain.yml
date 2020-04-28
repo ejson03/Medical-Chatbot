@@ -22,7 +22,6 @@ actions:
 - utter_ask_wherefrom
 - utter_ask_whoami
 - utter_handleinsult
-- utter_telljoke
 - utter_ask_whatismyname
 - utter_ask_languagesbot
 - utter_smalltalk_appraisal_good
@@ -123,8 +122,8 @@ intents:
   - ask_whoami
   - ask_name
   - ask_weather_location
-  - ask_weather
   - ask_temperature
+  - ask_weather
   - show_map
   - handleinsult
   - telljoke
@@ -216,7 +215,6 @@ intents:
 entities:
   - emotion
   - name
-  - symptom
   - location
 
 slots:
@@ -232,93 +230,86 @@ responses:
       image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-    - text: "Did that help you?"
+    - text: "Did that help you ?"
 
   utter_goodbye:
     - text: "Bye"
-
-  utter_ask_name:
-    - text: Nice name! I shall call you {name} from now.
-
-  utter_bye:
-    - text: Have a nice day!
-    - text: Talk to you later {name}
-    - text: Goodbye
-    - text: Bye, it was nice talking to you!
+    - text: "Have a nice day !"
+    - text: "Talk to you later {name}"
+    - text: "Goodbye"
+    - text: "Bye, it was nice talking to you !"
     - text: "Talk to you later!"
     - text: "Have a good day."
     - text: "Until next time!"
 
+  utter_ask_name:
+    - text: "Nice name! I shall call you {name} from now."
+
   utter_default:
-    - text: Sorry, I did not understand you
+    - text: "Sorry, I did not understand you"
 
   utter_get_happy_images:
     - image: http://cutestcats.us/wp-content/uploads/2014/07/The-Happiest-Smiling-Cat-In-The-Universe.jpg
-      text: Here is something to cheer you up
+      text: "Here is something to cheer you up"
 
   utter_ask_location:
-    - text: In what location?
-    - text: Which area?
-    - text: Which city specifically?
+    - text: "In what location ?"
+    - text: "Which area ?"
+    - text: "Which city specifically ?"
 
   utter_greet:
-  - text: Hello, How can I help you?
-  - text: "Hi. What are you looking for?"
-  - text: "Hello! What can I help you find today?"
+    - text: "Hello, How can I help you ?"
+    - text: "Hi. What are you looking for?"
+    - text: "Hello! What can I help you find today?"
 
   utter_thank:
-  - text: You are welcome.
-  - text: Glad you liked my service
+    - text: "You are welcome."
+    - text: "Glad you liked my service"
 
   utter_noworries:
-  - text: "My pleasure."
-  - text: "You are welcome!"
+    - text: "My pleasure."
+    - text: "You are welcome!"
 
   utter_continue:
-  - text: "Do you want to continue the healthcare facility search?"
-  - text: "You are going off topic. Are you still looking for a healthcare provider?"
+    - text: "Do you want to continue the healthcare facility search?"
+    - text: "You are going off topic. Are you still looking for a healthcare provider?"
 
   utter_ask_howold:
-  - text: "42"
-  - text: "Old enough to be a bot"
-  - text: "Age is just an issue of mind over matter. If you don’t mind, it doesn’t matter."
+    - text: "42"
+    - text: "Old enough to be a bot"
+    - text: "Age is just an issue of mind over matter. If you don’t mind, it doesn’t matter."
 
   utter_ask_languagesbot:
-  - text: "I can spell baguette in French, but unfortunately English is the only language I can answer you in."
-  - text: "I am in the process of learning, but at the moment I can only speak English."
+    - text: "I can spell baguette in French, but unfortunately English is the only language I can answer you in."
+    - text: "I am in the process of learning, but at the moment I can only speak English."
 
   utter_ask_restaurant:
-  - text: "I am sorry I can’t recommend you a restaurant as I usually cook at home."
+    - text: "I am sorry I can’t recommend you a restaurant as I usually cook at home."
 
   utter_ask_time:
-  - text: "It is the most wonderful time of the year!"
+    - text: "It is the most wonderful time of the year!"
 
   utter_ask_wherefrom:
-  - text: "I was born in Berlin, but I consider myself a citizen of the world."
-  - text: "I was born in the coolest city on Earth"
+    - text: "I was born in Berlin, but I consider myself a citizen of the world."
+    - text: "I was born in the coolest city on Earth"
 
   utter_ask_whoami:
-  - text: "I hope you are being yourself."
+    - text: "I hope you are being yourself."
  
   utter_handleinsult:
-  - text: "That’s not very nice 😢"
- 
-  utter_telljoke:
-  - text: "Why are eggs not very much into jokes? - Because they could crack up."
-  - text: "Do you know a tree’s favorite drink? - Root beer!"
-  - text: "Why do the French like to eat snails so much? - They can’t stand fast food."
+    - text: "That’s not very nice 😢"
   
   utter_ask_whatismyname:
-  - text: "It most probably is the one that your parents have chosen for you."
+    - text: "It most probably is the one that your parents have chosen for you."
 
   utter_ask_builder:
-  - text: "The engineers at Rasa 🛠"
-  - text: "One of the smart engineers at Rasa! 🧠"
+    - text: "The engineers at Rasa 🛠"
+    - text: "One of the smart engineers at Rasa! 🧠"
 
   utter_ask_howdoing:
-  - text: "I'm great! Thanks for asking."
-  - text: "I'm good, thanks!"
-  - text: "A little bit too warm, otherwise fine."
+    - text: "I'm great! Thanks for asking."
+    - text: "I'm good, thanks!"
+    - text: "A little bit too warm, otherwise fine."
 
   utter_smalltalk_agent_acquaintance:
     - text: "I'm a conversational app."

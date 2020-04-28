@@ -102,6 +102,13 @@ $(document).ready(function () {
 			video.src = "";
 		}
    }
+   function stopMap(){
+	let map = document.getElementById("map1");
+	if(map.style.display == "block"){
+		map.style.display = "none";
+		}
+	}
+
 
 //------------------------------------ Set bot response in result_div -------------------------------------
 	function setBotResponse(val) {
@@ -170,6 +177,7 @@ $(document).ready(function () {
 	//------------------------------------- Set user response in result_div ------------------------------------
 	function setUserResponse(val) {
 		stopVideo()
+		stopMap()
 		var UserResponse = '<p class="userEnteredText">' + val + '</p><div class="clearfix"></div>';
 		$(UserResponse).appendTo('#result_div');
 		$("#chat-input").val('');
