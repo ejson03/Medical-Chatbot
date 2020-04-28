@@ -1,6 +1,6 @@
-# InterviewBot
+# Music Bot
 
-ML and NLP based InterviewBot
+ML and NLP based Music Bot
 
 To field questions relevant to an HR Interview and carry out a sustained conversation.
 To process relevant user responses to evaluate and thus help the user better their interviewing skills.
