@@ -1,10 +1,26 @@
 [
   {
+    "text": "hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_hello",
+      "confidence": 0.5268469452857971
+    }
+  },
+  {
     "text": "hi",
     "intent": "greet",
     "intent_prediction": {
       "name": "smalltalk_greetings_hello",
-      "confidence": 0.5304201245307922
+      "confidence": 0.6672013401985168
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_goodmorning",
+      "confidence": 0.604100227355957
     }
   },
   {
@@ -12,7 +28,7 @@
     "intent": "greet",
     "intent_prediction": {
       "name": "smalltalk_greetings_hello",
-      "confidence": 0.46070608496665955
+      "confidence": 0.5716684460639954
     }
   },
   {
@@ -20,23 +36,7 @@
     "intent": "goodbye",
     "intent_prediction": {
       "name": "smalltalk_greetings_bye",
-      "confidence": 0.5504254698753357
-    }
-  },
-  {
-    "text": "see you later",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "smalltalk_greetings_bye",
-      "confidence": 0.5845382213592529
-    }
-  },
-  {
-    "text": "see you",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "smalltalk_greetings_bye",
-      "confidence": 0.6109451055526733
+      "confidence": 0.6284326910972595
     }
   },
   {
@@ -44,7 +44,15 @@
     "intent": "affirm",
     "intent_prediction": {
       "name": "smalltalk_confirmation_yes",
-      "confidence": 0.808344841003418
+      "confidence": 0.7480541467666626
+    }
+  },
+  {
+    "text": "okay",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_yes",
+      "confidence": 0.5114650130271912
     }
   },
   {
@@ -52,15 +60,7 @@
     "intent": "deny",
     "intent_prediction": {
       "name": "smalltalk_confirmation_no",
-      "confidence": 0.6018669605255127
-    }
-  },
-  {
-    "text": "never",
-    "intent": "deny",
-    "intent_prediction": {
-      "name": "smalltalk_confirmation_no",
-      "confidence": 0.5796000361442566
+      "confidence": 0.509184718132019
     }
   },
   {
@@ -68,15 +68,1799 @@
     "intent": "deny",
     "intent_prediction": {
       "name": "smalltalk_confirmation_no",
-      "confidence": 0.67988121509552
+      "confidence": 0.6205832958221436
     }
   },
   {
-    "text": "no way",
-    "intent": "deny",
+    "text": "is it hot in mumbai",
+    "intent": "ask_weather_location",
     "intent_prediction": {
-      "name": "smalltalk_confirmation_no",
-      "confidence": 0.7755943536758423
+      "name": "ask_temperature",
+      "confidence": 0.38582485914230347
+    }
+  },
+  {
+    "text": "is it rainy in mumbai",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.39279940724372864
+    }
+  },
+  {
+    "text": "is it rainy in jaipur",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.3678608536720276
+    }
+  },
+  {
+    "text": "is it rainy in chennai",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.3698767423629761
+    }
+  },
+  {
+    "text": "is it hot in bhopal",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.40323710441589355
+    }
+  },
+  {
+    "text": "is it sunny in bhopal",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.38167011737823486
+    }
+  },
+  {
+    "text": "is it rainy in bhopal",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.4149911403656006
+    }
+  },
+  {
+    "text": "is it hot in pune",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.38810619711875916
+    }
+  },
+  {
+    "text": "is it rainy in pune",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.3990224599838257
+    }
+  },
+  {
+    "text": "is it hot in hyderabad",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.40083861351013184
+    }
+  },
+  {
+    "text": "is it sunny in hyderabad",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.38518744707107544
+    }
+  },
+  {
+    "text": "is it rainy in hyderabad",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.4133349061012268
+    }
+  },
+  {
+    "text": "is it hot in chandigarh",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.37892457842826843
+    }
+  },
+  {
+    "text": "is it sunny in chandigarh",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.36836275458335876
+    }
+  },
+  {
+    "text": "is it rainy in chandigarh",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.3969952464103699
+    }
+  },
+  {
+    "text": "is it hot in shimla",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.38118356466293335
+    }
+  },
+  {
+    "text": "is it rainy in shimla",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.4034777283668518
+    }
+  },
+  {
+    "text": "is it rainy in nagpur",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.3860403895378113
+    }
+  },
+  {
+    "text": "is it rainy in mangluru",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.3890731632709503
+    }
+  },
+  {
+    "text": "please tell me the weather at thiruvananthapuram",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_weather",
+      "confidence": 0.5104423761367798
+    }
+  },
+  {
+    "text": "whats the weather in thiruvananthapuram",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_weather",
+      "confidence": 0.5056779384613037
+    }
+  },
+  {
+    "text": "tell me weather conditions at thiruvananthapuram",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_weather",
+      "confidence": 0.500762939453125
+    }
+  },
+  {
+    "text": "is it rainy in thiruvananthapuram",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.35734471678733826
+    }
+  },
+  {
+    "text": "is it windy in thiruvananthapuram",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_weather",
+      "confidence": 0.34888356924057007
+    }
+  },
+  {
+    "text": "is it hot in panjim",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.49635937809944153
+    }
+  },
+  {
+    "text": "is it sunny in panjim",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.45990869402885437
+    }
+  },
+  {
+    "text": "is it rainy in panjim",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.5010906457901001
+    }
+  },
+  {
+    "text": "is it windy in panjim",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.42532598972320557
+    }
+  },
+  {
+    "text": "is it hot in lucknow",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.412170946598053
+    }
+  },
+  {
+    "text": "is it sunny in lucknow",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.3940920829772949
+    }
+  },
+  {
+    "text": "is it rainy in lucknow",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.42109644412994385
+    }
+  },
+  {
+    "text": "is it rainy in udaipur",
+    "intent": "ask_weather_location",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.372018963098526
+    }
+  },
+  {
+    "text": "what's the weather in New Dehi",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5393351912498474
+    }
+  },
+  {
+    "text": "what is the weather in Mumbai",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.6000954508781433
+    }
+  },
+  {
+    "text": "please tell me the weather at mumbai",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5520043969154358
+    }
+  },
+  {
+    "text": "whats the weather in mumbai",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5935048460960388
+    }
+  },
+  {
+    "text": "tell me weather conditions at mumbai",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5850964188575745
+    }
+  },
+  {
+    "text": "is it hot in mumbai",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.38582485914230347
+    }
+  },
+  {
+    "text": "is it sunny in mumbai",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3927688002586365
+    }
+  },
+  {
+    "text": "is it rainy in mumbai",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.39279940724372864
+    }
+  },
+  {
+    "text": "is it windy in mumbai",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3992483615875244
+    }
+  },
+  {
+    "text": "please tell me the weather at delhi",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5210052132606506
+    }
+  },
+  {
+    "text": "whats the weather in delhi",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5495009422302246
+    }
+  },
+  {
+    "text": "tell me weather conditions at delhi",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5476158261299133
+    }
+  },
+  {
+    "text": "is it hot in delhi",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.40378907322883606
+    }
+  },
+  {
+    "text": "is it sunny in delhi",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.41006389260292053
+    }
+  },
+  {
+    "text": "is it rainy in delhi",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3669264316558838
+    }
+  },
+  {
+    "text": "is it windy in delhi",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3931141793727875
+    }
+  },
+  {
+    "text": "please tell me the weather at jaipur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.538783609867096
+    }
+  },
+  {
+    "text": "whats the weather in jaipur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5612006783485413
+    }
+  },
+  {
+    "text": "tell me weather conditions at jaipur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5588481426239014
+    }
+  },
+  {
+    "text": "is it hot in jaipur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.38098078966140747
+    }
+  },
+  {
+    "text": "is it sunny in jaipur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.39128175377845764
+    }
+  },
+  {
+    "text": "is it rainy in jaipur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.3678608536720276
+    }
+  },
+  {
+    "text": "is it windy in jaipur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.38268113136291504
+    }
+  },
+  {
+    "text": "please tell me the weather at chennai",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5325387120246887
+    }
+  },
+  {
+    "text": "whats the weather in chennai",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.553209125995636
+    }
+  },
+  {
+    "text": "tell me weather conditions at chennai",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5594215393066406
+    }
+  },
+  {
+    "text": "is it hot in chennai",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3863840103149414
+    }
+  },
+  {
+    "text": "is it sunny in chennai",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3865494132041931
+    }
+  },
+  {
+    "text": "is it rainy in chennai",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.3698767423629761
+    }
+  },
+  {
+    "text": "is it windy in chennai",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3793974220752716
+    }
+  },
+  {
+    "text": "please tell me the weather at banglore",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5516502857208252
+    }
+  },
+  {
+    "text": "whats the weather in banglore",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5829849243164062
+    }
+  },
+  {
+    "text": "tell me weather conditions at banglore",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5881576538085938
+    }
+  },
+  {
+    "text": "is it hot in banglore",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.43920639157295227
+    }
+  },
+  {
+    "text": "is it sunny in banglore",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.4506935477256775
+    }
+  },
+  {
+    "text": "is it rainy in banglore",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.40781593322753906
+    }
+  },
+  {
+    "text": "is it windy in banglore",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.4239874482154846
+    }
+  },
+  {
+    "text": "please tell me the weather at kolkata",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.49925675988197327
+    }
+  },
+  {
+    "text": "whats the weather in kolkata",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5378791093826294
+    }
+  },
+  {
+    "text": "tell me weather conditions at kolkata",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5198498368263245
+    }
+  },
+  {
+    "text": "is it hot in kolkata",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3835906684398651
+    }
+  },
+  {
+    "text": "is it sunny in kolkata",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.38517501950263977
+    }
+  },
+  {
+    "text": "is it rainy in kolkata",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.35523632168769836
+    }
+  },
+  {
+    "text": "is it windy in kolkata",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.37378472089767456
+    }
+  },
+  {
+    "text": "please tell me the weather at bhopal",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.528680145740509
+    }
+  },
+  {
+    "text": "whats the weather in bhopal",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5611274242401123
+    }
+  },
+  {
+    "text": "tell me weather conditions at bhopal",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5579206943511963
+    }
+  },
+  {
+    "text": "is it hot in bhopal",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.40323710441589355
+    }
+  },
+  {
+    "text": "is it sunny in bhopal",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.38167011737823486
+    }
+  },
+  {
+    "text": "is it rainy in bhopal",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.4149911403656006
+    }
+  },
+  {
+    "text": "is it windy in bhopal",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3636959493160248
+    }
+  },
+  {
+    "text": "please tell me the weather at pune",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5081593990325928
+    }
+  },
+  {
+    "text": "whats the weather in pune",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5473174452781677
+    }
+  },
+  {
+    "text": "tell me weather conditions at pune",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5478447079658508
+    }
+  },
+  {
+    "text": "is it hot in pune",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.38810619711875916
+    }
+  },
+  {
+    "text": "is it sunny in pune",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3698278069496155
+    }
+  },
+  {
+    "text": "is it rainy in pune",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.3990224599838257
+    }
+  },
+  {
+    "text": "is it windy in pune",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3656134009361267
+    }
+  },
+  {
+    "text": "please tell me the weather at hyderabad",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.546286404132843
+    }
+  },
+  {
+    "text": "whats the weather in hyderabad",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5631181597709656
+    }
+  },
+  {
+    "text": "tell me weather conditions at hyderabad",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5675469040870667
+    }
+  },
+  {
+    "text": "is it hot in hyderabad",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.40083861351013184
+    }
+  },
+  {
+    "text": "is it sunny in hyderabad",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.38518744707107544
+    }
+  },
+  {
+    "text": "is it rainy in hyderabad",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.4133349061012268
+    }
+  },
+  {
+    "text": "is it windy in hyderabad",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3671008050441742
+    }
+  },
+  {
+    "text": "please tell me the weather at chandigarh",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5195027589797974
+    }
+  },
+  {
+    "text": "whats the weather in chandigarh",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5529764890670776
+    }
+  },
+  {
+    "text": "tell me weather conditions at chandigarh",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5371561050415039
+    }
+  },
+  {
+    "text": "is it hot in chandigarh",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.37892457842826843
+    }
+  },
+  {
+    "text": "is it sunny in chandigarh",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.36836275458335876
+    }
+  },
+  {
+    "text": "is it rainy in chandigarh",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.3969952464103699
+    }
+  },
+  {
+    "text": "is it windy in chandigarh",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.35828933119773865
+    }
+  },
+  {
+    "text": "please tell me the weather at shimla",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5575857758522034
+    }
+  },
+  {
+    "text": "whats the weather in shimla",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5839947462081909
+    }
+  },
+  {
+    "text": "tell me weather conditions at shimla",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5872511863708496
+    }
+  },
+  {
+    "text": "is it hot in shimla",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.38118356466293335
+    }
+  },
+  {
+    "text": "is it sunny in shimla",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.38905221223831177
+    }
+  },
+  {
+    "text": "is it rainy in shimla",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.4034777283668518
+    }
+  },
+  {
+    "text": "is it windy in shimla",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.383941650390625
+    }
+  },
+  {
+    "text": "please tell me the weather at nagpur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5478661060333252
+    }
+  },
+  {
+    "text": "whats the weather in nagpur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5781827569007874
+    }
+  },
+  {
+    "text": "tell me weather conditions at nagpur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5756921768188477
+    }
+  },
+  {
+    "text": "is it hot in nagpur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.384723424911499
+    }
+  },
+  {
+    "text": "is it sunny in nagpur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3938156068325043
+    }
+  },
+  {
+    "text": "is it rainy in nagpur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.3860403895378113
+    }
+  },
+  {
+    "text": "is it windy in nagpur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3828422725200653
+    }
+  },
+  {
+    "text": "please tell me the weather at patna",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5179012417793274
+    }
+  },
+  {
+    "text": "whats the weather in patna",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5486244559288025
+    }
+  },
+  {
+    "text": "tell me weather conditions at patna",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5556121468544006
+    }
+  },
+  {
+    "text": "is it hot in patna",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.4023033678531647
+    }
+  },
+  {
+    "text": "is it sunny in patna",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3984304368495941
+    }
+  },
+  {
+    "text": "is it rainy in patna",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3663053512573242
+    }
+  },
+  {
+    "text": "is it windy in patna",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.39267584681510925
+    }
+  },
+  {
+    "text": "please tell me the weather at mangluru",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5790873765945435
+    }
+  },
+  {
+    "text": "whats the weather in mangluru",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.6017121076583862
+    }
+  },
+  {
+    "text": "tell me weather conditions at mangluru",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.6094551682472229
+    }
+  },
+  {
+    "text": "is it hot in mangluru",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.39795127511024475
+    }
+  },
+  {
+    "text": "is it sunny in mangluru",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.41134583950042725
+    }
+  },
+  {
+    "text": "is it rainy in mangluru",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.3890731632709503
+    }
+  },
+  {
+    "text": "is it windy in mangluru",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.40013283491134644
+    }
+  },
+  {
+    "text": "is it hot in thiruvananthapuram",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3485218584537506
+    }
+  },
+  {
+    "text": "is it sunny in thiruvananthapuram",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.34805619716644287
+    }
+  },
+  {
+    "text": "is it rainy in thiruvananthapuram",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.35734471678733826
+    }
+  },
+  {
+    "text": "please tell me the weather at panjim",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5161586999893188
+    }
+  },
+  {
+    "text": "whats the weather in panjim",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5538092255592346
+    }
+  },
+  {
+    "text": "tell me weather conditions at panjim",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5421502590179443
+    }
+  },
+  {
+    "text": "is it hot in panjim",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.49635937809944153
+    }
+  },
+  {
+    "text": "is it sunny in panjim",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.45990869402885437
+    }
+  },
+  {
+    "text": "is it rainy in panjim",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.5010906457901001
+    }
+  },
+  {
+    "text": "is it windy in panjim",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.42532598972320557
+    }
+  },
+  {
+    "text": "please tell me the weather at lucknow",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5139514803886414
+    }
+  },
+  {
+    "text": "whats the weather in lucknow",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5563640594482422
+    }
+  },
+  {
+    "text": "tell me weather conditions at lucknow",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.54444420337677
+    }
+  },
+  {
+    "text": "is it hot in lucknow",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.412170946598053
+    }
+  },
+  {
+    "text": "is it sunny in lucknow",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.3940920829772949
+    }
+  },
+  {
+    "text": "is it rainy in lucknow",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.42109644412994385
+    }
+  },
+  {
+    "text": "is it windy in lucknow",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.35649070143699646
+    }
+  },
+  {
+    "text": "please tell me the weather at udaipur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.54285728931427
+    }
+  },
+  {
+    "text": "whats the weather in udaipur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5618332624435425
+    }
+  },
+  {
+    "text": "tell me weather conditions at udaipur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.563718318939209
+    }
+  },
+  {
+    "text": "is it hot in udaipur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.36509132385253906
+    }
+  },
+  {
+    "text": "is it sunny in udaipur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3768042325973511
+    }
+  },
+  {
+    "text": "is it rainy in udaipur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_temperature",
+      "confidence": 0.372018963098526
+    }
+  },
+  {
+    "text": "is it windy in udaipur",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3662145435810089
+    }
+  },
+  {
+    "text": "please tell me the weather at surat",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5381779670715332
+    }
+  },
+  {
+    "text": "whats the weather in surat",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5676107406616211
+    }
+  },
+  {
+    "text": "tell me weather conditions at surat",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5683394074440002
+    }
+  },
+  {
+    "text": "is it hot in surat",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.4104642868041992
+    }
+  },
+  {
+    "text": "is it sunny in surat",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.4127809405326843
+    }
+  },
+  {
+    "text": "is it rainy in surat",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.38023149967193604
+    }
+  },
+  {
+    "text": "is it windy in surat",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.41050830483436584
+    }
+  },
+  {
+    "text": "please tell me the weather at ahmedabad",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5322971343994141
+    }
+  },
+  {
+    "text": "whats the weather in ahmedabad",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5474806427955627
+    }
+  },
+  {
+    "text": "tell me weather conditions at ahmedabad",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.5568717122077942
+    }
+  },
+  {
+    "text": "is it hot in ahmedabad",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3836415410041809
+    }
+  },
+  {
+    "text": "is it sunny in ahmedabad",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.39263471961021423
+    }
+  },
+  {
+    "text": "is it rainy in ahmedabad",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3605169355869293
+    }
+  },
+  {
+    "text": "is it windy in ahmedabad",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3837851881980896
+    }
+  },
+  {
+    "text": "is it sunny in mumbai",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3927688002586365
+    }
+  },
+  {
+    "text": "is it windy in mumbai",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3992483615875244
+    }
+  },
+  {
+    "text": "is it hot in delhi",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.40378907322883606
+    }
+  },
+  {
+    "text": "is it sunny in delhi",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.41006389260292053
+    }
+  },
+  {
+    "text": "is it rainy in delhi",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3669264316558838
+    }
+  },
+  {
+    "text": "is it windy in delhi",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3931141793727875
+    }
+  },
+  {
+    "text": "is it hot in jaipur",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.38098078966140747
+    }
+  },
+  {
+    "text": "is it sunny in jaipur",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.39128175377845764
+    }
+  },
+  {
+    "text": "is it windy in jaipur",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.38268113136291504
+    }
+  },
+  {
+    "text": "is it hot in chennai",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3863840103149414
+    }
+  },
+  {
+    "text": "is it sunny in chennai",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3865494132041931
+    }
+  },
+  {
+    "text": "is it windy in chennai",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3793974220752716
+    }
+  },
+  {
+    "text": "is it hot in banglore",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.43920639157295227
+    }
+  },
+  {
+    "text": "is it sunny in banglore",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.4506935477256775
+    }
+  },
+  {
+    "text": "is it rainy in banglore",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.40781593322753906
+    }
+  },
+  {
+    "text": "is it windy in banglore",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.4239874482154846
+    }
+  },
+  {
+    "text": "is it hot in kolkata",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3835906684398651
+    }
+  },
+  {
+    "text": "is it sunny in kolkata",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.38517501950263977
+    }
+  },
+  {
+    "text": "is it rainy in kolkata",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.35523632168769836
+    }
+  },
+  {
+    "text": "is it windy in kolkata",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.37378472089767456
+    }
+  },
+  {
+    "text": "is it windy in bhopal",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3636959493160248
+    }
+  },
+  {
+    "text": "is it sunny in pune",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3698278069496155
+    }
+  },
+  {
+    "text": "is it windy in pune",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3656134009361267
+    }
+  },
+  {
+    "text": "is it windy in hyderabad",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3671008050441742
+    }
+  },
+  {
+    "text": "is it windy in chandigarh",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.35828933119773865
+    }
+  },
+  {
+    "text": "is it sunny in shimla",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.38905221223831177
+    }
+  },
+  {
+    "text": "is it windy in shimla",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.383941650390625
+    }
+  },
+  {
+    "text": "is it hot in nagpur",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.384723424911499
+    }
+  },
+  {
+    "text": "is it sunny in nagpur",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3938156068325043
+    }
+  },
+  {
+    "text": "is it windy in nagpur",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3828422725200653
+    }
+  },
+  {
+    "text": "is it hot in patna",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.4023033678531647
+    }
+  },
+  {
+    "text": "is it sunny in patna",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3984304368495941
+    }
+  },
+  {
+    "text": "is it rainy in patna",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3663053512573242
+    }
+  },
+  {
+    "text": "is it windy in patna",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.39267584681510925
+    }
+  },
+  {
+    "text": "is it hot in mangluru",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.39795127511024475
+    }
+  },
+  {
+    "text": "is it sunny in mangluru",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.41134583950042725
+    }
+  },
+  {
+    "text": "is it windy in mangluru",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.40013283491134644
+    }
+  },
+  {
+    "text": "is it hot in thiruvananthapuram",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3485218584537506
+    }
+  },
+  {
+    "text": "is it sunny in thiruvananthapuram",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.34805619716644287
+    }
+  },
+  {
+    "text": "is it windy in thiruvananthapuram",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather",
+      "confidence": 0.34888356924057007
+    }
+  },
+  {
+    "text": "is it windy in lucknow",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.35649070143699646
+    }
+  },
+  {
+    "text": "is it hot in udaipur",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.36509132385253906
+    }
+  },
+  {
+    "text": "is it sunny in udaipur",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3768042325973511
+    }
+  },
+  {
+    "text": "is it windy in udaipur",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3662145435810089
+    }
+  },
+  {
+    "text": "is it hot in surat",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.4104642868041992
+    }
+  },
+  {
+    "text": "is it sunny in surat",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.4127809405326843
+    }
+  },
+  {
+    "text": "is it rainy in surat",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.38023149967193604
+    }
+  },
+  {
+    "text": "is it windy in surat",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.41050830483436584
+    }
+  },
+  {
+    "text": "is it hot in ahmedabad",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3836415410041809
+    }
+  },
+  {
+    "text": "is it sunny in ahmedabad",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.39263471961021423
+    }
+  },
+  {
+    "text": "is it rainy in ahmedabad",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3605169355869293
+    }
+  },
+  {
+    "text": "is it windy in ahmedabad",
+    "intent": "ask_temperature",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3837851881980896
+    }
+  },
+  {
+    "text": "i am in pain",
+    "intent": "get_emotion",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.516526460647583
+    }
+  },
+  {
+    "text": "Make me laugh",
+    "intent": "get_happy_images",
+    "intent_prediction": {
+      "name": "tellfunfact",
+      "confidence": 0.3451215624809265
     }
   },
   {
@@ -84,7 +1868,15 @@
     "intent": "thank",
     "intent_prediction": {
       "name": "smalltalk_appraisal_thank_you",
-      "confidence": 0.7001237869262695
+      "confidence": 0.6480854749679565
+    }
+  },
+  {
+    "text": "thank you so much",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_thank_you",
+      "confidence": 0.6695194840431213
     }
   },
   {
@@ -92,7 +1884,7 @@
     "intent": "thank",
     "intent_prediction": {
       "name": "smalltalk_appraisal_good",
-      "confidence": 0.5754499435424805
+      "confidence": 0.9565896391868591
     }
   },
   {
@@ -100,23 +1892,7 @@
     "intent": "thank",
     "intent_prediction": {
       "name": "smalltalk_appraisal_well_done",
-      "confidence": 0.7623488903045654
-    }
-  },
-  {
-    "text": "You are great thank you",
-    "intent": "thank",
-    "intent_prediction": {
-      "name": "smalltalk_appraisal_thank_you",
-      "confidence": 0.8356308341026306
-    }
-  },
-  {
-    "text": "are you alright",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "smalltalk_greetings_how_are_you",
-      "confidence": 0.7480639815330505
+      "confidence": 0.4945261478424072
     }
   },
   {
@@ -124,23 +1900,15 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "smalltalk_greetings_how_are_you",
-      "confidence": 0.9125873446464539
+      "confidence": 0.6162937879562378
     }
   },
   {
-    "text": "how are things going",
+    "text": "are you okay",
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "smalltalk_greetings_how_are_you",
-      "confidence": 0.5324935913085938
-    }
-  },
-  {
-    "text": "how are you doing this morning",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "smalltalk_greetings_how_are_you",
-      "confidence": 0.6912091374397278
+      "confidence": 0.6146368384361267
     }
   },
   {
@@ -148,15 +1916,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "smalltalk_greetings_how_are_you",
-      "confidence": 0.7279232740402222
-    }
-  },
-  {
-    "text": "how are you today",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "smalltalk_greetings_how_are_you",
-      "confidence": 0.5360816717147827
+      "confidence": 0.6713704466819763
     }
   },
   {
@@ -164,7 +1924,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "smalltalk_greetings_how_are_you",
-      "confidence": 0.5553244948387146
+      "confidence": 0.5954489707946777
     }
   },
   {
@@ -172,7 +1932,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "smalltalk_greetings_how_are_you",
-      "confidence": 0.5396053791046143
+      "confidence": 0.5373244881629944
     }
   },
   {
@@ -180,7 +1940,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "smalltalk_greetings_how_are_you",
-      "confidence": 0.6512500643730164
+      "confidence": 0.7130086421966553
     }
   },
   {
@@ -188,7 +1948,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "smalltalk_greetings_how_are_you",
-      "confidence": 0.7929664254188538
+      "confidence": 0.6952755451202393
     }
   },
   {
@@ -196,7 +1956,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "smalltalk_greetings_how_are_you",
-      "confidence": 0.826967716217041
+      "confidence": 0.8056418299674988
     }
   },
   {
@@ -204,7 +1964,23 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "smalltalk_greetings_how_are_you",
-      "confidence": 0.6495015621185303
+      "confidence": 0.6932339072227478
+    }
+  },
+  {
+    "text": "How was your day?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_how_are_you",
+      "confidence": 0.4904821515083313
+    }
+  },
+  {
+    "text": "how's life",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_how_are_you",
+      "confidence": 0.48795828223228455
     }
   },
   {
@@ -212,7 +1988,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "smalltalk_greetings_how_are_you",
-      "confidence": 0.6627086400985718
+      "confidence": 0.7481483817100525
     }
   },
   {
@@ -220,15 +1996,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "smalltalk_greetings_how_are_you",
-      "confidence": 0.694288432598114
-    }
-  },
-  {
-    "text": "is everything all right",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "smalltalk_greetings_how_are_you",
-      "confidence": 0.6678902506828308
+      "confidence": 0.5500229597091675
     }
   },
   {
@@ -236,7 +2004,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "smalltalk_greetings_how_are_you",
-      "confidence": 0.6260605454444885
+      "confidence": 0.5584914088249207
     }
   },
   {
@@ -244,23 +2012,15 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "smalltalk_greetings_how_are_you",
-      "confidence": 0.6903237104415894
+      "confidence": 0.6101784706115723
     }
   },
   {
-    "text": "what's up?",
+    "text": "how's it going?",
     "intent": "ask_howdoing",
     "intent_prediction": {
-      "name": "smalltalk_greetings_whatsup",
-      "confidence": 0.5833407640457153
-    }
-  },
-  {
-    "text": "what's up",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "smalltalk_greetings_whatsup",
-      "confidence": 0.5833410024642944
+      "name": "smalltalk_greetings_how_are_you",
+      "confidence": 0.6334149241447449
     }
   },
   {
@@ -268,23 +2028,31 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "smalltalk_greetings_whatsup",
-      "confidence": 0.9067206978797913
+      "confidence": 0.6220864653587341
     }
   },
   {
-    "text": "who do you work for?",
+    "text": "who is your boss?",
     "intent": "ask_builder",
     "intent_prediction": {
       "name": "smalltalk_agent_boss",
-      "confidence": 0.5620483756065369
+      "confidence": 0.5357255935668945
     }
   },
   {
-    "text": "Tell me something funny.",
-    "intent": "telljoke",
+    "text": "who is your boss",
+    "intent": "ask_builder",
     "intent_prediction": {
-      "name": "tellfunfact",
-      "confidence": 0.3434070348739624
+      "name": "smalltalk_agent_boss",
+      "confidence": 0.5357255935668945
+    }
+  },
+  {
+    "text": "you're not smart",
+    "intent": "handleinsult",
+    "intent_prediction": {
+      "name": "smalltalk_agent_clever",
+      "confidence": 0.5152328610420227
     }
   },
   {
@@ -292,23 +2060,23 @@
     "intent": "telljoke",
     "intent_prediction": {
       "name": "tellfunfact",
-      "confidence": 0.45392897725105286
+      "confidence": 0.45074838399887085
     }
   },
   {
     "text": "Make me laugh.",
     "intent": "telljoke",
     "intent_prediction": {
-      "name": "get_happy_images",
-      "confidence": 0.3500329852104187
+      "name": "tellfunfact",
+      "confidence": 0.3451215624809265
     }
   },
   {
     "text": "Tell me something that you think will make me laugh.",
     "intent": "telljoke",
     "intent_prediction": {
-      "name": "tellfunfact",
-      "confidence": 0.38949379324913025
+      "name": "tellquote",
+      "confidence": 0.3646213114261627
     }
   },
   {
@@ -316,15 +2084,15 @@
     "intent": "tellquote",
     "intent_prediction": {
       "name": "telljoke",
-      "confidence": 0.3339947760105133
+      "confidence": 0.4345819056034088
     }
   },
   {
     "text": "Tell me something funny.",
     "intent": "tellquote",
     "intent_prediction": {
-      "name": "tellfunfact",
-      "confidence": 0.3434070348739624
+      "name": "telljoke",
+      "confidence": 0.3962855637073517
     }
   },
   {
@@ -332,23 +2100,15 @@
     "intent": "tellquote",
     "intent_prediction": {
       "name": "tellfunfact",
-      "confidence": 0.4539288878440857
+      "confidence": 0.45074838399887085
     }
   },
   {
     "text": "Make me laugh.",
     "intent": "tellquote",
     "intent_prediction": {
-      "name": "get_happy_images",
-      "confidence": 0.3500330448150635
-    }
-  },
-  {
-    "text": "Tell me something that you think will make me laugh.",
-    "intent": "tellquote",
-    "intent_prediction": {
       "name": "tellfunfact",
-      "confidence": 0.3894934058189392
+      "confidence": 0.3451215624809265
     }
   },
   {
@@ -356,7 +2116,7 @@
     "intent": "tellquote",
     "intent_prediction": {
       "name": "telljoke",
-      "confidence": 0.3727959096431732
+      "confidence": 0.3584747612476349
     }
   },
   {
@@ -364,7 +2124,7 @@
     "intent": "tellquote",
     "intent_prediction": {
       "name": "telljoke",
-      "confidence": 0.3898821175098419
+      "confidence": 0.4351532757282257
     }
   },
   {
@@ -372,15 +2132,23 @@
     "intent": "tellfunfact",
     "intent_prediction": {
       "name": "telljoke",
-      "confidence": 0.33399498462677
+      "confidence": 0.4345819056034088
     }
   },
   {
-    "text": "Make me laugh.",
+    "text": "Tell me something funny.",
     "intent": "tellfunfact",
     "intent_prediction": {
-      "name": "get_happy_images",
-      "confidence": 0.3500327169895172
+      "name": "telljoke",
+      "confidence": 0.3962855637073517
+    }
+  },
+  {
+    "text": "Tell me something that you think will make me laugh.",
+    "intent": "tellfunfact",
+    "intent_prediction": {
+      "name": "tellquote",
+      "confidence": 0.3646213114261627
     }
   },
   {
@@ -388,7 +2156,7 @@
     "intent": "tellfunfact",
     "intent_prediction": {
       "name": "telljoke",
-      "confidence": 0.372795969247818
+      "confidence": 0.3584747612476349
     }
   },
   {
@@ -396,15 +2164,7 @@
     "intent": "tellfunfact",
     "intent_prediction": {
       "name": "telljoke",
-      "confidence": 0.3898818790912628
-    }
-  },
-  {
-    "text": "when is your birthday?",
-    "intent": "ask_howold",
-    "intent_prediction": {
-      "name": "smalltalk_agent_birth_date",
-      "confidence": 0.6385176777839661
+      "confidence": 0.4351532757282257
     }
   },
   {
@@ -412,7 +2172,31 @@
     "intent": "ask_howold",
     "intent_prediction": {
       "name": "smalltalk_agent_age",
-      "confidence": 0.49720466136932373
+      "confidence": 0.5084846019744873
+    }
+  },
+  {
+    "text": "who are you?",
+    "intent": "smalltalk_agent_acquaintance",
+    "intent_prediction": {
+      "name": "ask_builder",
+      "confidence": 0.48353487253189087
+    }
+  },
+  {
+    "text": "I want to know more about you",
+    "intent": "smalltalk_agent_acquaintance",
+    "intent_prediction": {
+      "name": "ask_builder",
+      "confidence": 0.674949049949646
+    }
+  },
+  {
+    "text": "who are you",
+    "intent": "smalltalk_agent_acquaintance",
+    "intent_prediction": {
+      "name": "ask_builder",
+      "confidence": 0.48353487253189087
     }
   },
   {
@@ -420,7 +2204,7 @@
     "intent": "smalltalk_agent_age",
     "intent_prediction": {
       "name": "ask_howold",
-      "confidence": 0.5811527371406555
+      "confidence": 0.5396255850791931
     }
   },
   {
@@ -428,7 +2212,7 @@
     "intent": "smalltalk_agent_age",
     "intent_prediction": {
       "name": "ask_howold",
-      "confidence": 0.6832166314125061
+      "confidence": 0.599835991859436
     }
   },
   {
@@ -436,7 +2220,23 @@
     "intent": "smalltalk_agent_age",
     "intent_prediction": {
       "name": "ask_howold",
-      "confidence": 0.5811527371406555
+      "confidence": 0.5396255850791931
+    }
+  },
+  {
+    "text": "when is your birthday",
+    "intent": "smalltalk_agent_birth_date",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.6573731899261475
+    }
+  },
+  {
+    "text": "when do you have birthday",
+    "intent": "smalltalk_agent_birth_date",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.508749783039093
     }
   },
   {
@@ -444,7 +2244,7 @@
     "intent": "smalltalk_agent_birth_date",
     "intent_prediction": {
       "name": "ask_howold",
-      "confidence": 0.6816843152046204
+      "confidence": 0.5034483075141907
     }
   },
   {
@@ -452,23 +2252,31 @@
     "intent": "smalltalk_agent_birth_date",
     "intent_prediction": {
       "name": "ask_howold",
-      "confidence": 0.5449506044387817
+      "confidence": 0.5473697781562805
     }
   },
   {
-    "text": "who is your boss",
+    "text": "who do you work for",
     "intent": "smalltalk_agent_boss",
     "intent_prediction": {
       "name": "ask_builder",
-      "confidence": 0.6806637644767761
+      "confidence": 0.4643643796443939
     }
   },
   {
-    "text": "who is your master",
-    "intent": "smalltalk_agent_boss",
+    "text": "where were you born",
+    "intent": "smalltalk_agent_origin",
     "intent_prediction": {
-      "name": "ask_builder",
-      "confidence": 0.6460451483726501
+      "name": "ask_wherefrom",
+      "confidence": 0.5230448842048645
+    }
+  },
+  {
+    "text": "what is your country",
+    "intent": "smalltalk_agent_origin",
+    "intent_prediction": {
+      "name": "ask_wherefrom",
+      "confidence": 0.6994565725326538
     }
   },
   {
@@ -476,7 +2284,15 @@
     "intent": "smalltalk_agent_origin",
     "intent_prediction": {
       "name": "ask_wherefrom",
-      "confidence": 0.5588064789772034
+      "confidence": 0.8076279163360596
+    }
+  },
+  {
+    "text": "where do you come from",
+    "intent": "smalltalk_agent_origin",
+    "intent_prediction": {
+      "name": "ask_wherefrom",
+      "confidence": 0.7631072998046875
     }
   },
   {
@@ -484,7 +2300,15 @@
     "intent": "smalltalk_agent_origin",
     "intent_prediction": {
       "name": "ask_wherefrom",
-      "confidence": 0.6702307462692261
+      "confidence": 0.7732000946998596
+    }
+  },
+  {
+    "text": "where have you been born",
+    "intent": "smalltalk_agent_origin",
+    "intent_prediction": {
+      "name": "ask_wherefrom",
+      "confidence": 0.4868820905685425
     }
   },
   {
@@ -492,7 +2316,15 @@
     "intent": "smalltalk_agent_origin",
     "intent_prediction": {
       "name": "ask_wherefrom",
-      "confidence": 0.5903750658035278
+      "confidence": 0.7941742539405823
+    }
+  },
+  {
+    "text": "what's your homeland",
+    "intent": "smalltalk_agent_origin",
+    "intent_prediction": {
+      "name": "ask_wherefrom",
+      "confidence": 0.5380343794822693
     }
   },
   {
@@ -500,31 +2332,23 @@
     "intent": "smalltalk_agent_residence",
     "intent_prediction": {
       "name": "ask_wherefrom",
-      "confidence": 0.7379599213600159
+      "confidence": 0.7041272521018982
     }
   },
   {
-    "text": "you're not wrong",
-    "intent": "smalltalk_agent_right",
-    "intent_prediction": {
-      "name": "smalltalk_dialog_wrong",
-      "confidence": 0.5516278743743896
-    }
-  },
-  {
-    "text": "it's fine",
+    "text": "that's correct",
     "intent": "smalltalk_confirmation_yes",
     "intent_prediction": {
-      "name": "smalltalk_appraisal_good",
-      "confidence": 0.6542713642120361
+      "name": "smalltalk_agent_right",
+      "confidence": 0.49036064743995667
     }
   },
   {
-    "text": "okay",
+    "text": "sounds good",
     "intent": "smalltalk_confirmation_yes",
     "intent_prediction": {
       "name": "affirm",
-      "confidence": 0.4712703227996826
+      "confidence": 0.7091114521026611
     }
   },
   {
@@ -532,7 +2356,7 @@
     "intent": "smalltalk_confirmation_yes",
     "intent_prediction": {
       "name": "affirm",
-      "confidence": 0.7265328764915466
+      "confidence": 0.7905504107475281
     }
   },
   {
@@ -540,7 +2364,15 @@
     "intent": "smalltalk_confirmation_yes",
     "intent_prediction": {
       "name": "affirm",
-      "confidence": 0.4510079324245453
+      "confidence": 0.38044658303260803
+    }
+  },
+  {
+    "text": "ok thank you",
+    "intent": "smalltalk_confirmation_yes",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.44092798233032227
     }
   },
   {
@@ -548,15 +2380,7 @@
     "intent": "smalltalk_confirmation_yes",
     "intent_prediction": {
       "name": "affirm",
-      "confidence": 0.5357171893119812
-    }
-  },
-  {
-    "text": "okay that's fine",
-    "intent": "smalltalk_confirmation_yes",
-    "intent_prediction": {
-      "name": "smalltalk_appraisal_good",
-      "confidence": 0.5014224648475647
+      "confidence": 0.659660816192627
     }
   },
   {
@@ -564,7 +2388,7 @@
     "intent": "smalltalk_appraisal_thank_you",
     "intent_prediction": {
       "name": "thank",
-      "confidence": 0.4941371977329254
+      "confidence": 0.6563000679016113
     }
   },
   {
@@ -572,31 +2396,31 @@
     "intent": "smalltalk_appraisal_thank_you",
     "intent_prediction": {
       "name": "thank",
-      "confidence": 0.5976244211196899
+      "confidence": 0.5296370387077332
     }
   },
   {
-    "text": "thanks so much",
-    "intent": "smalltalk_appraisal_thank_you",
+    "text": "no way",
+    "intent": "smalltalk_confirmation_no",
     "intent_prediction": {
-      "name": "thank",
-      "confidence": 0.7601883411407471
+      "name": "deny",
+      "confidence": 0.4713307023048401
     }
   },
   {
-    "text": "thank you so much",
-    "intent": "smalltalk_appraisal_thank_you",
+    "text": "never",
+    "intent": "smalltalk_confirmation_no",
     "intent_prediction": {
-      "name": "thank",
-      "confidence": 0.552062451839447
+      "name": "deny",
+      "confidence": 0.5816574096679688
     }
   },
   {
-    "text": "so nice of you",
-    "intent": "smalltalk_appraisal_thank_you",
+    "text": "no that's wrong",
+    "intent": "smalltalk_confirmation_no",
     "intent_prediction": {
-      "name": "smalltalk_appraisal_good",
-      "confidence": 0.4750548005104065
+      "name": "smalltalk_dialog_wrong",
+      "confidence": 0.5222176909446716
     }
   },
   {
@@ -604,7 +2428,7 @@
     "intent": "smalltalk_confirmation_no",
     "intent_prediction": {
       "name": "deny",
-      "confidence": 0.5440239310264587
+      "confidence": 0.5735053420066833
     }
   },
   {
@@ -612,7 +2436,15 @@
     "intent": "smalltalk_greetings_bye",
     "intent_prediction": {
       "name": "goodbye",
-      "confidence": 0.5039743781089783
+      "confidence": 0.5580360293388367
+    }
+  },
+  {
+    "text": "see you",
+    "intent": "smalltalk_greetings_bye",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5392225980758667
     }
   },
   {
@@ -620,7 +2452,15 @@
     "intent": "smalltalk_greetings_bye",
     "intent_prediction": {
       "name": "goodbye",
-      "confidence": 0.6466526389122009
+      "confidence": 0.7254876494407654
+    }
+  },
+  {
+    "text": "goodbye see you later",
+    "intent": "smalltalk_greetings_bye",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5244369506835938
     }
   },
   {
@@ -628,7 +2468,7 @@
     "intent": "smalltalk_greetings_bye",
     "intent_prediction": {
       "name": "goodbye",
-      "confidence": 0.5487794876098633
+      "confidence": 0.5943836569786072
     }
   },
   {
@@ -636,55 +2476,7 @@
     "intent": "smalltalk_greetings_goodevening",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.5261179208755493
-    }
-  },
-  {
-    "text": "hey good evening",
-    "intent": "smalltalk_greetings_goodevening",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.52132648229599
-    }
-  },
-  {
-    "text": "hello good evening",
-    "intent": "smalltalk_greetings_goodevening",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.4546757936477661
-    }
-  },
-  {
-    "text": "evening",
-    "intent": "smalltalk_greetings_goodevening",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.4827856719493866
-    }
-  },
-  {
-    "text": "good evening there",
-    "intent": "smalltalk_greetings_goodevening",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.44361671805381775
-    }
-  },
-  {
-    "text": "good morning",
-    "intent": "smalltalk_greetings_goodmorning",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.5139514803886414
-    }
-  },
-  {
-    "text": "hello",
-    "intent": "smalltalk_greetings_hello",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.5105313062667847
+      "confidence": 0.5191196203231812
     }
   },
   {
@@ -692,7 +2484,7 @@
     "intent": "smalltalk_greetings_hello",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.5380353331565857
+      "confidence": 0.48470091819763184
     }
   },
   {
@@ -700,7 +2492,7 @@
     "intent": "smalltalk_greetings_hello",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.6450681090354919
+      "confidence": 0.5692175626754761
     }
   },
   {
@@ -708,7 +2500,15 @@
     "intent": "smalltalk_greetings_how_are_you",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.5556264519691467
+      "confidence": 0.6349944472312927
+    }
+  },
+  {
+    "text": "is everything all right",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.591127336025238
     }
   },
   {
@@ -716,31 +2516,55 @@
     "intent": "smalltalk_greetings_how_are_you",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.5639891624450684
+      "confidence": 0.7076234817504883
     }
   },
   {
-    "text": "are you okay",
+    "text": "are you alright",
     "intent": "smalltalk_greetings_how_are_you",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.49486204981803894
+      "confidence": 0.6464381814002991
     }
   },
   {
-    "text": "how's life",
+    "text": "how are you today",
     "intent": "smalltalk_greetings_how_are_you",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.5163780450820923
+      "confidence": 0.6505488157272339
     }
   },
   {
-    "text": "I'm sleepless",
-    "intent": "smalltalk_user_can_not_sleep",
+    "text": "how are you doing this morning",
+    "intent": "smalltalk_greetings_how_are_you",
     "intent_prediction": {
-      "name": "smalltalk_user_sleepy",
-      "confidence": 0.47184836864471436
+      "name": "ask_howdoing",
+      "confidence": 0.6601690053939819
+    }
+  },
+  {
+    "text": "what's up",
+    "intent": "smalltalk_greetings_whatsup",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.5089595913887024
+    }
+  },
+  {
+    "text": "I'm overloaded",
+    "intent": "smalltalk_user_busy",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.7903010249137878
+    }
+  },
+  {
+    "text": "I've overworked",
+    "intent": "smalltalk_user_tired",
+    "intent_prediction": {
+      "name": "ask_weather_location",
+      "confidence": 0.3698391616344452
     }
   }
 ]

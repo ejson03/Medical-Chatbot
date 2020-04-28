@@ -1,15 +1,15 @@
 {
+  "location": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 429
+  },
   "emotion": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 399
-  },
-  "location": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6
   },
   "name": {
     "precision": 1.0,
@@ -21,18 +21,18 @@
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 416
+    "support": 839
   },
   "macro avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 416
+    "support": 839
   },
   "weighted avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 416
+    "support": 839
   }
 }

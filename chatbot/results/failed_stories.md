@@ -1,13 +1,13 @@
 ## happy path 1
 * greet: hello there!   <!-- predicted: smalltalk_greetings_hello: hello there! -->
-    - utter_greet   <!-- predicted: utter_smalltalk_greetings_goodevening -->
+    - utter_greet   <!-- predicted: utter_smalltalk_greetings_whatsup -->
 * mood_great: amazing   <!-- predicted: smalltalk_appraisal_good: amazing -->
     - utter_happy   <!-- predicted: utter_smalltalk_appraisal_good -->
 
 
 ## happy path 2
 * greet: hello there!   <!-- predicted: smalltalk_greetings_hello: hello there! -->
-    - utter_greet   <!-- predicted: utter_smalltalk_greetings_goodevening -->
+    - utter_greet   <!-- predicted: utter_smalltalk_greetings_whatsup -->
 * mood_great: amazing   <!-- predicted: smalltalk_appraisal_good: amazing -->
     - utter_happy   <!-- predicted: utter_smalltalk_appraisal_good -->
 * goodbye: bye-bye!   <!-- predicted: smalltalk_greetings_bye: bye-bye! -->
@@ -15,8 +15,8 @@
 
 
 ## sad path 1
-* greet: hello
-    - utter_greet
+* greet: hello   <!-- predicted: smalltalk_greetings_hello: hello -->
+    - utter_greet   <!-- predicted: utter_smalltalk_greetings_whatsup -->
 * mood_unhappy: not good   <!-- predicted: smalltalk_appraisal_bad: not good -->
     - utter_cheer_up   <!-- predicted: utter_smalltalk_appraisal_bad -->
     - utter_did_that_help   <!-- predicted: action_listen -->
@@ -25,8 +25,8 @@
 
 
 ## sad path 2
-* greet: hello
-    - utter_greet
+* greet: hello   <!-- predicted: smalltalk_greetings_hello: hello -->
+    - utter_greet   <!-- predicted: utter_smalltalk_greetings_whatsup -->
 * mood_unhappy: not good   <!-- predicted: smalltalk_appraisal_bad: not good -->
     - utter_cheer_up   <!-- predicted: utter_smalltalk_appraisal_bad -->
     - utter_did_that_help   <!-- predicted: action_listen -->
@@ -36,7 +36,7 @@
 
 ## sad path 3
 * greet: hi   <!-- predicted: smalltalk_greetings_hello: hi -->
-    - utter_greet   <!-- predicted: utter_smalltalk_greetings_goodevening -->
+    - utter_greet   <!-- predicted: utter_smalltalk_greetings_whatsup -->
 * mood_unhappy: very terrible   <!-- predicted: smalltalk_appraisal_bad: very terrible -->
     - utter_cheer_up   <!-- predicted: utter_smalltalk_appraisal_bad -->
     - utter_did_that_help   <!-- predicted: action_listen -->
