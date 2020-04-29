@@ -1,9 +1,8 @@
-<!DOCTYPE HTML>
+
 <html>
 	<head>
 		<title> MediBot </title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 	
 
 		<!--Import Google Icon Font-->
@@ -22,21 +21,138 @@
 		<link rel="stylesheet" href="/static/css/dash.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<style>
+			* {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    body {
+        font-family: Helvetica;
+    }
+    #chat_container {
+        overflow: hidden;
+        border-radius: 15px;
+        border: 1px solid rgb(255, 255, 255);
+		margin: 40px 80px 0px 80px;
+		margin-left: 30%;
+    }
+    #chat_log {
+        background-color: #F3F76F;
+        padding: 10px;
+        border-bottom: 1px solid black;
+        overflow-y: scroll;
+        height: 50%;
+		font-size: 26px;
+	
+    }
+    #chat_input_container {
+        padding: 10px;
+    }
+    #chat_input {
+        padding: 2px;
+        font-size: 18px;
+		width: 100%;
+
+    }
+    .chat_line {
+        overflow: hidden;
+        width: 100%;
+        margin: 2px 0 12px 0;
+    }
+    .chat_triangle, .chat_triangle_user {
+        position: absolute;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        left: -18px;
+        border-width: 0 18px 13px 0;
+        border-color: transparent #ffffff transparent transparent;
+    }
+    .chat_triangle_user {
+        left: auto;
+        right: -18px;
+        border-width: 13px 18px 0 0;
+        border-color: #234b9b transparent transparent transparent;
+    }
+    .chat_bubble, .chat_bubble_user {
+        position: relative;
+        float: left;
+        background-color: #FFF;
+        margin-top: 10px;
+        line-height: 35px;
+        padding: 10px 25px 10px 25px;
+        margin-left: 20px;
+        font-size: 27px;
+    }
+    .chat_bubble_user {
+        float: right;
+        margin-left: 0px;
+        margin-right: 20px;
+        background-color: #234b9b;
+        color: #FFF;
+    }
 			#map2 {
-			height: 500px;
-			margin: 100px auto 50px;
-			width: 800px;
+			height: 750px;
+
 		}
 			#map1 {
 			height: 500px;
 			margin: 100px auto 50px;
 			width: 800px;
+			/* position: relative; */
 		}
 		</style>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script>
+			// var ws = new WebSocket("ws://localhost:8000");
+			// // Close socket when window closes
+			// $(window).on('beforeunload', function(){
+			//    ws.close();
+			// });
+			// ws.onerror = function(event) {
+			// 	location.reload();
+			// }
+			// ws.onmessage = function(event)  { 
+			// 	var message_received = event.data;
+			// 	chat_add_message(message_received, false);
+			// };
+			// Add a message to the chat history
+			function chat_add_message(message, isUser) {
+				var class_suffix = isUser ? '_user' : '';
+				var html = '\
+				<div class="chat_line">\
+					<div class="chat_bubble'+class_suffix+'">\
+					  <div class="chat_triangle'+class_suffix+'"></div>\
+						'+message+'\
+					</div>\
+				</div>\
+				';
+				chat_add_html(html);
+			}
+			// Add HTML to the chat history
+			function chat_add_html(html) {
+				$("#chat_log").append(html);
+				chat_scrolldown();
+			}
+			// Scrolls the chat history to the bottom
+			function chat_scrolldown() {
+				$("#chat_log").animate({ scrollTop: $("#chat_log")[0].scrollHeight }, 500);
+			}
+			// If press ENTER, talk to chat and send message to server
+			$(function() {
+			   $('#chat_input').on('keypress', function(event) {
+				  if (event.which === 13 && $(this).val() != ""){
+					 var message = $(this).val();
+					 $(this).val("");
+					 chat_add_message(message, true);
+					 ws.send(message);
+				  }
+			   });
+			});
+		</script>
 	</head>
 	<body>
-		<aside class="side-nav" id="show-side-navigation1">
+		<aside class="side-nav  " id="show-side-navigation1">
 		<i class="fa fa-bars close-aside hidden-sm hidden-md hidden-lg" data-close="show-side-navigation1"></i>
 		<div class="heading">
 		  <div class="info">
@@ -49,41 +165,15 @@
 		</div>
 		<ul class="categories">
 		  <li><i class="fa fa-home fa-fw" ></i><a href="/home/{{name}}">Home</a></li>
-		  <li><i class="fa fa-support fa-fw"></i><a href="#chatbot" onclick="chatbot()"> Chatbot</a></li>
-		  <li><i class="fa fa-support fa-fw"></i><a href="/retrain/{{name}}"> Save Stories</a></li>
-		  <li><i class="fa fa-support fa-fw"></i><a href="#showmap" onclick="setup()"> Show Map</a></li>
+		  <li><i class="fa fa-support fa-fw"></i><a href="#chatbot" onclick="chatbot()"> Chatbot </a></li>
+		  <li><i class="fa fa-support fa-fw"></i><a href="/retrain/{{name}}"> Save Stories </a></li>
+		  <li><i class="fa fa-support fa-fw"></i><a href="#showmap" onclick="setup()"> Show Map </a></li>
+		  <li><i class="fa fa-support fa-fw"></i><a href="#chatbot1" ></a> New Chatbot</a></li>
 		  <li><i class="fa fa-support fa-fw"></i><a href="/logout"> Logout</a>
 		  </li>
 		  
 		</ul>
-	  </aside>
-	  <section id="contents">
-		<nav class="navbar navbar-default">
-		  <div class="container-fluid">
-			<div class="navbar-header">
-			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				<i class="fa fa-align-right"></i>
-			  </button>
-			  <a class="navbar-brand" href="#">my<span class="main-color">Chatbot</span></a>
-			</div>
-			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-			  <ul class="nav navbar-nav">
-				<li class="dropdown">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My profile <span class="caret"></span></a>
-				  <ul class="dropdown-menu">
-					<li><a href="#"><i class="fa fa-user-o fw"></i> My account</a></li>
-					<li><a href="#"><i class="fa fa-envelope-o fw"></i> My inbox</a></li>
-					<li><a href="#"><i class="fa fa-question-circle-o fw"></i> Help</a></li>
-					<li role="separator" class="divider"></li>
-					<li><a href="/logout"><i class="fa fa-sign-out"></i> Log out</a></li>
-				  </ul>
-				</li>
-				<li><a href="#"><i data-show="show-side-navigation1" class="fa fa-bars show-side-btn"></i></a></li>
-			  </ul>
-			</div>
-		  </div>
-		</nav>
-	  </section>
+	</aside>
 
 	  <section id="chatbot">
 		
@@ -105,8 +195,28 @@
 
 	</section>
 
-	<section id="showmap" style="display:none">
-		<div id="map2"></div>
+	<section id="showmap" style="display:none;">
+		<div  id="map2" ></div>
+	</section>
+
+	<section id="chatbot1">
+		<div id="chat_container">
+			<div id="chat_log">
+			</div>
+			<div id="chat_input_container">
+				<div><input id="chat_input" /></div>
+			</div>
+		</div>
+		<!-- <div id="y2j" class="col-md-4" style="display: none;margin-left: 21%;">
+            <div class="box">
+				<iframe  width="720" height="480" frameborder="0" id="video" allow="autoplay; fullscreen"></iframe>
+            </div>
+		</div>
+		
+		<div id="map1" style="display: none;"></div>
+
+		<p id="username" style="display: none;">{{ name }}</p> -->
+
 	</section>
 
 

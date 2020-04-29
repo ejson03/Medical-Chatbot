@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,7 +15,7 @@
   </style>
   </head>
   <body>
-    <aside class="side-nav" id="show-side-navigation1">
+    <aside class="side-nav " id="show-side-navigation1">
       <i class="fa fa-bars close-aside hidden-sm hidden-md hidden-lg" data-close="show-side-navigation1"></i>
       <div class="heading">
         <img src="https://cdn1.imggmi.com/uploads/2020/3/1/494ae48d461c56437e9bbb02c4928960-full.jpg" alt="">
@@ -28,37 +28,15 @@
       <ul class="categories">
         <li><i class="fa fa-home fa-fw" ></i><a href="/home">Home</a></li>
         <li><i class="fa fa-support fa-fw"></i><a> Reports</a>
-          <ul id ="users" class="side-nav-dropdown"></ul>
+        <ul id ="users" class="side-nav-dropdown"></ul>
+        <li><i class="fa fa-support fa-fw"></i><a href="/logout"> Logout</a>
+
         </li>
         
       </ul>
     </aside>
     <section id="contents">
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <i class="fa fa-align-right"></i>
-            </button>
-            <a class="navbar-brand" href="#">my<span class="main-color">Dashboard</span></a>
-          </div>
-          <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My profile <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#"><i class="fa fa-user-o fw"></i> My account</a></li>
-                  <li><a href="#"><i class="fa fa-envelope-o fw"></i> My inbox</a></li>
-                  <li><a href="#"><i class="fa fa-question-circle-o fw"></i> Help</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="/logout"><i class="fa fa-sign-out"></i> Log out</a></li>
-                </ul>
-              </li>
-              <li><a href="#"><i data-show="show-side-navigation1" class="fa fa-bars show-side-btn"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+     
     {% if name == "admin" %}
     <div class="welcome">
       <div class="container-fluid">
@@ -139,12 +117,12 @@
     </section>
   </section>
     {% else %}
-    <section>
-      <form id="formid" method="POST" action="/report">
+    <section style="margin-top: 5%;">
+      <form  method="POST" action="/report">
         <input name = "username" value="{{name}}" style="display: none;">
-        <p class="lead" style="margin-left: 40%;color:white;">Enter the date for weekly analysis</p><br><br>
-        <input type="date" name="date" style ="width: 10%;border-radius: 5px;margin-left:45%;padding: 10px;"><br><br>
-        <input class="w3-button w3-yellow w3-round-xxlarge" type="submit" title="Analyze" style ="width: 10%;font-size: 20px;margin-left:45%;"><br>
+        <p class="lead" style="color:white;">Enter the date for weekly analysis</p><br><br>
+        <input class="lead" type="date" name="date" style ="border-radius: 2px;padding: 10px;"><br><br>
+        <input  class="w3-button w3-yellow w3-round-xxlarge " type="submit" title="Analyze" style ="font-size: 20px;"><br>
       </form>
     </section>
     <section class="charts">
