@@ -14,7 +14,7 @@ A therapy based chatbot for emotion analysis and visualization
 
 # Description
 
-There is a rapid increase in generation of medical data especially in a situation of medical emergency or crisis. When hospitals are understaffed to maintain healthcare data, they are prone to be tampered with. Users do not recieve their medical information on time and cannot approach other institutions quickly with their medical history.
+There is a wave of emotional unstabiltiy among people who are on a downward spiral in life or are going through hard times. We have developed a chat companion to make the user feel better and to tack analysis of users behaviour.
 
 
 ### Chatbot replying with a joke
