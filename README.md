@@ -1,47 +1,111 @@
-# Music Bot
+# Medical Analytica
+A therapy based chatbot for emotion analysis and visualization
 
-ML and NLP based Music Bot
+# Table of Contents
 
-To field questions relevant to an HR Interview and carry out a sustained conversation.
-To process relevant user responses to evaluate and thus help the user better their interviewing skills.
+* [Description](https://github.com/ejson03/Medical-Analytica#description)
+* [Dependencies](https://github.com/ejson03/Medical-Analytica#dependencies)
+* [Installation](https://github.com/ejson03/Medical-Analytica#installation)
+  * [Prerequisites](https://github.com/ejson03/Medical-Analytica#prerequisites)
+  * [Instructions](https://github.com/ejson03/Medical-Analytica#instructions)
+* [Usage](https://github.com/ejson03/Medical-Analytica#usage)
+* [Contributors](https://github.com/ejson03/Medical-Analytica#contributors)
+* [License](https://github.com/ejson03/Medical-Analytica#license)
 
-## Setup
+# Description
 
+There is a rapid increase in generation of medical data especially in a situation of medical emergency or crisis. When hospitals are understaffed to maintain healthcare data, they are prone to be tampered with. Users do not recieve their medical information on time and cannot approach other institutions quickly with their medical history.
+
+
+### Chatbot replying with a joke
+![Joke](images/joke.png)
+
+### Chatbot playing a youtube music video based on user emotion
+![Video](images/video.png)
+
+### Chatbot displaying neaby hospitals with information
+![Map](images/map.png)
+
+### Organization can keep record of patients weekly analysis
+![chart](images/chart.png)
+
+Additional features include weather reporting, self genearted inspirational quotes, yet to implement symptom checker and analysis
+
+# Dependencies
+
+* [Rasa](https://rasa.com/)
+* [MongoDB](https://www.mongodb.com/)
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/)
+* [Python](https://www.python.org/)
+
+
+# Installation
+
+### Prerequisites
+Install Python and MongoDB from the above links
+
+### Instructions
+
+Clone the repository
 ```
-python3 -m venv venv
-.\venv\Scripts\activate * for windows
-source venv\bin\activate * for ubuntu
+git clone https://github.com/ejson03/Medical-Analytica.git
+```
+
+Setup Python environment
+```
+python -m venv venv
+
+[Windows users]
+.\venv\Scripts\activate
+
+[Ubuntu]
+source venv/bin/activate
+
 pip install -r requirements.txt
 ```
 
-## Rasa Commands to execute 
-
-For train
+For training and testing
 ```
+cd chatbot
 rasa train
-```
-
-For test
-```
 rasa test
 ```
 
-For testing rest apis you have to run both action server and rasa main server
+Run rasa
 ```
-cd chatbot
 rasa run actions
 rasa run -m models --endpoint endpoints.yml --enable-api --cors “*” --debug --log-file out.log 
 ```
 
-For running main web app
+Backend
 ```
 cd flask-app
 python app.py
 ```
 
-## For connecting to rasa APi
-Create a tracker store in mongodb, checkout endpoints.yml
-For interacting with bot on WEbUi query message, userid to http://<rasa-server-ip-address>:5005/webhooks/rest/webhook
+Running in one command
+```
+setup.sh
+```
 
-## Errors in the above platform
-Check the stories and alter rasa.js based on them
+# Usage
+
+Open a browser and go to 
+```
+http://localhost:5000
+```
+# Contributors
+
+* Elvis Dsouza [@ejson03](https://github.com/ejson03)
+* Vedant Sahai [@Vedantsahai18](https://github.com/Vedantsahai18)
+
+# License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[MIT License Link](https://github.com/ejson03/Medical-Analytica/blob/master/LICENSE)
+
+
+
+
+
