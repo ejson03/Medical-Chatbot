@@ -14,7 +14,7 @@ A therapy based chatbot for emotion analysis and visualization
 
 # Description
 
-There is a wave of emotional unstabiltiy among people who are on a downward spiral in life or are going through hard times. We have developed a chat companion to make the user feel better and to tack analysis of users behaviour.
+There is a wave of emotional unstabiltiy among people who are on a downward spiral in life or are going through hard times. We have developed a chat companion to make the user feel better and to track analysis of users behaviour.
 
 
 ### Chatbot replying with a joke
