@@ -1,0 +1,124 @@
+
+<html>
+	<head>
+		<title> MediBot </title>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	
+
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet">
+	
+		<!--Import Font Awesome Icon Font-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+			integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />  
+	
+		<!--Main css-->
+		<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="/static/css/dash.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<style>
+			#map2 {
+			height: 750px;
+
+		}
+		</style>
+	</head>
+	<body>
+		<aside class="side-nav  " id="show-side-navigation1">
+		<i class="fa fa-bars close-aside hidden-sm hidden-md hidden-lg" data-close="show-side-navigation1"></i>
+		<div class="heading">
+		  <div class="info">
+			<h3><a href="#"> Analytica </a></h3>
+			<p>@Medical Heathcare</p>
+		  </div>
+		</div>
+		<div class="search">
+		  <input type="text" placeholder="Type here"><i class="fa fa-search"></i>
+		</div>
+		<ul class="categories">
+		  <li><i class="fa fa-home fa-fw"></i><a href="#chatbot" onclick="chatbot()"> Home </a></li>
+		  <li><i class="fa fa-support fa-fw"></i><a href="/retrain/{{name}}"> Save Stories</a></li>
+		  <li><i class="fa fa-support fa-fw"></i><a href="/showmap" onclick="setup()"> Show Map</a></li>
+		  <li><i class="fa fa-support fa-fw"></i><a href="/logout"> Logout</a>
+		  </li>
+		  
+		</ul>
+	</aside>
+
+	<section id="showmap" style="display:none;">
+		<div  id="map2" ></div>
+	</section>
+
+
+		<!-- Scripts -->
+			<script src="/static/js/jquery.min.js"></script>
+			<script src="/static/js/jquery.scrolly.min.js"></script>
+			<script src="/static/js/skel.min.js"></script>
+			<script src="/static/js/util.js"></script>
+			<script src="/static/js/main.js"></script>
+			<!--JavaScript at end of body for optimized loading-->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js"></script>
+			<script src="/static/js/dash.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="http://code.jquery.com/jquery-latest.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	  
+			<!--Main Script -->
+			<script type="text/javascript" src="/static/js/rasa.js"></script>
+	  
+			<!--Chart.js Script -->
+			<script type="text/javascript" src="/static/js/chart.min.js"></script>
+			<script type="text/javascript" src="/static/js/map.js"></script>
+			
+			<script>
+				
+				let chat = document.getElementById("chatbot");
+				let other = document.getElementById("showmap");
+
+				function sleep(milliseconds) {
+					const date = Date.now();
+					let currentDate = null;
+					do {
+					currentDate = Date.now();
+					} while (currentDate - date < milliseconds);
+				}
+				
+				async function startMap(){
+					console.log(document.getElementById("gmaps"));
+					if (document.getElementById("gmaps") == null){
+						console.log("create script tag....");
+						let script = document.createElement("script");
+						script.src = "https://maps.googleapis.com/maps/api/js?key={{key}}&libraries=places";
+						script.defer = true;
+						script.async = true;
+						script.id = "gmaps";
+						document.head.appendChild(script);
+						sleep(2000);
+						await initMap();
+					}
+					else{
+						console.log("script tag already exists");
+						await initMap();
+					}
+
+				}
+				async function chatbot(){
+					other.style.display = "none";
+					chat.style.display = "block";
+				}
+				async function setup(){
+					chat.style.display = "none";
+					await startMap();
+					other.style.display = "block";
+				}
+
+			</script>
+	</body>
+</html>

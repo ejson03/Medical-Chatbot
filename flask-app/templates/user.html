@@ -20,11 +20,15 @@
 		<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
 		<link rel="stylesheet" href="/static/css/dash.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<style>
-			#map2 {
-			height: 750px;
 
-		}
+		<!--ChatbotCSS-->	
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"></script>
+		<style>
+
 			#map1 {
 			height: 500px;
 			margin: 100px auto 50px;
@@ -46,10 +50,9 @@
 		  <input type="text" placeholder="Type here"><i class="fa fa-search"></i>
 		</div>
 		<ul class="categories">
-		  <li><i class="fa fa-home fa-fw" ></i><a href="/home/{{name}}">Home</a></li>
-		  <li><i class="fa fa-support fa-fw"></i><a href="#chatbot" onclick="chatbot()"> Chatbot</a></li>
+		  <li><i class="fa fa-home fa-fw"></i><a href="#chatbot" onclick="chatbot()"> Home </a></li>
 		  <li><i class="fa fa-support fa-fw"></i><a href="/retrain/{{name}}"> Save Stories</a></li>
-		  <li><i class="fa fa-support fa-fw"></i><a href="#showmap" onclick="setup()"> Show Map</a></li>
+		  <li><i class="fa fa-support fa-fw"></i><a href="/showmap" onclick="setup()"> Show Map</a></li>
 		  <li><i class="fa fa-support fa-fw"></i><a href="/logout"> Logout</a>
 		  </li>
 		  
@@ -58,28 +61,36 @@
 
 	  <section id="chatbot">
 		
-		<div id="y2j" class="col-md-4" style="display: none;margin-left: 21%;">
-            <div class="box">
-				<iframe  width="720" height="480" frameborder="0" id="video" allow="autoplay; fullscreen"></iframe>
-            </div>
-		</div>
-		
-		<div id="map1" style="display: none;"></div>
-
 		<p id="username" style="display: none;">{{ name }}</p>
+			<div class="  chat">
+				<div class="card ">
+					<div class="card-body msg_card_body" id="result_div">
+					</div>
+					<div class="card-footer">
+						<div class="input-group" >
+							<div class="input-group-append">
+								<span class="input-group-text attach_btn"><i class="fas fa-paperclip"></i></span>
+							</div>
+							<input type="text" autocomplete="on"  id="chat-input" class="form-control type_msg bot-txt" placeholder="Type your message..." />
+							<div class="input-group-append">
+								</span><button class="input-group-text send_btn"><i class="fas fa-location-arrow"  id="send"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
 
-			<!-- chatbot code -->
-			<mybot></mybot>
-			<!--container end-->
-			<!--JS-->
+			
+	<div id="y2j" class="col-md-4" style="display: none;margin-left: 21%;">
+		<div class="box">
+			<iframe  width="720" height="480" frameborder="0" id="video" allow="autoplay; fullscreen"></iframe>
+		</div>
+	</div>
+
+	<div id="map1" style="display: none;"></div>
 
 	</section>
-
-	<section id="showmap" style="display:none;">
-		<div  id="map2" ></div>
-	</section>
-
 
 		<!-- Scripts -->
 			<script src="/static/js/jquery.min.js"></script>
