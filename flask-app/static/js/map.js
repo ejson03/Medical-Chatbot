@@ -1,4 +1,4 @@
-var map1, map2;
+var map;
 
 async function initMap (){
     if (navigator.geolocation) {
@@ -43,48 +43,30 @@ async function initMap (){
 }
 
 async function setPos(myLocation) {
-    map1 = await new google.maps.Map(document.getElementById('map1'), {
+    map = await new google.maps.Map(document.getElementById('map'), {
         center: myLocation,
         zoom: 10
     });
-    map2 = await new google.maps.Map(document.getElementById('map2'), {
-        center: myLocation,
-        zoom: 10
-    });
-    console.log(map1, map2)
-    var service = new google.maps.places.PlacesService(map1);
+    
+    var service = new google.maps.places.PlacesService(map);
     service.nearbySearch({
         location: myLocation,
         radius: 4000,
         types: ['hospital']
-    }, processResults1);
+    }, processResults);
 
-    var service = new google.maps.places.PlacesService(map2);
-    service.nearbySearch({
-        location: myLocation,
-        radius: 4000,
-        types: ['hospital']
-    }, processResults2);
 
 }
 
-function processResults1(results, status, pagination) {
+function processResults(results, status, pagination) {
     if (status !== google.maps.places.PlacesServiceStatus.OK) {
         return;
     } else {
-        createMarkers(results, map1);
+        createMarkers(results, map);
 
     }
 }
 
-function processResults2(results, status, pagination) {
-    if (status !== google.maps.places.PlacesServiceStatus.OK) {
-        return;
-    } else {
-        createMarkers(results, map2);
-
-    }
-}
 
 function createMarkers(places, map) {
     var bounds = new google.maps.LatLngBounds();

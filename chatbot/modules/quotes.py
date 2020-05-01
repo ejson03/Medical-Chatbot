@@ -5,7 +5,6 @@ import random
 
 def get_base64(quote):
     img = write_image(quote)
-    img.save('temp.png')
     buf = io.BytesIO()
     img.save(buf, format='PNG')
     img = base64.b64encode(buf.getvalue()).decode('utf-8')

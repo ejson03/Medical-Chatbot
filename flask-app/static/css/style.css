@@ -1,11 +1,10 @@
-
 .card{
   height: 100%;
   margin-left: 290 !important;
   border-radius: 0px !important;
         background: #7F7FD5;
         background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
-         background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+        background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
 }
 .contacts_body{
   padding:  0.75rem 0 !important;
@@ -54,6 +53,13 @@ background-color: rgba(0,0,0,0.3) !important;
   color: white !important;
   cursor: pointer;
 }
+.clear_btn{
+
+  background-color: rgba(0,0,0,0.3) !important;
+    border:0 !important;
+    color: white !important;
+    cursor: pointer;
+  }
 .send_btn{
 border-radius: 0 15px 15px 0 !important;
 background-color: rgba(0,0,0,0.3) !important;
@@ -157,15 +163,15 @@ position: relative;
 }
 .msg_time{
 position: absolute;
-left: 0;
-bottom: -20px;
+left: -42;
+bottom: -30px;
 color: rgba(0,0,0,0.5);
 font-size: 12px;
 }
 .msg_time_send{
 position: absolute;
-right:0;
-bottom: -20px;
+right: -42;
+bottom: -30px;
 color: rgba(0,0,0,0.5);
 font-size: 12px;
 }

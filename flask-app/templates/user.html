@@ -27,15 +27,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"></script>
-		<style>
 
-			#map1 {
-			height: 500px;
-			margin: 100px auto 50px;
-			width: 800px;
-			/* position: relative; */
-		}
-		</style>
 	</head>
 	<body>
 		<aside class="side-nav  " id="show-side-navigation1">
@@ -46,13 +38,10 @@
 			<p>@Medical Heathcare</p>
 		  </div>
 		</div>
-		<div class="search">
-		  <input type="text" placeholder="Type here"><i class="fa fa-search"></i>
-		</div>
 		<ul class="categories">
-		  <li><i class="fa fa-home fa-fw"></i><a href="#chatbot" onclick="chatbot()"> Home </a></li>
+		  <li><i class="fa fa-home fa-fw"></i><a href="/home/{{name}}"> Home </a></li>
 		  <li><i class="fa fa-support fa-fw"></i><a href="/retrain/{{name}}"> Save Stories</a></li>
-		  <li><i class="fa fa-support fa-fw"></i><a href="/showmap" onclick="setup()"> Show Map</a></li>
+		  <li><i class="fa fa-support fa-fw"></i><a href="/showmap/{{name}}" > Show Map</a></li>
 		  <li><i class="fa fa-support fa-fw"></i><a href="/logout"> Logout</a>
 		  </li>
 		  
@@ -60,7 +49,7 @@
 	</aside>
 
 	  <section id="chatbot">
-		
+		<p id="key" style="display: none;">{{ key }}</p>
 		<p id="username" style="display: none;">{{ name }}</p>
 			<div class="  chat">
 				<div class="card ">
@@ -69,27 +58,20 @@
 					<div class="card-footer">
 						<div class="input-group" >
 							<div class="input-group-append">
-								<span class="input-group-text attach_btn"><i class="fas fa-paperclip"></i></span>
+									<input type="file" id="imgupload" style="display:none" name="imgupload" multiple/> 
+									<button class="input-group-text attach_btn fas fa-paperclip" id="OpenImgUpload" ></button>
 							</div>
 							<input type="text" autocomplete="on"  id="chat-input" class="form-control type_msg bot-txt" placeholder="Type your message..." />
 							<div class="input-group-append">
-								</span><button class="input-group-text send_btn"><i class="fas fa-location-arrow"  id="send"></i></button>
+								<button class="input-group-text clear_btn fa fa-trash" id="clear"></button>
+							</div>
+							<div class="input-group-append">
+								<button class="input-group-text send_btn fas fa-location-arrow" id="send"></button>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-
-
-			
-	<div id="y2j" class="col-md-4" style="display: none;margin-left: 21%;">
-		<div class="box">
-			<iframe  width="720" height="480" frameborder="0" id="video" allow="autoplay; fullscreen"></iframe>
-		</div>
-	</div>
-
-	<div id="map1" style="display: none;"></div>
-
 	</section>
 
 		<!-- Scripts -->
@@ -100,7 +82,6 @@
 			<script src="/static/js/main.js"></script>
 			<!--JavaScript at end of body for optimized loading-->
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js"></script>
-			<script src="/static/js/dash.js"></script>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 			<script src="http://code.jquery.com/jquery-latest.js"></script>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -115,48 +96,5 @@
 			<script type="text/javascript" src="/static/js/chart.min.js"></script>
 			<script type="text/javascript" src="/static/js/map.js"></script>
 			
-			<script>
-				
-				let chat = document.getElementById("chatbot");
-				let other = document.getElementById("showmap");
-
-				function sleep(milliseconds) {
-					const date = Date.now();
-					let currentDate = null;
-					do {
-					currentDate = Date.now();
-					} while (currentDate - date < milliseconds);
-				}
-				
-				async function startMap(){
-					console.log(document.getElementById("gmaps"));
-					if (document.getElementById("gmaps") == null){
-						console.log("create script tag....");
-						let script = document.createElement("script");
-						script.src = "https://maps.googleapis.com/maps/api/js?key={{key}}&libraries=places";
-						script.defer = true;
-						script.async = true;
-						script.id = "gmaps";
-						document.head.appendChild(script);
-						sleep(2000);
-						await initMap();
-					}
-					else{
-						console.log("script tag already exists");
-						await initMap();
-					}
-
-				}
-				async function chatbot(){
-					other.style.display = "none";
-					chat.style.display = "block";
-				}
-				async function setup(){
-					chat.style.display = "none";
-					await startMap();
-					other.style.display = "block";
-				}
-
-			</script>
 	</body>
 </html>
