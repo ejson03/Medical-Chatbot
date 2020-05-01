@@ -28,7 +28,7 @@ $(document).ready(function () {
 //------------------------------------------- Call the RASA API--------------------------------------
 function send(text, user_id) {
 	$.ajax({
-		url: `http://localhost:5005/webhooks/rest/webhook`, //  RASA API
+		url: `/rasa`, //  RASA API
 		type: 'POST',
 		contentType: "application/json",
 		data: JSON.stringify({ message: text, sender: user_id }),

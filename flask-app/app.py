@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, jsonify, redirect, url_for
 import requests
+from flask_cors import CORS, cross_origin
 from report import User, getAllUsers, getWeb
 import os
 from dotenv import load_dotenv
@@ -9,7 +10,8 @@ GMAP_API_KEY = os.getenv("KEY")
 
 app = Flask(__name__)
 RASA_URI = "http://localhost:5005"
-
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route('/')
 def index():
@@ -32,10 +34,13 @@ def login():
     else:
         return redirect(f'/home/{name}')
 
+@cross_origin()
 @app.route('/rasa', methods=['POST'])
 def action():
     message = request.json
+    print(message)
     res = requests.post(f"{RASA_URI}/webhooks/rest/webhook", json=message)
+    print(res)
     return jsonify(res.json())
 
 @app.route('/report', methods=['POST'])

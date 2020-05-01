@@ -71,21 +71,9 @@ rasa train
 rasa test
 ```
 
-Run rasa
-```
-rasa run actions
-rasa run -m models --endpoint endpoints.yml --enable-api --cors “*” --debug --log-file out.log 
-```
-
-Backend
-```
-cd flask-app
-python app.py
-```
-
 Running in one command
 ```
-setup.sh
+python setup.py
 ```
 
 # Usage
