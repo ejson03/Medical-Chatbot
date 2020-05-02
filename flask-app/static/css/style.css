@@ -163,17 +163,27 @@ position: relative;
 }
 .msg_time{
 position: absolute;
-left: -42;
+left: -46;
 bottom: -30px;
 color: rgba(0,0,0,0.5);
 font-size: 12px;
 }
+.msg_time1{
+position: absolute;
+left: 24px;
+bottom: 530px;
+color: rgba(0,0,0,0.5);
+font-size: 12px;
+  }
 .msg_time_send{
 position: absolute;
-right: -42;
+right: -46;
 bottom: -30px;
 color: rgba(0,0,0,0.5);
 font-size: 12px;
+}
+.reply{
+  margin-bottom: 3.5rem!important;
 }
 .msg_head{
 position: relative;

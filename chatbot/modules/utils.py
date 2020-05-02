@@ -35,7 +35,7 @@ def get_quotes():
     with open(os.path.join(path, 'quotes.json'), 'r', encoding="utf8") as f:
         quotes = json.load(f)
     quote = random.choice(quotes)
-    image = get_base64(f'{quote["Quote"]}   \n  By  {quote["Author"]}')
+    image = get_base64(f'{quote["Quote"]}   \n  --  {quote["Author"]}  -- ')
     return image
 
 if __name__ == "__main__":

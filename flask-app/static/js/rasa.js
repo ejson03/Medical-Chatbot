@@ -132,7 +132,7 @@ function createMap(){
 	}
 }
 function createBaseChat(){
-	let main = createDiv(["d-flex", "justify-content-start", "mb-4"]);
+	let main = createDiv(["d-flex", "justify-content-start", "reply" ]);
 	let first = createDiv(["img_cont_msg"])
 	let image = createImage("https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg", ["rounded-circle" ,"user_img_msg"])
 	first.appendChild(image);
@@ -162,11 +162,12 @@ function setBotResponse(val) {
 					let response = createDiv(style=[], id="quote", text="");
 					let url = `data:image/png;base64,${val[i].image}`
 					let img = createImage(src=url)
-					img.height = 720;
+					img.height = 480;
 					img.width = 720;
-					let timespan = createSpan(style=["msg_time"], text=time);
+					let timespan = createSpan(style=["msg_time1"], text=time);
 					response.appendChild(img);
-					response.appendChild(timespan)
+					response.style="margin-left:15px;"
+					response.appendChild(timespan)	
 					base.appendChild(response)
 					BotResponse = base;
 					$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
@@ -180,8 +181,9 @@ function setBotResponse(val) {
 						let base = createBaseChat();
 						let container = createDiv(style=[], id="video")
 						let iframe = createIframe(url);
-						let timespan = createSpan(style=["msg_time"], text=time);
+						let timespan = createSpan(style=["msg_time1"], text=time);
 						container.appendChild(iframe);
+						container.style="margin-left:15px;"
 						container.appendChild(timespan);
 						base.appendChild(container);
 						BotResponse = base;
@@ -191,9 +193,9 @@ function setBotResponse(val) {
 					if (val[i].custom.payload == "map") {
 						let base = createBaseChat();
 						let map = createDiv(style=[], id="map")
-						let timespan = createSpan(style=["msg_time"], text=time);
+						let timespan = createSpan(style=["msg_time1"], text=time);
+						map.style = "height: 480px; width: 720px;margin-left:15px;"
 						map.appendChild(timespan);
-						map.style = "height: 500px; margin: 30px auto 50px; width: 800px;"
 						base.appendChild(map);
 						BotResponse = base;
 						$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
@@ -221,7 +223,7 @@ function setBotResponse(val) {
 				}
 				else {
 					let base = createBaseChat();
-					let response = createDiv(style=["msg_cotainer"], id="", text = val[0].text);
+					let response = createDiv(style=["msg_cotainer"], id="", text = val[i].text);
 					let timespan = createSpan(style=["msg_time"], text=time);
 					response.appendChild(timespan)
 					base.appendChild(response)
@@ -241,17 +243,17 @@ function setBotResponse(val) {
 
 //------------------------------------- Set user response in result_div ------------------------------------
 function setUserResponse(val) {
-	if(document.getElementById("video") != null){
-		console.log("video");
-		document.getElementById("video").remove();
-	}
-	if(document.getElementById("map") != null){
-		document.getElementById("map").remove();
-		document.getElementById("gmaps").remove();
-	}
+	// if(document.getElementById("video") != null){
+	// 	console.log("video");
+	// 	//document.getElementById("video").remove();
+	// }
+	// if(document.getElementById("map") != null){
+	// 	//document.getElementById("map").remove();
+	// 	//document.getElementById("gmaps").remove();
+	// }
 	var today = new Date();
 	var time = today.getHours() + ":" + today.getMinutes() ;
-	var UserResponse = '<div class="d-flex justify-content-end mb-4"><div class="msg_cotainer_send">' + val +'<span class="msg_time_send">'+ time+ '</span></div><img src="https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg" class="rounded-circle user_img_msg"></div></div>';//<div class="clearfix"></div>
+	var UserResponse = '<div class="d-flex justify-content-end reply mb-4" ><div class="msg_cotainer_send">' + val +'<span class="msg_time_send">'+ time+ '</span></div><img src="https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg" class="rounded-circle user_img_msg"></div></div>';//<div class="clearfix"></div>
 	$(UserResponse).appendTo('#result_div');
 	$("#chat-input").val('');
 	scrollToBottomOfResults();
