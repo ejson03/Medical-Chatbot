@@ -22,8 +22,8 @@ killProcesses()
 
 root = os.path.abspath(os.getcwd())
 
-os.chdir(root+'/flask-app')
-process3 = subprocess.Popen(['python', 'app.py'], shell=True)
+# os.chdir(root+'/flask-app')
+# process3 = subprocess.Popen(['python', 'app.py'], shell=True)
 
 os.chdir(root+'/chatbot')
 process1 = subprocess.Popen(['rasa', 'run', 'actions'], shell=True)

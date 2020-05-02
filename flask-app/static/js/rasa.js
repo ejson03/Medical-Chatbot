@@ -2,10 +2,10 @@ $(document).ready(function () {
 	$('#OpenImgUpload').click(function(){ 
 		$('#imgupload').trigger('click');
 	});
-	$('#imgupload').change(function(){ 
-		var file_data = $('#imgupload').prop('files')[0]; 
-		console.log(file_data); 
+	document.getElementById("clear").addEventListener('click',function (){
+		document.getElementById("result_div").innerHTML = "";
 	});
+	
 	const user_id = document.getElementById("username").innerHTML;
 	$('#chat-input').on('keyup keypress', function (e) {
 		var keyCode = e.keyCode || e.which;
@@ -23,8 +23,36 @@ $(document).ready(function () {
 			}
 		}
 	});
+	document.getElementById("send").addEventListener('click',function (){
+		var text = $("#chat-input").val();
+		setUserResponse(text);
+		send(text);
+		$('.suggestion').remove();
+	});
 
 })
+
+$('#imgupload').change(async function(){ 
+	let files = $('#imgupload').prop('files')[0]; 
+	let name = document.getElementById("username").innerHTML;
+	console.log(name);
+	const formData = new FormData()
+  	formData.append('file', files[0])
+	try {
+		let response=  await fetch('/uploads/' + name, {
+			method: 'POST',
+			body: file_data,
+			mode: 'cors',
+		
+		});
+		response = await response.json();
+		console.log(response);
+	} catch {
+		console.log("file error");
+	}
+	
+});
+
 //------------------------------------------- Call the RASA API--------------------------------------
 function send(text, user_id) {
 	$.ajax({
@@ -248,9 +276,6 @@ function hideSpinner() {
 	$('.spinner').hide();
 }
 
-
-
-
 //------------------------------------------- Buttons(suggestions)--------------------------------------------------
 function addSuggestion(textToAdd) {
 	setTimeout(function () {
@@ -267,7 +292,7 @@ function addSuggestion(textToAdd) {
 
 
 // on click of suggestions get value and send to API.AI
-$(document).on("click", ".suggestion span", function () {
+$("#send").on("click", ".suggestion span", function () {
 	var text = this.innerText;
 	setUserResponse(text);
 	send(text);

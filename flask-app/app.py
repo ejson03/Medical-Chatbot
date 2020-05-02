@@ -12,6 +12,8 @@ app = Flask(__name__)
 RASA_URI = "http://localhost:5005"
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
+if not os.path.exists("uploads"):
+    os.makedirs("uploads")
 
 @app.route('/')
 def index():
@@ -38,9 +40,7 @@ def login():
 @app.route('/rasa', methods=['POST'])
 def action():
     message = request.json
-    print(message)
     res = requests.post(f"{RASA_URI}/webhooks/rest/webhook", json=message)
-    print(res)
     return jsonify(res.json())
 
 @app.route('/report', methods=['POST'])
@@ -84,6 +84,19 @@ def getWebsite(query):
 @app.route('/showmap/<name>')
 def showmap(name):
     return render_template('map.html', name = name, key = GMAP_API_KEY)
+
+@app.route('/uploads/<name>', methods=['POST'])
+def upload(name):
+    print(name)
+    if request.method == 'POST':
+        data = request.files['file']
+        print(data.filename)
+        if not os.path.exists(f'uploads/{upload_name}'):
+            os.makedirs(f'uploads/{upload_name}')
+        data.save(f'uploads/{upload_name}/{data.filename}')
+        return jsonify({'response': 'File uploaded success!'})
+    else:
+        abort(404)
 
 
 if __name__ == '__main__':
