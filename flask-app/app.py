@@ -43,6 +43,14 @@ def action():
     res = requests.post(f"{RASA_URI}/webhooks/rest/webhook", json=message)
     return jsonify(res.json())
 
+@cross_origin()
+@app.route('/auth', methods=['POST'])
+def auth():
+    message = request.json
+    print(message)
+    res = requests.post(f"{RASA_URI}/webhooks/token/webhook", json=message)
+    return jsonify(res.json())
+
 @app.route('/report', methods=['POST'])
 def send():
     date = request.form.get("date")
@@ -91,9 +99,9 @@ def upload(name):
     if request.method == 'POST':
         data = request.files['file']
         print(data.filename)
-        if not os.path.exists(f'uploads/{upload_name}'):
-            os.makedirs(f'uploads/{upload_name}')
-        data.save(f'uploads/{upload_name}/{data.filename}')
+        if not os.path.exists(f'uploads/{name}'):
+            os.makedirs(f'uploads/{name}')
+        data.save(f'uploads/{name}/{data.filename}')
         return jsonify({'response': 'File uploaded success!'})
     else:
         abort(404)

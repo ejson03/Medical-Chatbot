@@ -492,370 +492,370 @@
 - any clinics nearby
 
 ## intent:get_emotion
-- i am [overjoyed](emotion:happy)
-- i am [excited](emotion:happy)
-- i am [joyful](emotion:happy)
-- i am [happy](emotion:happy)
-- i am [contented](emotion:happy)
-- i am [content](emotion:happy)
-- i am [cheerful](emotion:happy)
-- i am [merry](emotion:happy)
-- i am [jovial](emotion:happy)
-- i am [smiling](emotion:happy)
-- i am [gratified](emotion:happy)
-- i am [radiant](emotion:happy)
-- i am [over the moon](emotion:happy)
-- i am [jolly good](emotion:happy)
-- i am [jolly](emotion:happy)
-- i am [unhappy](emotion:sad)
-- i am [dejected](emotion:sad)
-- i am [down](emotion:sad)
-- i am [out of sorts](emotion:sad)
-- i am [depressed](emotion:sad)
-- i am [lonely](emotion:sad)
-- i am [suicidal](emotion:sad)
-- i am in [pain](emotion:sad)
-- i am [suffering](emotion:sad)
-- i am [grieving](emotion:sad)
-- i am seeing [death](emotion:sad) everywhere
-- [death](emotion:sad) has surrounded me
-- i am [mourning](emotion:sad)
-- i am [miserable](emotion:sad)
-- i am [grieving](emotion:sad)
-- i am [not happy](emotion:sad)
-- i am [disgusted](emotion:angry)
-- i am [flabergasted](emotion:angry)
-- i am [annoyed](emotion:angry)
-- i am [irritated](emotion:angry)
-- i am [irate](emotion:angry)
-- i am [cross](emotion:angry)
-- i am [vexed](emotion:angry)
-- i am [exasperated](emotion:angry)
-- i am [inflamed](emotion:angry)
-- i am [indignant](emotion:angry)
-- i am [aggrieved](emotion:angry)
-- i am [irked](emotion:angry)
-- i am [piqued](emotion:angry)
-- i am [displeased](emotion:angry)
-- i am [outraged](emotion:angry)
-- i am [aggravated](emotion:angry)
-- i am feeling [overjoyed](emotion:happy)
-- i am feeling [excitement](emotion:happy)
-- i am feeling [joy](emotion:happy)
-- i am feeling [happiness](emotion:happy)
-- i am feeling [contented](emotion:happy)
-- i am feeling [content](emotion:happy)
-- i am feeling [cheerful](emotion:happy)
-- i am feeling [merry](emotion:happy)
-- i am feeling [jovial](emotion:happy)
-- i am feeling [gratified](emotion:happy)
-- i am feeling [radiant](emotion:happy)
-- i am feeling [jolly good](emotion:happy)
-- i am feeling [unhappy](emotion:sad)
-- i am feeling [dejected](emotion:sad)
-- i am feeling [down](emotion:sad)
-- i am feeling [out of sorts](emotion:sad)
-- i am feeling [depressed](emotion:sad)
-- i am feeling [lonely](emotion:sad)
-- i am feeling [suicidal](emotion:sad)
-- i am feeling [pain](emotion:sad)
-- i am feeling [suffering](emotion:sad)
-- i am feeling [sorrow](emotion:sad)
-- i am feeling [grieving](emotion:sad)
-- i am feeling [death](emotion:sad)
-- i am feeling [mourning](emotion:sad)
-- i am feeling [miserable](emotion:sad)
-- i am feeling [grief](emotion:sad)
-- i am feeling [unhappiness](emotion:sad)
-- i am feeling [disgust](emotion:angry)
-- i am feeling [flabergasted](emotion:angry)
-- i am feeling [annoyed](emotion:angry)
-- i am feeling [irritated](emotion:angry)
-- i am feeling [irate](emotion:angry)
-- i am feeling [cross](emotion:angry)
-- i am feeling [vexed](emotion:angry)
-- i am feeling [exasperated](emotion:angry)
-- i am feeling [inflamed](emotion:angry)
-- i am feeling [indignant](emotion:angry)
-- i am feeling [aggrieved](emotion:angry)
-- i am feeling [irked](emotion:angry)
-- i am feeling [piqued](emotion:angry)
-- i am feeling [displeased](emotion:angry)
-- i am feeling [outrage](emotion:angry)
-- i am feeling [outraged](emotion:angry)
-- i am feeling [aggravated](emotion:angry)
-- Lately i have been [overjoyed](emotion:happy)
-- Lately i have been too [excited](emotion:happy)
-- Lately i have been [joyful](emotion:happy)
-- Lately i have been [happy](emotion:happy)
-- Lately i have been [contented](emotion:happy)
-- Lately i have been [content](emotion:happy)
-- Lately i have been [cheerful](emotion:happy)
-- Lately i have been [merry](emotion:happy)
-- Lately i have been [jovial](emotion:happy)
-- Lately i have been [smiling](emotion:happy)
-- Lately i have been [gratified](emotion:happy)
-- Lately i have been [radiant](emotion:happy)
-- Lately i have been [over the moon](emotion:happy)
-- Lately i have been [jolly good](emotion:happy)
-- Lately i have been [unhappy](emotion:sad)
-- Lately i have been [dejected](emotion:sad)
-- Lately i have been [down](emotion:sad)
-- Lately i have been [out of sorts](emotion:sad)
-- Lately i have been [depressed](emotion:sad)
-- Lately i have been [lonely](emotion:sad)
-- Lately i have been [suicidal](emotion:sad)
-- Lately i have been in [pain](emotion:sad)
-- Lately i have been [suffering](emotion:sad)
-- Lately i have been in [sorrow](emotion:sad)
-- Lately i have been in [grieving](emotion:sad)
-- Lately i have been experiencing [death](emotion:sad)
-- Lately i have been seeing [death](emotion:sad)
-- Lately i have been [mourning](emotion:sad)
-- Lately i have been [miserable](emotion:sad)
-- Lately i have been [grieving](emotion:sad)
-- Lately i have been [unhappy](emotion:sad)
-- Lately i have been [disgusted](emotion:angry)
-- Lately i have been [flabergasted](emotion:angry)
-- Lately i have been [annoyed](emotion:angry)
-- Lately i have been [irritated](emotion:angry)
-- Lately i have been [irate](emotion:angry)
-- Lately i have been [cross](emotion:angry)
-- Lately i have been [vexed](emotion:angry)
-- Lately i have been [exasperated](emotion:angry)
-- Lately i have been [inflamed](emotion:angry)
-- Lately i have been [indignant](emotion:angry)
-- Lately i have been [aggrieved](emotion:angry)
-- Lately i have been [irked](emotion:angry)
-- Lately i have been [piqued](emotion:angry)
-- Lately i have been [displeased](emotion:angry)
-- Lately i have been [outraged](emotion:angry)
-- Lately i have been [aggravated](emotion:angry)
-- i feel [overjoyed](emotion:happy)
-- i feel [excitement](emotion:happy)
-- i feel [joyful](emotion:happy)
-- i feel [happiness](emotion:happy)
-- i feel [contented](emotion:happy)
-- i feel [content](emotion:happy)
-- i feel [cheerful](emotion:happy)
-- i feel [merry](emotion:happy)
-- i feel [jovial](emotion:happy)
-- i feel like [smiling](emotion:happy)
-- i feel [gratified](emotion:happy)
-- i feel [radiant](emotion:happy)
-- i feel [over the moon](emotion:happy)
-- i feel [jolly good](emotion:happy)
-- i feel [unhappy](emotion:sad)
-- i feel [dejected](emotion:sad)
-- i feel [down](emotion:sad)
-- i feel [out of sorts](emotion:sad)
-- i feel [depressed](emotion:sad)
-- i feel [lonely](emotion:sad)
-- i feel [suicidal](emotion:sad)
-- i feel [pain](emotion:sad)
-- i feel [suffering](emotion:sad)
-- i feel [sorrow](emotion:sad)
-- i feel [grieving](emotion:sad)
-- i feel [death](emotion:sad)
-- i feel [mourning](emotion:sad)
-- i feel [miserable](emotion:sad)
-- i feel [grieve](emotion:sad)
-- i feel [unhappiness](emotion:sad)
-- i feel [disgusted](emotion:angry)
-- i feel [flabergasted](emotion:angry)
-- i feel [annoyed](emotion:angry)
-- i feel [irritated](emotion:angry)
-- i feel [irate](emotion:angry)
-- i feel [cross](emotion:angry)
-- i feel [vexed](emotion:angry)
-- i feel [exasperated](emotion:angry)
-- i feel [inflamed](emotion:angry)
-- i feel [indignant](emotion:angry)
-- i feel [aggrieved](emotion:angry)
-- i feel [irked](emotion:angry)
-- i feel [piqued](emotion:angry)
-- i feel [displeased](emotion:angry)
-- i feel [outrage](emotion:angry)
-- i feel [outraged](emotion:angry)
-- i feel [aggravated](emotion:angry)
-- this feeling of [excitement](emotion:happy)
-- this feeling of [joy](emotion:happy)
-- this feeling of [happiness](emotion:happy)
-- this feeling of [content](emotion:happy)
-- this feeling of [merry](emotion:happy)
-- this feeling of [gratification](emotion:happy)
-- this feeling of [radiance](emotion:happy)
-- this feeling like [over the moon](emotion:happy)
-- this feeling of [unhappiness](emotion:sad)
-- this feeling of [dejection](emotion:sad)
-- this feeling is [out of sorts](emotion:sad)
-- this feeling of [depression](emotion:sad)
-- this feeling of [loneliness](emotion:sad)
-- this feeling of [suicidal](emotion:sad)
-- this feeling of [pain](emotion:sad)
-- this feeling of [suffering](emotion:sad)
-- this feeling of [sorrow](emotion:sad)
-- this feeling of [grieving](emotion:sad)
-- this feeling of [death](emotion:sad)
-- this feeling of [mourning](emotion:sad)
-- this feeling of [misery](emotion:sad)
-- this feeling of [grieve](emotion:sad)
-- this feeling of [unhappiness](emotion:sad)
-- this feeling of [disgust](emotion:angry)
-- this feeling of [annoyance](emotion:angry)
-- this feeling of [irritation](emotion:angry)
-- this feeling of [irate](emotion:angry)
-- this feeling of [cross](emotion:angry)
-- this feeling of [vex](emotion:angry)
-- this feeling of [exasperation](emotion:angry)
-- this feeling of [flame](emotion:angry)
-- this feeling of [indignance](emotion:angry)
-- this feeling of [irk](emotion:angry)
-- this feeling of [pique](emotion:angry)
+- i am [overjoyed]{"entity": "emotion", "value": "happy"}
+- i am [excited]{"entity": "emotion", "value": "happy"}
+- i am [joyful]{"entity": "emotion", "value": "happy"}
+- i am [happy]{"entity": "emotion", "value": "happy"}
+- i am [contented]{"entity": "emotion", "value": "happy"}
+- i am [content]{"entity": "emotion", "value": "happy"}
+- i am [cheerful]{"entity": "emotion", "value": "happy"}
+- i am [merry]{"entity": "emotion", "value": "happy"}
+- i am [jovial]{"entity": "emotion", "value": "happy"}
+- i am [smiling]{"entity": "emotion", "value": "happy"}
+- i am [gratified]{"entity": "emotion", "value": "happy"}
+- i am [radiant]{"entity": "emotion", "value": "happy"}
+- i am [over the moon]{"entity": "emotion", "value": "happy"}
+- i am [jolly good]{"entity": "emotion", "value": "happy"}
+- i am [jolly]{"entity": "emotion", "value": "happy"}
+- i am [unhappy]{"entity": "emotion", "value": "sad"}
+- i am [dejected]{"entity": "emotion", "value": "sad"}
+- i am [down]{"entity": "emotion", "value": "sad"}
+- i am [out of sorts]{"entity": "emotion", "value": "sad"}
+- i am [depressed]{"entity": "emotion", "value": "sad"}
+- i am [lonely]{"entity": "emotion", "value": "sad"}
+- i am [suicidal]{"entity": "emotion", "value": "sad"}
+- i am in [pain]{"entity": "emotion", "value": "sad"}
+- i am [suffering]{"entity": "emotion", "value": "sad"}
+- i am [grieving]{"entity": "emotion", "value": "sad"}
+- i am seeing [death]{"entity": "emotion", "value": "sad"} everywhere
+- [death]{"entity": "emotion", "value": "sad"} has surrounded me
+- i am [mourning]{"entity": "emotion", "value": "sad"}
+- i am [miserable]{"entity": "emotion", "value": "sad"}
+- i am [grieving]{"entity": "emotion", "value": "sad"}
+- i am [not happy]{"entity": "emotion", "value": "sad"}
+- i am [disgusted]{"entity": "emotion", "value": "angry"}
+- i am [flabergasted]{"entity": "emotion", "value": "angry"}
+- i am [annoyed]{"entity": "emotion", "value": "angry"}
+- i am [irritated]{"entity": "emotion", "value": "angry"}
+- i am [irate]{"entity": "emotion", "value": "angry"}
+- i am [cross]{"entity": "emotion", "value": "angry"}
+- i am [vexed]{"entity": "emotion", "value": "angry"}
+- i am [exasperated]{"entity": "emotion", "value": "angry"}
+- i am [inflamed]{"entity": "emotion", "value": "angry"}
+- i am [indignant]{"entity": "emotion", "value": "angry"}
+- i am [aggrieved]{"entity": "emotion", "value": "angry"}
+- i am [irked]{"entity": "emotion", "value": "angry"}
+- i am [piqued]{"entity": "emotion", "value": "angry"}
+- i am [displeased]{"entity": "emotion", "value": "angry"}
+- i am [outraged]{"entity": "emotion", "value": "angry"}
+- i am [aggravated]{"entity": "emotion", "value": "angry"}
+- i am feeling [overjoyed]{"entity": "emotion", "value": "happy"}
+- i am feeling [excitement]{"entity": "emotion", "value": "happy"}
+- i am feeling [joy]{"entity": "emotion", "value": "happy"}
+- i am feeling [happiness]{"entity": "emotion", "value": "happy"}
+- i am feeling [contented]{"entity": "emotion", "value": "happy"}
+- i am feeling [content]{"entity": "emotion", "value": "happy"}
+- i am feeling [cheerful]{"entity": "emotion", "value": "happy"}
+- i am feeling [merry]{"entity": "emotion", "value": "happy"}
+- i am feeling [jovial]{"entity": "emotion", "value": "happy"}
+- i am feeling [gratified]{"entity": "emotion", "value": "happy"}
+- i am feeling [radiant]{"entity": "emotion", "value": "happy"}
+- i am feeling [jolly good]{"entity": "emotion", "value": "happy"}
+- i am feeling [unhappy]{"entity": "emotion", "value": "sad"}
+- i am feeling [dejected]{"entity": "emotion", "value": "sad"}
+- i am feeling [down]{"entity": "emotion", "value": "sad"}
+- i am feeling [out of sorts]{"entity": "emotion", "value": "sad"}
+- i am feeling [depressed]{"entity": "emotion", "value": "sad"}
+- i am feeling [lonely]{"entity": "emotion", "value": "sad"}
+- i am feeling [suicidal]{"entity": "emotion", "value": "sad"}
+- i am feeling [pain]{"entity": "emotion", "value": "sad"}
+- i am feeling [suffering]{"entity": "emotion", "value": "sad"}
+- i am feeling [sorrow]{"entity": "emotion", "value": "sad"}
+- i am feeling [grieving]{"entity": "emotion", "value": "sad"}
+- i am feeling [death]{"entity": "emotion", "value": "sad"}
+- i am feeling [mourning]{"entity": "emotion", "value": "sad"}
+- i am feeling [miserable]{"entity": "emotion", "value": "sad"}
+- i am feeling [grief]{"entity": "emotion", "value": "sad"}
+- i am feeling [unhappiness]{"entity": "emotion", "value": "sad"}
+- i am feeling [disgust]{"entity": "emotion", "value": "angry"}
+- i am feeling [flabergasted]{"entity": "emotion", "value": "angry"}
+- i am feeling [annoyed]{"entity": "emotion", "value": "angry"}
+- i am feeling [irritated]{"entity": "emotion", "value": "angry"}
+- i am feeling [irate]{"entity": "emotion", "value": "angry"}
+- i am feeling [cross]{"entity": "emotion", "value": "angry"}
+- i am feeling [vexed]{"entity": "emotion", "value": "angry"}
+- i am feeling [exasperated]{"entity": "emotion", "value": "angry"}
+- i am feeling [inflamed]{"entity": "emotion", "value": "angry"}
+- i am feeling [indignant]{"entity": "emotion", "value": "angry"}
+- i am feeling [aggrieved]{"entity": "emotion", "value": "angry"}
+- i am feeling [irked]{"entity": "emotion", "value": "angry"}
+- i am feeling [piqued]{"entity": "emotion", "value": "angry"}
+- i am feeling [displeased]{"entity": "emotion", "value": "angry"}
+- i am feeling [outrage]{"entity": "emotion", "value": "angry"}
+- i am feeling [outraged]{"entity": "emotion", "value": "angry"}
+- i am feeling [aggravated]{"entity": "emotion", "value": "angry"}
+- Lately i have been [overjoyed]{"entity": "emotion", "value": "happy"}
+- Lately i have been too [excited]{"entity": "emotion", "value": "happy"}
+- Lately i have been [joyful]{"entity": "emotion", "value": "happy"}
+- Lately i have been [happy]{"entity": "emotion", "value": "happy"}
+- Lately i have been [contented]{"entity": "emotion", "value": "happy"}
+- Lately i have been [content]{"entity": "emotion", "value": "happy"}
+- Lately i have been [cheerful]{"entity": "emotion", "value": "happy"}
+- Lately i have been [merry]{"entity": "emotion", "value": "happy"}
+- Lately i have been [jovial]{"entity": "emotion", "value": "happy"}
+- Lately i have been [smiling]{"entity": "emotion", "value": "happy"}
+- Lately i have been [gratified]{"entity": "emotion", "value": "happy"}
+- Lately i have been [radiant]{"entity": "emotion", "value": "happy"}
+- Lately i have been [over the moon]{"entity": "emotion", "value": "happy"}
+- Lately i have been [jolly good]{"entity": "emotion", "value": "happy"}
+- Lately i have been [unhappy]{"entity": "emotion", "value": "sad"}
+- Lately i have been [dejected]{"entity": "emotion", "value": "sad"}
+- Lately i have been [down]{"entity": "emotion", "value": "sad"}
+- Lately i have been [out of sorts]{"entity": "emotion", "value": "sad"}
+- Lately i have been [depressed]{"entity": "emotion", "value": "sad"}
+- Lately i have been [lonely]{"entity": "emotion", "value": "sad"}
+- Lately i have been [suicidal]{"entity": "emotion", "value": "sad"}
+- Lately i have been in [pain]{"entity": "emotion", "value": "sad"}
+- Lately i have been [suffering]{"entity": "emotion", "value": "sad"}
+- Lately i have been in [sorrow]{"entity": "emotion", "value": "sad"}
+- Lately i have been in [grieving]{"entity": "emotion", "value": "sad"}
+- Lately i have been experiencing [death]{"entity": "emotion", "value": "sad"}
+- Lately i have been seeing [death]{"entity": "emotion", "value": "sad"}
+- Lately i have been [mourning]{"entity": "emotion", "value": "sad"}
+- Lately i have been [miserable]{"entity": "emotion", "value": "sad"}
+- Lately i have been [grieving]{"entity": "emotion", "value": "sad"}
+- Lately i have been [unhappy]{"entity": "emotion", "value": "sad"}
+- Lately i have been [disgusted]{"entity": "emotion", "value": "angry"}
+- Lately i have been [flabergasted]{"entity": "emotion", "value": "angry"}
+- Lately i have been [annoyed]{"entity": "emotion", "value": "angry"}
+- Lately i have been [irritated]{"entity": "emotion", "value": "angry"}
+- Lately i have been [irate]{"entity": "emotion", "value": "angry"}
+- Lately i have been [cross]{"entity": "emotion", "value": "angry"}
+- Lately i have been [vexed]{"entity": "emotion", "value": "angry"}
+- Lately i have been [exasperated]{"entity": "emotion", "value": "angry"}
+- Lately i have been [inflamed]{"entity": "emotion", "value": "angry"}
+- Lately i have been [indignant]{"entity": "emotion", "value": "angry"}
+- Lately i have been [aggrieved]{"entity": "emotion", "value": "angry"}
+- Lately i have been [irked]{"entity": "emotion", "value": "angry"}
+- Lately i have been [piqued]{"entity": "emotion", "value": "angry"}
+- Lately i have been [displeased]{"entity": "emotion", "value": "angry"}
+- Lately i have been [outraged]{"entity": "emotion", "value": "angry"}
+- Lately i have been [aggravated]{"entity": "emotion", "value": "angry"}
+- i feel [overjoyed]{"entity": "emotion", "value": "happy"}
+- i feel [excitement]{"entity": "emotion", "value": "happy"}
+- i feel [joyful]{"entity": "emotion", "value": "happy"}
+- i feel [happiness]{"entity": "emotion", "value": "happy"}
+- i feel [contented]{"entity": "emotion", "value": "happy"}
+- i feel [content]{"entity": "emotion", "value": "happy"}
+- i feel [cheerful]{"entity": "emotion", "value": "happy"}
+- i feel [merry]{"entity": "emotion", "value": "happy"}
+- i feel [jovial]{"entity": "emotion", "value": "happy"}
+- i feel like [smiling]{"entity": "emotion", "value": "happy"}
+- i feel [gratified]{"entity": "emotion", "value": "happy"}
+- i feel [radiant]{"entity": "emotion", "value": "happy"}
+- i feel [over the moon]{"entity": "emotion", "value": "happy"}
+- i feel [jolly good]{"entity": "emotion", "value": "happy"}
+- i feel [unhappy]{"entity": "emotion", "value": "sad"}
+- i feel [dejected]{"entity": "emotion", "value": "sad"}
+- i feel [down]{"entity": "emotion", "value": "sad"}
+- i feel [out of sorts]{"entity": "emotion", "value": "sad"}
+- i feel [depressed]{"entity": "emotion", "value": "sad"}
+- i feel [lonely]{"entity": "emotion", "value": "sad"}
+- i feel [suicidal]{"entity": "emotion", "value": "sad"}
+- i feel [pain]{"entity": "emotion", "value": "sad"}
+- i feel [suffering]{"entity": "emotion", "value": "sad"}
+- i feel [sorrow]{"entity": "emotion", "value": "sad"}
+- i feel [grieving]{"entity": "emotion", "value": "sad"}
+- i feel [death]{"entity": "emotion", "value": "sad"}
+- i feel [mourning]{"entity": "emotion", "value": "sad"}
+- i feel [miserable]{"entity": "emotion", "value": "sad"}
+- i feel [grieve]{"entity": "emotion", "value": "sad"}
+- i feel [unhappiness]{"entity": "emotion", "value": "sad"}
+- i feel [disgusted]{"entity": "emotion", "value": "angry"}
+- i feel [flabergasted]{"entity": "emotion", "value": "angry"}
+- i feel [annoyed]{"entity": "emotion", "value": "angry"}
+- i feel [irritated]{"entity": "emotion", "value": "angry"}
+- i feel [irate]{"entity": "emotion", "value": "angry"}
+- i feel [cross]{"entity": "emotion", "value": "angry"}
+- i feel [vexed]{"entity": "emotion", "value": "angry"}
+- i feel [exasperated]{"entity": "emotion", "value": "angry"}
+- i feel [inflamed]{"entity": "emotion", "value": "angry"}
+- i feel [indignant]{"entity": "emotion", "value": "angry"}
+- i feel [aggrieved]{"entity": "emotion", "value": "angry"}
+- i feel [irked]{"entity": "emotion", "value": "angry"}
+- i feel [piqued]{"entity": "emotion", "value": "angry"}
+- i feel [displeased]{"entity": "emotion", "value": "angry"}
+- i feel [outrage]{"entity": "emotion", "value": "angry"}
+- i feel [outraged]{"entity": "emotion", "value": "angry"}
+- i feel [aggravated]{"entity": "emotion", "value": "angry"}
+- this feeling of [excitement]{"entity": "emotion", "value": "happy"}
+- this feeling of [joy]{"entity": "emotion", "value": "happy"}
+- this feeling of [happiness]{"entity": "emotion", "value": "happy"}
+- this feeling of [content]{"entity": "emotion", "value": "happy"}
+- this feeling of [merry]{"entity": "emotion", "value": "happy"}
+- this feeling of [gratification]{"entity": "emotion", "value": "happy"}
+- this feeling of [radiance]{"entity": "emotion", "value": "happy"}
+- this feeling like [over the moon]{"entity": "emotion", "value": "happy"}
+- this feeling of [unhappiness]{"entity": "emotion", "value": "sad"}
+- this feeling of [dejection]{"entity": "emotion", "value": "sad"}
+- this feeling is [out of sorts]{"entity": "emotion", "value": "sad"}
+- this feeling of [depression]{"entity": "emotion", "value": "sad"}
+- this feeling of [loneliness]{"entity": "emotion", "value": "sad"}
+- this feeling of [suicidal]{"entity": "emotion", "value": "sad"}
+- this feeling of [pain]{"entity": "emotion", "value": "sad"}
+- this feeling of [suffering]{"entity": "emotion", "value": "sad"}
+- this feeling of [sorrow]{"entity": "emotion", "value": "sad"}
+- this feeling of [grieving]{"entity": "emotion", "value": "sad"}
+- this feeling of [death]{"entity": "emotion", "value": "sad"}
+- this feeling of [mourning]{"entity": "emotion", "value": "sad"}
+- this feeling of [misery]{"entity": "emotion", "value": "sad"}
+- this feeling of [grieve]{"entity": "emotion", "value": "sad"}
+- this feeling of [unhappiness]{"entity": "emotion", "value": "sad"}
+- this feeling of [disgust]{"entity": "emotion", "value": "angry"}
+- this feeling of [annoyance]{"entity": "emotion", "value": "angry"}
+- this feeling of [irritation]{"entity": "emotion", "value": "angry"}
+- this feeling of [irate]{"entity": "emotion", "value": "angry"}
+- this feeling of [cross]{"entity": "emotion", "value": "angry"}
+- this feeling of [vex]{"entity": "emotion", "value": "angry"}
+- this feeling of [exasperation]{"entity": "emotion", "value": "angry"}
+- this feeling of [flame]{"entity": "emotion", "value": "angry"}
+- this feeling of [indignance]{"entity": "emotion", "value": "angry"}
+- this feeling of [irk]{"entity": "emotion", "value": "angry"}
+- this feeling of [pique]{"entity": "emotion", "value": "angry"}
 - this feeling of [displeased](emotion)
-- this feeling of [outrage](emotion:angry)
-- this feeling of [aggravation](emotion:angry)
-- take away my [overjoyed](emotion:happy)
-- take away my [excitement](emotion:happy)
-- take away my [joyful](emotion:happy)
-- take away my [happiness](emotion:happy)
-- take away my [contented](emotion:happy)
-- take away my [content](emotion:happy)
-- take away my [cheerful](emotion:happy)
-- take away my [merry](emotion:happy)
-- take away my [jovial](emotion:happy)
-- take away my [smiling](emotion:happy)
-- take away my [gratified](emotion:happy)
-- take away my [radiant](emotion:happy)
-- take away my [over the moon](emotion:happy)
-- take away my [jolly good](emotion:happy)
-- take away my [unhappy](emotion:sad)
-- take away my [dejected](emotion:sad)
-- take away my [down](emotion:sad)
-- take away my [out of sorts](emotion:sad)
-- take away my [depressed](emotion:sad)
-- take away my [lonely](emotion:sad)
-- take away my [suicidal](emotion:sad)
-- take away my [pain](emotion:sad)
-- take away my [suffering](emotion:sad)
-- take away my [sorrow](emotion:sad)
-- take away my [grieving](emotion:sad)
-- take away my [death](emotion:sad)
-- take away my [mourning](emotion:sad)
-- take away my [miserable](emotion:sad)
-- take away my [grieve](emotion:sad)
-- take away my [unhappiness](emotion:sad)
-- take away my [disgusted](emotion:angry)
-- take away my [flabergasted](emotion:angry)
-- take away my [annoyed](emotion:angry)
-- take away my [irritated](emotion:angry)
-- take away my [irate](emotion:angry)
-- take away my [cross](emotion:angry)
-- take away my [vexed](emotion:angry)
-- take away my [exasperated](emotion:angry)
-- take away my [inflamed](emotion:angry)
-- take away my [indignant](emotion:angry)
-- take away my [aggrieved](emotion:angry)
-- take away my [irked](emotion:angry)
-- take away my [piqued](emotion:angry)
-- take away my [displeased](emotion:angry)
-- take away my [outrage](emotion:angry)
-- take away my [outraged](emotion:angry)
-- take away my [aggravated](emotion:angry)
-- god only knows i am [overjoyed](emotion:happy)
-- god only knows i am [excitement](emotion:happy)
-- god only knows i am [joyful](emotion:happy)
-- god only knows i am [happiness](emotion:happy)
-- god only knows i am [contented](emotion:happy)
-- god only knows i am [content](emotion:happy)
-- god only knows i am [cheerful](emotion:happy)
-- god only knows i am [merry](emotion:happy)
-- god only knows i am [jovial](emotion:happy)
-- god only knows i am [smiling](emotion:happy)
-- god only knows i am [gratified](emotion:happy)
-- god only knows i am [radiant](emotion:happy)
-- god only knows i am [over the moon](emotion:happy)
-- god only knows i am [jolly good](emotion:happy)
-- god only knows i am [unhappy](emotion:sad)
-- god only knows i am [dejected](emotion:sad)
-- god only knows i am [down](emotion:sad)
-- god only knows i am [out of sorts](emotion:sad)
-- god only knows i am [depressed](emotion:sad)
-- god only knows i am [lonely](emotion:sad)
-- god only knows i am [suicidal](emotion:sad)
-- god only knows i am [pain](emotion:sad)
-- god only knows i am [suffering](emotion:sad)
-- god only knows i am [sorrow](emotion:sad)
-- god only knows i am [grieving](emotion:sad)
-- god only knows i am [death](emotion:sad)
-- god only knows i am [mourning](emotion:sad)
-- god only knows i am [miserable](emotion:sad)
-- god only knows i am [grieve](emotion:sad)
-- god only knows i am [unhappiness](emotion:sad)
-- god only knows i am [disgusted](emotion:angry)
-- god only knows i am [flabergasted](emotion:angry)
-- god only knows i am [annoyed](emotion:angry)
-- god only knows i am [irritated](emotion:angry)
-- god only knows i am [irate](emotion:angry)
-- god only knows i am [cross](emotion:angry)
-- god only knows i am [vexed](emotion:angry)
-- god only knows i am [exasperated](emotion:angry)
-- god only knows i am [inflamed](emotion:angry)
-- god only knows i am [indignant](emotion:angry)
-- god only knows i am [aggrieved](emotion:angry)
-- god only knows i am [irked](emotion:angry)
-- god only knows i am [piqued](emotion:angry)
-- god only knows i am [displeased](emotion:angry)
-- god only knows i am [outrage](emotion:angry)
-- god only knows i am [outraged](emotion:angry)
-- god only knows i am [aggravated](emotion:angry)
-- i have been [overjoyed](emotion:happy) lately
-- i have been [excitement](emotion:happy) lately
-- i have been [joyful](emotion:happy) lately
-- i have been [happiness](emotion:happy) lately
-- i have been [contented](emotion:happy) lately
-- i have been [content](emotion:happy) lately
-- i have been [cheerful](emotion:happy) lately
-- i have been [merry](emotion:happy) lately
-- i have been [jovial](emotion:happy) lately
-- i have been [smiling](emotion:happy) lately
-- i have been [gratified](emotion:happy) lately
-- i have been [radiant](emotion:happy) lately
-- i have been [over the moon](emotion:happy) lately
-- i have been [jolly good](emotion:happy) lately
-- i have been [unhappy](emotion:sad) lately
-- i have been [dejected](emotion:sad) lately
-- i have been [down](emotion:sad) lately
-- i have been [out of sorts](emotion:sad) lately
-- i have been [depressed](emotion:sad) lately
-- i have been [lonely](emotion:sad) lately
-- i have been [suicidal](emotion:sad) lately
-- i have been [pain](emotion:sad) lately
-- i have been [suffering](emotion:sad) lately
-- i have been [sorrow](emotion:sad) lately
-- i have been [grieving](emotion:sad) lately
-- i have been [death](emotion:sad) lately
-- i have been [mourning](emotion:sad) lately
-- i have been [miserable](emotion:sad) lately
-- i have been [grieve](emotion:sad) lately
-- i have been [unhappiness](emotion:sad) lately
-- i have been [disgusted](emotion:angry) lately
-- i have been [flabergasted](emotion:angry) lately
-- i have been [annoyed](emotion:angry) lately
-- i have been [irritated](emotion:angry) lately
-- i have been [irate](emotion:angry) lately
-- i have been [cross](emotion:angry) lately
-- i have been [vexed](emotion:angry) lately
-- i have been [exasperated](emotion:angry) lately
-- i have been [inflamed](emotion:angry) lately
-- i have been [indignant](emotion:angry) lately
-- i have been [aggrieved](emotion:angry) lately
-- i have been [irked](emotion:angry) lately
-- i have been [piqued](emotion:angry) lately
-- i have been [displeased](emotion:angry) lately
-- i have been [outrage](emotion:angry) lately
-- i have been [outraged](emotion:angry) lately
-- i have been [aggravated](emotion:angry) lately
+- this feeling of [outrage]{"entity": "emotion", "value": "angry"}
+- this feeling of [aggravation]{"entity": "emotion", "value": "angry"}
+- take away my [overjoyed]{"entity": "emotion", "value": "happy"}
+- take away my [excitement]{"entity": "emotion", "value": "happy"}
+- take away my [joyful]{"entity": "emotion", "value": "happy"}
+- take away my [happiness]{"entity": "emotion", "value": "happy"}
+- take away my [contented]{"entity": "emotion", "value": "happy"}
+- take away my [content]{"entity": "emotion", "value": "happy"}
+- take away my [cheerful]{"entity": "emotion", "value": "happy"}
+- take away my [merry]{"entity": "emotion", "value": "happy"}
+- take away my [jovial]{"entity": "emotion", "value": "happy"}
+- take away my [smiling]{"entity": "emotion", "value": "happy"}
+- take away my [gratified]{"entity": "emotion", "value": "happy"}
+- take away my [radiant]{"entity": "emotion", "value": "happy"}
+- take away my [over the moon]{"entity": "emotion", "value": "happy"}
+- take away my [jolly good]{"entity": "emotion", "value": "happy"}
+- take away my [unhappy]{"entity": "emotion", "value": "sad"}
+- take away my [dejected]{"entity": "emotion", "value": "sad"}
+- take away my [down]{"entity": "emotion", "value": "sad"}
+- take away my [out of sorts]{"entity": "emotion", "value": "sad"}
+- take away my [depressed]{"entity": "emotion", "value": "sad"}
+- take away my [lonely]{"entity": "emotion", "value": "sad"}
+- take away my [suicidal]{"entity": "emotion", "value": "sad"}
+- take away my [pain]{"entity": "emotion", "value": "sad"}
+- take away my [suffering]{"entity": "emotion", "value": "sad"}
+- take away my [sorrow]{"entity": "emotion", "value": "sad"}
+- take away my [grieving]{"entity": "emotion", "value": "sad"}
+- take away my [death]{"entity": "emotion", "value": "sad"}
+- take away my [mourning]{"entity": "emotion", "value": "sad"}
+- take away my [miserable]{"entity": "emotion", "value": "sad"}
+- take away my [grieve]{"entity": "emotion", "value": "sad"}
+- take away my [unhappiness]{"entity": "emotion", "value": "sad"}
+- take away my [disgusted]{"entity": "emotion", "value": "angry"}
+- take away my [flabergasted]{"entity": "emotion", "value": "angry"}
+- take away my [annoyed]{"entity": "emotion", "value": "angry"}
+- take away my [irritated]{"entity": "emotion", "value": "angry"}
+- take away my [irate]{"entity": "emotion", "value": "angry"}
+- take away my [cross]{"entity": "emotion", "value": "angry"}
+- take away my [vexed]{"entity": "emotion", "value": "angry"}
+- take away my [exasperated]{"entity": "emotion", "value": "angry"}
+- take away my [inflamed]{"entity": "emotion", "value": "angry"}
+- take away my [indignant]{"entity": "emotion", "value": "angry"}
+- take away my [aggrieved]{"entity": "emotion", "value": "angry"}
+- take away my [irked]{"entity": "emotion", "value": "angry"}
+- take away my [piqued]{"entity": "emotion", "value": "angry"}
+- take away my [displeased]{"entity": "emotion", "value": "angry"}
+- take away my [outrage]{"entity": "emotion", "value": "angry"}
+- take away my [outraged]{"entity": "emotion", "value": "angry"}
+- take away my [aggravated]{"entity": "emotion", "value": "angry"}
+- god only knows i am [overjoyed]{"entity": "emotion", "value": "happy"}
+- god only knows i am [excitement]{"entity": "emotion", "value": "happy"}
+- god only knows i am [joyful]{"entity": "emotion", "value": "happy"}
+- god only knows i am [happiness]{"entity": "emotion", "value": "happy"}
+- god only knows i am [contented]{"entity": "emotion", "value": "happy"}
+- god only knows i am [content]{"entity": "emotion", "value": "happy"}
+- god only knows i am [cheerful]{"entity": "emotion", "value": "happy"}
+- god only knows i am [merry]{"entity": "emotion", "value": "happy"}
+- god only knows i am [jovial]{"entity": "emotion", "value": "happy"}
+- god only knows i am [smiling]{"entity": "emotion", "value": "happy"}
+- god only knows i am [gratified]{"entity": "emotion", "value": "happy"}
+- god only knows i am [radiant]{"entity": "emotion", "value": "happy"}
+- god only knows i am [over the moon]{"entity": "emotion", "value": "happy"}
+- god only knows i am [jolly good]{"entity": "emotion", "value": "happy"}
+- god only knows i am [unhappy]{"entity": "emotion", "value": "sad"}
+- god only knows i am [dejected]{"entity": "emotion", "value": "sad"}
+- god only knows i am [down]{"entity": "emotion", "value": "sad"}
+- god only knows i am [out of sorts]{"entity": "emotion", "value": "sad"}
+- god only knows i am [depressed]{"entity": "emotion", "value": "sad"}
+- god only knows i am [lonely]{"entity": "emotion", "value": "sad"}
+- god only knows i am [suicidal]{"entity": "emotion", "value": "sad"}
+- god only knows i am [pain]{"entity": "emotion", "value": "sad"}
+- god only knows i am [suffering]{"entity": "emotion", "value": "sad"}
+- god only knows i am [sorrow]{"entity": "emotion", "value": "sad"}
+- god only knows i am [grieving]{"entity": "emotion", "value": "sad"}
+- god only knows i am [death]{"entity": "emotion", "value": "sad"}
+- god only knows i am [mourning]{"entity": "emotion", "value": "sad"}
+- god only knows i am [miserable]{"entity": "emotion", "value": "sad"}
+- god only knows i am [grieve]{"entity": "emotion", "value": "sad"}
+- god only knows i am [unhappiness]{"entity": "emotion", "value": "sad"}
+- god only knows i am [disgusted]{"entity": "emotion", "value": "angry"}
+- god only knows i am [flabergasted]{"entity": "emotion", "value": "angry"}
+- god only knows i am [annoyed]{"entity": "emotion", "value": "angry"}
+- god only knows i am [irritated]{"entity": "emotion", "value": "angry"}
+- god only knows i am [irate]{"entity": "emotion", "value": "angry"}
+- god only knows i am [cross]{"entity": "emotion", "value": "angry"}
+- god only knows i am [vexed]{"entity": "emotion", "value": "angry"}
+- god only knows i am [exasperated]{"entity": "emotion", "value": "angry"}
+- god only knows i am [inflamed]{"entity": "emotion", "value": "angry"}
+- god only knows i am [indignant]{"entity": "emotion", "value": "angry"}
+- god only knows i am [aggrieved]{"entity": "emotion", "value": "angry"}
+- god only knows i am [irked]{"entity": "emotion", "value": "angry"}
+- god only knows i am [piqued]{"entity": "emotion", "value": "angry"}
+- god only knows i am [displeased]{"entity": "emotion", "value": "angry"}
+- god only knows i am [outrage]{"entity": "emotion", "value": "angry"}
+- god only knows i am [outraged]{"entity": "emotion", "value": "angry"}
+- god only knows i am [aggravated]{"entity": "emotion", "value": "angry"}
+- i have been [overjoyed]{"entity": "emotion", "value": "happy"} lately
+- i have been [excitement]{"entity": "emotion", "value": "happy"} lately
+- i have been [joyful]{"entity": "emotion", "value": "happy"} lately
+- i have been [happiness]{"entity": "emotion", "value": "happy"} lately
+- i have been [contented]{"entity": "emotion", "value": "happy"} lately
+- i have been [content]{"entity": "emotion", "value": "happy"} lately
+- i have been [cheerful]{"entity": "emotion", "value": "happy"} lately
+- i have been [merry]{"entity": "emotion", "value": "happy"} lately
+- i have been [jovial]{"entity": "emotion", "value": "happy"} lately
+- i have been [smiling]{"entity": "emotion", "value": "happy"} lately
+- i have been [gratified]{"entity": "emotion", "value": "happy"} lately
+- i have been [radiant]{"entity": "emotion", "value": "happy"} lately
+- i have been [over the moon]{"entity": "emotion", "value": "happy"} lately
+- i have been [jolly good]{"entity": "emotion", "value": "happy"} lately
+- i have been [unhappy]{"entity": "emotion", "value": "sad"} lately
+- i have been [dejected]{"entity": "emotion", "value": "sad"} lately
+- i have been [down]{"entity": "emotion", "value": "sad"} lately
+- i have been [out of sorts]{"entity": "emotion", "value": "sad"} lately
+- i have been [depressed]{"entity": "emotion", "value": "sad"} lately
+- i have been [lonely]{"entity": "emotion", "value": "sad"} lately
+- i have been [suicidal]{"entity": "emotion", "value": "sad"} lately
+- i have been [pain]{"entity": "emotion", "value": "sad"} lately
+- i have been [suffering]{"entity": "emotion", "value": "sad"} lately
+- i have been [sorrow]{"entity": "emotion", "value": "sad"} lately
+- i have been [grieving]{"entity": "emotion", "value": "sad"} lately
+- i have been [death]{"entity": "emotion", "value": "sad"} lately
+- i have been [mourning]{"entity": "emotion", "value": "sad"} lately
+- i have been [miserable]{"entity": "emotion", "value": "sad"} lately
+- i have been [grieve]{"entity": "emotion", "value": "sad"} lately
+- i have been [unhappiness]{"entity": "emotion", "value": "sad"} lately
+- i have been [disgusted]{"entity": "emotion", "value": "angry"} lately
+- i have been [flabergasted]{"entity": "emotion", "value": "angry"} lately
+- i have been [annoyed]{"entity": "emotion", "value": "angry"} lately
+- i have been [irritated]{"entity": "emotion", "value": "angry"} lately
+- i have been [irate]{"entity": "emotion", "value": "angry"} lately
+- i have been [cross]{"entity": "emotion", "value": "angry"} lately
+- i have been [vexed]{"entity": "emotion", "value": "angry"} lately
+- i have been [exasperated]{"entity": "emotion", "value": "angry"} lately
+- i have been [inflamed]{"entity": "emotion", "value": "angry"} lately
+- i have been [indignant]{"entity": "emotion", "value": "angry"} lately
+- i have been [aggrieved]{"entity": "emotion", "value": "angry"} lately
+- i have been [irked]{"entity": "emotion", "value": "angry"} lately
+- i have been [piqued]{"entity": "emotion", "value": "angry"} lately
+- i have been [displeased]{"entity": "emotion", "value": "angry"} lately
+- i have been [outrage]{"entity": "emotion", "value": "angry"} lately
+- i have been [outraged]{"entity": "emotion", "value": "angry"} lately
+- i have been [aggravated]{"entity": "emotion", "value": "angry"} lately
 
 ## intent:ask_name
 - My name is [Vedant](name)
@@ -863,7 +863,7 @@
 - I'm [Vedant](name)
 - People call me [Elvis](name)
 - You can call me [Vedant](name)
-- My name is [Vedant](name:Vedant)
+- My name is [Vedant]{"entity": "name", "value": "Vedant"}
 
 ## intent:get_happy_images
 - Can you get me image of a cat?

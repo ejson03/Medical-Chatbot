@@ -22,8 +22,8 @@ killProcesses()
 
 root = os.path.abspath(os.getcwd())
 
-# os.chdir(root+'/flask-app')
-# process3 = subprocess.Popen(['python', 'app.py'], shell=True)
+os.chdir(root+'/flask-app')
+process3 = subprocess.Popen(['python', 'app.py'], shell=True)
 
 os.chdir(root+'/chatbot')
 process1 = subprocess.Popen(['rasa', 'run', 'actions'], shell=True)
@@ -35,5 +35,5 @@ cmd = "rasa run -m models --endpoint endpoints.yml --enable-api --cors “*” -
 process2 = subprocess.Popen(cmd, shell=True)
 process2.wait()
 
-os.kill(os.getid(process.pid), SIGTERM)
+os.kill(os.getid(process3.pid), SIGTERM)
 
