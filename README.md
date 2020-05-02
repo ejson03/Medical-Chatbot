@@ -17,7 +17,7 @@ A therapy based chatbot for emotion analysis and visualization
 There is a wave of emotional unstabiltiy among people who are on a downward spiral in life or are going through hard times. We have developed a chat companion to make the user feel better and to track analysis of users behaviour.
 
 
-### Chatbot replying with a joke
+### Chatbot replying with a joke & quote
 ![Joke](images/joke.png)
 
 ### Chatbot playing a youtube music video based on user emotion

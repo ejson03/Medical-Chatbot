@@ -6,6 +6,7 @@ from rasa.core.channels.channel import InputChannel
 from sanic.request import Request
 from datetime import datetime, timedelta
 import jwt
+
 logger = logging.getLogger(__name__)
 
 class Token(InputChannel):
@@ -29,14 +30,15 @@ class Token(InputChannel):
                 return response.json({"error":"Missing sender"}, 400)
 
             sender_id = request.json.get("sender", None)
+            role = request.json.get("role", None)
             print("Sender ID: ", sender_id)
             utcnow = datetime.utcnow() + timedelta(seconds=-5)
             expires = utcnow + timedelta(hours=24)                     
             try:
-                payload = {'iat': utcnow,'sender_id': sender_id, 'role':'user', 'exp':expires}
+                payload = {'iat': utcnow,'user_id': sender_id, 'role': role, 'exp':expires}
                 bot_token = jwt.encode( payload,
                                     'thisismysecret', 
-                                    algorithm='HS256').decode("utf-8")
+                                    algorithm='HS256')
             except Exception as e:
                 return response.json({'error':str(e)}, 400)
             return response.json({"bot_token": bot_token}, 200)

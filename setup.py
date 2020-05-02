@@ -29,7 +29,7 @@ os.chdir(root+'/chatbot')
 process1 = subprocess.Popen(['rasa', 'run', 'actions'], shell=True)
 
 time.sleep(.300)
-cmd = "rasa run -m models --endpoint endpoints.yml --enable-api --cors “*” --log-file out.log"
+cmd = "rasa run -m models --endpoint endpoints.yml --credential credentials.yml --enable-api --cors “*” --log-file out.log"
 # process2 = subprocess.Popen(['rasa', 'run', '-m models', '--endpoint' , 'endpoints.yml', '--enable-api',
 #                                 '--cors','--log-file',  'out.log'], shell=True)
 process2 = subprocess.Popen(cmd, shell=True)

@@ -1,17 +1,32 @@
 from flask import Flask, render_template, request, jsonify, redirect, url_for
 import requests
 from flask_cors import CORS, cross_origin
-from report import User, getAllUsers, getWeb
+from modules.report import User, getAllUsers, getWeb
+from modules.session import Session
 import os
+from os import system
 from dotenv import load_dotenv
+import jwt, json
 
 load_dotenv()
 GMAP_API_KEY = os.getenv("KEY")
+SECRET_KEY = os.getenv("SECRET_KEY")
+RASA_URI = "http://localhost:5005"
 
 app = Flask(__name__)
-RASA_URI = "http://localhost:5005"
+session = Session()
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
+
+def jwt_sess_auth(message):
+    res = requests.post(f"{RASA_URI}/webhooks/token/webhook", json=message)
+    res = res.json()
+    session.set(res['bot_token'])
+
+def jwt_decode(token):
+    query = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])
+    return query
+
 if not os.path.exists("uploads"):
     os.makedirs("uploads")
 
@@ -23,32 +38,30 @@ def index():
 def admin():
     return render_template("admin.html", name = 'admin')
 
-@app.route('/home/<name>')
-def user(name):
-    return render_template("user.html", name = name, key = GMAP_API_KEY) 
-    
+@app.route('/home')
+def user():
+    return render_template("user.html", key = GMAP_API_KEY) 
+  
 @app.route('/login', methods=['POST'])
 def login():
     name = request.form.get("name")
     password = request.form.get("pass")
+
     if(name == "admin" and password == "admin"):
+        message = {'sender' : name, 'role': 'admin'}
+        jwt_sess_auth(message)
         return redirect(url_for('admin'))
     else:
-        return redirect(f'/home/{name}')
+        message = {'sender' : name, 'role': 'user'}
+        jwt_sess_auth(message)
+        return redirect(url_for('user'))
 
-@cross_origin()
+@cross_origin() 
 @app.route('/rasa', methods=['POST'])
 def action():
     message = request.json
-    res = requests.post(f"{RASA_URI}/webhooks/rest/webhook", json=message)
-    return jsonify(res.json())
-
-@cross_origin()
-@app.route('/auth', methods=['POST'])
-def auth():
-    message = request.json
-    print(message)
-    res = requests.post(f"{RASA_URI}/webhooks/token/webhook", json=message)
+    message['sender'] = jwt_decode(session.get())['user_id']
+    res = requests.post(f"{RASA_URI}/webhooks/rest/webhook", json=message, headers={'Authorization': session.get()})
     return jsonify(res.json())
 
 @app.route('/report', methods=['POST'])
@@ -89,16 +102,15 @@ def getWebsite(query):
         'url':url
     }
 
-@app.route('/showmap/<name>')
-def showmap(name):
-    return render_template('map.html', name = name, key = GMAP_API_KEY)
+@app.route('/showmap')
+def showmap():
+    return render_template('map.html', key = GMAP_API_KEY)
 
-@app.route('/uploads/<name>', methods=['POST'])
-def upload(name):
-    print(name)
+@app.route('/uploads', methods=['POST'])
+def upload():
     if request.method == 'POST':
         data = request.files['file']
-        print(data.filename)
+        name = jwt_decode(session.get())['user_id']
         if not os.path.exists(f'uploads/{name}'):
             os.makedirs(f'uploads/{name}')
         data.save(f'uploads/{name}/{data.filename}')
@@ -108,4 +120,5 @@ def upload(name):
 
 
 if __name__ == '__main__':
+    _ = system('cls') 
     app.run(debug=True)

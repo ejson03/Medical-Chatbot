@@ -6,7 +6,6 @@ $(document).ready(function () {
 		document.getElementById("result_div").innerHTML = "";
 	});
 	
-	const user_id = document.getElementById("username").innerHTML;
 	$('#chat-input').on('keyup keypress', function (e) {
 		var keyCode = e.keyCode || e.which;
 		var text = $("#chat-input").val();
@@ -17,7 +16,7 @@ $(document).ready(function () {
 			} else {
 				$("#chat-input").blur();
 				setUserResponse(text);
-				send(text, user_id);
+				send(text);
 				e.preventDefault();
 				return false;
 			}
@@ -51,12 +50,12 @@ $('#imgupload').change(async function(){
 });
 
 //------------------------------------------- Call the RASA API--------------------------------------
-function send(text, user_id) {
+function send(text) {
 	$.ajax({
 		url: `/rasa`, //  RASA API
 		type: 'POST',
 		contentType: "application/json",
-		data: JSON.stringify({ message: text, sender: user_id }),
+		data: JSON.stringify({ message: text}),
 		success: function (data, textStatus, xhr) {
 			console.log(data);
 
@@ -149,11 +148,9 @@ function setBotResponse(val) {
 			let error = 'Sorry I wasn\'t able to understand your Query. Let\' try something else!'
 			let base = createBaseChat();
 			let response = createDiv(style=["msg_cotainer"], id="", text=error);
-			let timeBox = createDiv(style=["msg_container"], id="time")
 			let timespan = createSpan(style=["msg_time"], text=time);
-			timeBox.appendChild(timespan)
+			response.appendChild(timespan)
 			base.appendChild(response)
-			base.appendChild(timeBox)
 			var BotResponse = base
 			$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
 		} else {
@@ -165,13 +162,11 @@ function setBotResponse(val) {
 					let img = createImage(src=url)
 					img.height = 480;
 					img.width = 720;
-					let timeBox = createDiv(style=["msg_container"], id="time")
-					let timespan = createSpan(style=["msg_time"], text=time);
+				
 					response.appendChild(img);
 					response.style="margin-left:15px;"	
 					base.appendChild(response)
-					timeBox.appendChild(timespan);
-					base.appendChild(timeBox)
+				
 					BotResponse = base;
 					$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
 
@@ -184,13 +179,11 @@ function setBotResponse(val) {
 						let base = createBaseChat();
 						let container = createDiv(style=[], id="video")
 						let iframe = createIframe(url);
-						let timeBox = createDiv(style=["msg_container"], id="time")
-						let timespan = createSpan(style=["msg_time"], text=time);
+						
 						container.appendChild(iframe);
 						container.style="margin-left:15px;"
-						base.appendChild(container);
-						timeBox.appendChild(timespan);
-					base.appendChild(timeBox)
+						base.appendChild(container)
+			
 						BotResponse = base;
 						$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
 
@@ -198,12 +191,9 @@ function setBotResponse(val) {
 					if (val[i].custom.payload == "map") {
 						let base = createBaseChat();
 						let map = createDiv(style=[], id="map")
-						let timespan = createSpan(style=["msg_time1"], text=time);
-						let timeBox = createDiv(style=["msg_container"], id="time")
 						map.style = "height: 480px; width: 720px;margin-left:15px;"
 						base.appendChild(map);
-						timeBox.appendChild(timespan);
-						base.appendChild(timeBox)
+					
 						BotResponse = base;
 						$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
 						createMap()
@@ -231,12 +221,9 @@ function setBotResponse(val) {
 				else {
 					let base = createBaseChat();
 					let response = createDiv(style=["msg_cotainer"], id="", text = val[i].text);
-					let timeBox = createDiv(style=["msg_container"], id="time")
 					let timespan = createSpan(style=["msg_time"], text=time);
-					timeBox.appendChild(timespan)
+					response.appendChild(timespan)
 					base.appendChild(response)
-					timeBox.appendChild(timespan);
-					base.appendChild(timeBox)
 					BotResponse = base
 					console.log(BotResponse)
 					$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
@@ -301,16 +288,6 @@ function addSuggestion(textToAdd) {
 		scrollToBottomOfResults();
 	}, 1000);
 }
-
-
-// on click of suggestions get value and send to API.AI
-$("#send").on("click", ".suggestion span", function () {
-	var text = this.innerText;
-	setUserResponse(text);
-	send(text);
-	$('.suggestion').remove();
-});
-// Suggestions end -----------------------------------------------------------------------------------------
 
 //====================================== creating Charts ======================================
 
