@@ -1,25 +1,31 @@
-from flask import Flask, render_template, request, jsonify, redirect, url_for
+from flask import Flask, render_template, request, jsonify, redirect, url_for, abort, session
 import requests
+from flask_pymongo import PyMongo
 from flask_cors import CORS, cross_origin
 from modules.report import User, getAllUsers, getWeb
-from modules.session import Session
+# from modules.session import Session
 import os
 from os import system, environ
 import jwt, json
+import bcrypt
 
+MONGO_URL = environ.get("MONGODB_STRING")
 GMAP_API_KEY = environ.get("KEY")
 SECRET_KEY = environ.get("SECRET_KEY")
 RASA_URI = "http://localhost:5005"
 
 app = Flask(__name__)
-session = Session()
+# session = Session()
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
+app.config['MONGO_DBNAME'] = 'authenticate'
+app.config['MONGO_URI'] = f"{MONGO_URL}/authenticate"
+mongo = PyMongo(app)
 
 def jwt_sess_auth(message):
     res = requests.post(f"{RASA_URI}/webhooks/token/webhook", json=message)
     res = res.json()
-    session.set(res['bot_token'])
+    session['token'] = res['bot_token']
 
 def jwt_decode(token):
     query = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])
@@ -44,16 +50,44 @@ def user():
 def login():
     name = request.form.get("name")
     password = request.form.get("pass")
-
     if(name == "admin" and password == "admin"):
         message = {'sender' : name, 'role': 'admin'}
         jwt_sess_auth(message)
         return redirect(url_for('admin'))
     else:
-        message = {'sender' : name, 'role': 'user'}
-        jwt_sess_auth(message)
-        return redirect(url_for('user'))
+        users = mongo.db.users
+        login_user = users.find_one({'name' : name})
+        if login_user:
+            if bcrypt.hashpw(password.encode('utf-8'), login_user['password'].encode('utf-8')) == login_user['password'].encode('utf-8'):
+                session['username'] = name
+                message = {'sender' : name, 'role': 'user'}
+                jwt_sess_auth(message)
+                return redirect(url_for('user'))
+    return 'Invalid username/password combination'
 
+@app.route('/register', methods=['POST', 'GET'])
+def register():
+    if request.method == 'POST':
+        name = request.form.get("name")
+        password = request.form.get("pass")
+
+        if(name == "admin" and password == "admin"):
+            message = {'sender' : name, 'role': 'admin'}
+            jwt_sess_auth(message)
+            return redirect(url_for('admin'))
+        else:
+            users = mongo.db.users
+            existing_user = users.find_one({'name' : name})
+
+            if existing_user is None:
+                hashpass = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
+                users.insert({'name' : name, 'password' : hashpass})
+                session['username'] = name
+                message = {'sender' : name, 'role': 'user'}
+                jwt_sess_auth(message)
+                return redirect(url_for('user'))
+
+    
 @cross_origin() 
 @app.route('/rasa', methods=['POST'])
 def action():
@@ -118,9 +152,8 @@ def upload():
 
 
 if __name__ == '__main__':
-    _ = system('cls') 
+    # context = ('server.crt', 'server.key')
+    # app.secret_key = 'mysecret'
+    # app.run(host='0.0.0.0', debug=True, ssl_context=context)
+
     app.run(debug=True)
-    
-    # for docker
-    #context = ('server.crt', 'server.key')
-    #app.run(host='0.0.0.0', debug=True, ssl_context=context)

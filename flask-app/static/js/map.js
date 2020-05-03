@@ -52,7 +52,7 @@ async function setPos(myLocation) {
     service.nearbySearch({
         location: myLocation,
         radius: 4000,
-        types: ['hospital']
+        types: ['occupational therapist']
     }, processResults);
 
 
