@@ -8,15 +8,14 @@ from socketio import AsyncServer
 from asyncio import Queue, CancelledError
 from rasa.core.channels.channel import UserMessage, OutputChannel, CollectingOutputChannel, InputChannel
 import jwt
-from dotenv import load_dotenv
+from os import environ
 
-load_dotenv()
 logger = logging.getLogger(__name__)
-# SECRET_KEY = os.getenv("SECRET_KEY")'
+SECRET_KEY = environ.get("SECRET_KEY")
 
 def jwt_decode(token):
     try:
-        query = jwt.decode(token, "thisismysecret", algorithms=['HS256'])
+        query = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])
         return query
     except:
         return False

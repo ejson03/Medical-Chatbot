@@ -1,8 +1,10 @@
 import os
+from dotenv import load_dotenv
 import subprocess
 import time
 from psutil import process_iter
 from signal import SIGTERM
+
 
 def killProcesses():
     try:
@@ -19,7 +21,7 @@ def killProcesses():
 
 killProcesses()
 
-
+load_dotenv()
 root = os.path.abspath(os.getcwd())
 
 os.chdir(root+'/flask-app')
@@ -30,8 +32,6 @@ process1 = subprocess.Popen(['rasa', 'run', 'actions'], shell=True)
 
 time.sleep(.300)
 cmd = "rasa run -m models --endpoint endpoints.yml --credential credentials.yml --enable-api --cors “*” --log-file out.log"
-# process2 = subprocess.Popen(['rasa', 'run', '-m models', '--endpoint' , 'endpoints.yml', '--enable-api',
-#                                 '--cors','--log-file',  'out.log'], shell=True)
 process2 = subprocess.Popen(cmd, shell=True)
 process2.wait()
 

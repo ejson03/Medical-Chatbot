@@ -6,7 +6,9 @@ from rasa.core.channels.channel import InputChannel
 from sanic.request import Request
 from datetime import datetime, timedelta
 import jwt
+from os import environ
 
+SECRET_KEY = environ.get("SECRET_KEY")
 logger = logging.getLogger(__name__)
 
 class Token(InputChannel):
@@ -37,7 +39,7 @@ class Token(InputChannel):
             try:
                 payload = {'iat': utcnow,'user_id': sender_id, 'role': role, 'exp':expires}
                 bot_token = jwt.encode( payload,
-                                    'thisismysecret', 
+                                    SECRET_KEY, 
                                     algorithm='HS256')
             except Exception as e:
                 return response.json({'error':str(e)}, 400)

@@ -10,6 +10,7 @@ actions:
 - action_weather
 - action_temp
 - utter_ask_location
+- action_diagnose_symptoms
 - utter_thank
 - utter_default
 - utter_get_happy_images
@@ -125,6 +126,7 @@ intents:
   - ask_temperature
   - ask_weather
   - show_map
+  - describe_symptoms
   - handleinsult
   - telljoke
   - tellquote
@@ -216,12 +218,15 @@ entities:
   - emotion
   - name
   - location
+  - symptom
 
 slots:
   name:
     type: text
   location:
     type: text
+  symptom:
+    type: list
 
 responses:
 

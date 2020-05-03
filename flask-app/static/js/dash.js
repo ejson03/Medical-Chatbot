@@ -246,6 +246,7 @@ $(function () {
           data: $(this).serialize(),
           type: 'POST',
           success: function(data) {
+              alert("hi");
               createChart(data['name']);
           }
       });

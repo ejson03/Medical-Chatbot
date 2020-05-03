@@ -4,13 +4,11 @@ from flask_cors import CORS, cross_origin
 from modules.report import User, getAllUsers, getWeb
 from modules.session import Session
 import os
-from os import system
-from dotenv import load_dotenv
+from os import system, environ
 import jwt, json
 
-load_dotenv()
-GMAP_API_KEY = os.getenv("KEY")
-SECRET_KEY = os.getenv("SECRET_KEY")
+GMAP_API_KEY = environ.get("KEY")
+SECRET_KEY = environ.get("SECRET_KEY")
 RASA_URI = "http://localhost:5005"
 
 app = Flask(__name__)
@@ -122,3 +120,7 @@ def upload():
 if __name__ == '__main__':
     _ = system('cls') 
     app.run(debug=True)
+    
+    # for docker
+    #context = ('server.crt', 'server.key')
+    #app.run(host='0.0.0.0', debug=True, ssl_context=context)

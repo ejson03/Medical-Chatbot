@@ -1,0 +1,21 @@
+version: '2'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    links:
+      - mongodb
+
+  mongodb:
+    image: mongo:latest
+    ports:
+        - '27017:27017'
+    command: mongod --bind_ip_all
+    restart: always
+

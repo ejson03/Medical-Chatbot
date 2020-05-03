@@ -141,3 +141,5 @@ rasa
 .env
 .google-cookie
 uploads
+server.key
+server.crt

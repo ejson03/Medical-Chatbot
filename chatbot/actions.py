@@ -8,8 +8,10 @@ from typing import Dict, Text, Any, List, Union, Type, Optional
 import typing
 import logging
 from modules.utils import *
+from modules.diagnose import encode_symptom, create_illness_vector, get_diagnosis
 import os
 import requests
+from os import environ
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet, AllSlotsReset, EventType
@@ -17,9 +19,7 @@ from rasa_sdk.forms import FormAction, REQUESTED_SLOT
 from rasa_sdk.executor import CollectingDispatcher
 
 from datetime import datetime, date, time, timedelta
-from dotenv import load_dotenv
 
-load_dotenv()
 
 
 class ActionGetSong(Action):
@@ -69,8 +69,8 @@ class ActionWeather(Action):
         return 'action_weather'
 
     def run(self, dispatcher, tracker, domain):
-        app_id = os.getenv("WEATHER_ID")
-        app_key = os.getenv("WEATHER_KEY")
+        app_id = environ.get("WEATHER_ID")
+        app_key = environ.get("WEATHER_KEY")
         base_url = "https://weather.api.here.com/weather/1.0/report.json?" 
  
         location = tracker.get_slot('location')
@@ -95,8 +95,8 @@ class ActionTemperature(Action):
         return 'action_temp'
       
     def run(self, dispatcher, tracker, domain):
-        app_id = "JnnC8L7yA6ebC44rCiuj"
-        app_key = "twQ8s3NiYo2MCBZfj1pZAQ"
+        app_id = environ.get("WEATHER_ID")
+        app_key = environ.get("WEATHER_KEY")
         base_url = "https://weather.api.here.com/weather/1.0/report.json?" 
  
         location = tracker.get_slot('location')
@@ -112,6 +112,19 @@ class ActionTemperature(Action):
             dispatcher.utter_message(response)
         else:
             dispatcher.utter_message("City Not Found ")
+
+class ActionDiagnoseSymptoms(Action):
+
+    def name(self):
+        return "action_diagnose_symptoms"
+
+    def run(self, dispatcher, tracker, domain):
+
+        symptoms = tracker.get_slot("symptom")
+        encoded_symptoms = [encode_symptom(symptom) for symptom in symptoms]
+        illness_vector = create_illness_vector(encoded_symptoms)
+        diagnosis_string = get_diagnosis(illness_vector)
+        dispatcher.utter_message(text=diagnosis_string)
     
 
 

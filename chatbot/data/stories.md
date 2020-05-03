@@ -9,6 +9,10 @@
 ## story 5
 * ask_temperature
 	- action_temp
+
+## story 6
+* describe_symptoms
+  - action_diagnose_symptoms
   
 ## Generated Story 1
 * greet
@@ -132,6 +136,8 @@
   - utter_greet
 * get_emotion
   - action_get_song
+* describe_symptoms
+  - action_diagnose_symptoms
 
 ## sad path 1
 * greet
@@ -140,6 +146,8 @@
   - action_get_song
 * affirm
   - utter_ask_howdoing
+* describe_symptoms
+  - action_diagnose_symptoms
 * goodbye
   - utter_goodbye
 
@@ -164,6 +172,8 @@
     - utter_greet
 * get_emotion
     - action_get_song
+* describe_symptoms
+  - action_diagnose_symptoms
 * show_map
     - action_show_map
 * goodbye
@@ -208,6 +218,8 @@
 ## path_smalltalk_agent_acquaintance
 * smalltalk_agent_acquaintance
   - utter_smalltalk_agent_acquaintance
+* describe_symptoms
+  - action_diagnose_symptoms
 
 ## path_smalltalk_agent_age
 * smalltalk_agent_age

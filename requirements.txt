@@ -6,5 +6,8 @@ python-dotenv
 beautifulsoup4
 google
 sanic
-sanic-jwt
 jwt
+spacy
+sklearn
+pandas
+numpy

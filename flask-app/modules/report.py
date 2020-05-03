@@ -1,15 +1,14 @@
 import os
 import json,requests
 from pymongo import MongoClient
-from dotenv import load_dotenv
 from datetime import datetime, timedelta
 import uuid 
 import sys
 from googlesearch import search
 import google
+from os import environ
 
-load_dotenv()
-CONNECTION_STRING = os.getenv("MONGODB_STRING")
+CONNECTION_STRING = environ.get("MONGODB_STRING")
 client = MongoClient(CONNECTION_STRING)
 
 if 'analysis' not in client.list_database_names():
