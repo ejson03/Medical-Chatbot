@@ -76,6 +76,42 @@ function send(text) {
 		}
 	});
 }
+function setAttributes(el, attrs) {
+	for(var key in attrs) {
+	  el.setAttribute(key, attrs[key]);
+	}
+  }
+
+
+function createButton(text, attributes){
+	let button = document.createElement("button");
+	button.innerHTML = text;
+	setAttributes(button, attributes);
+	return button
+}
+
+function createModalBase(style, id, attributes){
+	let modal = createDiv(style, id);
+	setAttributes(modal, attributes);
+	return modal
+}
+
+function createModal(){
+	let outerButton = createButton("Launch Video", {"type":"button", "class":"btn btn-primary" ,
+										"data-toggle":"modal",  "data-target":"#youtube"});
+
+	let main = createModalBase(style=["model", "fade"], id="youtube", {'tabIndex':-1, 
+										"role":"dialog","aria-labelledby":"myModalLabel", "aria-hidden":true });
+	let head = createModalBase(style=["modal-dialog" , "modal-lg"], id="something", {"role":"document"} )
+	let body = createDiv(["modal-content"])
+	let section1 = createDiv(["modal-body", "mb-0" ,"p-0"])
+	let frame = createDiv(["embed-responsive", "embed-responsive-16by9", "z-depth-1-half"])
+	let section2 = createDiv(["modal-footer", "justify-content-center", "flex-column", "flex-md-row"])
+	let innerButton = createButton("Close", {"type":"button", "class": "btn btn-outline-primary btn-rounded btn-md ml-4",
+													"data-dismiss":"modal"});
+	section2.appendChild(innerButton);
+	return {outerButton, main, head, body, section1, frame, section2}
+}
 
 function createDiv(style = [], id = "", text = ""){
 	let element = document.createElement('div');
@@ -105,6 +141,8 @@ function createSpan(style, text){
 }
 function createIframe(url){
 	let video = document.createElement('iframe');
+	let style = ["embed-responsive-item"]
+	video.classList.add(...style)
 	video.src = url;
 	video.height = "480";
 	video.width = "720";
@@ -177,12 +215,18 @@ function setBotResponse(val) {
 					if (val[i].custom.payload == "video") {
 						let url = (val[i].custom.data);
 						let base = createBaseChat();
-						let container = createDiv(style=[], id="video")
+						// let container = createDiv(style=[], id="video")
 						let iframe = createIframe(url);
-						
-						container.appendChild(iframe);
-						container.style="margin-left:15px;"
-						base.appendChild(container)
+						let {outerButton, main, head, body, section1, frame, section2} = createModal()
+						frame.appendChild(iframe);
+						section1.appendChild(frame);
+						body.append(section1, section2)
+						head.appendChild(body);
+						main.appendChild(head);
+						base.append(outerButton, main);
+						// container.appendChild(iframe);
+						// container.style="margin-left:15px;"
+						// base.appendChild(container)
 			
 						BotResponse = base;
 						$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
@@ -405,3 +449,6 @@ function sleep(milliseconds) {
 		currentDate = Date.now();
 	} while (currentDate - date < milliseconds);
 }
+
+
+

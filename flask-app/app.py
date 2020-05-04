@@ -100,8 +100,7 @@ def register():
 @app.route('/rasa', methods=['POST'])
 def action():
     message = request.json
-    message['sender'] = jwt_decode(session.get())['user_id']
-    res = requests.post(f"{RASA_URI}/webhooks/rest/webhook", json=message, headers={'Authorization': session.get()})
+    res = requests.post(f"{RASA_URI}/webhooks/rest/webhook", json=message, headers={'Authorization': session['token']})
     return jsonify(res.json())
 
 @app.route('/report', methods=['POST'])
@@ -150,7 +149,7 @@ def showmap():
 def upload():
     if request.method == 'POST':
         data = request.files['file']
-        name = jwt_decode(session.get())['user_id']
+        name = session['username']
         if not os.path.exists(f'uploads/{name}'):
             os.makedirs(f'uploads/{name}')
         data.save(f'uploads/{name}/{data.filename}')
