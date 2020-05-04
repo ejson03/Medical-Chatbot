@@ -9,7 +9,7 @@ from os import system, environ
 import jwt, json
 import bcrypt
 
-MONGO_URL = environ.get("MONGODB_STRING")
+MONGO_URL = environ.get("MONGODB_STRING")#mongodb://localhost:27017"
 GMAP_API_KEY = environ.get("KEY")
 SECRET_KEY = environ.get("SECRET_KEY")
 RASA_URI = "http://localhost:5005"
@@ -37,6 +37,10 @@ if not os.path.exists("uploads"):
 @app.route('/')
 def index():
     return render_template('login.html')
+
+@app.route('/register')
+def signup():
+    return render_template('register.html')
 
 @app.route('/admin')
 def admin():
