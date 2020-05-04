@@ -6,8 +6,12 @@ python-dotenv
 beautifulsoup4
 google
 sanic
-jwt
+PyJWT
 spacy
 sklearn
 pandas
 numpy
+psutil
+flask_pymongo
+pillow
+bcrypt

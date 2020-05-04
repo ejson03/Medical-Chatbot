@@ -9,7 +9,7 @@ from os import system, environ
 import jwt, json
 import bcrypt
 
-MONGO_URL = environ.get("MONGODB_STRING")#mongodb://localhost:27017"
+MONGO_URL = environ.get("MONGODB_STRING")   
 GMAP_API_KEY = environ.get("KEY")
 SECRET_KEY = environ.get("SECRET_KEY")
 RASA_URI = "http://localhost:5005"
@@ -25,6 +25,7 @@ mongo = PyMongo(app)
 def jwt_sess_auth(message):
     res = requests.post(f"{RASA_URI}/webhooks/token/webhook", json=message)
     res = res.json()
+    print(res)
     session['token'] = res['bot_token']
 
 def jwt_decode(token):
@@ -36,11 +37,11 @@ if not os.path.exists("uploads"):
 
 @app.route('/')
 def index():
-    return render_template('login.html')
+    return render_template('login.html', mesaage="")
 
-@app.route('/register')
+@app.route('/signup')
 def signup():
-    return render_template('register.html')
+    return render_template('register.html', message="")
 
 @app.route('/admin')
 def admin():
@@ -56,20 +57,21 @@ def login():
     password = request.form.get("pass")
     if(name == "admin" and password == "admin"):
         message = {'sender' : name, 'role': 'admin'}
+        session['username'] = name
         jwt_sess_auth(message)
         return redirect(url_for('admin'))
     else:
         users = mongo.db.users
         login_user = users.find_one({'name' : name})
         if login_user:
-            if bcrypt.hashpw(password.encode('utf-8'), login_user['password'].encode('utf-8')) == login_user['password'].encode('utf-8'):
+            if bcrypt.hashpw(password.encode('utf-8'), login_user['password'].decode().encode('utf-8')) == login_user['password'].decode().encode('utf-8'):
                 session['username'] = name
                 message = {'sender' : name, 'role': 'user'}
                 jwt_sess_auth(message)
                 return redirect(url_for('user'))
-    return 'Invalid username/password combination'
+    return render_template('login.html', message="User does not exists..Please Sign Up !")
 
-@app.route('/register', methods=['POST', 'GET'])
+@app.route('/register', methods=['POST'])
 def register():
     if request.method == 'POST':
         name = request.form.get("name")
@@ -77,12 +79,12 @@ def register():
 
         if(name == "admin" and password == "admin"):
             message = {'sender' : name, 'role': 'admin'}
+            session['username'] = name
             jwt_sess_auth(message)
             return redirect(url_for('admin'))
         else:
             users = mongo.db.users
             existing_user = users.find_one({'name' : name})
-
             if existing_user is None:
                 hashpass = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
                 users.insert({'name' : name, 'password' : hashpass})
@@ -90,6 +92,8 @@ def register():
                 message = {'sender' : name, 'role': 'user'}
                 jwt_sess_auth(message)
                 return redirect(url_for('user'))
+
+        return render_template('register.html', message="User already exists.. !")
 
     
 @cross_origin() 
@@ -159,5 +163,5 @@ if __name__ == '__main__':
     # context = ('server.crt', 'server.key')
     # app.secret_key = 'mysecret'
     # app.run(host='0.0.0.0', debug=True, ssl_context=context)
-
+    app.secret_key = 'mysecret'
     app.run(debug=True)

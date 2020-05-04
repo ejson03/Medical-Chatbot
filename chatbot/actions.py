@@ -21,7 +21,6 @@ from rasa_sdk.executor import CollectingDispatcher
 from datetime import datetime, date, time, timedelta
 
 
-
 class ActionGetSong(Action):
     def name(self):
         return "action_get_song"

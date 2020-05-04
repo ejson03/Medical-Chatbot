@@ -3,6 +3,7 @@ import subprocess
 import time
 from psutil import process_iter
 from signal import SIGTERM
+from dotenv import load_dotenv
 
 def killProcesses():
     try:
@@ -19,7 +20,7 @@ def killProcesses():
 
 killProcesses()
 
-
+load_dotenv()
 root = os.path.abspath(os.getcwd())
 
 os.chdir(root+'/flask-app')

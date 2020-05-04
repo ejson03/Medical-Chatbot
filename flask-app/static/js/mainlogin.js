@@ -52,6 +52,33 @@
         $(thisAlert).removeClass('alert-validate');
     }
     
+    // document.forms['login'].addEventListener('submit', async (event) => {
+    //     event.preventDefault();
+    //     let response = await fetch(event.target.action, {
+    //         method: 'POST',
+    //         body: new URLSearchParams(new FormData(event.target))   
+    //     });
+    //     response = await response.json();
+    //     if(response['message']){
+    //         alert(response['message']);
+    //     }
+    // });
+
+    // document.forms['register'].addEventListener('submit', async (event) => {
+    //     event.preventDefault();
+    //     let response = await fetch(event.target.action, {
+    //         method: 'POST',
+    //         body: new URLSearchParams(new FormData(event.target))   
+    //     });
+    //     response = await response.json();
+    //     if(response['message']){
+    //         alert(response['message']);
+    //     }
+    // });
+ 
     
 
 })(jQuery);
+
+
+

@@ -239,23 +239,27 @@ $(function () {
       
     }
 
-    $('#formid').submit(function(e) {
-      e.preventDefault();
-      $.ajax({
-          url: '/report',
-          data: $(this).serialize(),
-          type: 'POST',
-          success: function(data) {
-              alert("hi");
-              createChart(data['name']);
-          }
-      });
-  });
-   
+  //   $('#formid').submit(function(e) {
+  //     e.preventDefault();
+  //     $.ajax({
+  //         url: '/report',
+  //         data: $(this).serialize(),
+  //         type: 'POST',
+  //         success: function(data) {
+  //             createChart(data['name']);
+  //         }
+  //     });
+  // });
 
-
-    
-    
+  document.forms['formid'].addEventListener('submit', async (event) => {
+    event.preventDefault();
+    let response = await fetch(event.target.action, {
+        method: 'POST',
+        body: new URLSearchParams(new FormData(event.target))   
+    });
+    response = await response.json()
+    console.log(response);
+    createChart(response['name'])
+});
      
-    
 });

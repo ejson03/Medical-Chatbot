@@ -32,13 +32,17 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
-				<form class="login100-form validate-form"  method="POST" action="/login">
+				<form id="login" class="login100-form validate-form"  method="POST" action="/login">
 					<span class="login100-form-title p-b-33">
 						Medical Analytica Login
 					</span>
-
+					{% if message|length > 0 %}
+						<span class="login100-form-title p-b-33">
+							{{message}}
+						</span>
+						{% endif %}
 					<div class="wrap-input100 validate-input" >
-						<input class="input100" type="text" name="name"  placeholder="Username">
+						<input class="input100" type="text" name="name" autocomplete="off" placeholder="Username">
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>
@@ -53,7 +57,7 @@
 						<button class="login100-form-btn">
 							Sign in
 						</button>
-						<span style="margin-top:10px;">Not a Member ? <a href="/register" class="signup-image-link"> Sign Up </a></span>
+						<span style="margin-top:10px;">Not a Member ? <a href="/signup" class="signup-image-link"> Sign Up </a></span>
 					</div>
 				</form>
 			</div>

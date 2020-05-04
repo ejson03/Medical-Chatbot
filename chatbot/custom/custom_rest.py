@@ -31,6 +31,7 @@ class RestInput(InputChannel):
     @classmethod
     def name(cls):
         print("hi from name method")
+        print(SECRET_KEY)
         return "rest"
 
     @staticmethod
