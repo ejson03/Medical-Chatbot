@@ -11,3 +11,4 @@ spacy
 sklearn
 pandas
 numpy
+requests==2.22.0
