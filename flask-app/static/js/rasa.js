@@ -102,7 +102,7 @@ function createModal(){
 
 	let main = createModalBase(style=["model", "fade"], id="youtube", {'tabIndex':-1, 
 										"role":"dialog","aria-labelledby":"myModalLabel", "aria-hidden":true });
-	let head = createModalBase(style=["modal-dialog" , "modal-lg"], id="something", {"role":"document"} )
+	let head = createModalBase(style=["modal-dialog-centred" , "modal-lg"], id="something", {"role":"document"} )
 	let body = createDiv(["modal-content"])
 	let section1 = createDiv(["modal-body", "mb-0" ,"p-0"])
 	let frame = createDiv(["embed-responsive", "embed-responsive-16by9", "z-depth-1-half"])
@@ -148,7 +148,7 @@ function createIframe(url){
 	video.width = "720";
 	video.frameBorder = "0";
 	video.allow = "autoplay; fullscreen";
-	video.id = "youtube";
+	video.id = "iframe";
 	return video
 }
 function createMap(){
@@ -224,6 +224,8 @@ function setBotResponse(val) {
 						head.appendChild(body);
 						main.appendChild(head);
 						base.append(outerButton, main);
+						// let element = document.getElementById("modal");
+						// element.appendChild(main);
 						// container.appendChild(iframe);
 						// container.style="margin-left:15px;"
 						// base.appendChild(container)
