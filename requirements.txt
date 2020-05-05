@@ -11,15 +11,7 @@ spacy
 sklearn
 pandas
 numpy
-<<<<<<< HEAD
 psutil
 flask_pymongo
 pillow
 bcrypt
-=======
-requests==2.22.0
-psutil
-flask_pymongo
-pillow
-bcrypt
->>>>>>> f9b8b79c843f50c88cb5caf291f53836b7ab2b0f

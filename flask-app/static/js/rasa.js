@@ -100,11 +100,11 @@ function createModal(){
 	let outerButton = createButton("Launch Video", {"type":"button", "class":"btn btn-primary" ,
 										"data-toggle":"modal",  "data-target":"#youtube"});
 
-	let main = createModalBase(style=["model", "fade"], id="youtube", {'tabIndex':-1, 
+	let main = createModalBase(style=["modal" , "fade"], id="youtube", {'tabIndex':-1, 
 										"role":"dialog","aria-labelledby":"myModalLabel", "aria-hidden":true });
-	let head = createModalBase(style=["modal-dialog-centred" , "modal-lg"], id="something", {"role":"document"} )
+	let head = createModalBase(style=["modal-dialog","modal-lg","modal-dialog-centered"], id="something", {"role":"document"} )
 	let body = createDiv(["modal-content"])
-	let section1 = createDiv(["modal-body", "mb-0" ,"p-0"])
+	let section1 = createDiv(["modal-body"])
 	let frame = createDiv(["embed-responsive", "embed-responsive-16by9", "z-depth-1-half"])
 	let section2 = createDiv(["modal-footer", "justify-content-center", "flex-column", "flex-md-row"])
 	let innerButton = createButton("Close", {"type":"button", "class": "btn btn-outline-primary btn-rounded btn-md ml-4",
@@ -147,7 +147,7 @@ function createIframe(url){
 	video.height = "480";
 	video.width = "720";
 	video.frameBorder = "0";
-	video.allow = "autoplay; fullscreen";
+	//video.allow = "autoplay; fullscreen";
 	video.id = "iframe";
 	return video
 }
@@ -199,12 +199,10 @@ function setBotResponse(val) {
 					let url = `data:image/png;base64,${val[i].image}`
 					let img = createImage(src=url)
 					img.height = 480;
-					img.width = 720;
-				
+					img.width = 720;		
 					response.appendChild(img);
 					response.style="margin-left:15px;"	
 					base.appendChild(response)
-				
 					BotResponse = base;
 					$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
 
@@ -216,6 +214,7 @@ function setBotResponse(val) {
 						let url = (val[i].custom.data);
 						let base = createBaseChat();
 						// let container = createDiv(style=[], id="video")
+						let response = createDiv(style=["msg_cotainer"], id="", text = "");
 						let iframe = createIframe(url);
 						let {outerButton, main, head, body, section1, frame, section2} = createModal()
 						frame.appendChild(iframe);
@@ -223,14 +222,16 @@ function setBotResponse(val) {
 						body.append(section1, section2)
 						head.appendChild(body);
 						main.appendChild(head);
-						base.append(outerButton, main);
+						response.append(outerButton, main);
+						base.appendChild(response)
 						// let element = document.getElementById("modal");
 						// element.appendChild(main);
 						// container.appendChild(iframe);
 						// container.style="margin-left:15px;"
 						// base.appendChild(container)
-			
+						ModalResponse = main
 						BotResponse = base;
+						
 						$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
 
 					}

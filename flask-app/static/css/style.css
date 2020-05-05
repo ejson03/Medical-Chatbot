@@ -163,21 +163,15 @@ position: relative;
 }
 .msg_time{
 position: absolute;
-left: -46;
+left: 0;
 bottom: -30px;
 color: rgba(0,0,0,0.5);
 font-size: 12px;
 }
-.msg_time1{
-position: absolute;
-left: 24px;
-bottom: 530px;
-color: rgba(0,0,0,0.5);
-font-size: 12px;
-  }
+
 .msg_time_send{
 position: absolute;
-right: -46;
+right: 0;
 bottom: -30px;
 color: rgba(0,0,0,0.5);
 font-size: 12px;

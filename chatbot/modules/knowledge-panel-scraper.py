@@ -58,12 +58,15 @@ def get_string_after_tag(string, tag, regex, distance):
         return None
 
 def get_details(query):
+    results={}
     html_results = google(query)
-    results = {'name':query}
     has_knowledge_panel = html_tags['knowledge_panel'] in html_results
+    print(has_knowledge_panel)
+    if(has_knowledge_panel)==True:
+        results = {'name':query}
 
-    if(has_knowledge_panel):
-        results['exists'] = True
+        results['exists']= True
+
         results['desc'] = get_string_after_tag(html_results, html_tags['name'],html_regexes['name'],300)
 
         causes = get_string_after_tag(html_results, html_tags['Common causes of this symptom'],html_regexes['Common causes of this symptom'],800) #280
@@ -75,27 +78,27 @@ def get_details(query):
         treatment1 = get_string_after_tag(html_results, html_tags['Self-treatment'],html_regexes['Self-treatment'],1000)
         treatment2 = get_string_after_tag(html_results, html_tags['Self-treatment'],html_regexes['Self-treatment1'],1000)
         clean = re.compile('<.*?>')
-        treatment2=re.sub(clean,' ', str(treatment2))
-        print(treatment2)
-        if(treatment2==None):
+        treatment2=re.sub(clean,'', str(treatment2))
+        if(treatment2==str(None)):
             results['treatment'] = str(treatment1) 
-        elif(treatment1==None):
-            results['treatment'] =  str(treatment2)
+        elif(treatment1==str(None)):
+            results['treatment'] = str(treatment2)
         else:
             results['treatment'] = str(treatment1) + str(treatment2)
 
     else:
         results['exists'] = False
+        results['reply']= " Sorry couldn't find the data for the given symptom. "
     
     print(results)
     return results
 
 def get_detailsdisease(query):
+    results={}
     html_results = google(query)
-    #results = {'query':query}
     has_knowledge_panel = html_tags['knowledge_panel1'] in html_results
 
-    if(has_knowledge_panel):
+    if(has_knowledge_panel)==True:
         results['exists'] = True
         results['name'] = get_string_after_tag(html_results, html_tags['disease'],html_regexes['named'],300)
 
@@ -103,9 +106,9 @@ def get_detailsdisease(query):
         causes2 = get_string_after_tag(html_results, html_tags['overview'],html_regexes['overview1'],1000) #280
         clean = re.compile('<.*?>')
         causes2=re.sub(clean, '', str(causes2))
-        if (causes1==None):
+        if (causes1==str(None)):
             results['desc'] =  str(causes2)
-        elif(causes2==None):
+        elif(causes2==str(None)):
             results['desc'] = str(causes1) 
         else:
             results['desc'] = str(causes1) + str(causes2)
@@ -127,6 +130,7 @@ def get_detailsdisease(query):
 
     else:
         results['exists'] = False
+        results['reply']= " Sorry couldn't find the data for the given disease. "
     
     print(results)
     return results
