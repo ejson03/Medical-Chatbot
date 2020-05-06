@@ -93,8 +93,8 @@ background-color: rgba(0,0,0,0.3) !important;
 
 }
 .user_img_msg{
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   border:1.5px solid #f5f6fa;
 
 }
@@ -104,8 +104,8 @@ background-color: rgba(0,0,0,0.3) !important;
   width: 70px;
 }
 .img_cont_msg{
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
 }
 .online_icon{
 position: absolute;
@@ -143,6 +143,16 @@ font-size: 20px;
 cursor: pointer;
 margin-right: 20px;
 }
+.modalbtn{
+border-radius: 25px;
+background-color: #00d0ff;
+}
+.msg_cotainer1{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  position: relative;
+  }
 .msg_cotainer{
 margin-top: auto;
 margin-bottom: auto;
@@ -151,6 +161,8 @@ border-radius: 25px;
 background-color: #00d0ff;
 padding: 10px;
 position: relative;
+font-size: 20px;
+box-shadow: 5px 5px #888888;
 }
 .msg_cotainer_send{
 margin-top: auto;
@@ -160,21 +172,21 @@ border-radius: 25px;
 background-color: #78e08f;
 padding: 10px;
 position: relative;
+font-size: 20px;
+box-shadow: 5px 5px #888888;
 }
 .msg_time{
 position: absolute;
 left: 0;
 bottom: -30px;
-color: rgba(0,0,0,0.5);
-font-size: 12px;
+font-size: 15px;
 }
 
 .msg_time_send{
 position: absolute;
 right: 0;
 bottom: -30px;
-color: rgba(0,0,0,0.5);
-font-size: 12px;
+font-size: 15px;
 }
 .reply{
   margin-bottom: 3.5rem!important;

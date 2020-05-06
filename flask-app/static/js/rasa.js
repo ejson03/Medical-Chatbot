@@ -97,20 +97,39 @@ function createModalBase(style, id, attributes){
 }
 
 function createModal(){
-	let outerButton = createButton("Launch Video", {"type":"button", "class":"btn btn-primary" ,
-										"data-toggle":"modal",  "data-target":"#youtube"});
-
+	
 	let main = createModalBase(style=["modal" , "fade"], id="youtube", {'tabIndex':-1, 
 										"role":"dialog","aria-labelledby":"myModalLabel", "aria-hidden":true });
 	let head = createModalBase(style=["modal-dialog","modal-lg","modal-dialog-centered"], id="something", {"role":"document"} )
 	let body = createDiv(["modal-content"])
 	let section1 = createDiv(["modal-body"])
 	let frame = createDiv(["embed-responsive", "embed-responsive-16by9", "z-depth-1-half"])
-	let section2 = createDiv(["modal-footer", "justify-content-center", "flex-column", "flex-md-row"])
-	let innerButton = createButton("Close", {"type":"button", "class": "btn btn-outline-primary btn-rounded btn-md ml-4",
-													"data-dismiss":"modal"});
+	let section2 = createDiv(["modal-header"])
+	setAttributes(section2,{"style":"background: darkgray;"})
+	let innerButton = createButton("", {"type":"button", "class": "close",
+													"data-dismiss":"modal","aria-label":"Close"});
+	let close =createSpan(style=["close-one"], text="&times;");
+	innerButton.appendChild(close);
 	section2.appendChild(innerButton);
-	return {outerButton, main, head, body, section1, frame, section2}
+	return {main, head, body, section1, frame, section2}
+}
+function createModalscrollable(title){
+	
+	let main = createModalBase(style=["modal" , "fade"], id="youtube", {'tabIndex':-1, 
+										"role":"dialog","aria-labelledby":"myModalLabel", "aria-hidden":true });
+	let head = createModalBase(style=["modal-dialog","modal-lg","modal-dialog-centered","modal-dialog-scrollable"], id="something", {"role":"document"} )
+	let body = createDiv(["modal-content"])
+	let section1 = createDiv(["modal-body"])
+	setAttributes(section1,{"style":"font-size: 20px;"})
+	let section2 = createDiv(["modal-header"])
+	let title1 =createSpan(style=["title-one"], text=title);
+	setAttributes(title1,{"style":"font-size: 25px;"})
+	let innerButton = createButton("", {"type":"button", "class": "close",
+													"data-dismiss":"modal","aria-label":"Close"});
+	let close =createSpan(style=["close-one"], text="&times;");
+	innerButton.appendChild(close);
+	section2.append(title1,innerButton);
+	return {main, head, body, section1, section2}
 }
 
 function createDiv(style = [], id = "", text = ""){
@@ -195,13 +214,20 @@ function setBotResponse(val) {
 			for (var i in val) {
 				if (val[i].hasOwnProperty("image")) {
 					let base = createBaseChat();
-					let response = createDiv(style=[], id="quote", text="");
 					let url = `data:image/png;base64,${val[i].image}`
 					let img = createImage(src=url)
+					let { main, head, body, section1, frame, section2} = createModal()
+					let outerButton = createButton("Please click here to see the quote", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal",  "data-target":"#youtube"});
+					let response = createDiv(style=["msg_cotainer1"], id="", text = "");
+					let timespan = createSpan(style=["msg_time"], text=time);
+					setAttributes(section1,{"style":"padding:0rem;font-size: 20px;"})
 					img.height = 480;
 					img.width = 720;		
-					response.appendChild(img);
-					response.style="margin-left:15px;"	
+					section1.appendChild(img);
+					body.append(section2, section1)
+					head.appendChild(body);
+					main.appendChild(head);	
+					response.append(outerButton,timespan, main);
 					base.appendChild(response)
 					BotResponse = base;
 					$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
@@ -213,34 +239,36 @@ function setBotResponse(val) {
 					if (val[i].custom.payload == "video") {
 						let url = (val[i].custom.data);
 						let base = createBaseChat();
-						// let container = createDiv(style=[], id="video")
-						let response = createDiv(style=["msg_cotainer"], id="", text = "");
+						let outerButton = createButton("Please click here to see the video", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal",  "data-target":"#youtube"});
+						let response = createDiv(style=["msg_cotainer1"], id="", text = "");
 						let iframe = createIframe(url);
-						let {outerButton, main, head, body, section1, frame, section2} = createModal()
+						let { main, head, body, section1, frame, section2} = createModal()
+						let timespan = createSpan(style=["msg_time"], text=time);
+						setAttributes(section1,{"style":"padding:0rem;"})
 						frame.appendChild(iframe);
 						section1.appendChild(frame);
-						body.append(section1, section2)
+						body.append(section2, section1)
 						head.appendChild(body);
 						main.appendChild(head);
-						response.append(outerButton, main);
+						response.append(outerButton,timespan, main);
 						base.appendChild(response)
-						// let element = document.getElementById("modal");
-						// element.appendChild(main);
-						// container.appendChild(iframe);
-						// container.style="margin-left:15px;"
-						// base.appendChild(container)
-						ModalResponse = main
-						BotResponse = base;
-						
+						BotResponse = base;						
 						$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
-
 					}
 					if (val[i].custom.payload == "map") {
 						let base = createBaseChat();
 						let map = createDiv(style=[], id="map")
-						map.style = "height: 480px; width: 720px;margin-left:15px;"
-						base.appendChild(map);
-					
+						let response = createDiv(style=["msg_cotainer1"], id="", text = "");
+						let { main, head, body, section1, frame, section2} = createModal()
+						let outerButton = createButton("Please click here to see the map", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal",  "data-target":"#youtube"});
+						map.style = "height: 480px; width: 720px;"
+						setAttributes(section1,{"style":"padding:0rem;font-size: 20px;"})
+						section1.appendChild(map);
+						body.append(section2, section1)
+						head.appendChild(body);
+						main.appendChild(head);
+						response.append(outerButton, main);
+						base.appendChild(response)
 						BotResponse = base;
 						$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
 						createMap()
@@ -250,7 +278,6 @@ function setBotResponse(val) {
 						if (val[i].custom.payload == "chart") {
 						// sample format of the charts data:
 						// var chartData = { "title": "Leaves", "labels": ["Sick Leave", "Casual Leave", "Earned Leave", "Flexi Leave"], "backgroundColor": ["#36a2eb", "#ffcd56", "#ff6384", "#009688", "#c45850"], "chartsData": [5, 10, 22, 3], "chartType": "pie", "displayLegend": "true" }
-
 						//store the below parameters as global variable, 
 						// so that it can be used while displaying the charts in modal.
 						chartData = (val[i].custom.data)
@@ -263,6 +290,109 @@ function setBotResponse(val) {
 						// pass the above variable to createChart function
 						createChart(title, labels, backgroundColor, chartsData, chartType, displayLegend)
 						return;
+					}
+
+					if (val[i].custom.payload == "symptom") {
+						let base = createBaseChat();
+						let response = createDiv(style=["msg_cotainer1"], id="", text = "");
+						let timespan = createSpan(style=["msg_time"], text=time);
+						console.log(val[i].custom.payload);
+						let { main, head, body, section1, section2} = createModalscrollable(val[i].custom.data.name)
+						let outerButton = createButton(`Click here to know more about ${val[i].custom.data.name}`, {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal",  "data-target":"#youtube"});
+						let listElement = document.createElement('div');
+						let x = document.createElement("A");
+						setAttributes(x,{"class":"btn btn-primary btn-lg btn-block","style":"margin-bottom: 10px;", "data-toggle":"collapse","href":"#desc", "role":"button", "aria-expanded":"false" ,"aria-controls":"desc"})
+						x.innerHTML=' Description ';
+						let y = document.createElement("A");
+						setAttributes(y,{"class":"btn btn-primary btn-lg btn-block","style":"margin-bottom: 10px;", "data-toggle":"collapse","href":"#cause", "role":"button", "aria-expanded":"false" ,"aria-controls":"cause" })
+						y.innerHTML=' Causes of this symptom ';
+						let z = document.createElement("A");
+						setAttributes(z,{"class":"btn btn-primary btn-lg btn-block","style":"margin-bottom: 10px;", "data-toggle":"collapse","href":"#treatment", "role":"button", "aria-expanded":"false" ,"aria-controls":"treatment" })
+						z.innerHTML=' Treatment ';
+						//desc
+						let list = createDiv(style=["collapse"], id="desc", text = "");
+						setAttributes(list,{"style":"margin-bottom: 10px;"})
+						let para = document.createElement("p");
+						let node = document.createTextNode(val[i].custom.data.desc);
+						para.appendChild(node);
+						list.appendChild(para);						
+						// cause
+						let list1 = createDiv(style=["collapse"], id="cause", text = "");
+						setAttributes(list,{"style":"margin-bottom: 10px;"})
+						let para1 = document.createElement("p");
+						let node1 = document.createTextNode(val[i].custom.data.causes);
+						para1.appendChild(node1);
+						list1.appendChild(para1);						
+						// treatment
+						let list2 = createDiv(style=["collapse"], id="treatment", text = "");
+						setAttributes(list,{"style":"margin-bottom: 10px;"})
+						let para2 = document.createElement("p");
+						let node2 = document.createTextNode(val[i].custom.data.treatment);
+						para2.appendChild(node2);
+						list2.appendChild(para2);							
+						
+						listElement.append(x,list,y,list1,z,list2);;
+						section1.append(listElement);
+						body.append(section2, section1)
+						head.appendChild(body);
+						main.appendChild(head);
+						response.append(outerButton,timespan, main);
+						base.appendChild(response)
+						BotResponse = base;
+						$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
+					}
+
+					if (val[i].custom.payload == "fileupload") {
+						let base = createBaseChat();
+						let response = createDiv(style=["msg_cotainer1"], id="", text = "");
+						let timespan = createSpan(style=["msg_time"], text=time);
+						let { main, head, body, section1, frame, section2} = createModal()
+						let outerButton = createButton("Please click here to upload the file", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal",  "data-target":"#youtube"});
+						let submitButton = createButton("Upload ", {"type":"button", "class":"btn btn-primary btn-lg btn-block" });
+						setAttributes(section1,{"style":"font-size: 20px;"})
+						let formElement = document.createElement('div');
+						formElement.innerHTML =`<form action=\"/uploadfile\" method=\"post\" enctype=\"multipart/form-data\"><div class=\"form-group\"><label for=\"recipient-name\" class=\"col-form-label\"> Report Name : </label><input type=\"text\" class=\"form-control\" id=\"recipient-name\" name=\"reportname"\></div><div class=\"form-group\"><label for=\"message-text\" class=\"col-form-label\">Report Description :</label><textarea class=\"form-control\" id=\"message-text\" name=\"reportdesc\" type=\"text\"></textarea></div><div class=\"form-group\"><label for=\"recipient-name\" class=\"col-form-label\"> Report Upload : </label><input type=\"file\" class=\"form-control\" id=\"recipient-name\" name=\"report"\ multiple></div></form>` ;
+						formElement.appendChild(submitButton);
+						section1.appendChild(formElement);
+						body.append(section2, section1)
+						head.appendChild(body);
+						main.appendChild(head);
+						response.append(outerButton,timespan, main);
+						base.appendChild(response)
+						BotResponse = base;
+						$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
+					}
+					if (val[i].custom.payload == "listdocuments") {
+						let base = createBaseChat();
+						let response = createDiv(style=["msg_cotainer1"], id="", text = "");
+						let timespan = createSpan(style=["msg_time"], text=time);
+						let { main, head, body, section1, section2} = createModalscrollable("List of Documents")
+						let outerButton = createButton("Please click here to see the list of documents", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal",  "data-target":"#youtube"});
+						setAttributes(section1,{"style":"font-size: 20px;"})
+						//this has to be put in loop {loop start}
+						val[i].custom.data.forEach((record, index)=>
+						{
+							let listElement = document.createElement('div');
+							listElement.innerHTML =`<a class=\"btn btn-primary btn-lg btn-block\" style=\"margin-bottom: 10px;\" data-toggle=\"collapse\" href=\"#${index}\" role=\"button\" aria-expanded=\"false\" aria-controls=\"collapseExample\"> Document Name </a> ` ;
+							let list = createDiv(style=["collapse"], id=`${index}`, text = "");
+							setAttributes(list,{"style":"margin-bottom: 10px;"})
+							let x = document.createElement("A");
+							// href we put file link
+							setAttributes(x,{"class":"btn btn-primary btn-lg", "href":`${record.url}`,"target":"_blank"})
+							x.innerHTML=' View ';
+							let history = createButton(" History ", {"type":"button", "class":"btn btn-primary btn-lg" ,"style":"margin-left:10;","data-toggle":"modal",  "data-target":"#transactions","onclick":"showhistory()"});//"data-dismiss":"modal">
+							list.append(x,history)
+							listElement.appendChild(list);
+							section1.appendChild(listElement);
+						});
+						//till here { loop end}
+						body.append(section2, section1)
+						head.appendChild(body);
+						main.appendChild(head);
+						response.append(outerButton,timespan, main);
+						base.appendChild(response)
+						BotResponse = base;
+						$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
 					}
 				}
 				else {
@@ -452,6 +582,3 @@ function sleep(milliseconds) {
 		currentDate = Date.now();
 	} while (currentDate - date < milliseconds);
 }
-
-
-

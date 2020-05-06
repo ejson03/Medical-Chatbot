@@ -9,6 +9,7 @@ import typing
 import logging
 from modules.utils import *
 from modules.diagnose import encode_symptom, create_illness_vector, get_diagnosis
+from modules.scrapper import *
 import os
 import requests
 from os import environ
@@ -124,7 +125,20 @@ class ActionDiagnoseSymptoms(Action):
         illness_vector = create_illness_vector(encoded_symptoms)
         diagnosis_string = get_diagnosis(illness_vector)
         dispatcher.utter_message(text=diagnosis_string)
-    
+
+class ActionSymptoms(Action):
+
+    def name(self):
+        return "action_symptoms"
+
+    def run(self, dispatcher, tracker, domain):
+
+        symptoms = tracker.get_slot("symptom")
+        try:  
+            data=get_details(symptoms)
+            dispatcher.utter_message(json_message={"payload":"symptom","data":data})
+        except:
+            dispatcher.utter_message(text="Sorry couldn't find the data for the given symptom.")
 
 
 
