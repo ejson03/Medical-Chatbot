@@ -1,6 +1,5 @@
 actions:
 - utter_greet
-- utter_cheer_up
 - utter_did_that_help
 - utter_goodbye
 - action_get_song
@@ -12,19 +11,23 @@ actions:
 - action_ehr
 - utter_ask_location
 - action_diagnose_symptoms
+- action_symptoms
 - utter_thank
 - utter_default
-- utter_get_happy_images
 - utter_ask_name
+- utter_ask_age
+- utter_ask_excercise
+- utter_ask_height
+- utter_ask_is_form
+- utter_ask_smoking
+- utter_ask_weight
 - utter_noworries
-- utter_ask_builder
 - utter_ask_howdoing
 - utter_ask_howold
 - utter_ask_time
 - utter_ask_wherefrom
 - utter_ask_whoami
 - utter_handleinsult
-- utter_ask_whatismyname
 - utter_ask_languagesbot
 - utter_smalltalk_appraisal_good
 - utter_smalltalk_agent_acquaintance
@@ -131,7 +134,6 @@ intents:
   - handleinsult
   - telljoke
   - tellquote
-  - get_ipfs_url
   - ask_whatismyname
   - get_happy_images
   - ask_languagesbot
@@ -221,21 +223,64 @@ entities:
   - name
   - location
   - symptom
-  - ipfs
 
 slots:
   name:
+    type: text
+  password:
+    type: text
+  username:
     type: text
   location:
     type: text
   symptom:
     type: list
+  age:
+    type: unfeaturized
+  excercise:
+    type: unfeaturized
+  file:
+    type: unfeaturized
+  height:
+    type: unfeaturized
+  is_form:
+    type: unfeaturized
+  smoking:
+    type: unfeaturized
+  weight:
+    type: unfeaturized
+
+forms:
+- ehr
 
 responses:
 
-  utter_cheer_up:
-    - text: "Here is something to cheer you up:"
-      image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_ask_age:
+  - text: What is your age?
+  - text: How old are you?
+
+  utter_ask_excercise:
+  - text: Do you excercise?
+  - text: Are you fit?
+
+  utter_ask_height:
+  - text: What is your height?
+  - text: How tall are you?
+
+  utter_ask_is_form:
+  - buttons:
+    - payload: /affirm
+      title: 'Yes'
+    - payload: /deny
+      title: 'No'
+    text: Do you wanna fill form first or upload directly?
+
+  utter_ask_smoking:
+  - text: Do you smoke?
+
+  utter_ask_weight:
+  - text: What is your weight?
+  - text: How much do you weigh?
 
   utter_did_that_help:
     - text: "Did that help you ?"
@@ -252,13 +297,10 @@ responses:
 
   utter_ask_name:
     - text: "Nice name! I shall call you {name} from now."
+    - text: Hi {name}
 
   utter_default:
     - text: "Sorry, I did not understand you"
-
-  utter_get_happy_images:
-    - image: http://cutestcats.us/wp-content/uploads/2014/07/The-Happiest-Smiling-Cat-In-The-Universe.jpg
-      text: "Here is something to cheer you up"
 
   utter_ask_location:
     - text: "In what location ?"
@@ -291,8 +333,6 @@ responses:
     - text: "I can spell baguette in French, but unfortunately English is the only language I can answer you in."
     - text: "I am in the process of learning, but at the moment I can only speak English."
 
-  utter_ask_restaurant:
-    - text: "I am sorry I can’t recommend you a restaurant as I usually cook at home."
 
   utter_ask_time:
     - text: "It is the most wonderful time of the year!"
@@ -307,13 +347,6 @@ responses:
   utter_handleinsult:
     - text: "That’s not very nice 😢"
   
-  utter_ask_whatismyname:
-    - text: "It most probably is the one that your parents have chosen for you."
-
-  utter_ask_builder:
-    - text: "The engineers at Rasa 🛠"
-    - text: "One of the smart engineers at Rasa! 🧠"
-
   utter_ask_howdoing:
     - text: "I'm great! Thanks for asking."
     - text: "I'm good, thanks!"
@@ -745,5 +778,5 @@ responses:
     - text: "All right. I'll be here."
 
 session_config:
-  session_expiration_time: 10
+  session_expiration_time: 60
   carry_over_slots_to_new_session: False

@@ -136,6 +136,6 @@ def get_details(query):
 #     return results
 
 if __name__ == "__main__":
-    
+    pass
     #get_details('diarrhea')
     #get_detailsdisease('alzheimer')

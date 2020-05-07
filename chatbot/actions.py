@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 from __future__ import print_function
 
 from typing import Dict, Text, Any, List, Union, Type, Optional
+from pymongo import MongoClient
 
 import typing
 import logging
@@ -14,14 +15,54 @@ import os
 import requests
 from os import environ
 import uuid
+CONNECTION_STRING = environ.get("MONGODB_STRING")
+client = MongoClient(CONNECTION_STRING)
 
 from rasa_sdk import Action, Tracker
-from rasa_sdk.events import SlotSet, AllSlotsReset, EventType
-from rasa_sdk.forms import FormAction, REQUESTED_SLOT
+from rasa_sdk.events import SlotSet, AllSlotsReset, EventType, SessionStarted, ActionExecuted
+from rasa_sdk.forms import FormAction
 from rasa_sdk.executor import CollectingDispatcher
 
 from datetime import datetime, date, time, timedelta
 
+class ActionSessionStart(Action):
+    def name(self) -> Text:
+        return "action_session_start"
+
+    @staticmethod
+    def fetch_slots(tracker):
+        slots = []
+        for key in ("name", "username", "password", "age", "height", "weight"):
+            value = tracker.get_slot(key)
+            if value is not None:
+                slots.append(SlotSet(key=key, value=value))
+        return slots
+
+    async def run(self, dispatcher, tracker, domain):
+        events = [SessionStarted()]
+        events.extend(self.fetch_slots(tracker))
+        events.append(ActionExecuted("action_listen"))
+        name = tracker.get_slot("name")
+        print(name,  events)
+        if len(name) >0:
+            dispatcher.utter_message(f"Hello {name}, how is the day treating you !!")
+        else:
+            dispatcher.utter_message("Hi, can i know your name")
+        return events
+
+class ActionGetCredentials(Action):
+    def name(self):
+        return "action_get_credentials"
+    def run(self, dispatcher, tracker, domain):
+        username = tracker.get_slot('username')
+        db = client.get_database('authenticate')
+        collection = db['users']
+        user = collection.find_one({'name' : username})
+        if (user):
+            password = user['password'].decode().encode('utf-8')
+            return [SlotSet("password", password)]
+        else:
+            dispatcher.utter_message("Are you sure you have uttered the right username...try again...")
 
 class ActionGetSong(Action):
 
@@ -55,7 +96,6 @@ class ActionShowMap(Action):
 
     def run(self, dispatcher, tracker, domain):
         dispatcher.utter_message(json_message={"payload":"map"})
-        #dispatcher.utter_message("I couldnt contemplate what you are going thorugh. I'm sorry.")
 
 class ActionGetJoke(Action):
     def name(self):
@@ -142,5 +182,114 @@ class ActionSymptoms(Action):
         except:
             dispatcher.utter_message(text="Sorry couldn't find the data for the given symptom.")
 
+
+class EHR(FormAction):
+
+    def name(self):
+        return "ehr"
+
+    @staticmethod
+    def required_slots(tracker):
+        return["username", "password", "age", "height", "weight", ""]
+
+    def slot_mappings(self):
+
+        return {
+            "cuisine": self.from_entity(entity="cuisine", not_intent="chitchat"),
+            "num_people": [
+                self.from_entity(
+                    entity="number", intent=["inform", "request_restaurant"]
+                ),
+            ],
+            "outdoor_seating": [
+                self.from_entity(entity="seating"),
+                self.from_intent(intent="affirm", value=True),
+                self.from_intent(intent="deny", value=False),
+            ],
+            "preferences": [
+                self.from_intent(intent="deny", value="no additional preferences"),
+                self.from_text(not_intent="affirm"),
+            ],
+            "feedback": [self.from_entity(entity="feedback"), self.from_text()],
+        }
+
+    @staticmethod
+    def cuisine_db():
+
+        return [
+            "caribbean",
+            "chinese",
+            "french",
+            "greek",
+            "indian",
+            "italian",
+            "mexican",
+        ]
+
+    @staticmethod
+    def is_int(string):
+        try:
+            int(string)
+            return True
+        except ValueError:
+            return False
+
+    def validate_cuisine(
+        self,
+        value: Text,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> Dict[Text, Any]:
+
+        if value.lower() in self.cuisine_db():
+            return {"cuisine": value}
+        else:
+            dispatcher.utter_message(template="utter_wrong_cuisine")
+            return {"cuisine": None}
+
+    def validate_num_people(
+        self,
+        value: Text,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> Dict[Text, Any]:
+        """Validate num_people value."""
+
+        if self.is_int(value) and int(value) > 0:
+            return {"num_people": value}
+        else:
+            dispatcher.utter_message(template="utter_wrong_num_people")
+            # validation failed, set slot to None
+            return {"num_people": None}
+
+    def validate_outdoor_seating(
+        self,
+        value: Text,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> Dict[Text, Any]:
+        """Validate outdoor_seating value."""
+
+        if isinstance(value, str):
+            if "out" in value:
+                # convert "out..." to True
+                return {"outdoor_seating": True}
+            elif "in" in value:
+                # convert "in..." to False
+                return {"outdoor_seating": False}
+            else:
+                dispatcher.utter_message(template="utter_wrong_outdoor_seating")
+                # validation failed, set slot to None
+                return {"outdoor_seating": None}
+
+        else:
+            return {"outdoor_seating": value}
+
+    def submit(self,dispatcher,tracker, domain):
+        dispatcher.utter_message(template="utter_submit")
+        return []
 
 

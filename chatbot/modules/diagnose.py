@@ -5,20 +5,20 @@ import spacy
 from sklearn.metrics.pairwise import cosine_similarity
 
 nlp = spacy.load('en_core_web_md')
-diagnosis_df = pd.read_pickle("modules/diagnosis_data.pkl")
-symptoms_df = pd.read_pickle("modules/symptoms.pkl")
+diagnosis_df = pd.read_pickle("assets/diagnosis_data.pkl")
+symptoms_df = pd.read_pickle("assets/symptoms.pkl")
 
-# logging config
-for handler in logging.root.handlers[:]:
-    logging.root.removeHandler(handler)
+# # logging config
+# for handler in logging.root.handlers[:]:
+#     logging.root.removeHandler(handler)
 
-logging.basicConfig(
-    filename='logging.log',
-    filemode='a',
-    format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
-    datefmt='%H:%M:%S',
-    level=logging.DEBUG
-)
+# logging.basicConfig(
+#     filename='logging.log',
+#     filemode='a',
+#     format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
+#     datefmt='%H:%M:%S',
+#     level=logging.DEBUG
+# )
 
 
 def encode_symptom(symptom):
@@ -29,7 +29,7 @@ def encode_symptom(symptom):
     :return: 256-D vector
     '''
 
-    logging.info(f"Encoding symptom {symptom}")
+    # logging.info(f"Encoding symptom {symptom}")
     encoded_symptom = nlp(symptom).vector.tolist()
 
     return encoded_symptom
@@ -56,7 +56,7 @@ def create_illness_vector(encoded_symptoms):
 
         number_of_symptoms_flagged = len(symptoms_df.loc[symptoms_df['similarity'] > threshold, 'symptom_flagged'])
 
-        logging.info(f"Flagged {number_of_symptoms_flagged} potential symptom matches")
+        # logging.info(f"Flagged {number_of_symptoms_flagged} potential symptom matches")
 
     return list(symptoms_df['symptom_flagged'])
 
@@ -82,7 +82,7 @@ def get_diagnosis(illness_vector):
             .iloc[0]
         )
 
-        logging.info(f"Diagnosing user with {illness}")
+        # logging.info(f"Diagnosing user with {illness}")
         diagnosis_string = f"Based on your symptoms it looks like you could have {illness}"
 
     else:
@@ -91,8 +91,8 @@ def get_diagnosis(illness_vector):
             .sort_values(by='similarity', ascending=False)[['illness', 'similarity']]
             .head(1)
         )
-        logging.info(f"Unable to find a diagnosis, the closest match was {closest_match['illness'].iloc[0]} "
-                     f"at {closest_match['similarity'].iloc[0]}")
+        # logging.info(f"Unable to find a diagnosis, the closest match was {closest_match['illness'].iloc[0]} "
+        #              f"at {closest_match['similarity'].iloc[0]}")
         diagnosis_string = "Unfortunately I am unable to diagnose you based on the symptoms you provided"
 
     return diagnosis_string

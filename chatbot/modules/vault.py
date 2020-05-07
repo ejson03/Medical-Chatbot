@@ -5,6 +5,9 @@ import json
 from Crypto.PublicKey import RSA
 from Crypto import Random
 
+VAULT_URL = os.environ.get("VAULT_URL")
+VAULT_TOKEN = os.environ.get("VAULT_TOKEN")
+
 class Config(object):
     def __init__(self, authority=[], path="data", policy="AppPolicy", 
                     endpoint="http://192.168.33.150:8200", username="", 
@@ -49,7 +52,6 @@ class Vault(object):
 
     def mount(self):
         mount = self.client.sys.list_mounted_secrets_engines()['data']
-     
         if f"{self.config.path}/" not in mount.keys():
             self.client.sys.enable_secrets_engine(
                 backend_type='kv',
@@ -76,6 +78,7 @@ class Vault(object):
 
         if(not policy_add):
             policies = self.listPolicy()
+            print("policies are : ", policies)
             if(f"{policy}/{self.config.username}" in policies):
                 return None
 
@@ -88,6 +91,7 @@ class Vault(object):
 
     def writeRoute(self, password, username=None, policy=None):
         users = self.getUsers()
+        print("USERS are: ", users)
         if username in users:
             return None
         self.config.username = username
@@ -143,10 +147,21 @@ config = Config(
 if __name__ =='__main__':
     vault = Vault(config)
     vault.setup()
-    # response = vault.signUp('qaz', 'richard')
+    # response = vault.login('12345678', 'sherwyn')
+    # print(response)
+    # print(vault.write("shaka", "moomzaga"))
+    # print(vault.read("shaka"))
+    # # random_generator = Random.new().read
+    # # rsa_key = RSA.generate(1024, random_generator)
+    # # response = vault.login('12345678', 'sherwyn')
+    # # write = vault.write("shake", rsa_key.publickey().exportKey().decode('utf-8'))
+    # # read = vault.read("shake")
+    # # print(write)
+    # # print(read)
+    # response = vault.signUp('12345678', 'darlene')
     random_generator = Random.new().read
     rsa_key = RSA.generate(1024, random_generator)
-    response = vault.login('qaz', 'richard')
+    response = vault.login('12345678', 'darlene')
     write = vault.write("shake", rsa_key.publickey().exportKey().decode('utf-8'))
     read = vault.read("shake")
     print(write)

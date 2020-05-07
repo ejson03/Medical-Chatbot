@@ -30,21 +30,17 @@ class RestInput(InputChannel):
 
     @classmethod
     def name(cls):
-        print("hi from name method")
-        print(SECRET_KEY)
         return "rest"
 
     @staticmethod
     async def on_message_wrapper(on_new_message, text, queue, sender_id) :
 
-        print("Inside on_message_wrapper function")
         collector = QueueOutputChannel(queue)
 
         message = UserMessage(
             text, collector, sender_id, input_channel= RestInput.name()
         )
 
-        print("above on_new_message method")
         await on_new_message(message)
 
         await queue.put("DONE")  # pytype: disable=bad-return-type
@@ -53,7 +49,6 @@ class RestInput(InputChannel):
         return req.get("user_id", None)
 
     async def _extract_message(self, req):
-        print("User message ::- ",req.json.get("message", None))
         return req.json.get("message", None)
 
     async def _extract_header(self, req) :
@@ -83,19 +78,15 @@ class RestInput(InputChannel):
 
         @custom_webhook.route("/", methods=["GET"])
         async def health(request: Request):
-            print("Inside health")
             return response.json({"status": "ok"})
 
         @custom_webhook.route("/webhook", methods=["POST"])
         async def receive(request: Request):
-            print("Inside receive")
             text = await self._extract_message(request)
             jwt_data = await self._extract_header(request)
             jwt_data = jwt_decode(jwt_data)
-            print(jwt_data)
             if(jwt_data):
                 sender_id = await self._extract_sender(jwt_data)
-                print("sender_id is ::-",sender_id)
                 should_use_stream = rasa.utils.endpoints.bool_arg(
                     request, "stream", default=False
                 )
@@ -108,8 +99,7 @@ class RestInput(InputChannel):
                     )
                 else:
                     collector = CollectingOutputChannel()
-                    on_new_message(UserMessage(text, collector, sender_id))
-                    print("collector MSG::",collector)
+                    await on_new_message(UserMessage(text, collector, sender_id))
                     try:
                         await on_new_message(
                             UserMessage(

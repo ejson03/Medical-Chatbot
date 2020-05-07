@@ -8,7 +8,7 @@ import re
 from .quotes import get_base64
 
 
-path = "modules/json"
+path = "assets/json"
 
 def get_url(query):
     query_string = urllib.parse.urlencode({"search_query" : query})

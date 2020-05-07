@@ -1,21 +1,24 @@
 from Crypto import Random
 from Crypto.PublicKey import RSA
 from Crypto.Cipher import PKCS1_OAEP, AES
-from Crypto.Hash import SHA256
+from Crypto.Hash import SHA256, MD5
 import json
 import base64
 import os
 
-def encrypt_rsa(data, public_key):
+def encrypt_rsa(key, public_key):
     handler = PKCS1_OAEP.new(public_key)
-    return base64.encodebytes(handler.encrypt(data))
+    return base64.encodebytes(handler.encrypt(key))
 
 def decrypt_rsa(data, private_key):
     handler = PKCS1_OAEP.new(private_key)
     return handler.decrypt(base64.decodebytes(data))
 
 def pad(s):
-    return str.encode(s) + b"\0" * (AES.block_size - len(s) % AES.block_size)
+    if type(s) == str:
+        return str.encode(s) + b"\0" * (AES.block_size - len(s) % AES.block_size)
+    else:
+        return s + b"\0" * (AES.block_size - len(s) % AES.block_size)
 
 def encrypt(message, key, key_size=256):
     message = pad(message)
@@ -30,9 +33,15 @@ def decrypt(ciphertext, key):
     plaintext = cipher.decrypt(ciphertext[AES.block_size:])
     return plaintext.rstrip(b"\0")
 
+def generate_rsa_key():
+    return RSA.generate(1024, Random.new().read)
 
 def generate_random_aes_key():
-    return os.urandom(32)
+    return str(os.urandom(8))
+
+def generate_secret_key():
+    key = generate_random_aes_key()
+    return MD5.new(key).hexdigest()
 
 def hash(data):
     h = SHA256.new()

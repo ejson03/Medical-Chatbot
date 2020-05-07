@@ -11,12 +11,12 @@ def get_base64(quote):
     return img
 
 def select_background_image():
-    path = "modules/images/"
+    path = "assets/images/"
     options = os.listdir(path)
     return path + random.choice(options)
 
 def select_font():
-    prefix = "modules/fonts/"
+    prefix = "assets/fonts/"
     options = os.listdir(prefix)
     return prefix + random.choice(options)
 
