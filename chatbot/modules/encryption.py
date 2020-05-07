@@ -2,6 +2,7 @@ from Crypto import Random
 from Crypto.PublicKey import RSA
 from Crypto.Cipher import PKCS1_OAEP, AES
 from Crypto.Hash import SHA256
+import json
 import base64
 import os
 
@@ -14,10 +15,11 @@ def decrypt_rsa(data, private_key):
     return handler.decrypt(base64.decodebytes(data))
 
 def pad(s):
-    return s + b"\0" * (AES.block_size - len(s) % AES.block_size)
+    return str.encode(s) + b"\0" * (AES.block_size - len(s) % AES.block_size)
 
 def encrypt(message, key, key_size=256):
     message = pad(message)
+    key = pad(key)
     iv = Random.new().read(AES.block_size)
     cipher = AES.new(key, AES.MODE_CBC, iv)
     return iv + cipher.encrypt(message)
@@ -34,6 +36,6 @@ def generate_random_aes_key():
 
 def hash(data):
     h = SHA256.new()
-    data = json.dumps(data, separators=(',', ':'))
+    data = json.dumps(data, separators=(',', ':')).encode()
     h.update(data)
     return h.hexdigest()

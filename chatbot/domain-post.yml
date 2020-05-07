@@ -1,0 +1,39 @@
+forms:
+- ehr
+slots:
+  age:
+    type: unfeaturized
+  excercise:
+    type: unfeaturized
+  file:
+    type: unfeaturized
+  height:
+    type: unfeaturized
+  is_form:
+    type: unfeaturized
+  smoking:
+    type: unfeaturized
+  username:
+    type: unfeaturized
+  weight:
+    type: unfeaturized
+templates:
+  utter_ask_age:
+  - text: What is your age?
+  utter_ask_excercise:
+  - text: Do you excercise?
+  utter_ask_height:
+  - text: What is your height?
+  utter_ask_is_form:
+  - buttons:
+    - payload: /affirm
+      title: 'Yes'
+    - payload: /deny
+      title: 'No'
+    text: Do you wanna fill form first or upload directly?
+  utter_ask_smoking:
+  - text: Do you smoke?
+  utter_ask_username:
+  - text: What's your bigchaindb username?
+  utter_ask_weight:
+  - text: What is your weight?

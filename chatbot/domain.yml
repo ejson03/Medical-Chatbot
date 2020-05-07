@@ -9,6 +9,7 @@ actions:
 - action_get_quote
 - action_weather
 - action_temp
+- action_ehr
 - utter_ask_location
 - action_diagnose_symptoms
 - utter_thank
@@ -130,6 +131,7 @@ intents:
   - handleinsult
   - telljoke
   - tellquote
+  - get_ipfs_url
   - ask_whatismyname
   - get_happy_images
   - ask_languagesbot
@@ -219,6 +221,7 @@ entities:
   - name
   - location
   - symptom
+  - ipfs
 
 slots:
   name:

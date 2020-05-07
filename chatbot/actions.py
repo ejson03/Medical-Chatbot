@@ -12,6 +12,7 @@ from modules.diagnose import encode_symptom, create_illness_vector, get_diagnosi
 import os
 import requests
 from os import environ
+import uuid
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet, AllSlotsReset, EventType
@@ -22,6 +23,7 @@ from datetime import datetime, date, time, timedelta
 
 
 class ActionGetSong(Action):
+
     def name(self):
         return "action_get_song"
 
@@ -116,6 +118,19 @@ class ActionDiagnoseSymptoms(Action):
 
     def name(self):
         return "action_diagnose_symptoms"
+
+    def run(self, dispatcher, tracker, domain):
+
+        symptoms = tracker.get_slot("symptom")
+        encoded_symptoms = [encode_symptom(symptom) for symptom in symptoms]
+        illness_vector = create_illness_vector(encoded_symptoms)
+        diagnosis_string = get_diagnosis(illness_vector)
+        dispatcher.utter_message(text=diagnosis_string)
+
+class ActionEHR(Action):
+
+    def name(self):
+        return "action_ehr"
 
     def run(self, dispatcher, tracker, domain):
 

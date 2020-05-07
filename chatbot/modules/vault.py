@@ -108,6 +108,7 @@ class Vault(object):
         if(policy==None):
             policy=self.config.policy
         self.writeRoute(password, username, policy)
+        self.config.username = username
         return self.client.create_userpass(self.config.username, password, self.config.policy)
 
     def login(self, password, username=None):
@@ -139,7 +140,7 @@ config = Config(
     token="myroot",
 	certificateMountPoint="certificate"
 )
-if __name=='__main__':
+if __name__ =='__main__':
     vault = Vault(config)
     vault.setup()
     # response = vault.signUp('qaz', 'richard')
