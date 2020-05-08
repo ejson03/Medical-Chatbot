@@ -1,9 +1,3 @@
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import unicode_literals
-from __future__ import print_function
-
-from typing import Dict, Text, Any, List, Union, Type, Optional
 from pymongo import MongoClient
 
 import typing
@@ -19,50 +13,60 @@ CONNECTION_STRING = environ.get("MONGODB_STRING")
 client = MongoClient(CONNECTION_STRING)
 
 from rasa_sdk import Action, Tracker
-from rasa_sdk.events import SlotSet, AllSlotsReset, EventType, SessionStarted, ActionExecuted
+from rasa_sdk.events import SlotSet, AllSlotsReset, EventType, SessionStarted, ActionExecuted, FollowupAction, BotUttered
 from rasa_sdk.forms import FormAction
 from rasa_sdk.executor import CollectingDispatcher
 
 from datetime import datetime, date, time, timedelta
 
-class ActionSessionStart(Action):
-    def name(self) -> Text:
-        return "action_session_start"
+# class ActionSessionStart(Action):
+#     def name(self):
+#         return "action_session_start"
+
+#     @staticmethod
+#     def fetch_slots(tracker):
+#         slots = []
+#         for key in ("name", "username", "password", "age", "height", "weight"):
+#             value = tracker.get_slot(key)
+#             if value is not None:
+#                 slots.append(SlotSet(key=key, value=value))
+#         return slots
+
+#     def run(self, dispatcher, tracker, domain):
+#         print("Inside session started.....")
+#         events = [SessionStarted()]
+#         events.extend(self.fetch_slots(tracker))
+#         events.append(FollowupAction("action_listen"))
+#         name = tracker.get_slot("name")
+#         print("Events are....",name,  events)
+#         dispatcher.utter_message(f"Hello {name}, how is the day treating you !!")
+#         return events
+
+class ActionGetCredentials(Action):
+    def name(self):
+        return "action_get_credentials"
 
     @staticmethod
     def fetch_slots(tracker):
         slots = []
-        for key in ("name", "username", "password", "age", "height", "weight"):
+        for key in ["name", "username", "password", "age", "height", "weight"]:
             value = tracker.get_slot(key)
             if value is not None:
                 slots.append(SlotSet(key=key, value=value))
         return slots
 
-    async def run(self, dispatcher, tracker, domain):
-        events = [SessionStarted()]
-        events.extend(self.fetch_slots(tracker))
-        events.append(ActionExecuted("action_listen"))
-        name = tracker.get_slot("name")
-        print(name,  events)
-        if len(name) >0:
-            dispatcher.utter_message(f"Hello {name}, how is the day treating you !!")
-        else:
-            dispatcher.utter_message("Hi, can i know your name")
-        return events
-
-class ActionGetCredentials(Action):
-    def name(self):
-        return "action_get_credentials"
     def run(self, dispatcher, tracker, domain):
-        username = tracker.get_slot('username')
+        username = tracker.sender_id
+        events = tracker.events
+        slots = self.fetch_slots(tracker)
         db = client.get_database('authenticate')
         collection = db['users']
         user = collection.find_one({'name' : username})
         if (user):
             password = user['password'].decode().encode('utf-8')
-            return [SlotSet("password", password)]
-        else:
-            dispatcher.utter_message("Are you sure you have uttered the right username...try again...")
+            return slots
+        else: 
+            raise Exception("Did not find user...")
 
 class ActionGetSong(Action):
 
@@ -234,13 +238,7 @@ class EHR(FormAction):
         except ValueError:
             return False
 
-    def validate_cuisine(
-        self,
-        value: Text,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any],
-    ) -> Dict[Text, Any]:
+    def validate_cuisine(self, value,  dispatcher, tracker, domain):
 
         if value.lower() in self.cuisine_db():
             return {"cuisine": value}
@@ -248,13 +246,7 @@ class EHR(FormAction):
             dispatcher.utter_message(template="utter_wrong_cuisine")
             return {"cuisine": None}
 
-    def validate_num_people(
-        self,
-        value: Text,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any],
-    ) -> Dict[Text, Any]:
+    def validate_num_people(self, value,  dispatcher, tracker, domain):
         """Validate num_people value."""
 
         if self.is_int(value) and int(value) > 0:
@@ -264,13 +256,7 @@ class EHR(FormAction):
             # validation failed, set slot to None
             return {"num_people": None}
 
-    def validate_outdoor_seating(
-        self,
-        value: Text,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any],
-    ) -> Dict[Text, Any]:
+    def validate_outdoor_seating(self, value,  dispatcher, tracker, domain):
         """Validate outdoor_seating value."""
 
         if isinstance(value, str):

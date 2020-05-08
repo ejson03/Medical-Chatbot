@@ -6,6 +6,7 @@ actions:
 - action_show_map
 - action_get_joke
 - action_get_quote
+- action_get_credentials
 - action_weather
 - action_temp
 - action_ehr

@@ -8,6 +8,7 @@ import os
 from os import system, environ
 import jwt, json
 import bcrypt
+import asyncio
 
 MONGO_URL = environ.get("MONGODB_STRING")   
 GMAP_API_KEY = environ.get("KEY")
@@ -25,12 +26,21 @@ mongo = PyMongo(app)
 def jwt_sess_auth(message):
     res = requests.post(f"{RASA_URI}/webhooks/token/webhook", json=message)
     res = res.json()
-    print(res)
     session['token'] = res['bot_token']
 
 def jwt_decode(token):
     query = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])
     return query
+
+def trigger_action(action, name):
+    data = {
+        "user": name,
+        "name": action,
+        "policy": "MappingPolicy", 
+        "confidence": "0.98"
+    }
+    res = requests.post(f"{RASA_URI}/conversations/{name}/execute", json=data)   #, headers={'Authorization': session['token']})
+    
 
 if not os.path.exists("uploads"):
     os.makedirs("uploads")
@@ -68,6 +78,7 @@ def login():
                 session['username'] = name
                 message = {'sender' : name, 'role': 'user'}
                 jwt_sess_auth(message)
+                trigger_action('action_get_credentials', name)
                 return redirect(url_for('user'))
     return render_template('login.html', message="User does not exists..Please Sign Up !")
 
@@ -91,6 +102,7 @@ def register():
                 session['username'] = name
                 message = {'sender' : name, 'role': 'user'}
                 jwt_sess_auth(message)
+                trigger_action('action_get_credentials', name)
                 return redirect(url_for('user'))
 
         return render_template('register.html', message="User already exists.. !")
