@@ -348,7 +348,7 @@ function setBotResponse(val) {
 						let submitButton = createButton("Upload ", {"type":"button", "class":"btn btn-primary btn-lg btn-block" });
 						setAttributes(section1,{"style":"font-size: 20px;"})
 						let formElement = document.createElement('div');
-						formElement.innerHTML =`<form action=\"/rasa\" method=\"post\" enctype=\"multipart/form-data\"><div class=\"form-group\"><label for=\"recipient-name\" class=\"col-form-label\"> Report Name : </label><input type=\"text\" class=\"form-control\" id=\"recipient-name\" name=\"reportname"\></div><div class=\"form-group\"><label for=\"message-text\" class=\"col-form-label\">Report Description :</label><textarea class=\"form-control\" id=\"message-text\" name=\"reportdesc\" type=\"text\"></textarea></div><div class=\"form-group\"><label for=\"recipient-name\" class=\"col-form-label\"> Report Upload : </label><input type=\"file\" class=\"form-control\" id=\"recipient-name\" name=\"report"\ multiple></div></form>` ;
+						formElement.innerHTML =`<form action=\"/rasa\" method=\"post\" enctype=\"multipart/form-data\"><div class=\"form-group\"><label for=\"recipient-name\" class=\"col-form-label\"> Report Upload : </label><input type=\"file\" class=\"form-control\" id=\"recipient-name\" name=\"file"\ multiple></div></form>` ;
 						formElement.appendChild(submitButton);
 						section1.appendChild(formElement);
 						body.append(section2, section1)
