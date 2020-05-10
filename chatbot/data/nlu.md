@@ -12,7 +12,6 @@
 - sup
 - whats up
 
-
 ## intent:goodbye
 - bye
 - goodbye
@@ -43,6 +42,18 @@
 - no way
 - not really
 - never though of it
+
+## intent:ask_form
+- i want to upload a file
+- want to upload my documents
+
+## intent:ask_ehr_form
+
+## intent:ask_upload
+
+## intent:conform_no
+
+## intent:conform_yes
 
 ## intent:ask_weather_location
 
@@ -1260,7 +1271,6 @@
 - I have [change in behavior](symptom), [discharge from ear](symptom), [cough](symptom), [low blood sugar](symptom)
 - My daughter is suffering from [arm numbness](symptom), [ear pressure](symptom), [ringing in ears](symptom), [drooping eyelid](symptom)
 
-
 ## intent:ask_name
 - My name is [Vedant](name)
 - I am [Pratik](name)
@@ -1563,54 +1573,6 @@
 - make me laugh with a bad quote
 - give me a good quote
 - you can say a quot
-
-## intent:tellfunfact
-- give me a fun fact
-- fun fact
-- got a fun fact
-- fun fact are us
-- tell me a fun fact
-- Say something funny.
-- Give me a fun fact.
-- Give me a funny fun fact.
-- What's a good fun fact?
-- Do you have any fun facts?
-- Do you know any fun facts?
-- I need a good fun fact.
-- Tell me the best fun fact you know.
-- Tell fun fact.
-- Tell me something funny.
-- Tell me something funny.
-- Share a fun fact with me!
-- Tell me something humorous!
-- Will you tell me a fun fact.
-- Can you tell me a fun fact.
-- Would you tell me a fun fact
-- Please tell me a fun fact.
-- Could you tell me a fun fact.
-- Would you share a fun fact with me.
-- Could you please share a fun fact with me.
-- Make me laugh.
-- Tell me something funny.
-- Entertain me with a fun fact.
-- Tell me something that you think will make me laugh.
-- I want to hear something funny.
-- Give me some comic relief.
-- Can you tell a fun fact?
-- Know any fun facts?
-- Come up with a fun fact you think I'll find funny.
-- Let's hear a fun fact from you.
-- say a fun fact that's funny
-- make me laugh with a fun fact
-- tell me something funny, like a fun fact
-- say a fun fact
-- tell me a short fun fact
-- tell me a story fun fact
-- say a funny fun fact
-- say a fun fact that's so bad it's funny
-- make me laugh with a bad fun fact
-- give me a good fun fact
-- you can say a funfact
 
 ##  intent:ask_wherefrom
 - where do you live?

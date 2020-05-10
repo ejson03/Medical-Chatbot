@@ -13,6 +13,7 @@
 ## story 6
 * describe_symptoms
   - action_diagnose_symptoms
+  - action_symptoms
   
 ## Generated Story 1
 * greet
@@ -130,6 +131,32 @@
     - action_weather
     - utter_did_that_help
 
+## happy path 1
+* ask_form
+    - utter_ask_is_form
+
+## happy path 2 
+* ask_ehr_form
+    - ehr_form
+    - form{"name": "ehr_form"}
+    - form{"name": null}
+    - utter_ask_confirm
+    - action_upload
+
+## happy path 3
+* ask_upload
+  - file_form
+  - form{"name": "file_form"}
+  - form{"name": null}
+  - action_upload
+
+## story 18
+* conform_yes
+  -slot{"conform": "Yes"}
+
+## story 19
+* conform_no
+  -slot{"conform": "No"}
 
 ## happy path
 * greet
@@ -138,6 +165,7 @@
   - action_get_song
 * describe_symptoms
   - action_diagnose_symptoms
+  - action_symptoms
 
 ## sad path 1
 * greet
@@ -148,6 +176,7 @@
   - utter_ask_howdoing
 * describe_symptoms
   - action_diagnose_symptoms
+  - action_symptoms
 * goodbye
   - utter_goodbye
 
@@ -165,19 +194,20 @@
 
 ## story_1
 * greet
-    - utter_greet
+  - utter_greet
 
 ## story check
 * greet
-    - utter_greet
+  - utter_greet
 * get_emotion
-    - action_get_song
+  - action_get_song
 * describe_symptoms
   - action_diagnose_symptoms
+  - action_symptoms
 * show_map
-    - action_show_map
+  - action_show_map
 * goodbye
-    - utter_goodbye
+  - utter_goodbye
 
 ## show map
 * show_map
@@ -185,11 +215,11 @@
 
 ## story_2
 * thank
-    - utter_thank
+  - utter_thank
 
 ## story_6
 * out_of_scope
-    - utter_default
+  - utter_default
 
 ## happy_path
 * greet
@@ -220,6 +250,7 @@
   - utter_smalltalk_agent_acquaintance
 * describe_symptoms
   - action_diagnose_symptoms
+  - action_symptoms
 
 ## path_smalltalk_agent_age
 * smalltalk_agent_age

@@ -38,6 +38,14 @@ html_regexes = {
 
 }
 
+def listToString(s):  
+    
+    # initialize an empty string 
+    str1 = " " 
+    
+    # return string   
+    return (str1.join(s)) 
+
 def google(q):
     s = requests.Session()
     q = '+'.join(q.split())
@@ -57,8 +65,9 @@ def get_string_after_tag(string, tag, regex, distance):
     else:
         return None
 
-def get_details(query):
+def get_details(query1):
     
+    query=listToString(query1)
     html_results = google(query)
     has_knowledge_panel = html_tags['knowledge_panel'] in html_results
     print(has_knowledge_panel)
@@ -135,7 +144,7 @@ def get_details(query):
 #     print(results)
 #     return results
 
-if __name__ == "__main__":
-    pass
+# if __name__ == "__main__":
+#     pass
     #get_details('diarrhea')
     #get_detailsdisease('alzheimer')

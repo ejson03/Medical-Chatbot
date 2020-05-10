@@ -1,6 +1,7 @@
 from pymongo import MongoClient
 
 import typing
+from typing import Dict, Text, Any, List, Union, Optional, Tuple
 import logging
 from modules.utils import *
 from modules.diagnose import encode_symptom, create_illness_vector, get_diagnosis
@@ -13,7 +14,7 @@ CONNECTION_STRING = environ.get("MONGODB_STRING")
 client = MongoClient(CONNECTION_STRING)
 
 from rasa_sdk import Action, Tracker
-from rasa_sdk.events import SlotSet, AllSlotsReset, EventType, SessionStarted, ActionExecuted, FollowupAction, BotUttered
+from rasa_sdk.events import SlotSet, AllSlotsReset, EventType, SessionStarted, ActionExecuted, FollowupAction, BotUttered, Form, EventType
 from rasa_sdk.forms import FormAction
 from rasa_sdk.executor import CollectingDispatcher
 
@@ -180,102 +181,153 @@ class ActionSymptoms(Action):
     def run(self, dispatcher, tracker, domain):
 
         symptoms = tracker.get_slot("symptom")
+        
         try:  
             data=get_details(symptoms)
+            print(data)
+            dispatcher.utter_message(text=" I hope this helps you out ")
             dispatcher.utter_message(json_message={"payload":"symptom","data":data})
         except:
             dispatcher.utter_message(text="Sorry couldn't find the data for the given symptom.")
 
-
-class EHR(FormAction):
+class ActionUpload(Action):
 
     def name(self):
-        return "ehr"
+        return "action_upload"
+
+    def run(self, dispatcher, tracker, domain):
+
+        #file = tracker.get_slot("file")
+        dispatcher.utter_message(json_message={"payload":"fileupload"})
+        dispatcher.utter_message(text="You have entered the upload part")
+
+class EHRForm(FormAction):
+
+    def name(self):
+        return "ehr_form"
 
     @staticmethod
     def required_slots(tracker):
-        return["username", "password", "age", "height", "weight", ""]
+        return["age", "excercise", "height", "smoking", "weight", "bp", "filedesc"]#, "filedesc"
 
     def slot_mappings(self):
 
         return {
-            "cuisine": self.from_entity(entity="cuisine", not_intent="chitchat"),
-            "num_people": [
-                self.from_entity(
-                    entity="number", intent=["inform", "request_restaurant"]
-                ),
-            ],
-            "outdoor_seating": [
-                self.from_entity(entity="seating"),
-                self.from_intent(intent="affirm", value=True),
-                self.from_intent(intent="deny", value=False),
-            ],
-            "preferences": [
-                self.from_intent(intent="deny", value="no additional preferences"),
-                self.from_text(not_intent="affirm"),
-            ],
-            "feedback": [self.from_entity(entity="feedback"), self.from_text()],
+            "age": [self.from_entity(entity="age"),
+                                    self.from_text()],
+            "excercise": [self.from_entity(entity="excercise"), 
+                                    self.from_text()],
+            "height": [self.from_entity(entity="height"),
+                         self.from_text()],
+            "smoking": [self.from_entity(entity="smoking"),
+                                    self.from_text()],
+            "weight": [self.from_entity(entity="weight"),
+                         self.from_text()],
+            "bp": [self.from_entity(entity="bp"),
+                         self.from_text()],
+            "filedesc": [self.from_entity(entity="filedesc"),
+                         self.from_text()]
         }
 
-    @staticmethod
-    def cuisine_db():
-
-        return [
-            "caribbean",
-            "chinese",
-            "french",
-            "greek",
-            "indian",
-            "italian",
-            "mexican",
-        ]
-
-    @staticmethod
-    def is_int(string):
+    @staticmethod 
+    def is_float(string):
         try:
-            int(string)
+            float(string)
             return True
         except ValueError:
             return False
 
-    def validate_cuisine(self, value,  dispatcher, tracker, domain):
-
-        if value.lower() in self.cuisine_db():
-            return {"cuisine": value}
-        else:
-            dispatcher.utter_message(template="utter_wrong_cuisine")
-            return {"cuisine": None}
-
-    def validate_num_people(self, value,  dispatcher, tracker, domain):
+    def validate_height(self, value,  dispatcher, tracker, domain):
         """Validate num_people value."""
 
-        if self.is_int(value) and int(value) > 0:
-            return {"num_people": value}
+        if self.is_float(value) and float(value) > 0 and float(value) < 8.50 :
+            return {"height": value}
         else:
-            dispatcher.utter_message(template="utter_wrong_num_people")
+            dispatcher.utter_message(template="utter_wrong_height")
             # validation failed, set slot to None
-            return {"num_people": None}
+            return {"height": None}
 
-    def validate_outdoor_seating(self, value,  dispatcher, tracker, domain):
-        """Validate outdoor_seating value."""
-
-        if isinstance(value, str):
-            if "out" in value:
-                # convert "out..." to True
-                return {"outdoor_seating": True}
-            elif "in" in value:
-                # convert "in..." to False
-                return {"outdoor_seating": False}
-            else:
-                dispatcher.utter_message(template="utter_wrong_outdoor_seating")
-                # validation failed, set slot to None
-                return {"outdoor_seating": None}
-
+    def validate_weight(self, value,  dispatcher, tracker, domain):
+        if(not (value and value.strip())):
+            dispatcher.utter_message(text=" Kindly fill in your proper weight")
+            return{"weight":None}
         else:
-            return {"outdoor_seating": value}
+            return{"weight":value}
+    
+    def validate_filedesc(self, value,  dispatcher, tracker, domain):
+        if(not (value and value.strip())):
+            dispatcher.utter_message(text=" Kindly fill in your proper file description")
+            return{"filedesc":None}
+        else:
+            return{"filedesc":value}
 
-    def submit(self,dispatcher,tracker, domain):
-        dispatcher.utter_message(template="utter_submit")
+    def validate_age(self, value,  dispatcher, tracker, domain):
+        if(not (value and value.strip())):
+            dispatcher.utter_message(text=" Kindly fill in your proper age ")
+            return{"age":None}
+        else:
+            return{"age":value}
+
+    def validate_bp(self, value,  dispatcher, tracker, domain):
+        if(not (value and value.strip())):
+            dispatcher.utter_message(text=" Kindly fill in your proper blood pressure in the given format ")
+            return{"bp":None}
+        else:
+            return{"bp":value}
+
+    def validate_smoking(self, value,  dispatcher, tracker, domain):
+        if(not (value and value.strip())):
+            dispatcher.utter_message(text=" Kindly fill in your proper smoking details")
+            return{"smoking":None}
+        else:
+            return{"smoking":value}
+
+    def validate_excercise(self, value,  dispatcher, tracker, domain):
+        if(not (value and value.strip())):
+            dispatcher.utter_message(text=" Kindly fill in your proper excercise details")
+            return{"excercise":None}
+        else:
+            return{"excercise":value}
+
+    def submit(self, dispatcher, tracker, domain ):
+        # dispatcher.utter_message(template="utter_ask_confirm")
+        # dispatcher.utter_message(template="utter_ask_conform")
+        # slot_to_fill = tracker.get_slot('conform')
+        # print(slot_to_fill)
+        # if slot_to_fill == "Yes" :
+        #     dispatcher.utter_message(template="utter_submit")
+        #     return []
+        # else :
+        #     return[self.deactivate()]
+        # dispatcher.utter_message(template="utter_submit")
+        return[]
+
+class FileForm(FormAction):
+
+    def name(self):
+        return "file_form"
+
+    @staticmethod
+    def required_slots(tracker):
+        return["filedesc"]
+
+    def slot_mappings(self):
+
+        return {
+            "filedesc": [self.from_entity(entity="filedesc"),
+                         self.from_text()]
+        }
+
+    def validate_filedesc(self, value,  dispatcher, tracker, domain):
+        if (not (value and value.strip())):
+            dispatcher.utter_message(text=" File description cannot be empty ")
+            return{"filedesc":None}
+        else:
+            return{"filedesc":value}
+
+    def submit(self, dispatcher, tracker, domain ):
+        #dispatcher.utter_message(template="utter_submit")
+        dispatcher.utter_message(template="utter_ask_file")
         return []
 
 

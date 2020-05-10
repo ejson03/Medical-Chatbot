@@ -10,24 +10,31 @@ actions:
 - action_weather
 - action_temp
 - action_ehr
+- action_upload
 - utter_ask_location
 - action_diagnose_symptoms
 - action_symptoms
+- utter_ask_conform
 - utter_thank
 - utter_default
 - utter_ask_name
 - utter_ask_age
+- utter_ask_bp
 - utter_ask_excercise
 - utter_ask_height
 - utter_ask_is_form
 - utter_ask_smoking
 - utter_ask_weight
+- utter_ask_filedesc
+- utter_ask_confirm
+- utter_ask_file
 - utter_noworries
 - utter_ask_howdoing
 - utter_ask_howold
 - utter_ask_time
 - utter_ask_wherefrom
 - utter_ask_whoami
+- utter_submit
 - utter_handleinsult
 - utter_ask_languagesbot
 - utter_smalltalk_appraisal_good
@@ -130,6 +137,11 @@ intents:
   - ask_weather_location
   - ask_temperature
   - ask_weather
+  - ask_form
+  - ask_upload
+  - ask_ehr_form
+  - conform_no
+  - conform_yes
   - show_map
   - describe_symptoms
   - handleinsult
@@ -137,6 +149,7 @@ intents:
   - tellquote
   - ask_whatismyname
   - get_happy_images
+  - get_ipfs_url
   - ask_languagesbot
   - smalltalk_agent_acquaintance
   - smalltalk_agent_age
@@ -224,6 +237,16 @@ entities:
   - name
   - location
   - symptom
+  - age
+  - excercise
+  - file
+  - height
+  - smoking
+  - weight
+  - conform
+  - ipfs
+  - bp
+  - filedesc
 
 slots:
   name:
@@ -250,38 +273,83 @@ slots:
     type: unfeaturized
   weight:
     type: unfeaturized
+  bp:
+    type: unfeaturized
+  filedesc:
+    type: unfeaturized
+  conform:
+    type: unfeaturized
 
 forms:
-- ehr
+  - ehr_form
+  - file_form
 
 responses:
 
   utter_ask_age:
-  - text: What is your age?
-  - text: How old are you?
+    - text: What is your age ?
+    - text: How old are you ? 
 
   utter_ask_excercise:
-  - text: Do you excercise?
-  - text: Are you fit?
+    - text: Do you excercise ?
+    - text: Are you fit ?
+
+  utter_submit:
+    - text: "All done!"
+  
+  utter_ask_filedesc:
+    - text: " Enter the file description"
+
+  utter_ask_confirm:
+    - text: "Data enetered is :\n
+             -  Age: {age}\n
+             -  Height: {height}\n
+             -  Smoking: {smoking}\n
+             -  Weight: {weight}\n
+             -  Excercise: {excercise}\n
+             -  Blood Pressure: {bp}\n
+             -  File Description : {filedesc}\n"
+  
+  utter_ask_file:
+    - text: "Enetered file description is :\n
+             -  File Description : {filedesc}\n"
+
+  utter_ask_bp:
+    - text: What is your blood pressure ( systolic / diastolic ) ?
+    - text: Please enter your blood pressure ( systolic / diastolic ) ?
+
+  utter_wrong_height:
+    - text: "You have entered the height in thr wrong format, Please try again"
+
+  utter_wrong_smoking:
+    - text: "The inputed value couln't be contemplated, Please try again"
 
   utter_ask_height:
-  - text: What is your height?
-  - text: How tall are you?
+    - text: What is your height in feet ?
+    - text: How tall are you in feet ?
 
   utter_ask_is_form:
   - buttons:
-    - payload: /affirm
+    - payload: /ask_ehr_form
       title: 'Yes'
-    - payload: /deny
+    - payload: /ask_upload
       title: 'No'
-    text: Do you wanna fill form first or upload directly?
+    text: Do you wanna fill health form first or upload directly ?
+
+  utter_ask_conform:
+  - buttons:
+    - payload: /conform_yes
+      title: 'Yes'
+    - payload: /conform_no
+      title: 'No'
+    text: Press yes to submit the form if all the above details are correct
 
   utter_ask_smoking:
-  - text: Do you smoke?
+    - text: Do you smoke ?
 
   utter_ask_weight:
-  - text: What is your weight?
-  - text: How much do you weigh?
+    - text: What is your weight in kgs ?
+    - text: How much do you weigh in kgs ?
 
   utter_did_that_help:
     - text: "Did that help you ?"
@@ -320,6 +388,7 @@ responses:
   utter_noworries:
     - text: "My pleasure."
     - text: "You are welcome!"
+    - text: "Glad you liked my service"
 
   utter_continue:
     - text: "Do you want to continue the healthcare facility search?"
@@ -333,7 +402,6 @@ responses:
   utter_ask_languagesbot:
     - text: "I can spell baguette in French, but unfortunately English is the only language I can answer you in."
     - text: "I am in the process of learning, but at the moment I can only speak English."
-
 
   utter_ask_time:
     - text: "It is the most wonderful time of the year!"

@@ -99,7 +99,6 @@ class RestInput(InputChannel):
                     )
                 else:
                     collector = CollectingOutputChannel()
-                    await on_new_message(UserMessage(text, collector, sender_id))
                     try:
                         await on_new_message(
                             UserMessage(
