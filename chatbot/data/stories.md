@@ -142,6 +142,7 @@
     - form{"name": null}
     - utter_ask_confirm
     - action_upload
+    - action_set_file
 
 ## happy path 3
 * ask_upload
@@ -149,6 +150,7 @@
   - form{"name": "file_form"}
   - form{"name": null}
   - action_upload
+  - action_set_file
 
 ## story 18
 * conform_yes

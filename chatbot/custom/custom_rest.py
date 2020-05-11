@@ -20,7 +20,6 @@ def jwt_decode(token):
     except:
         return False
 
-
 class RestInput(InputChannel):
     """A custom http input channel
 

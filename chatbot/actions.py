@@ -17,31 +17,12 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet, AllSlotsReset, EventType, SessionStarted, ActionExecuted, FollowupAction, BotUttered, Form, EventType
 from rasa_sdk.forms import FormAction
 from rasa_sdk.executor import CollectingDispatcher
-
+# from modules.ehr import User
+# from modules.vault import Config
+VAULT_URL = environ.get("VAULT_URL", "192.168.33.150:8002")
+VAULT_KEY = environ.get("VAULT_KEY", "myroot")
 from datetime import datetime, date, time, timedelta
-
-# class ActionSessionStart(Action):
-#     def name(self):
-#         return "action_session_start"
-
-#     @staticmethod
-#     def fetch_slots(tracker):
-#         slots = []
-#         for key in ("name", "username", "password", "age", "height", "weight"):
-#             value = tracker.get_slot(key)
-#             if value is not None:
-#                 slots.append(SlotSet(key=key, value=value))
-#         return slots
-
-#     def run(self, dispatcher, tracker, domain):
-#         print("Inside session started.....")
-#         events = [SessionStarted()]
-#         events.extend(self.fetch_slots(tracker))
-#         events.append(FollowupAction("action_listen"))
-#         name = tracker.get_slot("name")
-#         print("Events are....",name,  events)
-#         dispatcher.utter_message(f"Hello {name}, how is the day treating you !!")
-#         return events
+from modules.encryption import encrypt, ipfs_add
 
 class ActionGetCredentials(Action):
     def name(self):
@@ -50,7 +31,7 @@ class ActionGetCredentials(Action):
     @staticmethod
     def fetch_slots(tracker):
         slots = []
-        for key in ["name", "username", "password", "age", "height", "weight"]:
+        for key in ["username", "password", "age", "height", "weight"]:
             value = tracker.get_slot(key)
             if value is not None:
                 slots.append(SlotSet(key=key, value=value))
@@ -58,16 +39,17 @@ class ActionGetCredentials(Action):
 
     def run(self, dispatcher, tracker, domain):
         username = tracker.sender_id
-        events = tracker.events
         slots = self.fetch_slots(tracker)
-        db = client.get_database('authenticate')
-        collection = db['users']
-        user = collection.find_one({'name' : username})
-        if (user):
-            password = user['password'].decode().encode('utf-8')
-            return slots
-        else: 
-            raise Exception("Did not find user...")
+        if not any("password" in slot for slot in slots):
+            db = client.get_database('authenticate')
+            collection = db['users']
+            user = collection.find_one({'name' : username})
+            if (user):
+                password = user['password'].decode().encode('utf-8')
+                slots.extend([SlotSet(key="username", value=username), SlotSet(key="password", value=password)])
+            else: 
+                raise Exception("Did not find user...")
+        return slots
 
 class ActionGetSong(Action):
 
@@ -329,5 +311,42 @@ class FileForm(FormAction):
         #dispatcher.utter_message(template="utter_submit")
         dispatcher.utter_message(template="utter_ask_file")
         return []
+
+class ActionSetFile(Action):
+
+    def name(self):
+        return "action_set_file"
+
+    def run(self, dispatcher, tracker, domain):
+        file = tracker.latest_message.text
+        file = encrypt(file, "key")
+        url = ipfs_add(file)
+        print(url)
+
+
+# class ActionSessionStart(Action):
+#     def name(self):
+#         return "action_session_start"
+
+#     @staticmethod
+#     def fetch_slots(tracker):
+#         slots = []
+#         for key in ("name", "username", "password", "age", "height", "weight"):
+#             value = tracker.get_slot(key)
+#             if value is not None:
+#                 slots.append(SlotSet(key=key, value=value))
+#         return slots
+
+#     def run(self, dispatcher, tracker, domain):
+#         print("Inside session started.....")
+#         events = [SessionStarted()]
+#         events.extend(self.fetch_slots(tracker))
+#         events.append(FollowupAction("action_listen"))
+#         name = tracker.get_slot("name")
+#         print("Events are....",name,  events)
+#         dispatcher.utter_message(f"Hello {name}, how is the day treating you !!")
+#         return events
+
+
 
 

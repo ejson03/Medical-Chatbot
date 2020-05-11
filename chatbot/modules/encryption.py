@@ -5,6 +5,14 @@ from Crypto.Hash import SHA256, MD5
 import json
 import base64
 import os
+from os import environ
+import ipfshttpclient
+IPFS_URL = environ.get("IPFS_URL", '/dns/ipfs.infura.io/tcp/5001/https')
+ipfs = ipfshttpclient.connect(IPFS_URL)
+
+def ipfs_add(file):
+    url = ipfs.add_bytes(file)
+    return url
 
 def encrypt_rsa(key, public_key):
     handler = PKCS1_OAEP.new(public_key)

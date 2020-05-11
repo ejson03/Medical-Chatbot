@@ -2,9 +2,11 @@ from flask import Flask, render_template, request, jsonify, redirect, url_for, a
 import requests
 from flask_pymongo import PyMongo
 from flask_cors import CORS, cross_origin
-from modules.report import User, getAllUsers, getWeb
+from modules.report import User, getAllUsers, getWeb 
+from pyfladesk import init_gui
 # from modules.session import Session
 import os
+from io import BytesIO
 from os import system, environ
 import jwt, json
 import bcrypt
@@ -39,7 +41,7 @@ def trigger_action(action, name):
         "policy": "MappingPolicy", 
         "confidence": "0.98"
     }
-    res = requests.post(f"{RASA_URI}/conversations/{name}/execute", json=data)   #, headers={'Authorization': session['token']})
+    res = requests.post(f"{RASA_URI}/conversations/{name}/execute", json=data)
     
 
 if not os.path.exists("uploads"):
@@ -111,7 +113,13 @@ def register():
 @cross_origin() 
 @app.route('/rasa', methods=['POST'])
 def action():
-    message = request.json
+    try:
+        content = BytesIO(request.files['file'].read()).getvalue()
+        message = {'message':content}
+        print(request.files)
+    except:
+        message = request.json
+        print(message)
     res = requests.post(f"{RASA_URI}/webhooks/rest/webhook", json=message, headers={'Authorization': session['token']})
     return jsonify(res.json())
 
@@ -176,3 +184,4 @@ if __name__ == '__main__':
     # app.run(host='0.0.0.0', debug=True, ssl_context=context)
     app.secret_key = 'mysecret'
     app.run(debug=True)
+    #init_gui(app)
