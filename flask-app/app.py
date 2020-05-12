@@ -114,13 +114,12 @@ def register():
 @app.route('/rasa', methods=['POST'])
 def action():
     try:
-        content = BytesIO(request.files['file'].read()).getvalue()
-        message = {'message':content}
-        print(request.files)
+        files = request.files['file']
+        files = {"file": (files.filename, files.stream, files.mimetype)}
+        res = requests.post(f"{RASA_URI}/webhooks/rest/webhook", files=files, headers={'Authorization': session['token']})
     except:
         message = request.json
-        print(message)
-    res = requests.post(f"{RASA_URI}/webhooks/rest/webhook", json=message, headers={'Authorization': session['token']})
+        res = requests.post(f"{RASA_URI}/webhooks/rest/webhook", json=message, headers={'Authorization': session['token']})
     return jsonify(res.json())
 
 @app.route('/report', methods=['POST'])

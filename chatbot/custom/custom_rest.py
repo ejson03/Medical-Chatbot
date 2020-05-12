@@ -9,6 +9,9 @@ from asyncio import Queue, CancelledError
 from rasa.core.channels.channel import UserMessage, OutputChannel, CollectingOutputChannel, InputChannel
 import jwt
 from os import environ
+from io import BytesIO
+import base64
+
 
 logger = logging.getLogger(__name__)
 SECRET_KEY = environ.get("SECRET_KEY")
@@ -50,6 +53,13 @@ class RestInput(InputChannel):
     async def _extract_message(self, req):
         return req.json.get("message", None)
 
+    async def _extract_file(self, req):
+        print(type(req.files['file'][0][1]), 
+                type(base64.b64encode(req.files['file'][0][1])),
+                type(base64.b64encode(req.files['file'][0][1]).decode('ascii'))
+                )
+        return base64.b64encode(req.files['file'][0][1]).decode('ascii')
+
     async def _extract_header(self, req) :
         return req.headers.get("Authorization", None)
 
@@ -81,15 +91,21 @@ class RestInput(InputChannel):
 
         @custom_webhook.route("/webhook", methods=["POST"])
         async def receive(request: Request):
-            text = await self._extract_message(request)
             jwt_data = await self._extract_header(request)
             jwt_data = jwt_decode(jwt_data)
-            if(jwt_data):
-                sender_id = await self._extract_sender(jwt_data)
+            try:
+                text = await self._extract_message(request)
+                should_use_stream = rasa.utils.endpoints.bool_arg(
+                    request, "stream", default=False
+                )
+            except:
+                text = await self._extract_file(request)
                 should_use_stream = rasa.utils.endpoints.bool_arg(
                     request, "stream", default=False
                 )
 
+            if(jwt_data):
+                sender_id = await self._extract_sender(jwt_data)
                 if should_use_stream:
                     return response.stream(
                         self.stream_response(on_new_message, text, sender_id),

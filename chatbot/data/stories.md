@@ -137,28 +137,33 @@
 
 ## happy path 2 
 * ask_ehr_form
+    - slot{"filedesc": "None"}
     - ehr_form
     - form{"name": "ehr_form"}
     - form{"name": null}
     - utter_ask_confirm
     - action_upload
+    - action_listen
     - action_set_file
 
 ## happy path 3
 * ask_upload
+  - slot{"filedesc": "None"}
   - file_form
   - form{"name": "file_form"}
   - form{"name": null}
   - action_upload
+  - action_listen
   - action_set_file
+
 
 ## story 18
 * conform_yes
-  -slot{"conform": "Yes"}
+  - slot{"conform": "Yes"}
 
 ## story 19
 * conform_no
-  -slot{"conform": "No"}
+  - slot{"conform": "No"}
 
 ## happy path
 * greet

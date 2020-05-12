@@ -312,7 +312,7 @@ responses:
              -  File Description : {filedesc}\n"
   
   utter_ask_file:
-    - text: "Enetered file description is :\n
+    - text: "Entered file description is :\n
              -  File Description : {filedesc}\n"
 
   utter_ask_bp:

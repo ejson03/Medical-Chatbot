@@ -37,6 +37,7 @@ border-radius: 0 0 15px 15px !important;
 }
 .type_msg{
   background-color: rgba(0,0,0,0.3) !important;
+  border-radius: 15px 0px 0px 15px !important;
   border:0 !important;
   color:white !important;
   height: 60px !important;

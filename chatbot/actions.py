@@ -12,6 +12,8 @@ from os import environ
 import uuid
 CONNECTION_STRING = environ.get("MONGODB_STRING")
 client = MongoClient(CONNECTION_STRING)
+import base64
+from sys import getsizeof
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet, AllSlotsReset, EventType, SessionStarted, ActionExecuted, FollowupAction, BotUttered, Form, EventType
@@ -23,6 +25,7 @@ VAULT_URL = environ.get("VAULT_URL", "192.168.33.150:8002")
 VAULT_KEY = environ.get("VAULT_KEY", "myroot")
 from datetime import datetime, date, time, timedelta
 from modules.encryption import encrypt, ipfs_add
+import base64
 
 class ActionGetCredentials(Action):
     def name(self):
@@ -178,10 +181,7 @@ class ActionUpload(Action):
         return "action_upload"
 
     def run(self, dispatcher, tracker, domain):
-
-        #file = tracker.get_slot("file")
         dispatcher.utter_message(json_message={"payload":"fileupload"})
-        dispatcher.utter_message(text="You have entered the upload part")
 
 class EHRForm(FormAction):
 
@@ -318,10 +318,21 @@ class ActionSetFile(Action):
         return "action_set_file"
 
     def run(self, dispatcher, tracker, domain):
-        file = tracker.latest_message.text
+        file = tracker.latest_message['text']
+        print(type(file))
+        with open('file.pdf', 'wb') as f:
+            file = file.encode('ascii')
+            file = base64.b64decode(file)
+            f.write(file)
+        buttons = []
+        buttons.append({"payload": "/accept", "title":"Do you want to submit?"})
+        buttons.append({"payload": "/reject", "title":"Do you want to reject?"})
+        dispatcher.utter_message(text="Choose Option", buttons=buttons)
         file = encrypt(file, "key")
         url = ipfs_add(file)
-        print(url)
+        print(url, getsizeof(url))
+        return [SlotSet(key='file', value=url)]
+        
 
 
 # class ActionSessionStart(Action):
