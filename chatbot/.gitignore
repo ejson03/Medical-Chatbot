@@ -144,3 +144,4 @@ out.log
 fetchable_auth_keys.json
 *.png
 *.log
+*.pdf
