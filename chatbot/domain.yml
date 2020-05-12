@@ -2,6 +2,8 @@ actions:
 - utter_greet
 - utter_did_that_help
 - utter_goodbye
+- action_reset_slot
+- action_bigchaindb
 - action_get_song
 - action_show_map
 - action_get_joke

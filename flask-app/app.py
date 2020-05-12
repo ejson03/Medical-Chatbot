@@ -4,31 +4,39 @@ from flask_pymongo import PyMongo
 from flask_cors import CORS, cross_origin
 from modules.report import User, getAllUsers, getWeb 
 from pyfladesk import init_gui
-# from modules.session import Session
+from time import sleep
 import os
 from io import BytesIO
 from os import system, environ
 import jwt, json
 import bcrypt
+from concurrent.futures import ThreadPoolExecutor, wait
+import threading
 import asyncio
+import multiprocessing
+from flask_executor import Executor
 
+
+CPU_COUNTS = int(multiprocessing.cpu_count()/3 + 1)
 MONGO_URL = environ.get("MONGODB_STRING")   
 GMAP_API_KEY = environ.get("KEY")
 SECRET_KEY = environ.get("SECRET_KEY")
 RASA_URI = "http://localhost:5005"
 
 app = Flask(__name__)
-# session = Session()
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 app.config['MONGO_DBNAME'] = 'authenticate'
 app.config['MONGO_URI'] = f"{MONGO_URL}/authenticate"
+executor = Executor(app)
 mongo = PyMongo(app)
 
 def jwt_sess_auth(message):
     res = requests.post(f"{RASA_URI}/webhooks/token/webhook", json=message)
     res = res.json()
+    print("Response from token is", res)
     session['token'] = res['bot_token']
+    return res['bot_token']
 
 def jwt_decode(token):
     query = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])
@@ -42,7 +50,13 @@ def trigger_action(action, name):
         "confidence": "0.98"
     }
     res = requests.post(f"{RASA_URI}/conversations/{name}/execute", json=data)
-    
+    print("Response from action is", res)
+
+def get_token_from_executor():
+    try:
+        session['token'] = executor.futures.pop('token').result()
+    except:
+        return None
 
 if not os.path.exists("uploads"):
     os.makedirs("uploads")
@@ -67,6 +81,7 @@ def user():
 def login():
     name = request.form.get("name")
     password = request.form.get("pass")
+    futures = []
     if(name == "admin" and password == "admin"):
         message = {'sender' : name, 'role': 'admin'}
         session['username'] = name
@@ -79,8 +94,13 @@ def login():
             if bcrypt.hashpw(password.encode('utf-8'), login_user['password'].decode().encode('utf-8')) == login_user['password'].decode().encode('utf-8'):
                 session['username'] = name
                 message = {'sender' : name, 'role': 'user'}
-                jwt_sess_auth(message)
-                trigger_action('action_get_credentials', name)
+                executor.submit_stored('token', jwt_sess_auth, message)
+                executor.submit(trigger_action, 'action_get_credentials', name)
+                # jwt_sess_auth(message)
+                # trigger_action('action_get_credentials', name)
+                #futures.append(executor.submit(jwt_sess_auth, message))
+                #futures.append(executor.submit(trigger_action, 'action_get_credentials', name))
+                #wait(futures)
                 return redirect(url_for('user'))
     return render_template('login.html', message="User does not exists..Please Sign Up !")
 
@@ -113,6 +133,9 @@ def register():
 @cross_origin() 
 @app.route('/rasa', methods=['POST'])
 def action():
+    if get_token_from_executor() != None:
+        pass
+    print(session['token'])
     try:
         files = request.files['file']
         files = {"file": (files.filename, files.stream, files.mimetype)}
@@ -181,6 +204,8 @@ if __name__ == '__main__':
     # context = ('server.crt', 'server.key')
     # app.secret_key = 'mysecret'
     # app.run(host='0.0.0.0', debug=True, ssl_context=context)
+    # executor = ThreadPoolExecutor(max_workers=CPU_COUNTS)
     app.secret_key = 'mysecret'
-    app.run(debug=True)
+    app.run(debug=True, threaded=True)
+    # executor.close()
     #init_gui(app)

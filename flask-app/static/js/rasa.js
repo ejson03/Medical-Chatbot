@@ -73,7 +73,8 @@ function send(text) {
 				headers: {
 					'Content-Type': 'application/json'
 				},
-				body: JSON.stringify({ message: text})
+				body: JSON.stringify({ message: text}),
+				redirect: 'manual'
 			});
 			response = await response.json();
 			console.log(response);
@@ -106,9 +107,9 @@ function createModalBase(style, id, attributes){
 
 function createModal(eid){
 	
-	let main = createModalBase(style=["modal" , "fade"], id=eid, {'tabIndex':-1, 
-										"role":"dialog","aria-labelledby":"myModalLabel", "aria-hidden":true });
-	let head = createModalBase(style=["modal-dialog","modal-lg","modal-dialog-centered"], id="something", {"role":"document"} )
+	let main = createModalBase(style=["modal" , "fade"], id= eid, {'tabIndex':-1, 
+										"role":"dialog","aria-labelledby":"myModalLabel", "aria-hidden":true});
+	let head = createModalBase(style=["modal-dialog","modal-lg","modal-dialog-centered"], id=eid, {"role":"document"});
 	let body = createDiv(["modal-content"])
 	let section1 = createDiv(["modal-body"])
 	let frame = createDiv(["embed-responsive", "embed-responsive-16by9", "z-depth-1-half"])
@@ -125,7 +126,7 @@ function createModalscrollable(title, eid){
 	
 	let main = createModalBase(style=["modal" , "fade"], id=eid, {'tabIndex':-1, 
 										"role":"dialog","aria-labelledby":"myModalLabel", "aria-hidden":true });
-	let head = createModalBase(style=["modal-dialog","modal-lg","modal-dialog-centered","modal-dialog-scrollable"], id="something", {"role":"document"} )
+	let head = createModalBase(style=["modal-dialog","modal-lg","modal-dialog-centered","modal-dialog-scrollable"], id=eid, {"role":"document"});
 	let body = createDiv(["modal-content"])
 	let section1 = createDiv(["modal-body"])
 	setAttributes(section1,{"style":"font-size: 20px;"})
@@ -220,18 +221,18 @@ function setBotResponse(val) {
 			$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
 		} else {
 			for (var i in val) {
-				let id = getID()
+				let vid = getID()
 				if (val[i].hasOwnProperty("image")) {
 					let base = createBaseChat();
 					let url = `data:image/png;base64,${val[i].image}`
 					let img = createImage(src=url)
-					let { main, head, body, section1, frame, section2} = createModal(id)
-					let outerButton = createButton("Please click here to see the quote", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal",  "data-target":`#${id}`});
+					let { main, head, body, section1, frame, section2} = createModal(vid)
+					let outerButton = createButton("Please click here to see the quote", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal","data-target":`#${vid}`});
 					let response = createDiv(style=["msg_cotainer1"], id="", text = "");
 					let timespan = createSpan(style=["msg_time"], text=time);
 					setAttributes(section1,{"style":"padding:0rem;font-size: 20px;"})
 					img.height = 480;
-					img.width = 720;		
+					img.width = 798;		
 					section1.appendChild(img);
 					body.append(section2, section1)
 					head.appendChild(body);
@@ -249,10 +250,10 @@ function setBotResponse(val) {
 					if (val[i].custom.payload == "video") {
 						let url = (val[i].custom.data);
 						let base = createBaseChat();
-						let outerButton = createButton("Please click here to see the video", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal",  "data-target":`#${id}`});
+						let { main, head, body, section1, frame, section2} = createModal(vid)
+						let outerButton = createButton("Please click here to see the video", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal","data-target":`#${vid}`});
 						let response = createDiv(style=["msg_cotainer1"], id="", text = "");
 						let iframe = createIframe(url);
-						let { main, head, body, section1, frame, section2} = createModal(id)
 						let timespan = createSpan(style=["msg_time"], text=time);
 						setAttributes(section1,{"style":"padding:0rem;"})
 						frame.appendChild(iframe);
@@ -267,11 +268,11 @@ function setBotResponse(val) {
 					}
 					if (val[i].custom.payload == "map") {
 						let base = createBaseChat();
+						let { main, head, body, section1, frame, section2} = createModal(vid)
+						let outerButton = createButton("Please click here to see the map", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal","data-target":`#${vid}`});
 						let map = createDiv(style=[], id="map")
 						let response = createDiv(style=["msg_cotainer1"], id="", text = "");
-						let { main, head, body, section1, frame, section2} = createModal(id)
-						let outerButton = createButton("Please click here to see the map", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal",  "data-target":`#${id}`});
-						map.style = "height: 480px; width: 720px;"
+						map.style = "height: 480px; width: 798px;"
 						setAttributes(section1,{"style":"padding:0rem;font-size: 20px;"})
 						section1.appendChild(map);
 						body.append(section2, section1)
@@ -307,8 +308,8 @@ function setBotResponse(val) {
 						let response = createDiv(style=["msg_cotainer1"], id="", text = "");
 						let timespan = createSpan(style=["msg_time"], text=time);
 						console.log(val[i].custom.payload);
-						let { main, head, body, section1, section2} = createModalscrollable(val[i].custom.data.name, id)
-						let outerButton = createButton(`Click here to know more about ${val[i].custom.data.name}`, {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal",  "data-target":`#${id}`});
+						let { main, head, body, section1, section2} = createModalscrollable(val[i].custom.data.name, vid)
+						let outerButton = createButton(`Click here to know more about ${val[i].custom.data.name}`, {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal","data-target":`#${vid}`});
 						let listElement = document.createElement('div');
 						let x = document.createElement("A");
 						setAttributes(x,{"class":"btn btn-primary btn-lg btn-block","style":"margin-bottom: 10px;", "data-toggle":"collapse","href":"#desc", "role":"button", "aria-expanded":"false" ,"aria-controls":"desc"})
@@ -356,8 +357,8 @@ function setBotResponse(val) {
 						let base = createBaseChat();
 						let response = createDiv(style=["msg_cotainer1"], id="", text = "");
 						let timespan = createSpan(style=["msg_time"], text=time);
-						let { main, head, body, section1, frame, section2} = createModal(id)
-						let outerButton = createButton("Please click here to upload the file", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal",  "data-target":`#${id}`});
+						let { main, head, body, section1, frame, section2} = createModal(vid)
+						let outerButton = createButton("Please click here to upload the file", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal","data-target":`#${vid}`});
 						let submitButton = createButton("Upload ", {"type":"submit", "class":"btn btn-primary btn-lg btn-block", "form":"uploadfile" });
 						setAttributes(section1,{"style":"font-size: 20px;"})
 						let formElement = document.createElement('div');
@@ -376,8 +377,8 @@ function setBotResponse(val) {
 						let base = createBaseChat();
 						let response = createDiv(style=["msg_cotainer1"], id="", text = "");
 						let timespan = createSpan(style=["msg_time"], text=time);
-						let { main, head, body, section1, section2} = createModalscrollable("List of Documents", id)
-						let outerButton = createButton("Please click here to see the list of documents", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal",  "data-target":`#${id}`});
+						let { main, head, body, section1, section2} = createModalscrollable("List of Documents", vid)
+						let outerButton = createButton("Please click here to see the list of documents", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal","data-target":`#${vid}`});
 						setAttributes(section1,{"style":"font-size: 20px;"})
 						//this has to be put in loop {loop start}
 						val[i].custom.data.forEach((record, index)=>
@@ -461,25 +462,31 @@ async function addSuggestion(textToAdd) {
 		let time = today.getHours() + ":" + today.getMinutes() ;
 		let suggestions = textToAdd['buttons'];
 		console.log(suggestions)
-		//$('<p class="suggestion"></p>').appendTo('#result_div');
 		let base = createBaseChat();
 		let response = createDiv(style=["msg_cotainer"], id="", text = textToAdd['text']);
-		// let timespan = createSpan(style=["msg_time"], text=time);
-		// response.appendChild(timespan)
+		let timespan = createSpan(style=["msg_time"], text=time);
+		response.appendChild(timespan)
 		base.appendChild(response)
-		let br = document.createElement("br");
+		BotResponse = base
+		$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
+		console.log(BotResponse)
+
+		let base1 = createBaseChat();
+		let response1 = createDiv(style=["msg_cotainer1"], id="", text = "");
+		let timespan1 = createSpan(style=["msg_time"], text=time);
 				// Loop through suggestions
 		suggestions.forEach(data =>{
-			let div = createDiv(style=[], id=`${data.title}-container`)
-			let outerButton = createButton(`${data.title}`, {"id":data.title, "type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;", "onClick":"buttonResponse(this)", "value":data.payload});
+			//let div = createDiv(style=[], id=`${data.title}-container`)
+			let outerButton = createButton(`${data.title}`, {"id":data.title, "type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;padding:12px 48px 12px 48p;margin-left:10px;", "onClick":"buttonResponse(this)", "value":data.payload});
 			//$('<button class="btn btn-primary" style="border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;">' + suggestions[i].title + '</button>').appendTo('.suggestion');
-			div.appendChild(outerButton)
-			base.appendChild(div)
+			//div.appendChild(outerButton)
+			response1.appendChild(outerButton)
 		}); 
-
-		BotResponse = base
-		console.log(BotResponse)
-		$(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
+		response1.appendChild(timespan1)
+		base1.appendChild(response1)
+		BotResponse1 = base1
+		console.log(BotResponse1)
+		$(BotResponse1).appendTo('#result_div').hide().fadeIn(1000);
 		scrollToBottomOfResults();
 	})();
 }

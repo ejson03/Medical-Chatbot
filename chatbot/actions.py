@@ -27,6 +27,14 @@ from datetime import datetime, date, time, timedelta
 from modules.encryption import encrypt, ipfs_add
 import base64
 
+class ResetSlot(Action):
+
+    def name(self):
+        return "action_reset_slot"
+
+    def run(self, dispatcher, tracker, domain):
+        return [SlotSet("filedesc", None)]
+
 class ActionGetCredentials(Action):
     def name(self):
         return "action_get_credentials"
@@ -207,8 +215,7 @@ class EHRForm(FormAction):
                          self.from_text()],
             "bp": [self.from_entity(entity="bp"),
                          self.from_text()],
-            "filedesc": [self.from_entity(entity="filedesc"),
-                         self.from_text()]
+            "filedesc": [self.from_text()]
         }
 
     @staticmethod 
@@ -237,7 +244,7 @@ class EHRForm(FormAction):
             return{"weight":value}
     
     def validate_filedesc(self, value,  dispatcher, tracker, domain):
-        if(not (value and value.strip())):
+        if(not (value and value.strip()) or value==None):
             dispatcher.utter_message(text=" Kindly fill in your proper file description")
             return{"filedesc":None}
         else:
@@ -296,12 +303,11 @@ class FileForm(FormAction):
     def slot_mappings(self):
 
         return {
-            "filedesc": [self.from_entity(entity="filedesc"),
-                         self.from_text()]
+            "filedesc": [self.from_text()]
         }
 
     def validate_filedesc(self, value,  dispatcher, tracker, domain):
-        if (not (value and value.strip())):
+        if (not (value and value.strip()) or value==None):
             dispatcher.utter_message(text=" File description cannot be empty ")
             return{"filedesc":None}
         else:
@@ -320,19 +326,25 @@ class ActionSetFile(Action):
     def run(self, dispatcher, tracker, domain):
         file = tracker.latest_message['text']
         print(type(file))
-        with open('file.pdf', 'wb') as f:
-            file = file.encode('ascii')
-            file = base64.b64decode(file)
-            f.write(file)
         buttons = []
-        buttons.append({"payload": "/accept", "title":"Do you want to submit?"})
-        buttons.append({"payload": "/reject", "title":"Do you want to reject?"})
+        buttons.append({"payload": "/conform_yes", "title":"Do you want to submit?"})
+        buttons.append({"payload": "/conform_no", "title":"Do you want to reject?"})
         dispatcher.utter_message(text="Choose Option", buttons=buttons)
+        file = file.encode('ascii')
+        file = base64.b64decode(file)
         file = encrypt(file, "key")
         url = ipfs_add(file)
-        print(url, getsizeof(url))
         return [SlotSet(key='file', value=url)]
-        
+
+class ActionBigChain(Action):
+
+    def name(self):
+        return "action_bigchaindb"
+
+    def run(self, dispatcher, tracker, domain):
+        conform = tracker.get_slot('conform')
+        print(conform)
+        dispatcher.utter_message(text="You have entered the bigchaindb part")  
 
 
 # class ActionSessionStart(Action):
