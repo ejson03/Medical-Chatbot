@@ -117,7 +117,7 @@ function createModal(eid){
 	setAttributes(section2,{"style":"background: darkgray;"})
 	let innerButton = createButton("", {"type":"button", "class": "close",
 													"data-dismiss":"modal","aria-label":"Close"});
-	let close =createSpan(style=["close-one"], text="&times;");
+	let close =createSpan(style=["close"], text="&times;");
 	innerButton.appendChild(close);
 	section2.appendChild(innerButton);
 	return {main, head, body, section1, frame, section2}
@@ -135,7 +135,7 @@ function createModalscrollable(title, eid){
 	setAttributes(title1,{"style":"font-size: 25px;"})
 	let innerButton = createButton("", {"type":"button", "class": "close",
 													"data-dismiss":"modal","aria-label":"Close"});
-	let close =createSpan(style=["close-one"], text="&times;");
+	let close =createSpan(style=["close"], text="&times;");
 	innerButton.appendChild(close);
 	section2.append(title1,innerButton);
 	return {main, head, body, section1, section2}
@@ -232,7 +232,8 @@ function setBotResponse(val) {
 					let timespan = createSpan(style=["msg_time"], text=time);
 					setAttributes(section1,{"style":"padding:0rem;font-size: 20px;"})
 					img.height = 480;
-					img.width = 798;		
+					img.width = 798;	
+					setAttributes(img,{"class":"responsive"})	
 					section1.appendChild(img);
 					body.append(section2, section1)
 					head.appendChild(body);
@@ -256,6 +257,7 @@ function setBotResponse(val) {
 						let iframe = createIframe(url);
 						let timespan = createSpan(style=["msg_time"], text=time);
 						setAttributes(section1,{"style":"padding:0rem;"})
+						setAttributes(iframe,{"class":"responsive"})
 						frame.appendChild(iframe);
 						section1.appendChild(frame);
 						body.append(section2, section1)
@@ -274,6 +276,7 @@ function setBotResponse(val) {
 						let response = createDiv(style=["msg_cotainer1"], id="", text = "");
 						map.style = "height: 480px; width: 798px;"
 						setAttributes(section1,{"style":"padding:0rem;font-size: 20px;"})
+						setAttributes(map,{"class":"responsive"})
 						section1.appendChild(map);
 						body.append(section2, section1)
 						head.appendChild(body);

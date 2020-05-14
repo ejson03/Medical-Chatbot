@@ -1,7 +1,6 @@
 .card{
   height: 100%;
-  margin-left: 290 !important;
-  border-radius: 0px !important;
+  border-radius: 15px !important;
         background: #7F7FD5;
         background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
         background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
@@ -18,7 +17,7 @@
   border-radius: 15px 15px 0 0 !important;
   border-bottom: 0 !important;
 }
-.card-footer{
+.card-down{
 border-radius: 0 0 15px 15px !important;
   border-top: 0 !important;
 }
@@ -37,23 +36,21 @@ border-radius: 0 0 15px 15px !important;
 }
 .type_msg{
   background-color: rgba(0,0,0,0.3) !important;
-  border-radius: 15px 0px 0px 15px !important;
+  border-radius: 0px 0px 0px 15px !important;
   border:0 !important;
   color:white !important;
-  height: 60px !important;
+  font-size:20px ;
+  height: 70px !important;
   overflow-y: auto;
+  padding-left: 15px;
+  width: 100%;
+  background-image: none;
 }
   .type_msg:focus{
      box-shadow:none !important;
        outline:0px !important;
 }
-.attach_btn{
-border-radius: 15px 0 0 15px !important;
-background-color: rgba(0,0,0,0.3) !important;
-  border:0 !important;
-  color: white !important;
-  cursor: pointer;
-}
+
 .clear_btn{
 
   background-color: rgba(0,0,0,0.3) !important;
@@ -62,7 +59,7 @@ background-color: rgba(0,0,0,0.3) !important;
     cursor: pointer;
   }
 .send_btn{
-border-radius: 0 15px 15px 0 !important;
+border-radius: 0 0px 15px 0 !important;
 background-color: rgba(0,0,0,0.3) !important;
   border:0 !important;
   color: white !important;
@@ -83,9 +80,6 @@ background-color: rgba(0,0,0,0.3) !important;
   width: 100% !important;
   padding: 5px 10px;
   margin-bottom: 15px !important;
-}
-.active{
-  background-color: rgba(0,0,0,0.3);
 }
 .user_img{
   height: 70px;
@@ -227,6 +221,10 @@ margin-bottom: 5px;
 .action_menu ul li i{
 padding-right: 10px;
 
+}
+.responsive {
+  width: 100%;
+  height: auto;
 }
 .action_menu ul li:hover{
 cursor: pointer;

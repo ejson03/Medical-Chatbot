@@ -75,7 +75,7 @@ def admin():
 
 @app.route('/home')
 def user():
-    return render_template("user.html", key = GMAP_API_KEY) 
+    return render_template("index.html", key = GMAP_API_KEY) 
   
 @app.route('/login', methods=['POST'])
 def login():
