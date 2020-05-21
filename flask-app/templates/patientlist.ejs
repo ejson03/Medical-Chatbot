@@ -13,16 +13,10 @@
   <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
   <!-- CSS Files -->
   <link href="/static/css/material-dashboard.css?v=2.1.2" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="/static/css/demo.css" rel="stylesheet" />
-  <link href="/static/css/style.css" rel="stylesheet" />
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 </head>
 
@@ -34,13 +28,13 @@
         </a></div>
       <div class="sidebar-wrapper">
         <ul class="nav">
-          <li class="nav-item active">
+          <li class="nav-item   ">
             <a class="nav-link" href="/home">
               <i class="material-icons">home</i>
               <p>Home</p>
             </a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="./tables.html">
               <i class="material-icons">content_paste</i>
               <p>Table List</p>
@@ -119,26 +113,101 @@
         </div>
       </nav>
       <!-- End Navbar -->
-      <div class="content1">
-            <div class="col-xl-12" id="map2">
-             <div class="card ">
-               <div class="card-body msg_card_body" id="result_div">
-               </div>
-               <div class="card-down">
-                 <div class="input-group" >
-                   <input type="text" autocomplete="on"  id="chat-input" class="form-control type_msg bot-txt" placeholder="Type your message..." />
-                   <div class="input-group-append">
-                     <button class="input-group-text clear_btn " id="clear" ><i class="material-icons">close</i></button>
-                   </div>
-                   <div class="input-group-append">
-                     <button class="input-group-text send_btn" id="send"><i class="material-icons">send</i></button>
-                   </div>
-                 </div>
-               </div>
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title ">Simple Table</h4>
+                  <p class="card-category"> Here is a subtitle for this table</p>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class=" text-primary">
+                        <th>
+                          Patient Name
+                        </th>
+                        <th>
+                          Description
+                        </th>
+                        <th>
+                          Document
+                        </th>
+                        <th>
+                          History
+                        </th>
+                        <th>
+                          Prescribe
+                        </th>
+                      </thead>
+                      <tbody id="myhistory">
+                        <tr>
+                          <td>
+                            1
+                          </td>
+                          <td>
+                            Dakota Rice
+                          </td>
+                          <td>
+                            Niger
+                          </td>
+                          <td>
+                            Oud-Turnhout
+                          </td>
+                          <td class="text-primary">
+                            $36,738
+                          </td>
+                        </tr>
+                        <% for (var d=0; d<doc.length; d++){ %>
+                          <tr>
+                              <td>
+                                  <%= doc[d].name %>
+                              </td>
+                              <td>
+                              <td>
+                                  <%= doc[d].email %>
+                              </td>
+                              <td>
+                                  <%= doc[d].description %>
+                              </td>
+                              <form method="post" action="/view" class="viewForm">
+                                  <button class="btn btn-just-icon viewButton" type="submit" value="<%= doc[d].file %>" name="b"><i class="material-icons">open_in_view</i></button>
+                              </form>
+                              <form method="post" action="/getrasahistory" class="rasaForm">
+                                  <button class="btn btn-just-icon rasaButton" type="submit" value="<%= doc[d].email %>" name="rasa"><i class="material-icons">history</i></button>
+                              </form>
+                              <form method="post" action="/prescribe" class="prescribeForm">
+                                  <input type="hidden" name="id" value="<%= doc[d].id %>">
+                                  <input type="hidden" name="description" value="<%= doc[d].description %>">
+                                  <input type="hidden" name="pkey" value="<%= doc[d].pkey %>">
+                                  <button class="btn btn-just-icon prescribeButton" type="submit"  name="c"><i class="material-icons">note_add</i></button>
+                              </form>
+                          </tr>
+                          <% } %>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
               </div>
             </div>
+        </div>
       </div>
-            
+      
+
+      <script>
+        $('button.viewButton').click(function() {
+            $('form.viewForm').submit();
+        });
+        $('button.prescribeButton').click(function() {
+            $('form.prescribeForm').submit();
+        });
+        $('button.rasaButton').click(function() {
+            $('form.rasaForm').submit();
+        });
+    </script>
+
   <!--   Core JS Files   -->
   <script src="/static/js/core/jquery.min.js"></script>
   <script src="/static/js/core/popper.min.js"></script>
@@ -172,6 +241,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
   <!-- Library for adding dinamically elements -->
   <script src="/static/js/plugins/arrive.min.js"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
   <!-- Chartist JS -->
   <script src="/static/js/plugins/chartist.min.js"></script>
   <!--  Notifications Plugin    -->
@@ -180,12 +251,6 @@
   <script src="/static/js/material-dashboard.js?v=2.1.2" type="text/javascript"></script>
   <!-- Material Dashboard DEMO methods, don't include it in your project! -->
   <script src="/static/js/demo.js"></script>
-  <!-- Chatbot! -->
- 
-  <script type="text/javascript" src="/static/js/chart.min.js"></script>
-  <script type="text/javascript" src="/static/js/map.js"></script>
-  <script type="text/javascript" src="/static/js/rasa.js"></script>
-
 </body>
 
 </html>

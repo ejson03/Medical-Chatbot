@@ -264,24 +264,34 @@ slots:
     type: list
   age:
     type: unfeaturized
+    auto_fill: false
   excercise:
     type: unfeaturized
+    auto_fill: false
   file:
     type: unfeaturized
+    auto_fill: false
   height:
     type: unfeaturized
+    auto_fill: false
   is_form:
     type: unfeaturized
+    auto_fill: false
   smoking:
     type: unfeaturized
+    auto_fill: false
   weight:
     type: unfeaturized
+    auto_fill: false
   bp:
     type: unfeaturized
+    auto_fill: false
   filedesc:
     type: unfeaturized
+    auto_fill: false
   conform:
     type: unfeaturized
+    auto_fill: false
 
 forms:
   - ehr_form

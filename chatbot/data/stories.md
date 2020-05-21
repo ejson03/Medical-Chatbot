@@ -137,7 +137,6 @@
 
 ## happy path 2 
 * ask_ehr_form
-    - slot{"filedesc": "None"}
     - ehr_form
     - form{"name": "ehr_form"}
     - form{"name": null}
@@ -148,7 +147,6 @@
 
 ## happy path 3
 * ask_upload
-  - slot{"filedesc": "None"}
   - file_form
   - form{"name": "file_form"}
   - form{"name": null}

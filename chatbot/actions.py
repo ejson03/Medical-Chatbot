@@ -27,13 +27,21 @@ from datetime import datetime, date, time, timedelta
 from modules.encryption import encrypt, ipfs_add
 import base64
 
+class ActionResetAllSlots(Action):
+
+    def name(self):
+        return "action_reset_all_slots"
+
+    def run(self, dispatcher, tracker, domain):
+        return [AllSlotsReset()]
+
 class ResetSlot(Action):
 
     def name(self):
         return "action_reset_slot"
 
     def run(self, dispatcher, tracker, domain):
-        return [SlotSet("filedesc", None)]
+        return [SlotSet('filedesc', 'null')]
 
 class ActionGetCredentials(Action):
     def name(self):
