@@ -28,20 +28,25 @@ $(document).ready(function () {
 
 })
 
-$('#imgupload').change(async function(){ 
-	let files = $('#imgupload').prop('files')[0]; 
-	let name = document.getElementById("username").innerHTML;
+$('#uploadfile').change(async function(){ 
+	let files = $('#recipient-name').prop('files'); 
+	alert(files);
 	const formData = new FormData()
 	formData.append('file', files)
 	try {
-		let response=  await fetch('/uploads/' + name, {
+		let response=  await fetch('/rasa', {
 			method: 'POST',
 			body: formData		
 		});
 		response = await response.json();
-		console.log(response);
+		alert(response);
+		if(response !== ""){
+			console.log(response);
+			setBotResponse(response);
+		}
 	} catch {
-		console.log("file error");
+		console.log('Error in Operation');
+		setBotResponse('error');
 	}
 	
 });
@@ -50,22 +55,6 @@ function getID() {
 }
 //------------------------------------------- Call the RASA API--------------------------------------
 function send(text) {
-	// $.ajax({
-	// 	url: `/rasa`, //  RASA API
-	// 	type: 'POST',
-	// 	contentType: "application/json",
-	// 	data: JSON.stringify({ message: text}),
-	// 	success: async function (data, textStatus, xhr) {
-	// 		console.log(data);
-	// 		alert("wollah");
-	// 		await setBotResponse(data);
-
-	// 	},
-	// 	error: async function (xhr, textStatus, errorThrown) {
-	// 		console.log('Error in Operation');
-	// 		await setBotResponse('error');
-	// 	}
-	// });
 	(async function() {
 		try{
 			let response = await fetch('/rasa', {
@@ -77,8 +66,10 @@ function send(text) {
 				redirect: 'manual'
 			});
 			response = await response.json();
-			console.log(response);
-			setBotResponse(response);
+			if(response !== ""){
+				console.log(response);
+				setBotResponse(response);
+			}
 		} catch {
 			console.log('Error in Operation');
 			setBotResponse('error');
@@ -365,7 +356,7 @@ function setBotResponse(val) {
 						let submitButton = createButton("Upload ", {"type":"submit", "class":"btn btn-primary btn-lg btn-block", "form":"uploadfile" });
 						setAttributes(section1,{"style":"font-size: 20px;"})
 						let formElement = document.createElement('div');
-						formElement.innerHTML =`<form action=\"/rasa\" method=\"post\" id=\"uploadfile\" enctype=\"multipart/form-data\"><div class=\"form-group\"><label for=\"recipient-name\" class=\"col-form-label\"> Report Upload : </label><input type=\"file\" class=\"form-control\" id=\"recipient-name\" name=\"file"\ multiple></div></form>` ;
+						formElement.innerHTML =`<form id=\"uploadfile\" enctype=\"multipart/form-data\"><div class=\"form-group\"><label for=\"recipient-name\" class=\"col-form-label\"> Report Upload : </label><input type=\"file\" class=\"form-control\" id=\"recipient-name\" name=\"file"\ multiple></div></form>` ;
 						formElement.appendChild(submitButton);
 						section1.appendChild(formElement);
 						body.append(section2, section1)

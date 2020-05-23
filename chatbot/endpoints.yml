@@ -4,10 +4,15 @@ action_endpoint:
  url: "http://localhost:5055/webhook"
  
 
+# tracker_store:
+#      type: mongod
+#      url: mongodb://localhost:27017
+#      db: rasa
+
 tracker_store:
-     type: mongod
-     url: mongodb://localhost:27017
-     db: rasa
+  type: custom.custom_tracker.GridTrackerStore
+  url: mongodb://localhost:27017
+  db: rasa
 
 # for docker
 # tracker_store:

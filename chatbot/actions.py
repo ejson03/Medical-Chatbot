@@ -41,7 +41,8 @@ class ResetSlot(Action):
         return "action_reset_slot"
 
     def run(self, dispatcher, tracker, domain):
-        return [SlotSet('filedesc', 'null')]
+        print("Slot called for reset")
+        return [SlotSet("filedesc", None)]
 
 class ActionGetCredentials(Action):
     def name(self):
@@ -191,14 +192,6 @@ class ActionSymptoms(Action):
         except:
             dispatcher.utter_message(text="Sorry couldn't find the data for the given symptom.")
 
-class ActionUpload(Action):
-
-    def name(self):
-        return "action_upload"
-
-    def run(self, dispatcher, tracker, domain):
-        dispatcher.utter_message(json_message={"payload":"fileupload"})
-
 class EHRForm(FormAction):
 
     def name(self):
@@ -297,6 +290,7 @@ class EHRForm(FormAction):
         # else :
         #     return[self.deactivate()]
         # dispatcher.utter_message(template="utter_submit")
+        dispatcher.utter_message(json_message={"payload":"fileupload"})
         return[]
 
 class FileForm(FormAction):
@@ -322,8 +316,7 @@ class FileForm(FormAction):
             return{"filedesc":value}
 
     def submit(self, dispatcher, tracker, domain ):
-        #dispatcher.utter_message(template="utter_submit")
-        dispatcher.utter_message(template="utter_ask_file")
+        dispatcher.utter_message(json_message={"payload":"fileupload"})
         return []
 
 class ActionSetFile(Action):
@@ -333,50 +326,28 @@ class ActionSetFile(Action):
 
     def run(self, dispatcher, tracker, domain):
         file = tracker.latest_message['text']
-        print(type(file))
-        buttons = []
-        buttons.append({"payload": "/conform_yes", "title":"Do you want to submit?"})
-        buttons.append({"payload": "/conform_no", "title":"Do you want to reject?"})
-        dispatcher.utter_message(text="Choose Option", buttons=buttons)
+        # buttons = []
+        # buttons.append({"payload": "/conform_yes", "title":"Do you want to submit?"})
+        # buttons.append({"payload": "/conform_no", "title":"Do you want to reject?"})
+        # dispatcher.utter_message(text="Choose Option", buttons=buttons)
+        dispatcher.utter_message(template = "utter_conform")
         file = file.encode('ascii')
         file = base64.b64decode(file)
         file = encrypt(file, "key")
         url = ipfs_add(file)
         return [SlotSet(key='file', value=url)]
 
-class ActionBigChain(Action):
+class ActionConfirmation(Action):
 
     def name(self):
-        return "action_bigchaindb"
+        return "action_confirmation"
 
     def run(self, dispatcher, tracker, domain):
-        conform = tracker.get_slot('conform')
+        conform = tracker.latest_message
         print(conform)
         dispatcher.utter_message(text="You have entered the bigchaindb part")  
 
 
-# class ActionSessionStart(Action):
-#     def name(self):
-#         return "action_session_start"
-
-#     @staticmethod
-#     def fetch_slots(tracker):
-#         slots = []
-#         for key in ("name", "username", "password", "age", "height", "weight"):
-#             value = tracker.get_slot(key)
-#             if value is not None:
-#                 slots.append(SlotSet(key=key, value=value))
-#         return slots
-
-#     def run(self, dispatcher, tracker, domain):
-#         print("Inside session started.....")
-#         events = [SessionStarted()]
-#         events.extend(self.fetch_slots(tracker))
-#         events.append(FollowupAction("action_listen"))
-#         name = tracker.get_slot("name")
-#         print("Events are....",name,  events)
-#         dispatcher.utter_message(f"Hello {name}, how is the day treating you !!")
-#         return events
 
 
 

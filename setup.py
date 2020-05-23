@@ -5,6 +5,9 @@ from psutil import process_iter
 from signal import SIGTERM
 from dotenv import load_dotenv
 from termcolor import colored
+from concurrent.futures import ProcessPoolExecutor
+
+root = os.path.abspath(os.getcwd())
 
 
 def killProcesses():
@@ -20,23 +23,23 @@ def killProcesses():
     except:
         print('oopps')
 
-killProcesses()
-print(colored("Kill all processes", "magenta"))
 
-load_dotenv()
-root = os.path.abspath(os.getcwd())
+def execute(cmd, path=None):
+    if path!= None:
+        os.chdir(root+ path)
 
-os.chdir(root+'/chatbot')
-process1 = subprocess.Popen(['rasa', 'run', 'actions'], shell=True)
+    process = subprocess.Popen(cmd, shell=True)
 
-cmd = "rasa run -m models --endpoint endpoints.yml --enable-api --cors “*” --log-file out.log"
-process2 = subprocess.Popen(cmd, shell=True)
+if __name__ == "__main__":
+    killProcesses()
+    load_dotenv()
+    print(colored("Kill all processes", "magenta"))
+    cmd = "rasa run -m models --endpoint endpoints.yml --credentials credentials.yml --enable-api --cors “*”"
+    app = os.path.join(root, 'flask-app', 'app.py')
+    execute(['rasa', 'run', 'actions'], '/chatbot')
+    execute(cmd, '/chatbot')
+    execute( ['python', app])
 
-
-time.sleep(.300)
-app = os.path.join(root, 'flask-app', 'app.py')
-process3 = subprocess.Popen(['python', app], shell=True)
-process3.wait()
 
 
 

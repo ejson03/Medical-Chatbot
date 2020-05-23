@@ -4,8 +4,6 @@ from pymongo import MongoClient
 from datetime import datetime, timedelta
 import uuid 
 import sys
-from googlesearch import search
-import google
 from os import environ
 
 CONNECTION_STRING = environ.get("MONGODB_STRING")
@@ -15,9 +13,6 @@ if 'analysis' not in client.list_database_names():
     _ = client['analysis'] 
 
 
-def getWeb(name):
-    url = search(name, tld="co.in", num=1)
-    return next(url) #generator object get next value
 
 def getRASADB():
     return client.get_database('rasa')

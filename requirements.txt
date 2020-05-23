@@ -4,6 +4,7 @@ rasa
 pymongo
 python-dotenv
 beautifulsoup4
+pycryptodome
 google
 sanic
 PyJWT
@@ -12,6 +13,10 @@ sklearn
 pandas
 numpy
 psutil
-flask_pymongo
+flask-pymongo
 pillow
 bcrypt
+pyfladesk
+flask-executor
+ipfshttpclient
+flask-socketio

@@ -20,10 +20,41 @@
 - till we meet again
 - until nex time
 - see ya
-- see you
 - talk to you later
 - ttyl
 - meet you again soon
+- okay see you later
+- hope to see you later
+- bye for now
+- till next time
+- I must go
+- see you
+- see you soon
+- bye-bye
+- good bye
+- bye bye see you
+- bye bye see you soon
+- bye bye take care
+- I said bye
+- never mind bye
+- now bye
+- that's all goodbye
+- that's it goodbye
+- leave me alone
+- go to bed
+- goodbye for now
+- talk to you later
+- you can go now
+- get lost
+- goodbye see you later
+- alright bye
+- see ya
+- thanks bye bye
+- okay bye
+- okay thank you bye
+- see you tomorrow
+- ok bye
+
 
 ## intent:affirm
 - yes
@@ -2931,41 +2962,6 @@
 - you are wrong
 - not right
 
-## intent:smalltalk_greetings_bye
-- okay see you later
-- hope to see you later
-- bye for now
-- till next time
-- I must go
-- bye
-- goodbye
-- see you
-- see you soon
-- bye-bye
-- good bye
-- bye bye see you
-- bye bye see you soon
-- bye bye take care
-- I said bye
-- never mind bye
-- now bye
-- that's all goodbye
-- that's it goodbye
-- leave me alone
-- go to bed
-- goodbye for now
-- talk to you later
-- you can go now
-- get lost
-- goodbye see you later
-- alright bye
-- see ya
-- thanks bye bye
-- okay bye
-- okay thank you bye
-- see you tomorrow
-- ok bye
-
 ## intent:smalltalk_greetings_goodevening
 - good evening
 - good evening to you
@@ -3007,25 +3003,6 @@
 - good tonight
 - okay have a good night
 - have a good night
-
-## intent:smalltalk_greetings_hello
-- long time no see
-- hello
-- hi
-- howdy
-- hey there
-- hey
-- greetings
-- I greet you
-- hi there
-- hello there
-- lovely day isn't it
-- hello again
-- just going to say hi
-- a good day
-- afternoon
-- hello hi
-- heya
 
 ## intent:smalltalk_greetings_how_are_you
 - how is your morning so far
@@ -3435,7 +3412,7 @@
 - I promise to come back
 - I'll be back in a few minutes
 
-## intent:get_ipfs_url
+<!-- ## intent:get_ipfs_url
 - [QmWwMb3XhuCH6JnCF6m6EQzA4mW9pHHtg7rqAfhDr2ofi8](ipfs)
 - [QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco](ipfs)
 - [QmdDbLyNKCwtBVFhEVQfdBTCnEWmWRJGnm93qa3kzBjVym](ipfs)
@@ -3450,7 +3427,7 @@
 - [QmdycyxM3r8b2pHx3M63Xd8NUfsXoEmBnU8W6PgL9eY9cN](ipfs)
 - [QmcvyefkqQX3PpjpY5L8B2yMd47XrVwAipr6cxUt2zvYU8](ipfs)
 - [QmfWQHVazH6so9p27z27rr8TJSdBFGpH7hunDcaZ1EAQ2c](ipfs)
-- [QmcniBv7UQ4gGPQQW2BwbD4ZZHzN3o3tPuNLZCbBchd1zh](ipfs)
+- [QmcniBv7UQ4gGPQQW2BwbD4ZZHzN3o3tPuNLZCbBchd1zh](ipfs) -->
 
 
 ## synonym:angry
@@ -3539,8 +3516,8 @@
 - Bombay
 - Mum
 
-## regex:ipfs
-- ^(Qm)(\w+)$
+<!-- ## regex:ipfs
+- ^(Qm)(\w+)$ -->
 
 
 

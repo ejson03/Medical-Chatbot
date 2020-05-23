@@ -137,31 +137,29 @@
 
 ## happy path 2 
 * ask_ehr_form
+    - action_reset_slot
     - ehr_form
     - form{"name": "ehr_form"}
     - form{"name": null}
     - utter_ask_confirm
-    - action_upload
     - action_listen
     - action_set_file
 
+
 ## happy path 3
 * ask_upload
+  - action_reset_slot
   - file_form
   - form{"name": "file_form"}
   - form{"name": null}
-  - action_upload
+  - utter_file
   - action_listen
   - action_set_file
 
 
-## story 18
-* conform_yes
-  - slot{"conform": "Yes"}
-
 ## story 19
-* conform_no
-  - slot{"conform": "No"}
+* conform_yes OR conform_no
+  - action_confirmation
 
 ## happy path
 * greet
@@ -432,10 +430,6 @@
 ## path_smalltalk_dialog_wrong
 * smalltalk_dialog_wrong
   - utter_smalltalk_dialog_wrong
-
-## path_smalltalk_greetings_bye
-* smalltalk_greetings_bye
-  - utter_smalltalk_greetings_bye
 
 ## path_smalltalk_greetings_goodevening
 * smalltalk_greetings_goodevening
