@@ -43,18 +43,15 @@
 - leave me alone
 - go to bed
 - goodbye for now
-- talk to you later
 - you can go now
 - get lost
 - goodbye see you later
 - alright bye
-- see ya
 - thanks bye bye
 - okay bye
 - okay thank you bye
 - see you tomorrow
 - ok bye
-
 
 ## intent:affirm
 - yes
@@ -64,6 +61,84 @@
 - correct
 - affirmative
 - okay
+- that's correct
+- it's fine
+- go ahead
+- sounds good
+- ok
+- okie dokie
+- sure
+- go for it
+- yeah
+- yea
+- do it
+- I guess
+- yeah sure
+- why not
+- please do
+- sure is
+- I agree
+- I don't mind
+- certainly
+- exactly
+- yes I agree
+- I think so
+- yes it is
+- right
+- okay then
+- yes of course
+- yes I do
+- that s okay
+- I do
+- yup
+- ya
+- oh yes
+- yes sure
+- obviously
+- k
+- sure why not
+- yeah right
+- yeah of course
+- absolutely
+- yes indeed
+- ok sure
+- ok yes
+- yes correct
+- ok thank you
+- sure thing
+- ye
+- confirm
+- yep
+- looks good
+- yes thank you
+- definitely
+- yes right
+- yes I would like to
+- alrighty
+- yes definitely
+- yeh
+- yes it is correct
+- yeah that's right
+- ok you can
+- yap
+- yes you may
+- confirmed
+- of course why not
+- yes that's fine
+- yeah go ahead
+- yeah I'm sure
+- okay sounds good
+- okay that's fine
+- yeah exactly
+- that is ok
+- this is correct
+- ok go ahead
+- yes this is correct
+- nevermind its okay
+- okey
+- yes for sure
+- all right
+- uhgf
 
 ## intent:deny
 - no
@@ -73,21 +148,77 @@
 - no way
 - not really
 - never though of it
+- how about no
+- don t have a sense
+- don't
+- I don't want that
+- I disagree
+- disagree
+- I don't want
+- not interested
+- no it isn't
+- no I don't
+- I'm not
+- na
+- no that's fine thank you
+- I said no
+- of course not
+- nah
+- no tanks
+- no never
+- no need
+- no thanks
+- no sorry
+- do not
+- not today
+- no it's not
+- absolutely not
+- not that
+- nooo
+- nope
+- I don't want to
+- no I would not
+- let 's not
+- not needed
+- not this time
+- no don't do that
+- thanks but no thanks
+- no that's wrong
+- not this
+- definitely not
+- not at this time
+- not exactly
+- no don't
+- not really no
+- no thank you not right now
+- actually no
+- no leave it
+- sorry no
+- no incorrect
+- nope sorry
+- I say no
+- not right now thanks
+- I think no
+- absolutely no
+- no actually
+- apparently not
+- no do not
+- no just no
+- no but thank you
+- no need thanks
+- no thank you though
+- no thank you very much
+- no thanks not right now
+- no forget
 
 ## intent:ask_form
 - i want to upload a file
 - want to upload my documents
-
-## intent:ask_ehr_form
-
-## intent:ask_upload
-
-## intent:conform_no
-
-## intent:conform_yes
+- want to upload my medical records
+- I want to upload my medical records
+- i want to upload my documents
 
 ## intent:ask_weather_location
-
 - what's the weather in [New Dehi](location)
 - what is the weather in [Mumbai](location)
 - please tell me the weather at [mumbai](location)
@@ -232,7 +363,6 @@
 - is it windy in [ahmedabad](location)
 
 ## intent:ask_weather
-
 - what's the weather in [New Dehi](location)
 - what is the weather in [Mumbai](location)
 - please tell me the weather at [mumbai](location)
@@ -377,7 +507,6 @@
 - is it windy in [ahmedabad](location)
 
 ## intent:ask_temperature
-
 - what's the temperature in [New Dehi](location)
 - what is the temperature in [Mumbai](location)
 - please tell me the temperature at [mumbai](location)
@@ -537,7 +666,7 @@
 - i am [overjoyed]{"entity": "emotion", "value": "happy"}
 - i am [excited]{"entity": "emotion", "value": "happy"}
 - i am [joyful]{"entity": "emotion", "value": "happy"}
-- i am [happy]{"entity": "emotion", "value": "happy"}
+- i am [happy](emotion)
 - i am [contented]{"entity": "emotion", "value": "happy"}
 - i am [content]{"entity": "emotion", "value": "happy"}
 - i am [cheerful]{"entity": "emotion", "value": "happy"}
@@ -563,7 +692,6 @@
 - [death]{"entity": "emotion", "value": "sad"} has surrounded me
 - i am [mourning]{"entity": "emotion", "value": "sad"}
 - i am [miserable]{"entity": "emotion", "value": "sad"}
-- i am [grieving]{"entity": "emotion", "value": "sad"}
 - i am [not happy]{"entity": "emotion", "value": "sad"}
 - i am [disgusted]{"entity": "emotion", "value": "angry"}
 - i am [flabergasted]{"entity": "emotion", "value": "angry"}
@@ -629,7 +757,7 @@
 - Lately i have been [overjoyed]{"entity": "emotion", "value": "happy"}
 - Lately i have been too [excited]{"entity": "emotion", "value": "happy"}
 - Lately i have been [joyful]{"entity": "emotion", "value": "happy"}
-- Lately i have been [happy]{"entity": "emotion", "value": "happy"}
+- Lately i have been [happy](emotion)
 - Lately i have been [contented]{"entity": "emotion", "value": "happy"}
 - Lately i have been [content]{"entity": "emotion", "value": "happy"}
 - Lately i have been [cheerful]{"entity": "emotion", "value": "happy"}
@@ -656,7 +784,6 @@
 - Lately i have been [mourning]{"entity": "emotion", "value": "sad"}
 - Lately i have been [miserable]{"entity": "emotion", "value": "sad"}
 - Lately i have been [grieving]{"entity": "emotion", "value": "sad"}
-- Lately i have been [unhappy]{"entity": "emotion", "value": "sad"}
 - Lately i have been [disgusted]{"entity": "emotion", "value": "angry"}
 - Lately i have been [flabergasted]{"entity": "emotion", "value": "angry"}
 - Lately i have been [annoyed]{"entity": "emotion", "value": "angry"}
@@ -742,7 +869,6 @@
 - this feeling of [mourning]{"entity": "emotion", "value": "sad"}
 - this feeling of [misery]{"entity": "emotion", "value": "sad"}
 - this feeling of [grieve]{"entity": "emotion", "value": "sad"}
-- this feeling of [unhappiness]{"entity": "emotion", "value": "sad"}
 - this feeling of [disgust]{"entity": "emotion", "value": "angry"}
 - this feeling of [annoyance]{"entity": "emotion", "value": "angry"}
 - this feeling of [irritation]{"entity": "emotion", "value": "angry"}
@@ -898,7 +1024,6 @@
 - i have been [outrage]{"entity": "emotion", "value": "angry"} lately
 - i have been [outraged]{"entity": "emotion", "value": "angry"} lately
 - i have been [aggravated]{"entity": "emotion", "value": "angry"} lately
-
 
 ## intent:describe_symptoms
 - I don't feel well, I have [blurry vision](symptom)
@@ -1308,8 +1433,6 @@
 - I'm [Vedant](name)
 - People call me [Elvis](name)
 - You can call me [Vedant](name)
-- My name is [Vedant]{"entity": "name", "value": "Vedant"}
-
 
 ## intent:out_of_scope
 - What is the global optimum of a non-convex function
@@ -1345,9 +1468,8 @@
 - great suggestion
 - You are great thank you
 - I want to thank you
-- thanks
 
-##  intent:ask_howdoing
+## intent:ask_howdoing
 - Ahoy matey how are you?
 - are you alright
 - are you having a good day
@@ -1392,11 +1514,9 @@
 - how are you doing today my sweet friend
 - how are you doing?
 - how are u
-- How are you?
 - nah, I'm good - how are you doing?
 - how are yuo
 - How are you
-- how are you
 - how you doing
 - are you ok
 - How are you today?
@@ -1417,14 +1537,12 @@
 - what's up
 - wassup>
 - hi how u doing
-- hi how u doing
 - Hi Sara! How are you?
 - how are you ?
 - how are you'
 - how are you doing today?
 - how you doing?
 - How are You?
-- what doing
 - what doing
 - how are xou
 - ¿Qué pasa?
@@ -1434,7 +1552,7 @@
 - come stai?
 - How you doing?
 
-##  intent:handleinsult
+## intent:handleinsult
 - you're a loser lmao
 - you are a stupid bot
 - i hate you
@@ -1460,7 +1578,6 @@
 - You're a dunce.
 - You have no brains.
 - You have no intelligence.
-- You are dumb.
 - You are an idiot.
 - You lack intelligence.
 - You are unknowing.
@@ -1491,19 +1608,16 @@
 - shut up asshole
 - you asshole
 - are u dump?
-- are u dump?
 - fuck off
 - fuck
 - Fuck
 - Fuck you
 - fuck you machine learning bot
 - Fuck u
-- fuck you
 - what fuck
 - fucking stupid
 - you are fucking stupid guy！
 - go fuck yourself
-- Fuck off
 - Fuck off
 - fuck rasa
 - fuck you!
@@ -1513,7 +1627,7 @@
 - fucking work
 - ok shut up
 
-##  intent:telljoke
+## intent:telljoke
 - tell me a joke
 - Say something funny.
 - Give me a joke.
@@ -1525,7 +1639,6 @@
 - Tell me the best joke you know.
 - Tell joke.
 - Tell me something funny.
-- Tell me something funny.
 - Share a joke with me!
 - Tell me something humorous!
 - Will you tell me a joke.
@@ -1536,7 +1649,6 @@
 - Would you share a joke with me.
 - Could you please share a joke with me.
 - Make me laugh.
-- Tell me something funny.
 - Entertain me with a joke.
 - Tell me something that you think will make me laugh.
 - I want to hear something funny.
@@ -1573,7 +1685,6 @@
 - Tell me the best quote you know.
 - Tell quote.
 - Tell me something funny.
-- Tell me something funny.
 - Share a quote with me!
 - Tell me something humorous!
 - Will you tell me a quote.
@@ -1584,7 +1695,6 @@
 - Would you share a quote with me.
 - Could you please share a quote with me.
 - Make me laugh.
-- Tell me something funny.
 - Entertain me with a quote.
 - Tell me something that you think will make me laugh.
 - I want to hear something funny.
@@ -1605,7 +1715,7 @@
 - give me a good quote
 - you can say a quot
 
-##  intent:ask_wherefrom
+## intent:ask_wherefrom
 - where do you live?
 - where do you live
 - where are you from?
@@ -1627,13 +1737,11 @@
 - where are your parents from?
 - where did you spend your youth?
 - where did you come from?
-- Where were you born?
 - Where do you consider home?
 - What city do you claim to for your birth?
 - What citizenship do you lay claim to?
 - What is your heritage?
 - What is your birthplace?
-- Where did you grow up?
 - You were conceived in what city?
 - What is your root?
 - What is your origin?
@@ -1647,7 +1755,6 @@
 - What's the name of the place you came from?
 - What is your original city?
 - Where might you be from?
-- Where do you come from?
 - Where do you live?
 - What city are you in?
 - What country are you from?
@@ -1656,7 +1763,7 @@
 - Are you from around here?
 - You live around here?
 
-##  intent:ask_time
+## intent:ask_time
 - what is the current time?
 - what is the time in Sydney?
 - whats the time now
@@ -1677,34 +1784,26 @@
 - Do you know what time it is?
 - Could you tell me the time?
 - Could you tell me the time, please?
-- What is the time?
-- Do you know the time?
 - Would you tell me what time it is?
 - Time, please!
 - Pardon me, but do you know the time?
-- Time?
 - What's the time?
-- Do you know what time it is?
 - What's the current time?
 - What time is it right now?
 - Do you have the time?
 - Can you tell me what time it is?
 - Hi, I need the time.
 - I need to know what time it is.
-- Tell me the time.
-- What is the time?
 - What's the time right now?
 - What is the current time?
 - Can you tell me the time?
 - What might the time be?
 - What is the hour and minute right now?
 - What time have we got?
-- What time is it right now?
 - What time do we have?
 - What is the exact time?
 - what is the time?
 - do you know the current time?
-- what is the current time?
 - what time do you have?
 - do you have the time?
 - tell me the current time.
@@ -1713,7 +1812,7 @@
 - tell me the time it is.
 - what time is it?
 
-##  intent:ask_howold
+## intent:ask_howold
 - whats your age?
 - how old?
 - what's your age?
@@ -1743,7 +1842,6 @@
 - how old were you on your last birthday?
 - what age are you
 - how old will you be this year?
-- What is your age?
 - What year were you born?
 - How long have you been around?
 - How long have you been alive?
@@ -1759,10 +1857,8 @@
 - tell me how old you are?
 - give me your age?
 - tell me your age number?
-- how old were you on your last birthday?
 - can you tell me exactly how old you are?
 - can you tell me what number represents your age?
-- how many years old are you?
 - how old are you
 - How old are you?
 - how old are u
@@ -1806,7 +1902,6 @@
 - What languages can you converse in?
 - What languages do you know how to use?
 - Which languages are you familiar with?
-- What languages can you use?
 - what languages are you familiar with?
 - what languages you know?
 - In what languages are you fluent enough?
@@ -1819,7 +1914,6 @@
 - what languages you can handle well?
 - Do you know any other languages?
 - Do you speak any other languages?
-- What languages do you know?
 - What languages do you speak?
 - What do you speak?
 - Speak any other languages?
@@ -1836,9 +1930,7 @@
 - what foreign languages are you fluent in?
 - how many languages are you fluent in?
 - how many languages do you know?
-- How many languages do you know?
 - How many languages can you speak?
-- What languages are you fluent in?
 - How many different languages are you fluent in?
 - How many languages do you have knowledge of?
 - What are all of the different languages you can speak?
@@ -1862,7 +1954,6 @@
 - What name should I recognize for myself?
 - what's my name?
 - can you tell me my name?
-- What is my name?
 - Do I have a name?
 - Do I have a name? What is it?
 - What was I named?
@@ -1887,7 +1978,6 @@
 - Do you know what my name is?
 - What is my first name?
 - What is my full name?
-- What do people call me?
 - What exactly is my name?
 
 ## intent:smalltalk_agent_acquaintance
@@ -2244,19 +2334,6 @@
 - let's tell everyone that you are awesome
 - you are really amazing
 
-## intent:smalltalk_agent_happy
-- are you happy
-- you are happy
-- you're very happy
-- you're really happy
-- you're so happy
-- how happy you are
-- you're extremely happy
-- you're full of happiness
-- are you happy now
-- are you happy today
-- are you happy with me
-
 ## intent:smalltalk_agent_hungry
 - do you want to eat
 - are you hungry
@@ -2410,90 +2487,6 @@
 - you're absolutely right
 - you're right about that
 - I know that's right
-
-## intent:smalltalk_confirmation_yes
-- that's correct
-- it's fine
-- go ahead
-- sounds good
-- okay
-- yes
-- ok
-- okie dokie
-- sure
-- go for it
-- yeah
-- yea
-- do it
-- of course
-- I guess
-- correct
-- yeah sure
-- why not
-- please do
-- sure is
-- I agree
-- I don't mind
-- certainly
-- exactly
-- yes I agree
-- I think so
-- yes it is
-- right
-- okay then
-- yes of course
-- yes I do
-- that s okay
-- I do
-- yup
-- ya
-- oh yes
-- yes sure
-- obviously
-- k
-- sure why not
-- yeah right
-- yeah of course
-- absolutely
-- yes indeed
-- ok sure
-- ok yes
-- yes correct
-- ok thank you
-- sure thing
-- ye
-- confirm
-- yep
-- looks good
-- yes thank you
-- definitely
-- yes right
-- yes I would like to
-- alrighty
-- yes definitely
-- yeh
-- yes it is correct
-- yeah that's right
-- ok you can
-- yap
-- yes you may
-- confirmed
-- of course why not
-- yes that's fine
-- affirmative
-- yeah go ahead
-- yeah I'm sure
-- okay sounds good
-- okay that's fine
-- yeah exactly
-- that is ok
-- this is correct
-- ok go ahead
-- yes this is correct
-- nevermind its okay
-- okey
-- yes for sure
-- all right
 
 ## intent:smalltalk_agent_sure
 - are you sure
@@ -2675,7 +2668,6 @@
 - it's awesome
 - okay good
 - no it's okay
-- that's fine
 
 ## intent:smalltalk_appraisal_no_problem
 - no worries
@@ -2807,75 +2799,24 @@
 - do nothing
 - I said cancel cancel
 - but can you cancel it
-
-## intent:smalltalk_confirmation_no
-- how about no
-- don t have a sense
-- no
-- don't
-- I don't want that
-- I disagree
-- disagree
-- I don't want
-- not interested
-- I don't think so
-- no way
-- no it isn't
-- no I don't
-- I'm not
-- na
-- no that's fine thank you
-- never
-- I said no
-- of course not
-- nah
-- no tanks
-- no never
-- no need
-- no thanks
-- no sorry
-- do not
-- not today
-- no it's not
-- absolutely not
-- not that
-- nooo
-- nope
-- I don't want to
-- no I would not
-- let 's not
-- not needed
-- not this time
-- no don't do that
-- thanks but no thanks
-- no that's wrong
-- not this
-- definitely not
-- not at this time
-- not exactly
-- no don't
-- not really no
-- no thank you not right now
-- actually no
-- no leave it
-- sorry no
-- no incorrect
-- nope sorry
-- I say no
-- not really
-- not right now thanks
-- I think no
-- absolutely no
-- no actually
-- apparently not
-- no do not
-- no just no
-- no but thank you
-- no need thanks
-- no thank you though
-- no thank you very much
-- no thanks not right now
-- no forget
+- ok then you cant help me
+- that was shit, you're not helping
+- you can't help me
+- you can't help me with what i need
+- i guess you can't help me then
+- ok i guess you can't help me
+- that's not what i want
+- ok, but that doesnt help me
+- this is leading to nothing
+- this conversation is not really helpful
+- you cannot help me with what I want
+- I think you cant help me
+- hm i don't think you can do what i want
+- stop go back
+- do you get anything?
+- and you call yourself bot company? pff
+- and that's it?
+- nothing else?
 
 ## intent:smalltalk_dialog_hold_on
 - wait a second
@@ -2992,7 +2933,6 @@
 - thank you good night
 - bye good night
 - good night bye
-- bye good night
 - good good night
 - good night for now
 - goodnight
@@ -3002,7 +2942,6 @@
 - alright goodnight
 - good tonight
 - okay have a good night
-- have a good night
 
 ## intent:smalltalk_greetings_how_are_you
 - how is your morning so far
@@ -3044,47 +2983,35 @@
 - what about your day
 - how's your day
 - how are you doing this morning
-- how is your day going
-
-## intent:smalltalk_greetings_nice_to_meet_you
-- nice to meet you
-- it was nice meeting you
-- it was very nice to meet you
-- good to know each other
-- glad to meet you
-- nice meeting you
-- nice to meet you too
-- pleased to meet you
-- pleasure to meet you
-- pleasure to meet you too
-
-## intent:smalltalk_greetings_nice_to_see_you
-- it's nice to see you
-- lovely to see you
-- I'm glad to see you
-- great to see you
-- it's good to see you
-- glad to see you
-- how good it is to see you
-- always a pleasure to see you
-- nice to see you
-- good to see you
-- great to see you again
-- great to see you too
-- I am glad to see you again
-- nice to see you again
-- glad to see you too
-- good to see you again
-- it's good to see you too
-
-## intent:smalltalk_greetings_nice_to_talk_to_you
-- it's been so nice to talk to you
-- it's been a pleasure talking to you
-- nice to talk to you
-- it's nice to talk to you
-- nice talking to you
-- it is nice talking to you
-- how nice it is to talk to you
+- can you share your boss with me?
+- i want to get to know your owner
+- i want to know the company which designed you
+- i want to know the company which generated you
+- i want to know the company which invented you
+- i want to know who invented you
+- May I ask who invented you?
+- please tell me the company who created you
+- please tell me who created you
+- tell me more about your creators
+- tell me more about your founders
+- Ahoy matey how are you?
+- Are you ok?
+- Do you feel good?
+- how are things going
+- how are things with you?
+- How are things?
+- How are you?
+- How is the weather today?
+- What's the weather like?
+- How is the weather?
+- What is the weather at your place?
+- Do you have good weather?
+- Is it raining?
+- What's it like out there?
+- Is it hot or cold?
+- Beautiful day, isn't it?
+- What's the weather forecast?
+- Is it quite breezy outside?
 
 ## intent:smalltalk_greetings_whatsup
 - what is on your mind
@@ -3103,7 +3030,6 @@
 - what's cooking
 - hey what's up
 - what's up today
-
 
 ## intent:smalltalk_user_back
 - I am back
@@ -3179,7 +3105,6 @@
 - I'm good
 - I'm doing good
 - I'm great thanks
-
 
 ## intent:smalltalk_user_has_birthday
 - it is my birthday
@@ -3348,7 +3273,6 @@
 - what do you suggest
 - what is your advice
 
-
 ## intent:smalltalk_user_sleepy
 - I am sleepy
 - I want to sleep
@@ -3429,82 +3353,6 @@
 - [QmfWQHVazH6so9p27z27rr8TJSdBFGpH7hunDcaZ1EAQ2c](ipfs)
 - [QmcniBv7UQ4gGPQQW2BwbD4ZZHzN3o3tPuNLZCbBchd1zh](ipfs) -->
 
-
-## synonym:angry
-- disgusted
-- flabergasted
-- annoyed 
-- irritated
-- irate
-- cross
-- vexed
-- exasperated
-- inflamed
-- indignant
-- aggrieved
-- irked 
-- piqued 
-- displeased
-- outrage
-- outraged
-- aggravated
-- disgust
-- annoyance
-- irritation
-- vex
-- exasperation
-- flame
-- indignance
-- irk
-- aggravation
-
-## synonym:happy
-- overjoyed
-- excitement
-- joyful
-- happiness
-- contented
-- content
-- cheerful
-- merry
-- jovial
-- smiling
-- gratified
-- radiant
-- over the moon
-- jolly good
-- jolly
-- excited
-- happy
-- joy
-- gratification
-- radiance
-
-## synonym:sad
-- dejected
-- down
-- out of sorts
-- depressed
-- lonely
-- suicidal
-- pain
-- suffering
-- sorrow
-- grieving
-- death
-- mourning   
-- miserable
-- grieve
-- unhappiness
-- sorrow 
-- not happy
-- grief
-- unhappy
-- dejection
-- depression
-- loneliness
-- misery 
-
 ## synonym:Delhi
 - New Delhi
 - Old Delhi
@@ -3516,10 +3364,80 @@
 - Bombay
 - Mum
 
+## synonym:angry
+- disgusted
+- flabergasted
+- annoyed
+- irritated
+- irate
+- cross
+- vexed
+- exasperated
+- inflamed
+- indignant
+- aggrieved
+- irked
+- piqued
+- displeased
+- outraged
+- aggravated
+- disgust
+- outrage
+- annoyance
+- irritation
+- vex
+- exasperation
+- flame
+- indignance
+- irk
+- pique
+- aggravation
+
+## synonym:happy
+- overjoyed
+- excited
+- joyful
+- contented
+- content
+- cheerful
+- merry
+- jovial
+- smiling
+- gratified
+- radiant
+- over the moon
+- jolly good
+- jolly
+- excitement
+- joy
+- happiness
+- gratification
+- radiance
+- happy
+
+## synonym:sad
+- unhappy
+- dejected
+- down
+- out of sorts
+- depressed
+- lonely
+- suicidal
+- pain
+- suffering
+- grieving
+- death
+- mourning
+- miserable
+- not happy
+- sorrow
+- grief
+- unhappiness
+- grieve
+- dejection
+- depression
+- loneliness
+- misery
+
 <!-- ## regex:ipfs
 - ^(Qm)(\w+)$ -->
-
-
-
-
-

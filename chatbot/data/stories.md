@@ -1,14 +1,26 @@
 ## story 3
+* greet
+    - utter_greet
 * ask_weather
 	- utter_ask_location
+* goodbye
+    - utter_goodbye
 
 ## story 4
+* greet
+    - utter_greet
 * ask_weather_location
 	- action_weather
+* goodbye
+    - utter_goodbye
 
 ## story 5
+* greet
+    - utter_greet
 * ask_temperature
 	- action_temp
+* goodbye
+    - utter_goodbye
 
 ## story 6
 * describe_symptoms
@@ -131,37 +143,369 @@
     - action_weather
     - utter_did_that_help
 
-## happy path 1
+## happy path ehr_form
+* greet
+    - utter_greet
 * ask_form
-    - utter_ask_is_form
-
-## happy path 2 
+    - utter_form
 * ask_ehr_form
     - action_reset_slot
     - ehr_form
     - form{"name": "ehr_form"}
     - form{"name": null}
-    - utter_ask_confirm
+    - utter_confirm
+    - action_upload
     - action_listen
     - action_set_file
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
 
+## unhappy path ehr_form
+* greet
+    - utter_greet
+* ask_form
+    - utter_form
+* ask_ehr_form
+    - action_reset_slot
+    - ehr_form
+    - form{"name": "ehr_form"}
+* smalltalk_greetings_how_are_you
+    - utter_smalltalk_greetings_how_are_you
+    - ehr_form
+    - form{"name": null}
+    - utter_confirm
+    - action_upload
+    - action_listen
+    - action_set_file
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
 
-## happy path 3
+## very unhappy path ehr_form
+* greet
+    - utter_greet
+* ask_form
+    - utter_form
+* ask_ehr_form
+    - action_reset_slot
+    - ehr_form
+    - form{"name": "ehr_form"}
+* smalltalk_agent_chatbot
+  - utter_smalltalk_agent_chatbot
+    - ehr_form
+* smalltalk_greetings_how_are_you
+    - utter_smalltalk_greetings_how_are_you
+    - ehr_form
+    - form{"name": null}
+    - utter_confirm
+    - action_upload
+    - action_listen
+    - action_set_file
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
+
+## stop but continue path ehr_form
+* greet
+    - utter_greet
+* ask_form
+    - utter_form
+* ask_ehr_form
+    - action_reset_slot
+    - ehr_form
+    - form{"name": "ehr_form"}
+* smalltalk_confirmation_cancel
+    - utter_smalltalk_user_busy
+* affirm
+    - ehr_form
+    - form{"name": null}
+    - utter_confirm
+    - action_upload
+    - action_listen
+    - action_set_file
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
+
+## stop and really stop path ehr_form
+* greet
+    - utter_greet
+* ask_form
+    - utter_form
+* ask_ehr_form
+    - action_reset_slot
+    - ehr_form
+    - form{"name": "ehr_form"}
+* smalltalk_confirmation_cancel
+    - utter_smalltalk_user_busy
+* deny
+    - action_deactivate_form
+    - form{"name": null}
+
+## chitchat stop but continue path ehr_form
+* ask_ehr_form
+    - action_reset_slot
+    - ehr_form
+    - form{"name": "ehr_form"}
+* smalltalk_greetings_how_are_you
+    - utter_smalltalk_greetings_how_are_you
+    - ehr_form
+* smalltalk_confirmation_cancel
+    - utter_smalltalk_user_busy
+* affirm
+    - ehr_form
+    - form{"name": null}
+    - utter_confirm
+    - action_upload
+    - action_listen
+    - action_set_file
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
+
+## stop but continue and chitchat path ehr_form 
+* greet
+    - utter_greet
+* ask_ehr_form
+    - action_reset_slot
+    - ehr_form
+    - form{"name": "ehr_form"}
+* smalltalk_confirmation_cancel
+    - utter_smalltalk_user_busy
+* affirm
+    - ehr_form
+* smalltalk_greetings_how_are_you
+    - utter_smalltalk_greetings_how_are_you
+    - ehr_form
+    - form{"name": null}
+    - utter_confirm
+    - action_upload
+    - action_listen
+    - action_set_file
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
+
+## chitchat stop but continue and chitchat path ehr_form
+* greet
+    - utter_greet
+* ask_ehr_form
+    - action_reset_slot
+    - ehr_form
+    - form{"name": "ehr_form"}
+* smalltalk_greetings_how_are_you
+    - utter_smalltalk_greetings_how_are_you
+    - ehr_form
+* smalltalk_confirmation_cancel
+    - utter_smalltalk_user_busy
+* affirm
+    - ehr_form
+* smalltalk_greetings_how_are_you
+    - utter_smalltalk_greetings_how_are_you
+    - ehr_form
+    - form{"name": null}
+    - utter_confirm
+    - action_upload
+    - action_listen
+    - action_set_file
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
+
+## chitchat stop and really stop path ehr_form
+* greet
+    - utter_greet
+* ask_ehr_form
+    - action_reset_slot
+    - ehr_form
+    - form{"name": "ehr_form"}
+* smalltalk_greetings_how_are_you
+    - utter_smalltalk_greetings_how_are_you
+    - ehr_form
+* smalltalk_confirmation_cancel
+    - utter_smalltalk_user_busy
+* deny
+    - action_deactivate_form
+    - form{"name": null}
+
+## happy path file_form
+* greet
+    - utter_greet
+* ask_form
+    - utter_form
 * ask_upload
-  - action_reset_slot
-  - file_form
-  - form{"name": "file_form"}
-  - form{"name": null}
-  - utter_file
-  - action_listen
-  - action_set_file
+    - action_reset_slot
+    - file_form
+    - form{"name": "file_form"}
+    - form{"name": null}
+    - utter_file
+    - action_upload
+    - action_listen
+    - action_set_file
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
 
+## unhappy path file_form
+* greet
+    - utter_greet
+* ask_form
+    - utter_form
+* ask_upload
+    - action_reset_slot
+    - file_form
+    - form{"name": "file_form"}
+* smalltalk_greetings_how_are_you
+    - utter_smalltalk_greetings_how_are_you
+    - file_form
+    - form{"name": null}
+    - utter_file
+    - action_upload
+    - action_listen
+    - action_set_file
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
 
-## story 19
+## very unhappy path file_form
+* greet
+    - utter_greet
+* ask_form
+    - utter_form
+* ask_upload
+    - action_reset_slot
+    - file_form
+    - form{"name": "file_form"}
+* smalltalk_agent_chatbot
+  - utter_smalltalk_agent_chatbot
+    - file_form
+* smalltalk_greetings_how_are_you
+    - utter_smalltalk_greetings_how_are_you
+    - file_form
+    - form{"name": null}
+    - utter_file
+    - action_upload
+    - action_listen
+    - action_set_file
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
+
+## stop but continue path file_form
+* greet
+    - utter_greet
+* ask_form
+    - utter_form
+* ask_upload
+    - action_reset_slot
+    - file_form
+    - form{"name": "file_form"}
+* smalltalk_confirmation_cancel
+    - utter_smalltalk_user_busy
+* affirm
+    - file_form
+    - form{"name": null}
+    - utter_file
+    - action_upload
+    - action_listen
+    - action_set_file
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
+
+## stop and really stop path file_form
+* greet
+    - utter_greet
+* ask_form
+    - utter_form
+* ask_upload
+    - action_reset_slot
+    - file_form
+    - form{"name": "file_form"}
+* smalltalk_confirmation_cancel
+    - utter_smalltalk_user_busy
+* deny
+    - action_deactivate_form
+    - form{"name": null}
+
+## chitchat stop but continue path file_form
+* ask_upload
+    - action_reset_slot
+    - file_form
+    - form{"name": "file_form"}
+* smalltalk_greetings_how_are_you
+    - utter_smalltalk_greetings_how_are_you
+    - file_form
+* smalltalk_confirmation_cancel
+    - utter_smalltalk_user_busy
+* affirm
+    - file_form
+    - form{"name": null}
+    - utter_file
+    - action_upload
+    - action_listen
+    - action_set_file
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
+
+## stop but continue and chitchat path file_form 
+* greet
+    - utter_greet
+* ask_upload
+    - action_reset_slot
+    - file_form
+    - form{"name": "file_form"}
+* smalltalk_confirmation_cancel
+    - utter_smalltalk_user_busy
+* affirm
+    - file_form
+* smalltalk_greetings_how_are_you
+    - utter_smalltalk_greetings_how_are_you
+    - file_form
+    - form{"name": null}
+    - utter_file
+    - action_upload
+    - action_listen
+    - action_set_file
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
+
+## chitchat stop but continue and chitchat path file_form
+* greet
+    - utter_greet
+* ask_upload
+    - action_reset_slot
+    - file_form
+    - form{"name": "file_form"}
+* smalltalk_greetings_how_are_you
+    - utter_smalltalk_greetings_how_are_you
+    - file_form
+* smalltalk_confirmation_cancel
+    - utter_smalltalk_user_busy
+* affirm
+    - file_form
+* smalltalk_greetings_how_are_you
+    - utter_smalltalk_greetings_how_are_you
+    - file_form
+    - form{"name": null}
+    - utter_file
+    - action_upload
+    - action_listen
+    - action_set_file
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
+
+## chitchat stop and really stop path file_form
+* greet
+    - utter_greet
+* ask_upload
+    - action_reset_slot
+    - file_form
+    - form{"name": "file_form"}
+* smalltalk_greetings_how_are_you
+    - utter_smalltalk_greetings_how_are_you
+    - file_form
+* smalltalk_confirmation_cancel
+    - utter_smalltalk_user_busy
+* deny
+    - action_deactivate_form
+    - form{"name": null}
+
+## blockchain conform
 * conform_yes OR conform_no
   - action_confirmation
 
-## happy path
+## happy path 1
 * greet
   - utter_greet
 * get_emotion
@@ -191,14 +535,6 @@
 * deny
   - utter_goodbye
 
-## say goodbye
-* goodbye
-  - utter_goodbye
-
-## story_1
-* greet
-  - utter_greet
-
 ## story check
 * greet
   - utter_greet
@@ -213,12 +549,12 @@
   - utter_goodbye
 
 ## show map
+* greet
+  - utter_greet
 * show_map
   - action_show_map
-
-## story_2
-* thank
-  - utter_thank
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
 
 ## story_6
 * out_of_scope
@@ -237,23 +573,18 @@
   - utter_greet
 * telljoke
   - action_get_joke
-* goodbye
-  - utter_goodbye
+* smalltalk_user_joking
+  - utter_smalltalk_user_joking
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
 
 ## quote_path
 * greet
   - utter_greet
 * tellquote
   - action_get_quote
-* goodbye
-  - utter_goodbye
-
-## path_smalltalk_agent_acquaintance
-* smalltalk_agent_acquaintance
-  - utter_smalltalk_agent_acquaintance
-* describe_symptoms
-  - action_diagnose_symptoms
-  - action_symptoms
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
 
 ## path_smalltalk_agent_age
 * smalltalk_agent_age
@@ -319,10 +650,6 @@
 * smalltalk_agent_good
   - utter_smalltalk_agent_good
 
-## path_smalltalk_agent_happy
-* smalltalk_agent_happy
-  - utter_smalltalk_agent_happy
-
 ## path_smalltalk_agent_hungry
 * smalltalk_agent_hungry
   - utter_smalltalk_agent_hungry
@@ -359,10 +686,6 @@
 * smalltalk_agent_right
   - utter_smalltalk_agent_right
 
-## path_smalltalk_confirmation_yes
-* smalltalk_confirmation_yes
-  - utter_smalltalk_confirmation_yes
-
 ## path_smalltalk_agent_sure
 * smalltalk_agent_sure
   - utter_smalltalk_agent_sure
@@ -387,10 +710,6 @@
 * smalltalk_appraisal_no_problem
   - utter_smalltalk_appraisal_no_problem
 
-## path_smalltalk_appraisal_thank_you
-* smalltalk_appraisal_thank_you
-  - utter_smalltalk_appraisal_thank_you
-
 ## path_smalltalk_appraisal_welcome
 * smalltalk_appraisal_welcome
   - utter_smalltalk_appraisal_welcome
@@ -398,14 +717,6 @@
 ## path_smalltalk_appraisal_well_done
 * smalltalk_appraisal_well_done
   - utter_smalltalk_appraisal_well_done
-
-## path_smalltalk_confirmation_cancel
-* smalltalk_confirmation_cancel
-  - utter_smalltalk_confirmation_cancel
-
-## path_smalltalk_confirmation_no
-* smalltalk_confirmation_no
-  - utter_smalltalk_confirmation_no
 
 ## path_smalltalk_dialog_hold_on
 * smalltalk_dialog_hold_on
@@ -443,27 +754,9 @@
 * smalltalk_greetings_goodnight
   - utter_smalltalk_greetings_goodnight
 
-
-## path_smalltalk_greetings_how_are_you
-* smalltalk_greetings_how_are_you
-  - utter_smalltalk_greetings_how_are_you
-
-## path_smalltalk_greetings_nice_to_meet_you
-* smalltalk_greetings_nice_to_meet_you
-  - utter_smalltalk_greetings_nice_to_meet_you
-
-## path_smalltalk_greetings_nice_to_see_you
-* smalltalk_greetings_nice_to_see_you
-  - utter_smalltalk_greetings_nice_to_see_you
-
-## path_smalltalk_greetings_nice_to_talk_to_you
-* smalltalk_greetings_nice_to_talk_to_you
-  - utter_smalltalk_greetings_nice_to_talk_to_you
-
 ## path_smalltalk_greetings_whatsup
 * smalltalk_greetings_whatsup
   - utter_smalltalk_greetings_whatsup
-
 
 ## path_smalltalk_user_back
 * smalltalk_user_back
@@ -497,7 +790,6 @@
 * smalltalk_user_good
   - utter_smalltalk_user_good
 
-
 ## path_smalltalk_user_has_birthday
 * smalltalk_user_has_birthday
   - utter_smalltalk_user_has_birthday
@@ -505,10 +797,6 @@
 ## path_smalltalk_user_here
 * smalltalk_user_here
   - utter_smalltalk_user_here
-
-## path_smalltalk_user_joking
-* smalltalk_user_joking
-  - utter_smalltalk_user_joking
 
 ## path_smalltalk_user_likes_agent
 * smalltalk_user_likes_agent
@@ -533,7 +821,6 @@
 ## path_smalltalk_user_needs_advice
 * smalltalk_user_needs_advice
   - utter_smalltalk_user_needs_advice
-
 
 ## path_smalltalk_user_sleepy
 * smalltalk_user_sleepy
@@ -562,5 +849,4 @@
 ## path_smalltalk_user_will_be_back
 * smalltalk_user_will_be_back
   - utter_smalltalk_user_will_be_back
-
 

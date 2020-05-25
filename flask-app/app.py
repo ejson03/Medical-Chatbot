@@ -136,7 +136,9 @@ def action():
         try:
             files = request.files['file']
             print(files.mimetype)
+            print(files)
             files = {"file": (files.filename, files.stream, files.mimetype)}
+            print(files)
             res = requests.post(f"{RASA_URI}/webhooks/rest/webhook", files=files, headers={'Authorization': session['token']})
             print(res.json())
         except:

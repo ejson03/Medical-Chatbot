@@ -1,0 +1,80 @@
+[
+  {
+    "text": "i am excited",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "happy",
+        "entity": "emotion"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i am lonely",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "sad",
+        "entity": "emotion"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i am feeling lonely",
+    "entities": [
+      {
+        "start": 13,
+        "end": 19,
+        "value": "sad",
+        "entity": "emotion"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "My wife is suffering from vaginal discharge and stomach and abdominal pain",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "value": "vaginal discharge",
+        "entity": "symptom"
+      },
+      {
+        "start": 48,
+        "end": 74,
+        "value": "stomach and abdominal pain",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 26,
+        "end": 74,
+        "value": "vaginal discharge and stomach and abdominal pain",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I feel lonely",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "emotion",
+        "start": 7,
+        "end": 13,
+        "value": "sad",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

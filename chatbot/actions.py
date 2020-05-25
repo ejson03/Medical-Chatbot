@@ -27,22 +27,13 @@ from datetime import datetime, date, time, timedelta
 from modules.encryption import encrypt, ipfs_add
 import base64
 
-class ActionResetAllSlots(Action):
-
-    def name(self):
-        return "action_reset_all_slots"
-
-    def run(self, dispatcher, tracker, domain):
-        return [AllSlotsReset()]
-
 class ResetSlot(Action):
 
     def name(self):
         return "action_reset_slot"
 
     def run(self, dispatcher, tracker, domain):
-        print("Slot called for reset")
-        return [SlotSet("filedesc", None)]
+        return [SlotSet('filedesc', None)]
 
 class ActionGetCredentials(Action):
     def name(self):
@@ -70,6 +61,14 @@ class ActionGetCredentials(Action):
             else: 
                 raise Exception("Did not find user...")
         return slots
+        
+class ActionUpload(Action):
+
+    def name (self):
+        return "action_upload"
+
+    def run(self, dispatcher, tracker, domain):
+        dispatcher.utter_message(json_message={"payload":"fileupload"})
 
 class ActionGetSong(Action):
 
@@ -280,17 +279,6 @@ class EHRForm(FormAction):
             return{"excercise":value}
 
     def submit(self, dispatcher, tracker, domain ):
-        # dispatcher.utter_message(template="utter_ask_confirm")
-        # dispatcher.utter_message(template="utter_ask_conform")
-        # slot_to_fill = tracker.get_slot('conform')
-        # print(slot_to_fill)
-        # if slot_to_fill == "Yes" :
-        #     dispatcher.utter_message(template="utter_submit")
-        #     return []
-        # else :
-        #     return[self.deactivate()]
-        # dispatcher.utter_message(template="utter_submit")
-        dispatcher.utter_message(json_message={"payload":"fileupload"})
         return[]
 
 class FileForm(FormAction):
@@ -316,7 +304,6 @@ class FileForm(FormAction):
             return{"filedesc":value}
 
     def submit(self, dispatcher, tracker, domain ):
-        dispatcher.utter_message(json_message={"payload":"fileupload"})
         return []
 
 class ActionSetFile(Action):
@@ -326,11 +313,12 @@ class ActionSetFile(Action):
 
     def run(self, dispatcher, tracker, domain):
         file = tracker.latest_message['text']
+        dispatcher.utter_message("File is being called")
         # buttons = []
         # buttons.append({"payload": "/conform_yes", "title":"Do you want to submit?"})
         # buttons.append({"payload": "/conform_no", "title":"Do you want to reject?"})
         # dispatcher.utter_message(text="Choose Option", buttons=buttons)
-        dispatcher.utter_message(template = "utter_conform")
+        #dispatcher.utter_message(template = "utter_conform")
         file = file.encode('ascii')
         file = base64.b64decode(file)
         file = encrypt(file, "key")
