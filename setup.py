@@ -36,7 +36,7 @@ if __name__ == "__main__":
     print(colored("Kill all processes", "magenta"))
     cmd = "rasa run -m models --endpoint endpoints.yml --credentials credentials.yml --enable-api --cors “*”"
     app = os.path.join(root, 'flask-app', 'app.py')
-    execute(['rasa', 'run', 'actions'], '/chatbot')
+    execute(['rasa', 'run', 'actions'], '/actions')
     execute(cmd, '/chatbot')
     execute( ['python', app])
 

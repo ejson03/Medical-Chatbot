@@ -1,21 +1,63 @@
-version: '2'
-
+version: '3.0'
 services:
-  web:
-    build: .
-    ports:
-      - "5000:5000"
+  nginx:
+      container_name: "nginx"
+      image: nginx
+      volumes:
+        - ./nginx.conf:/etc/nginx/nginx.conf
+        - ./server.key:/app/server.key
+        - ./server.crt:/app/server.crt
+      ports:
+        - 8443:8443
+      depends_on:
+        - server
+        - action
+        - mongo
+        - main
+        - rabbit
+
+  mongo:
+    image: mongo
+    container_name: tracker-store
+
+  server:
+    container_name: rasa-server
     env_file:
       - .env
-    volumes:
-      - .:/app
+    build:
+      context: chatbot
     links:
-      - mongodb
+      - action
+      - mongo
 
-  mongodb:
-    image: mongo:latest
-    ports:
-        - '27017:27017'
-    command: mongod --bind_ip_all
+  action:
+    container_name: rasa-action-server
+    env_file:
+      - .env
+    build: 
+      context: actions
+    volumes:
+      - ./actions:/app/actions
+
+
+  main:
+    container_name: main
+    env_file:
+      - .env
+    build : 
+      context: flask-app
+    volumes:
+      - ./flask-app:/app/flask-app
+    command: 
+      gunicorn -w 2 --chdir /app/flask-app app:app -b :5000 --log-level debug --reload
+
+  rabbit:
     restart: always
+    image: "bitnami/rabbitmq:3.7.17"
+    container_name: rabbit
+    env_file:
+      - .env
+   
+
+    
 
