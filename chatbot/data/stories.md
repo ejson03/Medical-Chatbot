@@ -1,10 +1,3 @@
-## story 3
-* greet
-    - utter_greet
-* ask_weather
-	- utter_ask_location
-* goodbye
-    - utter_goodbye
 
 ## story 4
 * greet
@@ -21,11 +14,6 @@
 	- action_temp
 * goodbye
     - utter_goodbye
-
-## story 6
-* describe_symptoms
-  - action_diagnose_symptoms
-  - action_symptoms
   
 ## Generated Story 1
 * greet
@@ -41,8 +29,6 @@
 ## Generated Story 2
 * greet
     - utter_greet
-* ask_weather
-    - utter_ask_location
 * ask_weather_location{"location": "Delhi"}
     - slot{"location": "Delhi"}
     - action_weather
@@ -65,8 +51,6 @@
 ## Generated Story 4
 * greet
     - utter_greet
-* ask_weather
-    - utter_ask_location
 * ask_weather_location{"location": "Pune"}
     - slot{"location": "Pune"}
     - action_weather
@@ -78,8 +62,6 @@
 ## Generated Story 5
 * greet
     - utter_greet
-* ask_weather
-    - utter_ask_location
 * ask_weather_location{"location": "Chennai"}
     - slot{"location": "Chennai"}
     - action_weather
@@ -102,8 +84,6 @@
 ## Generated Story 7
 * greet
     - utter_greet
-* ask_weather
-    - utter_ask_location
 * ask_weather_location{"location": "Jaipur"}
     - slot{"location": "Jaipur"}
     - action_weather
@@ -136,8 +116,6 @@
 ## Generated Story 9
 * greet
     - utter_greet
-* ask_weather
-    - utter_ask_location
 * ask_weather_location{"location": "Hyderabad"}
     - slot{"location": "Hyderabad"}
     - action_weather
@@ -513,6 +491,8 @@
 * describe_symptoms
   - action_diagnose_symptoms
   - action_symptoms
+* goodbye
+  - utter_goodbye
 
 ## sad path 1
 * greet
@@ -801,10 +781,6 @@
 ## path_smalltalk_user_likes_agent
 * smalltalk_user_likes_agent
   - utter_smalltalk_user_likes_agent
-
-## path_smalltalk_user_lonely
-* smalltalk_user_lonely
-  - utter_smalltalk_user_lonely
 
 ## path_smalltalk_user_looks_like
 * smalltalk_user_looks_like

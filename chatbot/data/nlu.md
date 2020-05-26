@@ -2,8 +2,6 @@
 - hey
 - hello
 - hi
-- good morning
-- good evening
 - hey there
 - hello mate
 - hello friend
@@ -362,293 +360,69 @@
 - is it rainy in [ahmedabad](location)
 - is it windy in [ahmedabad](location)
 
-## intent:ask_weather
-- what's the weather in [New Dehi](location)
-- what is the weather in [Mumbai](location)
-- please tell me the weather at [mumbai](location)
-- whats the weather in [mumbai](location)
-- tell me weather conditions at [mumbai](location)
-- is it hot in [mumbai](location)
-- is it sunny in [mumbai](location)
-- is it rainy in [mumbai](location)
-- is it windy in [mumbai](location)
-- please tell me the weather at [delhi](location)
-- whats the weather in [delhi](location)
-- tell me weather conditions at [delhi](location)
-- is it hot in [delhi](location)
-- is it sunny in [delhi](location)
-- is it rainy in [delhi](location)
-- is it windy in [delhi](location)
-- please tell me the weather at [jaipur](location)
-- whats the weather in [jaipur](location)
-- tell me weather conditions at [jaipur](location)
-- is it hot in [jaipur](location)
-- is it sunny in [jaipur](location)
-- is it rainy in [jaipur](location)
-- is it windy in [jaipur](location)
-- please tell me the weather at [chennai](location)
-- whats the weather in [chennai](location)
-- tell me weather conditions at [chennai](location)
-- is it hot in [chennai](location)
-- is it sunny in [chennai](location)
-- is it rainy in [chennai](location)
-- is it windy in [chennai](location)
-- please tell me the weather at [banglore](location)
-- whats the weather in [banglore](location)
-- tell me weather conditions at [banglore](location)
-- is it hot in [banglore](location)
-- is it sunny in [banglore](location)
-- is it rainy in [banglore](location)
-- is it windy in [banglore](location)
-- please tell me the weather at [kolkata](location)
-- whats the weather in [kolkata](location)
-- tell me weather conditions at [kolkata](location)
-- is it hot in [kolkata](location)
-- is it sunny in [kolkata](location)
-- is it rainy in [kolkata](location)
-- is it windy in [kolkata](location)
-- please tell me the weather at [bhopal](location)
-- whats the weather in [bhopal](location)
-- tell me weather conditions at [bhopal](location)
-- is it hot in [bhopal](location)
-- is it sunny in [bhopal](location)
-- is it rainy in [bhopal](location)
-- is it windy in [bhopal](location)
-- please tell me the weather at [pune](location)
-- whats the weather in [pune](location)
-- tell me weather conditions at [pune](location)
-- is it hot in [pune](location)
-- is it sunny in [pune](location)
-- is it rainy in [pune](location)
-- is it windy in [pune](location)
-- please tell me the weather at [hyderabad](location)
-- whats the weather in [hyderabad](location)
-- tell me weather conditions at [hyderabad](location)
-- is it hot in [hyderabad](location)
-- is it sunny in [hyderabad](location)
-- is it rainy in [hyderabad](location)
-- is it windy in [hyderabad](location)
-- please tell me the weather at [chandigarh](location)
-- whats the weather in [chandigarh](location)
-- tell me weather conditions at [chandigarh](location)
-- is it hot in [chandigarh](location)
-- is it sunny in [chandigarh](location)
-- is it rainy in [chandigarh](location)
-- is it windy in [chandigarh](location)
-- please tell me the weather at [shimla](location)
-- whats the weather in [shimla](location)
-- tell me weather conditions at [shimla](location)
-- is it hot in [shimla](location)
-- is it sunny in [shimla](location)
-- is it rainy in [shimla](location)
-- is it windy in [shimla](location)
-- please tell me the weather at [nagpur](location)
-- whats the weather in [nagpur](location)
-- tell me weather conditions at [nagpur](location)
-- is it hot in [nagpur](location)
-- is it sunny in [nagpur](location)
-- is it rainy in [nagpur](location)
-- is it windy in [nagpur](location)
-- please tell me the weather at [patna](location)
-- whats the weather in [patna](location)
-- tell me weather conditions at [patna](location)
-- is it hot in [patna](location)
-- is it sunny in [patna](location)
-- is it rainy in [patna](location)
-- is it windy in [patna](location)
-- please tell me the weather at [mangluru](location)
-- whats the weather in [mangluru](location)
-- tell me weather conditions at [mangluru](location)
-- is it hot in [mangluru](location)
-- is it sunny in [mangluru](location)
-- is it rainy in [mangluru](location)
-- is it windy in [mangluru](location)
-- please tell me the weather at [thiruvananthapuram](location)
-- whats the weather in [thiruvananthapuram](location)
-- tell me weather conditions at [thiruvananthapuram](location)
-- is it hot in [thiruvananthapuram](location)
-- is it sunny in [thiruvananthapuram](location)
-- is it rainy in [thiruvananthapuram](location)
-- is it windy in [thiruvananthapuram](location)
-- please tell me the weather at [panjim](location)
-- whats the weather in [panjim](location)
-- tell me weather conditions at [panjim](location)
-- is it hot in [panjim](location)
-- is it sunny in [panjim](location)
-- is it rainy in [panjim](location)
-- is it windy in [panjim](location)
-- please tell me the weather at [lucknow](location)
-- whats the weather in [lucknow](location)
-- tell me weather conditions at [lucknow](location)
-- is it hot in [lucknow](location)
-- is it sunny in [lucknow](location)
-- is it rainy in [lucknow](location)
-- is it windy in [lucknow](location)
-- please tell me the weather at [udaipur](location)
-- whats the weather in [udaipur](location)
-- tell me weather conditions at [udaipur](location)
-- is it hot in [udaipur](location)
-- is it sunny in [udaipur](location)
-- is it rainy in [udaipur](location)
-- is it windy in [udaipur](location)
-- please tell me the weather at [surat](location)
-- whats the weather in [surat](location)
-- tell me weather conditions at [surat](location)
-- is it hot in [surat](location)
-- is it sunny in [surat](location)
-- is it rainy in [surat](location)
-- is it windy in [surat](location)
-- please tell me the weather at [ahmedabad](location)
-- whats the weather in [ahmedabad](location)
-- tell me weather conditions at [ahmedabad](location)
-- is it hot in [ahmedabad](location)
-- is it sunny in [ahmedabad](location)
-- is it rainy in [ahmedabad](location)
-- is it windy in [ahmedabad](location)
-
 ## intent:ask_temperature
 - what's the temperature in [New Dehi](location)
 - what is the temperature in [Mumbai](location)
 - please tell me the temperature at [mumbai](location)
 - whats the temperature in [mumbai](location)
 - tell me temperature conditions at [mumbai](location)
-- is it hot in [mumbai](location)
-- is it sunny in [mumbai](location)
-- is it rainy in [mumbai](location)
-- is it windy in [mumbai](location)
 - please tell me the temperature at [delhi](location)
 - whats the temperature in [delhi](location)
 - tell me temperature conditions at [delhi](location)
-- is it hot in [delhi](location)
-- is it sunny in [delhi](location)
-- is it rainy in [delhi](location)
-- is it windy in [delhi](location)
 - please tell me the temperature at [jaipur](location)
 - whats the temperature in [jaipur](location)
 - tell me temperature conditions at [jaipur](location)
-- is it hot in [jaipur](location)
-- is it sunny in [jaipur](location)
-- is it rainy in [jaipur](location)
-- is it windy in [jaipur](location)
 - please tell me the temperature at [chennai](location)
 - whats the temperature in [chennai](location)
 - tell me temperature conditions at [chennai](location)
-- is it hot in [chennai](location)
-- is it sunny in [chennai](location)
-- is it rainy in [chennai](location)
-- is it windy in [chennai](location)
 - please tell me the temperature at [banglore](location)
 - whats the temperature in [banglore](location)
 - tell me temperature conditions at [banglore](location)
-- is it hot in [banglore](location)
-- is it sunny in [banglore](location)
-- is it rainy in [banglore](location)
-- is it windy in [banglore](location)
 - please tell me the temperature at [kolkata](location)
 - whats the temperature in [kolkata](location)
 - tell me temperature conditions at [kolkata](location)
-- is it hot in [kolkata](location)
-- is it sunny in [kolkata](location)
-- is it rainy in [kolkata](location)
-- is it windy in [kolkata](location)
 - please tell me the temperature at [bhopal](location)
 - whats the temperature in [bhopal](location)
 - tell me temperature conditions at [bhopal](location)
-- is it hot in [bhopal](location)
-- is it sunny in [bhopal](location)
-- is it rainy in [bhopal](location)
-- is it windy in [bhopal](location)
 - please tell me the temperature at [pune](location)
 - whats the temperature in [pune](location)
 - tell me temperature conditions at [pune](location)
-- is it hot in [pune](location)
-- is it sunny in [pune](location)
-- is it rainy in [pune](location)
-- is it windy in [pune](location)
 - please tell me the temperature at [hyderabad](location)
 - whats the temperature in [hyderabad](location)
 - tell me temperature conditions at [hyderabad](location)
-- is it hot in [hyderabad](location)
-- is it sunny in [hyderabad](location)
-- is it rainy in [hyderabad](location)
-- is it windy in [hyderabad](location)
 - please tell me the temperature at [chandigarh](location)
 - whats the temperature in [chandigarh](location)
 - tell me temperature conditions at [chandigarh](location)
-- is it hot in [chandigarh](location)
-- is it sunny in [chandigarh](location)
-- is it rainy in [chandigarh](location)
-- is it windy in [chandigarh](location)
 - please tell me the temperature at [shimla](location)
 - whats the temperature in [shimla](location)
 - tell me temperature conditions at [shimla](location)
-- is it hot in [shimla](location)
-- is it sunny in [shimla](location)
-- is it rainy in [shimla](location)
-- is it windy in [shimla](location)
 - please tell me the temperature at [nagpur](location)
 - whats the temperature in [nagpur](location)
 - tell me temperature conditions at [nagpur](location)
-- is it hot in [nagpur](location)
-- is it sunny in [nagpur](location)
-- is it rainy in [nagpur](location)
-- is it windy in [nagpur](location)
 - please tell me the temperature at [patna](location)
 - whats the temperature in [patna](location)
 - tell me temperature conditions at [patna](location)
-- is it hot in [patna](location)
-- is it sunny in [patna](location)
-- is it rainy in [patna](location)
-- is it windy in [patna](location)
 - please tell me the temperature at [mangluru](location)
 - whats the temperature in [mangluru](location)
 - tell me temperature conditions at [mangluru](location)
-- is it hot in [mangluru](location)
-- is it sunny in [mangluru](location)
-- is it rainy in [mangluru](location)
-- is it windy in [mangluru](location)
 - please tell me the temperature at [thiruvananthapuram](location)
 - whats the temperature in [thiruvananthapuram](location)
 - tell me temperature conditions at [thiruvananthapuram](location)
-- is it hot in [thiruvananthapuram](location)
-- is it sunny in [thiruvananthapuram](location)
-- is it rainy in [thiruvananthapuram](location)
-- is it windy in [thiruvananthapuram](location)
 - please tell me the temperature at [panjim](location)
 - whats the temperature in [panjim](location)
 - tell me temperature conditions at [panjim](location)
-- is it hot in [panjim](location)
-- is it sunny in [panjim](location)
-- is it rainy in [panjim](location)
-- is it windy in [panjim](location)
 - please tell me the temperature at [lucknow](location)
 - whats the temperature in [lucknow](location)
 - tell me temperature conditions at [lucknow](location)
-- is it hot in [lucknow](location)
-- is it sunny in [lucknow](location)
-- is it rainy in [lucknow](location)
-- is it windy in [lucknow](location)
 - please tell me the temperature at [udaipur](location)
 - whats the temperature in [udaipur](location)
 - tell me temperature conditions at [udaipur](location)
-- is it hot in [udaipur](location)
-- is it sunny in [udaipur](location)
-- is it rainy in [udaipur](location)
-- is it windy in [udaipur](location)
 - please tell me the temperature at [surat](location)
 - whats the temperature in [surat](location)
 - tell me temperature conditions at [surat](location)
-- is it hot in [surat](location)
-- is it sunny in [surat](location)
-- is it rainy in [surat](location)
-- is it windy in [surat](location)
 - please tell me the temperature at [ahmedabad](location)
 - whats the temperature in [ahmedabad](location)
 - tell me temperature conditions at [ahmedabad](location)
-- is it hot in [ahmedabad](location)
-- is it sunny in [ahmedabad](location)
-- is it rainy in [ahmedabad](location)
-- is it windy in [ahmedabad](location)
 
 ## intent:show_map
 - can you show me all the hospitals nearby
@@ -1448,110 +1222,6 @@
 - Do you know who is [Justin Trudeau](name)
 - Do you know quantum computing?
 
-## intent:thank
-- thank you
-- thanks
-- thank you so much
-- thanks bot
-- thanks doctor
-- thanks for that
-- thanks for helping me
-- thanks for the help!
-- ok, thanks!!
-- perfect
-- thanks a lot
-- amazing thanks
-- cool, thanks
-- thank you for the suggestion
-- how can i thank you?
-- great work
-- great suggestion
-- You are great thank you
-- I want to thank you
-
-## intent:ask_howdoing
-- Ahoy matey how are you?
-- are you alright
-- are you having a good day
-- Are you ok?
-- are you okay
-- Do you feel good?
-- how are things going
-- how are things with you?
-- How are things?
-- how are you
-- how are you doing
-- how are you doing this morning
-- how are you feeling
-- how are you today
-- How are you?
-- how do you do?
-- how have you been
-- how is it going
-- how is your day
-- how is your day going
-- how is your evening
-- How was your day?
-- How's it going
-- How's it hanging?
-- how's life
-- how's life been treating you?
-- How's life treating you friend?
-- how's your day going
-- How've you been?
-- I'm fine and you
-- is everything all right
-- Is everything ok?
-- is everything okay
-- what about your day
-- What's going on?
-- what's good
-- What's new?
-- What's up man
-- What's up
-- how are you?
-- Do you have a great day?
-- how are you doing today my sweet friend
-- how are you doing?
-- how are u
-- nah, I'm good - how are you doing?
-- how are yuo
-- How are you
-- how you doing
-- are you ok
-- How are you today?
-- how are u?
-- okay hi how are you?
-- how r u
-- how r u>
-- and you
-- How are you men?
-- what's up?
-- how are you????
-- how ?
-- how r u ?
-- h r u ?
-- how's it going?
-- hello, how are you?
-- hw r u?
-- what's up
-- wassup>
-- hi how u doing
-- Hi Sara! How are you?
-- how are you ?
-- how are you'
-- how are you doing today?
-- how you doing?
-- How are You?
-- what doing
-- how are xou
-- ¿Qué pasa?
-- hi how are you?
-- hi sara, how are you?
-- Hows it going
-- come stai?
-- How you doing?
-
 ## intent:handleinsult
 - you're a loser lmao
 - you are a stupid bot
@@ -1648,7 +1318,6 @@
 - Could you tell me a joke.
 - Would you share a joke with me.
 - Could you please share a joke with me.
-- Make me laugh.
 - Entertain me with a joke.
 - Tell me something that you think will make me laugh.
 - I want to hear something funny.
@@ -1667,7 +1336,7 @@
 - say a joke that's so bad it's funny
 - make me laugh with a bad joke
 - give me a good joke
-- you can say a jok
+- you can say a joke
 
 ## intent:tellquote
 - give me a quote
@@ -1675,7 +1344,6 @@
 - got a quote
 - quotes are us
 - tell me a quote
-- Say something funny.
 - Give me a quote.
 - Give me a funny quote.
 - What's a good quote?
@@ -1684,9 +1352,7 @@
 - I need a good quote.
 - Tell me the best quote you know.
 - Tell quote.
-- Tell me something funny.
 - Share a quote with me!
-- Tell me something humorous!
 - Will you tell me a quote.
 - Can you tell me a quote.
 - Would you tell me a quote
@@ -1694,174 +1360,19 @@
 - Could you tell me a quote.
 - Would you share a quote with me.
 - Could you please share a quote with me.
-- Make me laugh.
 - Entertain me with a quote.
-- Tell me something that you think will make me laugh.
-- I want to hear something funny.
-- Give me some comic relief.
 - Can you tell a quote?
 - Know any quotes?
-- Come up with a quote you think I'll find funny.
+- Come up with a quote.
 - Let's hear a quote from you.
 - say a quote that's funny
-- make me laugh with a quote
 - tell me something funny, like a quote
 - say a quote
 - tell me a short quote
 - tell me a story quote
 - say a funny quote
-- say a quote that's so bad it's funny
-- make me laugh with a bad quote
 - give me a good quote
-- you can say a quot
-
-## intent:ask_wherefrom
-- where do you live?
-- where do you live
-- where are you from?
-- So where are you from
-- Where are you?
-- Where were you born?
-- What city were you born in?
-- Where did you grow up?
-- What state were you born in?
-- What country were you born in?
-- Where do you come from?
-- Where were you at before you were here?
-- Where from?
-- Do you know where you come from?
-- where's your home town?
-- what country are you from?
-- are you from around here?
-- where did you grow up?
-- where are your parents from?
-- where did you spend your youth?
-- where did you come from?
-- Where do you consider home?
-- What city do you claim to for your birth?
-- What citizenship do you lay claim to?
-- What is your heritage?
-- What is your birthplace?
-- You were conceived in what city?
-- What is your root?
-- What is your origin?
-- From where did you come?
-- Where did you come from?
-- Where did you originate?
-- Where are your roots?
-- Where are your origins?
-- What area are you from?
-- What city are you from?
-- What's the name of the place you came from?
-- What is your original city?
-- Where might you be from?
-- Where do you live?
-- What city are you in?
-- What country are you from?
-- Around where are you from?
-- Where are you located?
-- Are you from around here?
-- You live around here?
-
-## intent:ask_time
-- what is the current time?
-- what is the time in Sydney?
-- whats the time now
-- what is the time ?
-- what is time in US ?
-- what is time is US ?
-- what is time is USA ?
-- what time it is
-- What is the time?
-- Can you give me the time?
-- Time?
-- Do you know the time?
-- Can you tell the time?
-- Give me the time.
-- Tell me the time.
-- Could you tell me what time is it?
-- Excuse me, what time is it?
-- Do you know what time it is?
-- Could you tell me the time?
-- Could you tell me the time, please?
-- Would you tell me what time it is?
-- Time, please!
-- Pardon me, but do you know the time?
-- What's the time?
-- What's the current time?
-- What time is it right now?
-- Do you have the time?
-- Can you tell me what time it is?
-- Hi, I need the time.
-- I need to know what time it is.
-- What's the time right now?
-- What is the current time?
-- Can you tell me the time?
-- What might the time be?
-- What is the hour and minute right now?
-- What time have we got?
-- What time do we have?
-- What is the exact time?
-- what is the time?
-- do you know the current time?
-- what time do you have?
-- do you have the time?
-- tell me the current time.
-- tell me the time.
-- tell me what time you have.
-- tell me the time it is.
-- what time is it?
-
-## intent:ask_howold
-- whats your age?
-- how old?
-- what's your age?
-- when were you born?
-- what is your birthday?
-- when is your birthday?
-- how many years old are you?
-- do you know how old you are?
-- what is your exact age?
-- what year were you born?
-- can you tell me your age?
-- What is your age?
-- What is your birthdate?
-- How old will you be on your next birthday?
-- When do you celebrate your day of birth?
-- How old were you on your last birthday?
-- How many candles were on your last birthday cake?
-- Do you have friends the same age as you, if so, how old are they?
-- Tell me your day, month and year of birth.
-- Whats your age?
-- and you are how many years old?
-- whats your birth year?
-- what age were you when you celebrated your last birthday?
-- how old were you when you celebrated your last birthday?
-- tell me your age?
-- how about your age
-- how old were you on your last birthday?
-- what age are you
-- how old will you be this year?
-- What year were you born?
-- How long have you been around?
-- How long have you been alive?
-- What was your age on your last birthday?
-- What will be your age on your next birthday?
-- How many years have you lived?
-- How many years have you been alive?
-- How long have you occupied the earth?
-- What is your count of years being alive so far?
-- what is your age?
-- in what year were you born?
-- what number represents your age?
-- tell me how old you are?
-- give me your age?
-- tell me your age number?
-- can you tell me exactly how old you are?
-- can you tell me what number represents your age?
-- how old are you
-- How old are you?
-- how old are u
+- you can say a quote
 
 ## intent:ask_whoami
 - Who am I?
@@ -1980,37 +1491,56 @@
 - What is my full name?
 - What exactly is my name?
 
-## intent:smalltalk_agent_acquaintance
-- who are you?
-- all about you
-- what is your personality
-- define yourself
-- what are you
-- say about you
-- introduce yourself
-- describe yourself
-- about yourself
-- tell me about you
-- tell me about yourself
-- I want to know more about you
-- I want to know you better
-- talk some stuff about yourself
-- tell me some stuff about you
-- talk about yourself
-- why are you here
-- tell me about your personality
-- who are you
-
 ## intent:smalltalk_agent_age
-- how old are you?
-- how old is your platform
-- are you 21 years old
-- i'd like to know your age
-- age of yours
-- your age
-- what's your age
-- tell me your age
+- whats your age?
+- how old?
+- what's your age?
+- when were you born?
+- what is your birthday?
+- when is your birthday?
+- how many years old are you?
+- do you know how old you are?
+- what is your exact age?
+- what year were you born?
+- can you tell me your age?
+- What is your age?
+- What is your birthdate?
+- How old will you be on your next birthday?
+- When do you celebrate your day of birth?
+- How old were you on your last birthday?
+- How many candles were on your last birthday cake?
+- Do you have friends the same age as you, if so, how old are they?
+- Tell me your day, month and year of birth.
+- Whats your age?
+- and you are how many years old?
+- whats your birth year?
+- what age were you when you celebrated your last birthday?
+- how old were you when you celebrated your last birthday?
+- tell me your age?
+- how about your age
+- how old were you on your last birthday?
+- what age are you
+- how old will you be this year?
+- What year were you born?
+- How long have you been around?
+- How long have you been alive?
+- What was your age on your last birthday?
+- What will be your age on your next birthday?
+- How many years have you lived?
+- How many years have you been alive?
+- How long have you occupied the earth?
+- What is your count of years being alive so far?
+- what is your age?
+- in what year were you born?
+- what number represents your age?
+- tell me how old you are?
+- give me your age?
+- tell me your age number?
+- can you tell me exactly how old you are?
+- can you tell me what number represents your age?
 - how old are you
+- How old are you?
+- how old are u
 
 ## intent:smalltalk_agent_annoying
 - you're annoying
@@ -2441,7 +1971,6 @@
 - you are not real
 
 ## intent:smalltalk_agent_residence
-- where do you live
 - in which city do you live
 - your residence
 - your house
@@ -2464,6 +1993,45 @@
 - where you live
 - your city
 - your town
+- where do you live?
+- where are you from?
+- Where do you come from?
+- Where were you at before you were here?
+- Where from?
+- Do you know where you come from?
+- where's your home town?
+- what country are you from?
+- are you from around here?
+- where did you grow up?
+- where are your parents from?
+- where did you spend your youth?
+- where did you come from?
+- Where do you consider home?
+- What city do you claim to for your birth?
+- What citizenship do you lay claim to?
+- What is your heritage?
+- What is your birthplace?
+- You were conceived in what city?
+- What is your root?
+- What is your origin?
+- From where did you come?
+- Where did you come from?
+- Where did you originate?
+- Where are your roots?
+- Where are your origins?
+- What area are you from?
+- What city are you from?
+- What's the name of the place you came from?
+- What is your original city?
+- Where might you be from?
+- Where do you live?
+- What city are you in?
+- What country are you from?
+- Around where are you from?
+- Where are you located?
+- Are you from around here?
+- You live around here?
+
 
 ## intent:smalltalk_agent_right
 - that's true
@@ -3211,14 +2779,6 @@
 - I really do like you
 - I really really really really like you
 - I like you just the way you are
-
-## intent:smalltalk_user_lonely
-- I am lonely
-- I'm very lonely
-- I'm so lonely
-- I'm really lonely
-- I am feeling lonely
-- I feel lonely
 
 ## intent:smalltalk_user_looks_like
 - what do I look like

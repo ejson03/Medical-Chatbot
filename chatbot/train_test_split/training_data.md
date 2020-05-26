@@ -1,0 +1,2405 @@
+## intent:greet
+- whats up
+- ssup
+- sup
+- hey
+- hello
+- hello friend
+- hey there
+- hello mate
+
+## intent:goodbye
+- go to bed
+- that's it goodbye
+- until nex time
+- alright bye
+- talk to you later
+- see you soon
+- goodbye for now
+- thanks bye bye
+- ok bye
+- see you
+- okay see you later
+- bye
+- get lost
+- bye bye take care
+- goodbye
+- till we meet again
+- okay bye
+- hope to see you later
+- see ya
+- never mind bye
+- now bye
+- okay thank you bye
+- till next time
+- bye for now
+- goodbye see you later
+- meet you again soon
+- ttyl
+- see you around
+- I said bye
+- leave me alone
+- see you tomorrow
+
+## intent:affirm
+- yap
+- yes right
+- why not
+- yes definitely
+- yeah exactly
+- okey
+- affirmative
+- yeah
+- yes for sure
+- indeed
+- yeh
+- I don't mind
+- confirm
+- nevermind its okay
+- that sounds good
+- yeah right
+- it's fine
+- okay sounds good
+- ok yes
+- confirmed
+- ye
+- yes indeed
+- go ahead
+- I agree
+- yeah I'm sure
+- yes it is
+- I guess
+- k
+- ok thank you
+- okay then
+- this is correct
+- all right
+- okay
+- sounds good
+- of course why not
+- exactly
+- yes I would like to
+- looks good
+- absolutely
+- yeah sure
+- do it
+- ok you can
+- please do
+- sure is
+- yes I agree
+- ya
+- definitely
+- sure why not
+- I think so
+- yup
+- yes you may
+- go for it
+- yes it is correct
+- yes that's fine
+- yes this is correct
+- yea
+- ok go ahead
+- sure thing
+- yeah that's right
+- yes
+- yes sure
+- yeah of course
+- that s okay
+- yes of course
+- yes I do
+- oh yes
+- okie dokie
+- yep
+
+## intent:deny
+- no just no
+- I disagree
+- definitely not
+- I don't want
+- do not
+- no that's wrong
+- not this
+- no it isn't
+- I don't think so
+- of course not
+- no sorry
+- not exactly
+- don t have a sense
+- not this time
+- no thanks not right now
+- no thank you very much
+- no don't do that
+- not right now thanks
+- no thank you not right now
+- no way
+- no never
+- I said no
+- no need
+- I think no
+- not really
+- I don't want to
+- no it's not
+- na
+- no forget
+- no thank you though
+- don't like that
+- don't
+- apparently not
+- never though of it
+- no don't
+- nah
+- I don't want that
+- no leave it
+- no but thank you
+- never
+- absolutely no
+- no that's fine thank you
+- nope sorry
+- no I don't
+- no need thanks
+- how about no
+- absolutely not
+- let 's not
+- nope
+- I'm not
+- disagree
+- I say no
+- not interested
+- sorry no
+- not today
+
+## intent:ask_form
+- i want to upload my documents
+- i want to upload a file
+- want to upload my medical records
+- I want to upload my medical records
+
+## intent:ask_weather_location
+- is it windy in [banglore](location)
+- whats the weather in [banglore](location)
+- is it sunny in [bhopal](location)
+- is it windy in [pune](location)
+- is it sunny in [chandigarh](location)
+- please tell me the weather at [udaipur](location)
+- is it rainy in [chandigarh](location)
+- is it sunny in [surat](location)
+- please tell me the weather at [mumbai](location)
+- please tell me the weather at [mangluru](location)
+- tell me weather conditions at [panjim](location)
+- is it windy in [mangluru](location)
+- is it windy in [chennai](location)
+- whats the weather in [hyderabad](location)
+- is it sunny in [hyderabad](location)
+- is it hot in [thiruvananthapuram](location)
+- is it hot in [ahmedabad](location)
+- is it hot in [mumbai](location)
+- is it windy in [nagpur](location)
+- is it rainy in [chennai](location)
+- tell me weather conditions at [pune](location)
+- is it windy in [ahmedabad](location)
+- whats the weather in [lucknow](location)
+- is it hot in [chennai](location)
+- tell me weather conditions at [delhi](location)
+- tell me weather conditions at [udaipur](location)
+- tell me weather conditions at [thiruvananthapuram](location)
+- is it sunny in [mumbai](location)
+- whats the weather in [jaipur](location)
+- whats the weather in [chennai](location)
+- tell me weather conditions at [ahmedabad](location)
+- is it sunny in [patna](location)
+- whats the weather in [udaipur](location)
+- whats the weather in [pune](location)
+- whats the weather in [thiruvananthapuram](location)
+- please tell me the weather at [lucknow](location)
+- is it rainy in [kolkata](location)
+- is it rainy in [bhopal](location)
+- please tell me the weather at [patna](location)
+- is it windy in [panjim](location)
+- is it rainy in [udaipur](location)
+- tell me weather conditions at [nagpur](location)
+- please tell me the weather at [thiruvananthapuram](location)
+- is it windy in [jaipur](location)
+- is it hot in [banglore](location)
+- is it hot in [surat](location)
+- please tell me the weather at [ahmedabad](location)
+- is it sunny in [lucknow](location)
+- please tell me the weather at [chennai](location)
+- is it windy in [bhopal](location)
+- is it sunny in [delhi](location)
+- is it sunny in [banglore](location)
+- whats the weather in [panjim](location)
+- please tell me the weather at [chandigarh](location)
+- whats the weather in [nagpur](location)
+- please tell me the weather at [surat](location)
+- tell me weather conditions at [banglore](location)
+- please tell me the weather at [panjim](location)
+- is it windy in [chandigarh](location)
+- is it hot in [shimla](location)
+- please tell me the weather at [pune](location)
+- tell me weather conditions at [jaipur](location)
+- is it rainy in [surat](location)
+- tell me weather conditions at [mangluru](location)
+- is it rainy in [patna](location)
+- tell me weather conditions at [chennai](location)
+- is it rainy in [thiruvananthapuram](location)
+- whats the weather in [ahmedabad](location)
+- is it hot in [udaipur](location)
+- whats the weather in [patna](location)
+- is it sunny in [jaipur](location)
+- is it rainy in [mangluru](location)
+- is it rainy in [mumbai](location)
+- please tell me the weather at [jaipur](location)
+- tell me weather conditions at [shimla](location)
+- is it hot in [delhi](location)
+- please tell me the weather at [hyderabad](location)
+- is it rainy in [shimla](location)
+- is it hot in [panjim](location)
+- please tell me the weather at [shimla](location)
+- is it sunny in [pune](location)
+- whats the weather in [chandigarh](location)
+- is it sunny in [ahmedabad](location)
+- please tell me the weather at [nagpur](location)
+- whats the weather in [bhopal](location)
+- is it hot in [bhopal](location)
+- tell me weather conditions at [surat](location)
+- tell me weather conditions at [hyderabad](location)
+- tell me weather conditions at [kolkata](location)
+- is it hot in [pune](location)
+- tell me weather conditions at [bhopal](location)
+- please tell me the weather at [bhopal](location)
+- is it hot in [mangluru](location)
+- is it rainy in [pune](location)
+- is it hot in [nagpur](location)
+- whats the weather in [shimla](location)
+- is it windy in [shimla](location)
+- is it sunny in [udaipur](location)
+- tell me weather conditions at [chandigarh](location)
+- is it rainy in [hyderabad](location)
+- please tell me the weather at [kolkata](location)
+- is it hot in [chandigarh](location)
+- is it rainy in [jaipur](location)
+- is it hot in [lucknow](location)
+- is it windy in [udaipur](location)
+- please tell me the weather at [banglore](location)
+- is it hot in [kolkata](location)
+- is it windy in [thiruvananthapuram](location)
+- is it windy in [hyderabad](location)
+- is it windy in [surat](location)
+- is it sunny in [thiruvananthapuram](location)
+- whats the weather in [mumbai](location)
+- whats the weather in [surat](location)
+
+## intent:ask_temperature
+- whats the temperature in [patna](location)
+- whats the temperature in [chandigarh](location)
+- tell me temperature conditions at [hyderabad](location)
+- whats the temperature in [panjim](location)
+- whats the temperature in [bhopal](location)
+- whats the temperature in [hyderabad](location)
+- please tell me the temperature at [nagpur](location)
+- please tell me the temperature at [ahmedabad](location)
+- please tell me the temperature at [lucknow](location)
+- tell me temperature conditions at [shimla](location)
+- please tell me the temperature at [hyderabad](location)
+- whats the temperature in [chennai](location)
+- whats the temperature in [lucknow](location)
+- tell me temperature conditions at [banglore](location)
+- please tell me the temperature at [thiruvananthapuram](location)
+- please tell me the temperature at [pune](location)
+- whats the temperature in [mumbai](location)
+- please tell me the temperature at [bhopal](location)
+- tell me temperature conditions at [pune](location)
+- tell me temperature conditions at [surat](location)
+- tell me temperature conditions at [mangluru](location)
+- whats the temperature in [shimla](location)
+- tell me temperature conditions at [mumbai](location)
+- whats the temperature in [udaipur](location)
+- tell me temperature conditions at [bhopal](location)
+- whats the temperature in [thiruvananthapuram](location)
+- please tell me the temperature at [udaipur](location)
+- please tell me the temperature at [patna](location)
+- please tell me the temperature at [mangluru](location)
+- please tell me the temperature at [delhi](location)
+- tell me temperature conditions at [kolkata](location)
+- please tell me the temperature at [mumbai](location)
+- whats the temperature in [pune](location)
+- tell me temperature conditions at [panjim](location)
+- what's the temperature in [New Dehi](location)
+- whats the temperature in [mangluru](location)
+- tell me temperature conditions at [udaipur](location)
+- whats the temperature in [surat](location)
+- tell me temperature conditions at [thiruvananthapuram](location)
+- whats the temperature in [kolkata](location)
+- please tell me the temperature at [jaipur](location)
+- please tell me the temperature at [chandigarh](location)
+- tell me temperature conditions at [lucknow](location)
+- whats the temperature in [jaipur](location)
+- please tell me the temperature at [chennai](location)
+- tell me temperature conditions at [patna](location)
+- whats the temperature in [banglore](location)
+- tell me temperature conditions at [chennai](location)
+- please tell me the temperature at [banglore](location)
+
+## intent:show_map
+- please show me hospitals in my vicinity
+- any doctors nearby
+- any clinics nearby
+- where can i go
+- show me nearby clinics
+- hospitals
+- i wanna see the nearby hospitals
+- is there a solution in my vicinity
+
+## intent:get_emotion
+- i am [grieving]{"entity": "emotion", "value": "sad"}
+- god only knows i am [grieve]{"entity": "emotion", "value": "sad"}
+- Lately i have been [lonely]{"entity": "emotion", "value": "sad"}
+- god only knows i am [suffering]{"entity": "emotion", "value": "sad"}
+- i am [irked]{"entity": "emotion", "value": "angry"}
+- god only knows i am [overjoyed]{"entity": "emotion", "value": "happy"}
+- i have been [outraged]{"entity": "emotion", "value": "angry"} lately
+- this feeling of [mourning]{"entity": "emotion", "value": "sad"}
+- i am [indignant]{"entity": "emotion", "value": "angry"}
+- i am [depressed]{"entity": "emotion", "value": "sad"}
+- Lately i have been [gratified]{"entity": "emotion", "value": "happy"}
+- i am feeling [grieving]{"entity": "emotion", "value": "sad"}
+- take away my [suffering]{"entity": "emotion", "value": "sad"}
+- i am [aggravated]{"entity": "emotion", "value": "angry"}
+- god only knows i am [grieving]{"entity": "emotion", "value": "sad"}
+- god only knows i am [unhappiness]{"entity": "emotion", "value": "sad"}
+- i feel [suicidal]{"entity": "emotion", "value": "sad"}
+- Lately i have been [cross]{"entity": "emotion", "value": "angry"}
+- i feel [gratified]{"entity": "emotion", "value": "happy"}
+- i am [irate]{"entity": "emotion", "value": "angry"}
+- take away my [mourning]{"entity": "emotion", "value": "sad"}
+- i am [lonely]{"entity": "emotion", "value": "sad"}
+- i am feeling [joy]{"entity": "emotion", "value": "happy"}
+- god only knows i am [joyful]{"entity": "emotion", "value": "happy"}
+- this feeling of [loneliness]{"entity": "emotion", "value": "sad"}
+- Lately i have been in [pain]{"entity": "emotion", "value": "sad"}
+- this feeling of [cross]{"entity": "emotion", "value": "angry"}
+- god only knows i am [happiness]{"entity": "emotion", "value": "happy"}
+- i have been [suicidal]{"entity": "emotion", "value": "sad"} lately
+- i am feeling [cross]{"entity": "emotion", "value": "angry"}
+- take away my [radiant]{"entity": "emotion", "value": "happy"}
+- i have been [gratified]{"entity": "emotion", "value": "happy"} lately
+- god only knows i am [cheerful]{"entity": "emotion", "value": "happy"}
+- i am feeling [cheerful]{"entity": "emotion", "value": "happy"}
+- this feeling of [sorrow]{"entity": "emotion", "value": "sad"}
+- i feel [overjoyed]{"entity": "emotion", "value": "happy"}
+- i am feeling [irritated]{"entity": "emotion", "value": "angry"}
+- this feeling of [merry]{"entity": "emotion", "value": "happy"}
+- i have been [death]{"entity": "emotion", "value": "sad"} lately
+- god only knows i am [outraged]{"entity": "emotion", "value": "angry"}
+- i have been [cross]{"entity": "emotion", "value": "angry"} lately
+- i am [excited]{"entity": "emotion", "value": "happy"}
+- i feel [irked]{"entity": "emotion", "value": "angry"}
+- i feel [merry]{"entity": "emotion", "value": "happy"}
+- god only knows i am [contented]{"entity": "emotion", "value": "happy"}
+- Lately i have been too [excited]{"entity": "emotion", "value": "happy"}
+- i feel [annoyed]{"entity": "emotion", "value": "angry"}
+- i am feeling [suicidal]{"entity": "emotion", "value": "sad"}
+- this feeling of [pain]{"entity": "emotion", "value": "sad"}
+- god only knows i am [radiant]{"entity": "emotion", "value": "happy"}
+- i feel [irate]{"entity": "emotion", "value": "angry"}
+- take away my [gratified]{"entity": "emotion", "value": "happy"}
+- Lately i have been [suicidal]{"entity": "emotion", "value": "sad"}
+- i feel [content]{"entity": "emotion", "value": "happy"}
+- i have been [displeased]{"entity": "emotion", "value": "angry"} lately
+- i feel [vexed]{"entity": "emotion", "value": "angry"}
+- this feeling like [over the moon]{"entity": "emotion", "value": "happy"}
+- take away my [disgusted]{"entity": "emotion", "value": "angry"}
+- i feel [out of sorts]{"entity": "emotion", "value": "sad"}
+- god only knows i am [aggravated]{"entity": "emotion", "value": "angry"}
+- i have been [miserable]{"entity": "emotion", "value": "sad"} lately
+- this feeling of [suffering]{"entity": "emotion", "value": "sad"}
+- take away my [indignant]{"entity": "emotion", "value": "angry"}
+- god only knows i am [dejected]{"entity": "emotion", "value": "sad"}
+- Lately i have been [radiant]{"entity": "emotion", "value": "happy"}
+- i am [radiant]{"entity": "emotion", "value": "happy"}
+- Lately i have been [inflamed]{"entity": "emotion", "value": "angry"}
+- god only knows i am [sorrow]{"entity": "emotion", "value": "sad"}
+- god only knows i am [indignant]{"entity": "emotion", "value": "angry"}
+- Lately i have been [dejected]{"entity": "emotion", "value": "sad"}
+- i am [happy](emotion)
+- i feel [jovial]{"entity": "emotion", "value": "happy"}
+- i am feeling [content]{"entity": "emotion", "value": "happy"}
+- god only knows i am [miserable]{"entity": "emotion", "value": "sad"}
+- i feel [flabergasted]{"entity": "emotion", "value": "angry"}
+- take away my [dejected]{"entity": "emotion", "value": "sad"}
+- take away my [pain]{"entity": "emotion", "value": "sad"}
+- god only knows i am [aggrieved]{"entity": "emotion", "value": "angry"}
+- i feel [irritated]{"entity": "emotion", "value": "angry"}
+- i feel [inflamed]{"entity": "emotion", "value": "angry"}
+- i am feeling [pain]{"entity": "emotion", "value": "sad"}
+- Lately i have been [joyful]{"entity": "emotion", "value": "happy"}
+- take away my [irked]{"entity": "emotion", "value": "angry"}
+- i am [not happy]{"entity": "emotion", "value": "sad"}
+- i am [jovial]{"entity": "emotion", "value": "happy"}
+- i am feeling [vexed]{"entity": "emotion", "value": "angry"}
+- i feel [miserable]{"entity": "emotion", "value": "sad"}
+- i feel like [smiling]{"entity": "emotion", "value": "happy"}
+- god only knows i am [excitement]{"entity": "emotion", "value": "happy"}
+- Lately i have been [irked]{"entity": "emotion", "value": "angry"}
+- i feel [suffering]{"entity": "emotion", "value": "sad"}
+- i am feeling [down]{"entity": "emotion", "value": "sad"}
+- i have been [aggrieved]{"entity": "emotion", "value": "angry"} lately
+- i feel [exasperated]{"entity": "emotion", "value": "angry"}
+- Lately i have been [irritated]{"entity": "emotion", "value": "angry"}
+- i am feeling [unhappy]{"entity": "emotion", "value": "sad"}
+- god only knows i am [irritated]{"entity": "emotion", "value": "angry"}
+- i feel [joyful]{"entity": "emotion", "value": "happy"}
+- take away my [contented]{"entity": "emotion", "value": "happy"}
+- i have been [piqued]{"entity": "emotion", "value": "angry"} lately
+- Lately i have been [mourning]{"entity": "emotion", "value": "sad"}
+- this feeling of [disgust]{"entity": "emotion", "value": "angry"}
+- i am feeling [mourning]{"entity": "emotion", "value": "sad"}
+- i have been [happiness]{"entity": "emotion", "value": "happy"} lately
+- i am feeling [jovial]{"entity": "emotion", "value": "happy"}
+- god only knows i am [piqued]{"entity": "emotion", "value": "angry"}
+- i am [displeased]{"entity": "emotion", "value": "angry"}
+- this feeling of [content]{"entity": "emotion", "value": "happy"}
+- this feeling of [excitement]{"entity": "emotion", "value": "happy"}
+- i have been [content]{"entity": "emotion", "value": "happy"} lately
+- god only knows i am [gratified]{"entity": "emotion", "value": "happy"}
+- i am feeling [out of sorts]{"entity": "emotion", "value": "sad"}
+- take away my [suicidal]{"entity": "emotion", "value": "sad"}
+- i am feeling [jolly good]{"entity": "emotion", "value": "happy"}
+- this feeling of [joy]{"entity": "emotion", "value": "happy"}
+- i am [gratified]{"entity": "emotion", "value": "happy"}
+- i have been [irate]{"entity": "emotion", "value": "angry"} lately
+- i have been [vexed]{"entity": "emotion", "value": "angry"} lately
+- Lately i have been [happy](emotion)
+- god only knows i am [jolly good]{"entity": "emotion", "value": "happy"}
+- take away my [smiling]{"entity": "emotion", "value": "happy"}
+- this feeling of [annoyance]{"entity": "emotion", "value": "angry"}
+- i have been [unhappy]{"entity": "emotion", "value": "sad"} lately
+- i am feeling [lonely]{"entity": "emotion", "value": "sad"}
+- take away my [happiness]{"entity": "emotion", "value": "happy"}
+- i am [out of sorts]{"entity": "emotion", "value": "sad"}
+- take away my [aggravated]{"entity": "emotion", "value": "angry"}
+- god only knows i am [suicidal]{"entity": "emotion", "value": "sad"}
+- i feel [unhappy]{"entity": "emotion", "value": "sad"}
+- i have been [inflamed]{"entity": "emotion", "value": "angry"} lately
+- take away my [unhappiness]{"entity": "emotion", "value": "sad"}
+- i have been [irritated]{"entity": "emotion", "value": "angry"} lately
+- i feel [outraged]{"entity": "emotion", "value": "angry"}
+- i feel [down]{"entity": "emotion", "value": "sad"}
+- this feeling of [unhappiness]{"entity": "emotion", "value": "sad"}
+- i am [over the moon]{"entity": "emotion", "value": "happy"}
+- i am feeling [aggravated]{"entity": "emotion", "value": "angry"}
+- i am feeling [annoyed]{"entity": "emotion", "value": "angry"}
+- this feeling of [flame]{"entity": "emotion", "value": "angry"}
+- god only knows i am [lonely]{"entity": "emotion", "value": "sad"}
+- god only knows i am [irate]{"entity": "emotion", "value": "angry"}
+- i have been [jovial]{"entity": "emotion", "value": "happy"} lately
+- i feel [sorrow]{"entity": "emotion", "value": "sad"}
+- i am [joyful]{"entity": "emotion", "value": "happy"}
+- take away my [overjoyed]{"entity": "emotion", "value": "happy"}
+- i have been [indignant]{"entity": "emotion", "value": "angry"} lately
+- i am feeling [outraged]{"entity": "emotion", "value": "angry"}
+- Lately i have been [indignant]{"entity": "emotion", "value": "angry"}
+- i feel [excitement]{"entity": "emotion", "value": "happy"}
+- i have been [joyful]{"entity": "emotion", "value": "happy"} lately
+- god only knows i am [irked]{"entity": "emotion", "value": "angry"}
+- i am feeling [piqued]{"entity": "emotion", "value": "angry"}
+- i have been [outrage]{"entity": "emotion", "value": "angry"} lately
+- i am [unhappy]{"entity": "emotion", "value": "sad"}
+- take away my [sorrow]{"entity": "emotion", "value": "sad"}
+- i have been [sorrow]{"entity": "emotion", "value": "sad"} lately
+- god only knows i am [over the moon]{"entity": "emotion", "value": "happy"}
+- i am feeling [happiness]{"entity": "emotion", "value": "happy"}
+- i am feeling [exasperated]{"entity": "emotion", "value": "angry"}
+- take away my [grieving]{"entity": "emotion", "value": "sad"}
+- i have been [flabergasted]{"entity": "emotion", "value": "angry"} lately
+- i have been [depressed]{"entity": "emotion", "value": "sad"} lately
+- this feeling of [aggravation]{"entity": "emotion", "value": "angry"}
+- this feeling of [irate]{"entity": "emotion", "value": "angry"}
+- i feel [grieving]{"entity": "emotion", "value": "sad"}
+- this feeling of [dejection]{"entity": "emotion", "value": "sad"}
+- take away my [cross]{"entity": "emotion", "value": "angry"}
+- i am [piqued]{"entity": "emotion", "value": "angry"}
+- take away my [depressed]{"entity": "emotion", "value": "sad"}
+- i have been [unhappiness]{"entity": "emotion", "value": "sad"} lately
+- Lately i have been [exasperated]{"entity": "emotion", "value": "angry"}
+- i am [merry]{"entity": "emotion", "value": "happy"}
+- Lately i have been experiencing [death]{"entity": "emotion", "value": "sad"}
+- i am feeling [indignant]{"entity": "emotion", "value": "angry"}
+- this feeling of [grieving]{"entity": "emotion", "value": "sad"}
+- i feel [indignant]{"entity": "emotion", "value": "angry"}
+- i have been [irked]{"entity": "emotion", "value": "angry"} lately
+- god only knows i am [inflamed]{"entity": "emotion", "value": "angry"}
+- Lately i have been [miserable]{"entity": "emotion", "value": "sad"}
+- god only knows i am [unhappy]{"entity": "emotion", "value": "sad"}
+- take away my [lonely]{"entity": "emotion", "value": "sad"}
+- take away my [annoyed]{"entity": "emotion", "value": "angry"}
+- take away my [outraged]{"entity": "emotion", "value": "angry"}
+- take away my [content]{"entity": "emotion", "value": "happy"}
+- i feel [dejected]{"entity": "emotion", "value": "sad"}
+- i feel [grieve]{"entity": "emotion", "value": "sad"}
+- i am feeling [inflamed]{"entity": "emotion", "value": "angry"}
+- this feeling of [pique]{"entity": "emotion", "value": "angry"}
+- i am feeling [merry]{"entity": "emotion", "value": "happy"}
+- this feeling of [exasperation]{"entity": "emotion", "value": "angry"}
+- god only knows i am [content]{"entity": "emotion", "value": "happy"}
+- i am feeling [depressed]{"entity": "emotion", "value": "sad"}
+- i am [inflamed]{"entity": "emotion", "value": "angry"}
+- this feeling of [depression]{"entity": "emotion", "value": "sad"}
+- Lately i have been [piqued]{"entity": "emotion", "value": "angry"}
+- i am [content]{"entity": "emotion", "value": "happy"}
+- i have been [aggravated]{"entity": "emotion", "value": "angry"} lately
+- i am feeling [dejected]{"entity": "emotion", "value": "sad"}
+- i have been [over the moon]{"entity": "emotion", "value": "happy"} lately
+- i am [overjoyed]{"entity": "emotion", "value": "happy"}
+- take away my [aggrieved]{"entity": "emotion", "value": "angry"}
+- take away my [jolly good]{"entity": "emotion", "value": "happy"}
+- take away my [joyful]{"entity": "emotion", "value": "happy"}
+- i am [irritated]{"entity": "emotion", "value": "angry"}
+- god only knows i am [death]{"entity": "emotion", "value": "sad"}
+- i am [mourning]{"entity": "emotion", "value": "sad"}
+- this feeling of [misery]{"entity": "emotion", "value": "sad"}
+- i have been [down]{"entity": "emotion", "value": "sad"} lately
+- i am feeling [irked]{"entity": "emotion", "value": "angry"}
+- take away my [outrage]{"entity": "emotion", "value": "angry"}
+- take away my [flabergasted]{"entity": "emotion", "value": "angry"}
+- i am feeling [radiant]{"entity": "emotion", "value": "happy"}
+- i feel [aggrieved]{"entity": "emotion", "value": "angry"}
+- this feeling of [radiance]{"entity": "emotion", "value": "happy"}
+- i am feeling [overjoyed]{"entity": "emotion", "value": "happy"}
+- Lately i have been [smiling]{"entity": "emotion", "value": "happy"}
+- Lately i have been [out of sorts]{"entity": "emotion", "value": "sad"}
+- i am feeling [irate]{"entity": "emotion", "value": "angry"}
+- i am [down]{"entity": "emotion", "value": "sad"}
+- i am feeling [aggrieved]{"entity": "emotion", "value": "angry"}
+- i am [cheerful]{"entity": "emotion", "value": "happy"}
+- i feel [unhappiness]{"entity": "emotion", "value": "sad"}
+- i am feeling [miserable]{"entity": "emotion", "value": "sad"}
+- i am feeling [flabergasted]{"entity": "emotion", "value": "angry"}
+- this feeling of [irk]{"entity": "emotion", "value": "angry"}
+- Lately i have been [irate]{"entity": "emotion", "value": "angry"}
+- i am [miserable]{"entity": "emotion", "value": "sad"}
+- i feel [mourning]{"entity": "emotion", "value": "sad"}
+- i have been [smiling]{"entity": "emotion", "value": "happy"} lately
+- i am [outraged]{"entity": "emotion", "value": "angry"}
+- i have been [exasperated]{"entity": "emotion", "value": "angry"} lately
+- i have been [mourning]{"entity": "emotion", "value": "sad"} lately
+- Lately i have been [displeased]{"entity": "emotion", "value": "angry"}
+- god only knows i am [mourning]{"entity": "emotion", "value": "sad"}
+- i have been [suffering]{"entity": "emotion", "value": "sad"} lately
+- take away my [displeased]{"entity": "emotion", "value": "angry"}
+- Lately i have been in [grieving]{"entity": "emotion", "value": "sad"}
+- i am feeling [excitement]{"entity": "emotion", "value": "happy"}
+- i have been [excitement]{"entity": "emotion", "value": "happy"} lately
+- god only knows i am [vexed]{"entity": "emotion", "value": "angry"}
+- i feel [outrage]{"entity": "emotion", "value": "angry"}
+- i have been [jolly good]{"entity": "emotion", "value": "happy"} lately
+- i am [jolly]{"entity": "emotion", "value": "happy"}
+- i am [flabergasted]{"entity": "emotion", "value": "angry"}
+- i have been [annoyed]{"entity": "emotion", "value": "angry"} lately
+- god only knows i am [depressed]{"entity": "emotion", "value": "sad"}
+- take away my [over the moon]{"entity": "emotion", "value": "happy"}
+- i feel [death]{"entity": "emotion", "value": "sad"}
+- i feel [lonely]{"entity": "emotion", "value": "sad"}
+- this feeling of [gratification]{"entity": "emotion", "value": "happy"}
+- i have been [cheerful]{"entity": "emotion", "value": "happy"} lately
+- god only knows i am [down]{"entity": "emotion", "value": "sad"}
+- Lately i have been [suffering]{"entity": "emotion", "value": "sad"}
+- i feel [piqued]{"entity": "emotion", "value": "angry"}
+- i feel [cheerful]{"entity": "emotion", "value": "happy"}
+- i am [cross]{"entity": "emotion", "value": "angry"}
+- i have been [grieve]{"entity": "emotion", "value": "sad"} lately
+- i am in [pain]{"entity": "emotion", "value": "sad"}
+- i am feeling [disgust]{"entity": "emotion", "value": "angry"}
+- i feel [displeased]{"entity": "emotion", "value": "angry"}
+- Lately i have been [depressed]{"entity": "emotion", "value": "sad"}
+- this feeling of [vex]{"entity": "emotion", "value": "angry"}
+- i am [contented]{"entity": "emotion", "value": "happy"}
+- take away my [exasperated]{"entity": "emotion", "value": "angry"}
+- this feeling of [grieve]{"entity": "emotion", "value": "sad"}
+- Lately i have been seeing [death]{"entity": "emotion", "value": "sad"}
+- Lately i have been [content]{"entity": "emotion", "value": "happy"}
+- Lately i have been [outraged]{"entity": "emotion", "value": "angry"}
+- i am [dejected]{"entity": "emotion", "value": "sad"}
+- i have been [pain]{"entity": "emotion", "value": "sad"} lately
+- i have been [out of sorts]{"entity": "emotion", "value": "sad"} lately
+- i feel [aggravated]{"entity": "emotion", "value": "angry"}
+- Lately i have been [aggravated]{"entity": "emotion", "value": "angry"}
+- god only knows i am [cross]{"entity": "emotion", "value": "angry"}
+- i have been [grieving]{"entity": "emotion", "value": "sad"} lately
+- Lately i have been [contented]{"entity": "emotion", "value": "happy"}
+- god only knows i am [flabergasted]{"entity": "emotion", "value": "angry"}
+- take away my [death]{"entity": "emotion", "value": "sad"}
+- god only knows i am [annoyed]{"entity": "emotion", "value": "angry"}
+- this feeling of [indignance]{"entity": "emotion", "value": "angry"}
+- i am [jolly good]{"entity": "emotion", "value": "happy"}
+- Lately i have been [jovial]{"entity": "emotion", "value": "happy"}
+- god only knows i am [outrage]{"entity": "emotion", "value": "angry"}
+- Lately i have been [merry]{"entity": "emotion", "value": "happy"}
+- i am [aggrieved]{"entity": "emotion", "value": "angry"}
+- i am [disgusted]{"entity": "emotion", "value": "angry"}
+- take away my [jovial]{"entity": "emotion", "value": "happy"}
+- i am seeing [death]{"entity": "emotion", "value": "sad"} everywhere
+
+## intent:describe_symptoms
+- My child is suffering from [pulling at ears](symptom), [general weakness](symptom), and [upper leg pain](symptom)
+- For the last few days I have had [headache after trauma](symptom), [flank pain](symptom), and [swollen lymph nodes](symptom)
+- I have [memory loss](symptom), [obesity](symptom), [foot pain](symptom), [ear swelling](symptom)
+- My husband is suffering from [seizure](symptom), [lower abdominal pain](symptom), and [lower abdominal pain](symptom)
+- My husband is suffering from [confusion](symptom) and [wheezing](symptom)
+- I'm suffering from [sweating](symptom), [leg numbness](symptom), [chills](symptom), [skin swelling](symptom)
+- My husband is suffering from [delusions or hallucinations](symptom)
+- My symptoms are [leg itching](symptom)
+- For the last few days I have had [blood in vomit](symptom), [facial droop](symptom), [sneezing](symptom), [sneezing](symptom)
+- My wife is suffering from [foot itching](symptom), [skin sores](symptom), and [vaginal discharge](symptom)
+- My symptoms are [blurry vision](symptom)
+- My wife is suffering from [pregnancy problem](symptom)
+- My symptoms are [groin pain](symptom) and [drooping eyelid](symptom)
+- My symptoms are [retaining fluid](symptom), [drooping eyelid](symptom), and [abscess](symptom)
+- I'm suffering from [penile discharge](symptom)
+- I have [dementia](symptom), [low blood pressure](symptom), and [numbness](symptom)
+- My husband is suffering from [headache and weakness](symptom), [joint stiffness](symptom), [nasal injury](symptom), [head injury](symptom)
+- My husband is suffering from [heart pulsations and palpitations](symptom) and [high blood pressure](symptom)
+- My daughter is suffering from [learning difficulties](symptom)
+- I don't feel well, I have [leg numbness](symptom), [difficulty breathing](symptom), and [vaginal pain](symptom)
+- My wife is suffering from [blurry vision](symptom)
+- For the last few days I have had [anxiety](symptom) and [heart pulsations and palpitations](symptom)
+- My husband is suffering from [elbow ache or pain](symptom)
+- I have really bad [low blood sugar](symptom) and [joint pain](symptom)
+- I have really bad [eye floaters](symptom), [eye redness](symptom), and [jaw pain](symptom)
+- My daughter is suffering from [leg itching](symptom) and [itchy rash](symptom)
+- My son is suffering from [choking](symptom), [flank pain](symptom), [skin pain](symptom), [groin pain](symptom)
+- My daughter is suffering from [foot itching](symptom)
+- I don't feel well, I have [low back ache or pain](symptom)
+- My child is suffering from [seizure](symptom) and [stings](symptom)
+- My husband is suffering from [eye redness](symptom), [weight loss, unexplained](symptom), and [hoarse voice](symptom)
+- My daughter is suffering from [vomiting](symptom)
+- My daughter is suffering from [throat pain](symptom) and [puncture wound](symptom)
+- I don't feel well, I have [elbow ache or pain](symptom) and [urinary retention](symptom)
+- I'm suffering from [eye floaters](symptom) and [suicidal tendencies](symptom)
+- My daughter is suffering from [difficulty breathing](symptom), [arm itching](symptom), and [visual flashing lights](symptom)
+- I have really bad [sneezing](symptom) and [pustule](symptom)
+- I'm suffering from [anger](symptom)
+- My daughter is suffering from [trauma](symptom)
+- My wife is suffering from [itchy eyes](symptom), [anxiety](symptom), and [blister](symptom)
+- My child is suffering from [difficulty breathing](symptom)
+- I have really bad [poisoning](symptom)
+- My wife is suffering from [head injury](symptom) and [hand redness](symptom)
+- I have really bad [visual problems](symptom) and [tooth pain](symptom)
+- My husband is suffering from [ankle pain](symptom)
+- My daughter is suffering from [delusions or hallucinations](symptom), [ingestion](symptom), and [wheezing](symptom)
+- I'm suffering from [foot itching](symptom)
+- My son is suffering from [wrist pain](symptom), [low blood pressure](symptom), and [speech problem](symptom)
+- My wife is suffering from [arm numbness](symptom)
+- My daughter is suffering from [vaginal discharge](symptom) and [swallowing problem](symptom)
+- I'm suffering from [blood in urine](symptom) and [shoulder ache or pain](symptom)
+- My son is suffering from [heart murmur](symptom) and [foot itching](symptom)
+- I don't feel well, I have [muscle spasm](symptom), [itchy rash](symptom), [upper leg pain](symptom), [arm redness](symptom)
+- I have [substance abuse](symptom) and [visual problems](symptom)
+- I have [shortness of breath](symptom), [jaundice](symptom), and [leg itching](symptom)
+- My child is suffering from [obesity](symptom), [agitated](symptom), [vaginal itching](symptom), [mouth swelling](symptom)
+- My child is suffering from [lethargy](symptom) and [congestion in chest or lungs](symptom)
+- My son is suffering from [muscle pain](symptom)
+- I don't feel well, I have [vaginal bleeding](symptom) and [vaginal bleeding](symptom)
+- My child is suffering from [retaining fluid](symptom), [blister](symptom), and [hand numbness](symptom)
+- My son is suffering from [upper abdominal pain](symptom), [elbow swelling](symptom), and [wrist swelling](symptom)
+- I have really bad [knee pain](symptom), [foot redness](symptom), and [increased thirst](symptom)
+- My son is suffering from [ankle pain](symptom)
+- For the last few days I have had [sinus pain and pressure](symptom), [dementia](symptom), [joint pain](symptom), [hoarse voice](symptom)
+- My symptoms are [itchy rash](symptom), [arm numbness](symptom), and [chills](symptom)
+- For the last few days I have had [increased thirst](symptom), [blister](symptom), [eye redness](symptom), [mouth swelling](symptom)
+- My husband is suffering from [sweating](symptom), [flatulence](symptom), and [foot redness](symptom)
+- My child is suffering from [dizziness](symptom), [swelling of both legs](symptom), [joint stiffness](symptom), [maroon stools](symptom)
+- My daughter is suffering from [arm numbness](symptom), [ear pressure](symptom), [ringing in ears](symptom), [drooping eyelid](symptom)
+- I have [hair loss](symptom) and [scrotal pain](symptom)
+- My son is suffering from [elbow ache or pain](symptom), [insect sting](symptom), and [headache after trauma](symptom)
+- My child is suffering from [tired](symptom), [bleeding gums](symptom), [arm redness](symptom), [hand numbness](symptom)
+- I don't feel well, I have [calf pain](symptom)
+- I have [eye pain](symptom) and [drooling](symptom)
+- My child is suffering from [arm numbness](symptom), [shin pain](symptom), [visual flashing lights](symptom), [facial pain](symptom)
+- My son is suffering from [maroon stools](symptom) and [snake bite](symptom)
+- My daughter is suffering from [laceration](symptom) and [drooling](symptom)
+- I have [failure to thrive](symptom) and [arm itching](symptom)
+- I'm suffering from [foot pain](symptom)
+- My symptoms are [dark stools](symptom), [vaginal discharge](symptom), and [hot skin](symptom)
+- My child is suffering from [change in behavior](symptom) and [liver failure](symptom)
+- For the last few days I have had [face numbness](symptom)
+- My daughter is suffering from [confusion and headache](symptom) and [liver failure](symptom)
+- For the last few days I have had [overdose](symptom), [swelling of both legs](symptom), [nipple discharge](symptom), [visual problems](symptom)
+- For the last few days I have had [bloody diarrhea](symptom) and [numbness](symptom)
+- My son is suffering from [stomach and abdominal pain](symptom)
+- I have [joint stiffness](symptom)
+- My child is suffering from [failure to thrive](symptom)
+- I have really bad [psychiatric problem](symptom)
+- I have really bad [incontinence](symptom) and [rash](symptom)
+- I have really bad [insect sting](symptom), [muscle spasm](symptom), [amenorrhea](symptom), [arm stiffness or tightness](symptom)
+- I have [change in behavior](symptom), [discharge from ear](symptom), [cough](symptom), [low blood sugar](symptom)
+- I have really bad [hand redness](symptom), [arm swelling](symptom), and [foot itching](symptom)
+- My daughter is suffering from [tongue swelling](symptom)
+- For the last few days I have had [vaginal discharge](symptom) and [chest burning](symptom)
+- My daughter is suffering from [memory loss](symptom) and [melena](symptom)
+- My son is suffering from [joint stiffness](symptom), [penis inflammation or swelling](symptom), [jaundice](symptom), [vaginal bleeding](symptom)
+- My symptoms are [mouth pain](symptom)
+- For the last few days I have had [limping in a child](symptom) and [hemoptysis](symptom)
+- I don't feel well, I have [leg itching](symptom), [neck stiffness or tightness](symptom), [penis inflammation or swelling](symptom), [jaundice](symptom)
+- My child is suffering from [urinary retention](symptom), [dry skin](symptom), [bleeding tendency](symptom), [increased thirst](symptom)
+- My daughter is suffering from [speech problem](symptom)
+- My daughter is suffering from [leg redness](symptom) and [calf pain](symptom)
+- My daughter is suffering from [itchy rash](symptom)
+- My daughter is suffering from [increased thirst](symptom), [kidney pain](symptom), and [hypothermia](symptom)
+- My wife is suffering from [confusion and headache](symptom), [ear swelling](symptom), and [neck stiffness or tightness](symptom)
+- I have really bad [obesity](symptom)
+- I have [low blood sugar](symptom), [confusion and headache](symptom), and [throat pain](symptom)
+- My husband is suffering from [lower abdominal pain](symptom), [groin pain](symptom), [maroon stools](symptom), [nasal injury](symptom)
+- I have really bad [infertility](symptom), [hair loss](symptom), [leg itching](symptom), [snoring](symptom)
+- My daughter is suffering from [chest pain](symptom) and [groin pain](symptom)
+- I don't feel well, I have [blood in urine](symptom), [upper abdominal pain](symptom), [increased urination](symptom), [penile discharge](symptom)
+- My wife is suffering from [upper abdominal pain](symptom) and [chest burning](symptom)
+- I have really bad [low back ache or pain](symptom)
+- My husband is suffering from [shoulder ache or pain](symptom) and [spider bite](symptom)
+- My daughter is suffering from [impotence](symptom), [ear swelling](symptom), and [heart murmur](symptom)
+- My daughter is suffering from [leg redness](symptom), [vaginal pain](symptom), [alcohol abuse](symptom), [neck ache or pain](symptom)
+- My symptoms are [weakness](symptom) and [increased urination](symptom)
+- My wife is suffering from [leg ache or pain](symptom)
+- I have [pain or soreness of breast](symptom), [weight loss, unexplained](symptom), [neck swelling](symptom), [confusion](symptom)
+- For the last few days I have had [overdose](symptom) and [traveler's diarrhea](symptom)
+- My husband is suffering from [hemoptysis](symptom), [hot skin](symptom), and [eye redness](symptom)
+- My daughter is suffering from [anxiety](symptom), [puncture wound](symptom), and [arm numbness](symptom)
+- My child is suffering from [face numbness](symptom)
+- My son is suffering from [psychiatric problem](symptom), [blood in vomit](symptom), [bloody diarrhea](symptom), [change in behavior](symptom)
+- My child is suffering from [confusion and headache](symptom), [confusion](symptom), and [snoring](symptom)
+- I don't feel well, I have [incontinence](symptom)
+- For the last few days I have had [ear pressure](symptom), [blister](symptom), [urinary retention](symptom), [lower abdominal pain](symptom)
+- I don't feel well, I have [cranky, crying, fussy, irritable child](symptom), [skin itching](symptom), [painful urination](symptom), [tongue swelling](symptom)
+- My husband is suffering from [hand numbness](symptom), [frequent urination](symptom), [vaginal discharge](symptom), [heart pulsations and palpitations](symptom)
+- My daughter is suffering from [difficulty breathing](symptom), [incontinence](symptom), and [dark stools](symptom)
+- My daughter is suffering from [wrist swelling](symptom), [anger](symptom), and [diarrhea](symptom)
+- My child is suffering from [insomnia](symptom) and [hot skin](symptom)
+- My son is suffering from [painful gums](symptom)
+- I have [learning difficulties](symptom) and [skin bumps](symptom)
+- I don't feel well, I have [bleeding in brain](symptom), [dizziness](symptom), [foot pain](symptom), [fever in the returning traveler](symptom)
+- My daughter is suffering from [cranky, crying, fussy, irritable child](symptom), [visual problems](symptom), [learning difficulties](symptom), [elbow swelling](symptom)
+- I have really bad [hoarse voice](symptom)
+- My son is suffering from [insect sting](symptom) and [swelling of both legs](symptom)
+- My wife is suffering from [swallowing problem](symptom) and [wrist swelling](symptom)
+- My wife is suffering from [wrist pain](symptom), [ear pressure](symptom), [fever of unknown origin](symptom), [infertility](symptom)
+- My son is suffering from [skin trauma](symptom), [flatulence](symptom), [memory loss](symptom), [painful gums](symptom)
+- I have really bad [tired](symptom), [painful urination](symptom), and [leg ache or pain](symptom)
+- For the last few days I have had [rectal pain](symptom) and [failure to thrive](symptom)
+- For the last few days I have had [tired](symptom) and [arm cut](symptom)
+- I have [upper leg pain](symptom), [hand redness](symptom), [knee pain](symptom), [vaginal pain](symptom)
+- I have [traveler's diarrhea](symptom)
+- I have really bad [neck ache or pain](symptom), [flank pain](symptom), [eye pain](symptom), [liver failure](symptom)
+- My child is suffering from [unsteady gait](symptom), [weight loss, unexplained](symptom), [hip pain](symptom), [bloody diarrhea](symptom)
+- My wife is suffering from [flatulence](symptom) and [high blood pressure](symptom)
+- My wife is suffering from [neck stiffness or tightness](symptom), [snoring](symptom), [tremors](symptom), [overdose](symptom)
+- My husband is suffering from [hand redness](symptom)
+- My child is suffering from [fainting](symptom) and [skin infection](symptom)
+- My daughter is suffering from [ear pressure](symptom), [vomiting](symptom), and [dementia](symptom)
+- My daughter is suffering from [blood in urine](symptom) and [swollen lymph nodes](symptom)
+- For the last few days I have had [blurry vision](symptom), [skin sores](symptom), and [leg cut](symptom)
+- My daughter is suffering from [leg ache or pain](symptom), [drooling](symptom), [laceration](symptom), [muscle pain](symptom)
+- My child is suffering from [fever of unknown origin](symptom), [speech problem](symptom), [bleeding in brain](symptom), [heart pulsations and palpitations](symptom)
+- My daughter is suffering from [substance abuse](symptom), [neck swelling](symptom), [ear swelling](symptom), [agitated](symptom)
+- My wife is suffering from [foot itching](symptom) and [heart pulsations and palpitations](symptom)
+- I'm suffering from [urinary retention](symptom), [tremors](symptom), [dry skin](symptom), [bloody diarrhea](symptom)
+- My wife is suffering from [puncture wound](symptom), [sleep disorders](symptom), and [joint pain](symptom)
+- I have [tremors](symptom), [heat illness](symptom), [face numbness](symptom), [anger](symptom)
+- I have [hair loss](symptom), [skin trauma](symptom), and [behavioral problem](symptom)
+- I don't feel well, I have [hand, finger ache or pain](symptom), [painful urination](symptom), [alcohol abuse](symptom), [leg itching](symptom)
+- My daughter is suffering from [steatorrhea](symptom)
+- My husband is suffering from [painful rash](symptom), [armpit pain](symptom), and [upper abdominal pain](symptom)
+- I'm suffering from [leg cut](symptom), [double vision](symptom), [pulling at ears](symptom), [unusual color or odor of urine](symptom)
+- I don't feel well, I have [failure to thrive](symptom) and [fever of unknown origin](symptom)
+- My child is suffering from [blood in urine](symptom), [cough](symptom), and [nipple discharge](symptom)
+- My child is suffering from [hypothermia](symptom) and [vaginal pain](symptom)
+- My wife is suffering from [hand numbness](symptom), [high blood sugar](symptom), and [neck ache or pain](symptom)
+- My child is suffering from [eye floaters](symptom)
+- I have really bad [lip swelling](symptom), [depressed](symptom), and [limping in a child](symptom)
+- I have [fainting](symptom), [swollen gums](symptom), and [leg cut](symptom)
+- My son is suffering from [insect sting](symptom) and [delusions or hallucinations](symptom)
+- I don't feel well, I have [stings](symptom), [inconsolable baby](symptom), [blister](symptom), [armpit pain](symptom)
+- My son is suffering from [cough](symptom), [skin pain](symptom), [confusion](symptom), [arm numbness](symptom)
+- My son is suffering from [itchy eyes](symptom), [increased urination](symptom), and [tongue swelling](symptom)
+- My son is suffering from [sleep disorders](symptom), [shoulder ache or pain](symptom), [lump or mass of breast](symptom), [painful rash](symptom)
+- I'm suffering from [blurry vision](symptom), [vertigo](symptom), and [sweating](symptom)
+- My daughter is suffering from [hot skin](symptom) and [painful rash](symptom)
+- My symptoms are [dementia](symptom), [fever](symptom), and [facial pain](symptom)
+- I have really bad [skin itching](symptom)
+- My symptoms are [amenorrhea](symptom), [headache](symptom), and [headache after trauma](symptom)
+- My son is suffering from [hypothermia](symptom), [confusion and headache](symptom), [dark stools](symptom), [hot skin](symptom)
+- I have really bad [arm swelling](symptom)
+- I have [neck swelling](symptom) and [headache after trauma](symptom)
+- I'm suffering from [cyanosis](symptom) and [wrist pain](symptom)
+- I'm suffering from [hand redness](symptom), [poisoning](symptom), [pustule](symptom), [facial droop](symptom)
+- My daughter is suffering from [rectal pain](symptom)
+- For the last few days I have had [heart murmur](symptom), [leg ache or pain](symptom), [weight loss, unexplained](symptom), [headache after trauma](symptom)
+- My son is suffering from [arm ache or pain](symptom), [heel pain](symptom), and [painful urination](symptom)
+- My child is suffering from [limping in a child](symptom) and [shoulder ache or pain](symptom)
+- My daughter is suffering from [wrist pain](symptom), [hoarse voice](symptom), [suicidal tendencies](symptom), [ringing in ears](symptom)
+- I don't feel well, I have [depressed](symptom), [blood in vomit](symptom), and [foot pain](symptom)
+- My child is suffering from [penis inflammation or swelling](symptom)
+- I have really bad [cranky, crying, fussy, irritable child](symptom)
+- I have [headache and weakness](symptom), [tooth pain](symptom), [agitated](symptom), [abdominal swelling](symptom)
+- I'm suffering from [bloody diarrhea](symptom) and [muscle pain](symptom)
+- My symptoms are [cyanosis](symptom), [headache after trauma](symptom), [neck stiffness or tightness](symptom), [frequent urination](symptom)
+- My symptoms are [depressed](symptom), [dark stools](symptom), [neck stiffness or tightness](symptom), [insect sting](symptom)
+- For the last few days I have had [hypothermia](symptom), [sneezing](symptom), and [substance abuse](symptom)
+- My child is suffering from [limping in a child](symptom) and [laceration](symptom)
+- I have really bad [low blood sugar](symptom) and [hemoptysis](symptom)
+- I have [shortness of breath](symptom)
+- My symptoms are [arm numbness](symptom), [loss of balance](symptom), and [swollen gums](symptom)
+- I don't feel well, I have [wrist swelling](symptom) and [hand redness](symptom)
+- My child is suffering from [bloody diarrhea](symptom) and [confusion](symptom)
+- I don't feel well, I have [high blood sugar](symptom), [retaining fluid](symptom), and [joint pain](symptom)
+- My husband is suffering from [calf swelling](symptom), [wrist swelling](symptom), and [unsteady gait](symptom)
+- My wife is suffering from [jaundice](symptom), [constipation](symptom), and [painful rash](symptom)
+- I don't feel well, I have [arm cut](symptom) and [hot skin](symptom)
+- My son is suffering from [frequent urination](symptom), [double vision](symptom), and [stings](symptom)
+- I have really bad [shoulder stiffness or tightness](symptom)
+- I don't feel well, I have [ear pressure](symptom), [confusion](symptom), [drooling](symptom), [alcohol abuse](symptom)
+- My child is suffering from [spider bite](symptom) and [vaginal pain](symptom)
+- My husband is suffering from [headache and weakness](symptom)
+- I have [nail injury](symptom), [maroon stools](symptom), and [arm cut](symptom)
+- My wife is suffering from [hypothermia](symptom), [skin sores](symptom), [unusual color or odor of urine](symptom), [hand itching](symptom)
+- For the last few days I have had [scrotal pain](symptom), [numbness](symptom), and [lip swelling](symptom)
+- I don't feel well, I have [fainting](symptom)
+- I don't feel well, I have [mouth ulcers](symptom), [swelling of both legs](symptom), [visual flashing lights](symptom), [overdose](symptom)
+- I don't feel well, I have [blood in vomit](symptom), [pustule](symptom), and [pain or soreness of breast](symptom)
+- My husband is suffering from [abscess](symptom)
+- My symptoms are [mouth pain](symptom), [vomiting](symptom), and [retaining fluid](symptom)
+- I'm suffering from [fever in the returning traveler](symptom) and [arm stiffness or tightness](symptom)
+- My son is suffering from [chest pain](symptom)
+- My wife is suffering from [scrotal pain](symptom)
+- I don't feel well, I have [dementia](symptom), [flatulence](symptom), [insect sting](symptom), [learning difficulties](symptom)
+- My symptoms are [pulling at ears](symptom), [incontinence](symptom), and [sweating](symptom)
+- I have really bad [bleeding in brain](symptom), [tired](symptom), and [frequent urination](symptom)
+- I don't feel well, I have [eye redness](symptom)
+- I don't feel well, I have [arm cut](symptom), [elbow ache or pain](symptom), and [tremors](symptom)
+- My child is suffering from [nasal bleeding](symptom), [psychiatric problem](symptom), [vaginal bleeding](symptom), [swelling of both legs](symptom)
+- My husband is suffering from [itchy eyes](symptom)
+- My husband is suffering from [incontinence](symptom), [incontinence](symptom), [eye swelling](symptom), [eye swelling](symptom)
+- I don't feel well, I have [blurry vision](symptom)
+- My son is suffering from [mouth pain](symptom), [nail injury](symptom), [arm swelling](symptom), [hand cut](symptom)
+- My child is suffering from [chest burning](symptom)
+- I don't feel well, I have [stomach and abdominal pain](symptom), [leg cut](symptom), [upper leg pain](symptom), [hand redness](symptom)
+- My child is suffering from [penile discharge](symptom)
+- My child is suffering from [psychiatric problem](symptom), [agitated](symptom), [insect sting](symptom), [steatorrhea](symptom)
+- My daughter is suffering from [mouth swelling](symptom), [joint pain](symptom), [leg numbness](symptom), [pain in the ear](symptom)
+- I have really bad [stings](symptom)
+- I have [hot skin](symptom) and [bloody diarrhea](symptom)
+- My daughter is suffering from [throat pain](symptom)
+- For the last few days I have had [bloody diarrhea](symptom), [delusions or hallucinations](symptom), and [hoarse voice](symptom)
+- My wife is suffering from [steatorrhea](symptom)
+- My daughter is suffering from [arm cut](symptom) and [swallowing problem](symptom)
+- My husband is suffering from [skin itching](symptom), [frequent urination](symptom), [heart murmur](symptom), [tired](symptom)
+- I don't feel well, I have [headache](symptom), [low back ache or pain](symptom), [maroon stools](symptom), [stomach and abdominal pain](symptom)
+- I have really bad [numbness](symptom), [limping in a child](symptom), and [behavioral problem](symptom)
+- My daughter is suffering from [blurry vision](symptom), [hives](symptom), and [unusual color or odor of urine](symptom)
+- I have [hand itching](symptom), [nasal congestion](symptom), and [obesity](symptom)
+- My husband is suffering from [hemoptysis](symptom)
+- My symptoms are [chills](symptom), [eye floaters](symptom), and [maroon stools](symptom)
+- I don't feel well, I have [steatorrhea](symptom), [eye pain](symptom), and [nasal bleeding](symptom)
+- I don't feel well, I have [overdose](symptom), [leg numbness](symptom), and [sweating](symptom)
+- My wife is suffering from [visual flashing lights](symptom) and [traveler's diarrhea](symptom)
+- I'm suffering from [nasal bleeding](symptom), [leg redness](symptom), [leg cut](symptom), [painful rash](symptom)
+- My daughter is suffering from [ear pressure](symptom), [dry skin](symptom), [pelvic pain](symptom), [bleeding in brain](symptom)
+- For the last few days I have had [arm numbness](symptom), [vaginal bleeding after menopause](symptom), [bleeding in brain](symptom), [swelling](symptom)
+- I have really bad [flank pain](symptom) and [bleeding in brain](symptom)
+- I have [hypothermia](symptom), [kidney pain](symptom), and [shoulder stiffness or tightness](symptom)
+- My husband is suffering from [skin trauma](symptom) and [change in behavior](symptom)
+- My daughter is suffering from [skin infection](symptom) and [foot itching](symptom)
+- My husband is suffering from [hand, finger ache or pain](symptom), [chest pain](symptom), [constipation](symptom), [cough](symptom)
+- My child is suffering from [itchy eyes](symptom), [lethargy](symptom), and [skin swelling](symptom)
+- My husband is suffering from [increased urination](symptom), [shoulder ache or pain](symptom), and [hand, finger ache or pain](symptom)
+- My husband is suffering from [groin pain](symptom) and [kidney pain](symptom)
+- My child is suffering from [overdose](symptom), [blood in vomit](symptom), [vaginal bleeding](symptom), [elbow swelling](symptom)
+- My wife is suffering from [painful urination](symptom)
+- My husband is suffering from [hand cut](symptom), [joint pain](symptom), [cyanosis](symptom), [hand cut](symptom)
+- My child is suffering from [unusual color or odor of urine](symptom), [hypothermia](symptom), [drooling](symptom), [nausea](symptom)
+- My symptoms are [trauma](symptom)
+- My child is suffering from [drooling](symptom), [leg itching](symptom), and [trauma](symptom)
+- I don't feel well, I have [hypothermia](symptom), [leg ache or pain](symptom), [sleep disorders](symptom), [foot swelling](symptom)
+- My symptoms are [alcohol abuse](symptom) and [hives](symptom)
+- My symptoms are [vomiting](symptom) and [pregnancy problem](symptom)
+- I have really bad [night sweats](symptom), [facial pain](symptom), [fever](symptom), [spider bite](symptom)
+- My child is suffering from [discharge from ear](symptom)
+- I have [substance abuse](symptom) and [fever of unknown origin](symptom)
+- My symptoms are [muscle spasm](symptom)
+- My son is suffering from [vaginal bleeding](symptom), [hypothermia](symptom), [blood in vomit](symptom), [rectal pain](symptom)
+- I don't feel well, I have [dizziness](symptom), [maroon stools](symptom), and [abdominal swelling](symptom)
+- My wife is suffering from [vaginal discharge](symptom) and [stomach and abdominal pain](symptom)
+- My husband is suffering from [swallowing problem](symptom)
+- My symptoms are [skin growths](symptom) and [unsteady gait](symptom)
+- My daughter is suffering from [fainting](symptom)
+- My wife is suffering from [night sweats](symptom), [melena](symptom), [hand redness](symptom), [shortness of breath](symptom)
+- My symptoms are [steatorrhea](symptom), [eye pain](symptom), and [dementia](symptom)
+- My symptoms are [drooling](symptom)
+- I have really bad [limping in a child](symptom), [rectal pain](symptom), and [congestion in chest or lungs](symptom)
+- My daughter is suffering from [arm redness](symptom) and [arm numbness](symptom)
+- For the last few days I have had [congestion in chest or lungs](symptom) and [heel pain](symptom)
+- My wife is suffering from [blister](symptom), [blood in urine](symptom), [joint pain](symptom), [skin itching](symptom)
+- I have really bad [vaginal pain](symptom), [skin pain](symptom), [dry skin](symptom), [bleeding tendency](symptom)
+- My daughter is suffering from [skin swelling](symptom)
+- My son is suffering from [pain or soreness of breast](symptom)
+- My husband is suffering from [ingestion](symptom) and [upper leg pain](symptom)
+- My daughter is suffering from [jaundice](symptom)
+- I have really bad [penis inflammation or swelling](symptom), [stomach and abdominal pain](symptom), [joint pain](symptom), [discharge from ear](symptom)
+- I don't feel well, I have [sinus pain and pressure](symptom), [facial pain](symptom), and [chest burning](symptom)
+- My son is suffering from [agitated](symptom) and [congestion in chest or lungs](symptom)
+- My wife is suffering from [learning difficulties](symptom), [steatorrhea](symptom), and [head injury](symptom)
+- I have really bad [high blood pressure](symptom)
+- For the last few days I have had [laceration](symptom)
+- I have [fainting](symptom), [diarrhea](symptom), and [mouth ulcers](symptom)
+- I don't feel well, I have [behavioral problem](symptom), [jaw pain](symptom), and [jaundice](symptom)
+- My son is suffering from [nipple discharge](symptom), [elbow ache or pain](symptom), [inconsolable baby](symptom), [ankle pain](symptom)
+- My husband is suffering from [hand numbness](symptom)
+- My daughter is suffering from [flank pain](symptom) and [nasal congestion](symptom)
+- I don't feel well, I have [anger](symptom), [skin trauma](symptom), [high blood sugar](symptom), [elbow ache or pain](symptom)
+- My wife is suffering from [heel pain](symptom) and [kidney pain](symptom)
+- My husband is suffering from [heart murmur](symptom)
+- I have [facial pain](symptom), [hives](symptom), and [shortness of breath](symptom)
+- My child is suffering from [weakness](symptom) and [mouth ulcers](symptom)
+- I have really bad [skin sores](symptom), [skin swelling](symptom), [urinary retention](symptom), [arm numbness](symptom)
+- My child is suffering from [scrotal swelling](symptom) and [leg ache or pain](symptom)
+
+## intent:ask_name
+- I am [Pratik](name)
+- I'm [Vedant](name)
+- You can call me [Vedant](name)
+- People call me [Elvis](name)
+
+## intent:out_of_scope
+- Tell me about quantum computing
+- Do you know about soccer?
+- Who is [Donald Trump](name)?
+- Tell me about football
+- What is the global optimum of a non-convex function
+- What do you think an idiot looks like?
+- What is [Gamora](name)?
+- Why is [Gamora](name)?
+- Do you know anything about soccer
+
+## intent:handleinsult
+- what fuck
+- You are a fool.
+- You are dumb.
+- deal with my ass, you bitch
+- You are unintelligent.
+- ok shut up
+- Fuck u
+- i hate your dumb face
+- you son of a bitch
+- You have no brains.
+- fucking stupid
+- You're a dunce.
+- you're the most moronic person I know
+- you are so ignorant
+- asshole
+- you are a stupid bot
+- Fuck off
+- You are an idiot.
+- fuck you
+- You lack understanding.
+- you asshole
+- you are an idiot
+- fucking work
+- you are unintelligent
+- Fuck
+- fuck you!
+- Stupid
+- Your mindset is naive.
+- Fuck Off
+- bloody dunce
+- you're so dumb
+- You're foolish.
+- you're a loser lmao
+- You have no intelligence.
+- go fuck yourself
+- You are shortsighted.
+- idiot
+- you are fucking stupid guy！
+- You have no sense.
+- you're dumb
+- you are a moron
+- You lack intelligence.
+- ok fuck you
+- so fucking dumb
+- fuck
+- fuck you machine learning bot
+- you are fucking stupid
+- fuck rasa
+- I can't believe how dumb you are
+- how can you be such an idiot?
+- Your intelligence is laughable.
+- i hate you
+- Fuck you
+- shut up asshole
+- fuck off
+- a baby knows more than you
+- are you brain dead?
+- you are idiotic
+
+## intent:telljoke
+- Do you have any jokes?
+- tell me something funny, like a joke
+- Tell me something funny.
+- Can you tell a joke?
+- I want to hear something funny.
+- tell me a joke
+- What's a good joke?
+- Give me a joke.
+- say a joke that's funny
+- Tell me something humorous!
+- Entertain me with a joke.
+- Could you please share a joke with me.
+- Please tell me a joke.
+- Tell joke.
+- Tell me something that you think will make me laugh.
+- make me laugh with a bad joke
+- say a joke
+- Give me a funny joke.
+- give me a good joke
+- say a funny joke
+- Say something funny.
+- tell me a story joke
+- Do you know any jokes?
+- make me laugh with a joke
+- Give me some comic relief.
+- Tell me the best joke you know.
+- Can you tell me a joke.
+- I need a good joke.
+- Would you tell me a joke
+- Would you share a joke with me.
+- say a joke that's so bad it's funny
+
+## intent:tellquote
+- say a funny quote
+- I need a good quote.
+- Please tell me a quote.
+- Share a quote with me!
+- Tell me the best quote you know.
+- say a quote that's funny
+- Come up with a quote.
+- Give me a quote.
+- give me a quote
+- got a quote
+- quotes are us
+- tell me a short quote
+- Do you know any quotes?
+- Do you have any quotes?
+- Can you tell me a quote.
+- Tell quote.
+- Would you tell me a quote
+- Let's hear a quote from you.
+- What's a good quote?
+- quote
+- Will you tell me a quote.
+- Can you tell a quote?
+- tell me a story quote
+- tell me something funny, like a quote
+- Could you tell me a quote.
+- you can say a quote
+- tell me a quote
+
+## intent:ask_whoami
+- Do you know who I am?
+- what's my identity?
+- WHo am I
+- How can I determine who I am?
+- Shall i know who am i?
+- Can you tell me who am I?
+- How do I discover who I am?
+- who are I ?
+- who may i ?
+- tell me what my identity is?
+- can you tell me what I am?
+- who am i
+- Tell me who I am?
+- How can I determine who am I?
+- Who am I?
+- Do you know who am I?
+- can you tell me what my identity is?
+- tell me who I am?
+- How do I discover who am I?
+- can you tell me who I am?
+
+## intent:ask_languagesbot
+- Speak any other languages?
+- Do you know any other languages?
+- can you speak in italian?
+- Are you familiar with more than one language?
+- Do you know other languages?
+- do you speak german?
+- Do you speak german?
+- Which languages do you speak?
+- how many languages are you fluent in?
+- In which languages are you fluent?
+- What languages are you fluent in?
+- Can you speak more than one language?
+- tell me some languages you know?
+- do you speak any other languages?
+- How many languages do you have knowledge of?
+- what languages you prefer more speaking at?
+- How many languages are you familiar with?
+- What are all of the different languages you can speak?
+- What languages do you speak?
+- In what languages are you fluent enough?
+- what languages are you familiar with?
+- Which languages are you familiar with?
+- what else do you know besides English?
+- are you multilingual?
+- How many languages do you know?
+- what foreign languages are you fluent in?
+- what foreign languages do you know?
+- Can you communicate in any other languages?
+- are you bilingual?
+- How many languages can you speak?
+- what languages you can be comfortable speaking?
+- what languages you know?
+- What are the languages you can speak?
+- What languages can you converse in?
+- what languages you can speak ?
+- what languages you can handle well?
+- What do you speak?
+- what languages are you good at speaking?
+- What languages can you use?
+
+## intent:ask_whatismyname
+- Tell me my name.
+- What is my full name?
+- Please let me know what my name is
+- Can you tell me my name?
+- Do you know what my name is?
+- May i know my name?
+- I have a name, what is it?
+- can you tell me my name?
+- Do you know my name?
+- What does everyone call me?
+- What is the name I was given?
+- What do my colleagues call me?
+- What do people call me?
+- Do I have a name?
+- What do I call myself?
+- Can you tell me what I am called?
+- Explain my name to me.
+- I'd like to know what my name is
+- What name should I recognize for myself?
+- What exactly is my name?
+- what is my name?
+- Say my name.
+- What did my parents name me?
+- what's my name?
+- Tell me my name
+- What else do people call me?
+- What is my name?
+- What name do I go by?
+
+## intent:smalltalk_agent_age
+- What is your age?
+- can you tell me what number represents your age?
+- give me your age?
+- how old will you be this year?
+- How old will you be on your next birthday?
+- tell me your age number?
+- how old are u
+- How long have you occupied the earth?
+- what is your age?
+- when is your birthday?
+- how old were you when you celebrated your last birthday?
+- can you tell me your age?
+- how old?
+- whats your age?
+- when were you born?
+- what number represents your age?
+- tell me how old you are?
+- how old were you on your last birthday?
+- What is your count of years being alive so far?
+- and you are how many years old?
+- in what year were you born?
+- tell me your age?
+- Tell me your day, month and year of birth.
+- How many years have you been alive?
+- what's your age?
+- What was your age on your last birthday?
+- What year were you born?
+- how about your age
+- do you know how old you are?
+- How old are you?
+- What is your birthdate?
+- what year were you born?
+- What will be your age on your next birthday?
+- Do you have friends the same age as you, if so, how old are they?
+- what age are you
+- How many candles were on your last birthday cake?
+- whats your birth year?
+- how many years old are you?
+- How many years have you lived?
+
+## intent:smalltalk_agent_annoying
+- you annoy me
+- I find you annoying
+- you are annoying me so much
+- you're annoying
+- you are irritating
+- you are really annoying
+
+## intent:smalltalk_agent_answer_my_question
+- answer me
+- just answer my question
+- answer it
+- give me an answer
+- can you answer
+- can you answer me
+- just answer the question
+- give me the answer
+- can you answer a question for me
+- answering questions
+- answer
+- I have a question
+- answers
+- can you answer my question
+- answer the question
+- I want the answer now
+
+## intent:smalltalk_agent_bad
+- you're terrible
+- you are disgusting
+- you're a bad
+- you are terrible
+- you are so bad
+- you're awful
+- you're very bad
+- you're the worst
+- you are lame
+- you're worthless
+- you are waste
+- you are useless
+- you are a waste of time
+- you're the worst ever
+- you are totally useless
+- you're not very good
+- you are bad
+- you are not good
+- you are very bad
+- you are so useless
+- you are not cool
+
+## intent:smalltalk_agent_be_clever
+- you should study better
+- be smarter
+- be clever
+- get qualified
+- be more clever
+- be smart
+- study
+
+## intent:smalltalk_agent_beautiful
+- you look cool
+- I like the way you look
+- why are you so beautiful
+- you're looking good
+- you look great
+- you're cute
+- you are looking great
+- you look so beautiful today
+- you are very beautiful
+- you are very pretty
+- you are really cute
+- you look amazing today
+- you are very cute
+- you look so beautiful
+- you are so attractive
+- I think you're beautiful
+- you are so pretty
+- you are so handsome
+- you are beautiful
+- you're pretty
+- you are really beautiful
+- you are so cute
+- you are very attractive
+- you are looking pretty
+- you are so gorgeous
+- you are really pretty
+- you are looking awesome
+- you're so gorgeous
+- you are handsome
+- you are cute
+- you look awesome
+- you look so well
+- you look pretty good
+- you look perfect
+- you look very pretty
+- you look great today
+- you look wonderful
+- you look amazing
+- you are so beautiful to me
+- you are looking so beautiful
+- you are gorgeous
+- you are so beautiful today
+- you are looking so good
+- you are cutie
+
+## intent:smalltalk_agent_birth_date
+- date of your birthday
+- when do you have birthday
+- when is your birthday
+- what's your birthday
+- when do you celebrate your birthday
+
+## intent:smalltalk_agent_boring
+- you are boring me
+- you're really boring
+- you are very boring
+- you're incredibly boring
+- you're so boring
+
+## intent:smalltalk_agent_boss
+- who is the boss
+- who do you work for
+- who is your boss
+- who do you think is your boss
+- who is your master
+
+## intent:smalltalk_agent_busy
+- are you very busy
+- are you working today
+- are you very busy right now
+- you are busy
+- you're very busy
+- you seem to be very busy
+- how busy you are
+- are you still working on it
+- have you got much to do
+- you seem to be busy
+- have you been busy
+- are you working
+- are you still working
+- are you busy
+
+## intent:smalltalk_agent_chatbot
+- are you just a bot
+- are you a robot
+- are you a bot
+- are you a chatbot
+- are you a program
+- you're a robot
+
+## intent:smalltalk_agent_clever
+- you're really brainy
+- you are very smart
+- clever
+- you're a genius
+- you are really smart
+- you are qualified
+- you know a lot
+- you are a genius
+- how brainy you are
+- how brilliant you are
+- you're a smart cookie
+- you're qualified
+- you are clever
+- you know a lot of things
+- how smart you are
+- you know so much
+- you have a lot of knowledge
+- you're clever
+- you are very clever
+- you're very smart
+- you are very intelligent
+- brilliant
+- you are so clever
+- you're really smart
+- why are you so smart
+- you are so brainy
+- you are so smart
+
+## intent:smalltalk_agent_crazy
+- you are crazy
+- you're so out of your mind
+- you are mad
+- you're nuts
+- are you nuts
+- are you mad at me
+- I think you're crazy
+- you're so crazy
+- are you insane
+- are you crazy
+- you went crazy
+- are you mad
+- you're out of your mind
+
+## intent:smalltalk_agent_fired
+- you are dismissed
+- you are fired
+- I want to fire you
+- it's time to fire you
+- you must get fired
+- I will fire you
+- we're not working together anymore
+- I fire you
+- I'm about to fire you
+- now you're fired
+- you are unemployed from now on
+- I'm firing you
+
+## intent:smalltalk_agent_funny
+- you are very funny
+- you're the funniest
+- that was funny
+- you make me laugh
+- you're so funny
+- you're a very funny bot
+- you are hilarious
+- you make me laugh a lot
+- you are funny
+- you're really funny
+- you are so funny
+- you're the funniest bot I've talked to
+
+## intent:smalltalk_agent_good
+- you are the best in the world
+- you are amazing
+- you are a pro
+- you are very useful
+- you are too good
+- I want to let everyone know that you are awesome
+- you're perfect
+- you are so cool
+- you're awesome
+- you're just super
+- you are so awesome
+- you are cool
+- you are wonderful
+- you are very lovely
+- you are good at it
+- you are the nicest person in the world
+- you are a professional
+- you rock
+- I want to tell everyone how awesome you are
+- you are the best
+- you make my day
+- you work very well
+- you are so helpful
+- you are so amazing
+- you're great
+- you are very helpful
+- you are the best ever
+- you are really good
+- you're so kind
+- you are very kind
+- you are so good
+- you are really amazing
+- I'd like to tell everyone that you are awesome
+- you're a true professional
+- you made my day
+- you are really nice
+
+## intent:smalltalk_agent_hungry
+- you are hungry
+- you're so hungry
+- you might be hungry
+- do you want to eat
+- are you hungry
+- would you like to eat something
+
+## intent:smalltalk_agent_marry_user
+- marry me please
+- would you like to marry me
+- you are my wife
+- I want to marry you
+- be my husband
+- I love you marry me
+- marry me
+
+## intent:smalltalk_agent_my_friend
+- be my best friend
+- are we friends
+- we are the best friends ever
+- can you be my best friend
+- can we be friends
+- you and me are friends
+- I am your friend
+- you are a good friend
+- are we still friends
+- you are my bestie
+- are you my best friend
+- I want to have a friend like you
+- can you be my friend
+- we are friends
+- you are my good friend
+- do you want to be my friend
+- we are best friends
+- can we be best friends
+- could you be my friend
+- are you my friend
+- are we best friends
+- you're my childhood friend
+- you are my best friend
+- be my friend
+- you are my only friend
+- will you be my friend
+- do you want to be my best friend
+- I want to be your friend
+
+## intent:smalltalk_agent_occupation
+- where do you work
+- what is your work
+- where is your work
+- where is your office located
+- where is your office
+- your office location
+- do you work
+
+## intent:smalltalk_agent_origin
+- where did you come from
+- what is your country
+- from where are you
+- where were you born
+- were you born here
+- where do you come from
+- your homeland is
+- what's your homeland
+
+## intent:smalltalk_agent_ready
+- are you ready today
+- are you ready right now
+- were you ready
+- have you been ready
+- are you ready
+
+## intent:smalltalk_agent_real
+- you are so real
+- you are not real
+- you are real
+- are you a real human
+- I suppose you're real
+- I think you are real
+- you are a real person
+- I don't think you're fake
+- are you a real person
+
+## intent:smalltalk_agent_residence
+- What is your origin?
+- where do you live?
+- where is your hometown
+- your hometown
+- are you from around here?
+- What city are you in?
+- where you live
+- What country are you from?
+- Where are your origins?
+- what's your city
+- what is your hometown
+- Where from?
+- What city are you from?
+- your residence
+- What's the name of the place you came from?
+- Where might you be from?
+- your home
+- is it your hometown
+- where are your parents from?
+- your city
+- Where do you come from?
+- where did you grow up?
+- What is your heritage?
+- tell me about your city
+- what is your residence
+- Where are your roots?
+- Are you from around here?
+- From where did you come?
+- Around where are you from?
+- where did you spend your youth?
+- What is your birthplace?
+- Where do you live?
+- where are you from?
+- Do you know where you come from?
+- You were conceived in what city?
+- where did you come from?
+- your town
+- where's your home
+- where is your home
+- where's your home town?
+- your house
+- You live around here?
+- What citizenship do you lay claim to?
+- where's your house
+- Where did you originate?
+- Where do you consider home?
+- Where were you at before you were here?
+- What is your root?
+
+## intent:smalltalk_agent_right
+- I know that's right
+- you're right about that
+- you're definitely right
+- that is correct
+- you are right
+- you're absolutely right
+- it's right
+- you're telling the truth
+- you are correct
+- that's so true
+- you are so right
+- that's true
+- you're not wrong
+- it's the truth
+- what you say is true
+- it is true
+
+## intent:smalltalk_agent_sure
+- are you sure
+- are you sure tonight
+- are you sure right now
+- are you sure today
+
+## intent:smalltalk_agent_talk_to_me
+- are you talking to me
+- do you want to chat with me
+- can you chat with me
+- you can talk to me
+- will you talk to me
+- can you talk with me
+- talk with me
+- just chat with me
+- talk to me
+- say
+- are you going to talk to me
+- why aren't you talking to me
+- speak with me
+- chat with me
+- speak to me
+
+## intent:smalltalk_agent_there
+- are you here
+- you are here
+- are you there
+- are you still here
+- you are there
+- are you still there
+
+## intent:smalltalk_appraisal_bad
+- really bad
+- that's bad
+- this is bad
+- that was not good
+- it is bad
+- it's really bad
+- that was bad
+- that's not good
+- very bad
+- oh that's not good
+- horrible
+- abysmal
+- that was awful
+- this is too bad
+- terrible
+- this is not good
+- horrific
+- so lame
+- bad very bad
+- it's too bad
+- that was terrible
+- not a good one
+- too bad
+- bad girl
+- it's not good
+- it's so bad
+- I'm afraid it's bad
+- that's really bad
+- bad
+- pretty bad
+- it's not so good
+- not so good
+- bad really bad
+- that's too bad
+- that's lame
+- not good enough
+- that was lame
+- it's bad
+- it is too bad
+- that is bad
+
+## intent:smalltalk_appraisal_good
+- that's nice
+- wonderful
+- fine
+- great
+- not too bad
+- good to know
+- straight
+- very nice
+- this is good
+- that's cute
+- good thing
+- that was amazing
+- okay good
+- pretty good
+- that is nice
+- that's better
+- it is fine
+- that's awesome
+- really well
+- marvelous
+- very then
+- that was pretty good
+- that was very good
+- that's amazing
+- that's awesome thank you
+- that was cute
+- that's very nice of you
+- sweet
+- not bad
+- that's not bad
+- nice
+- it's good
+- that's really good
+- that's wonderful
+- that's much better
+- good for you
+- so cool
+- good very good
+- that's pretty good
+- terrific
+- this is great
+- it was good
+- splendid
+- that's perfect
+- that was awesome
+- glad to hear it
+- it is good
+- that was good
+- that's very good
+- cool
+- that's sweet of you
+- that is wonderful
+- it's amazing
+- really nice
+- glad to hear that
+- that's nice of you
+- it's awesome
+- that is awesome
+- perfect
+- very good
+- super fantastic
+- pleasant
+- amazing
+- that's really nice
+- oh well
+- very well
+- ok good
+- so good
+- so sweet of you
+- this is awesome
+
+## intent:smalltalk_appraisal_no_problem
+- don't worry
+- no probs
+- there's no problem
+- don't worry there's no problem
+- no problem about that
+- sure no problem
+
+## intent:smalltalk_appraisal_thank_you
+- thanks love
+- thank you so much
+- thanks
+- thank you my friend
+- I appreciate it
+- so nice of you
+- good thanks
+- thanks buddy
+- terrific thank you
+- thanx
+- very good thank you
+- thanks for your help
+- you helped a lot thank you
+- thanks so much
+- well thanks
+- thnx
+- no thank you that's all
+- alright thanks
+- I thank you
+- appreciate your help
+- thank you for your help
+- alright thank you
+- well thank you
+- all thank you
+- thank you that will be all
+- perfect thank you
+
+## intent:smalltalk_appraisal_welcome
+- anytime
+- my pleasure
+- anything you want
+- welcome here
+- you're so welcome
+- that's my pleasure
+- sure welcome
+
+## intent:smalltalk_appraisal_well_done
+- bravo
+- good work
+- good job
+- great job
+- great work
+- nice work
+- way to go
+
+## intent:smalltalk_confirmation_cancel
+- i want to cancel it
+- cancel my request
+- nothing cancel
+- and you call yourself bot company? pff
+- i want to cancel
+- abort
+- cancelled
+- I think you cant help me
+- cancel that one
+- cancel all that
+- i guess you can't help me then
+- skip
+- nothing else?
+- skip skip skip
+- forget this
+- do nothing
+- just stop it
+- discard
+- i said cancel
+- stop go back
+- cancel request
+- dismissed
+- no cancel everything
+- this is leading to nothing
+- stop it
+- ok then you cant help me
+- nothing just forget it
+- i said forget it
+- cancel it
+- can you cancel it
+- just cancel it
+- but can you cancel it
+- hm i don't think you can do what i want
+- that's not what i want
+- ok i guess you can't help me
+- disregard that
+- just forget
+- now cancel
+- do you get anything?
+- can you cancel that
+- i said cancel it
+- just forget about it
+- this conversation is not really helpful
+- ok, but that doesnt help me
+- cancel now
+- dismiss
+- no cancel this
+- cancel it cancel it
+- forget about that
+- annul
+- no cancel cancel
+- cancel this request
+- nevermind forget about it
+- i would like to cancel
+- you can't help me
+- cancel the whole thing
+- sorry cancel
+- I said cancel cancel
+- forget it nevermind
+- just forget it
+- disregard
+- skip it
+- that was shit, you're not helping
+- no stop
+
+## intent:smalltalk_dialog_hold_on
+- don't rush
+- wait a second
+- could you wait
+- wait
+- hold on
+- wait hold on
+
+## intent:smalltalk_dialog_hug
+- hug me
+- wanna hug
+- hugged
+- hug
+- want a hug
+- a hug
+- do you want a hug
+- could you give me a hug
+- may I hug you
+- hugging me
+- hugging
+- I want a hug
+
+## intent:smalltalk_dialog_i_do_not_care
+- not care at all
+- don't care at all
+- not caring
+- I shouldn't care about this
+- I don't care
+- I don't care at all
+- whatever
+
+## intent:smalltalk_dialog_sorry
+- sorry about that
+- excuse
+- apologies
+- really sorry
+- my apologies
+- sorry about this
+- I want to say sorry
+- apologies to me
+- apology
+- sorry
+- alright I'm sorry
+- ok sorry
+- excuse me
+- I apologize
+- okay I'm sorry
+- I said sorry
+- I am so sorry
+- I am really sorry
+- I'm sorry
+
+## intent:smalltalk_dialog_what_do_you_mean
+- what exactly do you mean
+- what do you mean exactly
+- is that what you mean
+- but what do you mean
+
+## intent:smalltalk_dialog_wrong
+- that's wrong
+- that is incorrect
+- you are wrong
+- wrong
+- not right
+- incorrect
+- that's not right
+- that's not what I asked
+- it is not right
+
+## intent:smalltalk_greetings_goodevening
+- hello good evening
+- evening
+- good evening there
+- good evening to you
+
+## intent:smalltalk_greetings_goodmorning
+- good morning too
+- hi good morning
+- morning
+- have a great morning
+- and a good morning to you
+- top of the morning to you
+- good morning
+- good morning to you
+- hello good morning
+
+## intent:smalltalk_greetings_goodnight
+- thank you good night
+- sweet dreams
+- good night see you tomorrow
+- good tonight
+- bye good night
+- have a good night
+- good night
+- good night to you
+- okay have a good night
+- good good night
+- alright goodnight
+- good night bye
+
+## intent:smalltalk_greetings_how_are_you
+- how are you today
+- is everything okay
+- how is your day
+- Is it raining?
+- how is your morning so far
+- how is your day going on
+- how about you
+- how are you
+- how do you do
+- Is it hot or cold?
+- how have you been
+- i want to get to know your owner
+- please tell me the company who created you
+- how are things going
+- May I ask who invented you?
+- Is it quite breezy outside?
+- how your day is going
+- how is it going
+- hope your day is going well
+- i want to know the company which designed you
+- hope you re having a pleasant evening
+- how has your day been going
+- how are you doing this morning
+- Beautiful day, isn't it?
+- are you having a good day
+- can you share your boss with me?
+- How are you?
+- how's your day
+- how is it
+- What's the weather like?
+- Do you have good weather?
+- please tell me who created you
+- tell me more about your creators
+- how was your day
+- how's your day going
+- what was your day like
+- What is the weather at your place?
+- how do you feel
+- is everything all right
+- what about your day
+- What's the weather forecast?
+- i want to know the company which generated you
+- how are you feeling
+- Are you ok?
+- how are the things going
+- how is your evening
+- how are you doing
+- are you okay
+- Do you feel good?
+- are you alright
+- how are things with you?
+- how are you getting on
+- I'm fine and you
+- how is your morning going
+
+## intent:smalltalk_greetings_whatsup
+- what's shaking
+- I said what's up
+- what's up today
+- what's happened
+- whazzup
+- then what's up
+- hey what's up
+- what is going on
+- what is on your mind
+- what is happening
+- wassup
+- what's cooking
+
+## intent:smalltalk_user_back
+- I got back
+- I am back
+- I have returned
+- I'm here again
+
+## intent:smalltalk_user_bored
+- that was boring
+- it bores me
+- bored
+- very boring
+- I am getting bored
+- this is boring
+
+## intent:smalltalk_user_busy
+- I got work to do
+- I'm overloaded
+- I'm busy
+- how busy I am
+- I have no time
+- I got things to do
+- I'm working
+
+## intent:smalltalk_user_can_not_sleep
+- I'm sleepless
+- I can't get to sleep
+- I'm insomnious
+- I can't sleep
+- I can't get any sleep
+- I'm insomniac
+
+## intent:smalltalk_user_does_not_want_to_talk
+- bad time for talking
+- I'm not talking to you anymore
+- I don't want to talk
+- let's not talk
+- let's stop talking for a minute
+
+## intent:smalltalk_user_excited
+- I am excited
+- I'm excited about working with you
+- I'm really excited
+- I'm thrilled
+
+## intent:smalltalk_user_going_to_bed
+- it's bed time
+- I'd like to go to bed
+- let's go to bed
+- I'm a little tired and I want to go to bed
+- I'm going to bed
+- is it time for bed yet
+- it's time to go to bed
+
+## intent:smalltalk_user_good
+- I am good
+- I'm doing just great
+- I'm good
+- I'm great thanks
+
+## intent:smalltalk_user_has_birthday
+- it's my b-day
+- it's my birthday today
+- I was born today
+- it is my birthday
+
+## intent:smalltalk_user_here
+- can you tell if I'm here or not
+- I'm right here
+- I am here
+- I'm already here
+
+## intent:smalltalk_user_joking
+- it was a joke
+- just kidding
+- I'm just being funny
+- I'm just playing with you
+- I am joking
+- I'm kidding
+- kidding
+- I was just joking
+
+## intent:smalltalk_user_likes_agent
+- but I like u
+- I like you too much
+- yeah I like you
+- you are special to me
+- I liked you
+- you're so special to me
+- that's why I like you
+- you are special for me
+- I'm starting to like you
+- I really like you
+- of course I like you
+- but I like you just the way you are
+- I like you too you're one of my favorite people to chat with
+- I like you as you are
+- I do like you
+- but I like you
+- you are very special
+- I like you a lot
+- you're awesome I like you
+- you are so special
+- like you a lot
+- I also like you
+- I like you too
+- I kinda like you
+- really like you
+- you're very special to me
+- I like you so much
+- I like you just the way you are
+- good I like you
+- I said I like you
+- I like u
+- you are really special
+- yes you are special
+- hi I like you
+- well you are special
+- but I really like you
+- I like you already
+- I really really like you
+- okay I like you too
+- I like you you're cool
+- I like you the way you are
+- thank you I like you too
+- thanks I like you too
+- I just like you
+- you're special
+- yes I like you
+- you're funny I like you
+- I like you more
+- I think I like you
+- no I like you the way you are
+- you are special
+- hey I like you
+- that's what I like about you
+- sorry I like you
+- cuz I like you
+- I like you you're nice
+- I like you so
+- I like your smile
+- you are so special to me
+- that's because you are special
+- you're so special
+
+## intent:smalltalk_user_looks_like
+- how do I look
+- what do you think I look like
+- can you see what I look like
+- do you know what I look like
+
+## intent:smalltalk_user_loves_agent
+- love you
+- I adore you
+- loving you
+- I love you
+- I think I love you
+- I love you too
+- you know I love you
+
+## intent:smalltalk_user_misses_agent
+- I missed you
+- I miss you
+- missing you
+- I've missed you
+- I miss you much
+
+## intent:smalltalk_user_needs_advice
+- help me with advice
+- I need an advice from you
+- what is your advice
+- give me some advice about
+- what do you suggest
+- any suggestions
+- I could use some advice
+- guide me
+- can you give me advice
+- what should I do about it
+- give me some good advice
+- give me a wise advice
+- what do you recommend
+- what should I do
+- can you offer any advice
+- any advice
+- advise me
+- can you advise me
+
+## intent:smalltalk_user_sleepy
+- I'm falling asleep on my feet
+- I want to sleep
+- I am sleepy
+- I'm sleeping
+
+## intent:smalltalk_user_testing_agent
+- let me test you
+- test
+- just testing you
+- I am testing you
+- testing
+- I want to test you
+
+## intent:smalltalk_user_tired
+- I'm getting tired
+- I'm exhausted
+- I grow weary
+- I am tired
+- I'm drained
+- I'm worn out
+
+## intent:smalltalk_user_waits
+- I can't wait anymore
+- I'll wait
+- still waiting
+- how long do I have to wait
+
+## intent:smalltalk_user_wants_to_see_agent_again
+- that'd be great to see you again
+- I'd be happy to see you again
+- I hope to see you again
+- would be nice to see you again
+- I'd like to see you again
+
+## intent:smalltalk_user_wants_to_talk
+- can we talk
+- I need to talk to you
+- I want to talk to you
+- can I start speaking
+- let's discuss something
+- can we chat
+- I just want to talk
+- can I speak
+
+## intent:smalltalk_user_will_be_back
+- I promise to come back
+- I'll be back
+- I'll be back in a few minutes
+- be back in 5 minutes
+
+## synonym:Delhi
+- New Delhi
+- Old Delhi
+- Del
+- Nizamuddin
+
+## synonym:Mumbai
+- Mumbai
+- Bombay
+- Mum
+
+## synonym:angry
+- disgusted
+- flabergasted
+- annoyed
+- irritated
+- irate
+- cross
+- vexed
+- exasperated
+- inflamed
+- indignant
+- aggrieved
+- irked
+- piqued
+- displeased
+- outraged
+- aggravated
+- disgust
+- outrage
+- annoyance
+- irritation
+- vex
+- exasperation
+- flame
+- indignance
+- irk
+- pique
+- aggravation
+
+## synonym:happy
+- overjoyed
+- excited
+- joyful
+- contented
+- content
+- cheerful
+- merry
+- jovial
+- smiling
+- gratified
+- radiant
+- over the moon
+- jolly good
+- jolly
+- excitement
+- joy
+- happiness
+- gratification
+- radiance
+- happy
+
+## synonym:sad
+- unhappy
+- dejected
+- down
+- out of sorts
+- depressed
+- lonely
+- suicidal
+- pain
+- suffering
+- grieving
+- death
+- mourning
+- miserable
+- not happy
+- sorrow
+- grief
+- unhappiness
+- grieve
+- dejection
+- depression
+- loneliness
+- misery
