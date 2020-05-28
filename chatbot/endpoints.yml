@@ -4,17 +4,10 @@ action_endpoint:
  
  
  # custom rasa tracker to tackle bson 16mb document limit
- tracker_store:
-   type: custom.custom_tracker.GridTrackerStore
-   url: mongodb://localhost:27017
-   db: rasa
- 
- event_broker:
-   type: "pika"
-   url: ${RABBITMQ_HOST}
-   username: ${RABBITMQ_USERNAME}
-   password: ${RABBITMQ_PASSWORD}
-   queue: ${RABBITMQ_QUEUE}
+tracker_store:
+  type: custom.custom_tracker.GridTrackerStore
+  url: mongodb://localhost:27017
+  db: rasa
  
  ### docker
  # action_endpoint:

@@ -1,4 +1,3 @@
-
 ## story 4
 * greet
     - utter_greet

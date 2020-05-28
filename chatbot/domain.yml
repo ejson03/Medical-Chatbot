@@ -1,4 +1,3 @@
---- 
   actions: 
     - action_confirmation
     - action_diagnose_symptoms
@@ -311,10 +310,10 @@
         buttons: 
           - 
             payload: "/conform_yes{\"conform\":\"Yes\"}"
-            title: true
+            title: Yes
           - 
             payload: "/conform_no{\"conform\":\"No\"}"
-            title: false
+            title: No
         text: "Please press yes to submit the form if all the above details are correct"
     utter_continue: 
       - 
@@ -337,10 +336,10 @@
         buttons: 
           - 
             payload: /ask_ehr_form
-            title: true
+            title: Yes
           - 
             payload: /ask_upload
-            title: false
+            title: No
         text: "Do you want to fill the health form first or upload the medical record directly ?"
     utter_goodbye: 
       - 
