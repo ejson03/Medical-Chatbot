@@ -28,67 +28,54 @@ $(document).ready(function () {
 
 })
 
-// function myFile() {
-// 	let selectedFile = document.getElementById('record').files[0];
-// 	let formData = new FormData()
-// 	console.log(formData);
-// 	formData.append('file', selectedFile)
-// 	try {
-// 		let response=  await fetch('/rasa', {
-// 			method: 'POST',
-// 			body: formData		
-// 		});
-// 		response = await response.json();
-// 		alert(response);
-// 		if(response !== ""){
-// 			console.log(response);
-// 			setBotResponse(response);
-// 		}
-// 	} catch {
-// 		console.log('Error in Operation');
-// 		setBotResponse('error');
-// 	}
-// }
-
 function getID() {
 	return Math.random().toString(36).replace(/[^a-z]+/g, '').substr(2, 10);
 }
-//------------------------------------------- Call the RASA API--------------------------------------
-function send(text) {
-	let data = null
-	if (text === null){
-		let selectedFile = document.getElementById('record').files[0];
-		data = new FormData()
-		data.append('file', selectedFile)
-		header = {
-			'Content-Type': 'multipart/form-data'
-		}
-	} else {
-		header = {
-			'Content-Type': 'application/json'
-		}
-		data = JSON.stringify({ message: text})
 
-	}
+//------------------------------------------- Call the RASA API--------------------------------------
+function filesend() {
+	const myform=document.getElementById('uploadfiletorasa');
+	const selectedFile=document.getElementById('record').files[0];
+	const endpoint = "/rasa";
+	const data = new FormData();
+	data.append('file', selectedFile)
+	console.log(selectedFile)
+	console.log(data)
+//	(async function(){
+	myform.addEventListener("submit", e => {
+		e.preventDefault();
+		
+		let response=fetch(endpoint,{
+			method: "POST",
+			body: data
+		}).catch(setBotResponse('error'));
+		console.log(response)
+		});
+//	})
+	
+}
+
+function send(text) {
 	(async function() {
 		try{
 			let response = await fetch('/rasa', {
 				method: 'POST',
-				headers: header,
-				body: data,
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify({ message: text}),
 				redirect: 'manual'
 			});
 			response = await response.json();
-			if(response !== ""){
-				console.log(response);
-				setBotResponse(response);
-			}
+			console.log(response);
+			setBotResponse(response);
 		} catch {
 			console.log('Error in Operation');
 			setBotResponse('error');
 		}
 	})();
 }
+
 function setAttributes(el, attrs) {
 	for(var key in attrs) {
 	  el.setAttribute(key, attrs[key]);
@@ -368,8 +355,8 @@ function setBotResponse(val) {
 						let outerButton = createButton("Please click here to upload the file", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal","data-target":`#${vid}`});
 						setAttributes(section1,{"style":"font-size: 20px;"})
 						let formElement = document.createElement('div');
-						formElement.innerHTML =`<form id=\"uploadfiletorasa\"  enctype=\"multipart/form-data\"><div class=\"form-group\"><label for=\"recipient-name\" class=\"col-form-label\"> Report Upload : </label><input type=\"file\" class=\"form-control\" id=\"record\" name=\"file"\ multiple /></div>
-												<button type=\"submit\" class=\"btn btn-primary btn-lg btn-block\" id=\"but_upload\" onclick=\"send("null")\"> Upload </button></form>` ;
+						formElement.innerHTML =`<form id=\"uploadfiletorasa\"><div class=\"form-group\"><label for=\"recipient-name\" class=\"col-form-label\"> Report Upload : </label><input type=\"file\" id=\"record\" name=\"file"\ /></div>
+												<button type=\"submit\" class=\"btn btn-primary btn-lg btn-block\" id=\"but_upload\" onclick=\"filesend()\"> Upload </button></form>` ;
 						section1.appendChild(formElement);
 						body.append(section2, section1)
 						head.appendChild(body);

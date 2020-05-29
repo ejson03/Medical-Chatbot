@@ -54,6 +54,10 @@ class RestInput(InputChannel):
         return req.json.get("message", None)
 
     async def _extract_file(self, req):
+        print(type(req.files['file'][0][1]), 
+                type(base64.b64encode(req.files['file'][0][1])),
+                type(base64.b64encode(req.files['file'][0][1]).decode('ascii'))
+                )
         return base64.b64encode(req.files['file'][0][1]).decode('ascii')
 
     async def _extract_header(self, req) :
