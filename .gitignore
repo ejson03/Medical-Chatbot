@@ -1,0 +1,22 @@
+node_modules
+keys
+package-lock.json
+rasa
+dist
+.vscode
+dummy-code
+.env
+test
+env
+.vscode/
+**/__pycache__/
+**/dist/
+**/.env
+**/server.crt
+**/server.key
+
+## rasa
+**/tests/
+.bigchaindb/
+
+
