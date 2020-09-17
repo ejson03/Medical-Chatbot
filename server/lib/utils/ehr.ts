@@ -1,5 +1,4 @@
 import { cryptoService, ipfsService, bigchainService } from '../services';
-import fs from 'fs';
 
 export const getRSAKey = async (email: string, schema: string) => {
    let asset = await bigchainService.getAsset(email);
@@ -110,35 +109,46 @@ export const showRevoke = async (demail: string, records: any) => {
    }
    return data;
 };
+
+export const createIPFSHashFromFileBuffer = async (fileBuffer: any, secretKey: any) => {
+   const cipher = cryptoService.encrypt(fileBuffer, secretKey);
+   const cipherBuffer = new Buffer(cipher);
+   return await ipfsService.AddFile(cipherBuffer);
+};
+
+export const createEncryptedIPFSHashFromFileBuffer = async (fileBuffer: any, secretKey: any) => {
+   const ipfsHash = await createIPFSHashFromFileBuffer(fileBuffer, secretKey);
+   return cryptoService.encrypt(ipfsHash, secretKey);
+};
+
+export const createIPFSHashFromCipher = async (cipher: any) => {
+   const cipherBuffer = new Buffer(cipher);
+   return await ipfsService.AddFile(cipherBuffer);
+};
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 export const createRecord = async (
    data: any,
    email: string,
-   fpath: any,
+   fileBuffer: any,
    publicKey: string,
    privateKey: string,
    secretKey: string
 ) => {
-   let file = fs.readFileSync(fpath);
-   let cipher = cryptoService.encrypt(file, secretKey);
-   let fileBuffer = new Buffer(cipher);
-
-   let ipfsURL = await ipfsService.AddFile(fileBuffer);
-   let fileIPFSEncrypted = cryptoService.encrypt(ipfsURL, secretKey);
+   let cipher = cryptoService.encrypt(fileBuffer, secretKey);
+   let ipfsURL = await createIPFSHashFromCipher(cipher);
+   let ipfsURLEncrypted = cryptoService.encrypt(ipfsURL, secretKey);
    let id = cryptoService.generateCode();
 
-   data = {
-      ...data,
+   Object.assign(data, {
       email: email,
-      file: fileIPFSEncrypted,
+      file: ipfsURLEncrypted,
       fileHash: cryptoService.hash(cipher),
       id: id
-   };
+   });
 
    let metadata = {
       email: email,
       datetime: new Date().toString(),
-
       doclist: [],
       id: id
    };
@@ -215,73 +225,3 @@ export const getDoctorFiles = async (email: string) => {
    console.log(data);
    return data;
 };
-
-//////////////////////////////////////////////////////////////////////////////////////////////////
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////
-// const getSingleDoctor = async(email, pass, action) => {
-//     let data = {}
-//     let db = await MongoClient.connect(url);
-//     let dbo = db.db("project");
-//     let result = await dbo.collection("dsignup").findOne({ email: email });
-//     console.log(result);
-//     if (action == "login") {
-//         if (email == result.email && pass == result.password) {
-//             data = {
-//                 'email': decrypt(result.email),
-//                 'name': `${result.fname} ${result.lname}`,
-//                 'qualification': result.qual,
-//                 'specialty': result.spl,
-//                 'current': result.cw
-//             }
-//             console.log("login succesful.........");
-//         } else {
-//             console.log("not okay");
-//         }
-//     } else {
-//         data = {
-//             'email': decrypt(result.email),
-//             'name': `${result.fname} ${result.lname}`,
-//             'qualification': result.qual,
-//             'specialty': result.spl,
-//             'current': result.cw
-//         }
-//         console.log("Retrieved dctor deatilas successfully.....");
-//     }
-//     db.close();
-//     return data;
-
-// };
-///////////////////////////////////////////////////////////////////////////////////////////////
-// const insertDetails = async(collection, myobj) => {
-//     let db = await MongoClient.connect(url);
-//     let dbo = db.db("project");
-//     let result = await dbo.collection(collection).insertOne(myobj);
-//     console.log(`Inserted detils into ${collection}`);
-//     db.close();
-//     return result
-// };
-/////////////////////////////////////////////////////////////////////////////////////////////////
-// const getMultipleDoctors = async() => {
-//     let db = await MongoClient.connect(url);
-//     let dbo = db.db("project");
-//     let result = await dbo.collection('dsignup').find({}).toArray();
-//     return result
-// };
-/////////////////////////////////////////////////////////////////////////////////////////////////
-// const getPatient = async(email, pass) => {
-//     let data = {}
-//     let db = await MongoClient.connect(url);
-//     let dbo = db.db("project");
-//     let result = await dbo.collection("psignup").findOne({ email: email });
-
-//     console.log(result);
-//     if (email == result.email && pass == result.password) {
-//         db.close();
-//         data = { 'email': result.email }
-//         return data;
-//     } else {
-//         db.close();
-//         console.log("not okay");
-//     }
-// };

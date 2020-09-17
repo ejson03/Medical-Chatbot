@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<%- include('partials/head.ejs') %>
+
+    <body class="w3-light-grey w3-content" style=" ">
+
+        <!--AccessTransfer-->
+        <div class="transbox" style="opacity: 1;filter: alpha(opacity=60);position:absolute; left:500px; top:100px;height:1000px; width:1100px " id="dashb">
+            <div class="wrapper wrapper--w680" style="max-width: 950px;">
+                <div class="card card-4">
+                    <div class="card-body">
+                        <h2 class="title" id="accesslist" style="font-size:60px;font-weight: bold; color:#000000;">ACCESS TRANSFER</h2>
+                        <div><br>
+                            <form method="post" action="/user/check">
+                                <% for (var d=0; d<doc.length; d++){ %>
+                                    <p style="font-size:20px;">D:
+                                        <%= d %>
+                                    </p>
+                                    <p style="font-size:20px;">D.DOC:
+                                        <%= doc[d].data.description %>
+
+                                            <input type="checkbox" name="<%= d %>" value="<%= doc[d].data.description %>" style="box-sizing: border-box;" />
+                                    </p>
+                                    <% } %>
+                                        <input type="submit" value="submit" style="font-size:18px;text-transform: uppercase;height:50px;color:white;background-color: #1d3247;border-radius: 12px;">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>

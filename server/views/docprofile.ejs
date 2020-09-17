@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<%- include('partials/dochead.ejs') %>
+
+
+    <body class=" w3-content" >
+        <!-- Middle Column -->
+        <div class="transbox" style="background-color: #ffffff;opacity: 1;filter: alpha(opacity=60);position:absolute; left:600px; top:175px; width:1000px  " id="dashb">
+
+            <div class="w3-row-padding">
+                <div class="w3-col m12">
+                    <div>
+                        <div>
+                            <img src="/images/doc.jpg" style="width:20%;margin-top:20px;" style="float:left;width:42px;height:20px;"><br>
+                            <div style="position:initial; left:300px; top:2px; ">
+                                <br><br>
+                                <b style="font-weight: bold;font-size: 20px;color:rgb(0, 0, 0);">DOCTORS NAME :</b>
+                                <b style="font-size: 20px;margin-left: 200px; "> <%= data.name %></b>
+
+                                <br></br>
+                                <b style="font-weight: bold;font-size: 20px;color: rgb(0, 0, 0);">DOCTORS EMAIL :</b>
+                                <b style="font-size: 20px;margin-left: 193px; "> <%= data.email %></b>
+                                <br></br>
+                                <b style="font-weight: bold;font-size: 20px;color: rgb(0, 0, 0);">QUALIFICATION :</b>
+                                <b style="font-size: 20px;margin-left: 196px; "> <%= data.qualification %></b>
+
+                                <br></br>
+                                <b style="font-weight: bold;font-size: 20px;color: rgb(0, 0, 0);">SPECIALTY :</b>
+                                <b style="font-size: 20px;margin-left: 256px; "> <%= data.specialty %></b>
+                                <br></br>
+                                <b style="font-weight: bold;font-size: 20px;color:rgb(0, 0, 0);">CURRENT WORKSPACE :</b>
+                                <b style="font-size: 20px;margin-left: 124px; "> <%= data.current %></b>
+                                <br></br>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<%- include('partials/head.ejs') %>
+
+    <body class="w3-light-grey w3-content" style="background-color: #8c5fe0; ">
+        <!--Add Medical Records-->
+        <div class="transbox" style="opacity: 1;filter: alpha(opacity=60);position:absolute; left:33%;top:55px; width:1000px  " id="dashb">
+            <div class="wrapper wrapper--w680">
+                <div class="card card-4">
+                    <div class="card-body">
+                        <h2 class="title" id="addreco" style="font-size:40px;font-weight: bold; color:#000000;">My Medical Records</h2>
+                        <form method="post" action="/user/add" enctype="multipart/form-data">
+                            <div class="row row-space">
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">height</label>
+                                        <input class="input--style-4" type="text" name="height">
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">weight</label>
+                                        <input class="input--style-4" type="text" name="weight">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-space">
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">symptoms</label>
+                                        <input class="input--style-4" type="text" name="symptoms">
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">allergies</label>
+                                        <input class="input--style-4" type="text" name="allergies">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row row-space">
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">smoking</label>
+                                        <div class="p-t-10">
+                                            <label class="radio-container m-r-45">Yes
+                                            <input type="radio"  name="smoking" value="yes">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                            <label class="radio-container">No
+                                            <input type="radio"  checked="checked" name="smoking" value="no">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">Do you Exercise? </label>
+                                        <div class="p-t-10">
+                                            <label class="radio-container m-r-45">Yes
+                                            <input type="radio" checked="checked" name="exercise" value="yes">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                            <label class="radio-container">No
+                                            <input type="radio" name="exercise" value="no">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-space">
+                                <div class="col-2">
+
+                                    <div class="input-group">
+
+                                        <label class="label">File Description </label>
+
+                                        <input type="text" name="d" class="input--style-4" style="border: solid; font-size: 20px;color: #31313;">
+
+                                        <label class="label">Upload File</label>
+
+                                        <input type="file" name="fileupload"><br><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-t-15">
+                                <button class="btn btn--radius-2 btn--blue" style="margin-left: 38%;" type="submit">Submit</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+        <!--JavaScript at end of body for optimized loading-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/materialize.min.js"></script>
+
+
+        <!-- Jquery JS-->
+        <script src="/vendor/jquery/jquery.min.js"></script>
+        <!-- Vendor JS-->
+        <script src="/vendor/select2/select2.min.js"></script>
+        <script src="/vendor/datepicker/moment.min.js"></script>
+        <script src="/vendor/datepicker/daterangepicker.js"></script>
+
+        <!-- Main JS-->
+        <script src="/js/global.js"></script>
+    </body>
+
+</html>

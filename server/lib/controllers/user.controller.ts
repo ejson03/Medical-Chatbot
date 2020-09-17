@@ -1,5 +1,5 @@
 import {
-   //createRecord,
+   createRecord,
    getAssetHistory,
    showAccess,
    showRevoke,
@@ -125,34 +125,37 @@ export const assetHistory = async (req: Request, res: Response) => {
    }
 };
 
-// export const addRecord = async (req: Request, res: Response) => {
-//    let fields = req.body;
-//    console.log(req.body, req.files);
-//    let fpath = req.files[0].fileupload.path;
+export const addRecord = async (req: Request, res: Response) => {
+   if (req.files.length < 1) {
+      return res.sendStatus(404).json({ status: 'File not uploaded' });
+   }
+   let fields = req.body;
+   console.log(req.body, req.files);
+   let fpath = req.files[0].fileupload.path;
 
-//    let data = {
-//       height: fields.height,
-//       weight: fields.weight,
-//       symptoms: fields.symptoms,
-//       allergies: fields.allergies,
-//       smoking: fields.smoking,
-//       exercise: fields.exercise,
-//       description: fields.d,
-//       schema: 'record'
-//    };
-//    try {
-//       let tx = await createRecord(
-//          data,
-//          req.session?.email,
-//          fpath,
-//          req.session?.user.bigchainKeys.publicKey,
-//          req.session?.user.bigchainKeys.privateKey,
-//          req.session?.user.secretKey
-//       );
-//       console.log('Transaction', tx.id, 'successfully posted.');
-//       return res.redirect('/user/medicalhistory');
-//    } catch (err) {
-//       console.error(err);
-//       return res.sendStatus(404);
-//    }
-// };
+   let data = {
+      height: fields.height,
+      weight: fields.weight,
+      symptoms: fields.symptoms,
+      allergies: fields.allergies,
+      smoking: fields.smoking,
+      exercise: fields.exercise,
+      description: fields.d,
+      schema: 'record'
+   };
+   try {
+      let tx = await createRecord(
+         data,
+         req.session?.email,
+         fpath,
+         req.session?.user.bigchainKeys.publicKey,
+         req.session?.user.bigchainKeys.privateKey,
+         req.session?.user.secretKey
+      );
+      console.log('Transaction', tx.id, 'successfully posted.');
+      return res.redirect('/user/medicalhistory');
+   } catch (err) {
+      console.error(err);
+      return res.sendStatus(404);
+   }
+};

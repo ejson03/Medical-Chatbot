@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { ipfsService, rasaService, cryptoService, vaultService } from '../services';
 import UserModel, { UserInterface } from '../models/user.models';
+import { createEncryptedIPFSHashFromFileBuffer } from '../utils/ehr';
 
 export const signUp = async (req: Request, res: Response) => {
    const users = await vaultService.getUsers();
@@ -54,8 +55,13 @@ export const view = async (req: Request, res: Response) => {
 
 export const rasa = async (req: Request, res: Response) => {
    try {
-      const message = req.body.message;
       const sender = String(req.session?.name);
+      let message;
+      if (req.file.size > 1) {
+         message = await createEncryptedIPFSHashFromFileBuffer(req.file.buffer, 'edededwe'); //req.user.secretKey
+      } else {
+         message = req.body.message;
+      }
       const rasa = await rasaService.RASARequest(message, sender);
       return res.json(rasa);
    } catch (err) {

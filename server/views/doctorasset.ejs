@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<%- include('partials/dochead.ejs') %>
+
+    <body class="w3-light-grey w3-content">
+        <!--MyMedicalHistory-->
+        <div class="transbox" style="opacity: 1;filter: alpha(opacity=60);position:absolute; left:500px;top:55px; width:1100px " id="dashb">
+            <div class="wrapper wrapper--w680" style="max-width: 950px;">
+                <div class="card card-4">
+                    <div class="card-body">
+                        <h2 class="title" id="myhistory" style="font-size:40px;font-weight: bold; color:#000000;">My Patients</h2>
+                        <% for (var d=0; d<doc.length; d++){ %>
+                            <div class="w3-container w3-card w3-white w3-round w3-margin" style="position:relative;"><br>
+                                <h4 style="font-size:30px;font-weight: bold; color:#000000;">Patient Email:</h4>
+                                <b style="font-size: 18px;"> <%= doc[d].email %></b>
+                                <h4 style="font-size:30px;font-weight: bold; color:#000000;">Description</h4>
+                                <b style="font-size: 18px;"> <%= doc[d].description %></b>
+                                <form method="post" action="/view" class="viewForm">
+                                    <button class="btn btn--radius-2 btn--blue viewButton" type="submit" style=" float:right;margin-top: 20px;margin-bottom: 20px;" value="<%= doc[d].file %>" name="b">View</button>
+                                </form>
+                                <form method="post" action="/getrasahistory" class="rasaForm">
+                                    <button class="btn btn--radius-2 btn--blue rasaButton" type="submit" style=" float:right;margin-top: 20px;margin-bottom: 20px;" value="<%= doc[d].email %>" name="rasa">Rasa</button>
+                                </form>
+                                <form method="post" action="/prescribe" class="prescribeForm">
+                                    <input type="hidden" name="id" value="<%= doc[d].id %>">
+                                    <input type="hidden" name="description" value="<%= doc[d].description %>">
+                                    <input type="hidden" name="pkey" value="<%= doc[d].pkey %>">
+                                    <button class="btn btn--radius-2 btn--blue prescribeButton" type="submit" style=" float:right;margin-right: 15px;margin-top: 20px;margin-bottom: 20px;" name="c">Prescribe</button>
+                                </form>
+                            </div>
+                            <% } %>
+                                <div class="w3-container w3-card w3-white w3-round w3-margin" style="position:relative;font-size: 18px;"><br>
+                                    <b> Description of Uploaded Docs</b>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $('button.viewButton').click(function() {
+                $('form.viewForm').submit();
+            });
+            $('button.prescribeButton').click(function() {
+                $('form.prescribeForm').submit();
+            });
+            $('button.rasaButton').click(function() {
+                $('form.rasaForm').submit();
+            });
+        </script>
+
+    </body>
+
+</html>

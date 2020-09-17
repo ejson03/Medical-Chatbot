@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<%- include('partials/dochead.ejs') %>
+
+    <body class="w3-light-grey w3-content" style=" ">
+        <!--MyMedicalHistory-->
+        <div class="transbox" style="opacity: 1;filter: alpha(opacity=60);position:absolute; left:500px;top:55px; height:1000px; width:1100px " id="dashb">
+            <div class="wrapper wrapper--w680" style="max-width: 950px;">
+                <div class="card card-4">
+                    <div class="card-body">
+                        <h2 class="title" id="myhistory" style="font-size:40px;font-weight: bold; color:#000000;">Patients RASA Chat History</h2>
+                        <% for (var d=0; d<doc.length; d++){ %>
+                            <div class="w3-container w3-card w3-white w3-round w3-margin" style="position:relative;"><br>
+                                <h4 style="font-size:30px;font-weight: bold; color:#000000;">Message time:</h4>
+                                <b style="font-size: 18px;"> <%= doc[d].message_time %></b>
+                                <h4 style="font-size:30px;font-weight: bold; color:#000000;">Intent:</h4>
+                                <b style="font-size: 18px;"> <%= doc[d].intent %></b>
+                                <% if (doc[d].entities.length > 0) { %>
+                                    <h4 style="font-size:30px;font-weight: bold; color:#000000;">Entities:</h4>
+                                    <% for (var i=0; i<doc[d].entities.length; i++){ %>
+                                        <b style="font-size: 18px;"> <%= doc[d].entities[i] %></b>
+                                        <% } %>
+                                            <% } %>
+                                                <h4 style="font-size:30px;font-weight: bold; color:#000000;">Reply Time:</h4>
+                                                <b style="font-size: 18px;"> <%= doc[d].reply_time %></b>
+                                                <h4 style="font-size:30px;font-weight: bold; color:#000000;">Reply:</h4>
+                                                <b style="font-size: 18px;"> <%= doc[d].reply %></b>
+
+                            </div>
+                            <% } %>
+                                <form method="post" action="/pushrasa">
+
+                                    <input type="hidden" name="rasa" value="<%= json.stringify(doc) %>" style="height:40px;">
+                                    <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
+                                </form>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>

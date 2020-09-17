@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<%- include('partials/head.ejs') %>
+
+    <body class="w3-light-grey w3-content" style=" ">
+        <!--MyMedicalHistory-->
+        <div class="transbox" style="opacity: 1;filter: alpha(opacity=60);position:absolute; left:500px;top:55px; height:1000px; width:1100px " id="dashb">
+            <div class="wrapper wrapper--w680" style="max-width: 950px;">
+                <div class="card card-4">
+                    <div class="card-body">
+                        <h2 class="title" id="myhistory" style="font-size:40px;font-weight: bold; color:#000000;">My Medical History</h2>
+                        <% for (var d=0; d<doc.length; d++){ %>
+                            <div class="w3-container w3-card w3-white w3-round w3-margin" style="position:relative;"><br>
+                                <h4 style="font-size:30px;font-weight: bold; color:#000000;">DESCRIPTION:</h4>
+                                <b style="font-size: 18px;"> <%= doc[d].data.description %></b>
+                                <form method="post" action="/view">
+                                    <input type="hidden" name="url" value="encrypted">
+
+                                    <button class="btn btn--radius-2 btn--blue" type="submit" style=" float:right;margin-bottom: 10px;" value="<%= doc[d].data.file %>" name="b">view</button>
+                                </form>
+                                <form method="post" action="/user/assethistory">
+                                    <button class="btn btn--radius-2 btn--blue" type="submit" style=" float:right;margin-bottom: 10px;margin-right: 10px;" value="<%= doc[d].id %>" name="history">history</button>
+                                </form>
+                            </div>
+                            <% } %>
+                                <div class="w3-container w3-card w3-white w3-round w3-margin" style="position:relative;font-size: 18px;"><br>
+                                    <b> Description of Uploaded Docs</b>
+
+
+                                </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>

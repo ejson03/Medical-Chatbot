@@ -1,5 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { userController } from '../controllers';
+import { fileUpload } from '../middleware/file-upload';
 
 const userRouter: Router = Router();
 
@@ -22,6 +23,6 @@ userRouter.post('/prescription', userController.prescription);
 
 userRouter.post('/assethistory', userController.assetHistory);
 
-// userRouter.post('/add', userController.addRecord);
+userRouter.post('/add', fileUpload.any(), userController.addRecord);
 
 export default userRouter;

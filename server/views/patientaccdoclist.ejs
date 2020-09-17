@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<%- include('partials/head.ejs') %>
+
+    <body class="w3-light-grey w3-content" style=" ">
+
+        <!-- Doctors List -->
+        <div class="transbox" style="opacity: 1;filter: alpha(opacity=60);position:absolute; left:500px; top:55px;height:1000px; width:1200px " id="dashb">
+            <div class="wrapper wrapper--w680" style="max-width: 950px;">
+                <div class="card card-4">
+                    <div class="card-body">
+                        <h2 class="title" id="doclist" style="font-size:40px;font-weight: bold; color:#000000;">Doctors List</h2>
+                        <div class="search-container" style="float: center;
+                              padding: 6px 10px;
+                              margin-top: 8px;
+                              margin-right: 26px;
+                              background: #ffffff;
+                              font-size: 21px;
+                              border: none;
+                              cursor: pointer;">
+                        </div>
+                        <% for (var d=0;d<docs.length;d++){ %>
+                            <div class="w3-container w3-card w3-white w3-round w3-margin" style="width:800px;"><br>
+
+                                <center style="font-size:30px;font-weight: bold; color:#000000;text-transform:uppercase;">
+                                    <%= docs[d].fname %> &nbsp
+                                        <%= docs[d].lname %>
+                                </center>
+
+                                <h4 style="font-size:20px;font-weight: bold; color:#000000;">SPECIALIZATION:
+                                    <%=docs[d].spl %>
+                                </h4>
+                                <h4 style="font-size:20px;font-weight: bold; color:#000000;"> QUALIFICATION:
+                                    <%= docs[d].qual %>
+                                </h4>
+                                <form action="/user/access" method="post">
+                                    <div class="p-t-15">
+                                        <button class="btn btn--radius-2 btn--blue" type="submit" style="float:initial;margin-left: 525px;padding-right: 75px; " value="<%= docs[d].email%>" name="value"> Give Access</button>
+                                    </div>
+                                </form>
+                                <form action="/user/revoke" method="post">
+                                    <div class="p-t-15">
+                                        <button class="btn btn--radius-2 btn--blue" type="submit" style="float:initial;margin-left: 525px; " value="<%= docs[d].email%>" name="value"> Revoke Access</button>
+                                    </div>
+                                </form>
+                                <form action="/user/prescription" method="post">
+                                    <div class="p-t-15">
+                                        <button class="btn btn--radius-2 btn--blue" type="submit" style="float:initial;margin-left: 525px; padding-right: 75px; margin-bottom: 20px; " value="<%= docs[d].email%>" name="demail"> Prescription</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <% } %>
+
+                                <div class="w3-container w3-card w3-white w3-round w3-margin" style="width:800px;"><br>
+                                    <center style="font-size:30px;font-weight: bold; color:#000000;text-transform:uppercase;">DOCTORS NAME</center>
+                                    <h4 style="font-size:20px;font-weight: bold; color:#000000;">SPECIALIZATION:.....</h4>
+                                    <h4 style="font-size:20px;font-weight: bold; color:#000000;"> QUALIFICATION:....</h4>
+
+                                    <div class="p-t-15">
+                                        <button class="btn btn--radius-2 btn--blue" style="float:initial;margin-left: 525px;padding-right: 75px; ">Give Access</button>
+                                    </div>
+                                    <div class="p-t-15">
+                                        <button class="btn btn--radius-2 btn--blue" style="float:initial;margin-left: 525px; "> Revoke Access</button>
+                                    </div>
+                                    <div class="p-t-15">
+                                        <button class="btn btn--radius-2 btn--blue" style="float:initial;margin-left: 525px;padding-right: 75px; margin-bottom: 20px;  ">Prescription</button>
+                                    </div>
+                                </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
