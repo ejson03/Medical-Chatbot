@@ -32,6 +32,7 @@
       "formidable": "^1.2.2",
       "ipfs-api": "^26.1.2",
       "moment": "^2.28.0",
+      "multer": "^1.4.2",
       "node-fetch": "^2.6.1",
       "node-rsa": "^1.1.1",
       "node-vault-user-pass": "0.0.6",

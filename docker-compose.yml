@@ -64,15 +64,15 @@ services:
     depends_on:
       - bigchaindb
 
-  nginx:
-    container_name: "nginx"
-    restart: unless-stopped
-    build:
-      context: nginx
-    ports:
-      - 8002:8000
-    links:
-      - main
+  # nginx:
+  #   container_name: "nginx"
+  #   restart: unless-stopped
+  #   build:
+  #     context: nginx
+  #   ports:
+  #     - 8002:8000
+  #   links:
+  #     - main
 
   server:
     container_name: rasa-server
@@ -81,7 +81,7 @@ services:
     build:
       context: chatbot
     volumes:
-      - ./actions:/app/actions
+      - ./chatbot:/app
     depends_on:
       - mongodb
       
@@ -107,20 +107,20 @@ services:
     volumes:
       - ./server:/app/server
     command: npm run deploy
-    links:
-      - bdb
-      - vault
-      - rabbit
-      - mongodb
+    # links:
+    #   - bdb
+    #   - vault
+    #   - rabbit
+    #   - mongodb
     ports:
       - 5000:5000
 
-  rabbit:
-    restart: always
-    image: rabbitmq:alpine
-    container_name: rabbit
-    env_file:
-      - .env
+  # rabbit:
+  #   restart: always
+  #   image: rabbitmq:alpine
+  #   container_name: rabbit
+  #   env_file:
+  #     - .env
 
   vault:
     container_name: vault
