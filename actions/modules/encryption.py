@@ -7,7 +7,7 @@ import base64
 import os
 import ipfshttpclient
 from .config import *
-ipfs = ipfshttpclient.connect(IPFS_URL)
+ipfs = ipfshttpclient.connect('/dns/ipfs.infura.io/tcp/5001/https')
 
 def ipfs_add(file):
     url = ipfs.add_bytes(file)
