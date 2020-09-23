@@ -47,7 +47,7 @@ jobs:
            env:
               CHATBOT_ENV: ${{secrets.CHATBOT_ENV}}
            with:
-              host: ${{ secrets.CHATBOT_HOST }}
+              host: ${{ secrets.RASA_HOST }}
               username: ${{ secrets.USER }}
               password: ${{ secrets.PASSWORD }}
               port: ${{ secrets.PORT }}
@@ -67,7 +67,7 @@ jobs:
            env:
               SERVER_ENV: ${{secrets.SERVER_ENV}}
            with:
-              host: ${{ secrets.SERVER_HOST }}
+              host: ${{ secrets.APP_HOST }}
               username: ${{ secrets.USER }}
               password: ${{ secrets.PASSWORD }}
               port: ${{ secrets.PORT }}
