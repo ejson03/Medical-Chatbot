@@ -37,7 +37,7 @@ jobs:
                  git pull https://${{ secrets.GIT_TOKEN }}:x-oauth-basic@github.com/ejson03/vortex-mit2020.git master
                  echo "$BIGCHAIN_ENV" > .env
                  docker system prune -a --force
-                 docker container stop $(docker container ls -aq) --force
+                 docker container stop $(docker container ls -aq) 
                  docker container rm $(docker container ls -aq) --force
                  docker image prune -a --force
                  docker-compose up --build -d vault
@@ -57,27 +57,27 @@ jobs:
                  git pull https://${{ secrets.GIT_TOKEN }}:x-oauth-basic@github.com/ejson03/vortex-mit2020.git master
                  echo "$CHATBOT_ENV" > .env
                  docker system prune -a --force
-                 docker container stop $(docker container ls -aq) --force
+                 docker container stop $(docker container ls -aq)
                  docker container rm $(docker container ls -aq) --force
                  docker image prune -a --force
                  docker-compose up --build -d action
          
-         - name: Deploy main web app
-           uses: appleboy/ssh-action@master
-           env:
-              SERVER_ENV: ${{secrets.SERVER_ENV}}
-           with:
-              host: ${{ secrets.APP_HOST }}
-              username: ${{ secrets.USER }}
-              password: ${{ secrets.PASSWORD }}
-              port: ${{ secrets.PORT }}
-              envs: SERVER_ENV
-              script: |
-                 cd /root/vortex-mit2020
-                 git pull https://${{ secrets.GIT_TOKEN }}:x-oauth-basic@github.com/ejson03/vortex-mit2020.git master
-                 echo "$SERVER_ENV" > .env
-                 docker system prune -a --force
-                 docker container stop $(docker container ls -aq) --force
-                 docker container rm $(docker container ls -aq) --force
-                 docker image prune -a --force
-                 docker-compose up --build -d main
+         # - name: Deploy main web app
+         #   uses: appleboy/ssh-action@master
+         #   env:
+         #      SERVER_ENV: ${{secrets.SERVER_ENV}}
+         #   with:
+         #      host: ${{ secrets.APP_HOST }}
+         #      username: ${{ secrets.USER }}
+         #      password: ${{ secrets.PASSWORD }}
+         #      port: ${{ secrets.PORT }}
+         #      envs: SERVER_ENV
+         #      script: |
+         #         cd /root/vortex-mit2020
+         #         git pull https://${{ secrets.GIT_TOKEN }}:x-oauth-basic@github.com/ejson03/vortex-mit2020.git master
+         #         echo "$SERVER_ENV" > .env
+         #         docker system prune -a --force
+         #         docker container stop $(docker container ls -aq) 
+         #         docker container rm $(docker container ls -aq) --force
+         #         docker image prune -a --force
+         #         docker-compose up --build -d main
