@@ -12,6 +12,17 @@ BigchainDB is a decentralized database that has immutability just like tradition
 
 A basic chatbot is also designed to avoid entering data manually into forms. Conversational history is tracked and stored on the blockchain too to maintain credibility of the chatbot performance.
 
+# Contributing
+For commiting
+```
+npm run git -- "commit message"
+```
+
+For deploying
+```
+npm run tag
+```
+
 # API
 
 ## 1. Patient (/patient)

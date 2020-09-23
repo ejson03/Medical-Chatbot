@@ -11,6 +11,7 @@ import os
 import requests
 from os import environ
 import uuid
+MONGODB_STRING = environ.get("MONGO_URL")
 client = MongoClient(MONGODB_STRING)
 import base64
 from sys import getsizeof
