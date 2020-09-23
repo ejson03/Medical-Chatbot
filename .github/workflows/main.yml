@@ -36,10 +36,10 @@ jobs:
                  cd /root/vortex-mit2020
                  git pull https://${{ secrets.GIT_TOKEN }}:x-oauth-basic@github.com/ejson03/vortex-mit2020.git master
                  echo "$BIGCHAIN_ENV" > .env
-                 docker system prune -a
-                 docker container stop $(docker container ls -aq)
-                 docker container rm $(docker container ls -aq)
-                 docker image prune -a
+                 docker system prune -a --force
+                 docker container stop $(docker container ls -aq) --force
+                 docker container rm $(docker container ls -aq) --force
+                 docker image prune -a --force
                  docker-compose up --build -d vault
 
          - name: Deploy chatbot
@@ -56,10 +56,10 @@ jobs:
                  cd /root/vortex-mit2020
                  git pull https://${{ secrets.GIT_TOKEN }}:x-oauth-basic@github.com/ejson03/vortex-mit2020.git master
                  echo "$CHATBOT_ENV" > .env
-                 docker system prune -a
-                 docker container stop $(docker container ls -aq)
-                 docker container rm $(docker container ls -aq)
-                 docker image prune -a
+                 docker system prune -a --force
+                 docker container stop $(docker container ls -aq) --force
+                 docker container rm $(docker container ls -aq) --force
+                 docker image prune -a --force
                  docker-compose up --build -d action
          
          - name: Deploy main web app
@@ -76,8 +76,8 @@ jobs:
                  cd /root/vortex-mit2020
                  git pull https://${{ secrets.GIT_TOKEN }}:x-oauth-basic@github.com/ejson03/vortex-mit2020.git master
                  echo "$SERVER_ENV" > .env
-                 docker system prune -a
-                 docker container stop $(docker container ls -aq)
-                 docker container rm $(docker container ls -aq)
-                 docker image prune -a
+                 docker system prune -a --force
+                 docker container stop $(docker container ls -aq) --force
+                 docker container rm $(docker container ls -aq) --force
+                 docker image prune -a --force
                  docker-compose up --build -d main
