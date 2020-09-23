@@ -61,16 +61,17 @@ services:
     command: sh -c "tendermint init && tendermint node --consensus.create_empty_blocks=false --proxy_app=tcp://bigchaindb:26658"
     restart: always
 
-
-  # nginx:
-  #   container_name: "nginx"
-  #   restart: unless-stopped
-  #   build:
-  #     context: nginx
-  #   ports:
-  #     - 8002:8000
-  #   links:
-  #     - main
+  vault:
+    container_name: vault
+    image: "vault"
+    env_file:
+      - .env
+    ports:
+      - 8200:8200
+    cap_add:
+      - "IPC_LOCK"
+    depends_on: 
+      - bigchaindb
 
   server:
     container_name: rasa-server
@@ -82,6 +83,8 @@ services:
       target: chatbot
     volumes:
       - ./chatbot:/app
+    ports:
+      - 5005:5005
 
       
   action:
@@ -109,11 +112,6 @@ services:
     volumes:
       - ./server:/app/server
     command: npm run deploy
-    # links:
-    #   - bdb
-    #   - vault
-    #   - rabbit
-    #   - mongodb
     ports:
       - 5000:5000
 
@@ -124,15 +122,17 @@ services:
   #   env_file:
   #     - .env
 
-  vault:
-    container_name: vault
-    image: "vault"
-    env_file:
-      - .env
-    ports:
-      - 8200:8200
-    cap_add:
-      - "IPC_LOCK"
+  # nginx:
+  #   container_name: "nginx"
+  #   restart: unless-stopped
+  #   build:
+  #     context: nginx
+  #   ports:
+  #     - 8002:8000
+  #   links:
+  #     - main
+
+ 
 
 volumes:
   tm_data: {}

@@ -18,7 +18,7 @@ class GridTrackerStore(TrackerStore):
     def __init__(
         self,
         domain,
-        host = "mongodb://mongodb:27017",
+        host = os.environ.get(MONGO_URL) or "mongodb://mongodb:27017",
         db = "rasa",
         username = None,
         password = None,

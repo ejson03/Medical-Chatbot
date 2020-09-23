@@ -14,7 +14,7 @@ import base64
 
 
 logger = logging.getLogger(__name__)
-SECRET_KEY = environ.get("JWT_SECRET")
+SECRET_KEY = environ.get("SECRET")
 
 def jwt_decode(token):
     try:

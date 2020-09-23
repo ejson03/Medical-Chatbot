@@ -22,21 +22,62 @@ jobs:
          # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
          - uses: actions/checkout@v2
 
-         - name: Deploy package to digitalocean
+         - name: Deploy bigchaindb
            uses: appleboy/ssh-action@master
            env:
-              HOSTS: [${{secrets.ENV}}]
+              BIGCHAIN_ENV: ${{secrets.BIGCHAIN_ENV}}
            with:
-              host: ${{ secrets.HOST }}
-              username: ${{ secrets.USERNAME }}
+              host: ${{ secrets.BIGCHAIN_HOST }}
+              username: ${{ secrets.USER }}
               password: ${{ secrets.PASSWORD }}
               port: ${{ secrets.PORT }}
-              envs: FIREBASE_TOKEN
+              envs: BIGCHAIN_ENV
               script: |
-                 cd /root/backend
-                 git pull https://${{ secrets.GIT_TOKEN }}:x-oauth-basic@github.com/wadsworth-app/backend.git master
-                 echo "$FIREBASE_TOKEN" > firebase.json
-                 docker container stop server
-                 docker container rm server
-                 docker build -t "server" .
-                 docker run --name server --network=wadsworth -d -t "server"
+                 cd /root/vortex-mit2020
+                 git pull https://${{ secrets.GIT_TOKEN }}:x-oauth-basic@github.com/ejson03/vortex-mit2020.git master
+                 echo "$BIGCHAIN_ENV" > .env
+                 docker system prune -a
+                 docker container stop $(docker container ls -aq)
+                 docker container rm $(docker container ls -aq)
+                 docker image prune -a
+                 docker-compose up --build -d vault
+
+         - name: Deploy chatbot
+         uses: appleboy/ssh-action@master
+         env:
+            CHATBOT_ENV: ${{secrets.CHATBOT_ENV}}
+         with:
+            host: ${{ secrets.CHATBOT_HOST }}
+            username: ${{ secrets.USER }}
+            password: ${{ secrets.PASSWORD }}
+            port: ${{ secrets.PORT }}
+            envs: CHATBOT_ENV
+            script: |
+               cd /root/vortex-mit2020
+               git pull https://${{ secrets.GIT_TOKEN }}:x-oauth-basic@github.com/ejson03/vortex-mit2020.git master
+               echo "$CHATBOT_ENV" > .env
+               docker system prune -a
+               docker container stop $(docker container ls -aq)
+               docker container rm $(docker container ls -aq)
+               docker image prune -a
+               docker-compose up --build -d action
+         
+         - name: Deploy main web app
+         uses: appleboy/ssh-action@master
+         env:
+            SERVER_ENV: ${{secrets.SERVER_ENV}}
+         with:
+            host: ${{ secrets.SERVER_HOST }}
+            username: ${{ secrets.USER }}
+            password: ${{ secrets.PASSWORD }}
+            port: ${{ secrets.PORT }}
+            envs: SERVER_ENV
+            script: |
+               cd /root/vortex-mit2020
+               git pull https://${{ secrets.GIT_TOKEN }}:x-oauth-basic@github.com/ejson03/vortex-mit2020.git master
+               echo "$SERVER_ENV" > .env
+               docker system prune -a
+               docker container stop $(docker container ls -aq)
+               docker container rm $(docker container ls -aq)
+               docker image prune -a
+               docker-compose up --build -d main

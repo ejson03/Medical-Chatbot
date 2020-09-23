@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 import jwt
 from os import environ
 
-SECRET_KEY = environ.get("JWT_SECRET")
+SECRET_KEY = environ.get("SECRET")
 logger = logging.getLogger(__name__)
 
 class Token(InputChannel):

@@ -1,19 +1,19 @@
 ### localhost
 action_endpoint:
-  url: "http://action:5055/webhook"
+  url: ${ACTION_URL}
 
 
 tracker_store:
   type: mongo
-  url: mongodb://mongodb:27017
+  url: ${MONGO_URL}
   db: rasa
  
  
  # custom rasa tracker to tackle bson 16mb document limit
- tracker_store:
-   type: custom.custom_tracker.GridTrackerStore
-   url: mongodb://mongodb:27017
-   db: rasa
+#  tracker_store:
+#    type: custom.custom_tracker.GridTrackerStore
+#    url: mongodb://mongodb:27017
+#    db: rasa
  
 #  event_broker:
 #    type: "pika"
@@ -22,22 +22,6 @@ tracker_store:
 #    password: ${RABBITMQ_PASSWORD}
 #    queue: ${RABBITMQ_QUEUE}
  
- ### docker
- # action_endpoint:
- #   url: "http://action:5055/webhook"
-   
- # tracker_store:
- #   type: custom.custom_tracker.GridTrackerStore
- #   url: mongodb://mongo:27017
- #   db: rasa
- 
- # event_broker:
- #   type: "pika"
- #   url: ${RABBITMQ_HOST}
- #   username: ${RABBITMQ_USERNAME}
- #   password: ${RABBITMQ_PASSWORD}
- #   queue: ${RABBITMQ_QUEUE}
-
 # tracker_store:
 #   type: SQL
 #   dialect: "postgresql"  
