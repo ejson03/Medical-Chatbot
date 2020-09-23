@@ -10,6 +10,7 @@ RUN apt-get update && apt-get -y install build-essential python3-dev libffi-dev 
     && python3 -m spacy download en_core_web_md
 USER 1001
 COPY ./actions /app
+RUN chmod +x entrypoint.sh
 ENTRYPOINT ["./entrypoint.sh"]
 CMD ["start", "--actions", "actions"]
 
