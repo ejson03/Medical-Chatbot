@@ -32,5 +32,5 @@ export const GetFile = async (ipfsName: any) => {
 };
 
 export const AddFile = async (fileBuffer: any) => {
-   return await ipfs.files.add(fileBuffer)[0].hash;
+   return (await ipfs.files.add(fileBuffer))[0]['hash'];
 };

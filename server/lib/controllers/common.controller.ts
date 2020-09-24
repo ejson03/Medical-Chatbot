@@ -71,12 +71,11 @@ export const rasa = async (req: Request, res: Response) => {
       let message;
       if (req.file) {
          message = await createEncryptedIPFSHashFromFileBuffer(req.file.buffer, 'edededwe'); //req.user.secretKey
-         console.log('Message', message);
       } else {
          message = req.body.message;
       }
       const rasa = await rasaService.RASARequest(message, sender);
-      return res.json(rasa);
+      return res.status(200).json(rasa);
    } catch (err) {
       console.error('Error: ', err);
       return res.status(500);

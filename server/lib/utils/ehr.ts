@@ -112,19 +112,17 @@ export const showRevoke = async (demail: string, records: any) => {
 
 export const createIPFSHashFromFileBuffer = async (fileBuffer: any, secretKey: any) => {
    const cipher = cryptoService.encrypt(fileBuffer, secretKey);
-   const cipherBuffer = new Buffer(cipher);
-   console.log(cipherBuffer);
+   const cipherBuffer = Buffer.from(cipher, 'base64');
    return await ipfsService.AddFile(cipherBuffer);
 };
 
 export const createEncryptedIPFSHashFromFileBuffer = async (fileBuffer: any, secretKey: any) => {
    const ipfsHash = await createIPFSHashFromFileBuffer(fileBuffer, secretKey);
-   console.log(ipfsHash);
    return cryptoService.encrypt(ipfsHash, secretKey);
 };
 
 export const createIPFSHashFromCipher = async (cipher: any) => {
-   const cipherBuffer = new Buffer(cipher);
+   const cipherBuffer = Buffer.from(cipher, 'base64');
    return await ipfsService.AddFile(cipherBuffer);
 };
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
