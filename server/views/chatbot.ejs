@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <%- include('partials/headnew.ejs') %>
+
+<body class="">
+  <div class="wrapper ">
+    <%- include('partials/sidebar.ejs') %>
+    <div class="main-panel">
+      <%- include('partials/topbar.ejs') %>
+      <div class="content1">
+            <div class="col-xl-12" id="map2">
+             <div class="card ">
+               <div class="card-body msg_card_body" id="result_div">
+               </div>
+               <div class="card-down">
+                 <div class="input-group" >
+                   <input type="text" autocomplete="on"  id="chat-input" class="form-control type_msg bot-txt" placeholder="Type your message..." />
+                   <div class="input-group-append">
+                     <button class="input-group-text clear_btn " id="clear" ><i class="material-icons">close</i></button>
+                   </div>
+                   <div class="input-group-append">
+                     <button class="input-group-text send_btn" id="send"><i class="material-icons">send</i></button>
+                   </div>
+                 </div>
+               </div>
+              </div>
+            </div>
+      </div>
+      <%- include('partials/footer.ejs') %>
+    </div>
+  </div>
+
+            
+  <%- include('partials/footerfiles.ejs') %>
+</body>
+
+</html>
