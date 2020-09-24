@@ -3,6 +3,9 @@ import { ipfsService, rasaService, cryptoService, vaultService } from '../servic
 import UserModel, { UserInterface } from '../models/user.models';
 import { createEncryptedIPFSHashFromFileBuffer } from '../utils/ehr';
 
+const doctorExclude = ['pass', 're_pass', 'signup'];
+const patientExclude = [...doctorExclude, 'location', 'institute', 'specialization'];
+
 export const signUp = async (req: Request, res: Response) => {
    const users = await vaultService.getUsers();
    if (users.includes(req.body.username)) {
@@ -10,7 +13,16 @@ export const signUp = async (req: Request, res: Response) => {
    } else {
       try {
          const asset: UserInterface = req.body as UserInterface;
-         new UserModel(asset, req.body.password);
+         if (req.body.institute === '') {
+            patientExclude.forEach(key => {
+               delete asset[key];
+            });
+         } else {
+            doctorExclude.forEach(key => {
+               delete asset[key];
+            });
+         }
+         new UserModel(asset, req.body.pass);
          if (asset.schema == 'Patient') {
             return res.redirect('/user/home');
          } else {

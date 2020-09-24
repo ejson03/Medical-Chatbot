@@ -3,10 +3,11 @@ import { cryptoService, bigchainService, vaultService } from '../services';
 export interface UserInterface {
    email: string;
    name: string;
+   username: string;
    schema: string;
    gender: string;
    institute?: string;
-   qualification?: string;
+   specialization?: string;
    location?: string;
    RSAKey?: string;
    bigchainKey?: string;
@@ -24,19 +25,19 @@ interface SecretInterface {
 export default class UserModel {
    public registered: boolean = false;
    public records: [] = [];
-   public user!: UserInterface;
-   public secrets!: SecretInterface;
+   public user = {} as UserInterface;
+   public secrets = {} as SecretInterface;
 
    constructor(user: UserInterface, password?: string) {
       if (password) {
-         this.getBio(user.name, user.schema, password).then(user => {
-            this.user = user;
+         this.getBio(user.username, user.schema, password).then(_user => {
+            this.user = _user;
             console.log('User is ', this.user);
          });
 
          if (!this.registered) {
-            this.createUser(user, password).then(user => {
-               this.user = user;
+            this.createUser(user, password).then(_user => {
+               this.user = _user;
                this.registered = true;
                console.log('User created is ', this.user);
             });
@@ -45,7 +46,7 @@ export default class UserModel {
       }
 
       if (this.records.length === 0 && this.registered) {
-         this.getRecords(user.name).then(record => {
+         this.getRecords(user.username).then(record => {
             this.records = record;
             console.log('Records', this.records);
          });
@@ -70,15 +71,15 @@ export default class UserModel {
 
    writeKeys(username: string) {
       try {
-         this.secrets.secretKey = cryptoService.createSecretKey();
+         this.secrets!.secretKey = cryptoService.createSecretKey();
          const bigchainKeys = bigchainService.createBigchainKeys(
             cryptoService.encrypt(username, this.secrets.secretKey)
          );
-         this.secrets.bigchainPrivateKey = bigchainKeys.privateKey;
-         this.secrets.bigchainPublicKey = bigchainKeys.publicKey;
+         this.secrets!.bigchainPrivateKey = bigchainKeys.privateKey;
+         this.secrets!.bigchainPublicKey = bigchainKeys.publicKey;
          const { privateKey, publicKey } = cryptoService.generateRSAKeys();
-         this.secrets.RSAPrivateKey = privateKey;
-         this.secrets.RSAPublicKey = publicKey;
+         this.secrets!.RSAPrivateKey = privateKey;
+         this.secrets!.RSAPublicKey = publicKey;
          Object.keys(this.secrets).forEach(([key, value]) => {
             vaultService.write(key, value);
          });
@@ -97,8 +98,8 @@ export default class UserModel {
 
    async createUser(asset: UserInterface, password: string) {
       try {
-         await vaultService.signUp(password, asset.name);
-         this.writeKeys(asset.name);
+         await vaultService.signUp(password, asset.username);
+         this.writeKeys(asset.username);
          asset.bigchainKey = this.secrets.bigchainPublicKey.toString();
          asset.RSAKey = this.secrets.RSAPublicKey.toString();
          asset.date = new Date().toString();

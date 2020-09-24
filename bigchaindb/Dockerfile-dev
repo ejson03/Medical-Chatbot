@@ -33,4 +33,5 @@ RUN mkdir -p /usr/src/app
 COPY . /usr/src/app/
 WORKDIR /usr/src/app
 RUN pip install -e .[dev]
+RUN chmod +x ./.ci/entrypoint.sh
 RUN bigchaindb -y configure
