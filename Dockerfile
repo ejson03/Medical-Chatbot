@@ -1,4 +1,4 @@
-FROM rasa/rasa:latest as base
+FROM rasa/rasa:1.10.14 as base
 
 FROM base as action
 WORKDIR /app
