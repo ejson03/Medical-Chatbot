@@ -69,8 +69,9 @@ export const rasa = async (req: Request, res: Response) => {
    try {
       const sender = String(req.session?.name);
       let message;
-      if (req.file.size > 1) {
+      if (req.file) {
          message = await createEncryptedIPFSHashFromFileBuffer(req.file.buffer, 'edededwe'); //req.user.secretKey
+         console.log('Message', message);
       } else {
          message = req.body.message;
       }

@@ -21,7 +21,7 @@ commonRouter.post('/login', commonController.login);
 
 commonRouter.post('/view', commonController.view);
 
-commonRouter.post('/rasa', fileUpload.any(), commonController.rasa);
+commonRouter.post('/rasa', fileUpload.single('file'), commonController.rasa);
 
 commonRouter.post('/logout', function (req: Request, res: Response) {
    req.session?.destroy(err => console.log(err));

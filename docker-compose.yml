@@ -2,6 +2,9 @@ version: "3.7"
 services:
   mongodb:
     image: mongo:latest
+    environment:
+      MONGODB_USER: "${MONGO_USER}"
+      MONGODB_PASS: "${MONGO_PASS}"
     ports:
       - "27017:27017"
     command: mongod

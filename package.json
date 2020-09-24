@@ -4,7 +4,6 @@
   "description": "Vortex app for mit 2020",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "git": "git add . && git commit -m",
     "postgit": "git push",
     "tag": "npm version patch && git push --tags"
