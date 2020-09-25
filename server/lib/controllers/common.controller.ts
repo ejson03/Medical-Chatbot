@@ -9,7 +9,7 @@ const patientExclude = [...doctorExclude, 'location', 'institute', 'specializati
 export const signUp = async (req: Request, res: Response) => {
    const users = await vaultService.getUsers();
    if (users.includes(req.body.username)) {
-      return res.json({ success: false });
+      return res.status(401).json({ success: false });
    } else {
       try {
          const asset: UserInterface = req.body as UserInterface;
@@ -22,7 +22,8 @@ export const signUp = async (req: Request, res: Response) => {
                delete asset[key];
             });
          }
-         new UserModel(asset, req.body.pass);
+         const user = new UserModel(asset, req.body.pass);
+         req.session!.user = user;
          if (asset.schema == 'Patient') {
             return res.redirect('/user/home');
          } else {
@@ -37,10 +38,20 @@ export const signUp = async (req: Request, res: Response) => {
 };
 
 export const login = async (req: Request, res: Response) => {
-   if (req.body.schema == 'Patient') {
-      return res.redirect('/user/home');
+   const users = await vaultService.getUsers();
+   if (users.includes(req.body.username)) {
+      const status = await vaultService.login(req.body.password, req.body.username);
+      if (status) {
+         if (req.body.schema == 'Patient') {
+            return res.redirect('/user/home');
+         } else {
+            return res.redirect('/doctor/home');
+         }
+      } else {
+         return res.status(401).json({ success: 'Password is incorrect' });
+      }
    } else {
-      return res.redirect('/doctor/home');
+      return res.status(401).json({ success: 'User does not exist' });
    }
 };
 
