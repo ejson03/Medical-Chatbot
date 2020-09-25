@@ -42,7 +42,6 @@ export default class UserModel {
                console.log('User created is ', this.user);
             });
          }
-      } else {
       }
 
       if (this.records.length === 0 && this.registered) {

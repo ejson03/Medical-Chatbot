@@ -42,6 +42,8 @@ export const login = async (req: Request, res: Response) => {
    if (users.includes(req.body.username)) {
       const status = await vaultService.login(req.body.password, req.body.username);
       if (status) {
+         const user = new UserModel(req.body, req.body.pass);
+         req.session!.user = user;
          if (req.body.schema == 'Patient') {
             return res.redirect('/user/home');
          } else {
