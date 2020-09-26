@@ -17,8 +17,8 @@ services:
     build:
       context: bigchaindb
       dockerfile: Dockerfile-dev
-    volumes:
-      - ./bigchaindb:/usr/src/app/bigchaindb
+    # volumes:
+      # - ./bigchaindb:/usr/src/app/bigchaindb
       # - ./tests:/usr/src/app/tests
       # - ./docs:/usr/src/app/docs
       # - ./htmlcov:/usr/src/app/htmlcov
