@@ -9,10 +9,6 @@ router.get('/status', (_req, res) => {
    res.json({ status: 'OK' });
 });
 
-router.get('/chatbot', (_req, res) => {
-   res.render('chatbot.ejs');
-});
-
 router.use('/', commonRouter);
 router.use('/user', userRouter);
 router.use('/doctor', doctorRouter);

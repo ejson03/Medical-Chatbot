@@ -86,7 +86,7 @@ class LocalMongoDBConnection(Connection):
             :exc:`~ConfigurationError`: If there is a ConfigurationError while
                 connecting to the database.
         """
-
+        print(self.login, self.password)
         try:
             # FYI: the connection process might raise a
             # `ServerSelectionTimeoutError`, that is a subclass of

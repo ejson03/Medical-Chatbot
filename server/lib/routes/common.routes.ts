@@ -16,6 +16,10 @@ commonRouter.get('/signup', function (_req: Request, res: Response) {
    return res.render('signup.html');
 });
 
+commonRouter.get('/chatbot', (_req, res) => {
+   res.render('chatbot.ejs');
+});
+
 commonRouter.post('/signup', commonController.signUp);
 commonRouter.post('/login', commonController.login);
 
