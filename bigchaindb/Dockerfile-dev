@@ -32,5 +32,6 @@ ENV BIGCHAINDB_CI_ABCI ${abci_status}
 RUN mkdir -p /usr/src/app
 COPY . /usr/src/app/
 WORKDIR /usr/src/app
+RUN chmod +x /usr/src/app/.ci/entrypoint.sh
 RUN pip install -e .[dev]
 RUN bigchaindb -y configure
