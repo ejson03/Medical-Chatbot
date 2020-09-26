@@ -1,6 +1,6 @@
 {
   "name": "vortex-mit2020",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Vortex app for mit 2020",
   "main": "index.js",
   "scripts": {
