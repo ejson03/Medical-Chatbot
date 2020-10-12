@@ -335,7 +335,9 @@ class ActionGetAllRecords(Action):
         return "action_get_all_records"
 
     def run(self, dispatcher, tracker, domain):
-         username = tracker.get_slot("username")
+         username = tracker.get_slot('username') if tracker.get_slot("username") else tracker.get_slot('name')
+         if (not username):
+             dispatcher.utter_message(text="Found no records for mentioned user")
          records = get_records(username)
          dispatcher.utter_message(json_message={"payload":"records","data":records})
 

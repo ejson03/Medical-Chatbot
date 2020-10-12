@@ -11,3 +11,4 @@ pillow
 bcrypt
 ipfshttpclient
 bigchaindb_driver
+hvac

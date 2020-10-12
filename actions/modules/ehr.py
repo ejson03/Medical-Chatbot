@@ -2,8 +2,8 @@ import uuid, os, json, requests
 from bigchaindb_driver import BigchainDB
 from bigchaindb_driver.crypto import generate_keypair, CryptoKeypair
 from datetime import datetime
-from encryption import *
-from vault import Vault, Config
+from .encryption import *
+from .vault import Vault, Config
 from .config import *
 
 config = Config(
