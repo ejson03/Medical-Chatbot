@@ -5,13 +5,13 @@ from Crypto.Hash import SHA256, MD5
 import json
 import base64
 import os
-import ipfshttpclient
+# import ipfshttpclient
 from .config import *
-ipfs = ipfshttpclient.connect('/dns/ipfs.infura.io/tcp/5001/https')
+# ipfs = ipfshttpclient.connect('/dns/ipfs.infura.io/tcp/5001/https')
 
-def ipfs_add(file):
-    url = ipfs.add_bytes(file)
-    return url
+# def ipfs_add(file):
+#     url = ipfs.add_bytes(file)
+#     return url
 
 def encrypt_rsa(key, public_key):
     handler = PKCS1_OAEP.new(public_key)
