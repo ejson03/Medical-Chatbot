@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { ipfsService, rasaService, cryptoService, vaultService } from '../services';
 import UserModel, { UserInterface } from '../models/user.models';
-import { createEncryptedIPFSHashFromFileBuffer } from '../utils/ehr';
+import { createIPFSHashFromFileBuffer } from '../utils/ehr';
 
 const doctorExclude = ['pass', 're_pass', 'signup'];
 const patientExclude = [...doctorExclude, 'location', 'institute', 'specialization'];
@@ -86,15 +86,16 @@ export const view = async (req: Request, res: Response) => {
 
 export const rasa = async (req: Request, res: Response) => {
    try {
-      const sender = String(req.session?.name);
-      let message;
+      const sender = String(req.session?.name) || 'vortex';
+      let message: any;
+      let rasa: any;
       if (req.file) {
-         message = await createEncryptedIPFSHashFromFileBuffer(req.file.buffer, 'edededwe'); //req.user.secretKey
-         console.log(message);
+         message = await createIPFSHashFromFileBuffer(req.file.buffer, 'edededwe'); //req.user.secretKey
+         rasa = await rasaService.RASARequest(message, sender, 'edededwe'); //req.session?.user.secrets.secretKey);
       } else {
          message = req.body.message;
+         rasa = await rasaService.RASARequest(message, sender);
       }
-      const rasa = await rasaService.RASARequest(message, sender);
       return res.status(200).json(rasa);
    } catch (err) {
       console.error('Error: ', err);

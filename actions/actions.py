@@ -310,14 +310,15 @@ class ActionSetFile(Action):
         return user_events[-1]['metadata']
 
     def run(self, dispatcher, tracker, domain):
-        file = tracker.latest_message['text']
-        dispatcher.utter_message("File is being called")
+        metadata = self.extract_metadata_from_tracker(tracker)
+        record = tracker.latest_message['text']
         # buttons = []
         # buttons.append({"payload": "/conform_yes", "title":"Do you want to submit?"})
         # buttons.append({"payload": "/conform_no", "title":"Do you want to reject?"})
         # dispatcher.utter_message(text="Choose Option", buttons=buttons)
         #dispatcher.utter_message(template = "utter_conform")
-        return [SlotSet(key='file', value=file)]
+        dispatcher.utter_message(text=f"{metadata} and {record}")
+        return [SlotSet(key='file', value=record)]
 
 class ActionConfirmation(Action):
 

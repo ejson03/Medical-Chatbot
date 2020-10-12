@@ -149,6 +149,7 @@ intents:
 - out_of_scope
 - get_emotion
 - get_all_records
+- get_ipfs_url
 - ask_builder
 - ask_howdoing
 - ask_howold

@@ -138,6 +138,7 @@
     - form{"name": null}
     - utter_confirm
     - action_upload
+* get_ipfs_url
     - action_listen
     - action_set_file
 * smalltalk_appraisal_thank_you
@@ -158,6 +159,7 @@
     - form{"name": null}
     - utter_confirm
     - action_upload
+* get_ipfs_url
     - action_listen
     - action_set_file
 * smalltalk_appraisal_thank_you
@@ -181,6 +183,7 @@
     - form{"name": null}
     - utter_confirm
     - action_upload
+* get_ipfs_url
     - action_listen
     - action_set_file
 * smalltalk_appraisal_thank_you
@@ -202,6 +205,7 @@
     - form{"name": null}
     - utter_confirm
     - action_upload
+* get_ipfs_url
     - action_listen
     - action_set_file
 * smalltalk_appraisal_thank_you
@@ -237,6 +241,7 @@
     - form{"name": null}
     - utter_confirm
     - action_upload
+* get_ipfs_url
     - action_listen
     - action_set_file
 * smalltalk_appraisal_thank_you
@@ -259,6 +264,7 @@
     - form{"name": null}
     - utter_confirm
     - action_upload
+* get_ipfs_url
     - action_listen
     - action_set_file
 * smalltalk_appraisal_thank_you
@@ -284,6 +290,7 @@
     - form{"name": null}
     - utter_confirm
     - action_upload
+* get_ipfs_url
     - action_listen
     - action_set_file
 * smalltalk_appraisal_thank_you
@@ -317,6 +324,7 @@
     - form{"name": null}
     - utter_file
     - action_upload
+* get_ipfs_url
     - action_listen
     - action_set_file
 * smalltalk_appraisal_thank_you
@@ -337,6 +345,7 @@
     - form{"name": null}
     - utter_file
     - action_upload
+* get_ipfs_url
     - action_listen
     - action_set_file
 * smalltalk_appraisal_thank_you
@@ -360,6 +369,7 @@
     - form{"name": null}
     - utter_file
     - action_upload
+* get_ipfs_url
     - action_listen
     - action_set_file
 * smalltalk_appraisal_thank_you
@@ -381,6 +391,7 @@
     - form{"name": null}
     - utter_file
     - action_upload
+* get_ipfs_url
     - action_listen
     - action_set_file
 * smalltalk_appraisal_thank_you
@@ -416,6 +427,7 @@
     - form{"name": null}
     - utter_file
     - action_upload
+* get_ipfs_url
     - action_listen
     - action_set_file
 * smalltalk_appraisal_thank_you
@@ -438,6 +450,7 @@
     - form{"name": null}
     - utter_file
     - action_upload
+* get_ipfs_url
     - action_listen
     - action_set_file
 * smalltalk_appraisal_thank_you
@@ -463,6 +476,7 @@
     - form{"name": null}
     - utter_file
     - action_upload
+* get_ipfs_url
     - action_listen
     - action_set_file
 * smalltalk_appraisal_thank_you
