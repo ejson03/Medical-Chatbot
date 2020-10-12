@@ -1,30 +1,23 @@
 from pymongo import MongoClient
-
-import typing
-from typing import Dict, Text, Any, List, Union, Optional, Tuple
-import logging
 from modules.utils import *
 from modules.diagnose import encode_symptom, create_illness_vector, get_diagnosis
 from modules.scrapper import *
 from modules.config import * 
-import os
-import requests
+from modules.encryption import encrypt
+from modules.ehr import get_records
+# from modules.ehr import User
+# from modules.vault import Config
+import os, requests, base64, uuid
 from os import environ
-import uuid
-MONGODB_STRING = environ.get("MONGO_URL")
-client = MongoClient(MONGODB_STRING)
-import base64
 from sys import getsizeof
-
+from datetime import datetime, date, time, timedelta
 from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet, AllSlotsReset, EventType, SessionStarted, ActionExecuted, FollowupAction, BotUttered, Form, EventType
 from rasa_sdk.forms import FormAction
 from rasa_sdk.executor import CollectingDispatcher
-# from modules.ehr import User
-# from modules.vault import Config
-from datetime import datetime, date, time, timedelta
-from modules.encryption import encrypt, ipfs_add
-import base64
+
+MONGODB_STRING = environ.get("MONGO_URL")
+client = MongoClient(MONGODB_STRING)
 
 class ResetSlot(Action):
 
@@ -306,6 +299,16 @@ class ActionSetFile(Action):
     def name(self):
         return "action_set_file"
 
+    @staticmethod
+    def extract_metadata_from_tracker(tracker: Tracker):
+        events = tracker.current_state()['events']
+        user_events = []
+        for e in events:
+            if e['event'] == 'user':
+                user_events.append(e)
+
+        return user_events[-1]['metadata']
+
     def run(self, dispatcher, tracker, domain):
         file = tracker.latest_message['text']
         dispatcher.utter_message("File is being called")
@@ -314,11 +317,7 @@ class ActionSetFile(Action):
         # buttons.append({"payload": "/conform_no", "title":"Do you want to reject?"})
         # dispatcher.utter_message(text="Choose Option", buttons=buttons)
         #dispatcher.utter_message(template = "utter_conform")
-        file = file.encode('ascii')
-        file = base64.b64decode(file)
-        file = encrypt(file, "key")
-        url = ipfs_add(file)
-        return [SlotSet(key='file', value=url)]
+        return [SlotSet(key='file', value=file)]
 
 class ActionConfirmation(Action):
 
@@ -329,6 +328,18 @@ class ActionConfirmation(Action):
         conform = tracker.latest_message
         print(conform)
         dispatcher.utter_message(text="You have entered the bigchaindb part")  
+
+class ActionGetAllRecords(Action):
+
+    def name(self):
+        return "action_get_all_records"
+
+    def run(self, dispatcher, tracker, domain):
+         username = tracker.get_slot("username")
+         records = get_records(username)
+         dispatcher.utter_message(json_message={"payload":"records","data":records})
+
+
 
 
 

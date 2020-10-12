@@ -1,3 +1,19 @@
+## intent:get_all_records
+- i want to see all my records
+- can u show me my records
+- i wanna know my medical history
+- medical history
+- all records
+- display all records
+- display records
+- can u show me my past medical history
+- i wanna know what i have done in the past
+- show my past consultations
+- show me my records
+- show me my medical history
+- i want to get records for [Elvis](name)
+- i want to know [Vedant](name) past medical history
+
 ## intent:greet
 - hey
 - hello
@@ -2896,22 +2912,6 @@
 - I promise to come back
 - I'll be back in a few minutes
 
-<!-- ## intent:get_ipfs_url
-- [QmWwMb3XhuCH6JnCF6m6EQzA4mW9pHHtg7rqAfhDr2ofi8](ipfs)
-- [QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco](ipfs)
-- [QmdDbLyNKCwtBVFhEVQfdBTCnEWmWRJGnm93qa3kzBjVym](ipfs)
-- [QmZfSNpHVzTNi9gezLcgq64Wbj1xhwi9wk4AxYyxMZgtCG](ipfs)
-- [QmdPtC3T7Kcu9iJg6hYzLBWR5XCDcYMY7HV685E3kH3EcS](ipfs)
-- [QmfQiLpdBDbSkb2oySwFHzNucvLkHmGFxgK4oA2BUSwi4t](ipfs)
-- [QmavE42xtK1VovJFVTVkCR5Jdf761QWtxmvak9Zx718TVr](ipfs)
-- [QmeKZSrzAZ5bhaxH2rvm8HEsiqfKceG1FuLHwwbD3mbnEo](ipfs)
-- [QmVc6zuAneKJzicnJpfrqCH9gSy6bz54JhcypfJYhGUFQu](ipfs)
-- [QmccqhJg5wm5kNjAP4k4HrYxoqaXUGNuotDUqfvYBx8jrR](ipfs)
-- [QmTvGbPiS1PaE7AAn4gEszNiYMgdrbMXwLkGnLKYSADs8K](ipfs)
-- [QmdycyxM3r8b2pHx3M63Xd8NUfsXoEmBnU8W6PgL9eY9cN](ipfs)
-- [QmcvyefkqQX3PpjpY5L8B2yMd47XrVwAipr6cxUt2zvYU8](ipfs)
-- [QmfWQHVazH6so9p27z27rr8TJSdBFGpH7hunDcaZ1EAQ2c](ipfs)
-- [QmcniBv7UQ4gGPQQW2BwbD4ZZHzN3o3tPuNLZCbBchd1zh](ipfs) -->
 
 ## synonym:Delhi
 - New Delhi
@@ -2999,5 +2999,3 @@
 - loneliness
 - misery
 
-<!-- ## regex:ipfs
-- ^(Qm)(\w+)$ -->

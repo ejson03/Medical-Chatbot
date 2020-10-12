@@ -6,6 +6,7 @@ dist
 .vscode
 dummy-code
 .env
+env.json
 test
 env
 .vscode/

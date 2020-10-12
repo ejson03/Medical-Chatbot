@@ -28,36 +28,31 @@ export default class UserModel {
    public user = {} as UserInterface;
    public secrets = {} as SecretInterface;
 
-   constructor(user: UserInterface, password?: string) {
+   constructor(username: string, schema: string, password?: string) {
       if (password) {
-         this.getBio(user.username, user.schema, password).then(_user => {
+         this.getBio(username, schema, password).then(_user => {
             this.user = _user;
             console.log('User is ', this.user);
          });
 
-         if (!this.registered) {
-            this.createUser(user, password).then(_user => {
-               this.user = _user;
-               this.registered = true;
-               console.log('User created is ', this.user);
+         if (this.records.length === 0 && this.registered) {
+            this.getRecords(username).then(record => {
+               this.records = record;
+               console.log('Records', this.records);
             });
          }
-      }
-
-      if (this.records.length === 0 && this.registered) {
-         this.getRecords(user.username).then(record => {
-            this.records = record;
-            console.log('Records', this.records);
-         });
       }
    }
 
    async getBio(username: string, schema: string, password: string) {
       try {
          let records = await bigchainService.getAsset(username);
+         console.log(records);
          records = records.filter(function (data: any | UserInterface) {
-            return data.schema == schema;
+            console.log(data.schema, schema);
+            return data.schema === schema;
          });
+         console.log(records);
          this.registered = true;
          await vaultService.login(password, username);
          await this.readKeys();
@@ -108,6 +103,8 @@ export default class UserModel {
             this.secrets.bigchainPublicKey,
             this.secrets.bigchainPrivateKey
          );
+         this.registered = true;
+         this.user = tx.asset.data;
          return tx.asset.data;
       } catch (error) {
          console.log('Error is', error);

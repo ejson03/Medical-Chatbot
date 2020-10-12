@@ -12,6 +12,8 @@ export const signUp = async (req: Request, res: Response) => {
       return res.status(401).json({ success: false });
    } else {
       try {
+         const password = req.body.pass;
+         req.session!.password = password;
          const asset: UserInterface = req.body as UserInterface;
          if (req.body.institute === '') {
             patientExclude.forEach(key => {
@@ -22,8 +24,10 @@ export const signUp = async (req: Request, res: Response) => {
                delete asset[key];
             });
          }
-         const user = new UserModel(asset, req.body.pass);
+         const user = new UserModel(asset.username, asset.schema, password);
+         await user.createUser(asset, password);
          req.session!.user = user;
+         console.log(req.session);
          if (asset.schema == 'Patient') {
             return res.redirect('/user/home');
          } else {
@@ -42,8 +46,10 @@ export const login = async (req: Request, res: Response) => {
    if (users.includes(req.body.username)) {
       const status = await vaultService.login(req.body.password, req.body.username);
       if (status) {
-         const user = new UserModel(req.body, req.body.pass);
+         req.session!.pass = req.body.pass;
+         const user = new UserModel(req.body.username, req.body.schema, req.body.password);
          req.session!.user = user;
+         console.log(req.session);
          if (req.body.schema == 'Patient') {
             return res.redirect('/user/home');
          } else {
@@ -84,6 +90,7 @@ export const rasa = async (req: Request, res: Response) => {
       let message;
       if (req.file) {
          message = await createEncryptedIPFSHashFromFileBuffer(req.file.buffer, 'edededwe'); //req.user.secretKey
+         console.log(message);
       } else {
          message = req.body.message;
       }

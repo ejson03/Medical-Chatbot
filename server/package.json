@@ -7,8 +7,11 @@
       "build": "tsc",
       "start": "nodemon ./dist/server.js",
       "deploy": "node ./dist/server.js",
+      "compile": "npm run build && npm run deploy",
+      "dev": "nodemon -e ts --exec \"npm run compile\"",
       "lint": "eslint --cache --max-warnings=0 --fix ./**/*.ts",
       "format": "prettier --write ./**/*.ts"
+
    },
    "repository": {
       "type": "git",

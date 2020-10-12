@@ -1,6 +1,7 @@
 actions:
 - action_confirmation
 - action_diagnose_symptoms
+- action_get_all_records
 - action_ehr
 - action_get_credentials
 - action_get_joke
@@ -132,7 +133,6 @@ entities:
 - symptom
 - weight
 - conform
-# - ipfs
 
 forms:
 - ehr_form
@@ -148,6 +148,7 @@ intents:
 - thank
 - out_of_scope
 - get_emotion
+- get_all_records
 - ask_builder
 - ask_howdoing
 - ask_howold
@@ -159,7 +160,6 @@ intents:
 - ask_temperature
 - ask_weather
 - ask_ehr_form
-- get_ipfs_url
 - conform_no
 - conform_yes
 - show_map

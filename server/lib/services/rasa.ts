@@ -3,10 +3,16 @@ import { MongoClient } from 'mongodb';
 import fetch from 'node-fetch';
 import * as config from '../config';
 
-export const RASARequest = async (message: unknown, sender: string) => {
+export const RASARequest = async (message: unknown, sender: string, metadata?: string) => {
+   let data: any;
+   if (metadata) {
+      data = { message: message, sender: sender, metadata: metadata };
+   } else {
+      data = { message: message, sender: sender };
+   }
    const response = await fetch(`${config.RASA_URL}/webhooks/rest/webhook`, {
       method: 'POST',
-      body: JSON.stringify({ message: message, sender: sender })
+      body: JSON.stringify(data)
    });
    return await response.json();
 };

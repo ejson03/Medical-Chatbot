@@ -219,10 +219,19 @@ class User(object):
         tx = bdb.transactions.send_commit(signed)
         return tx
 
-if __name__ =='__main__':
-    vault = Vault(config)
-    vault.setup()
-    user = User('pratik', 'doctor', '12345678')
+def get_records(query):
+    try:
+        records = bdb.assets.get(search=query)
+        records = list(filter(lambda record : record['data']['schema'] == 'record', records))
+        return records
+    except:
+        return []
+
+
+# if __name__ =='__main__':
+#     vault = Vault(config)
+#     vault.setup()
+#     user = User('pratik', 'doctor', '12345678')
 
     # print(user.write_record("sadaedeafefef", {"description": "get allah....lamo"}))
     # transfer = user.transfer_record(asset="get allah....lamo", doclist=['ajacku'])

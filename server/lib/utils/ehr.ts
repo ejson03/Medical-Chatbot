@@ -134,6 +134,7 @@ export const createRecord = async (
    privateKey: string,
    secretKey: string
 ) => {
+   console.log(fileBuffer, publicKey, privateKey, secretKey);
    let cipher = cryptoService.encrypt(fileBuffer, secretKey);
    let ipfsURL = await createIPFSHashFromCipher(cipher);
    let ipfsURLEncrypted = cryptoService.encrypt(ipfsURL, secretKey);

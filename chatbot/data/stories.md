@@ -120,6 +120,12 @@
     - action_weather
     - utter_did_that_help
 
+## Generated Story 10
+* greet
+    - utter_greet
+* get_all_records
+    - action_get_all_records
+
 ## happy path ehr_form
 * greet
     - utter_greet

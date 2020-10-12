@@ -9,6 +9,7 @@ import {
 } from '../utils/ehr.js';
 import { bigchainService } from '../services';
 import type { Request, Response } from 'express';
+import UserModel from '../models/user.models';
 
 export const getDoctorList = async (_req: Request, res: Response) => {
    try {
@@ -23,9 +24,13 @@ export const getDoctorList = async (_req: Request, res: Response) => {
 
 export const getMedicalHistory = async (req: Request, res: Response) => {
    try {
-      const data = req.session?.user.records;
-      console.log(data);
-      return res.render('patientmedhistory.ejs', { doc: data });
+      let records = req.session?.user.records;
+      if (records.length === 0 && req.session) {
+         let user = new UserModel(req.session.user.user.username, req.session.user.user.schema, req.session.password);
+         req.session.user = user;
+         console.log(req.session.user);
+      }
+      return res.render('patientmedhistory.ejs', { doc: req.session?.user.records });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);
@@ -34,7 +39,6 @@ export const getMedicalHistory = async (req: Request, res: Response) => {
 
 export const postAccess = async (req: Request, res: Response) => {
    req.session!.demail = req.body.value;
-
    try {
       let data = await showAccess(req.session?.demail, req.session?.user.records);
       return res.render('patientaccesstrans.ejs', { doc: data });
@@ -130,8 +134,7 @@ export const addRecord = async (req: Request, res: Response) => {
       return res.sendStatus(404).json({ status: 'File not uploaded' });
    }
    let fields = req.body;
-   console.log(req.body, req.files);
-   let fpath = req.files[0].fileupload.path;
+   let fileBuffer = req.files[0].buffer;
 
    let data = {
       height: fields.height,
@@ -146,11 +149,11 @@ export const addRecord = async (req: Request, res: Response) => {
    try {
       let tx = await createRecord(
          data,
-         req.session?.email,
-         fpath,
-         req.session?.user.bigchainKeys.publicKey,
-         req.session?.user.bigchainKeys.privateKey,
-         req.session?.user.secretKey
+         req.session?.user.user.email,
+         fileBuffer,
+         req.session?.user.secrets.bigchainPublicKey,
+         req.session?.user.secrets.bigchainPrivateKey,
+         req.session?.user.secrets.secretKey
       );
       console.log('Transaction', tx.id, 'successfully posted.');
       return res.redirect('/user/medicalhistory');
