@@ -24,7 +24,7 @@ export const signUp = async (req: Request, res: Response) => {
                delete asset[key];
             });
          }
-         const user = new UserModel(asset.username, asset.schema, password);
+         const user = new UserModel();
          await user.createUser(asset, password);
          req.session!.user = user;
          console.log(req.session);
@@ -44,10 +44,12 @@ export const signUp = async (req: Request, res: Response) => {
 export const login = async (req: Request, res: Response) => {
    const users = await vaultService.getUsers();
    if (users.includes(req.body.username)) {
-      const status = await vaultService.login(req.body.password, req.body.username);
+      const status = await vaultService.login(req.body.pass, req.body.username);
       if (status) {
          req.session!.pass = req.body.pass;
-         const user = new UserModel(req.body.username, req.body.schema, req.body.password);
+         const user = new UserModel();
+         await user.getBio(req.body.username, req.body.schema);
+         await user.getRecords(req.body.username);
          req.session!.user = user;
          console.log(req.session);
          if (req.body.schema == 'Patient') {

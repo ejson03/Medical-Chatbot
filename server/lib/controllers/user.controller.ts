@@ -13,8 +13,9 @@ import UserModel from '../models/user.models';
 
 export const getDoctorList = async (_req: Request, res: Response) => {
    try {
-      let result = await bigchainService.getAsset('doctor');
+      let result = await bigchainService.getAsset('Doctor');
       result = result.map((data: { [x: string]: unknown }) => data['data']);
+      console.log(result);
       return res.render('patientaccdoclist.ejs', { docs: result });
    } catch (err) {
       console.error(err);
@@ -26,11 +27,11 @@ export const getMedicalHistory = async (req: Request, res: Response) => {
    try {
       let records = req.session?.user.records;
       if (records.length === 0 && req.session) {
-         let user = new UserModel(req.session.user.user.username, req.session.user.user.schema, req.session.password);
-         req.session.user = user;
-         console.log(req.session.user);
+         const user = req.session.user as UserModel;
+         user.getRecords(req.session.user.user.username);
+         records = req.session?.user.records;
       }
-      return res.render('patientmedhistory.ejs', { doc: req.session?.user.records });
+      return res.render('patientmedhistory.ejs', { doc: records });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);
