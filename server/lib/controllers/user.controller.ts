@@ -13,9 +13,9 @@ import UserModel from '../models/user.models';
 
 export const getDoctorList = async (_req: Request, res: Response) => {
    try {
-      let result = await bigchainService.getAsset('doctor');
+      let result = await bigchainService.getAsset('Doctor');
       result = result.map((data: { [x: string]: unknown }) => data['data']);
-      return res.render('patientaccdoclist.ejs', { docs: result });
+      return res.render('patientaccdoclist.ejs', { doctors: result });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);
@@ -26,11 +26,13 @@ export const getMedicalHistory = async (req: Request, res: Response) => {
    try {
       let records = req.session?.user.records;
       if (records.length === 0 && req.session) {
-         let user = new UserModel(req.session.user.user.username, req.session.user.user.schema, req.session.password);
+         const user = new UserModel(req.session.user);
+         user.getRecords(req.session.user.user.username);
          req.session.user = user;
-         console.log(req.session.user);
+         records = req.session?.user.records;
+         console.log(req.session, records);
       }
-      return res.render('patientmedhistory.ejs', { doc: req.session?.user.records });
+      return res.render('patientmedhistory.ejs', { records: records });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);
@@ -41,7 +43,7 @@ export const postAccess = async (req: Request, res: Response) => {
    req.session!.demail = req.body.value;
    try {
       let data = await showAccess(req.session?.demail, req.session?.user.records);
-      return res.render('patientaccesstrans.ejs', { doc: data });
+      return res.render('patientaccesstrans.ejs', { records: data });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);
@@ -53,7 +55,7 @@ export const postRevoke = async (req: Request, res: Response) => {
    try {
       let data = await showRevoke(req.session?.demail, req.session?.user.records);
       // console.log("revoke data is....", data)
-      return res.render('patientrevoketrans.ejs', { doc: data });
+      return res.render('patientrevoketrans.ejs', { records: data });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);
@@ -110,7 +112,7 @@ export const prescription = async (req: Request, res: Response) => {
    let demail = req.body.demail;
    try {
       let data = await getPrescription(req.session?.user.email, demail);
-      return res.render('patientpresc.ejs', { doc: data });
+      return res.render('patientpresc.ejs', { records: data });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);
@@ -122,7 +124,7 @@ export const assetHistory = async (req: Request, res: Response) => {
    try {
       let data = getAssetHistory(assetid);
       console.log(data);
-      return res.render('patientassethistory.ejs', { doc: data });
+      return res.render('patientassethistory.ejs', { records: data });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);
@@ -149,6 +151,7 @@ export const addRecord = async (req: Request, res: Response) => {
    try {
       let tx = await createRecord(
          data,
+         req.session?.user.user.username,
          req.session?.user.user.email,
          fileBuffer,
          req.session?.user.secrets.bigchainPublicKey,
