@@ -128,6 +128,7 @@ export const createIPFSHashFromCipher = async (cipher: any) => {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 export const createRecord = async (
    data: any,
+   username: string,
    email: string,
    fileBuffer: any,
    publicKey: string,
@@ -141,6 +142,7 @@ export const createRecord = async (
    let id = cryptoService.generateCode();
 
    Object.assign(data, {
+      username: username,
       email: email,
       file: ipfsURLEncrypted,
       fileHash: cryptoService.hash(cipher),

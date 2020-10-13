@@ -39,6 +39,14 @@ export default class UserModel {
          });
       }
    }*/
+   constructor(user?: UserModel) {
+      if (user) {
+         this.secrets = user.secrets;
+         this.user = user.user;
+         this.registered = user.registered;
+         this.records = user.records;
+      }
+   }
 
    async getBio(username: string, schema: string) {
       try {
@@ -105,13 +113,8 @@ export default class UserModel {
    async getRecords(username: string) {
       try {
          let records = await bigchainService.getAsset(username);
-         console.log(records);
-         records = records.filter(
-            record => record.data.schema == 'record' && record.data.user.bigchainKey == this.user.bigchainKey
-         );
-         console.log(records);
+         records = records.filter(record => record.data.schema == 'record');
          this.records = records;
-         console.log('this', this.records);
       } catch (err) {
          console.log(err);
       }
