@@ -13,7 +13,7 @@ pipeline:
     max_ngram: 4
   - name: "DucklingHTTPExtractor"
     url: http://duckling:8000
-    dimensions: ["time", "number", "distance"]
+    dimensions: ["time", "number", "distance", "duration" ]
     timezone: "India/Kolkata"
     timeout: 3
   - name: DIETClassifier
