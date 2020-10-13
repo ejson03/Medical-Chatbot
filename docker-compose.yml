@@ -90,6 +90,9 @@ services:
       - ./chatbot:/app
     ports:
       - 5005:5005
+    depends_on:
+      - action
+      - duckling
 
       
   action:
@@ -102,8 +105,11 @@ services:
       target: action
     volumes:
       - ./actions:/app
-    depends_on:
-      - server
+
+  duckling:
+    image: rasa/duckling
+    ports:
+      - "8000:8000"
    
 
   main:

@@ -312,6 +312,8 @@ class ActionSetFile(Action):
     def run(self, dispatcher, tracker, domain):
         metadata = self.extract_metadata_from_tracker(tracker)
         record = tracker.latest_message['text']
+        print("$"*100)
+        print(metadata, record)
         # buttons = []
         # buttons.append({"payload": "/conform_yes", "title":"Do you want to submit?"})
         # buttons.append({"payload": "/conform_no", "title":"Do you want to reject?"})
