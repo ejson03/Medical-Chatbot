@@ -15,7 +15,7 @@ export const getFiles = async (req: Request, res: Response) => {
 
 export const getDetails = async (req: Request, res: Response) => {
    try {
-      return res.render('docprofile.ejs', { data: req.session?.user.user });
+      return res.render('docprofile.ejs', { record: req.session?.user.user });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);
