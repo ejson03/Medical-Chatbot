@@ -34,6 +34,9 @@ app.set('view engine', 'ejs');
 app.engine('.html', require('ejs').renderFile);
 
 app.use('/', router);
+app.get('/dashboard', (_req, res) => {
+   res.render('dashboard.html');
+});
 
 app.listen(config.PORT, function () {
    console.log(`App listening on port ${config.PORT}`);
