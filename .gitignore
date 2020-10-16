@@ -19,5 +19,6 @@ env
 ## rasa
 **/tests/
 .bigchaindb/
+bigchaindb.config.json
 
 
