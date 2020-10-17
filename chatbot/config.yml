@@ -12,7 +12,7 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: "DucklingHTTPExtractor"
-    url: http://duckling:8000
+    url: localhost:8000
     dimensions: ["time", "number", "distance", "duration" ]
     timezone: "India/Kolkata"
     timeout: 3
