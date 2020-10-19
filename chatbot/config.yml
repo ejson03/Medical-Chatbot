@@ -11,11 +11,11 @@ pipeline:
     analyzer: "char_wb"
     min_ngram: 1
     max_ngram: 4
-  - name: "DucklingHTTPExtractor"
-    url: localhost:8000
-    dimensions: ["time", "number", "distance", "duration" ]
-    timezone: "India/Kolkata"
-    timeout: 3
+  # - name: "DucklingHTTPExtractor" 
+  #   url: localhost:8000
+  #   dimensions: ["time", "number", "distance", "duration" ]
+  #   timezone: "India/Kolkata"
+  #   timeout: 3
   - name: DIETClassifier
     epochs: 100
   - name: EntitySynonymMapper

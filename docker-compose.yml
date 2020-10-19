@@ -92,7 +92,7 @@ services:
       - 5005:5005
     depends_on:
       - action
-      - duckling
+      # - duckling
 
       
   action:
@@ -103,13 +103,16 @@ services:
       context: .
       dockerfile: Dockerfile
       target: action
+    ports:
+      - "5055:5055"
     volumes:
       - ./actions:/app
+ 
 
-  duckling:
-    image: rasa/duckling
-    ports:
-      - "8000:8000"
+  # duckling:
+  #   image: rasa/duckling
+  #   ports:
+  #     - "8000:8000"
    
 
   main:
