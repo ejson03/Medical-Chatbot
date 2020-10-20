@@ -12,7 +12,7 @@ from os import environ
 from sys import getsizeof
 from datetime import datetime, date, time, timedelta
 from rasa_sdk import Action, Tracker
-from rasa_sdk.events import SlotSet, AllSlotsReset, EventType, SessionStarted, ActionExecuted, FollowupAction, BotUttered, Form, EventType
+from rasa_sdk.events import SlotSet, AllSlotsReset, EventType, SessionStarted, ActionExecuted, FollowupAction, BotUttered, Form, EventType, Restarted
 from rasa_sdk.forms import FormAction
 from rasa_sdk.executor import CollectingDispatcher
 
@@ -344,9 +344,32 @@ class ActionGetAllRecords(Action):
          records = get_records(username)
          dispatcher.utter_message(json_message={"payload":"records","data":records})
 
+class ActionRestart(Action):
+    def name(self):
+        return "action_restart"
 
+    async def run(self,dispatcher, tracker, domain):
+        return [Restarted(), FollowupAction("action_session_start")]
 
+class ActionSessionStart(Action):
+    def name(self):
+        return "action_session_start"
 
+    @staticmethod
+    def _slot_set_events_from_tracker(tracker):
+        return [
+            SlotSet(key=event.get("name"), value=event.get("value"),)
+            for event in tracker.events
+            if event.get("event") == "slot"
+        ]
+
+    async def run(self,dispatcher, tracker, domain):
+        events = [SessionStarted()]
+        events.extend(self._slot_set_events_from_tracker(tracker))
+        username = tracker.get_slot('username') if tracker.get_slot("username") else tracker.get_slot('name')
+        dispatcher.utter_message(text=f"Hello {username}")
+        events.append(ActionExecuted("action_listen"))
+        return events
 
 
 

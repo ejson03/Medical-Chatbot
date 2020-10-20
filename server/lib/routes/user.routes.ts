@@ -8,11 +8,15 @@ userRouter.get('/doctorlist', userController.getDoctorList);
 
 userRouter.get('/medicalhistory', userController.getMedicalHistory);
 
-userRouter.post('/access', userController.postAccess);
-userRouter.post('/revoke', userController.postRevoke);
+// userRouter.post('/access', userController.postAccess);
+// userRouter.post('/revoke', userController.postRevoke);
 
-userRouter.get('/home', function (_req: Request, res: Response) {
-   res.render('patientaddrec.ejs');
+userRouter.get('/home', function (req: Request, res: Response) {
+   res.render('patient/profile.ejs', { data: req.session?.user.user });
+});
+
+userRouter.get('/add', function (_req: Request, res: Response) {
+   res.render('patient/addrecord.ejs');
 });
 
 userRouter.post('/check', userController.check);

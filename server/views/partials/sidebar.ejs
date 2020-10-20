@@ -1,19 +1,17 @@
 <!-- views/partials/sidebar.ejs-->
 
 <div class="sidebar" data-color="purple" data-background-color="white" data-image="/static/images/sidebar-1.jpg">
-    <div class="logo"><a href="/chatbot" class="simple-text logo-normal">
-      <% =name %>
-    </a></div>
+    <div class="logo"><a href="/chatbot" class="simple-text logo-normal"></a></div>
     <div class="sidebar-wrapper">
       <ul class="nav">
         <li class="nav-item ">
-          <a class="nav-link" href="/chatbot/">
+          <a class="nav-link" href="/user/home">
             <i class="material-icons">home</i>
             <p>Home</p>
           </a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="/user/home">
+          <a class="nav-link" href="/user/add">
             <i class="material-icons">note_add</i>
             <p>Add Records</p>
           </a>
@@ -28,6 +26,12 @@
           <a class="nav-link" href="/user/medicalhistory">
             <i class="material-icons">format_list_bulleted</i>
             <p>Medical History</p>
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="/chatbot">
+            <i class="material-icons">format_list_bulleted</i>
+            <p>Chatbot</p>
           </a>
         </li>
       </ul>

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <%- include('partials/headnew.ejs') %>
+  <%- include('../partials/headnew.ejs') %>
 </head>
 <body class="">
   <div class="wrapper ">
-    <%- include('partials/sidebar.ejs') %>
+    <%- include('../partials/sidebar.ejs') %>
     <div class="main-panel">
-      <%- include('partials/topbar.ejs') %>
+      <%- include('../partials/topbar.ejs') %>
       <div class="content">
         <div class="container-fluid">
           <div class="row">
@@ -18,7 +18,7 @@
                   <p class="card-category">Complete your Medical Profile</p>
                 </div>
                 <div class="card-body">
-                  <form method="post" action="/user/add">
+                  <form method="post" action="/user/add" enctype="multipart/form-data" >
                     <div class="row">
                         <div class="col-md-6">
                           <div class="form-group">
@@ -91,11 +91,11 @@
           </div>
         </div>
       </div>
-      <%- include('partials/footer.ejs') %>
+      <%- include('../partials/footer.ejs') %>
     </div>
   </div>
     
-  <%- include('partials/footerfiles.ejs') %>
+  <%- include('../partials/footerfiles.ejs') %>
 </body>
 
 </html>

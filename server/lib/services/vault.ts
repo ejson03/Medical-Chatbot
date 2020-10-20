@@ -33,3 +33,7 @@ export const read = async (key: string) => {
 export const getUsers = async () => {
    return await Vault.UsersGet();
 };
+
+export const lookup = async () => {
+   return await Vault.TokenLookupSelf();
+};

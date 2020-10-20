@@ -1,8 +1,8 @@
 import {
    createRecord,
    getAssetHistory,
-   showAccess,
-   showRevoke,
+   //showAccess,
+   //showRevoke,
    createAccess,
    revokeAccess,
    getPrescription
@@ -11,11 +11,20 @@ import { bigchainService } from '../services';
 import type { Request, Response } from 'express';
 import UserModel from '../models/user.models';
 
-export const getDoctorList = async (_req: Request, res: Response) => {
+export const getDoctorList = async (req: Request, res: Response) => {
    try {
       let result = await bigchainService.getAsset('Doctor');
       result = result.map((data: { [x: string]: unknown }) => data['data']);
-      return res.render('patientaccdoclist.ejs', { doctors: result });
+      console.log(result);
+      let records = req.session?.user.records;
+      if (records.length === 0 && req.session) {
+         const user = new UserModel(req.session.user);
+         user.getRecords(req.session.user.user.username);
+         req.session.user = user;
+         records = req.session?.user.records;
+         console.log(req.session, records);
+      }
+      return res.render('patient/doclist.ejs', { doctors: result, records: records });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);
@@ -32,35 +41,35 @@ export const getMedicalHistory = async (req: Request, res: Response) => {
          records = req.session?.user.records;
          console.log(req.session, records);
       }
-      return res.render('patientmedhistory.ejs', { records: records });
+      return res.render('patient/history.ejs', { records: records });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);
    }
 };
 
-export const postAccess = async (req: Request, res: Response) => {
-   req.session!.demail = req.body.value;
-   try {
-      let data = await showAccess(req.session?.demail, req.session?.user.records);
-      return res.render('patientaccesstrans.ejs', { records: data });
-   } catch (err) {
-      console.error(err);
-      return res.sendStatus(404);
-   }
-};
+// export const postAccess = async (req: Request, res: Response) => {
+//    req.session!.demail = req.body.value;
+//    try {
+//       let data = await showAccess(req.session?.demail, req.session?.user.records);
+//       return res.render('patientaccesstrans.ejs', { records: data });
+//    } catch (err) {
+//       console.error(err);
+//       return res.sendStatus(404);
+//    }
+// };
 
-export const postRevoke = async (req: Request, res: Response) => {
-   req.session!.demail = req.body.value;
-   try {
-      let data = await showRevoke(req.session?.demail, req.session?.user.records);
-      // console.log("revoke data is....", data)
-      return res.render('patientrevoketrans.ejs', { records: data });
-   } catch (err) {
-      console.error(err);
-      return res.sendStatus(404);
-   }
-};
+// export const postRevoke = async (req: Request, res: Response) => {
+//    req.session!.demail = req.body.value;
+//    try {
+//       let data = await showRevoke(req.session?.demail, req.session?.user.records);
+//       // console.log("revoke data is....", data)
+//       return res.render('patientrevoketrans.ejs', { records: data });
+//    } catch (err) {
+//       console.error(err);
+//       return res.sendStatus(404);
+//    }
+// };
 
 export const check = async (req: Request, res: Response) => {
    const data: any[] = [];
@@ -112,7 +121,7 @@ export const prescription = async (req: Request, res: Response) => {
    let demail = req.body.demail;
    try {
       let data = await getPrescription(req.session?.user.email, demail);
-      return res.render('patientpresc.ejs', { records: data });
+      return res.render('patient/prescription.ejs', { records: data });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);
@@ -122,9 +131,9 @@ export const prescription = async (req: Request, res: Response) => {
 export const assetHistory = async (req: Request, res: Response) => {
    let assetid = req.body.history;
    try {
-      let data = getAssetHistory(assetid);
+      let data = await getAssetHistory(assetid);
       console.log(data);
-      return res.render('patientassethistory.ejs', { records: data });
+      return res.render('patient/asset.ejs', { records: data });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);

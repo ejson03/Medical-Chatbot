@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<%- include('partials/head.ejs') %>
+<%- include('../partials/head.ejs') %>
 
     <body class="w3-light-grey w3-content" style=" ">
         <!--MyMedicalHistory-->
@@ -11,21 +11,16 @@
                         <h2 class="title" id="myhistory" style="font-size:40px;font-weight: bold; color:#000000;">My Medical History</h2>
                         <% for (const record of records){ %>
                             <div class="w3-container w3-card w3-white w3-round w3-margin" style="position:relative;"><br>
-                                <h4 style="font-size:30px;font-weight: bold; color:#000000;">OPERATION:</h4>
-                                <b style="font-size: 18px;"> <%= record.operation %></b>
-                                <h4 style="font-size:30px;font-weight: bold; color:#000000;">DATE:</h4>
-                                <b style="font-size: 18px;"> <%= record.date %></b>
-                                <% if (record.operation == "TRANSFER") { %>
-                                    <h4 style="font-size:30px;font-weight: bold; color:#000000;">DOCTORS:</h4>
-                                    <% for (const doctor of record.doctor){ %>
-                                        <b style="font-size: 18px;"> <%= doctor %></b>
-                                        <% } %>
-                                            <% } %>
-
+                                <h4 style="font-size:30px;font-weight: bold; color:#000000;">Prescription:</h4>
+                                <b style="font-size: 18px;"> <%= record.prescription %></b>
+                                <form method="post" action="/view">
+                                    <input type="hidden" name="status" value="decrypted">
+                                    <button class="btn btn--radius-2 btn--blue" type="submit" style=" float:right;margin-bottom: 10px;" value="<%= record.file %>" name="fileURL">view</button>
+                                </form>
                             </div>
                             <% } %>
                                 <div class="w3-container w3-card w3-white w3-round w3-margin" style="position:relative;font-size: 18px;"><br>
-                                    <b>ASSET HISTORY</b>
+                                    <b> Description of Uploaded Docs</b>
 
 
                                 </div>

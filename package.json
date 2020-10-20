@@ -6,8 +6,7 @@
   "scripts": {
     "git": "git add . && git commit -m",
     "postgit": "git push",
-    "tag": "npm version patch && git push --tags",
-    "start": "concurrently \"(npm start --prefix server)\" \"(npm start --prefix block-visualization)\""
+    "tag": "npm version patch && git push --tags"
   },
   "repository": {
     "type": "git",

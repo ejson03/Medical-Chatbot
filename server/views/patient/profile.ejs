@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/headnew.ejs') %>
+</head>
+<body class="">
+  <div class="wrapper ">
+    <%- include('../partials/sidebar.ejs') %>
+    <div class="main-panel">
+      <%- include('../partials/topbar.ejs') %>
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title"><%= data.name %></h4>
+                </div>
+                <div class="card-body">
+                    <p>Phone <%= data.phone %></p>
+                    <p>Email <%= data.email %></p>
+                    <p>Gender <%= data.gender %></p>
+                    <p>Bigchain Key <%= data.bigchainKey %></p>
+                    <p>Joining <%= data.date %></p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <%- include('../partials/footer.ejs') %>
+    </div>
+  </div>
+    
+  <%- include('../partials/footerfiles.ejs') %>
+</body>
+
+</html>
