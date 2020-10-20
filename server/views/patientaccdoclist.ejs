@@ -1,80 +1,158 @@
 <!DOCTYPE html>
-<html>
-<%- include('partials/head.ejs') %>
-
-    <body class="w3-light-grey w3-content" style=" ">
-
-        <!-- Doctors List -->
-        <div class="transbox" style="opacity: 1;filter: alpha(opacity=60);position:absolute; left:500px; top:55px;height:1000px; width:1200px " id="dashb">
-            <div class="wrapper wrapper--w680" style="max-width: 950px;">
-                <div class="card card-4">
-                    <div class="card-body">
-                        <h2 class="title" id="doclist" style="font-size:40px;font-weight: bold; color:#000000;">Doctors List</h2>
-                        <div class="search-container" style="float: center;
-                              padding: 6px 10px;
-                              margin-top: 8px;
-                              margin-right: 26px;
-                              background: #ffffff;
-                              font-size: 21px;
-                              border: none;
-                              cursor: pointer;">
-                        </div>
-                        <% for (const doctor of doctors){ %>
-                            <div class="w3-container w3-card w3-white w3-round w3-margin" style="width:800px;"><br>
-
-                                <center style="font-size:30px;font-weight: bold; color:#000000;text-transform:uppercase;">
-                                    <%= doctor.name %>
-                                </center>
-
-                                <h4 style="font-size:20px;font-weight: bold; color:#000000;">Email:
-                                    <%= doctor.email %>
-                                </h4>
-
-                                <h4 style="font-size:20px;font-weight: bold; color:#000000;">Specialization:
-                                    <%= doctor.specialization %>
-                                </h4>
-                                <h4 style="font-size:20px;font-weight: bold; color:#000000;">Institute:
-                                    <%= doctor.institute %>
-                                </h4>
-                                <form action="/user/access" method="post">
-                                    <div class="p-t-15">
-                                        <button class="btn btn--radius-2 btn--blue" type="submit" style="float:initial;margin-left: 525px;padding-right: 75px; " value="<%= doctor.username %>" name="value"> Give Access</button>
-                                    </div>
-                                </form>
-                                <form action="/user/revoke" method="post">
-                                    <div class="p-t-15">
-                                        <button class="btn btn--radius-2 btn--blue" type="submit" style="float:initial;margin-left: 525px; " value="<%= doctor.username %>" name="value"> Revoke Access</button>
-                                    </div>
-                                </form>
-                                <form action="/user/prescription" method="post">
-                                    <div class="p-t-15">
-                                        <button class="btn btn--radius-2 btn--blue" type="submit" style="float:initial;margin-left: 525px; padding-right: 75px; margin-bottom: 20px; " value="<%= doctor.username %>" name="demail"> Prescription</button>
-                                    </div>
-                                </form>
-                            </div>
-                            <% } %>
-
-                                <div class="w3-container w3-card w3-white w3-round w3-margin" style="width:800px;"><br>
-                                    <center style="font-size:30px;font-weight: bold; color:#000000;text-transform:uppercase;">DOCTORS NAME</center>
-                                    <h4 style="font-size:20px;font-weight: bold; color:#000000;">Email:.....</h4>
-                                    <h4 style="font-size:20px;font-weight: bold; color:#000000;">Specialization:.....</h4>
-                                    <h4 style="font-size:20px;font-weight: bold; color:#000000;">Institute:....</h4>
-
-                                    <div class="p-t-15">
-                                        <button class="btn btn--radius-2 btn--blue" style="float:initial;margin-left: 525px;padding-right: 75px; ">Give Access</button>
-                                    </div>
-                                    <div class="p-t-15">
-                                        <button class="btn btn--radius-2 btn--blue" style="float:initial;margin-left: 525px; "> Revoke Access</button>
-                                    </div>
-                                    <div class="p-t-15">
-                                        <button class="btn btn--radius-2 btn--blue" style="float:initial;margin-left: 525px;padding-right: 75px; margin-bottom: 20px;  ">Prescription</button>
-                                    </div>
-                                </div>
-
-                    </div>
+<html lang="en">
+<head>
+  <%- include('partials/headnew.ejs') %>
+</head>
+<body class="">
+  <div class="wrapper ">
+    <%- include('partials/sidebar.ejs') %>
+    <div class="main-panel">
+      <%- include('partials/topbar.ejs') %>
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title ">Doctor List</h4>
+                  <p class="card-category"> Here is a list of Doctors Available</p>
                 </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class=" text-primary">
+                        <th>
+                          Name
+                        </th>
+                        <th>
+                          Email
+                        </th>
+                        <th>
+                          Specialization
+                        </th>
+                        <th>
+                          Institute
+                        </th>
+                        <th>
+                          Grant
+                        </th>
+                        <th>
+                            Revoke
+                        </th>
+                        <th>
+                            Prescription
+                        </th>
+                      </thead>
+                      <tbody>
+                        <% for (const doctor of doctors){ %>
+                        <tr>
+                            <td>
+                                <%= doctor.name %>
+                            </td>
+                            <td>
+                                <%= doctor.email %>
+                            </td>
+                            <td>
+                                <%= doctor.specialization %>
+                            </td>
+                            <td>
+                                <%= doctor.institute %>
+                            </td>
+                            <td >
+                                <!-- <form action="/user/access" method="post">
+                                    <button class="btn btn-primary " type="submit"  value="<%= doctor.username %>" name="value">
+                                        <i class="material-icons">check</i>
+                                    </button>
+                                </form> -->
+                                <i class="material-icons" data-toggle="modal" data-target="#grantlist">check</i>
+                                <!-- Modal -->
+                               <div class="modal fade" id="grantlist" tabindex="-1" role="dialog" aria-labelledby="grantlistTitle" aria-hidden="true">
+                                 <div class="modal-dialog modal-sm" role="document">
+                                   <div class="modal-content">
+                                     <div class="modal-header">
+                                       <h5 class="modal-title" id="grantlistTitle">List of Documents</h5>
+                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                         <span aria-hidden="true">&times;</span>
+                                       </button>
+                                     </div>
+                                     <form method="post" action="/user/check">
+                                     <div class="modal-body">
+                                         <% for (var d=0; d<records.length; d++){ %>
+                                           <label class="bmd-label-floating col-md-4">
+                                             <%= d %> <%= records[d].data.description %>
+                                           </label>  
+                                           <input class="col-md-4 ml-auto" type="checkbox" name="<%= d %>" value="<%= records[d].data.description %>" /><br>
+                                           <% } %>
+                                     <input type="hidden" value="<%= doctor.username %>" name="value" />
+                                     </div>
+                                     <div class="modal-footer">
+                                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                       <button type="submit" value="submit" class="btn btn-primary">Save changes</button>
+                                     </div>
+                                   </form>
+                                   </div>
+                                 </div>
+                               </div>
+                            </td>
+                            <td>
+                                <!-- <form action="/user/revoke" method="post">
+                                    <button class="btn btn-primary " type="submit"  value="<%= doctor.username %>" name="value">
+                                    <i class="material-icons">block</i>
+                                    </button>
+                                </form>                                  -->
+                              <i class="material-icons" data-toggle="modal" data-target="#revokelist">check</i>
+                                <!-- Modal -->
+                               <div class="modal fade" id="revokelist" tabindex="-1" role="dialog" aria-labelledby="revokelistTitle" aria-hidden="true">
+                                 <div class="modal-dialog modal-sm" role="document">
+                                   <div class="modal-content">
+                                     <div class="modal-header">
+                                       <h5 class="modal-title" id="revokelistTitle">List of Documents</h5>
+                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                         <span aria-hidden="true">&times;</span>
+                                       </button>
+                                     </div>
+                                     <form method="post" action="/uncheck">
+                                     <div class="modal-body">
+                                         <% for (var d=0; d<records.length; d++){ %>
+                                           <label class="bmd-label-floating col-md-4">
+                                             <%= d %> <%= records[d].data.description %>
+                                           </label>  
+                                           <input class="col-md-4 ml-auto" type="checkbox" name="<%= d %>" value="<%= records[d].data.description %>" /><br>
+                                           <% } %>
+                                     <input type="hidden" value="<%= doctor.username %>" name="value" />
+                                     </div>
+                                     <div class="modal-footer">
+                                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                       <button type="submit" value="submit" class="btn btn-primary">Save changes</button>
+                                     </div>
+                                   </form>
+                                   </div>
+                                 </div>
+                               </div>
+                            </td>
+                            <td>
+                                <form action="/user/prescription" method="post">
+                                    <button class="btn btn-primary " type="submit"  value="<%= doctor.username %>" name="value">
+                                    <i class="material-icons">content_paste</i>
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                        <% } %>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </body>
+      </div>
+      <%- include('partials/footer.ejs') %>
+    </div>
+  </div>
+    
+  <%- include('partials/footerfiles.ejs') %>
+</body>
 
 </html>
