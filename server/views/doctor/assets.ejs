@@ -24,36 +24,39 @@
                           <table class="table table-hover">
                              <thead class="text-primary">
                              <th>ID</th>
-                             <th>Name</th>
-                             <th>Phone</th>
-                             <th>Gender</th>
+                             <th>Username</th>
+                             <th>Email</th>
                              <th>Files</th>
                              <th>Chats</th>
                              </thead>
                              <tbody>
-                                <% for (var record=0; record<records.length; record++){ %>
+                                <% Object.keys(records).forEach((record) =>{ %>
                              <tr>
-                                <td><%= record %></td>
-                                <td><%= record.name %></td>
-                                <td><%= record.phone %></td>
-                                <td><%= record.gender %></td>
+                                <td>1</td>
+                                <td><%= records[record].username %></td>
+                                <td><%= records[record].email %></td>
                                 <td>
-                                   <form method="post" action="/view" >
-                                      <input type="hidden" name="status" value="encrypted" />
-                                      <button type="submit" rel="tooltip" type="submit" value="<%= record.username %>" name="name" title="List of File" class="btn btn-primary btn-link btn-sm text-primary">
+                                   <form method="post" action="/doctor/prescribe" >
+                                      <input type="hidden" name="value" value="<%= records[record].files %>" />
+                                      <button type="submit" rel="tooltip" type="submit" name="fileURL" title="List of File" class="btn btn-primary btn-link btn-sm text-primary">
                                          <i class="material-icons">folder_open</i>
                                       </button>
                                    </form>
                                 </td>
                                 <td>
+                                 <% if (records[record].rasa) { %>
                                    <form method="post" action="/getrasahistory" >
-                                      <button type="submit" rel="tooltip" type="submit" value="<%= record.email %>" name="rasa" title="History of Chats" class="btn btn-primary btn-link btn-sm text-primary">
+                                      <button type="submit" rel="tooltip" type="submit" value="<%= records[record].username %>" name="rasa" title="History of Chats" class="btn btn-primary btn-link btn-sm text-primary">
                                          <i class="material-icons">receipt_long</i>
                                       </button>
                                    </form>
+                                   <% } else { %>
+                                    <% console.log("No access to chatbot") %>
+                                    <% } %>
+
                                 </td>
                              </tr>
-                             <% } %>
+                             <% }) %>
                              </tbody>
                           </table>
                        </div>

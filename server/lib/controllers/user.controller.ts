@@ -51,6 +51,7 @@ export const getMedicalHistory = async (req: Request, res: Response) => {
 
 export const postAccess = async (req: Request, res: Response) => {
    const doctor: string = req.body.value as string;
+   console.log(doctor, req.body);
    try {
       const data = await showAccess(doctor, req.session?.user.records);
       return res.json({ records: data });
@@ -119,7 +120,7 @@ export const uncheck = async (req: Request, res: Response) => {
 export const prescription = async (req: Request, res: Response) => {
    let demail = req.body.demail;
    try {
-      let data = await getPrescription(req.session?.user.email, demail);
+      let data = await getPrescription(req.session?.user.user.username, demail);
       return res.render('patient/prescription.ejs', { records: data });
    } catch (err) {
       console.error(err);
@@ -132,7 +133,7 @@ export const assetHistory = async (req: Request, res: Response) => {
    try {
       let data = await getAssetHistory(assetid);
       console.log(data);
-      return res.render('patient/asset.ejs', { records: data });
+      return res.render('patient/asset.ejs', { records: data, name: req.session?.user.user.name });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);

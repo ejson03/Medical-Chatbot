@@ -32,11 +32,11 @@
                               <% for (var record=0; record<records.length; record++){ %>
                            <tr>
                               <td><%= record %></td>
-                              <td><%= records[record].data.description %></td>
+                              <td><%= records[record].description %></td>
                               <td>
                                  <form method="post" action="/view">
-                                    <input type="hidden" name="status" value="encrypted" />
-                                    <button type="submit" rel="tooltip" type="submit" value="<%= records[record].data.file %>" name="fileURL" title="View File" class="btn btn-primary btn-link btn-sm text-primary">
+                                    <input type="hidden" name="status" value="" />
+                                    <button type="submit" rel="tooltip" type="submit" value="<%= records[record].file %>" name="fileURL" title="View File" class="btn btn-primary btn-link btn-sm text-primary">
                                        <i class="material-icons">folder_open</i>
                                     </button>
                                  </form>
@@ -57,10 +57,10 @@
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
                                             </div>
-                                            <form method="POST" action="/addprescription">
-                                            <input type="hidden" name="id" value="<%= record.id %>">
-                                            <input type="hidden" name="description" value="<%= record.description %>">
-                                            <input type="hidden" name="pkey" value="<%= record.pkey %>">
+                                            <form method="POST" action="/doctor/prescription">
+                                            <input type="hidden" name="id" value="<%= records[record].id %>">
+                                            <input type="hidden" name="description" value="<%= records[record].description %>">
+                                            <input type="hidden" name="pkey" value="<%= records[record].pkey %>">
                                             <div class="modal-body" id="prescribe">
                                                 <div class="form-group">
                                                     <label for="message-text" class="col-form-label">Message:</label>

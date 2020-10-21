@@ -191,12 +191,10 @@
                                           </label>
                                           </div><br>`;
         inner +=  label + mainDiv
-        console.log(inner)
       }
         const input = `<input type="hidden" value="${doctor}" name="value" />`
         inner += input
         element.innerHTML = inner 
-        console.log(element)                                      
     }
     function prescribeModal(doctor,records, app){
       let inner = "";
@@ -214,12 +212,10 @@
                                             </label>
                                           </div><br>`;
         inner +=  label + mainDiv
-        console.log(inner)
       }
         const input = `<input type="hidden" value="${doctor}" name="value" />`
         inner += input
         element.innerHTML = inner 
-        console.log(element)                                      
     }
 
 grantform.onsubmit = async(event) => {
@@ -227,20 +223,26 @@ grantform.onsubmit = async(event) => {
   const doctor = new FormData(grantform).get("value");
   const response = await fetch('/user/access', {
     method: 'POST',
-      body: new FormData(grantform)
-  })
+    headers: {
+					'Content-Type': 'application/json'
+				},
+      body: JSON.stringify({ value: doctor})
+  });
   const result = await response.json();
-  makeModal(doctor, result, "grant")
-  document.getElementById("grantlist").style.display = "block"
+  makeModal(doctor, result, "grant");
+  document.getElementById("grantlist").style.display = "block";
 }
 
 revokeform.onsubmit = async(event) => {
   event.preventDefault();
-  const doctor = new FormData(revokeform).get("value");
-  const response = await fetch('/user/access', {
+  const doctor = new FormData(grantform).get("value");
+  const response = await fetch('/user/revoke', {
     method: 'POST',
-      body: new FormData(revokeform)
-  })
+    headers: {
+					'Content-Type': 'application/json'
+				},
+      body: JSON.stringify({ value: doctor})
+  });
   const result = await response.json();
   makeModal(doctor, result, "revoke")
   document.getElementById("revokelist").style.display = "block"
@@ -248,11 +250,14 @@ revokeform.onsubmit = async(event) => {
 
 prescribeform.onsubmit = async(event) => {
   event.preventDefault();
-  const doctor = new FormData(prescribeform).get("value");
-  const response = await fetch('/user/access', {
+  const doctor = new FormData(grantform).get("value");
+  const response = await fetch('/user/revoke', {
     method: 'POST',
-      body: new FormData(prescribeform)
-  })
+    headers: {
+					'Content-Type': 'application/json'
+				},
+      body: JSON.stringify({ value: doctor})
+  });
   const result = await response.json();
   prescribeModal(doctor, result, "prescribe")
   document.getElementById("prescribelist").style.display = "block"

@@ -1,4 +1,5 @@
 import { cryptoService, ipfsService, bigchainService } from '../services';
+import { decryptRSA } from '../services/crypto';
 
 export const getRSAKey = async (email: string, schema: string) => {
    let asset = await bigchainService.getAsset(email);
@@ -50,7 +51,6 @@ export const createAccess = async (
       let metadata = transaction[transaction.length - 1].metadata;
       metadata.datetime = new Date();
       metadata['doclist'].push(data);
-      metadata = JSON.stringify(metadata);
       console.log('metadata is ', metadata);
 
       let tx = await bigchainService.transferAsset(
@@ -199,10 +199,10 @@ export const getPrescription = async (email: string, demail: string) => {
    return data;
 };
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-export const getDoctorFiles = async (email: string) => {
-   let metadata = await bigchainService.getMetadata(email);
-   let data: any = [];
-   let assetSet = new Set();
+export const getDoctorFiles = async (email: string, privateRSAKey: any) => {
+   const metadata = await bigchainService.getMetadata(email);
+   const data: any = {};
+   const assetSet = new Set();
 
    for (const meta of metadata) {
       const tx = await bigchainService.listTransactions(meta.id);
@@ -216,18 +216,25 @@ export const getDoctorFiles = async (email: string) => {
       const tx = await bigchainService.listTransactions(asset);
       const docs = tx[tx.length - 1].metadata.doclist;
       let result = docs.filter((st: any) => st.email.includes(email));
+      const decryptionKey = decryptRSA(result[0].key, privateRSAKey);
+      console.log('decryption is ', decryptionKey);
       if (result.length != 0) {
          let ass = await bigchainService.getAsset(asset);
-
-         data.push({
-            email: ass[0].data.email,
-            file: cryptoService.decrypt(ass[0].data.file),
+         if (!data[ass[0].data.username]) {
+            data[ass[0].data.username] = {
+               username: ass[0].data.username,
+               email: ass[0].data.email,
+               rasa: result[0].rasa,
+               files: []
+            };
+         }
+         data[ass[0].data.username].files.push({
+            file: cryptoService.decrypt(ass[0].data.file, decryptionKey),
             description: ass[0].data.description,
             id: asset,
             pkey: tx[tx.length - 1].outputs[0].public_keys[0]
          });
       }
    }
-   console.log(data);
    return data;
 };

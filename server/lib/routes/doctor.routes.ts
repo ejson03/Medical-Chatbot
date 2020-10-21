@@ -8,9 +8,9 @@ doctorRouter.get('/list', doctorController.getFiles);
 
 doctorRouter.get('/home', doctorController.getDetails);
 
-doctorRouter.post('/prescribe', fileUpload.any(), doctorController.getPrescription);
+doctorRouter.post('/prescribe', doctorController.getPrescription);
 
-doctorRouter.post('/prescription', doctorController.postPrescription);
+doctorRouter.post('/prescription', fileUpload.any(), doctorController.postPrescription);
 
 doctorRouter.get('/profileupdate', function (req: Request, res: Response) {
    res.render('doctor/profileupdate.ejs', { data: req.session?.user.user, name: req.session?.user.user.name });
