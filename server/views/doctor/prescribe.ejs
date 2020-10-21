@@ -1,48 +1,94 @@
 <!DOCTYPE html>
-<html>
-<%- include('../partials/dochead.ejs') %>
-
-    <body class="w3-light-grey w3-content" style="background-color: #8c5fe0; ">
-        <!--Add Medical Records-->
-        <div class="transbox" style="opacity: 1;filter: alpha(opacity=60);position:absolute; left:500px;top:55px; height:1000px; width:1000px  " id="dashb">
-            <div class="wrapper wrapper--w680">
-                <div class="card card-4">
-                    <div class="card-body">
-                        <h2 class="title" id="addreco" style="font-size:40px;font-weight: bold; color:#000000;">My Prescription</h2>
-                        <form method="POST" action="/addprescription">
-                            <div class="row row-space">
-                                <div class="col-2">
-
-                                    <div class="input-group">
-                                        <input type="hidden" name="id" value="<%= id %>">
-                                        <input type="hidden" name="description" value="<%= description %>">
-                                        <input type="hidden" name="pkey" value="<%= pkey %>">
-                                        <label class="label" style="font-size: 25px;color: black;margin-bottom: 20px;">Prescription </label>
-
-                                        <textarea type="text" name="prescription" class="input--style-4" style="padding-bottom: 50%; font-size: 20px;color: black;width: 100%;width: 212%"></textarea>
-
+<html lang="en">
+<head>
+  <%- include('../partials/headnew.ejs') %>
+</head>
+<body class="">
+  <div class="wrapper ">
+    <%- include('../partials/sidebardoc.ejs') %>
+    <div class="main-panel">
+      <%- include('../partials/topbardoc.ejs') %>
+      <div class="content">
+         <div class="container-fluid">
+           <div class="row">
+             <div class="col-md-12">
+                  <div class="col-md-12">
+                     <div class="card">
+                     <div class="card-header card-header-primary">
+                        <h4 class="card-title">Files</h4>
+                        <p class="card-category"> <i class="material-icons">access_time</i> updated  <script>
+                           document.write(new Date())
+                         </script> ago </p>
+                     </div>
+                     <div class="card-body table-responsive">
+                        <table class="table table-hover">
+                           <thead class="text-warning">
+                           <th>ID</th>
+                           <th>Description</th>
+                           <th>View</th>
+                           <th>Prescribe</th>
+                           </thead>
+                           <tbody>
+                              <% for (var record=0; record<records.length; record++){ %>
+                           <tr>
+                              <td><%= record %></td>
+                              <td><%= records[record].data.description %></td>
+                              <td>
+                                 <form method="post" action="/view">
+                                    <input type="hidden" name="status" value="encrypted" />
+                                    <button type="submit" rel="tooltip" type="submit" value="<%= records[record].data.file %>" name="fileURL" title="View File" class="btn btn-primary btn-link btn-sm text-primary">
+                                       <i class="material-icons">folder_open</i>
+                                    </button>
+                                 </form>
+                              </td>
+                              <td>
+                                    <button  type="button" 
+                                    data-toggle="modal" data-target="#prescribelist" 
+                                    rel="tooltip" title="Revoke Access" class="btn btn-danger btn-link btn-sm">
+                                    <i class="material-icons">content_paste</i>
+                                    </button> 
+                                  <!-- Modal -->
+                                    <div class="modal fade" id="prescribelist" tabindex="-1" role="dialog" aria-labelledby="prescribeTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="prescribeTitle">PRESCRIPTIONS</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>
+                                            <form method="POST" action="/addprescription">
+                                            <input type="hidden" name="id" value="<%= record.id %>">
+                                            <input type="hidden" name="description" value="<%= record.description %>">
+                                            <input type="hidden" name="pkey" value="<%= record.pkey %>">
+                                            <div class="modal-body" id="prescribe">
+                                                <div class="form-group">
+                                                    <label for="message-text" class="col-form-label">Message:</label>
+                                                    <textarea class="form-control" name="prescription" id="message-text"></textarea>
+                                                </div>  
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="submit" value="submit" class="btn btn-primary">Submit</button>
+                                            </div>
+                                        </form>
+                                        </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="p-t-15">
-                                <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Jquery JS-->
-        <script src="/vendor/jquery/jquery.min.js"></script>
-        <!-- Vendor JS-->
-        <script src="/vendor/select2/select2.min.js"></script>
-        <script src="/vendor/datepicker/moment.min.js"></script>
-        <script src="/vendor/datepicker/daterangepicker.js"></script>
-
-        <!-- Main JS-->
-        <script src="/js/global.js"></script>
-    </body>
-
+                              </td>
+                           </tr>
+                           <% } %>
+                           </tbody>
+                        </table>
+                     </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+            </div> 
+         <%- include('../partials/footer.ejs') %>
+      </div>
+    </div>
+    <%- include('../partials/footerfiles.ejs') %>
+  </body>
 </html>

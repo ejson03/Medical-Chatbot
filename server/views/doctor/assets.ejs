@@ -1,53 +1,72 @@
 <!DOCTYPE html>
-<html>
-<%- include('../partials/dochead.ejs') %>
-
-    <body class="w3-light-grey w3-content">
-        <!--MyMedicalHistory-->
-        <div class="transbox" style="opacity: 1;filter: alpha(opacity=60);position:absolute; left:500px;top:55px; width:1100px " id="dashb">
-            <div class="wrapper wrapper--w680" style="max-width: 950px;">
-                <div class="card card-4">
-                    <div class="card-body">
-                        <h2 class="title" id="myhistory" style="font-size:40px;font-weight: bold; color:#000000;">My Patients</h2>
-                        <% for (const record of records){ %>
-                            <div class="w3-container w3-card w3-white w3-round w3-margin" style="position:relative;"><br>
-                                <h4 style="font-size:30px;font-weight: bold; color:#000000;">Patient Email:</h4>
-                                <b style="font-size: 18px;"> <%= record.email %></b>
-                                <h4 style="font-size:30px;font-weight: bold; color:#000000;">Description</h4>
-                                <b style="font-size: 18px;"> <%= record.description %></b>
-                                <form method="post" action="/view" class="viewForm">
-                                    <button class="btn btn--radius-2 btn--blue viewButton" type="submit" style=" float:right;margin-top: 20px;margin-bottom: 20px;" value="<%= record.file %>" name="fileURL">View</button>
-                                </form>
-                                <form method="post" action="/getrasahistory" class="rasaForm">
-                                    <button class="btn btn--radius-2 btn--blue rasaButton" type="submit" style=" float:right;margin-top: 20px;margin-bottom: 20px;" value="<%= record.email %>" name="rasa">Rasa</button>
-                                </form>
-                                <form method="post" action="/prescribe" class="prescribeForm">
-                                    <input type="hidden" name="id" value="<%= record.id %>">
-                                    <input type="hidden" name="description" value="<%= record.description %>">
-                                    <input type="hidden" name="pkey" value="<%= record.pkey %>">
-                                    <button class="btn btn--radius-2 btn--blue prescribeButton" type="submit" style=" float:right;margin-right: 15px;margin-top: 20px;margin-bottom: 20px;" name="c">Prescribe</button>
-                                </form>
-                            </div>
-                            <% } %>
-                                <div class="w3-container w3-card w3-white w3-round w3-margin" style="position:relative;font-size: 18px;"><br>
-                                    <b> Description of Uploaded Docs</b>
-                                </div>
+  <html lang="en">
+  <head>
+    <%- include('../partials/headnew.ejs') %>
+  </head>
+  <body class="">
+    <div class="wrapper ">
+      <%- include('../partials/sidebardoc.ejs') %>
+      <div class="main-panel">
+        <%- include('../partials/topbardoc.ejs') %>
+        <div class="content">
+           <div class="container-fluid">
+             <div class="row">
+               <div class="col-md-12">
+                    <div class="col-md-12">
+                       <div class="card">
+                       <div class="card-header card-header-warning">
+                          <h4 class="card-title">Patient List</h4>
+                          <p class="card-category"> <i class="material-icons">access_time</i> updated  <script>
+                             document.write(new Date())
+                           </script> ago </p>
+                       </div>
+                       <div class="card-body table-responsive">
+                          <table class="table table-hover">
+                             <thead class="text-primary">
+                             <th>ID</th>
+                             <th>Name</th>
+                             <th>Phone</th>
+                             <th>Gender</th>
+                             <th>Files</th>
+                             <th>Chats</th>
+                             </thead>
+                             <tbody>
+                                <% for (var record=0; record<records.length; record++){ %>
+                             <tr>
+                                <td><%= record %></td>
+                                <td><%= record.name %></td>
+                                <td><%= record.phone %></td>
+                                <td><%= record.gender %></td>
+                                <td>
+                                   <form method="post" action="/view" >
+                                      <input type="hidden" name="status" value="encrypted" />
+                                      <button type="submit" rel="tooltip" type="submit" value="<%= record.username %>" name="name" title="List of File" class="btn btn-primary btn-link btn-sm text-primary">
+                                         <i class="material-icons">folder_open</i>
+                                      </button>
+                                   </form>
+                                </td>
+                                <td>
+                                   <form method="post" action="/getrasahistory" >
+                                      <button type="submit" rel="tooltip" type="submit" value="<%= record.email %>" name="rasa" title="History of Chats" class="btn btn-primary btn-link btn-sm text-primary">
+                                         <i class="material-icons">receipt_long</i>
+                                      </button>
+                                   </form>
+                                </td>
+                             </tr>
+                             <% } %>
+                             </tbody>
+                          </table>
+                       </div>
+                       </div>
                     </div>
-                </div>
-            </div>
+                 </div>
+               </div>
+              </div> 
+           <%- include('../partials/footer.ejs') %>
         </div>
-        <script>
-            $('button.viewButton').click(function() {
-                $('form.viewForm').submit();
-            });
-            $('button.prescribeButton').click(function() {
-                $('form.prescribeForm').submit();
-            });
-            $('button.rasaButton').click(function() {
-                $('form.rasaForm').submit();
-            });
-        </script>
-
+      </div> 
+      <%- include('../partials/footerfiles.ejs') %>
     </body>
-
-</html>
+    
+    </html>
+  

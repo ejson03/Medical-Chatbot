@@ -17,7 +17,7 @@ doctorRouter.get('/profileupdate', function (req: Request, res: Response) {
 });
 
 doctorRouter.get('/chatbot', function (req: Request, res: Response) {
-   res.render('chatbot.ejs', { name: req.session?.user.user.name });
+   res.render('doctor/chatbot.ejs', { name: req.session?.user.user.name });
 });
 
 export default doctorRouter;

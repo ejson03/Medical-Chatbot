@@ -1,48 +1,4 @@
 <!DOCTYPE html>
-<html>
-
-<%- include('../partials/dochead.ejs') %>
-
-
-    <body class=" w3-content" >
-        <!-- Middle Column -->
-        <div class="transbox" style="background-color: #ffffff;opacity: 1;filter: alpha(opacity=60);position:absolute; left:600px; top:175px; width:1000px  " id="dashb">
-
-            <div class="w3-row-padding">
-                <div class="w3-col m12">
-                    <div>
-                        <div>
-                            <img src="/images/doc.jpg" style="width:20%;margin-top:20px;" style="float:left;width:42px;height:20px;"><br>
-                            <div style="position:initial; left:300px; top:2px; ">
-                                <br><br>
-                                <b style="font-weight: bold;font-size: 20px;color:rgb(0, 0, 0);">Name :</b>
-                                <b style="font-size: 20px;margin-left: 200px; "> <%= record.name %></b>
-
-                                <br></br>
-                                <b style="font-weight: bold;font-size: 20px;color: rgb(0, 0, 0);">Email :</b>
-                                <b style="font-size: 20px;margin-left: 193px; "> <%= record.email %></b>
-                                <br></br>
-                                <b style="font-weight: bold;font-size: 20px;color: rgb(0, 0, 0);">Specialization :</b>
-                                <b style="font-size: 20px;margin-left: 196px; "> <%= record.specialization %></b>
-
-                                <br></br>
-                                <b style="font-weight: bold;font-size: 20px;color: rgb(0, 0, 0);">Qualififcation :</b>
-                                <b style="font-size: 20px;margin-left: 256px; "> <%= record.qualification %></b>
-                                <br></br>
-                                <b style="font-weight: bold;font-size: 20px;color:rgb(0, 0, 0);">Location :</b>
-                                <b style="font-size: 20px;margin-left: 124px; "> <%= record.location %></b>
-                                <br></br>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
-
-</html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <%- include('../partials/headnew.ejs') %>
@@ -58,15 +14,9 @@
             <div class="col-md-12">
               <div class="card">
                 <div class="card-header card-header-warning">
-                  <h4 class="card-title"><%= data.name %></h4>
+                  <h4 class="card-title"><%= record.name %></h4>
                 </div>
                 <div class="card-body">
-                    <p><label class=" text-warning">
-                      NAME
-                    </label> <br>
-                    <label class=" text-primary">
-                        <%= record.name %>
-                    </label></p>
                     <p><label class="text-warning">
                       EMAIL
                     </label> <br>

@@ -67,7 +67,6 @@
                                 <%= doctors[doctor].institute %>
                             </td>
                             <td >
-
                                 <form action="/user/access" method="post" id="grantform">
                                   <input type="hidden" value="<%= doctors[doctor].username %>" name="value" />
                                   <button  type="submit" 
@@ -76,67 +75,92 @@
                                     <i class="material-icons">check</i>
                                   </button> 
                                 </form>  
-                             
-                               <div class="modal fade" id="grantlist" tabindex="-1" role="dialog" aria-labelledby="grantlistTitle" aria-hidden="true">
-                                 <div class="modal-dialog modal-lg" role="document">
-                                   <div class="modal-content">
-                                     <div class="modal-header">
-                                       <h5 class="modal-title" id="grantlistTitle">List of Documents</h5>
-                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                         <span aria-hidden="true">&times;</span>
-                                       </button>
-                                     </div>
-                                     <form method="post" action="/user/check">
-                                     <div class="modal-body" id="grant">
-                                        
-                                     </div>
-                                     <div class="modal-footer">
-                                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                       <button type="submit" value="submit" class="btn btn-primary">Save changes</button>
-                                     </div>
-                                   </form>
-                                   </div>
-                                 </div>
-                               </div>
+                                  <!-- Modal -->
+                                <div class="modal fade" id="grantlist" tabindex="-1" role="dialog" aria-labelledby="grantlistTitle" aria-hidden="true">
+                                  <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="grantlistTitle">DOCUMENT LIST</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <form method="post" action="/user/check">
+                                      <div class="modal-body" id="grant">
+                                          
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="submit" value="submit" class="btn btn-primary">Save changes</button>
+                                      </div>
+                                    </form>
+                                    </div>
+                                  </div>
+                                </div>
                             </td>
                             <td>
                                 <form action="/user/revoke" method="post" id="revokeform">
                                   <input type="hidden" value="<%= doctors[doctor].username %>" name="value" />
-
                                     <button  type="submit" 
                                     data-toggle="modal" data-target="#revokelist" 
                                     rel="tooltip" title="Revoke Access" class="btn btn-danger btn-link btn-sm">
                                       <i class="material-icons">close</i>
                                     </button> 
                                 </form>  
-                             
                                 <!-- Modal -->
-                               <div class="modal fade" id="revokelist" tabindex="-1" role="dialog" aria-labelledby="revokelistTitle" aria-hidden="true">
-                                 <div class="modal-dialog modal-lg" role="document">
-                                   <div class="modal-content">
-                                     <div class="modal-header">
-                                       <h5 class="modal-title" id="revokelistTitle">List of Documents</h5>
-                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                         <span aria-hidden="true">&times;</span>
-                                       </button>
-                                     </div>
-                                     <form method="post" action="/user/uncheck">
-                                     <div class="modal-body" id="revoke"></div>
-                                     <div class="modal-footer">
-                                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                       <button type="submit" value="submit" class="btn btn-primary">Save changes</button>
-                                     </div>
-                                   </form>
-                                   </div>
-                                 </div>
-                               </div>
+                                <div class="modal fade" id="revokelist" tabindex="-1" role="dialog" aria-labelledby="revokelistTitle" aria-hidden="true">
+                                  <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="revokelistTitle">DOCUMENT LIST</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <form method="post" action="/user/uncheck">
+                                      <div class="modal-body" id="revoke"></div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="submit" value="submit" class="btn btn-primary">Save changes</button>
+                                      </div>
+                                    </form>
+                                    </div>
+                                  </div>
+                                </div>
                             </td>
                             <td>
-                                <form action="/user/prescription" method="post">
+                                <!-- <form action="/user/prescription" method="post">
                                     <button type="submit" rel="tooltip" value="<%= doctor.username %>" name="value" title="Prescription" class="btn btn-primary btn-link btn-sm text-warning">
                                       <i class="material-icons">content_paste</i>
                                     </button>
-                                </form>
+                                </form> -->
+                                <form action="/user/prescription" method="post" id="prescribeform">
+                                  <input type="hidden" value="<%= doctors[doctor].username %>" name="value" />
+                                    <button  type="submit" 
+                                    data-toggle="modal" data-target="#prescribelist" 
+                                    rel="tooltip" title="Prescription" class="btn btn-danger btn-link btn-sm">
+                                      <i class="material-icons">content_paste</i>
+                                    </button> 
+                                </form>  
+                                <!-- Modal -->
+                                <div class="modal fade" id="prescribelist" tabindex="-1" role="dialog" aria-labelledby="prescribeTitle" aria-hidden="true">
+                                  <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="prescribeTitle">PRESCRIPTIONS</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body" id="prescribe">
+                                          
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
                             </td>
                         </tr>
                         <% } %>
@@ -152,21 +176,42 @@
       <%- include('../partials/footer.ejs') %>
     </div>
   </div>
-   <script>
-     function makeModal(doctor,records, app){
-       let inner = "";
+  <script>
+    function makeModal(doctor,records, app){
+      let inner = "";
       const element = document.getElementById(app);
       for (var d=0; d<records.records.length; d++){ 
-        const label = `<label class="bmd-label-floating col-md-4"> ${records.records[d].data.description}</label>`
+        const label = `<label class="bmd-label-floating col-md-6"> ${records.records[d].data.description}</label>`
         const mainDiv = `<div class="form-check col-md-4 ml-auto">
-                                            <label class="form-check-label">
                                               <input class="form-check-input " type="checkbox" name="${d}" value="${records.records[d].id}" />
                                               <span class="form-check-sign">
                                                 <span class="check"></span>
                                               </span>
+                                          </div><br>`;
+        inner +=  label + mainDiv
+        console.log(inner)
+      }
+        const input = `<input type="hidden" value="${doctor}" name="value" />`
+        inner += input
+        element.innerHTML = inner 
+        console.log(element)                                      
+    }
+    function prescribeModal(doctor,records, app){
+      let inner = "";
+      const element = document.getElementById(app);
+      for (var d=0; d<records.records.length; d++){ 
+        const label = `<label class="bmd-label-floating col-md-4"> ${records.records[d].data.prescription}</label>`
+        const mainDiv = `<div class="form-check col-md-4 ml-auto">
+                                            <label class="form-check-label">
+                                            <form method="post" action="/view">
+                                              <input type="hidden" name="status" value="decrypted"> 
+                                              <button  type="submit" rel="tooltip" title="File" class="btn btn-danger btn-link btn-sm" value="${records.records[d].data.file}" name="fileURL">
+                                                <i class="material-icons">attachement</i>
+                                              </button>
+                                            </form>
                                             </label>
                                           </div><br>`;
-        inner += label + mainDiv
+        inner +=  label + mainDiv
         console.log(inner)
       }
         const input = `<input type="hidden" value="${doctor}" name="value" />`
@@ -199,6 +244,17 @@ revokeform.onsubmit = async(event) => {
   document.getElementById("revokelist").style.display = "block"
 }
 
+prescribeform.onsubmit = async(event) => {
+  event.preventDefault();
+  const doctor = new FormData(prescribeform).get("value");
+  const response = await fetch('/user/access', {
+    method: 'POST',
+      body: new FormData(prescribeform)
+  })
+  const result = await response.json();
+  prescribeModal(doctor, result, "prescribe")
+  document.getElementById("prescribelist").style.display = "block"
+}
    
    </script> 
   <%- include('../partials/footerfiles.ejs') %>

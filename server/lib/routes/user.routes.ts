@@ -20,7 +20,7 @@ userRouter.get('/profileupdate', function (req: Request, res: Response) {
 });
 
 userRouter.get('/chatbot', function (req: Request, res: Response) {
-   res.render('chatbot.ejs', { name: req.session?.user.user.name });
+   res.render('patient/chatbot.ejs', { name: req.session?.user.user.name });
 });
 
 userRouter.get('/add', function (req: Request, res: Response) {
