@@ -15,9 +15,9 @@
               <div class="card">
                 <div class="card-header card-header-warning">
                   <h4 class="card-title ">Doctor List</h4>
-                  <p class="card-category"> <i class="material-icons">access_time</i> updated  <script>
+                  <p class="card-category"> List of Registered Doctors as of  <script>
                     document.write(new Date())
-                  </script> ago </p>
+                  </script></p></p>
                 </div>
                 <div class="card-body table-responsive">
                   <div class="table-responsive">
@@ -67,24 +67,16 @@
                                 <%= doctors[doctor].institute %>
                             </td>
                             <td >
-                                <!-- <form action="/user/access" method="post">
-                                    <button class="btn btn-primary " type="submit"  value="<%= doctor.username %>" name="value">
-                                        <i class="material-icons">check</i>
-                                    </button>
-                                    
-                                </form> -->
-                                <form action="/user/access" method="post" onsubmit="openModal()" id="grantform">
+
+                                <form action="/user/access" method="post" id="grantform">
+                                  <input type="hidden" value="<%= doctors[doctor].username %>" name="value" />
                                   <button  type="submit" 
                                   data-toggle="modal" data-target="#grantlist" 
-                                  rel="tooltip" title="Revoke Access" class="btn btn-danger btn-link btn-sm" 
-                                  value="<%= doctor.username %>" name="value">
+                                  rel="tooltip" title="Revoke Access" class="btn btn-danger btn-link btn-sm">
                                     <i class="material-icons">check</i>
                                   </button> 
                                 </form>  
-                                <!-- <button type="button" rel="tooltip" data-toggle="modal" data-target="#grantlist" title="Grant Access" class="btn btn-primary btn-link btn-sm">
-                                  <i class="material-icons">check</i>
-                                </button> -->
-                                <!-- Modal -->
+                             
                                <div class="modal fade" id="grantlist" tabindex="-1" role="dialog" aria-labelledby="grantlistTitle" aria-hidden="true">
                                  <div class="modal-dialog modal-lg" role="document">
                                    <div class="modal-content">
@@ -95,22 +87,8 @@
                                        </button>
                                      </div>
                                      <form method="post" action="/user/check">
-                                     <div class="modal-body">
-                                         <% for (var d=0; d<records.length; d++){ %>
-                                           <label class="bmd-label-floating col-md-4">
-                                             <%= d %> <%= records[d].data.description %>
-                                           </label>  
-                                           <div class="form-check col-md-4 ml-auto">
-                                            <label class="form-check-label">
-                                              <input class="form-check-input " type="checkbox" name="<%= d %>" value="<%= records[d].data.description %>" />
-                                              <span class="form-check-sign">
-                                                <span class="check"></span>
-                                              </span>
-                                            </label>
-                                          </div><br>
-                                           <!-- <input class="col-md-4 ml-auto" type="checkbox" name="<%= d %>" value="<%= records[d].data.description %>" /><br> -->
-                                           <% } %>
-                                     <input type="hidden" value="<%= doctor.username %>" name="value" />
+                                     <div class="modal-body" id="grant">
+                                        
                                      </div>
                                      <div class="modal-footer">
                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -122,17 +100,16 @@
                                </div>
                             </td>
                             <td>
-                                <form action="/user/revoke" method="post" onsubmit="openModal()" id="revokeform">
+                                <form action="/user/revoke" method="post" id="revokeform">
+                                  <input type="hidden" value="<%= doctors[doctor].username %>" name="value" />
+
                                     <button  type="submit" 
                                     data-toggle="modal" data-target="#revokelist" 
-                                    rel="tooltip" title="Revoke Access" class="btn btn-danger btn-link btn-sm" 
-                                    value="<%= doctor.username %>" name="value">
+                                    rel="tooltip" title="Revoke Access" class="btn btn-danger btn-link btn-sm">
                                       <i class="material-icons">close</i>
                                     </button> 
                                 </form>  
-                               <!-- <button type="button"data-toggle="modal" data-target="#revokelist" rel="tooltip" title="Revoke Access" class="btn btn-danger btn-link btn-sm">
-                                <i class="material-icons">close</i>
-                              </button>  -->
+                             
                                 <!-- Modal -->
                                <div class="modal fade" id="revokelist" tabindex="-1" role="dialog" aria-labelledby="revokelistTitle" aria-hidden="true">
                                  <div class="modal-dialog modal-lg" role="document">
@@ -144,22 +121,7 @@
                                        </button>
                                      </div>
                                      <form method="post" action="/user/uncheck">
-                                     <div class="modal-body">
-                                         <% for (var d=0; d<records.length; d++){ %>
-                                           <label class="bmd-label-floating col-md-4">
-                                             <%= d %> <%= records[d].data.description %>
-                                           </label>  
-                                           <div class="form-check col-md-4 ml-auto">
-                                            <label class="form-check-label">
-                                              <input class="form-check-input " type="checkbox" name="<%= d %>" value="<%= records[d].data.description %>" />
-                                              <span class="form-check-sign">
-                                                <span class="check"></span>
-                                              </span>
-                                            </label>
-                                          </div><br>
-                                           <% } %>
-                                     <input type="hidden" value="<%= doctor.username %>" name="value" />
-                                     </div>
+                                     <div class="modal-body" id="revoke"></div>
                                      <div class="modal-footer">
                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                        <button type="submit" value="submit" class="btn btn-primary">Save changes</button>
@@ -191,14 +153,53 @@
     </div>
   </div>
    <script>
-    $('#revokeform').on('submit', function(e){
-      $('#revokelist').modal('show');
-      e.preventDefault();
-    }); 
-    $('#grantform').on('submit', function(e){
-      $('#grantlist').modal('show');
-      e.preventDefault();
-    }); 
+     function makeModal(doctor,records, app){
+       let inner = "";
+      const element = document.getElementById(app);
+      for (var d=0; d<records.records.length; d++){ 
+        const label = `<label class="bmd-label-floating col-md-4"> ${records.records[d].data.description}</label>`
+        const mainDiv = `<div class="form-check col-md-4 ml-auto">
+                                            <label class="form-check-label">
+                                              <input class="form-check-input " type="checkbox" name="${d}" value="${records.records[d].id}" />
+                                              <span class="form-check-sign">
+                                                <span class="check"></span>
+                                              </span>
+                                            </label>
+                                          </div><br>`;
+        inner += label + mainDiv
+        console.log(inner)
+      }
+        const input = `<input type="hidden" value="${doctor}" name="value" />`
+        inner += input
+        element.innerHTML = inner 
+        console.log(element)                                      
+    }
+
+grantform.onsubmit = async(event) => {
+  event.preventDefault();
+  const doctor = new FormData(grantform).get("value");
+  const response = await fetch('/user/access', {
+    method: 'POST',
+      body: new FormData(grantform)
+  })
+  const result = await response.json();
+  makeModal(doctor, result, "grant")
+  document.getElementById("grantlist").style.display = "block"
+}
+
+revokeform.onsubmit = async(event) => {
+  event.preventDefault();
+  const doctor = new FormData(revokeform).get("value");
+  const response = await fetch('/user/access', {
+    method: 'POST',
+      body: new FormData(revokeform)
+  })
+  const result = await response.json();
+  makeModal(doctor, result, "revoke")
+  document.getElementById("revokelist").style.display = "block"
+}
+
+   
    </script> 
   <%- include('../partials/footerfiles.ejs') %>
 </body>

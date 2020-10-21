@@ -54,8 +54,6 @@ export default class UserModel {
          records = records.filter(record => record.data.schema == schema);
          this.registered = true;
          this.user = records[0]['data'];
-         // await vaultService.lookup();
-         // const success = await vaultService.login(password, username);
          await this.readKeys();
       } catch {
          this.registered = false;
@@ -114,8 +112,9 @@ export default class UserModel {
    async getRecords(username: string) {
       try {
          let records = await bigchainService.getAsset(username);
+         console.log('Before ', records);
          records = records.filter(record => record.data.schema == 'record');
-         console.log(records);
+         console.log('After ', records);
          this.records = records;
       } catch (err) {
          console.log(err);

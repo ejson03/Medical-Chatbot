@@ -29,6 +29,7 @@ export const transferAsset = async (transaction: any, metadata: any, publicKey: 
       metadata
    );
    let txTransferBobSigned = driver.Transaction.signTransaction(txTransferBob, privateKey);
+   console.log(txTransferBobSigned);
    const transfer = await conn.postTransactionCommit(txTransferBobSigned);
    return transfer;
 };
@@ -45,6 +46,6 @@ export const getTransactions = async (query: any) => {
    return await conn.getTransactions(query);
 };
 
-export const listTransactions = async (query: any) => {
+export const listTransactions = async (query: any | string) => {
    return await conn.listTransactions(query);
 };

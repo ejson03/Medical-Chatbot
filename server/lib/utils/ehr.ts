@@ -5,7 +5,7 @@ export const getRSAKey = async (email: string, schema: string) => {
    asset.filter((data: any) => {
       return data['data']['schema'] == schema;
    });
-   return asset[0]['data']['rsa_key'];
+   return asset[0]['data']['RSAKey'];
 };
 
 export const getBigchainPublicKey = async (email: string, schema: string) => {
@@ -13,7 +13,7 @@ export const getBigchainPublicKey = async (email: string, schema: string) => {
    asset.filter((data: any) => {
       return data['data']['schema'] == schema;
    });
-   return asset[0]['data']['bigchain_key'];
+   return asset[0]['data']['bigchainKey'];
 };
 
 export const getEmail = async (key: any, schema: string) => {
@@ -39,13 +39,16 @@ export const createAccess = async (
    doctorEmail: string,
    secretKey: string
 ) => {
-   for (const index in dlist) {
-      let transaction = await bigchainService.listTransactions(dlist[index]);
+   for (const description of dlist) {
+      const transaction = await bigchainService.listTransactions(description);
+      const RSAKey = await getRSAKey(doctorEmail, 'doctor');
+      const encryptedKey = cryptoService.encryptRSA(secretKey, RSAKey);
       const data = {
          email: doctorEmail,
-         key: cryptoService.encryptRSA(secretKey, await getRSAKey(doctorEmail, 'doctor'))
+         key: encryptedKey
       };
       let metadata = transaction[transaction.length - 1].metadata;
+      metadata.datetime = new Date();
       metadata['doclist'].push(data);
       metadata = JSON.stringify(metadata);
       console.log('metadata is ', metadata);

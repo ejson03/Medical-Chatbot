@@ -1,8 +1,8 @@
 import {
    createRecord,
    getAssetHistory,
-   //showAccess,
-   //showRevoke,
+   showAccess,
+   showRevoke,
    createAccess,
    revokeAccess,
    getPrescription
@@ -24,7 +24,8 @@ export const getDoctorList = async (req: Request, res: Response) => {
          records = req.session?.user.records;
          console.log(req.session, records);
       }
-      return res.render('patient/doclist.ejs', { doctors: result, records: records });
+
+      return res.render('patient/doclist.ejs', { doctors: result, name: req.session?.user.user.name });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);
@@ -41,74 +42,72 @@ export const getMedicalHistory = async (req: Request, res: Response) => {
          records = req.session?.user.records;
          console.log(req.session, records);
       }
-      return res.render('patient/history.ejs', { records: records });
+      return res.render('patient/history.ejs', { records: records, name: req.session?.user.user.name });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);
    }
 };
 
-// export const postAccess = async (req: Request, res: Response) => {
-//    req.session!.demail = req.body.value;
-//    try {
-//       let data = await showAccess(req.session?.demail, req.session?.user.records);
-//       return res.render('patientaccesstrans.ejs', { records: data });
-//    } catch (err) {
-//       console.error(err);
-//       return res.sendStatus(404);
-//    }
-// };
+export const postAccess = async (req: Request, res: Response) => {
+   const doctor: string = req.body.value as string;
+   try {
+      const data = await showAccess(doctor, req.session?.user.records);
+      return res.json({ records: data });
+   } catch (err) {
+      console.error(err);
+      return res.sendStatus(404);
+   }
+};
 
-// export const postRevoke = async (req: Request, res: Response) => {
-//    req.session!.demail = req.body.value;
-//    try {
-//       let data = await showRevoke(req.session?.demail, req.session?.user.records);
-//       // console.log("revoke data is....", data)
-//       return res.render('patientrevoketrans.ejs', { records: data });
-//    } catch (err) {
-//       console.error(err);
-//       return res.sendStatus(404);
-//    }
-// };
+export const postRevoke = async (req: Request, res: Response) => {
+   const doctor: string = req.body.value as string;
+   try {
+      const data = await showRevoke(doctor, req.session?.user.records);
+      return res.json({ records: data });
+   } catch (err) {
+      console.error(err);
+      return res.sendStatus(404);
+   }
+};
 
 export const check = async (req: Request, res: Response) => {
+   const doctor: string = req.body.value as string;
+   delete req.body.value;
    const data: any[] = [];
-   for (const item of req.body) if (item != null) data.push(item);
-
+   for (const key of Object.keys(req.body)) {
+      if (req.body[key] != null) data.push(req.body[key]);
+   }
+   console.log(doctor, data);
    try {
       await createAccess(
          data,
-         req.session?.user.bigchainKeys.publicKey,
-         req.session?.user.bigchainKeys.privateKey,
-         req.session?.demail,
-         req.session?.user.secretKey
+         req.session?.user.secrets.bigchainPublicKey,
+         req.session?.user.secrets.bigchainPrivateKey,
+         doctor,
+         req.session?.user.secrets.secretKey
       );
       return res.redirect('/user/home');
    } catch (err) {
-      console.error(err);
+      console.error('Chck error is ', err);
       return res.sendStatus(404);
    }
 };
 
 export const uncheck = async (req: Request, res: Response) => {
-   let count = Object.keys(req.body).length;
-   console.log(req.body);
-   console.log('Objects checked is: ', count);
-   let data: any = [];
-   for (let i = 0; i < count; i++) {
-      if (req.body[i] == undefined) {
-         count++;
-      } else {
-         data.push(req.body[i]);
-      }
+   const doctor: string = req.body.value as string;
+   delete req.body.value;
+   const data: any[] = [];
+   for (const key of Object.keys(req.body)) {
+      if (req.body[key] != null) data.push(req.body[key]);
    }
-   console.log(data);
+   console.log(doctor, data);
    try {
       await revokeAccess(
          data,
-         req.session?.user.bigchainKeys.publicKey,
-         req.session?.user.bigchainKeys.privateKey,
-         req.session?.demail
+         req.session?.user.secrets.bigchainPublicKey,
+         req.session?.user.secrets.bigchainPrivateKey,
+         doctor
       );
       return res.redirect('/user/home');
    } catch (err) {

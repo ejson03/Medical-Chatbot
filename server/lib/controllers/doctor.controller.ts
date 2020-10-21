@@ -6,7 +6,7 @@ export const getFiles = async (req: Request, res: Response) => {
    try {
       let data = await getDoctorFiles(req.session?.email);
       console.log(data);
-      return res.render('doctor/assets.ejs', { records: data });
+      return res.render('doctor/assets.ejs', { records: data, name: req.session?.user.user.name });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);
@@ -15,7 +15,7 @@ export const getFiles = async (req: Request, res: Response) => {
 
 export const getDetails = async (req: Request, res: Response) => {
    try {
-      return res.render('doctor/profile.ejs', { record: req.session?.user.user });
+      return res.render('doctor/profile.ejs', { record: req.session?.user.user, name: req.session?.user.user.name });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);
