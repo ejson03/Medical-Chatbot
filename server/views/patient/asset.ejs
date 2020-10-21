@@ -23,15 +23,14 @@
                 <div class="card-body table-responsive">
                   <table class="table table-hover">
                     <tbody>
+                      <% for (const record of records){ %>
                       <tr>
-                        <% for (const record of records){ %>
                           <% if (record.operation != "TRANSFER") { %>
-                          <td><label class="text-warning col-md-6"> <%= record.operation %> </label></td>
-                          <td><i class="material-icons col-md-6">done</i></td>
+                          <td><label class="text-warning "> <%= record.operation %> </label></td>
+                          <td><i class="material-icons ">done</i></td>
                           <td><label class="float-right text-warning "><%= record.date %></label></td>
-                        </li>
-                        <%} else { %>
-                          <td><label class="text-warning col-md-6"> <%= record.operation %> </label><br>
+                          <%} else { %> 
+                          <td><label class="text-warning "> <%= record.operation %> </label><br>
                             <p>
                               <label class=""> Doctor </label>
                                 <% for (const doctor of record.doctor){ %>
@@ -40,7 +39,7 @@
                                 </label>
                                 <% } %>
                             </p>
-                            <td><i class="material-icons col-md-6">cancel</i></td>
+                            <td><i class="material-icons ">cancel</i></td>
                             <td><label class="float-right text-warning"><%= record.date %></label></td>
                            <% } %>
                            <% } %>
