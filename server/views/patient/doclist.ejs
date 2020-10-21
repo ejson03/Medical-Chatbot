@@ -183,10 +183,12 @@
       for (var d=0; d<records.records.length; d++){ 
         const label = `<label class="bmd-label-floating col-md-6"> ${records.records[d].data.description}</label>`
         const mainDiv = `<div class="form-check col-md-4 ml-auto">
+                                          <label class="form-check-label">
                                               <input class="form-check-input " type="checkbox" name="${d}" value="${records.records[d].id}" />
                                               <span class="form-check-sign">
-                                                <span class="check"></span>
-                                              </span>
+                                              <span class="check"></span>
+                                            </span>
+                                          </label>
                                           </div><br>`;
         inner +=  label + mainDiv
         console.log(inner)
