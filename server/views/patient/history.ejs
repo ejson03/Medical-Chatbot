@@ -12,50 +12,52 @@
          <div class="container-fluid">
            <div class="row">
              <div class="col-md-12">
-
-      <% for (const record of records){ %>
-      <div class="card expanded large">
-         <div class="card-header">
-           <span class="card-title">Card Title</span>
-           <i class="close material-icons">X</i>
-         </div>
-         <div class="card-content">
-           <p><%= record.data.description %></p>
-         </div>
-         <div class="card-action">
-            <form method="post" action="/view">
-               <input type="hidden" name="status" value="encrypted" />
-               <button
-                  class="btn btn--radius-2 btn--blue"
-                  type="submit"
-                  style="float: right; margin-bottom: 10px"
-                  value="<%= record.data.file %>"
-                  name="fileURL"
-               >
-                  view
-               </button>
-            </form>
-         </div>
-         <div class="card-action">
-            <form method="post" action="/user/assethistory">
-               <button
-                  class="btn btn--radius-2 btn--blue"
-                  type="submit"
-                  style="float: right; margin-bottom: 10px; margin-right: 10px"
-                  value="<%= record.id %>"
-                  name="history"
-               >
-                  history
-               </button>
-            </form>
-         </div>
-           
-         </div>
-         <% } %>
+                  <div class="col-md-12">
+                     <div class="card">
+                     <div class="card-header card-header-primary">
+                        <h4 class="card-title">Files</h4>
+                        <p class="card-category ">Files Uploaded as of <script>
+                           document.write(new Date())
+                         </script></p>
+                     </div>
+                     <div class="card-body table-responsive">
+                        <table class="table table-hover">
+                           <thead class="text-warning">
+                           <th>ID</th>
+                           <th>Name</th>
+                           <th>View</th>
+                           <th>History</th>
+                           </thead>
+                           <tbody>
+                              <% for (var record=0; record<records.length; record++){ %>
+                           <tr>
+                              <td><%= record %></td>
+                              <td><%= records[record].data.description %></td>
+                              <td>
+                                 <form method="post" action="/view">
+                                    <input type="hidden" name="status" value="encrypted" />
+                                    <button type="submit" rel="tooltip" type="submit" value="<%= records[record].data.file %>" name="fileURL" title="View File" class="btn btn-primary btn-link btn-sm text-primary">
+                                       <i class="material-icons">folder_open</i>
+                                    </button>
+                                 </form>
+                              </td>
+                              <td>
+                                 <form method="post" action="/user/assethistory">
+                                    <button type="submit" rel="tooltip" type="submit" value="<%= records[record].id %>" name="history" title="History of File" class="btn btn-primary btn-link btn-sm text-primary">
+                                       <i class="material-icons">receipt_long</i>
+                                    </button>
+                                 </form>
+                              </td>
+                           </tr>
+                           <% } %>
+                           </tbody>
+                        </table>
+                     </div>
+                     </div>
+                  </div>
+               </div>
              </div>
-             </div>
-             </div>
-             
+            </div> 
          <%- include('../partials/footer.ejs') %>
       </div>
     </div>
