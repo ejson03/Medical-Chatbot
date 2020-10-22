@@ -27,7 +27,7 @@
                       <tr>
                           <% if (record.operation != "TRANSFER") { %>
                           <td><label class="text-warning "> <%= record.operation %> </label></td>
-                          <td><i class="material-icons ">done</i></td>
+                          <td><button type="button" rel="tooltip"   title=" Access Granted" class="btn btn-danger btn-link btn-sm"><i class="material-icons ">done</i></button></td>
                           <td><label class="float-right text-warning "><%= record.date %></label></td>
                           <%} else { %> 
                           <td><label class="text-warning "> <%= record.operation %> </label><br>
@@ -39,7 +39,7 @@
                                 </label>
                                 <% } %>
                             </p>
-                            <td><i class="material-icons ">cancel</i></td>
+                            <td><button type="button" rel="tooltip"   title=" Access Revoked" class="btn btn-danger btn-link btn-sm"><i class="material-icons ">cancel</i></button></td>
                             <td><label class="float-right text-warning"><%= record.date %></label></td>
                            <% } %>
                            <% } %>

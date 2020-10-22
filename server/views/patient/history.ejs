@@ -36,14 +36,14 @@
                               <td>
                                  <form method="post" action="/view">
                                     <input type="hidden" name="status" value="encrypted" />
-                                    <button type="submit" rel="tooltip" type="submit" value="<%= records[record].data.file %>" name="fileURL" title="View File" class="btn btn-primary btn-link btn-sm text-primary">
+                                    <button rel="tooltip" type="submit" value="<%= records[record].data.file %>" name="fileURL" title="View File" class="btn btn-danger btn-link btn-sm">
                                        <i class="material-icons">folder_open</i>
                                     </button>
                                  </form>
                               </td>
                               <td>
                                  <form method="post" action="/user/assethistory">
-                                    <button type="submit" rel="tooltip" type="submit" value="<%= records[record].id %>" name="history" title="History of File" class="btn btn-primary btn-link btn-sm text-primary">
+                                    <button rel="tooltip" type="submit" value="<%= records[record].id %>" name="history" title="History of File" class="btn btn-danger btn-link btn-sm">
                                        <i class="material-icons">receipt_long</i>
                                     </button>
                                  </form>

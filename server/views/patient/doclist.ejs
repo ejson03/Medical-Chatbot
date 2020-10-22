@@ -181,6 +181,15 @@
       let inner = "";
       const element = document.getElementById(app);
       for (var d=0; d<records.records.length; d++){ 
+        const rasa = `<label class="bmd-label-floating col-md-6"> Do you want to give Chat Access ? </label>
+                        <div class="form-check col-md-4 ml-auto">
+                                                          <label class="form-check-label">
+                                                              <input class="form-check-input " id ="myCheck" type="checkbox" name="rasa"/>
+                                                              <span class="form-check-sign">
+                                                              <span class="check"></span>
+                                                            </span>
+                                                          </label>
+                                                          </div><br>`
         const label = `<label class="bmd-label-floating col-md-6"> ${records.records[d].data.description}</label>`
         const mainDiv = `<div class="form-check col-md-4 ml-auto">
                                           <label class="form-check-label">
@@ -190,7 +199,7 @@
                                             </span>
                                           </label>
                                           </div><br>`;
-        inner +=  label + mainDiv
+        inner +=  rasa + label + mainDiv
       }
         const input = `<input type="hidden" value="${doctor}" name="value" />`
         inner += input
@@ -262,7 +271,17 @@ prescribeform.onsubmit = async(event) => {
   prescribeModal(doctor, result, "prescribe")
   document.getElementById("prescribelist").style.display = "block"
 }
-   
+
+document.getElementById('myCheck').onclick = function() {
+    // access properties using this keyword
+    if ( this.checked ) {
+        // if checked ...
+        document.getElementById("myCheck").value = "True"
+    } else {
+        // if not checked ...
+        document.getElementById("myCheck").value = "False"
+    }
+};
    </script> 
   <%- include('../partials/footerfiles.ejs') %>
 </body>
