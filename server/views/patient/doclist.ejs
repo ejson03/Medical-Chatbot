@@ -200,12 +200,12 @@
       let inner = "";
       const element = document.getElementById(app);
       for (var d=0; d<records.records.length; d++){ 
-        const label = `<label class="bmd-label-floating col-md-4"> ${records.records[d].data.prescription}</label>`
+        const label = `<label class="bmd-label-floating col-md-4"> ${records.records[d].prescription}</label>`
         const mainDiv = `<div class="form-check col-md-4 ml-auto">
                                             <label class="form-check-label">
                                             <form method="post" action="/view">
                                               <input type="hidden" name="status" value="decrypted"> 
-                                              <button  type="submit" rel="tooltip" title="File" class="btn btn-danger btn-link btn-sm" value="${records.records[d].data.file}" name="fileURL">
+                                              <button  type="submit" rel="tooltip" title="File" class="btn btn-danger btn-link btn-sm" value="${records.records[d].file}" name="fileURL">
                                                 <i class="material-icons">attachement</i>
                                               </button>
                                             </form>
@@ -251,7 +251,7 @@ revokeform.onsubmit = async(event) => {
 prescribeform.onsubmit = async(event) => {
   event.preventDefault();
   const doctor = new FormData(grantform).get("value");
-  const response = await fetch('/user/revoke', {
+  const response = await fetch('/user/prescription', {
     method: 'POST',
     headers: {
 					'Content-Type': 'application/json'

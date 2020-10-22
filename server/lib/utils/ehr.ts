@@ -184,15 +184,18 @@ export const getAssetHistory = async (assetid: any) => {
    return data;
 };
 
-export const getPrescription = async (email: string, demail: string) => {
+export const getPrescription = async (_username: string, demail: string, secretKey: string) => {
    const data: any = [];
-   let assets = await bigchainService.getAsset(demail);
-   for (const id in assets) {
-      let inter = await bigchainService.getAsset(assets[id].data.assetID);
-      if (inter[0].data.email == email) {
+   const assets = await bigchainService.getAsset(demail);
+   for (const asset of assets) {
+      if (asset.data.schema != 'Doctor') {
+         let inter = await bigchainService.getAsset(asset.data.assetID);
+         inter = inter.filter(ass => ass.id === asset.data.assetID);
+         console.log(inter);
          data.push({
-            prescription: assets[0].data.prescription,
-            file: cryptoService.decrypt(inter[0].data.file)
+            prescription: asset.data.prescription,
+            description: asset.data.description,
+            file: cryptoService.decrypt(inter[0].data.file, secretKey)
          });
       }
    }

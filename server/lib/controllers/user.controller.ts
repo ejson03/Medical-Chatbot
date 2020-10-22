@@ -118,10 +118,12 @@ export const uncheck = async (req: Request, res: Response) => {
 };
 
 export const prescription = async (req: Request, res: Response) => {
-   let demail = req.body.demail;
+   const demail = req.body.value;
+   console.log(demail);
    try {
-      let data = await getPrescription(req.session?.user.user.username, demail);
-      return res.render('patient/prescription.ejs', { records: data });
+      const data = await getPrescription(req.session?.user.user.username, demail, req.session?.user.secrets.secretKey);
+      console.log(data);
+      return res.json({ records: data });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);

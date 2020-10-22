@@ -26,9 +26,9 @@ export const getDetails = async (req: Request, res: Response) => {
 
 export const getPrescription = async (req: Request, res: Response) => {
    const files = req.body.value;
-   console.log(JSON.stringify(files));
+   console.log(JSON.parse(files));
    res.render('doctor/prescribe.ejs', {
-      records: files,
+      records: JSON.parse(files),
       name: req.session?.user.user.name
    });
 };
@@ -41,7 +41,8 @@ export const postPrescription = async (req: Request, res: Response) => {
       assetID: id,
       description: description,
       prescription: prescription,
-      id: code
+      id: code,
+      schema: 'record'
    };
    let metadata = {
       email: req.session?.user.user.email,
