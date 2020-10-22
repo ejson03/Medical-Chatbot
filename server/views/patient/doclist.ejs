@@ -80,7 +80,10 @@
                                   <div class="modal-dialog modal-lg" role="document">
                                     <div class="modal-content">
                                       <div class="modal-header">
-                                        <h5 class="modal-title" id="grantlistTitle">DOCUMENT LIST</h5>
+                                        <h5 class="modal-title text-primary" id="grantlistTitle">DOCUMENT LIST</h5><br>
+                                        <p class="card-category"> <i class="material-icons">access_time</i> updated  <script>
+                                          document.write(new Date())
+                                        </script> ago </p>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                           <span aria-hidden="true">&times;</span>
                                         </button>
@@ -112,7 +115,10 @@
                                   <div class="modal-dialog modal-lg" role="document">
                                     <div class="modal-content">
                                       <div class="modal-header">
-                                        <h5 class="modal-title" id="revokelistTitle">DOCUMENT LIST</h5>
+                                        <h5 class="modal-title text-primary" id="revokelistTitle">DOCUMENT LIST</h5><br>
+                                        <p class="card-category"> <i class="material-icons">access_time</i> updated  <script>
+                                          document.write(new Date())
+                                        </script> ago </p>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                           <span aria-hidden="true">&times;</span>
                                         </button>
@@ -129,11 +135,6 @@
                                 </div>
                             </td>
                             <td>
-                                <!-- <form action="/user/prescription" method="post">
-                                    <button type="submit" rel="tooltip" value="<%= doctor.username %>" name="value" title="Prescription" class="btn btn-primary btn-link btn-sm text-warning">
-                                      <i class="material-icons">content_paste</i>
-                                    </button>
-                                </form> -->
                                 <form action="/user/prescription" method="post" id="prescribeform">
                                   <input type="hidden" value="<%= doctors[doctor].username %>" name="value" />
                                     <button  type="submit" 
@@ -147,7 +148,10 @@
                                   <div class="modal-dialog modal-lg" role="document">
                                     <div class="modal-content">
                                       <div class="modal-header">
-                                        <h5 class="modal-title" id="prescribeTitle">PRESCRIPTIONS</h5>
+                                        <h5 class="modal-title text-primary" id="prescribeTitle">PRESCRIPTIONS</h5><br>
+                                        <p class="card-category"> <i class="material-icons">access_time</i> updated  <script>
+                                          document.write(new Date())
+                                        </script> ago </p>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                           <span aria-hidden="true">&times;</span>
                                         </button>
@@ -181,25 +185,43 @@
       let inner = "";
       const element = document.getElementById(app);
       for (var d=0; d<records.records.length; d++){ 
-        const rasa = `<label class="bmd-label-floating col-md-6"> Do you want to give Chat Access ? </label>
-                        <div class="form-check col-md-4 ml-auto">
-                                                          <label class="form-check-label">
-                                                              <input class="form-check-input " id ="myCheck" type="checkbox" name="rasa"/>
-                                                              <span class="form-check-sign">
-                                                              <span class="check"></span>
-                                                            </span>
-                                                          </label>
-                                                          </div><br>`
-        const label = `<label class="bmd-label-floating col-md-6"> ${records.records[d].data.description}</label>`
-        const mainDiv = `<div class="form-check col-md-4 ml-auto">
-                                          <label class="form-check-label">
-                                              <input class="form-check-input " type="checkbox" name="${d}" value="${records.records[d].id}" />
-                                              <span class="form-check-sign">
-                                              <span class="check"></span>
-                                            </span>
-                                          </label>
-                                          </div><br>`;
-        inner +=  rasa + label + mainDiv
+        const mainDiv = ` <div class="col-md-12">
+                        <div class="card">
+                          <div class="card-body table-responsive">
+                            <table class="table table-hover">
+                              <thead class="text-warning">
+                                <th> Description</th>
+                                <th> File</th>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>${records.records[d].data.description}</td>
+                                  <td>
+                                    <div class="form-check col-md-4 ml-auto">
+                                      <label class="form-check-label">
+                                        <input class="form-check-input " type="checkbox" name="${d}" value="${records.records[d].id}" />
+                                          <span class="form-check-sign">
+                                          <span class="check"></span>
+                                        </span>
+                                      </label>
+                                     </div><br>
+                                   </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>`
+        // const label = `<label class="bmd-label-floating col-md-6"> ${records.records[d].data.description}</label>`
+        // const mainDiv = `<div class="form-check col-md-4 ml-auto">
+        //                                   <label class="form-check-label">
+        //                                       <input class="form-check-input " type="checkbox" name="${d}" value="${records.records[d].id}" />
+        //                                       <span class="form-check-sign">
+        //                                       <span class="check"></span>
+        //                                     </span>
+        //                                   </label>
+        //                                   </div><br>`;
+        inner +=  mainDiv
       }
         const input = `<input type="hidden" value="${doctor}" name="value" />`
         inner += input
@@ -209,18 +231,47 @@
       let inner = "";
       const element = document.getElementById(app);
       for (var d=0; d<records.records.length; d++){ 
-        const label = `<label class="bmd-label-floating col-md-4"> ${records.records[d].prescription}</label>`
-        const mainDiv = `<div class="form-check col-md-4 ml-auto">
-                                            <label class="form-check-label">
-                                            <form method="post" action="/view">
+        const mainDiv = ` <div class="col-md-12">
+                        <div class="card">
+                          <div class="card-body table-responsive">
+                            <table class="table table-hover">
+                              <thead class="text-warning">
+                                <th> Prescription</th>
+                                <th> File</th>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>${records.records[d].prescription}</td>
+                                  <td>
+                                    <div class="form-check col-md-4 ml-auto">
+                                      <label class="form-check-label">
+                                        <form method="post" action="/view">
                                               <input type="hidden" name="status" value="decrypted"> 
                                               <button  type="submit" rel="tooltip" title="File" class="btn btn-danger btn-link btn-sm" value="${records.records[d].file}" name="fileURL">
-                                                <i class="material-icons">attachement</i>
+                                                <i class="material-icons">attachment</i>
                                               </button>
                                             </form>
-                                            </label>
-                                          </div><br>`;
-        inner +=  label + mainDiv
+                                      </label>
+                                     </div><br>
+                                   </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>`
+        // const label = `<label class="bmd-label-floating col-md-4"> ${records.records[d].prescription}</label>`
+        // const mainDiv = `<div class="form-check col-md-4 ml-auto">
+        //                                     <label class="form-check-label">
+        //                                     <form method="post" action="/view">
+        //                                       <input type="hidden" name="status" value="decrypted"> 
+        //                                       <button  type="submit" rel="tooltip" title="File" class="btn btn-danger btn-link btn-sm" value="${records.records[d].file}" name="fileURL">
+        //                                         <i class="material-icons">attachement</i>
+        //                                       </button>
+        //                                     </form>
+        //                                     </label>
+        //                                   </div><br>`;
+        inner +=  mainDiv
       }
         const input = `<input type="hidden" value="${doctor}" name="value" />`
         inner += input
@@ -238,7 +289,7 @@ grantform.onsubmit = async(event) => {
       body: JSON.stringify({ value: doctor})
   });
   const result = await response.json();
-  makeModal(doctor, result, "grant");
+  makeModal(doctor, result, "grant",rasagive);
   document.getElementById("grantlist").style.display = "block";
 }
 
@@ -253,7 +304,7 @@ revokeform.onsubmit = async(event) => {
       body: JSON.stringify({ value: doctor})
   });
   const result = await response.json();
-  makeModal(doctor, result, "revoke")
+  makeModal(doctor, result, "revoke", rasatake)
   document.getElementById("revokelist").style.display = "block"
 }
 
@@ -271,17 +322,6 @@ prescribeform.onsubmit = async(event) => {
   prescribeModal(doctor, result, "prescribe")
   document.getElementById("prescribelist").style.display = "block"
 }
-
-document.getElementById('myCheck').onclick = function() {
-    // access properties using this keyword
-    if ( this.checked ) {
-        // if checked ...
-        document.getElementById("myCheck").value = "True"
-    } else {
-        // if not checked ...
-        document.getElementById("myCheck").value = "False"
-    }
-};
    </script> 
   <%- include('../partials/footerfiles.ejs') %>
 </body>

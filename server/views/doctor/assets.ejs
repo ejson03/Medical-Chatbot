@@ -44,19 +44,11 @@
                                    </form>
                                 </td>
                                 <td>
-                                 <% if (records[record].rasa) { %>
                                    <form method="post" action="/getrasahistory" >
                                       <button type="submit" rel="tooltip"  value="<%= records[record].username %>" name="rasa" title="History of Chats" class="btn btn-danger btn-link btn-sm">
                                          <i class="material-icons">receipt_long</i>
                                       </button>
                                    </form>
-                                   <% } else { %>
-                                    <% console.log("No access to chatbot") %>
-                                    <button type="button" rel="tooltip"  title="Access Denied" class="btn btn-danger btn-link btn-sm">
-                                       <i class="material-icons">visiblity_of</i>
-                                    </button>
-                                    <% } %>
-
                                 </td>
                              </tr>
                              <% }) %>
