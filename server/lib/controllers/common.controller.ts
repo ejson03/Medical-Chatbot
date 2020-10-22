@@ -86,7 +86,7 @@ export const view = async (req: Request, res: Response) => {
 
 export const rasa = async (req: Request, res: Response) => {
    try {
-      const sender = String(req.session?.name) || 'vortex';
+      const sender = String(req.session?.user.user.username) || 'vortex';
       let message: any;
       let rasa: any;
       if (req.file) {
@@ -104,13 +104,13 @@ export const rasa = async (req: Request, res: Response) => {
 };
 
 export const rasaHistory = async (req: Request, res: Response) => {
-   let email = req.body.rasa;
+   const username = req.body.rasa;
    try {
-      let data = await rasaService.getRasaHistory(email);
+      let data = await rasaService.getRasaHistory(username);
       console.log(data);
-      return res.render('patientrasahistory.ejs', {
+      return res.render('doctor/history.ejs', {
          doc: data,
-         email: req.session?.email
+         name: req.session?.user.user.name
       });
    } catch (err) {
       console.error('Error: ', err);

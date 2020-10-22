@@ -237,18 +237,16 @@
       for (var d=0; d<records.records.length; d++){ 
         const mainDiv = ` <tr>
                             <td>${records.records[d].prescription}</td>
-                            <td>${records.records[d].data.description}</td>
+                            <td>${records.records[d].description}</td>
                             <td>
-                              <div class="form-check">
-                                <label class="form-check-label">
+                       
                                   <form method="post" action="/view">
                                         <input type="hidden" name="status" value="decrypted"> 
                                         <button  type="submit" rel="tooltip" title="File" class="btn btn-danger btn-link btn-sm" value="${records.records[d].file}" name="fileURL">
                                           <i class="material-icons">attachment</i>
                                         </button>
                                   </form>
-                                </label>
-                              </div>
+                            
                             </td>
                           </tr>`
         inner +=  mainDiv

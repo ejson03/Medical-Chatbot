@@ -23,6 +23,8 @@ commonRouter.get('/chatbot', (_req, res) => {
 commonRouter.post('/signup', commonController.signUp);
 commonRouter.post('/login', commonController.login);
 
+commonRouter.post('/getrasahistory', commonController.rasaHistory);
+
 commonRouter.post('/view', commonController.view);
 
 commonRouter.post('/rasa', fileUpload.single('file'), commonController.rasa);

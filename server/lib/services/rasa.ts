@@ -17,9 +17,9 @@ export const RASARequest = async (message: unknown, sender: string, metadata?: s
    return await response.json();
 };
 
-export const getRasaHistory = async (email: string) => {
+export const getRasaHistory = async (username: string) => {
    const db = await MongoClient.connect(config.MONGO_URL);
-   const result = await db.db('rasa').collection('conversations').findOne({ sender_id: email });
+   const result = await db.db('rasa').collection('conversations').findOne({ sender_id: username });
 
    const filteredEvents: any = [];
    let interEvents = {};

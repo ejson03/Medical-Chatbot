@@ -219,15 +219,14 @@ export const getDoctorFiles = async (email: string, privateRSAKey: any) => {
       const tx = await bigchainService.listTransactions(asset);
       const docs = tx[tx.length - 1].metadata.doclist;
       let result = docs.filter((st: any) => st.email.includes(email));
-      const decryptionKey = decryptRSA(result[0].key, privateRSAKey);
-      console.log('decryption is ', decryptionKey);
       if (result.length != 0) {
+         const decryptionKey = decryptRSA(result[0].key, privateRSAKey);
+         console.log('decryption is ', decryptionKey);
          let ass = await bigchainService.getAsset(asset);
          if (!data[ass[0].data.username]) {
             data[ass[0].data.username] = {
                username: ass[0].data.username,
                email: ass[0].data.email,
-               rasa: result[0].rasa,
                files: []
             };
          }
