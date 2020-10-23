@@ -9,6 +9,8 @@ const patientExclude = [...doctorExclude, 'location', 'institute', 'specializati
 export const signUp = async (req: Request, res: Response) => {
    const vault = vaultService.vault();
    const users = await vaultService.getUsers(vault);
+   console.log(users, req.body.username, users.includes(req.body.username));
+
    if (users.includes(req.body.username)) {
       return res.status(401).json({ success: false });
    } else {
@@ -45,7 +47,6 @@ export const signUp = async (req: Request, res: Response) => {
 
 export const login = async (req: Request, res: Response) => {
    const vault = vaultService.vault();
-
    const users = await vaultService.getUsers(vault);
    console.log(users, req.body.username, users.includes(req.body.username));
    if (users.includes(req.body.username)) {
