@@ -11,7 +11,7 @@ export const signUp = async (req: Request, res: Response) => {
    const users = await vaultService.getUsers(vault);
    console.log(users, req.body.username, users.includes(req.body.username));
 
-   if (users.includes(req.body.username)) {
+   if (users.includes(req.body.username) || !req.body.username) {
       return res.status(401).json({ success: false });
    } else {
       try {
@@ -49,7 +49,7 @@ export const login = async (req: Request, res: Response) => {
    const vault = vaultService.vault();
    const users = await vaultService.getUsers(vault);
    console.log(users, req.body.username, users.includes(req.body.username));
-   if (!users.includes(req.body.username)) {
+   if (users.includes(req.body.username)) {
       const status = await vaultService.login(vault, req.body.pass, req.body.username);
       if (status) {
          req.session!.pass = req.body.pass;
