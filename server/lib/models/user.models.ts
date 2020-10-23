@@ -27,6 +27,7 @@ export default class UserModel {
    public records: [] = [];
    public user = {} as UserInterface;
    public secrets = {} as SecretInterface;
+   public vault: any;
 
    /*constructor() (username: string, schema: string, password?: string) {
       if (password) {
@@ -72,7 +73,7 @@ export default class UserModel {
          this.secrets!.RSAPrivateKey = privateKey;
          this.secrets!.RSAPublicKey = publicKey;
          for (const secret in this.secrets) {
-            vaultService.write(secret, this.secrets[secret]);
+            vaultService.write(this.vault, secret, this.secrets[secret]);
          }
       } catch (error) {
          console.log(error);
@@ -80,16 +81,16 @@ export default class UserModel {
    }
 
    async readKeys() {
-      this.secrets.bigchainPrivateKey = await vaultService.read('bigchainPrivateKey');
-      this.secrets.bigchainPublicKey = await vaultService.read('bigchainPublicKey');
-      this.secrets.RSAPrivateKey = await vaultService.read('RSAPrivateKey');
-      this.secrets.RSAPublicKey = await vaultService.read('RSAPublicKey');
-      this.secrets.secretKey = await vaultService.read('secretKey');
+      this.secrets.bigchainPrivateKey = await vaultService.read(this.vault, 'bigchainPrivateKey');
+      this.secrets.bigchainPublicKey = await vaultService.read(this.vault, 'bigchainPublicKey');
+      this.secrets.RSAPrivateKey = await vaultService.read(this.vault, 'RSAPrivateKey');
+      this.secrets.RSAPublicKey = await vaultService.read(this.vault, 'RSAPublicKey');
+      this.secrets.secretKey = await vaultService.read(this.vault, 'secretKey');
    }
 
    async createUser(asset: UserInterface, password: string) {
       try {
-         await vaultService.signUp(password, asset.username);
+         await vaultService.signUp(this.vault, password, asset.username);
          this.writeKeys(asset.username);
          asset.bigchainKey = this.secrets.bigchainPublicKey.toString();
          asset.RSAKey = this.secrets.RSAPublicKey.toString();
@@ -112,9 +113,9 @@ export default class UserModel {
    async getRecords(username: string) {
       try {
          let records = await bigchainService.getAsset(username);
-         console.log('Before ', records);
+         // console.log('Before ', records);
          records = records.filter(record => record.data.schema == 'record');
-         console.log('After ', records);
+         // console.log('After ', records);
          this.records = records;
       } catch (err) {
          console.log(err);

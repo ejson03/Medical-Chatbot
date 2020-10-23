@@ -7,7 +7,8 @@ const doctorExclude = ['pass', 're_pass', 'signup'];
 const patientExclude = [...doctorExclude, 'location', 'institute', 'specialization'];
 
 export const signUp = async (req: Request, res: Response) => {
-   const users = await vaultService.getUsers();
+   const vault = vaultService.vault();
+   const users = await vaultService.getUsers(vault);
    if (users.includes(req.body.username)) {
       return res.status(401).json({ success: false });
    } else {
@@ -25,9 +26,10 @@ export const signUp = async (req: Request, res: Response) => {
             });
          }
          const user = new UserModel();
+         user.vault = vault;
          await user.createUser(asset, password);
          req.session!.user = user;
-         console.log(req.session);
+         // console.log(req.session);
          if (asset.schema == 'Patient') {
             return res.redirect('/user/home');
          } else {
@@ -42,16 +44,20 @@ export const signUp = async (req: Request, res: Response) => {
 };
 
 export const login = async (req: Request, res: Response) => {
-   const users = await vaultService.getUsers();
+   const vault = vaultService.vault();
+
+   const users = await vaultService.getUsers(vault);
+   console.log(users, req.body.username, users.includes(req.body.username));
    if (users.includes(req.body.username)) {
-      const status = await vaultService.login(req.body.pass, req.body.username);
+      const status = await vaultService.login(vault, req.body.pass, req.body.username);
       if (status) {
          req.session!.pass = req.body.pass;
          const user = new UserModel();
+         user.vault = vault;
          await user.getBio(req.body.username, req.body.schema);
          await user.getRecords(req.body.username);
          req.session!.user = user;
-         console.log(req.session);
+         // console.log(req.session);
          if (req.body.schema == 'Patient') {
             return res.redirect('/user/home');
          } else {

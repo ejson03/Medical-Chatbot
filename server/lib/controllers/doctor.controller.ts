@@ -17,6 +17,7 @@ export const getFiles = async (req: Request, res: Response) => {
 
 export const getDetails = async (req: Request, res: Response) => {
    try {
+      console.log('Home session is ', req.session);
       return res.render('doctor/profile.ejs', { record: req.session?.user.user, name: req.session?.user.user.name });
    } catch (err) {
       console.error(err);
