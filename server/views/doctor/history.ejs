@@ -23,6 +23,7 @@
                      <div class="card-body table-responsive">
                         <table class="table table-hover">
                            <thead class="text-warning">
+                           <th>Chat No.</th>
                            <th>Time</th>
                            <th>Intent</th>
                            <th>Entities</th>
@@ -32,6 +33,7 @@
                            <tbody>
                               <% for (var d=0; d<doc.length; d++){ %>
                            <tr>
+                              <td> <%= d +1%></td>
                               <td> <%= doc[d].message_time %></td>
                               <td> <%= doc[d].intent %></td>
                               <td>
