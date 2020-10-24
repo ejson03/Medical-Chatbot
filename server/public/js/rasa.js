@@ -218,7 +218,7 @@ function setBotResponse(val) {
 					let url = `data:image/png;base64,${val[i].image}`
 					let img = createImage(src=url)
 					let { main, head, body, section1, frame, section2} = createModal(vid)
-					let outerButton = createButton("Please click here to see the quote", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal","data-target":`#${vid}`});
+					let outerButton = createButton("Please click here to see the quote", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;box-shadow: 5px 5px #888888;","data-toggle":"modal","data-target":`#${vid}`});
 					let response = createDiv(style=["msg_cotainer1"], id="", text = "");
 					let timespan = createSpan(style=["msg_time"], text=time);
 					setAttributes(section1,{"style":"padding:0rem;font-size: 20px;"})
@@ -243,7 +243,7 @@ function setBotResponse(val) {
 						let url = (val[i].custom.data);
 						let base = createBaseChat();
 						let { main, head, body, section1, frame, section2} = createModal(vid)
-						let outerButton = createButton("Please click here to see the video", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal","data-target":`#${vid}`});
+						let outerButton = createButton("Please click here to see the video", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;box-shadow: 5px 5px #888888;","data-toggle":"modal","data-target":`#${vid}`});
 						let response = createDiv(style=["msg_cotainer1"], id="", text = "");
 						let iframe = createIframe(url);
 						let timespan = createSpan(style=["msg_time"], text=time);
@@ -262,7 +262,7 @@ function setBotResponse(val) {
 					if (val[i].custom.payload == "map") {
 						let base = createBaseChat();
 						let { main, head, body, section1, frame, section2} = createModal(vid)
-						let outerButton = createButton("Please click here to see the map", {"type":"button", "class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;","data-toggle":"modal","data-target":`#${vid}`});
+						let outerButton = createButton("Please click here to see the map", {"type":"button","class":"btn btn-primary" ,"style":"border-radius: 25px;background-color: #00d0ff;color:black;box-shadow: 5px 5px #888888;","data-toggle":"modal","data-target":`#${vid}`});
 						let map = createDiv(style=[], id="map")
 						let response = createDiv(style=["msg_cotainer1"], id="", text = "");
 						map.style = "height: 480px; width: 798px;"
