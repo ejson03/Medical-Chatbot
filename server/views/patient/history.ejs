@@ -23,7 +23,7 @@
                      <div class="card-body table-responsive">
                         <table class="table table-hover">
                            <thead class="text-warning">
-                           <th>ID</th>
+                           <th>Document No.</th>
                            <th>Name</th>
                            <th>View</th>
                            <th>History</th>
@@ -31,7 +31,7 @@
                            <tbody>
                               <% for (var record=0; record<records.length; record++){ %>
                            <tr>
-                              <td><%= record %></td>
+                              <td><%= record +1%></td>
                               <td><%= records[record].data.description %></td>
                               <td>
                                  <form method="post" action="/view">

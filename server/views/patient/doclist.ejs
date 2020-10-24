@@ -52,7 +52,7 @@
                         <% for (var doctor=0; doctor<doctors.length; doctor++){ %>
                         <tr>
                           <td>
-                            <%= doctor %>
+                            <%= doctor + 1%>
                           </td>
                             <td>
                                 <%= doctors[doctor].name %>
@@ -189,7 +189,8 @@
       const labelstart=`<div class=" table-responsive">
                                 <table class="table table-hover">
                                   <thead class="text-primary">
-                                    <th> Description</th>
+                                    <th> Document ID </th>
+                                    <th> Description </th>
                                     <th> File</th>
                                   </thead>
                                   <tbody>`
@@ -198,6 +199,7 @@
                               </div>`
       for (var d=0; d<records.records.length; d++){ 
         const mainDiv = ` <tr>
+                            <td>${d+1}</td>
                             <td>${records.records[d].data.description}</td>
                             <td>
                               <div class="form-check ">
@@ -225,6 +227,7 @@
       const labelstart=`<div class=" table-responsive">
                                 <table class="table table-hover">
                                   <thead class="text-primary">
+                                    <th> Prescription Number </th>
                                     <th> Prescription </th>
                                     <th> Description </th>
                                     <th> File</th>
@@ -236,17 +239,16 @@
 
       for (var d=0; d<records.records.length; d++){ 
         const mainDiv = ` <tr>
+                            <td>${d+1}</td>
                             <td>${records.records[d].prescription}</td>
                             <td>${records.records[d].description}</td>
                             <td>
-                       
                                   <form method="post" action="/view">
                                         <input type="hidden" name="status" value="decrypted"> 
                                         <button  type="submit" rel="tooltip" title="File" class="btn btn-danger btn-link btn-sm" value="${records.records[d].file}" name="fileURL">
                                           <i class="material-icons">attachment</i>
                                         </button>
-                                  </form>
-                            
+                                  </form>       
                             </td>
                           </tr>`
         inner +=  mainDiv
