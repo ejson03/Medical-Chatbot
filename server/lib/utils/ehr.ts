@@ -64,15 +64,12 @@ export const createAccess = async (
 };
 
 export const revokeAccess = async (dlist: any, publicKey: string, privateKey: string, doctorEmail: string) => {
-   for (const index in dlist) {
-      let transaction = await bigchainService.listTransactions(dlist[index]);
-      let metadata = transaction[transaction.length - 1].metadata;
+   for (const description of dlist) {
+      const transaction = await bigchainService.listTransactions(description);
+      const metadata = transaction[transaction.length - 1].metadata;
       let doclist = metadata.doclist;
-      console.log('Before', doclist.length);
       doclist = doclist.filter((item: any) => item.email != doctorEmail);
-      console.log('After', doclist.length);
       metadata.doclist = doclist;
-      metadata = JSON.stringify(metadata);
       console.log('metadata is ', metadata);
       let tx = await bigchainService.transferAsset(
          transaction[transaction.length - 1],
