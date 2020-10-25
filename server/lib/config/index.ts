@@ -16,3 +16,4 @@ export const IPFS: any = {
    url: String(process.env.IPFS_URL || 'ipfs.infura.io'),
    port: String('5001')
 };
+export const GOOGLE_MAPS_KEY: string = String(process.env.GOOGLE_MAPS_KEY);

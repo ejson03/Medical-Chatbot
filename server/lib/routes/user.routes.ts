@@ -1,6 +1,7 @@
 import { Router, Request, Response } from 'express';
 import { userController } from '../controllers';
 import { fileUpload } from '../middleware/file-upload';
+import { GOOGLE_MAPS_KEY } from '../config';
 
 const userRouter: Router = Router();
 
@@ -21,7 +22,7 @@ userRouter.get('/profileupdate', function (req: Request, res: Response) {
 });
 
 userRouter.get('/chatbot', function (req: Request, res: Response) {
-   res.render('patient/chatbot.ejs', { name: req.session?.user.user.name });
+   res.render('patient/chatbot.ejs', { name: req.session?.user.user.name, map: GOOGLE_MAPS_KEY });
 });
 
 userRouter.get('/add', function (req: Request, res: Response) {
