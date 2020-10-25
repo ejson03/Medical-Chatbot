@@ -27,15 +27,14 @@
                 <i class="material-icons">person</i>
                 <p class="d-lg-none d-md-block">
                 Account
-                </p>
-                
+                </p>         
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
                 <a class="dropdown-item" href="/user/profileupdate">Profile</a>
                 <a class="dropdown-item" href="/dashboard" target="__blank"> Dashboard</a>
                 <a class="dropdown-item" href="#">Settings</a>
                 <form method="post" action="/logout" id="form-id">
-                    <a class="dropdown-item" id="logout">Logout</a>
+                    <a class="dropdown-item" onclick="document.getElementById('form-id').submit();">Logout</a>
                 </form>
             </div>
             </li>
@@ -43,11 +42,4 @@
         </div>
     </div>
 </nav>
-<script>
-    var form = document.getElementById("form-id");
-
-    document.getElementById("logout").addEventListener("click", function () {
-    form.submit();
-    });
-</script>
 <!-- End Navbar -->
