@@ -76,14 +76,19 @@ export const view = async (req: Request, res: Response) => {
    try {
       const status = String(req.body.status);
       let fileURL = String(req.body.fileURL);
+      let decryptedBuffer;
       if (status === 'encrypted') {
          fileURL = cryptoService.decrypt(fileURL, req.session?.user.secrets.secretKey);
       }
       console.log(fileURL);
       const buffer = await ipfsService.GetFile(fileURL);
-      console.log(buffer);
-      const decryptedBuffer = cryptoService.decryptFile(buffer, req.session?.user.secrets.secretKey);
-      console.log(decryptedBuffer);
+      if (req.body.hasOwnProperty('key')) {
+         console.log(req.body.key);
+         decryptedBuffer = cryptoService.decryptFile(buffer, req.body.key);
+      } else {
+         console.log(req.session?.user.secrets.secretKey);
+         decryptedBuffer = cryptoService.decryptFile(buffer, req.session?.user.secrets.secretKey);
+      }
       await ipfsService.Download(res, decryptedBuffer);
       return fileURL;
    } catch (err) {

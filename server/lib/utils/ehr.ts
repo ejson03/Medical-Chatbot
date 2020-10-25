@@ -122,7 +122,7 @@ export const createEncryptedIPFSHashFromFileBuffer = async (fileBuffer: any, sec
 };
 
 export const createIPFSHashFromCipher = async (cipher: any) => {
-   const cipherBuffer = Buffer.from(cipher, 'base64');
+   const cipherBuffer = Buffer.from(cipher, 'hex');
    return await ipfsService.AddFile(cipherBuffer);
 };
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -135,11 +135,10 @@ export const createRecord = async (
    privateKey: string,
    secretKey: string
 ) => {
-   console.log(fileBuffer, publicKey, privateKey, secretKey);
-   let cipher = cryptoService.encrypt(fileBuffer, secretKey);
-   let ipfsURL = await createIPFSHashFromCipher(cipher);
-   let ipfsURLEncrypted = cryptoService.encrypt(ipfsURL, secretKey);
-   let id = cryptoService.generateCode();
+   const cipher = cryptoService.encrypt(fileBuffer, secretKey);
+   const ipfsURL = await createIPFSHashFromCipher(cipher);
+   const ipfsURLEncrypted = cryptoService.encrypt(ipfsURL, secretKey);
+   const id = cryptoService.generateCode();
 
    Object.assign(data, {
       username: username,
@@ -149,20 +148,20 @@ export const createRecord = async (
       id: id
    });
 
-   let metadata = {
+   const metadata = {
       email: email,
       datetime: new Date().toString(),
       doclist: [],
       id: id
    };
 
-   let tx = await bigchainService.createAsset(data, metadata, publicKey, privateKey);
+   const tx = await bigchainService.createAsset(data, metadata, publicKey, privateKey);
    return tx;
 };
 
 export const getAssetHistory = async (assetid: any) => {
    const data: any = [];
-   let transactions = await bigchainService.listTransactions(assetid);
+   const transactions = await bigchainService.listTransactions(assetid);
    for (const transaction of transactions) {
       const filterTransaction: any = {
          operation: transaction.operation,
@@ -231,7 +230,7 @@ export const getDoctorFiles = async (email: string, privateRSAKey: any) => {
             file: cryptoService.decrypt(ass[0].data.file, decryptionKey),
             description: ass[0].data.description,
             id: asset,
-            pkey: tx[tx.length - 1].outputs[0].public_keys[0]
+            pkey: decryptionKey
          });
       }
    }
