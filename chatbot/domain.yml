@@ -1,143 +1,6 @@
-actions:
-- action_confirmation
-- action_diagnose_symptoms
-- action_get_all_records
-- action_ehr
-- action_get_credentials
-- action_get_joke
-- action_get_quote
-- action_get_song
-- action_reset_slot
-- action_set_file
-- action_show_map
-- action_symptoms
-- action_temp
-- action_upload
-- action_weather
-- utter_ask_age
-- utter_ask_bp
-- utter_ask_excercise
-- utter_ask_filedesc
-- utter_ask_height
-- utter_ask_howdoing
-- utter_ask_howold
-- utter_ask_languagesbot
-- utter_ask_location
-- utter_ask_name
-- utter_ask_smoking
-- utter_ask_time
-- utter_ask_weight
-- utter_ask_wherefrom
-- utter_ask_whoami
-- utter_confirm
-- utter_conform
-- utter_continue
-- utter_default
-- utter_did_that_help
-- utter_file
-- utter_form
-- utter_goodbye
-- utter_greet
-- utter_handleinsult
-- utter_noworries
-- utter_smalltalk_agent_age
-- utter_smalltalk_agent_annoying
-- utter_smalltalk_agent_answer_my_question
-- utter_smalltalk_agent_bad
-- utter_smalltalk_agent_be_clever
-- utter_smalltalk_agent_beautiful
-- utter_smalltalk_agent_birth_date
-- utter_smalltalk_agent_boring
-- utter_smalltalk_agent_boss
-- utter_smalltalk_agent_busy
-- utter_smalltalk_agent_chatbot
-- utter_smalltalk_agent_clever
-- utter_smalltalk_agent_crazy
-- utter_smalltalk_agent_fired
-- utter_smalltalk_agent_funny
-- utter_smalltalk_agent_good
-- utter_smalltalk_agent_hungry
-- utter_smalltalk_agent_marry_user
-- utter_smalltalk_agent_my_friend
-- utter_smalltalk_agent_occupation
-- utter_smalltalk_agent_origin
-- utter_smalltalk_agent_ready
-- utter_smalltalk_agent_real
-- utter_smalltalk_agent_residence
-- utter_smalltalk_agent_right
-- utter_smalltalk_agent_sure
-- utter_smalltalk_agent_talk_to_me
-- utter_smalltalk_agent_there
-- utter_smalltalk_appraisal_bad
-- utter_smalltalk_appraisal_good
-- utter_smalltalk_appraisal_no_problem
-- utter_smalltalk_appraisal_thank_you
-- utter_smalltalk_appraisal_welcome
-- utter_smalltalk_appraisal_well_done
-- utter_smalltalk_confirmation_cancel
-- utter_smalltalk_dialog_hold_on
-- utter_smalltalk_dialog_hug
-- utter_smalltalk_dialog_i_do_not_care
-- utter_smalltalk_dialog_sorry
-- utter_smalltalk_dialog_what_do_you_mean
-- utter_smalltalk_dialog_wrong
-- utter_smalltalk_emotions_ha_ha
-- utter_smalltalk_emotions_wow
-- utter_smalltalk_greetings_goodevening
-- utter_smalltalk_greetings_goodmorning
-- utter_smalltalk_greetings_goodnight
-- utter_smalltalk_greetings_how_are_you
-- utter_smalltalk_greetings_whatsup
-- utter_smalltalk_user_angry
-- utter_smalltalk_user_back
-- utter_smalltalk_user_bored
-- utter_smalltalk_user_busy
-- utter_smalltalk_user_can_not_sleep
-- utter_smalltalk_user_does_not_want_to_talk
-- utter_smalltalk_user_excited
-- utter_smalltalk_user_going_to_bed
-- utter_smalltalk_user_good
-- utter_smalltalk_user_happy
-- utter_smalltalk_user_has_birthday
-- utter_smalltalk_user_here
-- utter_smalltalk_user_joking
-- utter_smalltalk_user_likes_agent
-- utter_smalltalk_user_lonely
-- utter_smalltalk_user_looks_like
-- utter_smalltalk_user_loves_agent
-- utter_smalltalk_user_misses_agent
-- utter_smalltalk_user_needs_advice
-- utter_smalltalk_user_sleepy
-- utter_smalltalk_user_testing_agent
-- utter_smalltalk_user_tired
-- utter_smalltalk_user_waits
-- utter_smalltalk_user_wants_to_see_agent_again
-- utter_smalltalk_user_wants_to_talk
-- utter_smalltalk_user_will_be_back
-- utter_submit
-- utter_thank
-- utter_wrong_height
-- utter_wrong_smoking
-
-entities:
-- age
-- bp
-- emotion
-- excercise
-- file
-- filedesc
-- height
-- location
-- name
-- smoking
-- symptom
-- weight
-- conform
-
-forms:
-- ehr_form
-- file_form
-
+session_config:
+  session_expiration_time: 20
+  carry_over_slots_to_new_session: false
 intents:
 - affirm
 - ask_upload
@@ -243,7 +106,63 @@ intents:
 - smalltalk_user_wants_to_talk
 - smalltalk_user_will_be_back
 - smalltalk_agent_acquaintance
-
+entities:
+- age
+- bp
+- emotion
+- excercise
+- file
+- filedesc
+- height
+- location
+- name
+- smoking
+- symptom
+- weight
+- conform
+- username
+slots:
+  age:
+    type: unfeaturized
+    auto_fill: false
+  bp:
+    type: unfeaturized
+    auto_fill: false
+  conform:
+    type: unfeaturized
+    auto_fill: false
+  excercise:
+    type: unfeaturized
+    auto_fill: false
+  file:
+    type: unfeaturized
+  filedesc:
+    type: unfeaturized
+    auto_fill: false
+  height:
+    type: unfeaturized
+    auto_fill: false
+  is_form:
+    type: unfeaturized
+    auto_fill: false
+  location:
+    type: text
+  name:
+    type: text
+  password:
+    type: text
+  requested_slot:
+    type: unfeaturized
+  smoking:
+    type: unfeaturized
+    auto_fill: false
+  symptom:
+    type: list
+  username:
+    type: text
+  weight:
+    type: unfeaturized
+    auto_fill: false
 responses:
   utter_ask_age:
   - text: What is your age ?
@@ -266,9 +185,11 @@ responses:
   utter_ask_howold:
   - text: '42'
   - text: Old enough to be a bot
-  - text: Age is just an issue of mind over matter. If you don’t mind, it doesn’t matter.
+  - text: Age is just an issue of mind over matter. If you don’t mind, it doesn’t
+      matter.
   utter_ask_languagesbot:
-  - text: I can spell baguette in French, but unfortunately English is the only language I can answer you in.
+  - text: I can spell baguette in French, but unfortunately English is the only language
+      I can answer you in.
   - text: I am in the process of learning, but at the moment I can only speak English.
   utter_ask_location:
   - text: In what location ?
@@ -315,7 +236,8 @@ responses:
       title: Yes
     - payload: /ask_upload
       title: No
-    text: Do you want to fill the health form first or upload the medical record directly ?
+    text: Do you want to fill the health form first or upload the medical record directly
+      ?
   utter_goodbye:
   - text: Bye
   - text: Have a nice day !
@@ -361,7 +283,8 @@ responses:
   utter_smalltalk_agent_birth_date:
   - text: Wait, are you planning a party for me? It's today! My birthday is today!
   - text: I'm young. I'm not sure of my birth date.
-  - text: I don't know my birth date. Most virtual agents are young, though, like me.
+  - text: I don't know my birth date. Most virtual agents are young, though, like
+      me.
   utter_smalltalk_agent_boring:
   - text: I'm sorry. I'll request to be made more charming.
   - text: I don't mean to be. I'll ask my developers to work on making me more amusing.
@@ -644,50 +567,126 @@ responses:
   - text: You have entered the height in thr wrong format, Please try again
   utter_wrong_smoking:
   - text: The inputed value couln't be contemplated, Please try again
-
-session_config:
-  carry_over_slots_to_new_session: false
-  session_expiration_time: 20
-
-slots:
-  age:
-    auto_fill: false
-    type: unfeaturized
-  bp:
-    auto_fill: false
-    type: unfeaturized
-  conform:
-    auto_fill: false
-    type: unfeaturized
-  excercise:
-    auto_fill: false
-    type: unfeaturized
-  file:
-    type: unfeaturized
-  filedesc:
-    auto_fill: false
-    type: unfeaturized
-  height:
-    auto_fill: false
-    type: unfeaturized
-  is_form:
-    auto_fill: false
-    type: unfeaturized
-  location:
-    type: text
-  name:
-    type: text
-  password:
-    type: text
-  requested_slot:
-    type: unfeaturized
-  smoking:
-    auto_fill: false
-    type: unfeaturized
-  symptom:
-    type: list
-  username:
-    type: text
-  weight:
-    auto_fill: false
-    type: unfeaturized
+actions:
+- action_confirmation
+- action_diagnose_symptoms
+- action_get_all_records
+- action_ehr
+- action_get_credentials
+- action_get_joke
+- action_get_quote
+- action_get_song
+- action_reset_slot
+- action_set_file
+- action_show_map
+- action_symptoms
+- action_temp
+- action_upload
+- action_weather
+- utter_ask_age
+- utter_ask_bp
+- utter_ask_excercise
+- utter_ask_filedesc
+- utter_ask_height
+- utter_ask_howdoing
+- utter_ask_howold
+- utter_ask_languagesbot
+- utter_ask_location
+- utter_ask_name
+- utter_ask_smoking
+- utter_ask_time
+- utter_ask_weight
+- utter_ask_wherefrom
+- utter_ask_whoami
+- utter_confirm
+- utter_conform
+- utter_continue
+- utter_default
+- utter_did_that_help
+- utter_file
+- utter_form
+- utter_goodbye
+- utter_greet
+- utter_handleinsult
+- utter_noworries
+- utter_smalltalk_agent_age
+- utter_smalltalk_agent_annoying
+- utter_smalltalk_agent_answer_my_question
+- utter_smalltalk_agent_bad
+- utter_smalltalk_agent_be_clever
+- utter_smalltalk_agent_beautiful
+- utter_smalltalk_agent_birth_date
+- utter_smalltalk_agent_boring
+- utter_smalltalk_agent_boss
+- utter_smalltalk_agent_busy
+- utter_smalltalk_agent_chatbot
+- utter_smalltalk_agent_clever
+- utter_smalltalk_agent_crazy
+- utter_smalltalk_agent_fired
+- utter_smalltalk_agent_funny
+- utter_smalltalk_agent_good
+- utter_smalltalk_agent_hungry
+- utter_smalltalk_agent_marry_user
+- utter_smalltalk_agent_my_friend
+- utter_smalltalk_agent_occupation
+- utter_smalltalk_agent_origin
+- utter_smalltalk_agent_ready
+- utter_smalltalk_agent_real
+- utter_smalltalk_agent_residence
+- utter_smalltalk_agent_right
+- utter_smalltalk_agent_sure
+- utter_smalltalk_agent_talk_to_me
+- utter_smalltalk_agent_there
+- utter_smalltalk_appraisal_bad
+- utter_smalltalk_appraisal_good
+- utter_smalltalk_appraisal_no_problem
+- utter_smalltalk_appraisal_thank_you
+- utter_smalltalk_appraisal_welcome
+- utter_smalltalk_appraisal_well_done
+- utter_smalltalk_confirmation_cancel
+- utter_smalltalk_dialog_hold_on
+- utter_smalltalk_dialog_hug
+- utter_smalltalk_dialog_i_do_not_care
+- utter_smalltalk_dialog_sorry
+- utter_smalltalk_dialog_what_do_you_mean
+- utter_smalltalk_dialog_wrong
+- utter_smalltalk_emotions_ha_ha
+- utter_smalltalk_emotions_wow
+- utter_smalltalk_greetings_goodevening
+- utter_smalltalk_greetings_goodmorning
+- utter_smalltalk_greetings_goodnight
+- utter_smalltalk_greetings_how_are_you
+- utter_smalltalk_greetings_whatsup
+- utter_smalltalk_user_angry
+- utter_smalltalk_user_back
+- utter_smalltalk_user_bored
+- utter_smalltalk_user_busy
+- utter_smalltalk_user_can_not_sleep
+- utter_smalltalk_user_does_not_want_to_talk
+- utter_smalltalk_user_excited
+- utter_smalltalk_user_going_to_bed
+- utter_smalltalk_user_good
+- utter_smalltalk_user_happy
+- utter_smalltalk_user_has_birthday
+- utter_smalltalk_user_here
+- utter_smalltalk_user_joking
+- utter_smalltalk_user_likes_agent
+- utter_smalltalk_user_lonely
+- utter_smalltalk_user_looks_like
+- utter_smalltalk_user_loves_agent
+- utter_smalltalk_user_misses_agent
+- utter_smalltalk_user_needs_advice
+- utter_smalltalk_user_sleepy
+- utter_smalltalk_user_testing_agent
+- utter_smalltalk_user_tired
+- utter_smalltalk_user_waits
+- utter_smalltalk_user_wants_to_see_agent_again
+- utter_smalltalk_user_wants_to_talk
+- utter_smalltalk_user_will_be_back
+- utter_submit
+- utter_thank
+- utter_wrong_height
+- utter_wrong_smoking
+forms:
+- ehr_form
+- file_form
