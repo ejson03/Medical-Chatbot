@@ -29,8 +29,15 @@
         </div>
       </div>
     </div>
-  </div>          
+  </div>        
   <%- include('../partials/footerfiles.ejs') %>
+  <!--  Google Maps Plugin    -->
+<script type="text/javascript" src="/js/map.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=<%= map %>&libraries=places&callback=initMap" defer async></script>     
+ <!-- Chatbot! -->
+ <script type="text/javascript" src="/js/chart.min.js"></script>
+ <script type="text/javascript" src="/js/map.js"></script>
+ <script type="text/javascript" src="/js/rasa.js"></script>  
 </body>
 
 </html>
