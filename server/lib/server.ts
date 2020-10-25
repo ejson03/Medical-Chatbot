@@ -37,6 +37,15 @@ app.use('/', router);
 app.get('/dashboard', (_req, res) => {
    res.render('dashboard.html');
 });
+app.get('/dashboard1', (_req, res) => {
+   res.render('dashboard1.html');
+});
+app.get('/dashboard2', (_req, res) => {
+   res.render('dashboard2.html');
+});
+app.get('/dashboard3', (_req, res) => {
+   res.render('dashboard3.html');
+});
 
 app.listen(config.PORT, function () {
    console.log(`App listening on port ${config.PORT}`);

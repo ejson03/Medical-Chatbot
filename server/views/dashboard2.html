@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+      <meta name="theme-color" content="#000000" />
+      <link rel="stylesheet" href="/dashboard/css/styles.css" />
+      <link rel="shortcut icon" href="/dashboard/img/favicon.png" />
+      <script>
+         !(function (e) {
+            var t,
+               a = { kitId: 'fih1ngo', scriptTimeout: 3e3, async: !0 },
+               c = e.documentElement,
+               i = setTimeout(function () {
+                  c.className = c.className.replace(/\bwf-loading\b/g, '') + ' wf-inactive';
+               }, a.scriptTimeout),
+               n = e.createElement('script'),
+               s = !1,
+               o = e.getElementsByTagName('script')[0];
+            (c.className += ' wf-loading'),
+               (n.src = 'https://use.typekit.net/' + a.kitId + '.js'),
+               (n.async = !0),
+               (n.onload = n.onreadystatechange = function () {
+                  if (((t = this.readyState), !(s || (t && 'complete' != t && 'loaded' != t)))) {
+                     (s = !0), clearTimeout(i);
+                     try {
+                        Typekit.load(a);
+                     } catch (e) {}
+                  }
+               }),
+               o.parentNode.insertBefore(n, o);
+         })(document);
+      </script>
+      <title>BigchainDB Dashboard</title>
+      <link href="/dashboard/static/css/vendors.1e1a1da9.chunk.css" rel="stylesheet" />
+      <link href="/dashboard/static/css/main.f91e1ee6.chunk.css" rel="stylesheet" />
+   </head>
+   <body>
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+      <div id="root"></div>
+      <script type="text/javascript" src="/dashboard/static/js2/runtime~main.41117e05.js"></script>
+      <script type="text/javascript" src="/dashboard/static/js2/vendors.882ec448.chunk.js"></script>
+      <script type="text/javascript" src="/dashboard/static/js2/main.1153e0ee.chunk.js"></script>
+   </body>
+</html>

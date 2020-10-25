@@ -23,10 +23,9 @@ export const decrypt = (text = '', key = 'd6F3Efeq') => {
 };
 
 export const decryptFile = (text: string, key = 'd6F3Efeq') => {
-   let decipher = crypto.createDecipher('aes-256-cbc', key);
-   let dec = decipher.update(text, 'hex', 'binary');
-   dec += decipher.final('binary');
-   return dec;
+   const buffer = Buffer.from(text, 'hex');
+   const decipher = crypto.createDecipher('aes-256-cbc', key);
+   return Buffer.concat([decipher.update(buffer), decipher.final()]);
 };
 
 export const hash = (text: string) => {

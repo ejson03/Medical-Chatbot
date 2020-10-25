@@ -80,10 +80,11 @@ export const view = async (req: Request, res: Response) => {
          fileURL = cryptoService.decrypt(fileURL, req.session?.user.secrets.secretKey);
       }
       console.log(fileURL);
-      let buffer = await ipfsService.GetFile(fileURL);
-      buffer = cryptoService.decryptFile(buffer.toString('utf-8'), req.session?.user.secrets.secretKey);
-      buffer = new Buffer(buffer, 'binary');
-      await ipfsService.Download(res, buffer);
+      const buffer = await ipfsService.GetFile(fileURL);
+      console.log(buffer);
+      const decryptedBuffer = cryptoService.decryptFile(buffer, req.session?.user.secrets.secretKey);
+      console.log(decryptedBuffer);
+      await ipfsService.Download(res, decryptedBuffer);
       return fileURL;
    } catch (err) {
       console.error(err);

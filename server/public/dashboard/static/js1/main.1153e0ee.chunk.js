@@ -3,7 +3,7 @@
    {
       28: function (e) {
          e.exports = {
-            host: '159.65.149.5',
+            host: '142.93.217.62',
             port: 9984,
             ws_port: 9985,
             api: '/api/v1/',

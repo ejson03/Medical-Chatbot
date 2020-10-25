@@ -136,15 +136,15 @@ services:
   #   env_file:
   #     - .env
 
-  # nginx:
-  #   container_name: "nginx"
-  #   restart: unless-stopped
-  #   build:
-  #     context: nginx
-  #   ports:
-  #     - 8002:8000
-  #   links:
-  #     - main
+  nginx:
+    container_name: "nginx"
+    restart: unless-stopped
+    build:
+      context: nginx
+    ports:
+      - 8443:8443
+    depends_on:
+      - server
 
  
 
