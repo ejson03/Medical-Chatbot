@@ -8,21 +8,14 @@ intents:
 - greet
 - goodbye
 - deny
-- thank
 - out_of_scope
 - get_emotion
 - get_all_records
 - get_ipfs_url
-- ask_builder
-- ask_howdoing
-- ask_howold
-- ask_time
-- ask_wherefrom
 - ask_whoami
 - ask_name
 - ask_weather_location
 - ask_temperature
-- ask_weather
 - ask_ehr_form
 - conform_no
 - conform_yes
@@ -32,7 +25,6 @@ intents:
 - telljoke
 - tellquote
 - ask_whatismyname
-- get_happy_images
 - ask_languagesbot
 - smalltalk_agent_age
 - smalltalk_agent_annoying
@@ -80,7 +72,6 @@ intents:
 - smalltalk_greetings_goodnight
 - smalltalk_greetings_how_are_you
 - smalltalk_greetings_whatsup
-- smalltalk_user_angry
 - smalltalk_user_back
 - smalltalk_user_bored
 - smalltalk_user_busy
@@ -93,7 +84,6 @@ intents:
 - smalltalk_user_here
 - smalltalk_user_joking
 - smalltalk_user_likes_agent
-- smalltalk_user_lonely
 - smalltalk_user_looks_like
 - smalltalk_user_loves_agent
 - smalltalk_user_misses_agent
@@ -105,21 +95,12 @@ intents:
 - smalltalk_user_wants_to_see_agent_again
 - smalltalk_user_wants_to_talk
 - smalltalk_user_will_be_back
-- smalltalk_agent_acquaintance
 entities:
-- age
-- bp
 - emotion
-- excercise
 - file
-- filedesc
-- height
 - location
 - name
-- smoking
 - symptom
-- weight
-- conform
 - username
 slots:
   age:
@@ -147,19 +128,11 @@ slots:
     auto_fill: false
   location:
     type: text
-  name:
-    type: text
-  password:
-    type: text
   requested_slot:
     type: unfeaturized
   smoking:
     type: unfeaturized
     auto_fill: false
-  symptom:
-    type: list
-  username:
-    type: text
   weight:
     type: unfeaturized
     auto_fill: false
@@ -571,8 +544,6 @@ actions:
 - action_confirmation
 - action_diagnose_symptoms
 - action_get_all_records
-- action_ehr
-- action_get_credentials
 - action_get_joke
 - action_get_quote
 - action_get_song
