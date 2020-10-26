@@ -15,14 +15,12 @@ export const getDoctorList = async (req: Request, res: Response) => {
    try {
       let result = await bigchainService.getAsset('Doctor');
       result = result.map((data: { [x: string]: unknown }) => data['data']);
-      console.log(result);
-      let records = req.session?.user.records;
-      if (records.length === 0 && req.session) {
+      if (req.session) {
          const user = new UserModel(req.session.user);
          user.getRecords(req.session.user.user.username);
+         console.log(user);
          req.session.user = user;
-         records = req.session?.user.records;
-         console.log(req.session, records);
+         console.log(req.session.user);
       }
 
       return res.render('patient/doclist.ejs', { doctors: result, name: req.session?.user.user.name });
@@ -34,15 +32,15 @@ export const getDoctorList = async (req: Request, res: Response) => {
 
 export const getMedicalHistory = async (req: Request, res: Response) => {
    try {
-      let records = req.session?.user.records;
-      if (records.length === 0 && req.session) {
+      if (req.session) {
          const user = new UserModel(req.session.user);
-         user.getRecords(req.session.user.user.username);
+         user.records = await user.getRecords(req.session.user.user.username);
+         console.log(user);
          req.session.user = user;
-         records = req.session?.user.records;
-         console.log(req.session);
+         console.log(req.session.user);
+         const records = req.session.user.records;
+         return res.render('patient/history.ejs', { records: records, name: req.session.user.user.name });
       }
-      return res.render('patient/history.ejs', { records: records, name: req.session?.user.user.name });
    } catch (err) {
       console.error(err);
       return res.sendStatus(404);

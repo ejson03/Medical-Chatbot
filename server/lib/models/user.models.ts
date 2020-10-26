@@ -51,10 +51,10 @@ export default class UserModel {
 
    async getBio(username: string, schema: string) {
       try {
-         let records = await bigchainService.getAsset(username);
-         records = records.filter(record => record.data.schema == schema);
+         const records = await bigchainService.getAsset(username);
+         const filteredRecords = records.filter(record => record.data.schema == schema);
          this.registered = true;
-         this.user = records[0]['data'];
+         this.user = filteredRecords[0]['data'];
          await this.readKeys();
       } catch {
          this.registered = false;
@@ -112,13 +112,16 @@ export default class UserModel {
 
    async getRecords(username: string) {
       try {
-         let records = await bigchainService.getAsset(username);
-         console.log('Before ', records);
-         records = records.filter(record => record.data.schema == 'record' && record.data.username == username);
-         console.log('After ', records);
-         this.records = records;
+         const records = await bigchainService.getAsset(username);
+         const filterRecords = records.filter(
+            record => record.data.schema == 'record' && record.data.username == username
+         );
+         console.log('Filtered records are ', filterRecords);
+         this.records = filterRecords;
+         return filterRecords;
       } catch (err) {
          console.log(err);
+         return [];
       }
       return [];
    }

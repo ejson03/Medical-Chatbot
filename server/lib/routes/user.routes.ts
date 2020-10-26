@@ -13,7 +13,7 @@ userRouter.post('/access', userController.postAccess);
 userRouter.post('/revoke', userController.postRevoke);
 
 userRouter.get('/home', function (req: Request, res: Response) {
-   console.log('Home session is ', req.session);
+   console.log(req.session);
    res.render('patient/profile.ejs', { data: req.session?.user.user, name: req.session?.user.user.name });
 });
 

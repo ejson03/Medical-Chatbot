@@ -16,7 +16,6 @@ export const signUp = async (req: Request, res: Response) => {
    } else {
       try {
          const password = req.body.pass;
-         req.session!.password = password;
          const asset: UserInterface = req.body as UserInterface;
          if (req.body.institute === '') {
             patientExclude.forEach(key => {
@@ -30,13 +29,21 @@ export const signUp = async (req: Request, res: Response) => {
          const user = new UserModel();
          user.vault = vault;
          await user.createUser(asset, password);
-         req.session!.user = user;
-         // console.log(req.session);
-         if (asset.schema == 'Patient') {
-            return res.redirect('/user/home');
+         // const vaultClientToken = (await vaultService.login(vault, req.body.username, req.body.pass)).auth.client_token;
+         // req.session!.user = user;
+         // req.session!.client_token = vaultClientToken;
+         // console.log(req.body.schema + ' session is ' + req.session);
+         if (user.user) {
+            return res.redirect('/login');
          } else {
-            res.redirect('/doctor/home');
+            req.session?.destroy(err => console.log(err));
+            return res.sendStatus(404);
          }
+         // if (asset.schema == 'Patient') {
+         //    return res.redirect('/user/home');
+         // } else {
+         //    res.redirect('/doctor/home');
+         // }
       } catch (error) {
          console.log(error);
          return res.sendStatus(404);
@@ -52,13 +59,14 @@ export const login = async (req: Request, res: Response) => {
    if (users.includes(req.body.username)) {
       const status = await vaultService.login(vault, req.body.pass, req.body.username);
       if (status) {
-         req.session!.pass = req.body.pass;
+         const vaultClientToken = status.auth.client_token;
          const user = new UserModel();
          user.vault = vault;
          await user.getBio(req.body.username, req.body.schema);
          await user.getRecords(req.body.username);
          req.session!.user = user;
-         // console.log(req.session);
+         req.session!.client_token = vaultClientToken;
+         console.log(req.session);
          if (req.body.schema == 'Patient') {
             return res.redirect('/user/home');
          } else {
@@ -104,7 +112,7 @@ export const rasa = async (req: Request, res: Response) => {
       let rasa: any;
       if (req.file) {
          message = await createIPFSHashFromFileBuffer(req.file.buffer, req.session?.user.secrets.secretKey);
-         rasa = await rasaService.RASARequest(message, sender, req.session?.user.secrets.secretKey); //req.session?.user.secrets.secretKey);
+         rasa = await rasaService.RASARequest(message, sender, req.session?.client_token);
       } else {
          message = req.body.message;
          rasa = await rasaService.RASARequest(message, sender);

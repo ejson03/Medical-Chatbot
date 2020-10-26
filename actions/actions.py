@@ -3,8 +3,7 @@ from modules.utils import *
 from modules.diagnose import encode_symptom, create_illness_vector, get_diagnosis
 from modules.scrapper import *
 from modules.config import * 
-from modules.encryption import encrypt
-from modules.ehr import get_records
+from modules.ehr import get_records, write_record
 # from modules.ehr import User
 # from modules.vault import Config
 import os, requests, base64, uuid
@@ -27,33 +26,6 @@ class ResetSlot(Action):
     def run(self, dispatcher, tracker, domain):
         return [SlotSet('filedesc', None)]
 
-class ActionGetCredentials(Action):
-    def name(self):
-        return "action_get_credentials"
-
-    @staticmethod
-    def fetch_slots(tracker):
-        slots = []
-        for key in ["username", "password", "age", "height", "weight"]:
-            value = tracker.get_slot(key)
-            if value is not None:
-                slots.append(SlotSet(key=key, value=value))
-        return slots
-
-    def run(self, dispatcher, tracker, domain):
-        username = tracker.sender_id
-        slots = self.fetch_slots(tracker)
-        if not any("password" in slot for slot in slots):
-            db = client.get_database('authenticate')
-            collection = db['users']
-            user = collection.find_one({'name' : username})
-            if (user):
-                password = user['password'].decode().encode('utf-8')
-                slots.extend([SlotSet(key="username", value=username), SlotSet(key="password", value=password)])
-            else: 
-                raise Exception("Did not find user...")
-        return slots
-        
 class ActionUpload(Action):
 
     def name (self):
@@ -186,7 +158,7 @@ class EHRForm(FormAction):
 
     @staticmethod
     def required_slots(tracker):
-        return["age", "excercise", "height", "smoking", "weight", "bp", "filedesc"]#, "filedesc"
+        return["age", "excercise", "height", "smoking", "weight", "bp", "filedesc"]
 
     def slot_mappings(self):
 
@@ -306,21 +278,28 @@ class ActionSetFile(Action):
         for e in events:
             if e['event'] == 'user':
                 user_events.append(e)
-
         return user_events[-1]['metadata']
 
+    @staticmethod
+    def fetch_slots(tracker):
+        slots = {}
+        for key in ["age", "excercise", "height", "smoking", "weight", "bp", "filedesc"]:
+            if key == "filedesc":
+                slots["description"] = tracker.get_slot(key)
+            else:
+                slots[key] = tracker.get_slot(key)
+        return slots
+
+
     def run(self, dispatcher, tracker, domain):
-        metadata = self.extract_metadata_from_tracker(tracker)
+        token = self.extract_metadata_from_tracker(tracker)
         record = tracker.latest_message['text']
-        print("$"*100)
-        print(metadata, record)
-        # buttons = []
-        # buttons.append({"payload": "/conform_yes", "title":"Do you want to submit?"})
-        # buttons.append({"payload": "/conform_no", "title":"Do you want to reject?"})
-        # dispatcher.utter_message(text="Choose Option", buttons=buttons)
-        #dispatcher.utter_message(template = "utter_conform")
-        dispatcher.utter_message(text=f"{metadata} and {record}")
-        return [SlotSet(key='file', value=record)]
+        slots = self.fetch_slots(tracker)
+        slots["file"] = record
+        print(token, record, slots)
+        tx_id = write_record(slots, token)
+        dispatcher.utter_message(text=f"{tx_id} is your asset id")
+        
 
 class ActionConfirmation(Action):
 
@@ -342,18 +321,6 @@ class ActionGetAllRecords(Action):
         if (not username):
             dispatcher.utter_message(text="Found no records for mentioned user")
         records = get_records(username)
-        dispatcher.utter_message(json_message={"payload":"records","data":records})
-
-class ActionGetAllRecords(Action):
-
-    def name(self):
-        return "action_get_filtered_records"
-
-    def run(self, dispatcher, tracker, domain):
-        username = tracker.sender_id
-        if (not username):
-            dispatcher.utter_message(text="Found no records for mentioned user")
-        records = get_filtered_records(username, query)
         dispatcher.utter_message(json_message={"payload":"records","data":records})
 
 class ActionRestart(Action):
