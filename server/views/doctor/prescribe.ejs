@@ -44,12 +44,12 @@
                               </td>
                               <td>
                                     <button  type="button" 
-                                    data-toggle="modal" data-target="#prescribelist" 
+                                    data-toggle="modal" data-target="#<%= record +1%>" 
                                     rel="tooltip" title="Revoke Access" class="btn btn-danger btn-link btn-sm">
                                     <i class="material-icons">content_paste</i>
                                     </button> 
                                   <!-- Modal -->
-                                    <div class="modal fade" id="prescribelist" tabindex="-1" role="dialog" aria-labelledby="prescribeTitle" aria-hidden="true">
+                                    <div class="modal fade" id="<%= record +1%>" tabindex="-1" role="dialog" aria-labelledby="prescribeTitle" aria-hidden="true">
                                         <div class="modal-dialog modal-lg" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
@@ -62,7 +62,7 @@
                                             <input type="hidden" name="id" value="<%= records[record].id %>">
                                             <input type="hidden" name="description" value="<%= records[record].description %>">
                                             <input type="hidden" name="pkey" value="<%= records[record].pkey %>">
-                                            <div class="modal-body" id="prescribe">
+                                            <div class="modal-body">
                                                 <div class="form-group">
                                                     <label for="message-text" class="col-form-label">Message:</label>
                                                     <textarea class="form-control" name="prescription" id="message-text"></textarea>

@@ -424,7 +424,7 @@ function setBotResponse(val) {
                      type: 'button',
                      class: 'btn btn-primary',
                      style:
-                        'border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;',
+                        'border-radius: 25px;background-color: #00d0ff;color:black;box-shadow: 5px 5px #888888;',
                      'data-toggle': 'modal',
                      'data-target': `#${vid}`
                   });
@@ -450,7 +450,7 @@ function setBotResponse(val) {
                      type: 'button',
                      class: 'btn btn-primary',
                      style:
-                        'border-radius: 25px;background-color: #00d0ff;color:black;font-size: 20px;box-shadow: 5px 5px #888888;',
+                        'border-radius: 25px;background-color: #00d0ff;color:black;box-shadow: 5px 5px #888888;',
                      'data-toggle': 'modal',
                      'data-target': `#${vid}`
                   });
