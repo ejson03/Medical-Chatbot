@@ -5,13 +5,8 @@ from Crypto.Hash import SHA256, MD5
 import json
 import base64
 import os
-# import ipfshttpclient
 from .config import *
-# ipfs = ipfshttpclient.connect('/dns/ipfs.infura.io/tcp/5001/https')
-
-# def ipfs_add(file):
-#     url = ipfs.add_bytes(file)
-#     return url
+BLOCK_SIZE = 16
 
 def encrypt_rsa(key, public_key):
     handler = PKCS1_OAEP.new(public_key)
@@ -23,11 +18,11 @@ def decrypt_rsa(data, private_key):
 
 def pad(s):
     if type(s) == str:
-        return str.encode(s) + b"\0" * (AES.block_size - len(s) % AES.block_size)
+        return str.encode(s) + b"\0" * (BLOCK_SIZE - len(s) % BLOCK_SIZE)
     else:
-        return s + b"\0" * (AES.block_size - len(s) % AES.block_size)
+        return s + b"\0" * (BLOCK_SIZE - len(s) % BLOCK_SIZE)
 
-def encrypt(message, key, key_size=256):
+def encrypt(message, key, key_size=32):
     message = pad(message)
     key = pad(key)
     iv = Random.new().read(AES.block_size)
