@@ -46,7 +46,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="gender"><i class="zmdi zmdi-account material-icons-name   "></i></label>
-                                <select id="gender" name="gender" style="background:transparent; display:block;border: none;padding: 0px 30px; font-family: Poppins;box-sizing: border-box;" onchange="showDiv('hidden_div', this)" >
+                                <select id="gender" name="gender" style="background:transparent; display:block;border: none;padding: 0px 30px; font-family: Poppins;box-sizing: border-box;" >
                                     <option  disabled selected> Choose your Gender </option>
                                     <option value="male">Male</option>
                                     <option value="female">Female</option>
@@ -61,12 +61,11 @@
                                     <option  disabled selected> Choose your Type </option>
                                     <option value="Doctor">Doctor</option>
                                     <option value="Patient"></i>Patient</option>
-                                    <option value="Clinican">Clinican</option>
                                 </select>
                                 <div style="display: block;border: none;border-bottom: 1px solid #999; padding: 6px 100px; font-family: Poppins; box-sizing: border-box;">
                                 </div>
                             </div>
-                            <div id="hidden_div">
+                            <div style="display: :none" id="hidden_div">
                             <div class="form-group">
                                 <label for="location"><i class="fas fa-map-marker-alt"></i></label>
                                 <input type="text" name="location" id="location" placeholder="Your Location" />
@@ -76,7 +75,7 @@
                                 <input type="text" name="institute" id="institute" placeholder="Your Instituition"/ >
                             </div>
                             <div class="form-group" style="margin-bottom: 20px;" >
-                                <label for="specilization"><i class="fa fa-user-md"></i></label>
+                                <label for="specialization"><i class="fa fa-user-md"></i></label>
                                 <input type="text" name="specialization" id="specialization" placeholder="Your Specilization"/ >
                             </div>
                             </div>
@@ -124,7 +123,7 @@
     <script>
     function showDiv(divId, element)
     {
-        document.getElementById(divId).style.display = element.value == 'Doctor' || 'Clinician' ? 'block' : 'none';
+        document.getElementById(divId).style.display = element.value == 'Doctor' ? 'block' : 'none';
         document.getElementById(divId).style.display = element.value == 'Patient' ? 'none' : 'block';
     }
     </script>
