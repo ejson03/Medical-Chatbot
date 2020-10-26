@@ -40,7 +40,7 @@ export const getMedicalHistory = async (req: Request, res: Response) => {
          user.getRecords(req.session.user.user.username);
          req.session.user = user;
          records = req.session?.user.records;
-         console.log(req.session, records);
+         console.log(req.session);
       }
       return res.render('patient/history.ejs', { records: records, name: req.session?.user.user.name });
    } catch (err) {
