@@ -24,7 +24,6 @@ def get_records(query):
 
 def write_record(data, token):
     secrets = read_keys(token)
-    print(token, secrets)
     id = uuid.uuid4()
     data['file'] = encrypt(data['file'], secrets['secretKey'])
     data.update({
