@@ -38,7 +38,7 @@ export const postPrescription = async (req: Request, res: Response) => {
    const { id, description, pkey, prescription } = req.body;
    const code = cryptoService.generateCode();
    let data = {
-      email: req.session?.user.user.username,
+      username: req.session?.user.user.username,
       assetID: id,
       description: description,
       prescription: prescription,

@@ -113,9 +113,9 @@ export default class UserModel {
    async getRecords(username: string) {
       try {
          let records = await bigchainService.getAsset(username);
-         // console.log('Before ', records);
-         records = records.filter(record => record.data.schema == 'record');
-         // console.log('After ', records);
+         console.log('Before ', records);
+         records = records.filter(record => record.data.schema == 'record' && record.data.username == username);
+         console.log('After ', records);
          this.records = records;
       } catch (err) {
          console.log(err);
