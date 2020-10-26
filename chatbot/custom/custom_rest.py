@@ -9,8 +9,6 @@ from asyncio import Queue, CancelledError
 from rasa.core.channels.channel import UserMessage, OutputChannel, CollectingOutputChannel, InputChannel
 import jwt
 from os import environ
-from io import BytesIO
-import base64
 
 
 logger = logging.getLogger(__name__)
@@ -48,14 +46,13 @@ class RestInput(InputChannel):
         await queue.put("DONE")  # pytype: disable=bad-return-type
 
     async def _extract_sender(self, req) :
-        return req.get("user_id", None)
+        return req.get("sender", None)
 
     async def _extract_message(self, req):
         return req.json.get("message", None)
-
-    async def _extract_file(self, req):
-        print("rasa rest reached",(req.files['file'][0][1]).decode('ascii'))
-        return base64.b64encode(req.files['file'][0][1]).decode('ascii')
+    
+    async def _extract_metadata(self, req):
+        return req.json.get("metadata", None)
 
     async def _extract_header(self, req) :
         return req.headers.get("Authorization", None)
@@ -88,49 +85,52 @@ class RestInput(InputChannel):
 
         @custom_webhook.route("/webhook", methods=["POST"])
         async def receive(request: Request):
-            jwt_data = await self._extract_header(request)
-            jwt_data = jwt_decode(jwt_data)
-            try:
-                text = await self._extract_message(request)
-                should_use_stream = rasa.utils.endpoints.bool_arg(
-                    request, "stream", default=False
-                )
-            except:
-                text = await self._extract_file(request)
-                should_use_stream = rasa.utils.endpoints.bool_arg(
-                    request, "stream", default=False
-                )
+            # jwt_data = await self._extract_header(request)
+            # jwt_data = jwt_decode(jwt_data)
+            message = await self._extract_message(request)
+            sender = await self._extract_sender(request)
+            metadata = await self._extract_metadata(request)
+            # should_use_stream = rasa.utils.endpoints.bool_arg(
+            #     request, "stream", default=False
+            # )
 
-            if(jwt_data):
-                sender_id = await self._extract_sender(jwt_data)
-                if should_use_stream:
-                    return response.stream(
-                        self.stream_response(on_new_message, text, sender_id),
-                        content_type="text/event-stream",
-                        
+            # if(jwt_data):
+                # sender_id = await self._extract_sender(jwt_data)
+            # if should_use_stream:
+            #     return response.stream(
+            #         self.stream_response(on_new_message, message, sender, metadata),
+            #         content_type="text/event-stream",
+                    
+            #     )
+            # else:
+            collector = CollectingOutputChannel()
+            try:
+                if metadata:
+                    await on_new_message(
+                        UserMessage(
+                            text=message, output_channel=collector, sender_id=sender, input_channel=self.name(), metadata=metadata
+                        )
                     )
+                    print(UserMessage)
                 else:
-                    collector = CollectingOutputChannel()
-                    try:
-                        await on_new_message(
-                            UserMessage(
-                                text, collector, sender_id, input_channel=self.name()
-                            )
+                    await on_new_message(
+                        UserMessage(
+                            text=message, output_channel=collector, sender_id=sender, input_channel=self.name()
                         )
-                    except CancelledError:
-                        logger.error(
-                            "Message handling timed out for "
-                            "user message '{}'.".format(text)
-                        )
-                    except Exception:
-                        logger.exception(
-                            "An exception occured while handling "
-                            "user message '{}'.".format(text)
-                        )
-                    return response.json(collector.messages)
-            else: 
-                return response.json({"Error": "error"})
+                    )
+
+            except CancelledError:
+                logger.error(
+                    "Message handling timed out for "
+                    "user message '{}'.".format(message)
+                )
+            except Exception:
+                logger.exception(
+                    "An exception occured while handling "
+                    "user message '{}'.".format(message)
+                )
+            return response.json(collector.messages)
+        # else: 
+        #     return response.json({"Error": "error"})
                 
         return custom_webhook
-
-
