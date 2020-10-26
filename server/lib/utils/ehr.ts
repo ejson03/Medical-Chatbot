@@ -112,7 +112,7 @@ export const showRevoke = async (demail: string, records: any) => {
 
 export const createIPFSHashFromFileBuffer = async (fileBuffer: any, secretKey: any) => {
    const cipher = cryptoService.encrypt(fileBuffer, secretKey);
-   const cipherBuffer = Buffer.from(cipher, 'base64');
+   const cipherBuffer = Buffer.from(cipher, 'hex');
    return await ipfsService.AddFile(cipherBuffer);
 };
 
