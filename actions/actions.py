@@ -4,8 +4,6 @@ from modules.diagnose import encode_symptom, create_illness_vector, get_diagnosi
 from modules.scrapper import *
 from modules.config import * 
 from modules.ehr import get_records, write_record
-# from modules.ehr import User
-# from modules.vault import Config
 import os, requests, base64, uuid
 from os import environ
 from sys import getsizeof

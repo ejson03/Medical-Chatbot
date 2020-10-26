@@ -24,8 +24,9 @@ def get_records(query):
 
 def write_record(data, token):
     secrets = read_keys(token)
+    print(token, secrets)
     id = uuid.uuid4()
-    data['file'] = encrypt(data['file'], secrets.secretKey)
+    data['file'] = encrypt(data['file'], secrets['secretKey'])
     data.update({
         'schema': 'record',
         'fileHash': hash(data['file']),
@@ -38,7 +39,7 @@ def write_record(data, token):
         'id': str(id),
         'date': datetime.now().strftime("%s")
     }
-        
+    print(data, metadata) 
     tx = bdb.transactions.prepare(
         operation='CREATE',
         signers=secrets.bigchainPublicKey,
@@ -50,6 +51,7 @@ def write_record(data, token):
         private_keys=secrets.bigchainPrivateKey
     )
     transaction = bdb.transactions.send_commit(signed_tx)
+    print(transaction)
     return transaction.id
 
 
