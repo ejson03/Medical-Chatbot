@@ -103,8 +103,8 @@ export const rasa = async (req: Request, res: Response) => {
       let message: any;
       let rasa: any;
       if (req.file) {
-         message = await createIPFSHashFromFileBuffer(req.file.buffer, 'edededwe'); //req.user.secretKey
-         rasa = await rasaService.RASARequest(message, sender, 'edededwe'); //req.session?.user.secrets.secretKey);
+         message = await createIPFSHashFromFileBuffer(req.file.buffer, req.session?.user.secrets.secretKey);
+         rasa = await rasaService.RASARequest(message, sender, req.session?.user.secrets.secretKey); //req.session?.user.secrets.secretKey);
       } else {
          message = req.body.message;
          rasa = await rasaService.RASARequest(message, sender);

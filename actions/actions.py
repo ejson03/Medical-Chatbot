@@ -338,11 +338,23 @@ class ActionGetAllRecords(Action):
         return "action_get_all_records"
 
     def run(self, dispatcher, tracker, domain):
-         username = tracker.get_slot('username') if tracker.get_slot("username") else tracker.get_slot('name')
-         if (not username):
-             dispatcher.utter_message(text="Found no records for mentioned user")
-         records = get_records(username)
-         dispatcher.utter_message(json_message={"payload":"records","data":records})
+        username = tracker.sender_id
+        if (not username):
+            dispatcher.utter_message(text="Found no records for mentioned user")
+        records = get_records(username)
+        dispatcher.utter_message(json_message={"payload":"records","data":records})
+
+class ActionGetAllRecords(Action):
+
+    def name(self):
+        return "action_get_filtered_records"
+
+    def run(self, dispatcher, tracker, domain):
+        username = tracker.sender_id
+        if (not username):
+            dispatcher.utter_message(text="Found no records for mentioned user")
+        records = get_filtered_records(username, query)
+        dispatcher.utter_message(json_message={"payload":"records","data":records})
 
 class ActionRestart(Action):
     def name(self):
