@@ -69,20 +69,18 @@
                             <td >
                                 <form action="/user/access" method="post" id="grantform">
                                   <input type="hidden" value="<%= doctors[doctor].username %>" name="value" />
-                                  <input type="hidden" value="<%= doctors[doctor].name %>" name="nameid" />
-                                  <input type="hidden" value="<%= doctor + 3%>" name="grant"  />
                                   <button  type="submit"
-                                  data-toggle="modal" data-target="#<%= doctors[doctor].name %>" 
+                                  data-toggle="modal" data-target="#grant-modal-<%= doctors[doctor].username %>" 
                                   rel="tooltip" title="Grant Access" class="btn btn-danger btn-link btn-sm">
                                     <i class="material-icons">check</i>
                                   </button> 
                                 </form>  
                                   <!-- Modal -->
-                                <div class="modal fade" id="<%= doctors[doctor].name %>" tabindex="-1" role="dialog" aria-labelledby="grantlistTitle" aria-hidden="true">
+                                <div class="modal fade" id="grant-modal-<%= doctors[doctor].username %>" tabindex="-1" role="dialog" aria-labelledby="grant-title-<%= doctors[doctor].username %>" aria-hidden="true">
                                   <div class="modal-dialog modal-lg" role="document">
                                     <div class="modal-content">
                                       <div class="modal-header">
-                                        <h5 class="modal-title text-primary" id="grantlistTitle">DOCUMENT LIST<br>
+                                        <h5 class="modal-title text-primary" id="grant-title-<%= doctors[doctor].username %>">DOCUMENT LIST<br>
                                         <p class="card-category "> <i class="material-icons">access_time</i> updated  <script>
                                           document.write(new Date())
                                         </script> ago </p></h5>
@@ -91,7 +89,7 @@
                                         </button>
                                       </div>
                                       <form method="post" action="/user/check">
-                                      <div class="modal-body" id="<%= doctor + 3%>" >
+                                      <div class="modal-body" id="grant-div-<%= doctors[doctor].username %>" >
  
                                       </div>
                                       <div class="modal-footer">
@@ -106,21 +104,19 @@
                             <td>
                                 <form action="/user/revoke" method="post" id="revokeform">
                                   <input type="hidden" value="<%= doctors[doctor].username %>" name="value" />
-                                  <input type="hidden" value="<%= doctor + 1%>" name="idrevoke" />
-                                  <input type="hidden" value="<%= doctor + 5%>" name="revoke" />
                                   
                                     <button  type="submit" 
-                                    data-toggle="modal" data-target="#<%= doctor + 1%>" 
+                                    data-toggle="modal" data-target="#revoke-modal-<%= doctors[doctor].username %>" 
                                     rel="tooltip" title="Revoke Access" class="btn btn-danger btn-link btn-sm">
                                       <i class="material-icons">close</i>
                                     </button> 
                                 </form>  
                                 <!-- Modal -->
-                                <div class="modal fade" id="<%= doctor + 1%>" tabindex="-1" role="dialog" aria-labelledby="revokelistTitle" aria-hidden="true">
+                                <div class="modal fade" id="revoke-modal-<%= doctors[doctor].username %>" tabindex="-1" role="dialog" aria-labelledby="revoke-title-<%= doctors[doctor].username %>" aria-hidden="true">
                                   <div class="modal-dialog modal-lg" role="document">
                                     <div class="modal-content">
                                       <div class="modal-header">
-                                        <h5 class="modal-title text-primary" id="grantlistTitle">DOCUMENT LIST<br>
+                                        <h5 class="modal-title text-primary" id="revoke-title-<%= doctors[doctor].username %>">DOCUMENT LIST<br>
                                           <p class="card-category "> <i class="material-icons">access_time</i> updated  <script>
                                             document.write(new Date())
                                           </script> ago </p></h5>
@@ -129,7 +125,7 @@
                                         </button>
                                       </div>
                                       <form method="post" action="/user/uncheck">
-                                      <div class="modal-body" id="<%= doctor + 5%>">
+                                      <div class="modal-body" id="revoke-div-<%= doctors[doctor].username %>">
 
                                       </div>
                                       <div class="modal-footer">
@@ -144,20 +140,19 @@
                             <td>
                                 <form action="/user/prescription" method="post" id="prescribeform">
                                   <input type="hidden" value="<%= doctors[doctor].username %>" name="value" />
-                                  <input type="hidden" value="<%= doctors[doctor].email %>" name="emailid"  />
-                                  <input type="hidden" value="<%= doctor + 7%>" name="prescribe"  />
+                              
                                     <button  type="submit" 
-                                    data-toggle="modal" data-target="#<%= doctors[doctor].email %>" 
+                                    data-toggle="modal" data-target="#prescribe-modal-<%= doctors[doctor].username %>" 
                                     rel="tooltip" title="Prescription" class="btn btn-danger btn-link btn-sm">
                                       <i class="material-icons">content_paste</i>
                                     </button> 
                                 </form>  
                                 <!-- Modal -->
-                                <div class="modal fade" id="<%= doctors[doctor].email %>" tabindex="-1" role="dialog" aria-labelledby="prescribeTitle" aria-hidden="true">
+                                <div class="modal fade" id="prescribe-modal-<%= doctors[doctor].username %>" tabindex="-1" role="dialog" aria-labelledby="prescribe-title-<%= doctors[doctor].username %>" aria-hidden="true">
                                   <div class="modal-dialog modal-lg" role="document">
                                     <div class="modal-content">
                                       <div class="modal-header">
-                                        <h5 class="modal-title text-primary" id="grantlistTitle">PRESCRIPTIONS<br>
+                                        <h5 class="modal-title text-primary" id="prescribe-title-<%= doctors[doctor].username %>">PRESCRIPTIONS<br>
                                           <p class="card-category "> <i class="material-icons">access_time</i> updated  <script>
                                             document.write(new Date())
                                           </script> ago </p></h5>
@@ -165,7 +160,7 @@
                                           <span aria-hidden="true">&times;</span>
                                         </button>
                                       </div>
-                                      <div class="modal-body" id="<%= doctor + 7%>" >
+                                      <div class="modal-body" id="prescribe-div-<%= doctors[doctor].username %>" >
 
                                       </div>
                                       <div class="modal-footer">
@@ -190,6 +185,7 @@
     </div>
   </div>
   <script>
+    
 
     function makeModal(doctor,records, app){
       let inner = "";
@@ -227,6 +223,7 @@
         table = labelstart + inner + labelend
         table += input
         element.innerHTML = table 
+        console.log(element)
     }
 
     function prescribeModal(doctor,records, app){
@@ -269,13 +266,11 @@
         element.innerHTML = table 
     }
 
-grantform.onsubmit = async(event) => {
+grantform.onsubmit = (event) => {
   event.preventDefault();
   const doctor = new FormData(grantform).get("value");
-  const modalid = new FormData(grantform).get("nameid");
-  const modalbody = new FormData(grantform).get("grant");
-  console.log(doctor,modalid,modalid);
-  // const doctorid = new FormData(grantform).get("nameid");
+  const modalId = `grant-modal-${doctor}`
+  const divId = `grant-div-${doctor}`
   const response = await fetch('/user/access', {
     method: 'POST',
     headers: {
@@ -284,16 +279,15 @@ grantform.onsubmit = async(event) => {
       body: JSON.stringify({ value: doctor})
   });
   const result = await response.json();
-  makeModal(doctor, result, modalbody);
-  document.getElementById(modalid).style.display = "block";
+  makeModal(doctor, result, divId);
+  document.getElementById(modalId).style.display = "block";
 }
 
 revokeform.onsubmit = async(event) => {
   event.preventDefault();
   const doctor = new FormData(grantform).get("value");
-  const modalid =  new FormData(grantform).get("idrevoke");
-  const modalbody = new FormData(grantform).get("revoke"); 
-  console.log(doctor,modalid,modalid)
+  const modalId = `revoke-modal-${doctor}`
+  const divId = `revoke-div-${doctor}`
   const response = await fetch('/user/revoke', {
     method: 'POST',
     headers: {
@@ -302,15 +296,15 @@ revokeform.onsubmit = async(event) => {
       body: JSON.stringify({ value: doctor})
   });
   const result = await response.json();
-  makeModal(doctor, result, modalbody)
-  document.getElementById(modalid).style.display = "block"
+  makeModal(doctor, result, divId);
+  document.getElementById(modalId).style.display = "block"
 }
 
 prescribeform.onsubmit = async(event) => {
   event.preventDefault();
   const doctor = new FormData(grantform).get("value");
-  const modalid = new FormData(grantform).get("emailid");
-  const modalbody =  new FormData(grantform).get("prescribe"); 
+  const modalId = `prescribe-modal-${doctor}`
+  const divId = `prescribe-div-${doctor}`
   const response = await fetch('/user/prescription', {
     method: 'POST',
     headers: {
@@ -319,8 +313,8 @@ prescribeform.onsubmit = async(event) => {
       body: JSON.stringify({ value: doctor})
   });
   const result = await response.json();
-  prescribeModal(doctor, result, modalbody)
-  document.getElementById(modalid).style.display = "block"
+  makeModal(doctor, result, divId);
+  document.getElementById(modalId).style.display = "block"
 }
    </script> 
   <%- include('../partials/footerfiles.ejs') %>
