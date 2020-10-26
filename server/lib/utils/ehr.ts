@@ -230,7 +230,8 @@ export const getDoctorFiles = async (email: string, privateRSAKey: any) => {
             file: cryptoService.decrypt(ass[0].data.file, decryptionKey),
             description: ass[0].data.description,
             id: asset,
-            pkey: decryptionKey
+            pkey: tx[tx.length - 1].outputs[0].public_keys[0],
+            secret: decryptionKey
          });
       }
    }
