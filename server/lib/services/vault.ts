@@ -1,16 +1,13 @@
-import { VaultAccess } from 'node-vault-user-pass';
+import VaultAccess from 'node-vault-user-pass';
 import * as config from '../config';
 
 export const Vault = new VaultAccess({
    Authority: ['create', 'read', 'update', 'delete', 'list', 'sudo'],
-   Path: 'path',
    Policy: 'auth_policy',
    EndPoint: config.VAULT.url,
    UserName: 'username',
    SecretMountPoint: 'secret_zone',
-   Token: config.VAULT.token,
-   CertificateMountPoint: 'certificate',
-   AltToken: ''
+   Token: config.VAULT.token
 });
 
 Vault.Setup();
@@ -18,17 +15,12 @@ Vault.Setup();
 export const vaultFromToken = async (token: string) => {
    const clientVault = new VaultAccess({
       Authority: ['create', 'read', 'update', 'delete', 'list'],
-      Path: 'path',
       Policy: 'auth_policy',
       EndPoint: config.VAULT.url,
-      UserName: 'username',
       SecretMountPoint: 'secret_zone',
-      Token: token,
-      CertificateMountPoint: 'certificate',
-      AltToken: ''
+      Token: token
    });
-   const username = (await clientVault.TokenLookup(undefined)).data.meta.username;
-   clientVault.Config.UserName = username;
+   await clientVault.UserName();
    return clientVault;
 };
 
