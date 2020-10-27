@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import { ipfsService, rasaService, cryptoService, vaultService } from '../services';
 import UserModel, { UserInterface } from '../models/user.models';
 import { createIPFSHashFromFileBuffer } from '../utils/ehr';
+import { SessionDestroy, SessionSave } from '../utils';
 
 const doctorExclude = ['pass', 're_pass', 'signup'];
 const patientExclude = [...doctorExclude, 'location', 'institute', 'specialization'];
@@ -31,12 +32,7 @@ export const signUp = async (req: Request, res: Response) => {
          if (user.user) {
             return res.redirect('/login');
          } else {
-            await new Promise((resolve, reject) => {
-               req.session?.destroy(err => {
-                  if (err == null) resolve();
-                  else reject(err);
-               });
-            });
+            await SessionDestroy(req);
             return res.sendStatus(404);
          }
       } catch (error) {
@@ -60,12 +56,7 @@ export const login = async (req: Request, res: Response) => {
          await user.getRecords(req.body.username);
          req.session!.user = user;
          req.session!.client_token = vaultClientToken;
-         await new Promise((resolve, reject) => {
-            req.session?.save(err => {
-               if (err == null) resolve();
-               else reject(err);
-            });
-         });
+         await SessionSave(req);
          // console.log(req.session);
          if (req.body.schema == 'Patient') {
             return res.redirect('/user/home');
