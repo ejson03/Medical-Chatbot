@@ -16,18 +16,12 @@ def decrypt_rsa(data, private_key):
     handler = PKCS1_OAEP.new(private_key)
     return handler.decrypt(base64.decodebytes(data))
 
-def pad(s):
-    if type(s) == str:
-        return str.encode(s) + b"\0" * (BLOCK_SIZE - len(s) % BLOCK_SIZE)
-    else:
-        return s + b"\0" * (BLOCK_SIZE - len(s) % BLOCK_SIZE)
+def pad(payload, block_size=32):
+    length = block_size - (len(payload) % block_size)
+    return payload.encode("utf8") + bytes([length]) * length
 
-def encrypt(message, key, key_size=32):
-    message = pad(message)
-    key = pad(key)
-    iv = Random.new().read(AES.block_size)
-    cipher = AES.new(key, AES.MODE_CBC, iv)
-    return iv + cipher.encrypt(message)
+def encrypt(payload, key, salt="b"*16):
+    return AES.new(key.encode("utf8"), AES.MODE_CBC, salt.encode("utf8")).encrypt(pad(payload))
 
 def decrypt(ciphertext, key):
     iv = ciphertext[:AES.block_size]
@@ -47,6 +41,6 @@ def generate_secret_key():
 
 def hash(data):
     h = SHA256.new()
-    data = json.dumps(data, separators=(',', ':')).encode()
+    # data = json.dumps(data, separators=(',', ':')).encode()
     h.update(data)
     return h.hexdigest()

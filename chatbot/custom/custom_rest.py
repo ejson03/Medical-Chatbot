@@ -46,7 +46,7 @@ class RestInput(InputChannel):
         await queue.put("DONE")  # pytype: disable=bad-return-type
 
     async def _extract_sender(self, req) :
-        return req.get("sender", None)
+        return req.json.get("sender", None)
 
     async def _extract_message(self, req):
         return req.json.get("message", None)
@@ -111,7 +111,6 @@ class RestInput(InputChannel):
                             text=message, output_channel=collector, sender_id=sender, input_channel=self.name(), metadata=metadata
                         )
                     )
-                    print(UserMessage)
                 else:
                     await on_new_message(
                         UserMessage(

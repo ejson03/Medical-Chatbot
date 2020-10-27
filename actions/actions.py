@@ -290,10 +290,12 @@ class ActionSetFile(Action):
 
 
     def run(self, dispatcher, tracker, domain):
+        username = tracker.sender_id
         token = self.extract_metadata_from_tracker(tracker)
         record = tracker.latest_message['text']
         slots = self.fetch_slots(tracker)
         slots["file"] = record
+        slots["username"] = username
         print(token, record, slots)
         tx_id = write_record(slots, token)
         dispatcher.utter_message(text=f"{tx_id} is your asset id")
@@ -319,7 +321,8 @@ class ActionGetAllRecords(Action):
         if (not username):
             dispatcher.utter_message(text="Found no records for mentioned user")
         records = get_records(username)
-        dispatcher.utter_message(json_message={"payload":"records","data":records})
+        print("Records is ", records)
+        dispatcher.utter_message(json_message={"payload":"listdocuments","data":records})
 
 class ActionRestart(Action):
     def name(self):
