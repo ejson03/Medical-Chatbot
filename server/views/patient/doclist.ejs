@@ -263,11 +263,12 @@
         element.innerHTML = table 
     }
 
-grantform.onsubmit = async (event) => {
+document.getElementById("grantform").onsubmit = async (event) => {
   event.preventDefault();
-  const doctor = new FormData(grantform).get("value");
+  const doctor = new FormData(document.getElementById("grantform")).get("value");
   const modalId = `grant-modal-${doctor}`
   const divId = `grant-div-${doctor}`
+  console.log("doctor", doctor)
   const response = await fetch('/user/access', {
     method: 'POST',
     headers: {
@@ -280,9 +281,9 @@ grantform.onsubmit = async (event) => {
   document.getElementById(modalId).style.display = "block";
 }
 
-revokeform.onsubmit = async(event) => {
+document.getElementById("revokeform").onsubmit = async(event) => {
   event.preventDefault();
-  const doctor = new FormData(grantform).get("value");
+  const doctor = new FormData(document.getElementById("revokeform")).get("value");
   const modalId = `revoke-modal-${doctor}`
   const divId = `revoke-div-${doctor}`
   const response = await fetch('/user/revoke', {
@@ -297,9 +298,9 @@ revokeform.onsubmit = async(event) => {
   document.getElementById(modalId).style.display = "block"
 }
 
-prescribeform.onsubmit = async(event) => {
+document.getElementById("prescribeform").onsubmit = async(event) => {
   event.preventDefault();
-  const doctor = new FormData(grantform).get("value");
+  const doctor = new FormData(document.getElementById("prescribeform")).get("value");
   const modalId = `prescribe-modal-${doctor}`
   const divId = `prescribe-div-${doctor}`
   const response = await fetch('/user/prescription', {

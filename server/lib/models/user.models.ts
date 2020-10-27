@@ -29,17 +29,6 @@ export default class UserModel {
    public secrets = {} as SecretInterface;
    public vault: any;
 
-   /*constructor() (username: string, schema: string, password?: string) {
-      if (password) {
-         this.getBio(username, schema, password).then(_user => {
-            console.log('User details on blockchain is ', this.user);
-            this.getRecords(username).then(record => {
-               this.records = record;
-               console.log('Records', this.records);
-            });
-         });
-      }
-   }*/
    constructor(user?: UserModel) {
       if (user) {
          this.secrets = user.secrets;

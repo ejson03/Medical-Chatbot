@@ -19,7 +19,12 @@ export const RASARequest = async (message: unknown, sender: string, metadata?: s
       body: JSON.stringify(data),
       agent: httpsAgent
    });
-   return await response.json();
+   const reply = await response.json();
+   if (reply) {
+      return reply;
+   } else {
+      return {};
+   }
 };
 
 export const getRasaHistory = async (username: string) => {
