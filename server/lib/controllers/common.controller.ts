@@ -7,9 +7,9 @@ const doctorExclude = ['pass', 're_pass', 'signup'];
 const patientExclude = [...doctorExclude, 'location', 'institute', 'specialization'];
 
 export const signUp = async (req: Request, res: Response) => {
-   const vault = vaultService.vault();
+   const vault = vaultService.Vault;
    const users = await vaultService.getUsers(vault);
-   console.log(users, req.body.username, users.includes(req.body.username));
+   // console.log(users, req.body.username, users.includes(req.body.username));
 
    if (users.includes(req.body.username) || !req.body.username) {
       return res.status(401).json({ success: false });
@@ -27,25 +27,20 @@ export const signUp = async (req: Request, res: Response) => {
             });
          }
          const user = new UserModel();
-         user.vault = vault;
          await user.createUser(asset, password);
-         // const vaultClientToken = (await vaultService.login(vault, req.body.username, req.body.pass)).auth.client_token;
-         // req.session!.user = user;
-         // req.session!.client_token = vaultClientToken;
-         // console.log(req.body.schema + ' session is ' + req.session);
          if (user.user) {
             return res.redirect('/login');
          } else {
-            req.session?.destroy(err => console.log(err));
+            await new Promise((resolve, reject) => {
+               req.session?.destroy(err => {
+                  if (err == null) resolve();
+                  else reject(err);
+               });
+            });
             return res.sendStatus(404);
          }
-         // if (asset.schema == 'Patient') {
-         //    return res.redirect('/user/home');
-         // } else {
-         //    res.redirect('/doctor/home');
-         // }
       } catch (error) {
-         console.log(error);
+         console.error(error);
          return res.sendStatus(404);
       }
    }
@@ -53,20 +48,25 @@ export const signUp = async (req: Request, res: Response) => {
 };
 
 export const login = async (req: Request, res: Response) => {
-   const vault = vaultService.vault();
+   const vault = vaultService.Vault;
    const users = await vaultService.getUsers(vault);
-   console.log(users, req.body.username, users.includes(req.body.username));
    if (users.includes(req.body.username)) {
       const status = await vaultService.login(vault, req.body.pass, req.body.username);
       if (status) {
          const vaultClientToken = status.auth.client_token;
          const user = new UserModel();
-         user.vault = vault;
+         user.clientToken = vaultClientToken;
          await user.getBio(req.body.username, req.body.schema);
          await user.getRecords(req.body.username);
          req.session!.user = user;
          req.session!.client_token = vaultClientToken;
-         console.log(req.session);
+         await new Promise((resolve, reject) => {
+            req.session?.save(err => {
+               if (err == null) resolve();
+               else reject(err);
+            });
+         });
+         // console.log(req.session);
          if (req.body.schema == 'Patient') {
             return res.redirect('/user/home');
          } else {
@@ -88,13 +88,10 @@ export const view = async (req: Request, res: Response) => {
       if (status === 'encrypted') {
          fileURL = cryptoService.decrypt(fileURL, req.session?.user.secrets.secretKey);
       }
-      console.log(fileURL);
       const buffer = await ipfsService.GetFile(fileURL);
       if (req.body.hasOwnProperty('key')) {
-         console.log(req.body.key);
          decryptedBuffer = cryptoService.decryptFile(buffer, req.body.key);
       } else {
-         console.log(req.session?.user.secrets.secretKey);
          decryptedBuffer = cryptoService.decryptFile(buffer, req.session?.user.secrets.secretKey);
       }
       await ipfsService.Download(res, decryptedBuffer);
@@ -128,7 +125,6 @@ export const rasaHistory = async (req: Request, res: Response) => {
    const username = req.body.rasa;
    try {
       let data = await rasaService.getRasaHistory(username);
-      console.log(data);
       return res.render('doctor/history.ejs', {
          doc: data,
          name: req.session?.user.user.name

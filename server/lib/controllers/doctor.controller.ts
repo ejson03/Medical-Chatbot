@@ -17,7 +17,6 @@ export const getFiles = async (req: Request, res: Response) => {
 
 export const getDetails = async (req: Request, res: Response) => {
    try {
-      console.log(req.session);
       return res.render('doctor/profile.ejs', { record: req.session?.user.user, name: req.session?.user.user.name });
    } catch (err) {
       console.error(err);
@@ -27,7 +26,6 @@ export const getDetails = async (req: Request, res: Response) => {
 
 export const getPrescription = async (req: Request, res: Response) => {
    const files = req.body.value;
-   console.log(JSON.parse(files));
    res.render('doctor/prescribe.ejs', {
       records: JSON.parse(files),
       name: req.session?.user.user.name
@@ -51,8 +49,7 @@ export const postPrescription = async (req: Request, res: Response) => {
       id: code
    };
    try {
-      let tx = await bigchainService.createAsset(data, metadata, pkey, req.session?.user.secrets.bigchainPrivateKey);
-      console.log('Transction id :', tx.id);
+      await bigchainService.createAsset(data, metadata, pkey, req.session?.user.secrets.bigchainPrivateKey);
       return res.redirect('/doctor/home');
    } catch (err) {
       console.error(err);
