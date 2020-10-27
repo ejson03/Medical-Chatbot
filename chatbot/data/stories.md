@@ -495,7 +495,6 @@
   - action_get_song
 * describe_symptoms
   - action_diagnose_symptoms
-  - action_symptoms
 * goodbye
   - utter_goodbye
 
@@ -508,7 +507,6 @@
   - utter_ask_howdoing
 * describe_symptoms
   - action_diagnose_symptoms
-  - action_symptoms
 * goodbye
   - utter_goodbye
 
@@ -527,7 +525,6 @@
   - action_get_song
 * describe_symptoms
   - action_diagnose_symptoms
-  - action_symptoms
 * show_map
   - action_show_map
 * goodbye
