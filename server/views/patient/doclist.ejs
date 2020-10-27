@@ -49,7 +49,7 @@
                         </th>
                       </thead>
                       <tbody>
-                        <% for (var doctor=0; doctor<doctors.length; doctor++){ %>
+                        <% for (let doctor=0; doctor<doctors.length; doctor++){ %>
                         <tr>
                           <td>
                             <%= doctor + 1%>
@@ -202,7 +202,7 @@
       const labelend = `</tbody>
                                 </table>
                               </div>`
-      for (var d=0; d<records.records.length; d++){ 
+      for (let d=0; d<records.records.length; d++){ 
         const mainDiv = ` <tr>
                             <td>${d+1}</td>
                             <td>${records.records[d].data.description}</td>
@@ -243,7 +243,7 @@
                                 </table>
                               </div>`
 
-      for (var d=0; d<records.records.length; d++){ 
+      for (let d=0; d<records.records.length; d++){ 
         const mainDiv = ` <tr>
                             <td>${d+1}</td>
                             <td>${records.records[d].prescription}</td>
@@ -263,7 +263,7 @@
         element.innerHTML = table 
     }
 
-grantform.onsubmit = (event) => {
+grantform.onsubmit = async (event) => {
   event.preventDefault();
   const doctor = new FormData(grantform).get("value");
   const modalId = `grant-modal-${doctor}`
