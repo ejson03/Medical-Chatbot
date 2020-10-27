@@ -14,19 +14,33 @@ import * as config from '../config';
 
 // export const setup = Vault.Setup();
 
-export const vault = () => {
-   const Vault = new VaultAccess({
-      Authority: ['create', 'read', 'update', 'delete', 'list', 'sudo'],
-      Path: 'path',
-      Policy: 'auth_policy',
-      EndPoint: config.VAULT.url,
-      UserName: 'username',
-      SecretMountPoint: 'secret_zone',
-      Token: config.VAULT.token,
-      CertificateMountPoint: 'certificate'
-   });
-   Vault.Setup();
-   return Vault;
+export const vault = (token?: string) => {
+   if (token) {
+      const Vault = new VaultAccess({
+         Authority: ['create', 'read', 'update', 'delete', 'list'],
+         Path: 'path',
+         Policy: 'auth_policy',
+         EndPoint: config.VAULT.url,
+         UserName: 'username',
+         SecretMountPoint: 'secret_zone',
+         Token: token,
+         CertificateMountPoint: 'certificate'
+      });
+      return Vault;
+   } else {
+      const Vault = new VaultAccess({
+         Authority: ['create', 'read', 'update', 'delete', 'list', 'sudo'],
+         Path: 'path',
+         Policy: 'auth_policy',
+         EndPoint: config.VAULT.url,
+         UserName: 'username',
+         SecretMountPoint: 'secret_zone',
+         Token: config.VAULT.token,
+         CertificateMountPoint: 'certificate'
+      });
+      Vault.Setup();
+      return Vault;
+   }
 };
 
 export const signUp = async (Vault: any, password: string, username: string) => {
