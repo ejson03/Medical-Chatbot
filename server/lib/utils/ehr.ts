@@ -129,24 +129,36 @@ export const createIPFSHashFromCipher = async (cipher: any) => {
 export const createRecord = async (
    data: any,
    username: string,
-   email: string,
    fileBuffer: any,
    publicKey: string,
    privateKey: string,
-   secretKey: string
+   secretKey: string,
+   email: string
 ) => {
-   const cipher = cryptoService.encrypt(fileBuffer, secretKey);
-   const ipfsURL = await createIPFSHashFromCipher(cipher);
-   const ipfsURLEncrypted = cryptoService.encrypt(ipfsURL, secretKey);
    const id = cryptoService.generateCode();
+   const date = new Date().toString();
+   if (email === 'rasa') {
+      const ipfsURL = await createIPFSHashFromCipher(fileBuffer);
+      const ipfsURLEncrypted = cryptoService.encrypt(ipfsURL, secretKey);
+      Object.assign(data, {
+         file: ipfsURLEncrypted,
+         fileHash: cryptoService.hash(ipfsURLEncrypted),
+         id: id,
+         date: date
+      });
+   } else {
+      const cipher = cryptoService.encrypt(fileBuffer, secretKey);
+      const ipfsURL = await createIPFSHashFromCipher(cipher);
+      const ipfsURLEncrypted = cryptoService.encrypt(ipfsURL, secretKey);
 
-   Object.assign(data, {
-      username: username,
-      email: email,
-      file: ipfsURLEncrypted,
-      fileHash: cryptoService.hash(cipher),
-      id: id
-   });
+      Object.assign(data, {
+         username: username,
+         email: email,
+         file: ipfsURLEncrypted,
+         fileHash: cryptoService.hash(cipher),
+         id: id
+      });
+   }
 
    const metadata = {
       email: email,

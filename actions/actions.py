@@ -292,13 +292,21 @@ class ActionSetFile(Action):
     def run(self, dispatcher, tracker, domain):
         username = tracker.sender_id
         token = self.extract_metadata_from_tracker(tracker)
-        record = tracker.latest_message['text']
+        url = tracker.latest_message['text']
+        date = datetime.now().strftime("%s")
         slots = self.fetch_slots(tracker)
-        slots["file"] = record
-        slots["username"] = username
-        print(token, record, slots)
-        tx_id = write_record(slots, token)
-        dispatcher.utter_message(text=f"{tx_id} is your asset id")
+        slots.update({
+            "file" : url,
+            "username" : username,
+            "schema" : "record"
+        })
+        data = {
+            "asset" : slots,
+            "token": token
+        }
+        res = requests.post(f"{APP_URL}/chatbot/upload", data=data)
+        print(res.json())
+        dispatcher.utter_message(text=f"this is your asset id")
         
 
 class ActionConfirmation(Action):
@@ -320,8 +328,8 @@ class ActionGetAllRecords(Action):
         username = tracker.sender_id
         if (not username):
             dispatcher.utter_message(text="Found no records for mentioned user")
-        records = get_records(username)
-        print("Records is ", records)
+        res = requests.post(f"{APP_URL}/chatbot/getall", data={"username" : username})
+        records = res.json()
         dispatcher.utter_message(json_message={"payload":"listdocuments","data":records})
 
 class ActionRestart(Action):

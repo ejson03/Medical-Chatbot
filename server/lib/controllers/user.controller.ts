@@ -154,11 +154,11 @@ export const addRecord = async (req: Request, res: Response) => {
       await createRecord(
          data,
          req.session?.user.user.username,
-         req.session?.user.user.email,
          fileBuffer,
          req.session?.user.secrets.bigchainPublicKey,
          req.session?.user.secrets.bigchainPrivateKey,
-         req.session?.user.secrets.secretKey
+         req.session?.user.secrets.secretKey,
+         req.session?.user.user.email
       );
       return res.redirect('/user/medicalhistory');
    } catch (err) {
