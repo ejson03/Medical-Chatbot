@@ -45,6 +45,6 @@ export const getTransaction = async (query: any) => {
    return await conn.getTransaction(query);
 };
 
-export const listTransactions = async (query: any | string) => {
+export const listTransactions = async (query: any) => {
    return await conn.listTransactions(query);
 };
