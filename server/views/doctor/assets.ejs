@@ -23,22 +23,20 @@
                        <div class="card-body table-responsive">
                           <table class="table table-hover">
                              <thead class="text-primary">
-                             <th>Patient ID</th>
-                             <th>Username</th>
-                             <th>Email</th>
+                             <th>Patient Name</th>
+                             <th>Patient Email</th>
                              <th>Files</th>
                              <th>Chats</th>
                              </thead>
                              <tbody>
                                 <% Object.keys(records).forEach((record) =>{ %>
                              <tr>
-                                <td><% record+1%></td>
                                 <td><%= records[record].username %></td>
                                 <td><%= records[record].email %></td>
                                 <td>
                                    <form method="post" action="/doctor/prescribe" >
                                       <input type="hidden" name="value" value="<%= JSON.stringify(records[record].files) %>" />
-                                      <button type="submit" rel="tooltip" name="fileURL" title="List of File" class="btn btn-danger btn-link btn-sm" formtarget="_blank">
+                                      <button type="submit" rel="tooltip" name="fileURL" title="List of File" class="btn btn-danger btn-link btn-sm">
                                          <i class="material-icons">folder_open</i>
                                       </button>
                                    </form>

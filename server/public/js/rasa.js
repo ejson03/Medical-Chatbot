@@ -101,7 +101,8 @@ function createModal(title,eid) {
       tabIndex: -1,
       role: 'dialog',
       'aria-labelledby': 'myModalLabel1',
-      'aria-hidden': true
+      'aria-hidden': true,
+      style: 'position : relative;'
    });
    let head = createModalBase((style = ['modal-dialog', 'modal-lg']), (id = eid), {
       role: 'document'
@@ -123,7 +124,8 @@ function createModalscrollable(title, eid) {
       tabIndex: -1,
       role: 'dialog',
       'aria-labelledby': 'myModalLabel',
-      'aria-hidden': true
+      'aria-hidden': true,
+      style: 'position : relative;'
    });
    let head = createModalBase(
       (style = ['modal-dialog', 'modal-lg', 'modal-dialog-scrollable']),

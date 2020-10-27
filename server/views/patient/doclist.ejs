@@ -42,10 +42,10 @@
                           Grant
                         </th>
                         <th>
-                            Revoke
+                          Revoke
                         </th>
                         <th>
-                            Prescription
+                          Prescription
                         </th>
                       </thead>
                       <tbody>
@@ -77,7 +77,7 @@
                                 </form>  
                                   <!-- Modal -->
                                 <div class="modal fade" id="grant-modal-<%= doctors[doctor].username %>" tabindex="-1" role="dialog" aria-labelledby="grant-title-<%= doctors[doctor].username %>" aria-hidden="true">
-                                  <div class="modal-dialog modal-lg" role="document">
+                                  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                                     <div class="modal-content">
                                       <div class="modal-header">
                                         <h5 class="modal-title text-primary" id="grant-title-<%= doctors[doctor].username %>">DOCUMENT LIST<br>
@@ -113,7 +113,7 @@
                                 </form>  
                                 <!-- Modal -->
                                 <div class="modal fade" id="revoke-modal-<%= doctors[doctor].username %>" tabindex="-1" role="dialog" aria-labelledby="revoke-title-<%= doctors[doctor].username %>" aria-hidden="true">
-                                  <div class="modal-dialog modal-lg" role="document">
+                                  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                                     <div class="modal-content">
                                       <div class="modal-header">
                                         <h5 class="modal-title text-primary" id="revoke-title-<%= doctors[doctor].username %>">DOCUMENT LIST<br>
@@ -149,7 +149,7 @@
                                 </form>  
                                 <!-- Modal -->
                                 <div class="modal fade" id="prescribe-modal-<%= doctors[doctor].username %>" tabindex="-1" role="dialog" aria-labelledby="prescribe-title-<%= doctors[doctor].username %>" aria-hidden="true">
-                                  <div class="modal-dialog modal-lg" role="document">
+                                  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                                     <div class="modal-content">
                                       <div class="modal-header">
                                         <h5 class="modal-title text-primary" id="prescribe-title-<%= doctors[doctor].username %>">PRESCRIPTIONS<br>
@@ -263,11 +263,12 @@
         element.innerHTML = table 
     }
 
-grantform.onsubmit = async (event) => {
+document.getElementById("grantform").onsubmit = async (event) => {
   event.preventDefault();
-  const doctor = new FormData(grantform).get("value");
+  const doctor = new FormData(document.getElementById("grantform")).get("value");
   const modalId = `grant-modal-${doctor}`
   const divId = `grant-div-${doctor}`
+  console.log("doctor", doctor)
   const response = await fetch('/user/access', {
     method: 'POST',
     headers: {
@@ -280,9 +281,9 @@ grantform.onsubmit = async (event) => {
   document.getElementById(modalId).style.display = "block";
 }
 
-revokeform.onsubmit = async(event) => {
+document.getElementById("revokeform").onsubmit = async(event) => {
   event.preventDefault();
-  const doctor = new FormData(grantform).get("value");
+  const doctor = new FormData(document.getElementById("revokeform")).get("value");
   const modalId = `revoke-modal-${doctor}`
   const divId = `revoke-div-${doctor}`
   const response = await fetch('/user/revoke', {
@@ -297,9 +298,9 @@ revokeform.onsubmit = async(event) => {
   document.getElementById(modalId).style.display = "block"
 }
 
-prescribeform.onsubmit = async(event) => {
+document.getElementById("prescribeform").onsubmit = async(event) => {
   event.preventDefault();
-  const doctor = new FormData(grantform).get("value");
+  const doctor = new FormData(document.getElementById("prescribeform")).get("value");
   const modalId = `prescribe-modal-${doctor}`
   const divId = `prescribe-div-${doctor}`
   const response = await fetch('/user/prescription', {
