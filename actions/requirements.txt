@@ -1,7 +1,6 @@
 pymongo
 python-dotenv
 beautifulsoup4
-pycryptodome
 google
 spacy
 scikit-learn
@@ -9,6 +8,4 @@ pandas
 numpy
 pillow
 bcrypt
-ipfshttpclient
-bigchaindb_driver
-hvac
+
