@@ -2,6 +2,7 @@ import { Router } from 'express';
 import type { Request, Response } from 'express';
 import { commonController } from '../controllers';
 import { fileUpload } from '../middleware/file-upload';
+import { SessionDestroy } from '../utils';
 
 const commonRouter: Router = Router();
 
@@ -29,8 +30,8 @@ commonRouter.post('/view', commonController.view);
 
 commonRouter.post('/rasa', fileUpload.single('file'), commonController.rasa);
 
-commonRouter.post('/logout', function (req: Request, res: Response) {
-   req.session?.destroy(err => console.log(err));
+commonRouter.post('/logout', async function (req: Request, res: Response) {
+   await SessionDestroy(req);
    res.render('index.html');
 });
 

@@ -10,6 +10,7 @@ import {
 import { bigchainService } from '../services';
 import type { Request, Response } from 'express';
 import UserModel from '../models/user.models';
+import { SessionSave } from '../utils';
 
 export const getDoctorList = async (req: Request, res: Response) => {
    try {
@@ -19,6 +20,7 @@ export const getDoctorList = async (req: Request, res: Response) => {
          const user = new UserModel(req.session.user);
          user.getRecords(req.session.user.user.username);
          req.session.user = user;
+         await SessionSave(req);
       }
 
       return res.render('patient/doclist.ejs', { doctors: result, name: req.session?.user.user.name });
@@ -34,6 +36,7 @@ export const getMedicalHistory = async (req: Request, res: Response) => {
          const user = new UserModel(req.session.user);
          user.records = await user.getRecords(req.session.user.user.username);
          req.session.user = user;
+         await SessionSave(req);
          const records = req.session.user.records;
          return res.render('patient/history.ejs', { records: records, name: req.session.user.user.name });
       }
