@@ -199,7 +199,7 @@ body {background-color: #2a2b3d}
   top: 7px;
   right: 7px;
   cursor: pointer;
-  color: #EEE;
+  color: rgb(255, 255, 255);
 }
 .side-nav .heading {
   background-color: #252636;
