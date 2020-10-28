@@ -7,7 +7,7 @@ export const getAll = async (req: Request, res: Response) => {
    const { username } = req.body;
    console.log(username);
    const user = new UserModel();
-   const records = user.getRecords(username);
+   const records = await user.getRecords(username);
    console.log(records);
    return res.json(records);
 };
