@@ -1,7 +1,6 @@
 from pymongo import MongoClient
 from modules.utils import *
 from modules.diagnose import encode_symptom, create_illness_vector, get_diagnosis
-from modules.scrapper import *
 from modules.config import * 
 from modules.ehr import get_records, write_record
 import os, requests, base64, uuid
@@ -131,23 +130,6 @@ class ActionDiagnoseSymptoms(Action):
         illness_vector = create_illness_vector(encoded_symptoms)
         diagnosis_string = get_diagnosis(illness_vector)
         dispatcher.utter_message(text=diagnosis_string)
-
-class ActionSymptoms(Action):
-
-    def name(self):
-        return "action_symptoms"
-
-    def run(self, dispatcher, tracker, domain):
-
-        symptoms = tracker.get_slot("symptom")
-        
-        try:  
-            data=get_details(symptoms)
-            print(data)
-            dispatcher.utter_message(text=" I hope this helps you out ")
-            dispatcher.utter_message(json_message={"payload":"symptom","data":data})
-        except:
-            dispatcher.utter_message(text="Sorry couldn't find the data for the given symptom.")
 
 class EHRForm(FormAction):
 

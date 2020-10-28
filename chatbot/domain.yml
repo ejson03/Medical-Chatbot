@@ -579,7 +579,6 @@ actions:
 - action_reset_slot
 - action_set_file
 - action_show_map
-- action_symptoms
 - action_temp
 - action_upload
 - action_weather
