@@ -5,8 +5,10 @@ import UserModel from '../models/user.models';
 
 export const getAll = async (req: Request, res: Response) => {
    const { username } = req.body;
+   console.log(username);
    const user = new UserModel();
    const records = user.getRecords(username);
+   console.log(records);
    return res.json(records);
 };
 
@@ -27,6 +29,7 @@ export const addRecord = async (req: Request, res: Response) => {
          secretKey,
          'rasa'
       );
+      console.log(tx);
       return res.json(tx.id);
    } catch (err) {
       console.error(err);

@@ -23,6 +23,16 @@ For deploying
 npm run tag
 ```
 
+# Mongo Backup
+Create dump
+```
+docker exec <container-name> sh -c "exec mongodump -u <user> -p <password> -d bigchain --gzip --archive" > dump.gz
+```
+
+Backup to new container
+```
+cat dump.gz | docker run --rm -i mongo mongorestore -u <user> -p <password> --archive --gzip --drop --db=bigchain
+```
 
 # API
 
