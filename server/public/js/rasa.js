@@ -39,21 +39,21 @@ function filesend() {
    const myform = document.getElementById('uploadfiletorasa');
    const selectedFile = document.getElementById('record').files[0];
    const endpoint = '/rasa';
-   const data = new FormData();
-   data.append('file', selectedFile);
-   console.log(selectedFile);
-   console.log(data);
-   //	(async function(){
-   myform.addEventListener('submit', e => {
-      e.preventDefault();
-
-      let response = fetch(endpoint, {
+   myform.onsubmit = async event => {
+      event.preventDefault();
+      console.log({ file: selectedFile });
+      let response = await fetch(endpoint, {
          method: 'POST',
-         body: data
-      }).catch(setBotResponse('error'));
-      console.log(response);
-   });
-   //	})
+         body: { file: selectedFile }
+      });
+      if (!response.ok) {
+         setBotResponse('error');
+      } else {
+         response = await response.json();
+         console.log(response);
+         setBotResponse(response);
+      }
+   };
 }
 
 function send(text) {
@@ -96,7 +96,7 @@ function createModalBase(style, id, attributes) {
    return modal;
 }
 
-function createModal(title,eid) {
+function createModal(title, eid) {
    let main = createModalBase((style = ['modal', 'fade']), (id = eid), {
       tabIndex: -1,
       role: 'dialog',
@@ -111,12 +111,12 @@ function createModal(title,eid) {
    let section1 = createDiv(['modal-body']);
    let frame = createDiv(['embed-responsive', 'embed-responsive-16by9', 'z-depth-1-half']);
    let section2 = createDiv(['modal-header']);
-   setAttributes(section2,{id:'myModalLabel1', style:'padding: 0.5rem;'})
+   setAttributes(section2, { id: 'myModalLabel1', style: 'padding: 0.5rem;' });
    const modaltitle = `<h5 class=\"modal-title text-primary\"  id=\"myModalLabel1\">${title}<br></h5>
                      <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">
                         <span aria-hidden=\"true\">&times;</span>
-                     </button>`
-   section2.innerHTML= modaltitle
+                     </button>`;
+   section2.innerHTML = modaltitle;
    return { main, head, body, section1, frame, section2 };
 }
 function createModalscrollable(title, eid) {
@@ -127,11 +127,9 @@ function createModalscrollable(title, eid) {
       'aria-hidden': true,
       style: 'position : relative;'
    });
-   let head = createModalBase(
-      (style = ['modal-dialog', 'modal-lg', 'modal-dialog-scrollable']),
-      (id = eid),
-      { role: 'document' }
-   );
+   let head = createModalBase((style = ['modal-dialog', 'modal-lg', 'modal-dialog-scrollable']), (id = eid), {
+      role: 'document'
+   });
    let body = createDiv(['modal-content']);
    let section1 = createDiv(['modal-body']);
    let section2 = createDiv(['modal-header']);
@@ -143,9 +141,9 @@ function createModalscrollable(title, eid) {
                         </h5>
                         <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">
                            <span aria-hidden=\"true\">&times;</span>
-                        </button>`
-   section2.innerHTML= modaltitle
-   return { main, head,body, section1, section2 };
+                        </button>`;
+   section2.innerHTML = modaltitle;
+   return { main, head, body, section1, section2 };
 }
 
 function createDiv(style = [], id = '', text = '') {
@@ -221,7 +219,7 @@ function setBotResponse(val) {
                let base = createBaseChat();
                let url = `data:image/png;base64,${val[i].image}`;
                let img = createImage((src = url));
-               let { main, head, body, section1, frame, section2 } = createModal("Quote of the Day",vid);
+               let { main, head, body, section1, frame, section2 } = createModal('Quote of the Day', vid);
                let outerButton = createButton('Please click here to see the quote', {
                   type: 'button',
                   class: 'btn btn-primary',
@@ -237,11 +235,11 @@ function setBotResponse(val) {
                setAttributes(img, { class: 'responsive' });
                section1.appendChild(img);
                let footerdiv = document.createElement('div');
-               setAttributes(footerdiv,{class:'modal-footer', style:'padding: 0rem;'})
-               let footer =`<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>`
-               footerdiv.innerHTML = footer 
+               setAttributes(footerdiv, { class: 'modal-footer', style: 'padding: 0rem;' });
+               let footer = `<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>`;
+               footerdiv.innerHTML = footer;
                body.append(section2, section1);
-               body.appendChild(footerdiv);                   
+               body.appendChild(footerdiv);
                head.appendChild(body);
                main.appendChild(head);
                response.append(outerButton, timespan, main);
@@ -255,7 +253,7 @@ function setBotResponse(val) {
                if (val[i].custom.payload == 'video') {
                   let url = val[i].custom.data;
                   let base = createBaseChat();
-                  let { main, head, body, section1, frame, section2 } = createModal("Youtube Video",vid);
+                  let { main, head, body, section1, frame, section2 } = createModal('Youtube Video', vid);
                   let outerButton = createButton('Please click here to see the video', {
                      type: 'button',
                      class: 'btn btn-primary',
@@ -271,11 +269,11 @@ function setBotResponse(val) {
                   frame.appendChild(iframe);
                   section1.appendChild(frame);
                   let footerdiv = document.createElement('div');
-                  setAttributes(footerdiv,{class:'modal-footer', style:'padding: 0rem;'})
-                  let footer =`<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>`
-                  footerdiv.innerHTML = footer 
+                  setAttributes(footerdiv, { class: 'modal-footer', style: 'padding: 0rem;' });
+                  let footer = `<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>`;
+                  footerdiv.innerHTML = footer;
                   body.append(section2, section1);
-                  body.appendChild(footerdiv); 
+                  body.appendChild(footerdiv);
                   head.appendChild(body);
                   main.appendChild(head);
                   response.append(outerButton, timespan, main);
@@ -285,7 +283,7 @@ function setBotResponse(val) {
                }
                if (val[i].custom.payload == 'map') {
                   let base = createBaseChat();
-                  let { main, head, body, section1, frame, section2 } = createModal("Google Map",vid);
+                  let { main, head, body, section1, frame, section2 } = createModal('Google Map', vid);
                   let outerButton = createButton('Please click here to see the map', {
                      type: 'button',
                      class: 'btn btn-primary',
@@ -300,11 +298,11 @@ function setBotResponse(val) {
                   setAttributes(map, { class: 'responsive' });
                   section1.appendChild(map);
                   let footerdiv = document.createElement('div');
-                  setAttributes(footerdiv,{class:'modal-footer', style:'padding: 0rem;'})
-                  let footer =`<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>`
-                  footerdiv.innerHTML = footer 
+                  setAttributes(footerdiv, { class: 'modal-footer', style: 'padding: 0rem;' });
+                  let footer = `<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>`;
+                  footerdiv.innerHTML = footer;
                   body.append(section2, section1);
-                  body.appendChild(footerdiv); 
+                  body.appendChild(footerdiv);
                   head.appendChild(body);
                   main.appendChild(head);
                   response.append(outerButton, main);
@@ -324,8 +322,7 @@ function setBotResponse(val) {
                   let outerButton = createButton(`Click here to know more about ${val[i].custom.data.name}`, {
                      type: 'button',
                      class: 'btn btn-primary',
-                     style:
-                     'border-radius: 25px;background-color: #00d0ff;color:black;box-shadow: 5px 5px #888888;',
+                     style: 'border-radius: 25px;background-color: #00d0ff;color:black;box-shadow: 5px 5px #888888;',
                      'data-toggle': 'modal',
                      'data-target': `#${vid}`
                   });
@@ -345,14 +342,14 @@ function setBotResponse(val) {
                                           </tr>
                                        </tbody>
                                     </table>
-                                 </div>`
-                  section1.innerHTML= symptoms;
+                                 </div>`;
+                  section1.innerHTML = symptoms;
                   let footerdiv = document.createElement('div');
-                  setAttributes(footerdiv,{class:'modal-footer', style:'padding: 0rem;'})
-                  let footer =`<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>`
-                  footerdiv.innerHTML = footer 
+                  setAttributes(footerdiv, { class: 'modal-footer', style: 'padding: 0rem;' });
+                  let footer = `<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>`;
+                  footerdiv.innerHTML = footer;
                   body.append(section2, section1);
-                  body.appendChild(footerdiv); 
+                  body.appendChild(footerdiv);
                   head.appendChild(body);
                   main.appendChild(head);
                   response.append(outerButton, timespan, main);
@@ -365,12 +362,11 @@ function setBotResponse(val) {
                   let base = createBaseChat();
                   let response = createDiv((style = ['msg_cotainer1']), (id = ''), (text = ''));
                   let timespan = createSpan((style = ['msg_time']), (text = time));
-                  let { main, head, body, section1, frame, section2 } = createModal("File Upload",vid);
+                  let { main, head, body, section1, frame, section2 } = createModal('File Upload', vid);
                   let outerButton = createButton('Please click here to upload the file', {
                      type: 'button',
                      class: 'btn btn-primary',
-                     style:
-                     'border-radius: 25px;background-color: #00d0ff;color:black;box-shadow: 5px 5px #888888;',
+                     style: 'border-radius: 25px;background-color: #00d0ff;color:black;box-shadow: 5px 5px #888888;',
                      'data-toggle': 'modal',
                      'data-target': `#${vid}`
                   });
@@ -383,11 +379,11 @@ function setBotResponse(val) {
                                              </div>`;
                   section1.appendChild(formElement);
                   let footerdiv = document.createElement('div');
-                  setAttributes(footerdiv,{class:'modal-footer', style:'padding: 0rem;'})
-                  let footer =`  <button type=\"submit\"  id=\"but_upload\" onclick=\"filesend()\" class=\"btn btn-primary\">Upload</button>
+                  setAttributes(footerdiv, { class: 'modal-footer', style: 'padding: 0rem;' });
+                  let footer = `  <button type=\"submit\"  id=\"but_upload\" onclick=\"filesend()\" class=\"btn btn-primary\">Upload</button>
                                  <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>
-                              </form>`
-                  footerdiv.innerHTML = footer
+                              </form>`;
+                  footerdiv.innerHTML = footer;
                   body.append(section2, section1);
                   body.appendChild(footerdiv);
                   head.appendChild(body);
@@ -405,8 +401,7 @@ function setBotResponse(val) {
                   let outerButton = createButton('Please click here to see the list of documents', {
                      type: 'button',
                      class: 'btn btn-primary',
-                     style:
-                     'border-radius: 25px;background-color: #00d0ff;color:black;box-shadow: 5px 5px #888888;',
+                     style: 'border-radius: 25px;background-color: #00d0ff;color:black;box-shadow: 5px 5px #888888;',
                      'data-toggle': 'modal',
                      'data-target': `#${vid}`
                   });
@@ -418,16 +413,16 @@ function setBotResponse(val) {
                                           <th> Description </th>
                                           <th> File </th>
                                        </thead>
-                                       <tbody>`
+                                       <tbody>`;
                   const labelend = `</tbody>
                                        </table>
-                                       </div>`
-                  let inner = "";
-                  let table = "";
+                                       </div>`;
+                  let inner = '';
+                  let table = '';
                   //this has to be put in loop {loop start}
                   val[i].custom.data.forEach((record, index) => {
                      console.log(record);
-                     const tablebody    =`      <tr>
+                     const tablebody = `      <tr>
                                                       <td>${index}</td>
                                                       <td>${record.data.description}</td>
                                                       <td>
@@ -439,16 +434,16 @@ function setBotResponse(val) {
                                                          </form>  
                                                          </div>
                                                       </td>
-                                                   </tr>`
-                     inner +=  tablebody
+                                                   </tr>`;
+                     inner += tablebody;
                   });
-                  table = labelstart + inner + labelend
-                  listElement.innerHTML = table
-                  section1.appendChild(listElement)
+                  table = labelstart + inner + labelend;
+                  listElement.innerHTML = table;
+                  section1.appendChild(listElement);
                   let footerdiv = document.createElement('div');
-                  setAttributes(footerdiv,{class:'modal-footer', style:'padding: 0rem;'})
-                  let footer =`<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>`
-                  footerdiv.innerHTML = footer                    
+                  setAttributes(footerdiv, { class: 'modal-footer', style: 'padding: 0rem;' });
+                  let footer = `<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>`;
+                  footerdiv.innerHTML = footer;
                   body.append(section2, section1);
                   body.appendChild(footerdiv);
                   head.appendChild(body);

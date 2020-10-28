@@ -57,6 +57,7 @@ export const login = async (req: Request, res: Response) => {
          req.session!.user = user;
          req.session!.client_token = vaultClientToken;
          await SessionSave(req);
+         console.log(req.session);
          // console.log(req.session);
          if (req.body.schema == 'Patient') {
             return res.redirect('/user/home');
@@ -79,6 +80,7 @@ export const view = async (req: Request, res: Response) => {
       if (status === 'encrypted') {
          fileURL = cryptoService.decrypt(fileURL, req.session?.user.secrets.secretKey);
       }
+      console.log(fileURL);
       const buffer = await ipfsService.GetFile(fileURL);
       if (req.body.hasOwnProperty('key')) {
          decryptedBuffer = cryptoService.decryptFile(buffer, req.body.key);
@@ -98,6 +100,7 @@ export const rasa = async (req: Request, res: Response) => {
       const sender = String(req.session?.user.user.username) || 'vortex';
       let message: any;
       let rasa: any;
+      console.log(req.file, req);
       if (req.file) {
          message = await createIPFSHashFromFileBuffer(req.file.buffer, req.session?.user.secrets.secretKey);
          rasa = await rasaService.RASARequest(message, sender, req.session?.client_token);
