@@ -3,6 +3,15 @@ import { vaultService } from '../services';
 import type { Request, Response } from 'express';
 import UserModel from '../models/user.models';
 
+export const getFilteredRecords = async (req: Request, res: Response) => {
+   const { username } = req.body;
+   const query = req.params;
+   const user = new UserModel();
+   const records = await user.getRecords(username);
+
+   return res.json(records);
+};
+
 export const getAll = async (req: Request, res: Response) => {
    const { username } = req.body;
    console.log(username);

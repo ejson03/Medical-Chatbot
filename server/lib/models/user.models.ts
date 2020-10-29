@@ -4,7 +4,7 @@ export interface UserInterface {
    email: string;
    name: string;
    username: string;
-   schema: string;
+   schema: 'Patient' | 'Doctor';
    gender: string;
    institute?: string;
    specialization?: string;
@@ -20,6 +20,44 @@ interface SecretInterface {
    RSAPrivateKey: string;
    RSAPublicKey: string;
    secretKey: string;
+}
+
+export interface RecordInterface {
+   id: string;
+   height: number;
+   weight: number;
+   bp?: number;
+   age?: number;
+   symptoms?: string;
+   allergies?: string;
+   smoking: 'yes' | 'no';
+   exercise: 'yes' | 'no';
+   description: string;
+   schema: 'record';
+   username: string;
+   email?: string;
+   file: string;
+   fileHash: string;
+   date: Date;
+}
+
+export interface PresecriptionInterface {
+   username: string;
+   assetID: string;
+   description: string;
+   prescription: string;
+   id: number;
+   schema: 'record';
+}
+
+export interface MetadataInterface {
+   email: string;
+   datetime: Date;
+   id: number;
+   doclist?: {
+      email: string;
+      key: string;
+   }[];
 }
 
 export default class UserModel {
