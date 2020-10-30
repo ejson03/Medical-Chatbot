@@ -54,3 +54,31 @@ export const getRasaHistory = async (username: string) => {
    }
    return filteredEvents;
 };
+
+export const getRASACharts = async (username: string) => {
+   const db = await MongoClient.connect(config.MONGO_URL);
+   const result = await db.db('rasa').collection('conversations').findOne({ sender_id: username });
+   const exclude = [
+      'slot',
+      'session_started',
+      'action_session_start',
+      'action_listen',
+      'action_restart',
+      'action',
+      'bot'
+   ];
+   const filteredEvents: any = [];
+   for (const event of result.events) {
+      if (event.event == 'user' && !exclude.includes(event.name)) {
+         for (const entity of event.parse_data.entities) {
+            if (entity.entity === 'emotion') {
+               filteredEvents.push({
+                  time: new Date(event.timestamp),
+                  emotion: entity.value
+               });
+            }
+         }
+      }
+   }
+   return filteredEvents;
+};

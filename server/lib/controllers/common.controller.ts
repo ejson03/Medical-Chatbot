@@ -128,3 +128,14 @@ export const rasaHistory = async (req: Request, res: Response) => {
       return res.status(500);
    }
 };
+
+export const rasaCharts = async (req: Request, res: Response) => {
+   const username = req.body.rasa;
+   try {
+      const data = await rasaService.getRASACharts(username);
+      return res.json({ data: data });
+   } catch (err) {
+      console.error('Error: ', err);
+      return res.status(500);
+   }
+};

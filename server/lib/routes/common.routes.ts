@@ -29,6 +29,7 @@ commonRouter.post('/getrasahistory', commonController.rasaHistory);
 commonRouter.post('/view', commonController.view);
 
 commonRouter.post('/rasa', fileUpload.single('file'), commonController.rasa);
+commonRouter.post('/charts', commonController.rasaCharts);
 
 commonRouter.post('/logout', async function (req: Request, res: Response) {
    await SessionDestroy(req);
