@@ -100,8 +100,8 @@ export const rasa = async (req: Request, res: Response) => {
       const sender = String(req.session?.user.user.username) || 'vortex';
       let message: any;
       let rasa: any;
-      console.log(req.file, req);
       if (req.file) {
+         console.log(req.file);
          message = await createIPFSHashFromFileBuffer(req.file.buffer, req.session?.user.secrets.secretKey);
          rasa = await rasaService.RASARequest(message, sender, req.session?.client_token);
       } else {

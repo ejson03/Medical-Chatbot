@@ -36,11 +36,11 @@ function getID() {
 
 //------------------------------------------- Call the RASA API--------------------------------------
 function filesend() {
-   const myform = document.getElementById('uploadfiletorasa');
    const selectedFile = document.getElementById('record').files[0];
    const endpoint = '/rasa';
-   myform.onsubmit = async event => {
+   document.getElementById('uploadfiletorasa').onsubmit = async function (event) {
       event.preventDefault();
+      console.log('hiiii');
       console.log({ file: selectedFile });
       let response = await fetch(endpoint, {
          method: 'POST',
@@ -372,7 +372,7 @@ function setBotResponse(val) {
                   });
                   setAttributes(section1, { style: 'font-size: 20px;' });
                   let formElement = document.createElement('div');
-                  formElement.innerHTML = `<form id=\"uploadfiletorasa\">
+                  formElement.innerHTML = `<form id=\"uploadfiletorasa\"  method=\"post\" enctype=\"multipart/form-data\" action=\"/rasa\">
                                              <div class=\"form-group\">
                                                 <label for=\"message-text\" class=\"col-form-label\"> Report Upload : </label>
                                                 <input type=\"file\" id=\"record\" name=\"file"\ />
