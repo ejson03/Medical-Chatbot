@@ -11,6 +11,7 @@ intents:
   - deny
   - thank
   - out_of_scope
+  - transfer
   - get_emotion
   - get_all_records
   - get_ipfs_url
@@ -119,6 +120,8 @@ entities:
   - name
   - smoking
   - symptom
+  - records
+  - doctor
   - weight
   - conform
   - username

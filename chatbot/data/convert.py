@@ -6,7 +6,7 @@ training = glob.glob("./training_*.json", recursive=True )
 
 for file in training:
     with open(output_md_file,'a') as f:
-        f.write("\n")
+        f.write("\n\n")
         f.write(load_data(file).nlu_as_markdown())
     os.remove(file)
 
