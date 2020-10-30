@@ -2,7 +2,7 @@ session_config:
   session_expiration_time: 20
   carry_over_slots_to_new_session: false
 intents:
-  - findmedicalrecords
+  - get_
   - affirm
   - ask_upload
   - ask_form
@@ -14,6 +14,9 @@ intents:
   - transfer
   - get_emotion
   - get_all_records
+  - get_records
+  - get_transfer_records
+  - get_filtered_records
   - get_ipfs_url
   - ask_builder
   - ask_howdoing
@@ -126,6 +129,8 @@ entities:
   - conform
   - username
   - time
+  - query
+  - records
 slots:
   age:
     type: unfeaturized
