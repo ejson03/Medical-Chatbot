@@ -26,7 +26,6 @@
       "body-parser": "^1.19.0",
       "connect-mongo": "^3.2.0",
       "cors": "^2.8.5",
-      "date-filtersjs": "^1.1.7",
       "dotenv": "^8.2.0",
       "easy-bigchain": "^1.0.1",
       "ejs": "^3.1.5",
@@ -38,7 +37,8 @@
       "multer": "^1.4.2",
       "node-fetch": "^2.6.1",
       "node-vault": "^0.9.20",
-      "node-vault-user-pass": "0.0.7"
+      "node-vault-user-pass": "0.0.7",
+      "rule-judgment": "^1.1.3"
    },
    "devDependencies": {
       "@types/body-parser": "^1.19.0",
