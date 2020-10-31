@@ -3,6 +3,7 @@ from modules.utils import *
 from modules.diagnose import encode_symptom, create_illness_vector, get_diagnosis
 from modules.config import * 
 from modules.ehr import get_records, write_record
+import dateparser as ddp
 import os, requests, base64, uuid
 from os import environ
 from sys import getsizeof
@@ -47,7 +48,7 @@ class ActionGetSong(Action):
             dispatcher.utter_message("Here is something for your mood.")
             dispatcher.utter_message(json_message={"payload":"video","data":url})
         else:
-            dispatcher.utter_message("I couldnt contemplate what you are going thorugh. I'm sorry.")
+            dispatcher.utter_message("I couldn't contemplate what you are going thorugh. I'm sorry.")
 
 class ActionGetQuote(Action):
     def name(self):
@@ -62,21 +63,63 @@ class ActionDateRecord(Action):
         return "action_date_record"
 
     def run(self, dispatcher, tracker, domain):
-        dispatcher.utter_message("I can fetch records as per the date")
+        time = None
+        entities = tracker.latest_message['entities']
+        for entity in entities:
+            if entity['entity'] == "time":
+                time = entity['value']
+        dateform=ddp.parse(time)
+        print(time,dateform)
+        if time:
+            # res = requests.post(f"{APP_URL}/chatbot/datefetch", data={"date" : dateform})
+            # data = res.json()
+            dispatcher.utter_message("Got the date")
+        else:
+            dispatcher.utter_message("I couldn't contemplate what you are going thorugh. I'm sorry.")
 
 class ActionTransferRecord(Action):
     def name(self):
         return "action_transfer_record"
 
     def run(self, dispatcher, tracker, domain):
-        dispatcher.utter_message("I can transfer records to the doctor")
-
+        records = None
+        doctor = None 
+        entities = tracker.latest_message['entities']
+        for entity in entities:
+            if entity['entity'] == "records":
+                records = entity['value']
+            if entity['entity'] == "doctor":
+                doctor = entity['value']
+        print(records,doctor)
+        if records and doctor:
+            # res = requests.post(f"{APP_URL}/chatbot/transfer", data={"doctor" : doctor, "record" : records})
+            # data = res.json()
+            dispatcher.utter_message("Got the records and doctor")
+        else:
+            dispatcher.utter_message("I couldn't contemplate what you are going thorugh. I'm sorry.")
+        
 class ActionFilterRecord(Action):
     def name(self):
         return "action_filter_record"
 
     def run(self, dispatcher, tracker, domain):
-        dispatcher.utter_message("I can fetch medical data as per the date")
+        query = None
+        time = None 
+        entities = tracker.latest_message['entities']
+        for entity in entities:
+            if entity['entity'] == "query":
+                query = entity['value']
+            if entity['entity'] == "time":
+                time = entity['value']
+        dateform=ddp.parse(time)
+        print(time,dateform,query)
+        if query and time:
+            # res = requests.post(f"{APP_URL}/chatbot/filter", data={"date" : dateform , "query" : query})
+            # data = res.json()
+            dispatcher.utter_message("Got the query and doctor")
+        else:
+            dispatcher.utter_message("I couldn't contemplate what you are going thorugh. I'm sorry.")
+
 
 class ActionGetJoke(Action):
     def name(self):
