@@ -36,6 +36,7 @@ export const signUp = async (vault: VaultAccess, password: string, username: str
    const token = vault.Config.Token;
    const result = await vault.SignUp(password, username);
    vault.Config.Token = token;
+   vault.vault.token = token;
    return result;
 };
 
