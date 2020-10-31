@@ -1,16 +1,17 @@
 import { createRecord } from '../utils/ehr.js';
 import { vaultService } from '../services';
 import type { Request, Response } from 'express';
-import UserModel from '../models/user.models';
+import UserModel, { RecordInterface } from '../models/user.models';
+import { filterRecords } from '../utils/filteration.js';
 
-// export const getFilteredRecords = async (req: Request, res: Response) => {
-//    const { username } = req.body;
-//    const query = req.params;
-//    const user = new UserModel();
-//    const records = await user.getRecords(username);
-
-//    return res.json(records);
-// };
+export const getFilteredRecords = async (req: Request, res: Response) => {
+   const { username } = req.body;
+   const query = req.body as Partial<RecordInterface>;
+   const user = new UserModel();
+   const records = await user.getRecords(username);
+   const filtered = filterRecords(records, query);
+   return res.json(filtered);
+};
 
 export const getAll = async (req: Request, res: Response) => {
    const { username } = req.body;

@@ -2,11 +2,11 @@ version: "3.7"
 services:
   mongodb:
     image: mongo:latest
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: "${MONGO_USER}"
-      MONGO_INITDB_ROOT_PASSWORD: "${MONGO_PASS}"
-    ports:
-      - "27017:27017"
+    # environment:
+    #   MONGO_INITDB_ROOT_USERNAME: "${MONGO_USER}"
+    #   MONGO_INITDB_ROOT_PASSWORD: "${MONGO_PASS}"
+    # ports:
+    #   - "27017:27017"
     command: mongod
     restart: always
 
@@ -30,8 +30,8 @@ services:
       BIGCHAINDB_DATABASE_BACKEND: localmongodb
       BIGCHAINDB_DATABASE_HOST: mongodb
       BIGCHAINDB_DATABASE_PORT: 27017
-      BIGCHAINDB_DATABASE_LOGIN: "${MONGO_USER}"
-      BIGCHAINDB_DATABASE_PASSWORD: "${MONGO_PASS}"
+      # BIGCHAINDB_DATABASE_LOGIN: "${MONGO_USER}"
+      # BIGCHAINDB_DATABASE_PASSWORD: "${MONGO_PASS}"
       BIGCHAINDB_SERVER_BIND: 0.0.0.0:9984
       BIGCHAINDB_WSSERVER_HOST: 0.0.0.0
       BIGCHAINDB_WSSERVER_ADVERTISED_HOST: bigchaindb
@@ -88,11 +88,10 @@ services:
       target: chatbot
     volumes:
       - ./chatbot:/app
-    ports:
-      - 5005:5005
+    # ports:
+    #   - 5005:5005
     depends_on:
       - action
-      # - duckling
 
       
   action:
@@ -103,17 +102,11 @@ services:
       context: .
       dockerfile: Dockerfile
       target: action
-    ports:
-      - "5055:5055"
+    # ports:
+    #   - "5055:5055"
     volumes:
       - ./actions:/app
  
-
-  # duckling:
-  #   image: rasa/duckling
-  #   ports:
-  #     - "8000:8000"
-   
 
   main:
     container_name: main
@@ -128,23 +121,20 @@ services:
     command: npm run deploy
     ports:
       - 5000:5000
-
-  # rabbit:
-  #   restart: always
-  #   image: rabbitmq:alpine
-  #   container_name: rabbit
-  #   env_file:
-  #     - .env
-
-  nginx:
-    container_name: "nginx"
-    restart: unless-stopped
-    build:
-      context: nginx
-    ports:
-      - 8443:8443
     depends_on:
+      - vault
       - server
+ 
+
+  # nginx:
+  #   container_name: "nginx"
+  #   restart: unless-stopped
+  #   build:
+  #     context: nginx
+  #   ports:
+  #     - 8443:8443
+  #   depends_on:
+  #     - server
 
  
 
