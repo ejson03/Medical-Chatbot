@@ -57,12 +57,26 @@ class ActionGetQuote(Action):
         image = get_quotes()
         dispatcher.utter_message(image=image)
 
-class ActionShowMap(Action):
+class ActionDateRecord(Action):
     def name(self):
-        return "action_show_map"
+        return "action_date_record"
 
     def run(self, dispatcher, tracker, domain):
-        dispatcher.utter_message(json_message={"payload":"map"})
+        dispatcher.utter_message("I can fetch records as per the date")
+
+class ActionTransferRecord(Action):
+    def name(self):
+        return "action_transfer_record"
+
+    def run(self, dispatcher, tracker, domain):
+        dispatcher.utter_message("I can transfer records to the doctor")
+
+class ActionFilterRecord(Action):
+    def name(self):
+        return "action_filter_record"
+
+    def run(self, dispatcher, tracker, domain):
+        dispatcher.utter_message("I can fetch medical data as per the date")
 
 class ActionGetJoke(Action):
     def name(self):

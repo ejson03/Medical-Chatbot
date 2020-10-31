@@ -2,7 +2,7 @@
 * greet
     - utter_greet
 * ask_weather_location
-	- action_weather
+	  - action_weather
 * goodbye
     - utter_goodbye
 
@@ -10,10 +10,34 @@
 * greet
     - utter_greet
 * ask_temperature
-	- action_temp
+	  - action_temp
 * goodbye
     - utter_goodbye
-  
+
+## story 6
+* greet
+    - utter_greet
+* get_records
+	- action_date_record
+* goodbye
+    - utter_goodbye
+
+## story 7
+* greet
+    - utter_greet
+* get_filtered_records
+	- action_filter_record
+* goodbye
+    - utter_goodbye
+
+## story 8
+* greet
+    - utter_greet
+* get_transfer_records
+	- action_transfer_record
+* goodbye
+    - utter_goodbye
+
 ## Generated Story 1
 * greet
     - utter_greet
@@ -525,22 +549,14 @@
   - action_get_song
 * describe_symptoms
   - action_diagnose_symptoms
-* show_map
-  - action_show_map
 * goodbye
   - utter_goodbye
 
 ## show map
 * greet
   - utter_greet
-* show_map
-  - action_show_map
 * smalltalk_appraisal_thank_you
   - utter_smalltalk_appraisal_thank_you
-
-## story_6
-* out_of_scope
-  - utter_default
 
 ## happy_path
 * greet
@@ -752,10 +768,6 @@
 * smalltalk_user_busy
   - utter_smalltalk_user_busy
 
-## path_smalltalk_user_can_not_sleep
-* smalltalk_user_can_not_sleep
-  - utter_smalltalk_user_can_not_sleep
-
 ## path_smalltalk_user_does_not_want_to_talk
 * smalltalk_user_does_not_want_to_talk
   - utter_smalltalk_user_does_not_want_to_talk
@@ -823,8 +835,3 @@
 ## path_smalltalk_user_wants_to_talk
 * smalltalk_user_wants_to_talk
   - utter_smalltalk_user_wants_to_talk
-
-## path_smalltalk_user_will_be_back
-* smalltalk_user_will_be_back
-  - utter_smalltalk_user_will_be_back
-
