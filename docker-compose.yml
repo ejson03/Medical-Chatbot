@@ -121,9 +121,9 @@ services:
     command: npm run deploy
     ports:
       - 5000:5000
-    depends_on:
-      - vault
-      - server
+    # depends_on:
+    #   - vault
+    #   - server
  
 
   # nginx:

@@ -121,7 +121,13 @@ export default class UserModel {
    async createUser(asset: UserInterface, password: string) {
       try {
          const vault = vaultService.Vault;
-         await vaultService.signUp(vault, password, asset.username);
+         await vaultService.signUp(vault, password, asset.username)
+         const status = await vaultService.login(vault, password, asset.username);
+         if (status == null) {
+            throw new Error("Unable to sign in")
+         }
+         const vaultClientToken = status.auth.client_token;
+         this.clientToken = vaultClientToken
          await this.writeKeys(asset.username);
          asset.bigchainKey = this.secrets.bigchainPublicKey.toString();
          asset.RSAKey = this.secrets.RSAPublicKey.toString();
@@ -146,7 +152,7 @@ export default class UserModel {
          const records = await bigchainService.getAsset(username);
          const filterRecords = records.filter(
             record => record.data.schema == 'record' && record.data.username == username
-         );
+         ).sort((a,b) => new Date(a.data.date).getTime() - new Date(b.data.date).getTime());
          this.records = filterRecords;
          return filterRecords;
       } catch (err) {

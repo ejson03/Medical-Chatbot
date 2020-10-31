@@ -1,7 +1,6 @@
 import { MongoClient } from 'mongodb';
 
 import fetch from 'node-fetch';
-import https from 'https';
 import * as config from '../config';
 
 export const RASARequest = async (message: unknown, sender: string, metadata?: string) => {
@@ -11,13 +10,10 @@ export const RASARequest = async (message: unknown, sender: string, metadata?: s
    } else {
       data = { message: message, sender: sender };
    }
-   const httpsAgent = new https.Agent({
-      rejectUnauthorized: false
-   });
+
    const response = await fetch(`${config.RASA_URL}/webhooks/rest/webhook`, {
       method: 'POST',
       body: JSON.stringify(data),
-      agent: httpsAgent
    });
    const reply = await response.json();
    if (reply) {

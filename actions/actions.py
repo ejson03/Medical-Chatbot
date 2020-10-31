@@ -2,7 +2,6 @@ from pymongo import MongoClient
 from modules.utils import *
 from modules.diagnose import encode_symptom, create_illness_vector, get_diagnosis
 from modules.config import * 
-from modules.ehr import get_records, write_record
 import os, requests, base64, uuid
 from os import environ
 from sys import getsizeof

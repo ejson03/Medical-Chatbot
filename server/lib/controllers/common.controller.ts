@@ -10,7 +10,7 @@ const patientExclude = [...doctorExclude, 'location', 'institute', 'specializati
 export const signUp = async (req: Request, res: Response) => {
    const vault = vaultService.Vault;
    const users = await vaultService.getUsers(vault);
-   // console.log(users, req.body.username, users.includes(req.body.username));
+   console.log(users, req.body.username, users.includes(req.body.username));
 
    if (users.includes(req.body.username) || !req.body.username) {
       return res.status(401).json({ success: false });
@@ -58,7 +58,6 @@ export const login = async (req: Request, res: Response) => {
          req.session!.client_token = vaultClientToken;
          await SessionSave(req);
          console.log(req.session);
-         // console.log(req.session);
          if (req.body.schema == 'Patient') {
             return res.redirect('/user/home');
          } else {

@@ -156,7 +156,9 @@ export const createRecord = async (
          email: email,
          file: ipfsURLEncrypted,
          fileHash: cryptoService.hash(cipher),
-         id: id
+         id: id,
+         date: date
+
       });
    }
 
