@@ -7,8 +7,7 @@ tracker_store:
   type: mongod
   url: ${MONGO_URL}
   db: rasa
-  username: ${MONGO_USER}
-  password: ${MONGO_PASS}
+
  
  
  # custom rasa tracker to tackle bson 16mb document limit
