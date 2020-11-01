@@ -27,7 +27,7 @@ def get_music(emotion):
     return url
 
 def get_jokes():
-    with open(os.path.join(path, 'jokes.json'), 'r') as f:
+    with open(os.path.join(path, 'jokes.txt'), 'r') as f:
         jokes = json.load(f)
     return random.choice(jokes)
 
