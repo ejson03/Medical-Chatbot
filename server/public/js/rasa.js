@@ -390,7 +390,7 @@ function setBotResponse(val) {
                   });
                   setAttributes(section1, { style: 'font-size: 20px;' });
                   let formElement = document.createElement('div');
-                  formElement.innerHTML = `<form id="uploadfiletorasa" method="post" enctype="multipart/form-data" action="/rasa">
+                  formElement.innerHTML = `<form id="uploadfiletorasa" method="post">
                        <div class="form-group">
                         <label for="message-text" class="col-form-label"> Report Upload : </label>
                         <input type="file" id="record" name="file" />
