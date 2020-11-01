@@ -70,7 +70,7 @@ class ActionDateRecord(Action):
         dateform=ddp.parse(time)
         print(time,dateform)
         if time:
-            # res = requests.post(f"{APP_URL}/chatbot/datefetch", data={"date" : dateform})
+            # res = requests.post(f"{APP_URL}/chatbot/datefetch", json={"date" : dateform})
             # response = res.json()
             # dispatcher.utter_message(json_message={"payload":"listdocuments","data":response})
             dispatcher.utter_message("Got the date")
@@ -92,7 +92,7 @@ class ActionTransferRecord(Action):
                 doctor = entity['value']
         print(record,doctor)
         if record and doctor:
-            # res = requests.post(f"{APP_URL}/chatbot/transfer", data={"doctor" : doctor, "record" : record})
+            # res = requests.post(f"{APP_URL}/chatbot/transfer", json={"doctor" : doctor, "record" : record})
             # response = res.json()
             dispatcher.utter_message("Your {} is been tranfered to {} doctor".format(records,doctor))
         else:
@@ -127,7 +127,7 @@ class ActionFilterRecord(Action):
             #     data="allergies"
             # if query.lower()=='age':
             #     data="age"
-            # res = requests.post(f"{APP_URL}/chatbot/filter", data={"date" : dateform , data : data})
+            # res = requests.post(f"{APP_URL}/chatbot/filter", json={"date" : dateform , data : data})
             # response = res.json()
             #dispatcher.utter_message("{} your {} is/are {}. ". format(time,data,response)")
             dispatcher.utter_message("Got the query and doctor")
@@ -357,7 +357,7 @@ class ActionSetFile(Action):
             "asset" : slots,
             "token": token
         }
-        res = requests.post(f"{APP_URL}/chatbot/upload", data=data)
+        res = requests.post(f"{APP_URL}/chatbot/upload", json=data)
         print(res.json())
         dispatcher.utter_message(text=f"this is your asset id")
         
@@ -381,7 +381,7 @@ class ActionGetAllRecords(Action):
         username = tracker.sender_id
         if (not username):
             dispatcher.utter_message(text="Found no records for mentioned user")
-        res = requests.post(f"{APP_URL}/chatbot/getall", data={"username" : username})
+        res = requests.post(f"{APP_URL}/chatbot/getall", json={"username" : username})
         records = res.json()
         dispatcher.utter_message(json_message={"payload":"listdocuments","data":records})
 
