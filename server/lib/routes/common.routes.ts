@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import type { Request, Response } from 'express';
 import { commonController } from '../controllers';
-import { fileUpload } from '../middleware/file-upload';
+import fileUpload from '../middleware/file-upload';
 import { SessionDestroy } from '../utils';
 
 const commonRouter: Router = Router();

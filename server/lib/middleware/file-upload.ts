@@ -11,7 +11,7 @@ const MIME_TYPE_MAP = {
    'application/msword': 'doc'
 };
 
-export const fileUpload = multer({
+const fileUpload = multer({
    limits: { fileSize: 20 * 1000 * 1000 },
    storage: multer.memoryStorage(), //multer.diskStorage({
    //    destination: (_req: any, _file: any, cb: any) => {
@@ -28,3 +28,5 @@ export const fileUpload = multer({
       cb(error, isValid);
    }
 });
+
+export default fileUpload;

@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { doctorController } from '../controllers';
-import { fileUpload } from '../middleware/file-upload';
+import fileUpload from '../middleware/file-upload';
 
 const doctorRouter: Router = Router();
 
