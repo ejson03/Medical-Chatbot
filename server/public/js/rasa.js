@@ -35,7 +35,8 @@ function getID() {
 }
 
 //------------------------------------------- Call the RASA API--------------------------------------
-function filesend() {
+document.getElementById('uploadfiletorasa').onsubmit = async function (event) {
+   event.preventDefault();
    const selectedFile = document.getElementById('record').files[0];
    console.log('hiiii');
    console.log({ file: selectedFile });
@@ -62,37 +63,19 @@ async function send(text) {
    try {
       let response = await fetch('/rasa', {
          method: 'POST',
-         body: { file: selectedFile }
+         headers: {
+            'Content-Type': 'application/json'
+         },
+         body: JSON.stringify({ message: text }),
+         redirect: 'follow'
       });
-      if (!response.ok) {
-         setBotResponse('error');
-      } else {
-         response = await response.json();
-         console.log(response);
-         setBotResponse(response);
-      }
-   };
-}
-
-function send(text) {
-   (async function () {
-      try {
-         let response = await fetch('/rasa', {
-            method: 'POST',
-            headers: {
-               'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ message: text }),
-            redirect: 'manual'
-         });
-         response = await response.json();
-         console.log(response);
-         setBotResponse(response);
-      } catch {
-         console.log('Error in Operation');
-         setBotResponse('error');
-      }
-   })();
+      response = await response.json();
+      console.log(response);
+      setBotResponse(response);
+   } catch {
+      console.log('Error in Operation');
+      setBotResponse('error');
+   }
 }
 
 function setAttributes(el, attrs) {
