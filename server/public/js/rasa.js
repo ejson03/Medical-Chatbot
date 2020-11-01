@@ -37,12 +37,30 @@ function getID() {
 //------------------------------------------- Call the RASA API--------------------------------------
 function filesend() {
    const selectedFile = document.getElementById('record').files[0];
-   const endpoint = '/rasa';
-   document.getElementById('uploadfiletorasa').onsubmit = async function (event) {
-      event.preventDefault();
-      console.log('hiiii');
-      console.log({ file: selectedFile });
-      let response = await fetch(endpoint, {
+   console.log('hiiii');
+   console.log({ file: selectedFile });
+
+   const body = new FormData();
+   body.append('file', selectedFile);
+   const response = await fetch('/rasa', {
+      method: 'POST',
+      body: body,
+      redirect: 'follow'
+   });
+
+   console.log(response);
+   if (!response.ok) {
+      setBotResponse('error');
+      return;
+   }
+   const json = await response.json();
+   console.log(json);
+   setBotResponse(json);
+};
+
+async function send(text) {
+   try {
+      let response = await fetch('/rasa', {
          method: 'POST',
          body: { file: selectedFile }
       });
@@ -112,10 +130,10 @@ function createModal(title, eid) {
    let frame = createDiv(['embed-responsive', 'embed-responsive-16by9', 'z-depth-1-half']);
    let section2 = createDiv(['modal-header']);
    setAttributes(section2, { id: 'myModalLabel1', style: 'padding: 0.5rem;' });
-   const modaltitle = `<h5 class=\"modal-title text-primary\"  id=\"myModalLabel1\">${title}<br></h5>
-                     <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">
-                        <span aria-hidden=\"true\">&times;</span>
-                     </button>`;
+   const modaltitle = `<h5 class="modal-title text-primary" id="myModalLabel1">${title}<br></h5>
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+           </button>`;
    section2.innerHTML = modaltitle;
    return { main, head, body, section1, frame, section2 };
 }
@@ -134,14 +152,14 @@ function createModalscrollable(title, eid) {
    let section1 = createDiv(['modal-body']);
    let section2 = createDiv(['modal-header']);
    var d = new Date();
-   const modaltitle = `<h5 class=\"modal-title text-primary\"  id=\"myModalLabel\">${title}<br>
-                           <p class=\"card-category\"> <i class=\"material-icons\">access_time</i> updated 
-                           ${d} ago 
-                           </p>
-                        </h5>
-                        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">
-                           <span aria-hidden=\"true\">&times;</span>
-                        </button>`;
+   const modaltitle = `<h5 class="modal-title text-primary" id="myModalLabel">${title}<br>
+              <p class="card-category"> <i class="material-icons">access_time</i> updated 
+              ${d} ago 
+              </p>
+            </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>`;
    section2.innerHTML = modaltitle;
    return { main, head, body, section1, section2 };
 }
@@ -236,7 +254,7 @@ function setBotResponse(val) {
                section1.appendChild(img);
                let footerdiv = document.createElement('div');
                setAttributes(footerdiv, { class: 'modal-footer', style: 'padding: 0rem;' });
-               let footer = `<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>`;
+               let footer = `<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>`;
                footerdiv.innerHTML = footer;
                body.append(section2, section1);
                body.appendChild(footerdiv);
@@ -270,7 +288,7 @@ function setBotResponse(val) {
                   section1.appendChild(frame);
                   let footerdiv = document.createElement('div');
                   setAttributes(footerdiv, { class: 'modal-footer', style: 'padding: 0rem;' });
-                  let footer = `<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>`;
+                  let footer = `<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>`;
                   footerdiv.innerHTML = footer;
                   body.append(section2, section1);
                   body.appendChild(footerdiv);
@@ -299,7 +317,7 @@ function setBotResponse(val) {
                   section1.appendChild(map);
                   let footerdiv = document.createElement('div');
                   setAttributes(footerdiv, { class: 'modal-footer', style: 'padding: 0rem;' });
-                  let footer = `<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>`;
+                  let footer = `<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>`;
                   footerdiv.innerHTML = footer;
                   body.append(section2, section1);
                   body.appendChild(footerdiv);
@@ -309,7 +327,7 @@ function setBotResponse(val) {
                   base.appendChild(response);
                   BotResponse = base;
                   $(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
-                  //   await initMap();
+                  //  await initMap();
                   // createMap()
                }
 
@@ -327,26 +345,26 @@ function setBotResponse(val) {
                      'data-target': `#${vid}`
                   });
                   let listElement = document.createElement('div');
-                  let symptoms = `<div class=\"table-responsive\">
-                                    <table class=\"table table-hover\">
-                                       <thead class=\"text-primary\">
-                                          <th> Description </th>
-                                          <th> Cause </th>
-                                          <th> Treatment </th>
-                                       </thead>
-                                       <tbody>
-                                          <tr>
-                                             <td>${val[i].custom.data.desc}</td>
-                                             <td>${val[i].custom.data.causes}</td>
-                                             <td>${val[i].custom.data.treatment}</td>
-                                          </tr>
-                                       </tbody>
-                                    </table>
-                                 </div>`;
+                  let symptoms = `<div class="table-responsive">
+                  <table class="table table-hover">
+                    <thead class="text-primary">
+                     <th> Description </th>
+                     <th> Cause </th>
+                     <th> Treatment </th>
+                    </thead>
+                    <tbody>
+                     <tr>
+                       <td>${val[i].custom.data.desc}</td>
+                       <td>${val[i].custom.data.causes}</td>
+                       <td>${val[i].custom.data.treatment}</td>
+                     </tr>
+                    </tbody>
+                  </table>
+                 </div>`;
                   section1.innerHTML = symptoms;
                   let footerdiv = document.createElement('div');
                   setAttributes(footerdiv, { class: 'modal-footer', style: 'padding: 0rem;' });
-                  let footer = `<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>`;
+                  let footer = `<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>`;
                   footerdiv.innerHTML = footer;
                   body.append(section2, section1);
                   body.appendChild(footerdiv);
@@ -372,17 +390,17 @@ function setBotResponse(val) {
                   });
                   setAttributes(section1, { style: 'font-size: 20px;' });
                   let formElement = document.createElement('div');
-                  formElement.innerHTML = `<form id=\"uploadfiletorasa\"  method=\"post\" enctype=\"multipart/form-data\" action=\"/rasa\">
-                                             <div class=\"form-group\">
-                                                <label for=\"message-text\" class=\"col-form-label\"> Report Upload : </label>
-                                                <input type=\"file\" id=\"record\" name=\"file"\ />
-                                             </div>`;
+                  formElement.innerHTML = `<form id="uploadfiletorasa" method="post" enctype="multipart/form-data" action="/rasa">
+                       <div class="form-group">
+                        <label for="message-text" class="col-form-label"> Report Upload : </label>
+                        <input type="file" id="record" name="file" />
+                       </div>`;
                   section1.appendChild(formElement);
                   let footerdiv = document.createElement('div');
                   setAttributes(footerdiv, { class: 'modal-footer', style: 'padding: 0rem;' });
-                  let footer = `  <button type=\"submit\"  id=\"but_upload\" onclick=\"filesend()\" class=\"btn btn-primary\">Upload</button>
-                                 <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>
-                              </form>`;
+                  let footer = ` <button type="submit" id="but_upload" class="btn btn-primary">Upload</button>
+                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               </form>`;
                   footerdiv.innerHTML = footer;
                   body.append(section2, section1);
                   body.appendChild(footerdiv);
@@ -406,35 +424,35 @@ function setBotResponse(val) {
                      'data-target': `#${vid}`
                   });
                   let listElement = document.createElement('div');
-                  const labelstart = `<div class=\"table-responsive\">
-                                    <table class=\"table table-hover\">
-                                       <thead class=\"text-primary\">
-                                          <th> Document ID </th>
-                                          <th> Description </th>
-                                          <th> File </th>
-                                       </thead>
-                                       <tbody>`;
+                  const labelstart = `<div class="table-responsive">
+                  <table class="table table-hover">
+                    <thead class="text-primary">
+                     <th> Document ID </th>
+                     <th> Description </th>
+                     <th> File </th>
+                    </thead>
+                    <tbody>`;
                   const labelend = `</tbody>
-                                       </table>
-                                       </div>`;
+                    </table>
+                    </div>`;
                   let inner = '';
                   let table = '';
                   //this has to be put in loop {loop start}
                   val[i].custom.data.forEach((record, index) => {
                      console.log(record);
-                     const tablebody = `      <tr>
-                                                      <td>${index}</td>
-                                                      <td>${record.data.description}</td>
-                                                      <td>
-                                                         <form method=\"post\" action=\"/view\">
-                                                            <input type=\"hidden\" name=\"status\" value=\"encrypted\"> 
-                                                               <button  type=\"submit\" rel=\"tooltip\" title=\"File\" class=\"btn btn-danger btn-link btn-sm\" value=\"${record.data.file}\" name=\"fileURL\ target=\"__blank">
-                                                                  <i class=\"material-icons\">attachment</i>
-                                                               </button>
-                                                         </form>  
-                                                         </div>
-                                                      </td>
-                                                   </tr>`;
+                     const tablebody = `   <tr>
+                           <td>${index}</td>
+                           <td>${record.data.description}</td>
+                           <td>
+                             <form method="post" action="/view">
+                              <input type="hidden" name="status" value="encrypted"> 
+                                <button type="submit" rel="tooltip" title="File" class="btn btn-danger btn-link btn-sm" value="${record.data.file}" name="fileURL" target="__blank">
+                                 <i class="material-icons">attachment</i>
+                                </button>
+                             </form> 
+                             </div>
+                           </td>
+                          </tr>`;
                      inner += tablebody;
                   });
                   table = labelstart + inner + labelend;
@@ -442,7 +460,7 @@ function setBotResponse(val) {
                   section1.appendChild(listElement);
                   let footerdiv = document.createElement('div');
                   setAttributes(footerdiv, { class: 'modal-footer', style: 'padding: 0rem;' });
-                  let footer = `<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>`;
+                  let footer = `<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>`;
                   footerdiv.innerHTML = footer;
                   body.append(section2, section1);
                   body.appendChild(footerdiv);
