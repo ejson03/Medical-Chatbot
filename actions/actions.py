@@ -71,7 +71,8 @@ class ActionDateRecord(Action):
         print(time,dateform)
         if time:
             # res = requests.post(f"{APP_URL}/chatbot/datefetch", data={"date" : dateform})
-            # data = res.json()
+            # response = res.json()
+            # dispatcher.utter_message(json_message={"payload":"listdocuments","data":response})
             dispatcher.utter_message("Got the date")
         else:
             dispatcher.utter_message("I couldn't contemplate what you are going thorugh. I'm sorry.")
@@ -81,19 +82,19 @@ class ActionTransferRecord(Action):
         return "action_transfer_record"
 
     def run(self, dispatcher, tracker, domain):
-        records = None
+        record = None
         doctor = None 
         entities = tracker.latest_message['entities']
         for entity in entities:
-            if entity['entity'] == "records":
-                records = entity['value']
+            if entity['entity'] == "record":
+                record = entity['value']
             if entity['entity'] == "doctor":
                 doctor = entity['value']
-        print(records,doctor)
-        if records and doctor:
-            # res = requests.post(f"{APP_URL}/chatbot/transfer", data={"doctor" : doctor, "record" : records})
-            # data = res.json()
-            dispatcher.utter_message("Got the records and doctor")
+        print(record,doctor)
+        if record and doctor:
+            # res = requests.post(f"{APP_URL}/chatbot/transfer", data={"doctor" : doctor, "record" : record})
+            # response = res.json()
+            dispatcher.utter_message("Your {} is been tranfered to {} doctor".format(records,doctor))
         else:
             dispatcher.utter_message("I couldn't contemplate what you are going thorugh. I'm sorry.")
         
@@ -104,6 +105,7 @@ class ActionFilterRecord(Action):
     def run(self, dispatcher, tracker, domain):
         query = None
         time = None 
+        data= None
         entities = tracker.latest_message['entities']
         for entity in entities:
             if entity['entity'] == "query":
@@ -113,8 +115,21 @@ class ActionFilterRecord(Action):
         dateform=ddp.parse(time)
         print(time,dateform,query)
         if query and time:
-            # res = requests.post(f"{APP_URL}/chatbot/filter", data={"date" : dateform , "query" : query})
-            # data = res.json()
+            # if query.lower()=='height' || query.lower()=='tall':
+            #     data="height"
+            # if query.lower()=='weight' || query.lower()=='healthy':
+            #     data="weight"
+            # if query.lower()=='bp' || query.lower()=='blood pressure' || query.lower()=='systolic' || query.lower()=='diastolic' :
+            #     data="bp"
+            # if query.lower()=='symptoms':
+            #     data="symptoms"
+            # if query.lower()=='allergies':
+            #     data="allergies"
+            # if query.lower()=='age':
+            #     data="age"
+            # res = requests.post(f"{APP_URL}/chatbot/filter", data={"date" : dateform , data : data})
+            # response = res.json()
+            #dispatcher.utter_message("{} your {} is/are {}. ". format(time,data,response)")
             dispatcher.utter_message("Got the query and doctor")
         else:
             dispatcher.utter_message("I couldn't contemplate what you are going thorugh. I'm sorry.")

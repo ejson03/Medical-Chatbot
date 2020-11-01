@@ -116,7 +116,7 @@ entities:
 - name
 - smoking
 - symptom
-- records
+- record
 - doctor
 - weight
 - conform
