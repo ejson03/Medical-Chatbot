@@ -45,8 +45,7 @@ document.getElementById('uploadfiletorasa').onsubmit = async function (event) {
    body.append('file', selectedFile);
    const response = await fetch('/rasa', {
       method: 'POST',
-      body: body,
-      redirect: 'follow'
+      body: body
    });
 
    console.log(response);
@@ -373,20 +372,26 @@ function setBotResponse(val) {
                   });
                   setAttributes(section1, { style: 'font-size: 20px;' });
                   let formElement = document.createElement('div');
-                  formElement.innerHTML = `<form id="uploadfiletorasa" method="post">
+                  formElement.innerHTML = `
+                     <form id="uploadfiletorasa" method="post">
                        <div class="form-group">
                         <label for="message-text" class="col-form-label"> Report Upload : </label>
                         <input type="file" id="record" name="file" />
-                       </div>`;
+                       </div>
+                       <div class="modal-footer" style="padding: 0rem;">
+                        <button type="submit" id="but_upload" class="btn btn-primary">Upload</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                     </form>
+                        </div>`;
                   section1.appendChild(formElement);
-                  let footerdiv = document.createElement('div');
-                  setAttributes(footerdiv, { class: 'modal-footer', style: 'padding: 0rem;' });
-                  let footer = ` <button type="submit" id="but_upload" class="btn btn-primary">Upload</button>
-                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-               </form>`;
-                  footerdiv.innerHTML = footer;
+               //    let footerdiv = document.createElement('div');
+               //    setAttributes(footerdiv, { class: 'modal-footer', style: 'padding: 0rem;' });
+               //    let footer = ` <button type="submit" id="but_upload" class="btn btn-primary">Upload</button>
+               //   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               // </form>`;
+               //    footerdiv.innerHTML = footer;
                   body.append(section2, section1);
-                  body.appendChild(footerdiv);
+                  // body.appendChild(footerdiv);
                   head.appendChild(body);
                   main.appendChild(head);
                   response.append(outerButton, timespan, main);
