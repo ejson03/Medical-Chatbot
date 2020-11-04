@@ -7,6 +7,7 @@ import { filterRecords } from '../utils/filteration.js';
 export const getFilteredRecords = async (req: Request, res: Response) => {
    const { username } = req.body;
    const query = req.body as Partial<RecordInterface>;
+   console.log(username, query)
    const user = new UserModel();
    const records = await user.getRecords(username);
    const filtered = filterRecords(records, query);
@@ -21,12 +22,12 @@ export const getAll = async (req: Request, res: Response) => {
 };
 
 export const addRecord = async (req: Request, res: Response) => {
-   const { token, asset } = req.body;
+   const token = req.body.token;
+   const asset = req.body.asset;
    const clientVault = await vaultService.vaultFromToken(token);
    const bigchainPrivateKey = await vaultService.read(clientVault, 'bigchainPrivateKey');
    const bigchainPublicKey = await vaultService.read(clientVault, 'bigchainPublicKey');
    const secretKey = await vaultService.read(clientVault, 'secretKey');
-
    try {
       const tx = await createRecord(
          asset,
@@ -37,7 +38,6 @@ export const addRecord = async (req: Request, res: Response) => {
          secretKey,
          'rasa'
       );
-      console.log(tx);
       return res.json(tx.id);
    } catch (err) {
       console.error(err);

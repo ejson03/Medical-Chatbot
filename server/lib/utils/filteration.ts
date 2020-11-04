@@ -14,27 +14,27 @@ import { RecordInterface } from '../models/user.models';
 //    }
 //    return filterList;
 // };
-function filterSingle(query: Partial<RecordInterface>, record: RecordInterface) {
-   if (query.date != null && query.date.getTime() < record.date.getTime()) return false;
-   if (query.height != null && query.height !== record.height) {
+function filterSingle(query: Partial<RecordInterface>, record: any) {
+   if (query.date != null && new Date(query.date).getTime() < new Date(record.data.date).getTime()) return false;
+   if (query.height != null && query.height !== record.data.height) {
       return false;
    }
-   if (query.bp != null && query.bp !== record.bp) {
+   if (query.bp != null && query.bp !== record.data.bp) {
       return false;
    }
-   if (query.age != null && query.age !== record.age) {
+   if (query.age != null && query.age !== record.data.age) {
       return false;
    }
-   if (query.weight != null && query.weight !== record.weight) {
+   if (query.weight != null && query.weight !== record.data.weight) {
       return false;
    }
-   if (query.symptoms != null && record.symptoms != null && !record.symptoms.includes(query.symptoms)) {
+   if (query.symptoms != null && record.data.symptoms != null && !record.data.symptoms.includes(query.symptoms)) {
       return false;
    }
-   if (query.allergies != null && record.allergies != null && !record.allergies.includes(query.allergies)) {
+   if (query.allergies != null && record.data.allergies != null && !record.data.allergies.includes(query.allergies)) {
       return false;
    }
-   if (query.description != null && record.description != null && !record.description.includes(query.description)) {
+   if (query.description != null && record.data.description != null && !record.data.description.includes(query.description)) {
       return false;
    }
    return true;

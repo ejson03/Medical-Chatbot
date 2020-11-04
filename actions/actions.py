@@ -63,6 +63,7 @@ class ActionDateRecord(Action):
 
     def run(self, dispatcher, tracker, domain):
         time = None
+        username = tracker.sender_id
         entities = tracker.latest_message['entities']
         for entity in entities:
             if entity['entity'] == "time":
@@ -70,9 +71,9 @@ class ActionDateRecord(Action):
         dateform=ddp.parse(time)
         print(time,dateform)
         if time:
-            # res = requests.post(f"{APP_URL}/chatbot/datefetch", json={"date" : dateform})
-            # response = res.json()
-            # dispatcher.utter_message(json_message={"payload":"listdocuments","data":response})
+            res = requests.post(f"{APP_URL}/chatbot/filter", json={"username" : username, "date" : dateform})
+            response = res.json()
+            dispatcher.utter_message(json_message={"payload":"listdocuments","data":response})
             dispatcher.utter_message("Got the date")
         else:
             dispatcher.utter_message("I couldn't contemplate what you are going thorugh. I'm sorry.")
@@ -92,8 +93,8 @@ class ActionTransferRecord(Action):
                 doctor = entity['value']
         print(record,doctor)
         if record and doctor:
-            # res = requests.post(f"{APP_URL}/chatbot/transfer", json={"doctor" : doctor, "record" : record})
-            # response = res.json()
+            res = requests.post(f"{APP_URL}/chatbot/transfer", json={"doctor" : doctor, "record" : record})
+            response = res.json()
             dispatcher.utter_message("Your {} is been tranfered to {} doctor".format(records,doctor))
         else:
             dispatcher.utter_message("I couldn't contemplate what you are going thorugh. I'm sorry.")
@@ -103,33 +104,39 @@ class ActionFilterRecord(Action):
         return "action_filter_record"
 
     def run(self, dispatcher, tracker, domain):
+        username = tracker.sender_id
         query = None
         time = None 
-        data= None
+        data= {
+            "username" : username
+        }
         entities = tracker.latest_message['entities']
         for entity in entities:
             if entity['entity'] == "query":
                 query = entity['value']
             if entity['entity'] == "time":
                 time = entity['value']
-        dateform=ddp.parse(time)
-        print(time,dateform,query)
-        if query and time:
-            # if query.lower()=='height' || query.lower()=='tall':
-            #     data="height"
-            # if query.lower()=='weight' || query.lower()=='healthy':
-            #     data="weight"
-            # if query.lower()=='bp' || query.lower()=='blood pressure' || query.lower()=='systolic' || query.lower()=='diastolic' :
-            #     data="bp"
-            # if query.lower()=='symptoms':
-            #     data="symptoms"
-            # if query.lower()=='allergies':
-            #     data="allergies"
-            # if query.lower()=='age':
-            #     data="age"
-            # res = requests.post(f"{APP_URL}/chatbot/filter", json={"date" : dateform , data : data})
-            # response = res.json()
-            #dispatcher.utter_message("{} your {} is/are {}. ". format(time,data,response)")
+                dateform = ddp.parse(time)
+                if dateform is not None:
+                    data["date"] = str(dateform)
+                    print(time,str(dateform),query)
+        if query:
+            if query.lower()=='height' or query.lower()=='tall':
+                data["height"] = 5.8
+            if query.lower()=='weight' or query.lower()=='healthy':
+                data["weight"] = 91
+            if query.lower()=='bp' or query.lower()=='blood pressure' or query.lower()=='systolic' or query.lower()=='diastolic' :
+                data["bp"] = 121
+            if query.lower()=='symptoms':
+                data["symptoms"] = "fever"
+            if query.lower()=='allergies':
+                data["allergies"] = "dust"
+            if query.lower()=='age':
+                data["age"] = 21
+            res = requests.post(f"{APP_URL}/chatbot/filter", json=data)
+            response = res.json()
+            print(response)
+            dispatcher.utter_message(json_message={"payload":"listdocuments","data":response})
             dispatcher.utter_message("Got the query and doctor")
         else:
             dispatcher.utter_message("I couldn't contemplate what you are going thorugh. I'm sorry.")

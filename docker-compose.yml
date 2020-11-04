@@ -5,8 +5,8 @@ services:
     # environment:
     #   MONGO_INITDB_ROOT_USERNAME: "${MONGO_USER}"
     #   MONGO_INITDB_ROOT_PASSWORD: "${MONGO_PASS}"
-    # ports:
-    #   - "27017:27017"
+    ports:
+      - "27017:27017"
     command: mongod
     restart: always
 
@@ -88,8 +88,8 @@ services:
       target: chatbot
     volumes:
       - ./chatbot:/app
-    # ports:
-    #   - 5005:5005
+    ports:
+      - 5005:5005
     depends_on:
       - action
 
@@ -102,8 +102,8 @@ services:
       context: .
       dockerfile: Dockerfile
       target: action
-    # ports:
-    #   - "5055:5055"
+    ports:
+      - "5055:5055"
     volumes:
       - ./actions:/app
  
