@@ -452,7 +452,7 @@ function setBotResponse(val) {
                      console.log(record);
                      const tablebody = `   <tr>
                            <td>${index}</td>
-                           <td>${record.data.time}</td>
+                           <td>${record.time}</td>
                            <td>${record.data.value} </td>                     
                           </tr>`;
                      inner += tablebody;

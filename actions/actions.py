@@ -142,7 +142,7 @@ class ActionFilterRecord(Action):
             res = requests.post(f"{APP_URL}/chatbot/filter", json=data)
             response = res.json()
             print(response)
-            dispatcher.utter_message(json_message={"payload":"listdocuments","head":header,"data":response})
+            dispatcher.utter_message(json_message={"payload":"listrecords","head":header,"data":response})
             dispatcher.utter_message("Got the query and doctor")
         else:
             dispatcher.utter_message("I couldn't contemplate what you are going thorugh. I'm sorry.")
