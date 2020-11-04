@@ -280,38 +280,6 @@ function setBotResponse(val) {
                   BotResponse = base;
                   $(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
                }
-               if (val[i].custom.payload == 'map') {
-                  let base = createBaseChat();
-                  let { main, head, body, section1, frame, section2 } = createModal('Google Map', vid);
-                  let outerButton = createButton('Please click here to see the map', {
-                     type: 'button',
-                     class: 'btn btn-primary',
-                     style: 'border-radius: 25px;background-color: #00d0ff;color:black;box-shadow: 5px 5px #888888;',
-                     'data-toggle': 'modal',
-                     'data-target': `#${vid}`
-                  });
-                  let map = createDiv((style = []), (id = 'map'));
-                  let response = createDiv((style = ['msg_cotainer1']), (id = ''), (text = ''));
-                  map.style = 'height: 480px; width: 798px;';
-                  setAttributes(section1, { style: 'padding:0rem;font-size: 20px;' });
-                  setAttributes(map, { class: 'responsive' });
-                  section1.appendChild(map);
-                  let footerdiv = document.createElement('div');
-                  setAttributes(footerdiv, { class: 'modal-footer', style: 'padding: 0rem;' });
-                  let footer = `<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>`;
-                  footerdiv.innerHTML = footer;
-                  body.append(section2, section1);
-                  body.appendChild(footerdiv);
-                  head.appendChild(body);
-                  main.appendChild(head);
-                  response.append(outerButton, main);
-                  base.appendChild(response);
-                  BotResponse = base;
-                  $(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
-                  //  await initMap();
-                  // createMap()
-               }
-
                if (val[i].custom.payload == 'symptom') {
                   let base = createBaseChat();
                   let response = createDiv((style = ['msg_cotainer1']), (id = ''), (text = ''));
@@ -384,14 +352,7 @@ function setBotResponse(val) {
                      </form>
                         `;
                   section1.appendChild(formElement);
-                  //    let footerdiv = document.createElement('div');
-                  //    setAttributes(footerdiv, { class: 'modal-footer', style: 'padding: 0rem;' });
-                  //    let footer = ` <button type="submit" id="but_upload" class="btn btn-primary">Upload</button>
-                  //   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  // </form>`;
-                  //    footerdiv.innerHTML = footer;
                   body.append(section2, section1);
-                  // body.appendChild(footerdiv);
                   head.appendChild(body);
                   main.appendChild(head);
                   response.append(outerButton, timespan, main);
@@ -440,6 +401,59 @@ function setBotResponse(val) {
                              </form> 
                              </div>
                            </td>
+                          </tr>`;
+                     inner += tablebody;
+                  });
+                  table = labelstart + inner + labelend;
+                  listElement.innerHTML = table;
+                  section1.appendChild(listElement);
+                  let footerdiv = document.createElement('div');
+                  setAttributes(footerdiv, { class: 'modal-footer', style: 'padding: 0rem;' });
+                  let footer = `<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>`;
+                  footerdiv.innerHTML = footer;
+                  body.append(section2, section1);
+                  body.appendChild(footerdiv);
+                  head.appendChild(body);
+                  main.appendChild(head);
+                  response.append(outerButton, timespan, main);
+                  base.appendChild(response);
+                  BotResponse = base;
+                  $(BotResponse).appendTo('#result_div').hide().fadeIn(1000);
+               }
+               if (val[i].custom.payload == 'listrecords') {
+                  let base = createBaseChat();
+                  let recordname = val[i].custom.head;
+                  let response = createDiv((style = ['msg_cotainer1']), (id = ''), (text = ''));
+                  let timespan = createSpan((style = ['msg_time']), (text = time));
+                  let { main, head, body, section1, section2 } = createModalscrollable(recordname, vid);
+                  let outerButton = createButton('Please click here to see the list of your medical record(s)', {
+                     type: 'button',
+                     class: 'btn btn-primary',
+                     style: 'border-radius: 25px;background-color: #00d0ff;color:black;box-shadow: 5px 5px #888888;',
+                     'data-toggle': 'modal',
+                     'data-target': `#${vid}`
+                  });
+                  let listElement = document.createElement('div');
+                  const labelstart = `<div class="table-responsive">
+                  <table class="table table-hover">
+                    <thead class="text-primary">   
+                     <th> Sr. No. </th>
+                     <th> Timestamp </th>>
+                     <th> Value </th>
+                    </thead>
+                    <tbody>`;
+                  const labelend = `</tbody>
+                    </table>
+                    </div>`;
+                  let inner = '';
+                  let table = '';
+                  //this has to be put in loop {loop start}
+                  val[i].custom.data.forEach((record, index) => {
+                     console.log(record);
+                     const tablebody = `   <tr>
+                           <td>${index}</td>
+                           <td>${record.data.time}</td>
+                           <td>${record.data.value} </td>                     
                           </tr>`;
                      inner += tablebody;
                   });

@@ -123,20 +123,26 @@ class ActionFilterRecord(Action):
         if query:
             if query.lower()=='height' or query.lower()=='tall':
                 data["height"] = 5.8
+                header="Height"
             if query.lower()=='weight' or query.lower()=='healthy':
                 data["weight"] = 91
+                header="Weight"
             if query.lower()=='bp' or query.lower()=='blood pressure' or query.lower()=='systolic' or query.lower()=='diastolic' :
                 data["bp"] = 121
+                header="Blood Pressure"
             if query.lower()=='symptoms':
                 data["symptoms"] = "fever"
+                header="Symptoms"
             if query.lower()=='allergies':
                 data["allergies"] = "dust"
+                header="Allergies"
             if query.lower()=='age':
                 data["age"] = 21
+                header="Age"
             res = requests.post(f"{APP_URL}/chatbot/filter", json=data)
             response = res.json()
             print(response)
-            dispatcher.utter_message(json_message={"payload":"listdocuments","data":response})
+            dispatcher.utter_message(json_message={"payload":"listdocuments","head":header,"data":response})
             dispatcher.utter_message("Got the query and doctor")
         else:
             dispatcher.utter_message("I couldn't contemplate what you are going thorugh. I'm sorry.")
