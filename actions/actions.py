@@ -372,7 +372,7 @@ class ActionSetFile(Action):
         }
         res = requests.post(f"{APP_URL}/chatbot/upload", json=data)
         print(res.json())
-        dispatcher.utter_message(text=f"this is your asset id")
+        dispatcher.utter_message(text=f"Your Medical Record is Successfully Uploaded")
         
 
 class ActionConfirmation(Action):
