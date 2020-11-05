@@ -232,26 +232,18 @@
                                     <th> Prescription Number </th>
                                     <th> Prescription </th>
                                     <th> Description </th>
-                                    <th> File</th>
                                   </thead>
                                   <tbody>`
       const labelend = `</tbody>
                                 </table>
                               </div>`
 
-      for (let d=0; d<records.records.length; d++){ 
+      for (let d=0; d<records.length; d++){ 
+        console.log(records[d])
         const mainDiv = ` <tr>
                             <td>${d+1}</td>
-                            <td>${records.records[d].prescription}</td>
-                            <td>${records.records[d].description}</td>
-                            <td>
-                                  <form method="post" action="/view">
-                                        <input type="hidden" name="status" value="decrypted"> 
-                                        <button  type="submit" rel="tooltip" title="File" class="btn btn-danger btn-link btn-sm" value="${records.records[d].file}" name="fileURL">
-                                          <i class="material-icons">attachment</i>
-                                        </button>
-                                  </form>       
-                            </td>
+                            <td>${records[d].prescription}</td>
+                            <td>${records[d].description}</td>
                           </tr>`
         inner +=  mainDiv
       }
@@ -285,7 +277,13 @@
             body: JSON.stringify({ value: doctor})
         });
         const result = await response.json();
+        if (action === "prescribeform"){
+          prescribeModal(doctor, result, divId);
+
+        } else {
           makeModal(doctor, result, divId);
+
+        }
         
         document.getElementById(modalId).style.display = "block";
 }

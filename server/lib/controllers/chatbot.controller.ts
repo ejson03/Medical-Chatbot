@@ -11,6 +11,7 @@ export const getFilteredRecords = async (req: Request, res: Response) => {
    const user = new UserModel();
    const records = await user.getRecords(username);
    const filtered = filterRecords(records, query);
+   console.log(filterRecords)
    return res.json(filtered);
 };
 

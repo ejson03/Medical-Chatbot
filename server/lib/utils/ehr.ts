@@ -195,17 +195,14 @@ export const getAssetHistory = async (assetid: any) => {
 };
 
 export const getPrescription = async (_username: string, demail: string, secretKey: string) => {
+   console.log(_username, demail, secretKey)
    const data: any = [];
    const assets = await bigchainService.getAsset(demail);
    for (const asset of assets) {
-      if (asset.data.schema != 'Doctor') {
-         let inter = await bigchainService.getAsset(asset.data.assetID);
-         inter = inter.filter(ass => ass.id === asset.data.assetID);
-         console.log(inter);
+      if (asset.data.schema === "record" && asset.data.hasOwnProperty("prescription")) {
          data.push({
             prescription: asset.data.prescription,
-            description: asset.data.description,
-            file: cryptoService.decrypt(inter[0].data.file, secretKey)
+            description: asset.data.description
          });
       }
    }
@@ -226,6 +223,7 @@ export const getDoctorFiles = async (email: string, privateRSAKey: any) => {
       return element !== undefined;
    });
    for (const asset of assetList) {
+
       const tx = await bigchainService.listTransactions(asset);
       const docs = tx[tx.length - 1].metadata.doclist;
       let result = docs.filter((st: any) => st.email.includes(email));
@@ -240,13 +238,18 @@ export const getDoctorFiles = async (email: string, privateRSAKey: any) => {
                files: []
             };
          }
-         data[ass[0].data.username].files.push({
-            file: cryptoService.decrypt(ass[0].data.file, decryptionKey),
-            description: ass[0].data.description,
-            id: asset,
-            pkey: tx[tx.length - 1].outputs[0].public_keys[0],
-            secret: decryptionKey
-         });
+         try {
+            data[ass[0].data.username].files.push({
+               file: cryptoService.decrypt(ass[0].data.file, decryptionKey),
+               description: ass[0].data.description,
+               id: asset,
+               pkey: tx[tx.length - 1].outputs[0].public_keys[0],
+               secret: decryptionKey
+            });
+         } catch {
+            console.log(ass[0].data.file, decryptionKey)
+            continue;
+         }
       }
    }
    return data;

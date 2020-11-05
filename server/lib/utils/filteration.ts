@@ -40,6 +40,19 @@ function filterSingle(query: Partial<RecordInterface>, record: any) {
    return true;
 }
 
-export function filterRecords(records: RecordInterface[], query: Partial<RecordInterface>) {
-   return records.filter(record => filterSingle(query, record));
+export function filterRecords(records: RecordInterface[], query: Partial<RecordInterface & {key : string[]}>) {
+   let frecords = records.filter(record => filterSingle(query, record));
+   if (query.key == null || query.key.length === 0) {
+      return frecords;
+   } 
+   const result = frecords.map(frecord => {
+      const newRecord: Partial<RecordInterface> = {}
+      Object.keys(query).forEach(key => {
+            newRecord[key] = frecord['data'][key]
+      })
+      return newRecord;
+   })
+   console.log(result)
+   return result;
+     
 }

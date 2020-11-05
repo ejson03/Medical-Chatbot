@@ -449,13 +449,11 @@ function setBotResponse(val) {
                   let table = '';
                   //this has to be put in loop {loop start}
                   val[i].custom.data.forEach((record, index) => {
-                     console.log(record);
-                     const tablebody = `   <tr>
-                           <td>${index}</td>
-                           <td>${record.time}</td>
-                           <td>${record.data.value} </td>                     
-                          </tr>`;
-                     inner += tablebody;
+                     inner +=  `   <tr>
+                     <td>${index}</td>`;
+                     Object.keys(record).forEach(key => {
+                        inner += `<td>${record[key]}</td>`
+                     })
                   });
                   table = labelstart + inner + labelend;
                   listElement.innerHTML = table;

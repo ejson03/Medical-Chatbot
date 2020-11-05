@@ -117,10 +117,17 @@ export const rasaHistory = async (req: Request, res: Response) => {
    const username = req.body.rasa;
    try {
       let data = await rasaService.getRasaHistory(username);
-      return res.render('doctor/history.ejs', {
+      if (data.length != 0) {
+          return res.render('doctor/history.ejs', {
          doc: data,
          name: req.session?.user.user.name
       });
+      } else {
+          return res.render('doctor/history.ejs', {
+         doc: [],
+         name: req.session?.user.user.name
+      });
+      }
    } catch (err) {
       console.error('Error: ', err);
       return res.status(500);
