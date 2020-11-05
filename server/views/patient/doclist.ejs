@@ -229,7 +229,7 @@
       const labelstart=`<div class=" table-responsive">
                                 <table class="table table-hover">
                                   <thead class="text-primary">
-                                    <th> Prescription Number </th>
+
                                     <th> Prescription </th>
                                     <th> Description </th>
                                   </thead>
@@ -238,12 +238,11 @@
                                 </table>
                               </div>`
 
-      for (let d=0; d<records.length; d++){ 
-        console.log(records[d])
+      for (const record of records){ 
+        console.log(records)
         const mainDiv = ` <tr>
-                            <td>${d+1}</td>
-                            <td>${records[d].prescription}</td>
-                            <td>${records[d].description}</td>
+                            <td>${record.prescription}</td>
+                            <td>${record.description}</td>
                           </tr>`
         inner +=  mainDiv
       }
