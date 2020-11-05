@@ -36,13 +36,18 @@
                               <td> <%= d +1 %></td>
                               <td> <%= doc[d].message_time %></td>
                               <td> <%= doc[d].intent %></td>
+                              <% if (doc[d].entities){ %>
                               <td>
                                 <% if (doc[d].entities.length > 0) { %>
-                                    <% for (var i=0; i<doc[d].entities.length; i++){ %>
-                                         <%= doc[d].entities[i] %></br>
+                                    <% for (const entity of doc[d].entities){ %>
+                                         <%= entity %></br>
                                         <% } %>
                                             <% } %>
                               </td>
+                              <% } else { %>
+                                 <td></td>
+                                 <% } %>
+
                               <td> <%= doc[d].reply_time %></td>
                               <td> <%= doc[d].reply %></td>
                            </tr>

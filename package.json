@@ -17,8 +17,5 @@
   "bugs": {
     "url": "https://github.com/ejson03/vortex-mit2020/issues"
   },
-  "homepage": "https://github.com/ejson03/vortex-mit2020#readme",
-  "devDependencies": {
-    "concurrently": "^5.3.0"
-  }
+  "homepage": "https://github.com/ejson03/vortex-mit2020#readme"
 }
