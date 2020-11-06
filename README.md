@@ -17,20 +17,6 @@ A therapy based chatbot for emotion analysis and visualization
 There is a wave of emotional unstabiltiy among people who are on a downward spiral in life or are going through hard times. We have developed a chat companion to make the user feel better and to track analysis of users behaviour. Chat endpoints have been secured using jwt and the website is provided with SSL feature.
 
 
-### Chatbot replying with a joke & quote
-![Joke](images/joke.png)
-
-### Chatbot playing a youtube music video based on user emotion
-![Video](images/video.png)
-
-### Chatbot displaying neaby hospitals with information
-![Map](images/map.png)
-
-### Organization can keep record of patients weekly analysis
-![chart](images/chart.png)
-
-Additional features include weather reporting, symptoms checker and analysis
-
 # Dependencies
 
 * [Rasa](https://rasa.com/)
