@@ -9,5 +9,6 @@ numpy
 pillow
 bcrypt
 dateparser
+rasa==1.10.14
 
 
