@@ -1,16 +1,24 @@
-import json, logging, pickle, typing
-from typing import Iterator, Optional, Text, Iterable, Union, Dict
 import itertools
+import json
+import logging
+import os
+import pickle
 import traceback
+import typing
 from time import sleep
+from typing import Dict, Iterable, Iterator, Optional, Text, Union
+
 from rasa.core.brokers.event_channel import EventChannel
-from rasa.core.trackers import ActionExecuted, DialogueStateTracker, EventVerbosity
-from rasa.core.tracker_store import TrackerStore
 from rasa.core.domain import Domain
 from rasa.core.events import SessionStarted
-from datetime import datetime
-from termcolor import colored
-import inspect
+from rasa.core.tracker_store import TrackerStore
+from rasa.core.trackers import (ActionExecuted, DialogueStateTracker,
+                                EventVerbosity)
+from rasa.utils.common import class_from_module_path
+
+# from datetime import datetime
+# from termcolor import colored
+# import inspect
 
 
 class GridTrackerStore(TrackerStore):
@@ -18,7 +26,7 @@ class GridTrackerStore(TrackerStore):
     def __init__(
         self,
         domain,
-        host = os.environ.get(MONGO_URL) or "mongodb://mongodb:27017",
+        host = os.environ.get("MONGO_URL") or "mongodb://mongodb:27017",
         db = "rasa",
         username = None,
         password = None,
@@ -26,8 +34,8 @@ class GridTrackerStore(TrackerStore):
         collection="conversations",
         event_broker=None,
     ):
-        from pymongo.database import Database
         from pymongo import MongoClient
+        from pymongo.database import Database
 
         self.client = MongoClient(
             host,
@@ -39,7 +47,7 @@ class GridTrackerStore(TrackerStore):
 
         self.db = Database(self.client, db)
         self.collection = collection
-        self.today = datetime.today().replace(hour=0, minute=0, second=0, microsecond=0)
+        # self.today = datetime.today().replace(hour=0, minute=0, second=0, microsecond=0)
         super().__init__(domain, event_broker)
 
         self._ensure_indices()
@@ -62,23 +70,23 @@ class GridTrackerStore(TrackerStore):
             self.stream_events(tracker)
 
         self.conversations.update_one(
-            {"sender_id":tracker.sender_id, "col":"1"}, 
+            {"sender_id":tracker.sender_id}, #, "col":"1"}, 
             {"$set": self._current_tracker_state_without_events(tracker)}, 
             upsert=True
         )
 
-        additional_events = self._additional_events(tracker)
-        printable = [e.as_dict() for e in additional_events]
-        status = self.conversations.update_one(
-            {"sender_id": tracker.sender_id, "col": self.today},
-            {
-                "$set": {"col" : self.today},
-                "$push": {
-                    "events": {"$each": printable}
-                },
-            },
-            upsert=True
-        )
+        # additional_events = self._additional_events(tracker)
+        # printable = [e.as_dict() for e in additional_events]
+        # status = self.conversations.update_one(
+        #     {"sender_id": tracker.sender_id, "col": self.today},
+        #     {
+        #         "$set": {"col" : self.today},
+        #         "$push": {
+        #             "events": {"$each": printable}
+        #         },
+        #     },
+        #     upsert=True
+        # )
         # additional_events = self._additional_events(tracker)
 
         # self.conversations.update_one(
@@ -92,17 +100,17 @@ class GridTrackerStore(TrackerStore):
         #     upsert=True,
         # )
 
-    def _additional_events(self, tracker):
+    # def _additional_events(self, tracker):
 
-        stored = self.conversations.find_one( {"sender_id": tracker.sender_id, "col": self.today}) or {}
-        # stored = self.conversations.find_one({"sender_id": tracker.sender_id}) or {}
-        number_events_since_last_session = len(
-            self._events_since_last_session_start(stored)
-        )
+    #     stored = self.conversations.find_one( {"sender_id": tracker.sender_id, "col": self.today}) or {}
+    #     # stored = self.conversations.find_one({"sender_id": tracker.sender_id}) or {}
+    #     number_events_since_last_session = len(
+    #         self._events_since_last_session_start(stored)
+    #     )
 
-        return itertools.islice(
-            tracker.events, number_events_since_last_session, len(tracker.events)
-        )
+    #     return itertools.islice(
+    #         tracker.events, number_events_since_last_session, len(tracker.events)
+    #     )
 
     @staticmethod
     def _events_since_last_session_start(serialised_tracker):
@@ -115,7 +123,7 @@ class GridTrackerStore(TrackerStore):
 
     def retrieve(self, sender_id):
  
-        stored = self.conversations.find_one({"sender_id": sender_id, "col": self.today})
+        stored = self.conversations.find_one({"sender_id": sender_id}) #, "col": self.today})
         # stored = self.conversations.find_one({"sender_id": sender_id, "col": "1"})
 
         # look for conversations which have used an `int` sender_id in the past
@@ -133,8 +141,10 @@ class GridTrackerStore(TrackerStore):
         #     stored = self.conversations.find_one({"sender_id": sender_id, "col": "1"})
 
         if stored is not None:
-            events = self._events_since_last_session_start(stored)
-            return DialogueStateTracker.from_dict(sender_id, events, self.domain.slots)
+            if self.domain:
+                max_event_history = 100
+            # events = self._events_since_last_session_start(stored)
+                return DialogueStateTracker.from_dict(sender_id, stored.get("events"), self.domain.slots, max_event_history)
         else:
             return None
 

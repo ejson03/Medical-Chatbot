@@ -3,8 +3,6 @@ session_config:
   carry_over_slots_to_new_session: false
 intents:
 - affirm
-- ask_upload
-- ask_form
 - greet
 - goodbye
 - deny
@@ -12,11 +10,6 @@ intents:
 - out_of_scope
 - transfer
 - get_emotion
-- get_all_records
-- get_records
-- get_transfer_records
-- get_filtered_records
-- get_ipfs_url
 - ask_builder
 - ask_howdoing
 - ask_howold
@@ -27,9 +20,6 @@ intents:
 - ask_weather_location
 - ask_temperature
 - ask_weather
-- ask_ehr_form
-- conform_no
-- conform_yes
 - describe_symptoms
 - handleinsult
 - telljoke
@@ -553,54 +543,29 @@ responses:
   - text: Good conversation really makes my day.
   - text: I'm always here to lend an ear.
   - text: Talking is what I do best.
-  utter_submit:
-  - text: All done!
   utter_thank:
   - text: You are welcome.
   - text: Glad you liked my service
-  utter_wrong_height:
-  - text: You have entered the height in thr wrong format, Please try again
-  utter_wrong_smoking:
-  - text: The inputed value couln't be contemplated, Please try again
+ 
 actions:
-- action_confirmation
+- action_session_start
+- action_restart
 - action_diagnose_symptoms
-- action_get_all_records
-- action_date_record
-- action_transfer_record
-- action_filter_record
-- action_ehr
-- action_get_credentials
 - action_get_joke
 - action_get_quote
 - action_get_song
 - action_reset_slot
-- action_set_file
 - action_temp
-- action_upload
 - action_weather
-- utter_ask_age
-- utter_ask_bp
-- utter_ask_excercise
-- utter_ask_filedesc
-- utter_ask_height
 - utter_ask_howdoing
 - utter_ask_howold
 - utter_ask_languagesbot
 - utter_ask_location
-- utter_ask_name
-- utter_ask_smoking
-- utter_ask_time
-- utter_ask_weight
 - utter_ask_wherefrom
 - utter_ask_whoami
-- utter_confirm
-- utter_conform
 - utter_continue
 - utter_default
 - utter_did_that_help
-- utter_file
-- utter_form
 - utter_goodbye
 - utter_greet
 - utter_handleinsult
@@ -677,10 +642,7 @@ actions:
 - utter_smalltalk_user_waits
 - utter_smalltalk_user_wants_to_see_agent_again
 - utter_smalltalk_user_wants_to_talk
-- utter_submit
 - utter_thank
-- utter_wrong_height
-- utter_wrong_smoking
-forms:
-- ehr_form
-- file_form
+# forms:
+# - ehr_form
+# - file_form

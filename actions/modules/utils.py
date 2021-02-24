@@ -22,7 +22,6 @@ def get_music(emotion):
     with open(os.path.join(path, 'music.json'), 'r') as f:
         music = json.load(f)
     query = random.choice(music[emotion])
-    print(query)
     url = get_url(query)
     return url
 
