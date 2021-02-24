@@ -25,18 +25,20 @@ def killProcesses():
 
 
 def execute(cmd, path=None):
+    print(cmd)
     if path!= None:
         os.chdir(root+ path)
     else: 
         os.chdir(root)
 
-    process = subprocess.Popen(cmd, shell=True)
+    #process = subprocess.Popen(cmd, shell=True)
+    os.system(cmd)
 
 if __name__ == "__main__":
     try:
         killProcesses()
         cmd = "rasa run -m models --endpoint endpoints.yml --credentials credentials.yml --enable-api --debug --cors “*”"
-        execute(['rasa', 'run', 'actions'], '/actions')
+        execute("rasa run actions", '/actions')
         execute(cmd, '/chatbot')
         execute("npm start")
     except KeyboardInterrupt:

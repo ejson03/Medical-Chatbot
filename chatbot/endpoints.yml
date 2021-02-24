@@ -1,6 +1,6 @@
 ### localhost
 action_endpoint:
-  url: "http://action:5055/webhook"
+  url: "http://localhost:5055/webhook"
 
 
 # tracker_store:
