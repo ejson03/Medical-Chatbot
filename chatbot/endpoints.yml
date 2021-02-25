@@ -12,7 +12,7 @@ action_endpoint:
  
  # custom rasa tracker to tackle bson 16mb document limit
 tracker_store:
-  type: custom.custom_tracker.GridTrackerStore
+  type: mongod
   url: mongodb://localhost:27017
   db: rasa
  

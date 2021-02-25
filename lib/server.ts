@@ -2,8 +2,25 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import router from './routes';
-
+// import { exec } from 'child_process';
 import * as config from './config';
+// console.log(
+//    `cd ${config.actions_path} ; rasa run actions ; cd ${config.chatbot_path} ; rasa run -m models --endpoint endpoints.yml --credentials credentials.yml --enable-api --debug`
+// );
+// exec(
+//    `cd ${config.actions_path} ; rasa run actions ; cd ${config.chatbot_path} ; rasa run -m models --endpoint endpoints.yml --credentials credentials.yml --enable-api --debug`,
+//    (error, stdout, stderr) => {
+//       if (error) {
+//          console.log(`error: ${error.message}`);
+//          return;
+//       }
+//       if (stderr) {
+//          console.log(`stderr: ${stderr}`);
+//          return;
+//       }
+//       console.log(`stdout: ${stdout}`);
+//    }
+// );
 
 const app = express();
 

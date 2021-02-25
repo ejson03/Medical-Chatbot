@@ -141,7 +141,7 @@ class ActionSessionStart(Action):
     async def run(self,dispatcher, tracker, domain):
         events = [SessionStarted()]
         events.extend(self._slot_set_events_from_tracker(tracker))
-        username = tracker.get_slot('username') if tracker.get_slot("username") else tracker.get_slot('name')
+        username = tracker.get_slot('name') if tracker.get_slot("name") else tracker.current_state()["sender_id"]    
         dispatcher.utter_message(text=f"Hello {username}")
         events.append(ActionExecuted("action_listen"))
         return events
