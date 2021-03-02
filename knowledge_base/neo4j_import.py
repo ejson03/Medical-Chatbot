@@ -1,20 +1,33 @@
 import json
 from neo4j import GraphDatabase
 
+# query = """
+# WITH $json_data AS diseases
+# UNWIND diseases AS d
+
+# MERGE (question:Question { name: d.header }) 
+# MERGE (answer:Answer { name: d.body }) 
+# FOREACH (c IN d.categories | MERGE (category:Category { name: c })
+#   MERGE (question)-[:IS_OF]->(category))
+# FOREACH (c IN d.categories | MERGE (category:Category { name: c })
+#   MERGE (answer)-[:BELONGS_TO]->(category))
+
+# """
 query = """
 WITH $json_data AS diseases
 UNWIND diseases AS d
 
-MERGE (question:Question { name: d.header }) 
-MERGE (answer:Answer { name: d.body }) 
-FOREACH (c IN d.categories | MERGE (category:Category { name: c })
-  MERGE (question)-[:IS_OF]->(category))
-FOREACH (c IN d.categories | MERGE (category:Category { name: c })
-  MERGE (answer)-[:BELONGS_TO]->(category))
+MERGE (disease:Disease { name: d.name }) 
+MERGE (description:Description { name: d.description }) 
+MERGE (treatment:Treatment { name: d.treatment }) 
 
+FOREACH (s IN d.symptoms | MERGE (symptom:Symptom { name: s })
+  MERGE (symptom)-[:IS_OF]->(disease))
+MERGE (treatment)-[:TREATS]->(disease)
+MERGE (description)-[:DESCRIBES]->(disease)
 """
 url = "neo4j://192.168.99.100:7687"
-data = "./mdtalks_corpus.json"
+data = "./disease.json"
 
 driver = GraphDatabase.driver(url, encrypted=False, auth=("neo4j", "password"))
 
