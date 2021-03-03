@@ -1,25 +1,22 @@
-
-
 import os
 import ahocorasick
 
 class QuestionClassifier:
     def __init__(self):
         cur_dir = '/'.join(os.path.abspath(__file__).split('/')[:-1])
-        #　特征词路径
         self.disease_path = os.path.join(cur_dir, 'dict/disease.txt')
         self.department_path = os.path.join(cur_dir, 'dict/department.txt')
         self.symptom_path = os.path.join(cur_dir, 'dict/symptoms.txt')
-        # 加载特征词
+
         self.disease_wds= [i.strip() for i in open(self.disease_path,'r', encoding='gbk') if i.strip()]
         self.department_wds= [i.strip() for i in open(self.department_path,'r', encoding='gbk') if i.strip()]
         self.symptom_wds= [i.strip() for i in open(self.symptom_path,'r', encoding='utf-8') if i.strip()]
         self.region_words = set(self.department_wds + self.disease_wds + self.symptom_wds)
-        # 构造领域actree
+
         self.region_tree = self.build_actree(list(self.region_words))
-        # 构建词典
+
         self.wdtype_dict = self.build_wdtype_dict()
-        # 问句疑问词
+
         self.symptom_qwds = ['symptom', 'characterization', 'phenomenon']
         self.cause_qwds = ['reason','cause']
         self.acompany_qwds = ['complication', 'concurrent', 'occur','happen together', 'occur together', 'appear together', 'together', 'accompany', 'follow', 'coexist']
@@ -124,7 +121,6 @@ class QuestionClassifier:
                 wd_dict[wd].append('symptom')
         return wd_dict
 
-    '''构造actree，加速过滤'''
     def build_actree(self, wordlist):
         actree = ahocorasick.Automaton()
         for index, word in enumerate(wordlist):
