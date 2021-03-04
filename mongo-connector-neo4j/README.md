@@ -17,7 +17,28 @@ Checkout this repository then cd into the directory and start the docker contain
 docker-compose up -d
 ```
 
+In the first run the connector will not work as the MongoDB Replicaset needs to be initiated first. 
+
+Connect to the MongoDB using the shell:
+
+```
+docker exec -ti neomongo_mongo_1 mongo
+```
+
+Then initiate the replicaset using:
+
+```
+rs.initiate()
+```
+
+Now start the connector again using:
+
+```
+docker-compose up -d
+```
+
 The setup is ready to go.
+
 
 ## Experimenting with the Connector
 
