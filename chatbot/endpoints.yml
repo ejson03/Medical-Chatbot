@@ -13,7 +13,7 @@ action_endpoint:
  # custom rasa tracker to tackle bson 16mb document limit
 tracker_store:
   type: mongod
-  url: mongodb://localhost:27017
+  url: mongodb://192.168.99.100:27017
   db: rasa
  
 #  event_broker:

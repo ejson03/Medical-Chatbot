@@ -12,11 +12,8 @@ class QuestionClassifier:
         self.department_wds= [i.strip() for i in open(self.department_path,'r', encoding='gbk') if i.strip()]
         self.symptom_wds= [i.strip() for i in open(self.symptom_path,'r', encoding='utf-8') if i.strip()]
         self.region_words = set(self.department_wds + self.disease_wds + self.symptom_wds)
-
         self.region_tree = self.build_actree(list(self.region_words))
-
         self.wdtype_dict = self.build_wdtype_dict()
-
         self.symptom_qwds = ['symptom', 'characterization', 'phenomenon']
         self.cause_qwds = ['reason','cause']
         self.acompany_qwds = ['complication', 'concurrent', 'occur','happen together', 'occur together', 'appear together', 'together', 'accompany', 'follow', 'coexist']
@@ -128,17 +125,17 @@ class QuestionClassifier:
     def check_medical(self, question):
         region_wds = []
         for i in self.region_tree.iter(question):
+            print(i)
             wd = i[1][1]
             region_wds.append(wd)
-#            print ('check_medical '+wd)
         stop_wds = []
         for wd1 in region_wds:
             for wd2 in region_wds:
                 if wd1 in wd2 and wd1 != wd2:
                     stop_wds.append(wd1)
+        
         final_wds = [i for i in region_wds if i not in stop_wds]
         final_dict = {i:self.wdtype_dict.get(i) for i in final_wds}
-#        print ('final_dict is '+final_dict)
         return final_dict
 
     def check_words(self, wds, sent):

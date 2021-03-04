@@ -14,12 +14,11 @@ class ChatBotGraph:
     def chat_main(self, sent):
         answer = "yo"
         res_classify = self.classifier.classify(sent)
-        print(sent, res_classify)
+        # {'args': {'fever': ['symptom']}, 'question_types': ['symptom_disease']}
         if not res_classify:
             return answer
         res_sql = self.parser.parser_main(res_classify)
         final_answers = self.searcher.search_main(res_sql)
-        print(res_sql,final_answers)
         if not final_answers:
             return answer
         else:
@@ -34,7 +33,6 @@ def main():
     txtMsgList.insert(END, txtMsg.get('0.0', END))
     text = txtMsg.get('0.0', END)
     txtMsg.delete('0.0', END)
-    print ("text is "+text)
     
     text2 = handler.chat_main(text) + '\n '
     strMsg2 = 'XiaoMar:' + time.strftime("%Y-%m-%d %H:%M:%S",
