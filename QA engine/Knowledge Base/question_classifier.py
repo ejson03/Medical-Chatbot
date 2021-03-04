@@ -34,7 +34,6 @@ class QuestionClassifier:
 
         return
 
-    '''分类主函数'''
     def classify(self, question):
         data = {}
         question2 = question.lower()
@@ -42,7 +41,6 @@ class QuestionClassifier:
         if not medical_dict:
             return {}
         data['args'] = medical_dict
-        #收集问句当中所涉及到的实体类型
         types = []
         for type_ in medical_dict.values():
             types += type_
@@ -51,7 +49,6 @@ class QuestionClassifier:
 
         question_types = []
 
-        # 症状
         if self.check_words(self.symptom_qwds, question2) and ('disease' in types):
             question_type = 'disease_symptom'
             question_types.append(question_type)
@@ -108,7 +105,6 @@ class QuestionClassifier:
 
         return data
 
-    '''构造词对应的类型'''
     def build_wdtype_dict(self):
         wd_dict = dict()
         for wd in self.region_words:
@@ -129,7 +125,6 @@ class QuestionClassifier:
         actree.make_automaton()
         return actree
 
-    '''问句过滤'''
     def check_medical(self, question):
         region_wds = []
         for i in self.region_tree.iter(question):
@@ -146,7 +141,6 @@ class QuestionClassifier:
 #        print ('final_dict is '+final_dict)
         return final_dict
 
-    '''基于特征词进行分类'''
     def check_words(self, wds, sent):
         for wd in wds:
             if wd in sent:

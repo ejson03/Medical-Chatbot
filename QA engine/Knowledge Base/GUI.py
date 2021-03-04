@@ -12,12 +12,14 @@ class ChatBotGraph:
         self.searcher = AnswerSearcher()
 
     def chat_main(self, sent):
-        answer = "Hello, I am XiaoMar Medical Assistant, I hope I can help you. If I don't answer it, I suggest you consult a professional doctor. I wish you a great body!"
+        answer = "yo"
         res_classify = self.classifier.classify(sent)
+        print(sent, res_classify)
         if not res_classify:
             return answer
         res_sql = self.parser.parser_main(res_classify)
         final_answers = self.searcher.search_main(res_sql)
+        print(res_sql,final_answers)
         if not final_answers:
             return answer
         else:

@@ -1,5 +1,3 @@
-
-
 class QuestionPaser:
 
     '''构建实体节点'''
