@@ -165,397 +165,437 @@ class ActionSessionStart(Action):
         events.append(ActionExecuted("action_listen"))
         return events
 
-class MyKB(KnowledgeBase):
+p = 'data/medical/lookup/Diseases.txt'
+disease_names = [i.strip() for i in open(p, 'r', encoding='UTF-8').readlines()]
+# default neo4j account should be user="neo4j", password="neo4j"
+try:
+    graph = Graph(host="127.0.0.1", http_port=7474, user="neo4j", password="myneo")
+except Exception as e:
+    logger.error('Neo4j connection error: {}, check your Neo4j'.format(e))
+    sys.exit(-1)
+else:
+    logger.debug('Neo4j Database connected successfully.')
 
-    async def get_attributes_of_object(self, object_type: Text) -> List[Text]:
-        """
-        Returns a list of all attributes that belong to the provided object type.
-        Args:
-            object_type: the object type
-        Returns: list of attributes of object_type
-        """
-        print("Get Attributes Called")    
-        print("OBJECT TYPE=", object_type)
-  
-        object_type = object_type.title()
-        graph = Graph(
-            host=NEO4J_STRING,
-            http_port=7474,
-            user=NEO4J_USERNAME,
-            password= NEO4J_PASSWORD)
-        hotels = list(graph.run("MATCH (r:{}) RETURN r".format(object_type)))
-        # hotels = list(graph.run("MATCH (r:{} {name: {}}) RETURN r".format(object_type, object_identifier)))
-        extracted_hotels = []
-        for index, hotel in enumerate(hotels):
-            extracted_hotels.append(list(hotels[index])[0])
-           
-        first_object = extracted_hotels[0]
-        print("EXTRACTED IN GET ATTRIBUTES = {}".format(list(first_object.keys()) ))
-        return list(first_object.keys())    
-    
-    async def get_objects(
-        self, object_type: Text, attributes: List[Dict[Text, Text]], limit: int = 5
-    ) -> List[Dict[Text, Any]]:
-        """
-        Query the knowledge base for objects of the given type. Restrict the objects
-        by the provided attributes, if any attributes are given.
-        Args:
-            object_type: the object type
-            attributes: list of attributes
-            limit: maximum number of objects to return
-        Returns: list of objects
-        """
-        
-        for attribute in attributes:
-            attribute['value'] = "'{}'".format(attribute['value'].title()) 
-                
-        print("OBJECT TYPE in GET OBJECTS={}, ATTRIBUTES={}".format(object_type, attributes))
-        object_type = object_type.title()
-        graph = Graph(
-            host=NEO4J_STRING,
-            http_port=7474,
-            user=NEO4J_USERNAME,
-            password= NEO4J_PASSWORD)
-        hotels = list(graph.run("MATCH (r:{}) RETURN r".format(object_type)))
-        extracted_hotels = []
-        for index, hotel in enumerate(hotels):
-            extracted_hotels.append(list(hotels[index])[0])
-            
-        objects = extracted_hotels 
-        print("ALL EXTRACTED Objects={}".format(objects))
-        # filter objects by attributes
-        if attributes:
-            objects = list(
-                filter(
-                    lambda obj: [
-                        obj[a["name"]] == a["value"] for a in attributes
-                    ].count(False)
-                    == 0,
-                    objects,
-                )
-            )
 
-        random.shuffle(objects)
+def retrieve_disease_name(name):
+    names = []
+    name = '.*' + '.*'.join(list(name)) + '.*'
+    pattern = re.compile(name)
+    for i in disease_names:
+        candidate = pattern.search(i)
+        if candidate:
+            names.append(candidate.group())
+    return names
 
-        return objects[:limit]
 
-        
+def make_button(title, payload):
+    return {'title': title, 'payload': payload}
 
-    async def get_object(
-        self, object_type: Text, object_identifier: Text
-    ) -> Dict[Text, Any]:
-        """
-        Returns the object of the given type that matches the given object identifier.
-        Args:
-            object_type: the object type
-            object_identifier: value of the key attribute or the string
-            representation of the object
-        Returns: the object of interest
-        """
-        object_type = object_type.title()
-        graph = Graph(NEO4J_STRING, auth=(NEO4J_USERNAME, NEO4J_PASSWORD))
-        hotels = list(graph.run("MATCH (r:{}) RETURN r".format(object_type)))
-        # hotels = list(graph.run("MATCH (r:{} {name: {}}) RETURN r".format(object_type, object_identifier)))
-        extracted_hotels = []
-        for index, hotel in enumerate(hotels):
-            extracted_hotels.append(list(hotels[index])[0])
-            
-            
-        if utils.is_coroutine_action(self.get_key_attribute_of_object):
-            key_attribute = await self.get_key_attribute_of_object(object_type)
-        else:
-            key_attribute = self.get_key_attribute_of_object(object_type)
-        
-        objects = extracted_hotels 
 
-        # filter the objects by its key attribute, for example, 'id'
-        objects_of_interest = list(
-            filter(
-                lambda obj: str(obj[key_attribute]).lower()
-                == str(object_identifier).lower(),
-                objects,
-            )
-        )    
-        
-        # if the object was referred to directly, we need to compare the representation
-        # of each object with the given object identifier
-        if not objects_of_interest:
-            if utils.is_coroutine_action(self.get_representation_function_of_object):
-                repr_function = await self.get_representation_function_of_object(
-                    object_type
-                )
-            else:
-                repr_function = self.get_representation_function_of_object(object_type)
+class ActionEcho(Action):
+    def name(self) -> Text:
+        return "action_echo"
 
-            objects_of_interest = list(
-                filter(
-                    lambda obj: str(object_identifier).lower()
-                    in str(repr_function(obj)).lower(),
-                    objects,
-                )
-            )
-        object_dict = {}
-        print("Object of Interest={}".format(objects_of_interest[0]['name']))    
-        print("Get Object Called with IDENTIFIER={} and Key Attribute={}".format(object_identifier, key_attribute))
-        for key, value in  objects_of_interest[0].items():
-            object_dict[key] = value
-        return object_dict
-    
-
-    
-class ActionMyKB(ActionQueryKnowledgeBase):
-    def __init__(self):
-        # load knowledge base with data from the given file
-        # knowledge_base = InMemoryKnowledgeBase("knowledge_base_data.json")
-        knowledge_base = MyKB()
-
-        # print("Noman")
-        # knowledge_base.set_representation_function_of_object(
-        #     "hotel", lambda obj: obj["name"] + " (" + obj["city"] + ")"
-        # )
-
-        super().__init__(knowledge_base)
-        
-        
-    async def utter_objects(
-        self,
-        dispatcher: CollectingDispatcher,
-        object_type: Text,
-        objects: List[Dict[Text, Any]],
-    ) -> None:
-        """
-        Utters a response to the user that lists all found objects.
-        Args:
-            dispatcher: the dispatcher
-            object_type: the object type
-            objects: the list of objects
-        """
-        if objects:
-            dispatcher.utter_message(
-                text=f"Found the following objects of type '{object_type}':"
-            )
-
-            if utils.is_coroutine_action(
-                self.knowledge_base.get_representation_function_of_object
-            ):
-                repr_function = (
-                    await self.knowledge_base.get_representation_function_of_object(
-                        object_type
-                    )
-                )
-            else:
-                repr_function = (
-                    self.knowledge_base.get_representation_function_of_object(
-                        object_type
-                    )
-                )
-
-            for i, obj in enumerate(objects, 1):
-                dispatcher.utter_message(text=f"{i}: {repr_function(obj)}")
-            # print("List of Hotels: /n {}".format(objects))    
-            # dispatcher.utter_message("List of Hotels: /n {}".format(objects))
-        else:
-            dispatcher.utter_message(
-                text=f"I could not find any objects of type '{object_type}'."
-            )
-    
-    
-    async def run(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any],
-    ) -> List[Dict[Text, Any]]:
-        """
-        Executes this action. If the user ask a question about an attribute,
-        the knowledge base is queried for that attribute. Otherwise, if no
-        attribute was detected in the request or the user is talking about a new
-        object type, multiple objects of the requested type are returned from the
-        knowledge base.
-
-        Args:
-            dispatcher: the dispatcher
-            tracker: the tracker
-            domain: the domain
-
-        Returns: list of slots
-
-        """
-        print("\n\n SLOT_OBJECT_TYPE={}".format(SLOT_OBJECT_TYPE))
-        object_type = tracker.get_slot(SLOT_OBJECT_TYPE)
-        last_object_type = tracker.get_slot(SLOT_LAST_OBJECT_TYPE)
-        attribute = tracker.get_slot(SLOT_ATTRIBUTE)
-
-        new_request = object_type != last_object_type
-        
-        print("Object Type={}, Attribute={} in Run".format(object_type, attribute))
-        
-        if not object_type:
-            # object type always needs to be set as this is needed to query the
-            # knowledge base
-            dispatcher.utter_message(template="utter_ask_rephrase")
-            return []
-
-        if not attribute or new_request:
-            print("Going to call _query_objects in Run")
-            return await self._query_objects(dispatcher, tracker)
-        elif attribute:
-            print("Going to call _query_attribute in Run")
-            # logger.debug("Going to call _query_attribute in Run")
-            return await self._query_attribute(dispatcher, tracker)
-
-        print("Going to dispatch Utter Rephrase in Run")
-        logger.debug("Going to dispatch Utter Rephrase in Run")
-        dispatcher.utter_message(template="utter_ask_rephrase")
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]):
+        user_say = "You said: " + tracker.latest_message['text']
+        dispatcher.utter_message(user_say)
         return []
 
-    async def _query_objects(
-        self, dispatcher: CollectingDispatcher, tracker: Tracker
-    ) -> List[Dict]:
-        """
-        Queries the knowledge base for objects of the requested object type and
-        outputs those to the user. The objects are filtered by any attribute the
-        user mentioned in the request.
 
-        Args:
-            dispatcher: the dispatcher
-            tracker: the tracker
+class ActionFirst(Action):
+    def name(self) -> Text:
+        return "action_first"
 
-        Returns: list of slots
-        """
-        object_type = tracker.get_slot(SLOT_OBJECT_TYPE)
-        if utils.is_coroutine_action(self.knowledge_base.get_attributes_of_object):
-            object_attributes = await self.knowledge_base.get_attributes_of_object(
-                object_type
-            )
-        else:
-            object_attributes = self.knowledge_base.get_attributes_of_object(
-                object_type
-            )
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]):
+        # dispatcher.utter_template("utter_first", tracker)
+        # print('ActionFirst'*10)
+        dispatcher.utter_message(template="utter_first")
+        # dispatcher.utter_template("utter_howcanhelp", tracker)
+        # print('dispatcher.utter_message')
+        dispatcher.utter_message(md("您可以这样向我提问: <br/>头痛怎么办<br/>\
+                              什么人容易头痛<br/>\
+                              头痛吃什么药<br/>\
+                              头痛能治吗<br/>\
+                              头痛属于什么科<br/>\
+                              头孢地尼分散片用途<br/>\
+                              如何防止头痛<br/>\
+                              头痛要治多久<br/>\
+                              糖尿病有什么并发症<br/>\
+                              糖尿病有什么症状"))
+        return []
 
-        # get all set attribute slots of the object type to be able to filter the
-        # list of objects
-        attributes = get_attribute_slots(tracker, object_attributes)
-        # query the knowledge base
-        if utils.is_coroutine_action(self.knowledge_base.get_objects):
-            objects = await self.knowledge_base.get_objects(object_type, attributes)
-        else:
-            objects = self.knowledge_base.get_objects(object_type, attributes)
 
-        if utils.is_coroutine_action(self.utter_objects):
-            await self.utter_objects(dispatcher, object_type, objects)  # type: ignore
-        else:
-            self.utter_objects(dispatcher, object_type, objects)
+class ActionDonKnow(Action):
+    def name(self) -> Text:
+        return "action_donknow"
 
-        if not objects:
-            return reset_attribute_slots(tracker, object_attributes)
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]):
+        # dispatcher.utter_template("utter_donknow", tracker)
+        dispatcher.utter_message(template="utter_donknow")
+        # dispatcher.utter_template("utter_howcanhelp", tracker)
+        dispatcher.utter_message(md("您可以这样向我提问: <br/>头痛怎么办<br/>\
+                                      什么人容易头痛<br/>\
+                                      头痛吃什么药<br/>\
+                                      头痛能治吗<br/>\
+                                      头痛属于什么科<br/>\
+                                      头孢地尼分散片用途<br/>\
+                                      如何防止头痛<br/>\
+                                      头痛要治多久<br/>\
+                                      糖尿病有什么并发症<br/>\
+                                      糖尿病有什么症状"))
+        return []
 
-        if utils.is_coroutine_action(self.knowledge_base.get_key_attribute_of_object):
-            key_attribute = await self.knowledge_base.get_key_attribute_of_object(
-                object_type
-            )
-        else:
-            key_attribute = self.knowledge_base.get_key_attribute_of_object(object_type)
 
-        last_object = None if len(objects) > 1 else objects[0][key_attribute]
+class ActionSearchTreat(Action):
+    def name(self) -> Text:
+        return "action_search_treat"
 
-        slots = [
-            SlotSet(SLOT_OBJECT_TYPE, object_type),
-            SlotSet(SLOT_MENTION, None),
-            SlotSet(SLOT_ATTRIBUTE, None),
-            SlotSet(SLOT_LAST_OBJECT, last_object),
-            SlotSet(SLOT_LAST_OBJECT_TYPE, object_type),
-            SlotSet(
-                SLOT_LISTED_OBJECTS, list(map(lambda e: e[key_attribute], objects))
-            ),
-        ]
-
-        return slots + reset_attribute_slots(tracker, object_attributes)
-    
-    
-    async def _query_attribute(
-        self, dispatcher: CollectingDispatcher, tracker: Tracker
-    ) -> List[Dict]:
-        """
-        Queries the knowledge base for the value of the requested attribute of the
-        mentioned object and outputs it to the user.
-
-        Args:
-            dispatcher: the dispatcher
-            tracker: the tracker
-
-        Returns: list of slots
-        """
-        object_type = tracker.get_slot(SLOT_OBJECT_TYPE)
-        attribute = tracker.get_slot(SLOT_ATTRIBUTE)
-
-        object_name = get_object_name(
-            tracker,
-            self.knowledge_base.ordinal_mention_mapping,
-            self.use_last_object_mention,
-        )
-        print("Object Name={}, Attribute={} in Query Attribute".format(object_name, attribute))
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]):
+        disease = tracker.get_slot("disease")
+        pre_disease = tracker.get_slot("sure")
+        print("pre_disease::::" + str(pre_disease))
         
-        if not object_name or not attribute:
-            print("CASE 1")
-            dispatcher.utter_message(template="utter_ask_rephrase")
-            return [SlotSet(SLOT_MENTION, None)]
-
-        if utils.is_coroutine_action(self.knowledge_base.get_object):
-            print("Calling get_object in Query Attributes If")
-            object_of_interest = await self.knowledge_base.get_object(
-                object_type, object_name  # type: ignore
-            )
+        possible_diseases = retrieve_disease_name(disease)
+        # if len(possible_diseases) == 1 or sure == "true":
+        if disease == pre_disease or len(possible_diseases) == 1:
+            a = graph.run("match (a:Disease{name: {disease}}) return a", disease=disease).data()[0]['a']
+            if "intro" in a:
+                intro = a['intro']
+                template = "{0}的简介：{1}"
+                retmsg = template.format(disease, intro)
+            else:
+                retmsg = disease + "暂无简介"
+            dispatcher.utter_message(retmsg)
+            if "treat" in a:
+                treat = a['treat']
+                template = "{0}的治疗方式有：{1}"
+                retmsg = template.format(disease, "、".join(treat))
+            else:
+                retmsg = disease + "暂无常见治疗方式"
+            dispatcher.utter_message(retmsg)
+        elif len(possible_diseases) > 1:
+            buttons = []
+            for d in possible_diseases:
+                buttons.append(make_button(d, '/search_treat{{"disease":"{0}", "sure":"{1}"}}'.format(d, d)))
+            dispatcher.utter_button_message("请点击选择想查询的疾病，若没有想要的，请忽略此消息", buttons)
         else:
-            print("Calling get_object in Query Attributes Else")
-            object_of_interest = self.knowledge_base.get_object(
-                object_type, object_name
-            )
-        print("Object of Interest={}".format(object_of_interest))
-        attribute = attribute.replace("-", "_")
-        if not object_of_interest or attribute not in object_of_interest:
-            print("CASE 0")
-            dispatcher.utter_message(template="utter_ask_rephrase")
-            return [SlotSet(SLOT_MENTION, None)]
+            dispatcher.utter_message("知识库中暂无与 {0} 疾病相关的记录".format(disease))
+        return []
 
-        value = object_of_interest[attribute]
-        print("VALUE of ATTRIBUTE={}".format(value))
-        if utils.is_coroutine_action(
-            self.knowledge_base.get_representation_function_of_object
-        ):
-            repr_function = await self.knowledge_base.get_representation_function_of_object(
-                object_type  # type: ignore
-            )
+
+class ActionSearchFood(Action):
+    def name(self) -> Text:
+        return "action_search_food"
+
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]):
+        disease = tracker.get_slot("disease")
+        pre_disease = tracker.get_slot("sure")
+        print("pre_disease::::" + str(pre_disease))
+        
+        possible_diseases = retrieve_disease_name(disease)
+        """ search_food db action here """
+        food = dict()
+        if disease == pre_disease or len(possible_diseases) == 1:
+            m = [x['m.name'] for x in graph.run("match (a:Disease{name: {disease}})-[:can_eat]->(m:Food) return m.name",
+                          disease=disease).data()]
+            food['can_eat'] = "、".join(m) if m else "暂无记录"
+
+            m = [x['m.name'] for x in graph.run("match (a:Disease{name: {disease}})-[:not_eat]->(m:Food) return m.name",
+                          disease=disease).data()]
+
+            food['not_eat'] = "、".join(m) if m else "暂无记录"
+
+            retmsg = "在患 {0} 期间，可以食用：{1}，\n但不推荐食用：{2}".\
+                            format(disease, food['can_eat'], food['not_eat'])
+
+            dispatcher.utter_message(retmsg)
+        elif len(possible_diseases) > 1:
+            buttons = []
+            for d in possible_diseases:
+                buttons.append(make_button(d, '/search_food{{"disease":"{0}", "sure":"{1}"}}'.format(d, d)))
+            dispatcher.utter_button_message("请点击选择想查询的疾病，若没有想要的，请忽略此消息", buttons)
         else:
-            repr_function = self.knowledge_base.get_representation_function_of_object(
-                object_type
-            )
-        object_representation = repr_function(object_of_interest)
-        if utils.is_coroutine_action(self.knowledge_base.get_key_attribute_of_object):
-            key_attribute = await self.knowledge_base.get_key_attribute_of_object(
-                object_type
-            )
+            dispatcher.utter_message("知识库中暂无与 {0} 相关的饮食记录".format(disease))
+        return []
+
+
+class ActionSearchSymptom(Action):
+    def name(self) -> Text:
+        return "action_search_symptom"
+
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]):
+        disease = tracker.get_slot("disease")
+        pre_disease = tracker.get_slot("sure")
+        print("pre_disease::::" + str(pre_disease))
+        
+        possible_diseases = retrieve_disease_name(disease)
+        if disease == pre_disease or len(possible_diseases) == 1:
+            a = [x['s.name'] for x in graph.run("MATCH (p:Disease{name: {disease}})-[r:has_symptom]->\
+                                                (s:Symptom) RETURN s.name", disease=disease).data()]
+            template = "{0}的症状可能有：{1}"
+            retmsg = template.format(disease, "、".join(a))
+            dispatcher.utter_message(retmsg)
+        elif len(possible_diseases) > 1:
+            buttons = []
+            for d in possible_diseases:
+                buttons.append(make_button(d, '/search_symptom{{"disease":"{0}", "sure":"{1}"}}'.format(d, d)))
+            dispatcher.utter_button_message("请点击选择想查询的疾病，若没有想要的，请忽略此消息", buttons)
         else:
-            key_attribute = self.knowledge_base.get_key_attribute_of_object(object_type)
-        object_identifier = object_of_interest[key_attribute]
+            dispatcher.utter_message("知识库中暂无与 {0} 相关的症状记录".format(disease))
 
-        if utils.is_coroutine_action(self.utter_attribute_value):
-            await self.utter_attribute_value(
-                dispatcher, object_representation, attribute, value  # type: ignore
-            )
+        return []
+
+
+class ActionSearchCause(Action):
+    def name(self) -> Text:
+        return "action_search_cause"
+
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]):
+        disease = tracker.get_slot("disease")
+        pre_disease = tracker.get_slot("sure")
+        print("pre_disease::::" + str(pre_disease))
+        
+        possible_diseases = retrieve_disease_name(disease)
+        if disease == pre_disease or len(possible_diseases) == 1:
+            a = graph.run("match (a:Disease{name: {disease}}) return a.cause", disease=disease).data()[0]['a.cause']
+            if "treat" in a:
+                treat = a['treat']
+                template = "{0}的治疗方式有：{1}"
+                retmsg = template.format(disease, "、".join(treat))
+            else:
+                retmsg = disease + "暂无该疾病的病因的记录"
+            dispatcher.utter_message(retmsg)
+        elif len(possible_diseases) > 1:
+            buttons = []
+            for d in possible_diseases:
+                buttons.append(make_button(d, '/search_cause{{"disease":"{0}", "sure":"{1}"}}'.format(d, d)))
+            dispatcher.utter_button_message("请点击选择想查询的疾病，若没有想要的，请忽略此消息", buttons)
         else:
-            self.utter_attribute_value(
-                dispatcher, object_representation, attribute, value
-            )
+            dispatcher.utter_message("知识库中暂无与 {0} 相关的原因记录".format(disease))
+        return []
 
-        slots = [
-            SlotSet(SLOT_OBJECT_TYPE, object_type),
-            SlotSet(SLOT_ATTRIBUTE, None),
-            SlotSet(SLOT_MENTION, None),
-            SlotSet(SLOT_LAST_OBJECT, object_identifier),
-            SlotSet(SLOT_LAST_OBJECT_TYPE, object_type),
-        ]
 
-        return slots
+class ActionSearchNeopathy(Action):
+    def name(self) -> Text:
+        return "action_search_neopathy"
+
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]):
+        disease = tracker.get_slot("disease")
+        pre_disease = tracker.get_slot("sure")
+        print("pre_disease::::" + str(pre_disease))
+        
+        possible_diseases = retrieve_disease_name(disease)
+        if disease == pre_disease or len(possible_diseases) == 1:
+            a = [x['s.name'] for x in graph.run("MATCH (p:Disease{name: {disease}})-[r:has_neopathy]->\
+                                                (s:Disease) RETURN s.name", disease=disease).data()]
+            template = "{0}的并发症可能有：{1}"
+            retmsg = template.format(disease, "、".join(a))
+            dispatcher.utter_message(retmsg)
+        elif len(possible_diseases) > 1:
+            buttons = []
+            for d in possible_diseases:
+                buttons.append(make_button(d, '/search_neopathy{{"disease":"{0}", "sure":"{1}"}}'.format(d, d)))
+            dispatcher.utter_button_message("请点击选择想查询的疾病，若没有想要的，请忽略此消息", buttons)
+        else:
+            dispatcher.utter_message("知识库中暂无与 {0} 相关的并发症记录".format(disease))
+        return []
+
+
+class ActionSearchDrug(Action):
+    def name(self) -> Text:
+        return "action_search_drug"
+
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]):
+        disease = tracker.get_slot("disease")
+        pre_disease = tracker.get_slot("sure")
+        print("pre_disease::::" + str(pre_disease))
+        
+        possible_diseases = retrieve_disease_name(disease)
+        if disease == pre_disease or len(possible_diseases) == 1:
+            a = [x['s.name'] for x in graph.run("MATCH (p:Disease{name: {disease}})-[r:can_use_drug]->\
+                                                (s:Drug) RETURN s.name", disease=disease).data()]
+            if a:
+                template = "在患 {0} 时，可能会用药：{1}"
+                retmsg = template.format(disease, "、".join(a))
+            else:
+                retmsg = "无 %s 的可能用药记录" % disease
+            dispatcher.utter_message(retmsg)
+        elif len(possible_diseases) > 1:
+            buttons = []
+            for d in possible_diseases:
+                buttons.append(make_button(d, '/search_drug{{"disease":"{0}", "sure":"{1}"}}'.format(d, d)))
+            dispatcher.utter_button_message("请点击选择想查询的疾病，若没有想要的，请忽略此消息", buttons)
+        else:
+            dispatcher.utter_message("知识库中暂无与 {0} 相关的用药记录".format(disease))
+        return []
+
+
+class ActionSearchPrevention(Action):
+    def name(self) -> Text:
+        return "action_search_prevention"
+
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]):
+        disease = tracker.get_slot("disease")
+        pre_disease = tracker.get_slot("sure")
+        print("pre_disease::::" + str(pre_disease))
+        
+        possible_diseases = retrieve_disease_name(disease)
+        if disease == pre_disease or len(possible_diseases) == 1:
+            a = graph.run("match (a:Disease{name: {disease}}) return a.prevent", disease=disease).data()[0]
+            if 'a.prevent' in a:
+                prevent = a['a.prevent']
+                template = "以下是有关预防 {0} 的知识：{1}"
+                retmsg = template.format(disease, md(prevent.replace('\n', '<br/>')))
+            else:
+                retmsg = disease + "暂无常见预防方法"
+            dispatcher.utter_message(retmsg)
+        elif len(possible_diseases) > 1:
+            buttons = []
+            for d in possible_diseases:
+                buttons.append(make_button(d, '/search_prevention{{"disease":"{0}", "sure":"{1}"}}'.format(d, d)))
+            dispatcher.utter_button_message("请点击选择想查询的疾病，若没有想要的，请忽略此消息", buttons)
+        else:
+            dispatcher.utter_message("知识库中暂无与 {0} 相关的预防记录".format(disease))
+        return []
+
+
+class ActionSearchDrugFunc(Action):
+    def name(self) -> Text:
+        return "action_search_drug_func"
+
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]):
+        drug = tracker.get_slot("drug")
+        if drug:
+            a = [x['n.name'] for x in graph.run("match (n:Disease)-[:can_use_drug]->(a:Drug{name: {drug}})"
+                                                "return n.name", drug=drug).data()]
+            template = "{0} 可用于治疗疾病：{1}"
+            retmsg = template.format(drug, "、".join(a))
+        else:
+            retmsg = drug + " 在疾病库中暂无可治疗的疾病"
+        dispatcher.utter_message(retmsg)
+        return []
+
+
+class ActionSearchDiseaseTreatTime(Action):
+    def name(self) -> Text:
+        return "action_search_disease_treat_time" # treat_period
+
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]):
+        disease = tracker.get_slot("disease")
+        pre_disease = tracker.get_slot("sure")
+        print("pre_disease::::" + str(pre_disease))
+        
+        possible_diseases = retrieve_disease_name(disease)
+        if disease == pre_disease or len(possible_diseases) == 1:
+            a = graph.run("match (a:Disease{name: {disease}}) return a", disease=disease).data()[0]['a']
+            if "treat_period" in a:
+                treat_period = a['treat_period']
+                template = "{0}需要的治疗时间：{1}"
+                retmsg = template.format(disease, treat_period)
+            else:
+                retmsg = disease + "暂无治疗时间的记录"
+            dispatcher.utter_message(retmsg)
+        elif len(possible_diseases) > 1:
+            buttons = []
+            for d in possible_diseases:
+                buttons.append(make_button(d, '/search_disease_treat_time{{"disease":"{0}", "sure":"{1}"}}'.format(d, d)))
+            dispatcher.utter_button_message("请点击选择想查询的疾病，若没有想要的，请忽略此消息", buttons)
+        else:
+            dispatcher.utter_message("知识库中暂无与 {0} 相关的治疗时间记录".format(disease))
+        return []
+
+
+class ActionSearchEasyGet(Action):
+    def name(self) -> Text:
+        return "action_search_easy_get"
+
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]):
+        disease = tracker.get_slot("disease")
+        pre_disease = tracker.get_slot("sure")
+        print("pre_disease::::" + str(pre_disease))
+        
+        possible_diseases = retrieve_disease_name(disease)
+        if disease == pre_disease or len(possible_diseases) == 1:
+            a = graph.run("match (a:Disease{name: {disease}}) return a", disease=disease).data()[0]['a']
+            easy_get = a['easy_get']
+            template = "{0}的易感人群是：{1}"
+            retmsg = template.format(disease, easy_get)
+            dispatcher.utter_message(retmsg)
+        elif len(possible_diseases) > 1:
+            buttons = []
+            for d in possible_diseases:
+                buttons.append(make_button(d, '/search_easy_get{{"disease":"{0}", "sure":"{1}"}}'.format(d, d)))
+            dispatcher.utter_button_message("请点击选择想查询的疾病，若没有想要的，请忽略此消息", buttons)
+        else:
+            dispatcher.utter_message("知识库中暂无与 {0} 相关的易感人群记录".format(disease))
+        return []
+
+
+class ActionSearchDiseaseDept(Action):
+    def name(self) -> Text:
+        return "action_search_disease_dept"
+
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]):
+        disease = tracker.get_slot("disease")
+        pre_disease = tracker.get_slot("sure")
+        print("pre_disease::::" + str(pre_disease))
+        
+        possible_diseases = retrieve_disease_name(disease)
+        if disease == pre_disease or len(possible_diseases) == 1:
+            a = graph.run("match (a:Disease{name: {disease}})-[:belongs_to]->(s:Department) return s.name",
+                          disease=disease).data()[0]['s.name']
+            template = "{0} 属于 {1}"
+            retmsg = template.format(disease, a)
+            dispatcher.utter_message(retmsg)
+        elif len(possible_diseases) > 1:
+            buttons = []
+            for d in possible_diseases:
+                buttons.append(make_button(d, '/search_disease_dept{{"disease":"{0}", "sure":"{1}"}}'.format(d, d)))
+            dispatcher.utter_button_message("请点击选择想查询的疾病，若没有想要的，请忽略此消息", buttons)
+        else:
+            dispatcher.utter_message("知识库中暂无与 {0} 疾病相关的科室记录".format(disease))
+        return []
 
 

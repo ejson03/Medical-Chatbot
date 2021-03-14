@@ -26,7 +26,7 @@ class GridTrackerStore(TrackerStore):
     def __init__(
         self,
         domain,
-        host = os.environ.get("MONGO_URL") or "mongodb://mongodb:27017",
+        host = os.environ.get("MONGO_URL") or "mongodb://192.168.99.100:27017",
         db = "rasa",
         username = None,
         password = None,
@@ -69,11 +69,14 @@ class GridTrackerStore(TrackerStore):
         if self.event_broker:
             self.stream_events(tracker)
 
-        self.conversations.update_one(
+        _id = self.conversations.update_one(
             {"sender_id":tracker.sender_id}, #, "col":"1"}, 
             {"$set": self._current_tracker_state_without_events(tracker)}, 
             upsert=True
         )
+        print(tracker.current_state(EventVerbosity.ALL))
+        print("#"*50)
+        print(tracker.current_state(EventVerbosity.AFTER_RESTART))
 
         # additional_events = self._additional_events(tracker)
         # printable = [e.as_dict() for e in additional_events]
@@ -100,17 +103,17 @@ class GridTrackerStore(TrackerStore):
         #     upsert=True,
         # )
 
-    # def _additional_events(self, tracker):
+    def _additional_events(self, tracker):
 
-    #     stored = self.conversations.find_one( {"sender_id": tracker.sender_id, "col": self.today}) or {}
-    #     # stored = self.conversations.find_one({"sender_id": tracker.sender_id}) or {}
-    #     number_events_since_last_session = len(
-    #         self._events_since_last_session_start(stored)
-    #     )
+        stored = self.conversations.find_one( {"sender_id": tracker.sender_id, "col": self.today}) or {}
+        # stored = self.conversations.find_one({"sender_id": tracker.sender_id}) or {}
+        number_events_since_last_session = len(
+            self._events_since_last_session_start(stored)
+        )
 
-    #     return itertools.islice(
-    #         tracker.events, number_events_since_last_session, len(tracker.events)
-    #     )
+        return itertools.islice(
+            tracker.events, number_events_since_last_session, len(tracker.events)
+        )
 
     @staticmethod
     def _events_since_last_session_start(serialised_tracker):
