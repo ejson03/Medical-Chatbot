@@ -6,49 +6,49 @@ import ./common.chatito
 # ('training': '500','testing': '100')
 
 %[search_treat]('training': '3000','testing': '300')
-    *[50%] ~[get?]@[disease]~[Time?]~[of?]~[treat_qwd?]~[qwd?]
-    *[10%] ~[treat_qwd?]@[disease]~[Time?]~[of?]~[qwd?]
-    *[15%] @[disease]~[What is it]~[disease?]~[qwd?]
-    *[15%] ~[What is]@[disease]~[qwd?]
+    *[50%] ~[get?] @[disease] ~[Time?] ~[of?] ~[treat_qwd?] ~[qwd?]
+    *[10%] ~[treat_qwd?] @[disease] ~[Time?] ~[of?] ~[qwd?]
+    *[15%] @[disease] ~[What is it] ~[disease?] ~[qwd?]
+    *[15%] ~[What is] @[disease] ~[qwd?]
     *[10%] @[disease]
 
 %[search_food]('training': '1500','testing': '150')
-    *[30%] ~[get?]@[disease]~[Time?]~[of?]~[food_qwd]~[qwd?]
-    *[30%] ~[get?]@[disease]~[Time?]~[of?]~[food_qwd]~[qwd?]
-    *[40%] ~[get?]@[disease]~[Time?]~[of?]~[Can eat?]~[What]~[food_qwd]~[qwd?]
+    *[30%] ~[get?] @[disease] ~[Time?] ~[of?] ~[food_qwd] ~[qwd?]
+    *[30%] ~[get?] @[disease] ~[Time?] ~[of?] ~[food_qwd] ~[qwd?]
+    *[40%] ~[get?] @[disease] ~[Time?] ~[of?] ~[Can eat?] ~[What] ~[food_qwd] ~[qwd?]
 
 %[search_symptom]('training': '1500','testing': '150')
-    *[33%] ~[get?]@[disease]~[Time?]~[meeting?]~[No?]~[Yes?]~[What?]~[symptom_qwd]~[qwd?]
-    *[33%] ~[get?]@[disease]~[of?]~[symptom_qwd]~[qwd?]
-    *[33%] ~[get?]@[disease]~[Time?]~[Have?]~[What?]~[symptom_qwd]~[qwd?]
+    *[33%] ~[get?] @[disease] ~[Time?] ~[meeting?] ~[No?] ~[Yes?] ~[What?] ~[symptom_qwd] ~[qwd?]
+    *[33%] ~[get?] @[disease] ~[of?] ~[symptom_qwd] ~[qwd?]
+    *[33%] ~[get?] @[disease] ~[Time?] ~[Have?] ~[What?] ~[symptom_qwd] ~[qwd?]
 
 %[search_cause]('training': '1500','testing': '150')
-    *[60%] ~[why_qwd]~[get?]@[disease]~[qwd?]
-    *[40%] ~[get?]@[disease]~[of?]~[cause_qwd]~[qwd?]
+    *[60%] ~[why_qwd] ~[get?] @[disease] ~[qwd?]
+    *[40%] ~[get?] @[disease] ~[of?] ~[cause_qwd] ~[qwd?]
 
 %[search_neopathy]('training': '1500','testing': '150')
-    *[50%] ~[get?]@[disease]~[meeting?]~[No?]~[Have?]~[What?]~[neopathy_qwd]~[qwd?]
-    *[50%] ~[get?]@[disease]~[of?]~[neopathy_qwd]~[Have?]~[What?]~[qwd?]
+    *[50%] ~[get?] @[disease] ~[meeting?] ~[No?] ~[Have?] ~[What?] ~[neopathy_qwd] ~[qwd?]
+    *[50%] ~[get?] @[disease] ~[of?] ~[neopathy_qwd] ~[Have?] ~[What?] ~[qwd?]
 
 %[search_drug]('training': '1500','testing': '150')
-    *[60%] ~[get?]@[disease]~[This?]~[eat?]~[What?]~[drug_qwd]~[qwd?]
-    *[40%] ~[get?]@[disease]~[Time?]~[of?]~[drug_qwd]~[qwd?]
+    *[60%] ~[get?] @[disease] ~[This?] ~[eat?] ~[What?] ~[drug_qwd] ~[qwd?]
+    *[40%] ~[get?] @[disease] ~[Time?] ~[of?] ~[drug_qwd] ~[qwd?]
 
 %[search_prevention]('training': '1500','testing': '150')
-    *[100%] ~[prevention_qwd]~[get?]@[disease]~[qwd?]
+    *[100%] ~[prevention_qwd] ~[get?] @[disease] ~[qwd?]
 
 %[search_drug_func]('training': '1000','testing': '150')
-    *[100%] @[drug]~[OK?]~[treat_what_qwd?]~[qwd?]
+    *[100%] @[drug] ~[OK?] ~[treat_what_qwd?] ~[qwd?]
 
 %[search_disease_treat_time]('training': '1000','testing': '150')
-    *[70%] @[disease]~[want?]~[rule?]~[treat_time_qwd]~[Can be good?]~[qwd?]
-    *[30%] ~[want?]~[rule?]~[treat_time_qwd]@[disease]~[Can be good?]~[qwd?]
+    *[70%] @[disease] ~[want?] ~[rule?] ~[treat_time_qwd] ~[Can be good?] ~[qwd?]
+    *[30%] ~[want?] ~[rule?] ~[treat_time_qwd] @[disease] ~[Can be good?] ~[qwd?]
 
 %[search_easy_get]('training': '1000','testing': '150')
-    *[100%] ~[easy_get_qwd]@[disease]~[qwd?]
+    *[100%] ~[easy_get_qwd] @[disease] ~[qwd?]
 
 %[search_disease_dept]('training': '1000','testing': '150')
-    *[100%] @[disease]~[dept_qwd]~[qwd?]
+    *[100%] @[disease] ~[dept_qwd] ~[qwd?]
 
 ~[qwd]
     What
@@ -60,13 +60,13 @@ import ./common.chatito
     Ah
 
 ~[get]
-    Get
-    Got it
-    gave birth
-    Give birth
-    Suffer
-    infection
-    Catch
+    Get 
+    Got it 
+    gave birth 
+    Give birth 
+    Suffer 
+    infection 
+    Catch 
     Worthy of
 
 ~[food_qwd]
@@ -292,7 +292,7 @@ import ./common.chatito
     Eye infection
     Plantar reflex
     Urinary tract rupture
-    "Indifferent" hyperthyroidism
+    Indifferent hyperthyroidism
     Chest tightness
     Diffuse congestion of the oral mucosa
     Flat nose
@@ -316,7 +316,7 @@ import ./common.chatito
     Skin avulsion
     eczema
     Snore
-    Transient apex retraction...
+    Transient apex retraction
 
 @[dept]
     Pediatrics

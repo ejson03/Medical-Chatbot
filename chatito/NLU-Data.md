@@ -1,0 +1,16023 @@
+
+
+## intent:search_treat
+- Worthy of [SARS](disease) Time of How to treat what
+- [pneumonia](disease) What is it disease Is it
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) Kiji Ah
+- [cold](disease)
+- What is [Emphysema](disease) Is it
+- Kiji [Bullae](disease) Time of what
+- What is [Large amounts of amniotic fluid inhalation](disease) Is it
+- How to do [Pulmonary Aspergillosis](disease) What
+- gave birth [Pneumococcal pneumonia](disease) of What to do what
+- Got it [Building Sick Syndrome](disease) Time of How to treat Is it
+- Suffer [Pneumococcal pneumonia](disease) Time of How to treat Acridine
+- Got it [Adult respiratory distress syndrome](disease) Time Kiji Ok
+- Suffer [SARS](disease) Time of How to treat
+- Worthy of [Foreign body in the respiratory tract](disease) Time of What to do Ok
+- [pneumonia](disease) What is it
+- Get [Hypersensitivity pneumonia](disease) of Ok
+- infection [Adult respiratory distress syndrome](disease) Time of Kiji Ok
+- Worthy of [Lung metastases](disease) Time Kiji Yeah
+- [Bacillus pneumoniae pneumonia](disease)
+- What is [Carbon disulfide poisoning](disease) Is it
+- What is [Pulmonary Aspergillosis](disease) What
+- Catch [Pulmonary pseudotumor](disease) Time of Ok
+- [Wheezing bronchitis](disease) What is it disease Ok
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) Kiji Ok
+- Give birth [Bacillus pneumoniae pneumonia](disease) Time therapy Ok
+- infection [Carbon disulfide poisoning](disease) How to cure Is it
+- [Simple pulmonary eosinophilic infiltration](disease) of How to treat Ah
+- Kiji [Lung metastases](disease) Time Ah
+- Got it [Cadmium poisoning](disease) of What
+- [Benzene poisoning](disease) What is it
+- [pneumonia](disease) Time of What to do Ah
+- infection [Pulmonary Aspergillosis](disease) Time What to do
+- [Alveolar proteinosis](disease) What is it disease what
+- therapy [Goodpasture syndrome](disease) Is it
+- What is [Lung abscess](disease) What
+- How to heal [Pulmonary embolism](disease) Time Ah
+- [Pulmonary-pleural amebiasis](disease) What is it disease Is it
+- How to treat [Pulmonary Candidiasis](disease) Time what
+- Suffer [Pulmonary Cryptococcosis](disease) Kiji Yeah
+- Get [Carbon disulfide poisoning](disease) Time Ok
+- infection [pneumonia](disease) How to treat Is it
+- What is [pneumonia](disease)
+- Give birth [Carbon disulfide poisoning](disease) Time of therapy
+- How to heal [Pulmonary Edema](disease) Time of Acridine
+- Catch [Goodpasture syndrome](disease) of How to do
+- [Lung abscess](disease)
+- [Carbon disulfide poisoning](disease) Time of What
+- Treatment method [pertussis](disease) Time of what
+- [Building Sick Syndrome](disease)
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) of How to treat Yeah
+- What is [Pulmonary Actinomycosis](disease) What
+- Catch [Goodpasture syndrome](disease) of How to do Ok
+- How to cure [Benzene poisoning](disease) Time of what
+- [Wheezing bronchitis](disease)
+- Catch [Radiation pneumonia](disease) Time How to heal Ok
+- What is [Respiratory bronchiole-related interstitial lung disease](disease) Ok
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) Time therapy Is it
+- Catch [Pulmonary embolism](disease) Kiji what
+- Got it [Benzene poisoning](disease) How to treat what
+- Get [Carbon disulfide poisoning](disease) of How to cure
+- What is [Pulmonary Cryptococcosis](disease) what
+- How to heal [Lobar Pneumonia](disease) of Ok
+- Got it [Foreign body in the respiratory tract](disease) Time Ah
+- What is [Pulmonary pseudotumor](disease) Acridine
+- What is [Pulmonary embolism](disease) Ah
+- gave birth [Pulmonary Aspergillosis](disease) Time Kiji Ah
+- Worthy of [Pulmonary Candidiasis](disease) Time How to heal what
+- [Building Sick Syndrome](disease) What is it disease What
+- Catch [Benzene poisoning](disease) of Is it
+- What is [Anaphylactic shock](disease) Ah
+- [Pulmonary Cryptococcosis](disease)
+- Get [Pulmonary Cryptococcosis](disease) Time of How to heal Acridine
+- What is [pneumonia](disease) Yeah
+- Worthy of [Benzene poisoning](disease) Time of How to cure Acridine
+- Get [Pulmonary Edema](disease) Time therapy Ah
+- gave birth [Pulmonary bullae](disease) Time How to treat what
+- Suffer [Adult respiratory distress syndrome](disease) of Kiji Yeah
+- Get [Foreign body in the respiratory tract](disease) Time of How to cure Yeah
+- Get [Pneumococcal pneumonia](disease) Time How to do Ok
+- gave birth [Pulmonary pseudotumor](disease) How to cure What
+- What is [Lung cancer](disease) Ok
+- [cold](disease) What is it
+- Worthy of [Goodpasture syndrome](disease) Time of How to heal
+- infection [Lung cancer](disease) therapy Ok
+- [Pulmonary pseudotumor](disease) What is it disease Acridine
+- [Emphysema](disease) of What to do Acridine
+- What is [pneumonia](disease) Is it
+- Got it [Pulmonary pseudotumor](disease) of How to do what
+- [Alveolar proteinosis](disease) What is it disease Acridine
+- [Pulmonary embolism](disease) Kiji Yeah
+- gave birth [SARS](disease) Time of Kiji Ok
+- Suffer [Radiation pneumonia](disease) Time of Kiji
+- What is [Hypersensitivity pneumonia](disease) Yeah
+- How to heal [Pulmonary Actinomycosis](disease) Time of Ah
+- Catch [Alveolar proteinosis](disease) of How to heal What
+- [Pulmonary pseudotumor](disease) What is it disease Is it
+- Give birth [Large amounts of amniotic fluid inhalation](disease) Time what
+- infection [Anaphylactic shock](disease) Time What to do Acridine
+- [Pulmonary Edema](disease)
+- gave birth [pneumonia](disease) How to do What
+- Worthy of [Foreign body in the respiratory tract](disease) What to do Ok
+- infection [Mercury poisoning](disease) of How to cure Yeah
+- [Alveolar proteinosis](disease)
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) Time of Kiji Ok
+- What is [Simple pulmonary eosinophilic infiltration](disease) what
+- gave birth [Mercury poisoning](disease) Time How to heal Acridine
+- Get [Bacillus pneumoniae pneumonia](disease) Time of Is it
+- Got it [Lobar Pneumonia](disease) Time of How to treat Ok
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) Time of How to cure what
+- [Alveolar proteinosis](disease) Time Kiji Is it
+- Got it [Wheezing bronchitis](disease) Time of Kiji Yeah
+- [Pulmonary Candidiasis](disease)
+- Treatment method [SARS](disease) of Yeah
+- Get [Pneumococcal pneumonia](disease) Time of Treatment method Ok
+- What is [Hypersensitivity pneumonia](disease) Acridine
+- [Goodpasture syndrome](disease) What is it what
+- [Pulmonary embolism](disease) of How to heal what
+- What is [Benzene poisoning](disease) Yeah
+- Give birth [Lung cancer](disease) Kiji Yeah
+- [Alveolar proteinosis](disease) Time How to cure What
+- Give birth [Goodpasture syndrome](disease) Treatment method what
+- [Cadmium poisoning](disease)
+- Suffer [Pulmonary Cryptococcosis](disease) of How to cure Is it
+- Get [Bacillus pneumoniae pneumonia](disease) How to heal Is it
+- What is [Goodpasture syndrome](disease) Ah
+- Catch [Simple pulmonary eosinophilic infiltration](disease) How to heal Acridine
+- Kiji [Pulmonary bullae](disease) of Is it
+- Got it [Pulmonary-pleural amebiasis](disease) Time of therapy Ah
+- Worthy of [SARS](disease) of How to treat Is it
+- How to do [Carbon disulfide poisoning](disease) of Ah
+- Got it [Bacillus pneumoniae pneumonia](disease) of How to heal what
+- [Lung metastases](disease) What is it what
+- Suffer [Building Sick Syndrome](disease) Time Treatment method Ok
+- Get [Radiation pneumonia](disease) what
+- Got it [Wheezing bronchitis](disease) Time Treatment method
+- [Septic shock](disease) What is it
+- Worthy of [Lung abscess](disease) Time of Treatment method what
+- Catch [Carbon disulfide poisoning](disease) Kiji Is it
+- Catch [Pulmonary Cryptococcosis](disease) therapy Acridine
+- Suffer [Septic shock](disease) of Kiji Ok
+- Got it [Lung abscess](disease) Time of How to heal Acridine
+- Worthy of [Alveolar proteinosis](disease) How to do Acridine
+- [Septic shock](disease) What is it Yeah
+- [Building Sick Syndrome](disease) How to treat Yeah
+- [pneumonia](disease)
+- Kiji [Building Sick Syndrome](disease) Yeah
+- What is [Carbon disulfide poisoning](disease) Yeah
+- What is [Pulmonary Candidiasis](disease) Acridine
+- [Simple pulmonary eosinophilic infiltration](disease) What is it disease Acridine
+- What is [Pneumococcal pneumonia](disease) Yeah
+- infection [Bullae](disease) Kiji what
+- Treatment method [Cadmium poisoning](disease) of Ok
+- infection [Benzene poisoning](disease) Time of How to do Acridine
+- [Lung cancer](disease) Time of How to cure
+- What is [Goodpasture syndrome](disease) Yeah
+- [Pulmonary Edema](disease) of therapy
+- [Radiation pneumonia](disease) What is it Ah
+- Give birth [Lung abscess](disease) How to cure
+- Worthy of [Bullae](disease) of Treatment method Yeah
+- How to heal [Simple pulmonary eosinophilic infiltration](disease) of What
+- Catch [Lung metastases](disease) Time How to cure Ah
+- Give birth [Lung abscess](disease) of How to treat Acridine
+- Got it [Pulmonary Edema](disease) Time Ah
+- What is [Alveolar proteinosis](disease) Is it
+- Got it [Alveolar proteinosis](disease) Time What to do
+- How to heal [Pulmonary Candidiasis](disease) of Is it
+- How to cure [Foreign body in the respiratory tract](disease) of What
+- [Anaphylactic shock](disease)
+- Catch [Mercury poisoning](disease) What to do Yeah
+- [Septic shock](disease) What is it disease Yeah
+- [pertussis](disease) What is it What
+- infection [Septic shock](disease) Time of How to cure What
+- gave birth [Lung metastases](disease) of Kiji Is it
+- Get [Alveolar proteinosis](disease) of Ah
+- [Goodpasture syndrome](disease)
+- Suffer [Cadmium poisoning](disease) Time of Treatment method Ok
+- Get [Lung cancer](disease) What to do
+- What is [pneumonia](disease) Acridine
+- Catch [Carbon disulfide poisoning](disease) Time How to treat what
+- Worthy of [Goodpasture syndrome](disease) Time How to cure
+- [Benzene poisoning](disease)
+- What is [Bullae](disease) Yeah
+- How to heal [Pulmonary Cryptococcosis](disease) Time of
+- gave birth [Pulmonary Cryptococcosis](disease) of How to cure Ah
+- [Pulmonary Actinomycosis](disease) What is it Acridine
+- Catch [Mercury poisoning](disease) Time of How to heal what
+- What is [Cadmium poisoning](disease) Acridine
+- [Lobar Pneumonia](disease) What is it disease Acridine
+- Give birth [Bacillus pneumoniae pneumonia](disease) Time How to treat
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) How to treat What
+- [Bullae](disease) What is it disease
+- [Mercury poisoning](disease) What is it Acridine
+- Get [Large amounts of amniotic fluid inhalation](disease) Time of How to cure what
+- Get [Lung metastases](disease) Time of How to treat What
+- [Anaphylactic shock](disease) What is it Ok
+- Catch [Pulmonary embolism](disease) How to do what
+- Get [Lung abscess](disease) What to do
+- What is [Pulmonary hemorrhage-nephritis syndrome](disease) What
+- What is [Pulmonary embolism](disease) What
+- Worthy of [Hypersensitivity pneumonia](disease) How to heal Acridine
+- What is [Emphysema](disease) What
+- Give birth [Foreign body in the respiratory tract](disease) How to heal Ah
+- infection [Pneumococcal pneumonia](disease) Time therapy Acridine
+- How to heal [Pulmonary Cryptococcosis](disease) Time of What
+- Kiji [pneumonia](disease) of Ok
+- [Large amounts of amniotic fluid inhalation](disease) What is it disease Is it
+- What is [Foreign body in the respiratory tract](disease) What
+- [Pulmonary-pleural amebiasis](disease) How to treat Yeah
+- infection [SARS](disease) Time therapy What
+- Suffer [Pulmonary Actinomycosis](disease) How to do Yeah
+- therapy [Septic shock](disease) Ah
+- Get [cold](disease) Time How to heal Acridine
+- [Foreign body in the respiratory tract](disease)
+- [Pulmonary bullae](disease) What is it disease Acridine
+- Worthy of [SARS](disease) Time Treatment method Ok
+- What is [Pulmonary Actinomycosis](disease) Is it
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) of How to heal Yeah
+- Worthy of [Pneumococcal pneumonia](disease) Time Kiji Is it
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) How to do
+- gave birth [Lung cancer](disease) Kiji Acridine
+- [Carbon disulfide poisoning](disease) of what
+- What is [Pulmonary Aspergillosis](disease) Acridine
+- infection [Anaphylactic shock](disease) Time of What to do Acridine
+- What is [Alveolar proteinosis](disease) What
+- therapy [Building Sick Syndrome](disease) Time of what
+- What is [Pulmonary pseudotumor](disease) Ok
+- [Alveolar proteinosis](disease) of How to heal Ok
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) Time Kiji Ah
+- gave birth [Lobar Pneumonia](disease) of Kiji Ok
+- How to heal [Simple pulmonary eosinophilic infiltration](disease)
+- Catch [Radiation pneumonia](disease) What to do What
+- Got it [pneumonia](disease) How to treat Ok
+- infection [Cadmium poisoning](disease) of How to do Yeah
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) Kiji
+- Suffer [Pulmonary Candidiasis](disease) Kiji Yeah
+- [Pulmonary Cryptococcosis](disease) of Kiji Is it
+- Kiji [Lobar Pneumonia](disease) Time Ah
+- Worthy of [Bullae](disease) Time Kiji what
+- What is [Bacillus pneumoniae pneumonia](disease) What
+- What is [Large amounts of amniotic fluid inhalation](disease) Acridine
+- [Lung cancer](disease)
+- Worthy of [Goodpasture syndrome](disease) of How to treat What
+- Catch [Bullae](disease) How to heal Ok
+- [Lobar Pneumonia](disease) What is it disease
+- Treatment method [Emphysema](disease) Time of
+- infection [Pulmonary bullae](disease) Time of Kiji what
+- Suffer [Pulmonary-pleural amebiasis](disease) of How to heal Ok
+- [Building Sick Syndrome](disease) What is it What
+- What is [Pulmonary-pleural amebiasis](disease) Yeah
+- Get [Mercury poisoning](disease) of What to do Ok
+- Give birth [Lung metastases](disease) therapy What
+- [Alveolar proteinosis](disease) What is it Yeah
+- Catch [Foreign body in the respiratory tract](disease) How to treat Ok
+- Get [Bacillus pneumoniae pneumonia](disease) Time How to heal what
+- infection [Pulmonary-pleural amebiasis](disease) Time of How to cure what
+- gave birth [Large amounts of amniotic fluid inhalation](disease) Time of How to cure What
+- Kiji [Alveolar proteinosis](disease) what
+- What is [Radiation pneumonia](disease) Is it
+- What is [Simple pulmonary eosinophilic infiltration](disease) Ok
+- Got it [pertussis](disease) of How to heal Ah
+- [Lobar Pneumonia](disease) Time How to cure what
+- Got it [Pulmonary pseudotumor](disease) Time of Acridine
+- How to treat [Pulmonary pseudotumor](disease)
+- [Lobar Pneumonia](disease) What is it Is it
+- Catch [Septic shock](disease) of How to heal Yeah
+- [Emphysema](disease)
+- gave birth [Alveolar proteinosis](disease) Time of Kiji Ah
+- What is [Pulmonary Actinomycosis](disease) Ah
+- What is [Pulmonary-pleural amebiasis](disease)
+- Catch [Simple pulmonary eosinophilic infiltration](disease) Time How to cure Is it
+- [SARS](disease) What is it what
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) Time of What to do Ah
+- infection [Anaphylactic shock](disease) Time How to heal Acridine
+- [Septic shock](disease) of Acridine
+- How to treat [Pulmonary hemorrhage-nephritis syndrome](disease) Time of What
+- Suffer [pneumonia](disease) of How to treat Yeah
+- What is [Pulmonary embolism](disease) Yeah
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) How to cure Ah
+- Worthy of [pertussis](disease) How to cure Acridine
+- [Cadmium poisoning](disease) What is it disease Acridine
+- [Simple pulmonary eosinophilic infiltration](disease) What is it disease what
+- [Septic shock](disease)
+- What is [Alveolar proteinosis](disease) Yeah
+- [Wheezing bronchitis](disease) What is it disease Yeah
+- infection [Carbon disulfide poisoning](disease) Time How to treat Yeah
+- [Lung cancer](disease) What is it what
+- What is [Mercury poisoning](disease) what
+- infection [SARS](disease) Time Ok
+- [Septic shock](disease) What is it Acridine
+- [Carbon disulfide poisoning](disease) Time of Kiji What
+- [Carbon disulfide poisoning](disease) What is it disease what
+- [Pneumococcal pneumonia](disease) What is it disease
+- Suffer [Pulmonary pseudotumor](disease) Time therapy What
+- [Lung cancer](disease) What is it disease what
+- How to heal [Anaphylactic shock](disease) Time What
+- Give birth [Pneumococcal pneumonia](disease) How to treat Ah
+- Catch [Large amounts of amniotic fluid inhalation](disease) Time of Is it
+- gave birth [Bullae](disease) Is it
+- Get [Lobar Pneumonia](disease) of How to heal Yeah
+- Give birth [Carbon disulfide poisoning](disease) Time How to heal Is it
+- [Large amounts of amniotic fluid inhalation](disease) What is it disease Ah
+- [Pulmonary Aspergillosis](disease)
+- [Pulmonary Cryptococcosis](disease) What is it disease Acridine
+- Give birth [Carbon disulfide poisoning](disease) therapy Acridine
+- [Alveolar proteinosis](disease) What to do Ah
+- What is [Foreign body in the respiratory tract](disease) Yeah
+- What is [Pulmonary-pleural amebiasis](disease) Ok
+- [Wheezing bronchitis](disease) Time of Ok
+- How to do [cold](disease)
+- [Alveolar proteinosis](disease) What is it Is it
+- How to cure [Pulmonary-pleural amebiasis](disease) Time of Is it
+- gave birth [Carbon disulfide poisoning](disease) Time How to treat what
+- Suffer [Pulmonary bullae](disease) Kiji
+- Got it [Radiation pneumonia](disease) Time of How to cure Ok
+- Suffer [Pulmonary Cryptococcosis](disease) Treatment method Ah
+- Suffer [Pulmonary-pleural amebiasis](disease) Time of Kiji Yeah
+- Kiji [Goodpasture syndrome](disease) Time of What
+- Worthy of [Lung metastases](disease) How to cure Is it
+- Catch [Anaphylactic shock](disease) Time of Treatment method what
+- [Pulmonary Edema](disease) What is it what
+- What is [Pulmonary Aspergillosis](disease) Yeah
+- gave birth [Pulmonary bullae](disease) Kiji Is it
+- infection [Pulmonary embolism](disease) of What to do What
+- [Large amounts of amniotic fluid inhalation](disease) What is it Is it
+- infection [Building Sick Syndrome](disease) Time of How to treat Ah
+- Suffer [Benzene poisoning](disease) How to cure Is it
+- Catch [Wheezing bronchitis](disease) of How to treat
+- What is [Lobar Pneumonia](disease)
+- therapy [Mercury poisoning](disease) Time of What
+- Suffer [Adult respiratory distress syndrome](disease) of Treatment method
+- [Respiratory bronchiole-related interstitial lung disease](disease) What is it disease Is it
+- gave birth [Large amounts of amniotic fluid inhalation](disease) Time of How to heal what
+- Suffer [Building Sick Syndrome](disease) Time Acridine
+- [Simple pulmonary eosinophilic infiltration](disease) What is it disease What
+- Got it [Benzene poisoning](disease) Time of Kiji What
+- [Carbon disulfide poisoning](disease) What is it disease Yeah
+- How to heal [Hypersensitivity pneumonia](disease) Time Is it
+- Get [Pulmonary Cryptococcosis](disease) Time of How to cure Yeah
+- [Pulmonary Candidiasis](disease) Time of What to do Is it
+- [Simple pulmonary eosinophilic infiltration](disease) What is it disease Ah
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) Time of How to treat What
+- Got it [Simple pulmonary eosinophilic infiltration](disease) Time of How to cure What
+- Suffer [Lung abscess](disease) Time Kiji What
+- Suffer [Mercury poisoning](disease) How to cure
+- Give birth [Pulmonary embolism](disease) of What to do Yeah
+- Get [Adult respiratory distress syndrome](disease) Time of How to treat What
+- What is [Benzene poisoning](disease) What
+- Kiji [Simple pulmonary eosinophilic infiltration](disease) of Is it
+- Get [Simple pulmonary eosinophilic infiltration](disease) How to heal What
+- [SARS](disease)
+- Get [Large amounts of amniotic fluid inhalation](disease) Time How to cure Acridine
+- Get [cold](disease) of How to heal what
+- [Simple pulmonary eosinophilic infiltration](disease) What is it disease Is it
+- Got it [Septic shock](disease) of How to heal what
+- infection [Large amounts of amniotic fluid inhalation](disease) of What to do Acridine
+- [Bacillus pneumoniae pneumonia](disease) What is it Acridine
+- Worthy of [Adult respiratory distress syndrome](disease) How to treat What
+- Kiji [Pulmonary hemorrhage-nephritis syndrome](disease) Time of What
+- Got it [Lobar Pneumonia](disease) Time of How to treat Is it
+- Give birth [Radiation pneumonia](disease) Time of therapy Ah
+- Catch [Pulmonary embolism](disease) Treatment method Ok
+- [Pulmonary Cryptococcosis](disease) What is it disease what
+- What is [Radiation pneumonia](disease) What
+- Catch [Pulmonary Cryptococcosis](disease) Time of How to heal What
+- How to heal [Pulmonary embolism](disease) What
+- [Bacillus pneumoniae pneumonia](disease) What is it disease Yeah
+- Got it [Lung cancer](disease) Time of Kiji Ok
+- Give birth [Hypersensitivity pneumonia](disease) Time of How to heal what
+- Worthy of [Mercury poisoning](disease) Time of Kiji Is it
+- [Pulmonary bullae](disease)
+- [Septic shock](disease) Kiji Acridine
+- How to heal [Respiratory bronchiole-related interstitial lung disease](disease) Time of Ok
+- What is [Lobar Pneumonia](disease) Ok
+- Get [Benzene poisoning](disease) Time of therapy Yeah
+- How to do [Pulmonary Edema](disease) of Yeah
+- How to cure [Adult respiratory distress syndrome](disease) Time Yeah
+- infection [Pulmonary-pleural amebiasis](disease) of Treatment method Ok
+- [Pulmonary hemorrhage-nephritis syndrome](disease)
+- Get [Pulmonary Actinomycosis](disease) of How to treat Ah
+- infection [Septic shock](disease) of How to heal Is it
+- [pneumonia](disease) What is it disease
+- [Adult respiratory distress syndrome](disease)
+- [Bacillus pneumoniae pneumonia](disease) What is it Ok
+- What is [Septic shock](disease) What
+- What is [Bacillus pneumoniae pneumonia](disease) Ok
+- How to cure [Hypersensitivity pneumonia](disease) of What
+- infection [Lung metastases](disease) Time of How to do what
+- Give birth [Pulmonary embolism](disease) Time of How to heal Ok
+- gave birth [Foreign body in the respiratory tract](disease) of Treatment method Yeah
+- How to treat [Septic shock](disease) Time Is it
+- Get [Foreign body in the respiratory tract](disease) of How to cure
+- gave birth [Emphysema](disease) of How to treat Acridine
+- Got it [Pulmonary embolism](disease) of How to cure Ok
+- Catch [Pulmonary Edema](disease) of Kiji What
+- [Cadmium poisoning](disease) Time of Acridine
+- What is [Cadmium poisoning](disease) Yeah
+- Kiji [Foreign body in the respiratory tract](disease) Time of
+- [Lung abscess](disease) Time How to do what
+- Get [Pulmonary-pleural amebiasis](disease) Time of How to heal what
+- [Pulmonary Cryptococcosis](disease) What is it Ok
+- Worthy of [Lung abscess](disease) Time Treatment method Ok
+- [pneumonia](disease) What is it Acridine
+- What is [Lung cancer](disease) What
+- Got it [Pulmonary Actinomycosis](disease) How to cure Is it
+- How to cure [Alveolar proteinosis](disease) what
+- [Radiation pneumonia](disease) What is it disease Ah
+- Worthy of [Pulmonary pseudotumor](disease) How to cure Acridine
+- How to cure [Anaphylactic shock](disease) Time Ah
+- infection [Pulmonary pseudotumor](disease) Time of How to heal Ok
+- [Simple pulmonary eosinophilic infiltration](disease) of Kiji Acridine
+- Got it [cold](disease) Time of How to heal Ah
+- Get [Lung abscess](disease) Time What to do Ok
+- [Large amounts of amniotic fluid inhalation](disease) What to do Ok
+- How to treat [Adult respiratory distress syndrome](disease) Time Ah
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Time of What to do Yeah
+- [Pulmonary bullae](disease) What is it Yeah
+- infection [Lung metastases](disease) Time Kiji Is it
+- What is [Goodpasture syndrome](disease) what
+- [Hypersensitivity pneumonia](disease) What is it Ah
+- What is [Wheezing bronchitis](disease) Is it
+- Kiji [Pulmonary Candidiasis](disease) what
+- [Pulmonary Candidiasis](disease) Kiji What
+- gave birth [Pulmonary Candidiasis](disease) Time Treatment method What
+- Catch [Large amounts of amniotic fluid inhalation](disease) How to treat Is it
+- Got it [Mercury poisoning](disease) Time of How to do Acridine
+- Kiji [Cadmium poisoning](disease) Yeah
+- What is [Pulmonary hemorrhage-nephritis syndrome](disease) Yeah
+- How to cure [Radiation pneumonia](disease) Time Is it
+- What is [Pulmonary Edema](disease) What
+- Worthy of [Goodpasture syndrome](disease) of Acridine
+- [Goodpasture syndrome](disease) What is it disease What
+- What is [Adult respiratory distress syndrome](disease) what
+- Catch [Septic shock](disease) of What to do
+- [Building Sick Syndrome](disease) What is it disease Is it
+- Give birth [Lung cancer](disease) Time How to heal
+- Catch [Pulmonary Aspergillosis](disease) Time How to cure Ok
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) Time Kiji Yeah
+- [Large amounts of amniotic fluid inhalation](disease) Time therapy Yeah
+- infection [Lobar Pneumonia](disease) What to do Ok
+- Kiji [Building Sick Syndrome](disease) Time of
+- gave birth [Lobar Pneumonia](disease) Time Kiji Is it
+- [Bacillus pneumoniae pneumonia](disease) What is it
+- infection [Septic shock](disease) of Kiji Ah
+- Give birth [Goodpasture syndrome](disease) of Kiji what
+- What is [Emphysema](disease) Yeah
+- infection [Pulmonary embolism](disease) of How to treat Acridine
+- [pneumonia](disease) How to cure Is it
+- What is [Hypersensitivity pneumonia](disease)
+- [pertussis](disease)
+- [Simple pulmonary eosinophilic infiltration](disease) What is it
+- Worthy of [Building Sick Syndrome](disease) of Kiji What
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) Time of How to treat Acridine
+- What is [cold](disease) Acridine
+- [Bullae](disease) What is it what
+- What is [Lung abscess](disease) what
+- Kiji [Pulmonary Cryptococcosis](disease) of what
+- What is [Alveolar proteinosis](disease) Ah
+- Give birth [cold](disease) Time of Acridine
+- What is [SARS](disease) Ok
+- [Emphysema](disease) What is it disease Yeah
+- Give birth [Simple pulmonary eosinophilic infiltration](disease)
+- Catch [Cadmium poisoning](disease) Time How to heal Is it
+- Get [Pulmonary Actinomycosis](disease) Time How to do What
+- Catch [Foreign body in the respiratory tract](disease) therapy what
+- Catch [Pulmonary pseudotumor](disease) Kiji What
+- Give birth [Septic shock](disease) Time What to do Ah
+- infection [Anaphylactic shock](disease) therapy Acridine
+- Got it [Pneumococcal pneumonia](disease) of Yeah
+- infection [Pulmonary Candidiasis](disease) Time of How to cure What
+- Give birth [Benzene poisoning](disease) of Treatment method Ok
+- Get [pertussis](disease) Time How to treat Ah
+- What to do [cold](disease) of Is it
+- [Benzene poisoning](disease) of Treatment method Yeah
+- What is [Pulmonary Actinomycosis](disease) Yeah
+- [Lung abscess](disease) Time of How to treat Yeah
+- [Goodpasture syndrome](disease) What is it disease Acridine
+- Got it [Cadmium poisoning](disease) Kiji Ok
+- Worthy of [Hypersensitivity pneumonia](disease) Kiji What
+- Catch [Pulmonary Cryptococcosis](disease) Time How to treat What
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) of Ah
+- [Lung abscess](disease) What is it Yeah
+- infection [Pneumococcal pneumonia](disease) Time of Acridine
+- [pertussis](disease) of
+- gave birth [Large amounts of amniotic fluid inhalation](disease) of How to cure Acridine
+- infection [Pulmonary Candidiasis](disease) Time How to do Acridine
+- Got it [Pulmonary Candidiasis](disease) What to do Ah
+- Suffer [Lung metastases](disease) How to heal Yeah
+- gave birth [Large amounts of amniotic fluid inhalation](disease) of How to treat Yeah
+- Get [Lung metastases](disease) Time How to heal what
+- [SARS](disease) What is it Ah
+- Catch [Bacillus pneumoniae pneumonia](disease) of How to cure Ah
+- Got it [Mercury poisoning](disease) What to do What
+- Got it [Foreign body in the respiratory tract](disease) of How to treat Yeah
+- Treatment method [Hypersensitivity pneumonia](disease) of Yeah
+- Give birth [Adult respiratory distress syndrome](disease) How to heal Yeah
+- Give birth [Adult respiratory distress syndrome](disease) Time therapy What
+- Got it [Lung abscess](disease) How to cure
+- Suffer [Mercury poisoning](disease) Time How to heal Is it
+- [Foreign body in the respiratory tract](disease) What is it Acridine
+- How to cure [Large amounts of amniotic fluid inhalation](disease) Time Ok
+- How to cure [Emphysema](disease) of what
+- Suffer [Pulmonary Aspergillosis](disease) Kiji Is it
+- infection [Lung abscess](disease) How to treat What
+- What is [Respiratory bronchiole-related interstitial lung disease](disease) Ah
+- [Bacillus pneumoniae pneumonia](disease) Time of Treatment method Ok
+- gave birth [cold](disease) Ok
+- How to heal [Lobar Pneumonia](disease) Time of Is it
+- [Hypersensitivity pneumonia](disease)
+- infection [Pulmonary Candidiasis](disease) Time How to heal
+- [Adult respiratory distress syndrome](disease) What is it Is it
+- Kiji [Simple pulmonary eosinophilic infiltration](disease) Time Yeah
+- What is [Alveolar proteinosis](disease)
+- Catch [pneumonia](disease) Time How to cure Ok
+- How to heal [Foreign body in the respiratory tract](disease) of Is it
+- Worthy of [Pulmonary Edema](disease) What to do Ok
+- Worthy of [Hypersensitivity pneumonia](disease) How to heal Yeah
+- [Foreign body in the respiratory tract](disease) What is it Ah
+- infection [Foreign body in the respiratory tract](disease) of therapy Ah
+- [pneumonia](disease) How to heal Is it
+- What is [Septic shock](disease)
+- gave birth [Adult respiratory distress syndrome](disease) of How to treat Ah
+- Give birth [Emphysema](disease) How to cure
+- Give birth [Foreign body in the respiratory tract](disease) Time of How to do what
+- Suffer [Pulmonary embolism](disease) therapy what
+- What is [Pulmonary Edema](disease) Ah
+- Get [Pulmonary Cryptococcosis](disease) How to treat what
+- Worthy of [Benzene poisoning](disease) How to treat What
+- How to heal [Lung metastases](disease) Time of Ah
+- gave birth [Foreign body in the respiratory tract](disease) Time Treatment method what
+- gave birth [Lung metastases](disease) How to treat Ok
+- [Foreign body in the respiratory tract](disease) What is it disease What
+- [Wheezing bronchitis](disease) What is it disease What
+- gave birth [Pulmonary bullae](disease) of therapy
+- Get [Lung abscess](disease) Time of How to heal Is it
+- What is [Bacillus pneumoniae pneumonia](disease) Acridine
+- Got it [Bullae](disease) Time of How to cure Is it
+- How to cure [Goodpasture syndrome](disease) Time of Ah
+- Worthy of [Septic shock](disease) of Ah
+- [Pulmonary bullae](disease) What is it disease
+- Give birth [Radiation pneumonia](disease) Time of How to heal Yeah
+- Worthy of [Carbon disulfide poisoning](disease) How to treat Ah
+- Catch [Radiation pneumonia](disease) of Kiji What
+- What is [Radiation pneumonia](disease) Yeah
+- therapy [cold](disease) Time What
+- [Foreign body in the respiratory tract](disease) of How to treat Is it
+- gave birth [Alveolar proteinosis](disease) Time of How to heal
+- What is [Large amounts of amniotic fluid inhalation](disease) what
+- Suffer [Pulmonary-pleural amebiasis](disease) therapy What
+- Suffer [Lung cancer](disease) of How to heal Ah
+- Suffer [Pulmonary embolism](disease) Kiji What
+- Worthy of [Alveolar proteinosis](disease) How to cure Ok
+- Get [Pneumococcal pneumonia](disease) Time Acridine
+- What to do [Pneumococcal pneumonia](disease) Time of Ok
+- Get [Wheezing bronchitis](disease) Time of How to do Ok
+- Got it [Lung abscess](disease) of How to cure Ah
+- infection [Pneumococcal pneumonia](disease) How to cure What
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) Time of How to do what
+- Catch [Cadmium poisoning](disease) of How to do What
+- Got it [Building Sick Syndrome](disease) What to do Ok
+- Got it [Carbon disulfide poisoning](disease) How to cure Is it
+- What is [Mercury poisoning](disease) Is it
+- Worthy of [Bacillus pneumoniae pneumonia](disease) of How to treat Yeah
+- Got it [Pulmonary Cryptococcosis](disease) How to treat Is it
+- [Carbon disulfide poisoning](disease) What is it disease Acridine
+- Suffer [Anaphylactic shock](disease) How to do what
+- How to cure [Respiratory bronchiole-related interstitial lung disease](disease) of what
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) of How to heal Yeah
+- Suffer [Pulmonary-pleural amebiasis](disease) Time therapy Is it
+- Give birth [Pulmonary-pleural amebiasis](disease) of Treatment method Yeah
+- What is [Respiratory bronchiole-related interstitial lung disease](disease) Is it
+- Catch [Building Sick Syndrome](disease) Time of How to cure what
+- What is [Lung cancer](disease) Yeah
+- Give birth [Pulmonary Actinomycosis](disease) Time How to treat Ah
+- Kiji [Wheezing bronchitis](disease)
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) Time of How to do Is it
+- Give birth [Large amounts of amniotic fluid inhalation](disease) Time of How to heal Is it
+- How to heal [Pulmonary Actinomycosis](disease) of What
+- What is [Lung metastases](disease) Is it
+- [Septic shock](disease) How to treat Ok
+- What is [Pneumococcal pneumonia](disease) Ok
+- [Lung cancer](disease) What is it Acridine
+- gave birth [Lung abscess](disease) of Kiji Acridine
+- Get [Pneumococcal pneumonia](disease) How to treat
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) Time of How to treat Ok
+- Worthy of [Pulmonary embolism](disease) Time of How to cure Ah
+- What is [cold](disease) Yeah
+- Worthy of [Cadmium poisoning](disease) Time of Is it
+- Catch [Pulmonary Actinomycosis](disease) of How to treat Ah
+- [Foreign body in the respiratory tract](disease) of therapy Is it
+- Kiji [Pulmonary bullae](disease) Time What
+- What to do [pneumonia](disease) of Ok
+- [Alveolar proteinosis](disease) What is it disease Is it
+- Get [Lung abscess](disease) Acridine
+- Give birth [Pulmonary embolism](disease) Time How to heal what
+- Worthy of [Pulmonary embolism](disease) How to heal Acridine
+- infection [Pulmonary pseudotumor](disease) Time Kiji Ah
+- gave birth [Pulmonary bullae](disease) How to treat Acridine
+- infection [Goodpasture syndrome](disease) Time of How to heal Yeah
+- [Wheezing bronchitis](disease) What is it What
+- infection [Pulmonary bullae](disease) Kiji
+- Catch [Large amounts of amniotic fluid inhalation](disease) Time What
+- Get [Bacillus pneumoniae pneumonia](disease) of How to treat Acridine
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Time How to treat Ah
+- [Alveolar proteinosis](disease) What is it Ok
+- gave birth [Foreign body in the respiratory tract](disease) Time of Treatment method
+- Suffer [Pulmonary Cryptococcosis](disease) Time of How to treat Is it
+- [Foreign body in the respiratory tract](disease) What is it disease
+- Suffer [Pulmonary Edema](disease) Time How to treat Yeah
+- Give birth [Lung cancer](disease) Kiji What
+- Treatment method [Hypersensitivity pneumonia](disease) of Ah
+- [Pulmonary-pleural amebiasis](disease) What is it disease Acridine
+- Suffer [Pulmonary bullae](disease) Time Ok
+- Get [Hypersensitivity pneumonia](disease) Time of therapy Ok
+- Get [Pulmonary bullae](disease) Time Kiji Is it
+- What is [Pulmonary Edema](disease) Ok
+- How to treat [Anaphylactic shock](disease) Is it
+- What is [Pulmonary hemorrhage-nephritis syndrome](disease) Ah
+- [Benzene poisoning](disease) What is it disease Ah
+- Suffer [Lung abscess](disease) Time of How to heal Ah
+- Suffer [Large amounts of amniotic fluid inhalation](disease) Time of How to heal Yeah
+- infection [Pulmonary bullae](disease) Time of How to treat What
+- Worthy of [Foreign body in the respiratory tract](disease) Time therapy
+- Catch [Carbon disulfide poisoning](disease) Time of How to heal Is it
+- infection [Alveolar proteinosis](disease) of Acridine
+- What is [Lung cancer](disease)
+- Give birth [Cadmium poisoning](disease) Time of How to heal Yeah
+- gave birth [Pulmonary-pleural amebiasis](disease) Time of How to treat Ah
+- How to cure [Foreign body in the respiratory tract](disease) Time of Yeah
+- Worthy of [Pulmonary pseudotumor](disease) Kiji What
+- infection [Pulmonary embolism](disease) How to cure Yeah
+- Give birth [pneumonia](disease) Time Kiji Acridine
+- [Bullae](disease) What is it disease Ok
+- [Large amounts of amniotic fluid inhalation](disease) What is it disease What
+- gave birth [Pulmonary bullae](disease) What to do Acridine
+- [Septic shock](disease) of How to cure What
+- [Pulmonary Actinomycosis](disease) Kiji What
+- gave birth [Bacillus pneumoniae pneumonia](disease) of How to treat
+- What is [Pulmonary Candidiasis](disease) What
+- infection [Pulmonary Actinomycosis](disease) Time How to heal What
+- [Anaphylactic shock](disease) Time of therapy Acridine
+- Get [Lung abscess](disease) Treatment method what
+- [Pulmonary-pleural amebiasis](disease) What is it Ah
+- Got it [Wheezing bronchitis](disease) of How to heal what
+- [Bullae](disease) What is it Ah
+- How to heal [Bullae](disease) Time What
+- Get [pertussis](disease) Time of Kiji What
+- [Foreign body in the respiratory tract](disease) What is it disease Acridine
+- Get [Pulmonary-pleural amebiasis](disease) of How to heal Ah
+- infection [Benzene poisoning](disease) Time How to do Acridine
+- Get [Mercury poisoning](disease) Time of Kiji Yeah
+- Give birth [Bullae](disease) Time of How to heal
+- Catch [Pulmonary bullae](disease) Time of How to do Yeah
+- How to cure [Mercury poisoning](disease) of Yeah
+- [Cadmium poisoning](disease) What is it disease What
+- Catch [Pulmonary pseudotumor](disease) of Treatment method Ah
+- Get [Simple pulmonary eosinophilic infiltration](disease) of How to treat Ah
+- [Pulmonary pseudotumor](disease) What is it disease Yeah
+- Suffer [Benzene poisoning](disease) Time of How to heal Is it
+- Suffer [Pulmonary pseudotumor](disease) Time How to cure Ah
+- [pertussis](disease) What is it disease What
+- Catch [Foreign body in the respiratory tract](disease) of Kiji Acridine
+- How to treat [Pneumococcal pneumonia](disease) Time of Is it
+- [cold](disease) What is it What
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) therapy Is it
+- Suffer [Benzene poisoning](disease) Time Kiji Ah
+- Catch [Pulmonary Edema](disease) of How to treat Ah
+- Get [Mercury poisoning](disease) of Kiji Ah
+- Catch [Pulmonary-pleural amebiasis](disease) therapy Yeah
+- Suffer [pertussis](disease) Time How to treat What
+- Got it [Lung cancer](disease) of How to do what
+- infection [Adult respiratory distress syndrome](disease) Time of Kiji what
+- Worthy of [cold](disease) of Yeah
+- What is [Pulmonary embolism](disease) what
+- How to treat [Pulmonary-pleural amebiasis](disease) of Ok
+- infection [Adult respiratory distress syndrome](disease) Time of therapy Ok
+- How to heal [pertussis](disease) of Acridine
+- Worthy of [Pulmonary Cryptococcosis](disease) Time Kiji Ok
+- Get [Pulmonary pseudotumor](disease) Time of What to do Acridine
+- infection [Benzene poisoning](disease) of How to cure Acridine
+- How to treat [Pulmonary bullae](disease) of Acridine
+- gave birth [Lobar Pneumonia](disease) How to treat
+- Suffer [Pulmonary Actinomycosis](disease) Time of How to cure What
+- [Lung cancer](disease) What is it Ok
+- How to cure [Pulmonary hemorrhage-nephritis syndrome](disease) Time Ah
+- What is [Pulmonary Candidiasis](disease) Yeah
+- [Foreign body in the respiratory tract](disease) Kiji
+- [Mercury poisoning](disease) What is it Ok
+- Treatment method [SARS](disease) Ok
+- How to treat [Radiation pneumonia](disease) What
+- Catch [Pulmonary bullae](disease) How to cure Is it
+- Catch [Pulmonary embolism](disease) of How to heal Ok
+- How to treat [pneumonia](disease)
+- [Alveolar proteinosis](disease) What is it What
+- What is [Pulmonary hemorrhage-nephritis syndrome](disease) Is it
+- infection [Pulmonary Aspergillosis](disease) Time Kiji What
+- How to treat [Pulmonary Cryptococcosis](disease)
+- How to do [Pulmonary Aspergillosis](disease) Time What
+- Got it [Pulmonary pseudotumor](disease) Time of How to cure Yeah
+- How to heal [Lung cancer](disease) what
+- How to cure [Mercury poisoning](disease) Time Ah
+- Suffer [Pulmonary Actinomycosis](disease) How to cure Ok
+- Kiji [Pulmonary embolism](disease) Ah
+- [Building Sick Syndrome](disease) What is it what
+- [Radiation pneumonia](disease) What is it disease Acridine
+- [Adult respiratory distress syndrome](disease) What is it Ah
+- Get [Simple pulmonary eosinophilic infiltration](disease) Time of How to heal Is it
+- Catch [Emphysema](disease) of What to do
+- Give birth [Adult respiratory distress syndrome](disease) Time Kiji Ok
+- How to cure [Cadmium poisoning](disease) Time of what
+- Suffer [Hypersensitivity pneumonia](disease) How to heal Acridine
+- [Anaphylactic shock](disease) What is it disease Yeah
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) What to do what
+- [Pulmonary Candidiasis](disease) of How to treat what
+- Suffer [Building Sick Syndrome](disease) of How to cure Acridine
+- What is [Pulmonary embolism](disease) Is it
+- Treatment method [Pulmonary Actinomycosis](disease) Is it
+- infection [Large amounts of amniotic fluid inhalation](disease) How to treat Is it
+- [Mercury poisoning](disease) of Kiji Acridine
+- Catch [Bullae](disease) Time of therapy What
+- gave birth [Lung abscess](disease) of Yeah
+- [Benzene poisoning](disease) of How to treat what
+- How to cure [Emphysema](disease) Ah
+- gave birth [Alveolar proteinosis](disease) How to cure Ah
+- [cold](disease) What is it what
+- therapy [Building Sick Syndrome](disease)
+- [Wheezing bronchitis](disease) What to do
+- [Alveolar proteinosis](disease) What is it what
+- Worthy of [Pulmonary-pleural amebiasis](disease) Time How to treat Is it
+- How to heal [Respiratory bronchiole-related interstitial lung disease](disease) of Yeah
+- Worthy of [cold](disease) Time of Is it
+- [pneumonia](disease) What to do Is it
+- gave birth [Pulmonary pseudotumor](disease) How to do Is it
+- gave birth [Pulmonary Candidiasis](disease) Time How to cure What
+- Suffer [Pulmonary pseudotumor](disease) How to heal Yeah
+- Worthy of [Alveolar proteinosis](disease) Time of therapy Acridine
+- Worthy of [cold](disease) Time How to treat
+- Get [Pulmonary Candidiasis](disease) of Kiji Acridine
+- What is [Simple pulmonary eosinophilic infiltration](disease) Yeah
+- Got it [Cadmium poisoning](disease) Time How to treat What
+- infection [Cadmium poisoning](disease) of Treatment method Yeah
+- infection [Simple pulmonary eosinophilic infiltration](disease) How to heal Is it
+- How to treat [Pulmonary Aspergillosis](disease) Time of Yeah
+- [Pulmonary Actinomycosis](disease) How to heal
+- Got it [Pneumococcal pneumonia](disease) Time of What to do
+- gave birth [Pulmonary-pleural amebiasis](disease) Time of How to do Is it
+- Suffer [Lung metastases](disease) Kiji
+- Suffer [Carbon disulfide poisoning](disease) Time of How to do Ah
+- Catch [Hypersensitivity pneumonia](disease) How to heal Ok
+- gave birth [Building Sick Syndrome](disease) Kiji What
+- [Radiation pneumonia](disease) Time How to cure What
+- Give birth [Lung cancer](disease) How to cure Is it
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) How to heal
+- Give birth [Foreign body in the respiratory tract](disease) of How to heal What
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Kiji Ah
+- [Septic shock](disease) Time of Treatment method
+- What is [Lobar Pneumonia](disease) Yeah
+- Suffer [Pulmonary Edema](disease) Time of Treatment method Yeah
+- [cold](disease) What is it disease Yeah
+- [Pulmonary-pleural amebiasis](disease) Time of Treatment method Yeah
+- Suffer [Pulmonary Edema](disease) Time How to treat what
+- Give birth [Pulmonary Cryptococcosis](disease) Time of How to treat What
+- [Pulmonary Actinomycosis](disease) of Ok
+- Get [Goodpasture syndrome](disease) of How to treat What
+- [Pulmonary Aspergillosis](disease) What is it Is it
+- Treatment method [Alveolar proteinosis](disease) of What
+- Got it [Benzene poisoning](disease) Time of What
+- [Pulmonary embolism](disease) What is it Yeah
+- What to do [Pulmonary bullae](disease) Time of what
+- Catch [Pulmonary pseudotumor](disease) Time of therapy Ok
+- Treatment method [Pulmonary Edema](disease) Acridine
+- Catch [Anaphylactic shock](disease) Time of How to heal Ok
+- gave birth [Bullae](disease) of How to do Ok
+- [Emphysema](disease) What is it disease Ok
+- What to do [Lobar Pneumonia](disease) Time Ah
+- What is [Pulmonary-pleural amebiasis](disease) Ah
+- [Alveolar proteinosis](disease) What is it disease
+- [Foreign body in the respiratory tract](disease) What is it disease what
+- How to heal [Building Sick Syndrome](disease) of Ah
+- [Pulmonary-pleural amebiasis](disease) Time What to do Yeah
+- Get [Bacillus pneumoniae pneumonia](disease) Time of Kiji
+- gave birth [Emphysema](disease) Time of How to treat Ok
+- Catch [pertussis](disease) Time How to treat Yeah
+- Give birth [Adult respiratory distress syndrome](disease) Time of Kiji what
+- Kiji [Simple pulmonary eosinophilic infiltration](disease) Time what
+- Worthy of [Mercury poisoning](disease) Time of How to treat Is it
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) How to cure
+- infection [Benzene poisoning](disease) Time What to do Ah
+- Catch [Pulmonary bullae](disease) of How to heal Ok
+- gave birth [Mercury poisoning](disease) Time How to treat
+- [Septic shock](disease) What is it disease what
+- Get [Septic shock](disease) Time of How to cure Yeah
+- Give birth [Lung metastases](disease) of Kiji what
+- Get [cold](disease) Time of How to do Yeah
+- Worthy of [pertussis](disease) of How to heal Acridine
+- [Lung abscess](disease) What is it Acridine
+- infection [Large amounts of amniotic fluid inhalation](disease) Kiji What
+- What is [Bullae](disease) Acridine
+- [Wheezing bronchitis](disease) What is it disease what
+- [Pulmonary Cryptococcosis](disease) What is it What
+- [Large amounts of amniotic fluid inhalation](disease) What is it disease what
+- [Anaphylactic shock](disease) of How to do Acridine
+- [Building Sick Syndrome](disease) What is it disease Ah
+- Suffer [Lung metastases](disease) Time of How to do
+- [Respiratory bronchiole-related interstitial lung disease](disease) of How to treat Is it
+- gave birth [Septic shock](disease) of what
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What is it What
+- Suffer [Anaphylactic shock](disease) of How to treat Ah
+- Get [cold](disease) Time What to do Ok
+- What is [Lung abscess](disease) Is it
+- How to cure [SARS](disease) of What
+- [Carbon disulfide poisoning](disease) Time of How to treat Acridine
+- What is [Septic shock](disease) what
+- infection [Anaphylactic shock](disease) Time of How to do
+- Catch [Pulmonary Edema](disease) of How to cure what
+- Give birth [Pulmonary pseudotumor](disease) of How to heal what
+- infection [Pulmonary embolism](disease) of Kiji What
+- Give birth [Pulmonary Cryptococcosis](disease) Time of therapy
+- Get [Adult respiratory distress syndrome](disease) of How to treat
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) Time of How to cure Is it
+- [Lobar Pneumonia](disease) What is it what
+- Give birth [Lobar Pneumonia](disease) How to cure what
+- [Pulmonary Actinomycosis](disease) What is it What
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) of How to heal Ah
+- [cold](disease) of what
+- Worthy of [Adult respiratory distress syndrome](disease) therapy Acridine
+- How to heal [SARS](disease) What
+- How to treat [Building Sick Syndrome](disease) What
+- What is [Mercury poisoning](disease) Ok
+- Give birth [Pulmonary Aspergillosis](disease) Time Kiji
+- What is [Carbon disulfide poisoning](disease) what
+- How to heal [Lung cancer](disease) Time of what
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) Time of How to treat Ah
+- [Cadmium poisoning](disease) Time Kiji Is it
+- Get [Goodpasture syndrome](disease) Time Treatment method Is it
+- Worthy of [Pulmonary Actinomycosis](disease) How to treat what
+- Got it [Pulmonary-pleural amebiasis](disease) How to do Ah
+- How to heal [Large amounts of amniotic fluid inhalation](disease) Time of Yeah
+- infection [Large amounts of amniotic fluid inhalation](disease) How to treat What
+- gave birth [Lobar Pneumonia](disease) Time How to heal Acridine
+- Catch [Radiation pneumonia](disease) of How to heal Ok
+- How to heal [Cadmium poisoning](disease) Time Acridine
+- [Bacillus pneumoniae pneumonia](disease) of How to treat Ok
+- Give birth [Alveolar proteinosis](disease) Time of How to treat
+- What is [Emphysema](disease) Ah
+- Got it [Pulmonary Edema](disease) Time of Kiji What
+- Got it [Simple pulmonary eosinophilic infiltration](disease) How to treat Ah
+- [Anaphylactic shock](disease) of How to treat What
+- [Mercury poisoning](disease) What is it disease Yeah
+- Catch [Pulmonary Aspergillosis](disease) How to cure Is it
+- [pneumonia](disease) What is it Is it
+- therapy [Pulmonary pseudotumor](disease) Time
+- Suffer [Lung cancer](disease) Time How to do Ok
+- infection [Pulmonary Aspergillosis](disease) Time How to heal Acridine
+- Give birth [Lung abscess](disease) therapy what
+- [Bacillus pneumoniae pneumonia](disease) What is it Ah
+- Suffer [Large amounts of amniotic fluid inhalation](disease) Time of How to treat Yeah
+- What is [Benzene poisoning](disease) Ah
+- [Cadmium poisoning](disease) What is it Acridine
+- [Pulmonary Candidiasis](disease) What is it Ah
+- Get [Adult respiratory distress syndrome](disease) Time What to do what
+- Got it [Foreign body in the respiratory tract](disease) of How to heal Ok
+- [Lobar Pneumonia](disease) What is it disease Yeah
+- How to treat [Bullae](disease)
+- gave birth [Cadmium poisoning](disease) of How to cure Acridine
+- Catch [pneumonia](disease) Time of How to treat Yeah
+- Catch [Alveolar proteinosis](disease) Time of What to do What
+- What is [Large amounts of amniotic fluid inhalation](disease) Yeah
+- Catch [Pulmonary-pleural amebiasis](disease) of How to do What
+- gave birth [Alveolar proteinosis](disease) Time of How to treat
+- What to do [Mercury poisoning](disease) what
+- [Benzene poisoning](disease) What is it Ah
+- Catch [Pulmonary embolism](disease) How to treat Ah
+- Got it [Benzene poisoning](disease) Time Treatment method Is it
+- [cold](disease) What is it Acridine
+- Give birth [pneumonia](disease) Time of Treatment method Acridine
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) Time of How to heal
+- Give birth [Benzene poisoning](disease) Time What to do
+- infection [Goodpasture syndrome](disease) Kiji Ah
+- Suffer [Pulmonary-pleural amebiasis](disease) of therapy Is it
+- gave birth [Pulmonary-pleural amebiasis](disease) Time What to do Is it
+- infection [Lobar Pneumonia](disease) Time How to treat Ok
+- Catch [Building Sick Syndrome](disease) Time of Kiji Acridine
+- What is [Hypersensitivity pneumonia](disease) What
+- What is [Lung metastases](disease) Ok
+- infection [Large amounts of amniotic fluid inhalation](disease) of How to treat What
+- Get [Radiation pneumonia](disease) Time of Kiji What
+- What is [Pulmonary-pleural amebiasis](disease) Acridine
+- gave birth [Bullae](disease) Time of Acridine
+- Worthy of [Anaphylactic shock](disease) Acridine
+- Got it [Building Sick Syndrome](disease) How to cure Acridine
+- Suffer [Wheezing bronchitis](disease) of How to heal
+- What is [Goodpasture syndrome](disease) Acridine
+- [Bacillus pneumoniae pneumonia](disease) What is it disease Ah
+- [Septic shock](disease) What is it disease Ah
+- Treatment method [Pulmonary Cryptococcosis](disease) what
+- [Pulmonary Edema](disease) What is it disease Is it
+- [Septic shock](disease) What is it disease
+- Treatment method [Pulmonary bullae](disease) of
+- Suffer [Radiation pneumonia](disease) of How to do Is it
+- Catch [Foreign body in the respiratory tract](disease) of How to cure
+- [Lung metastases](disease) What is it disease Acridine
+- How to heal [Mercury poisoning](disease) What
+- infection [Bacillus pneumoniae pneumonia](disease) of Kiji Ah
+- Kiji [Bullae](disease) Time of Ok
+- Get [Building Sick Syndrome](disease) therapy Is it
+- Give birth [Pulmonary Cryptococcosis](disease) Time therapy What
+- Got it [Pulmonary-pleural amebiasis](disease) Time How to do
+- [Pulmonary Actinomycosis](disease) Time Is it
+- [Pulmonary pseudotumor](disease) Time How to do Ok
+- [Respiratory bronchiole-related interstitial lung disease](disease) Time of How to treat
+- infection [Pulmonary-pleural amebiasis](disease) Kiji Yeah
+- Worthy of [Pulmonary bullae](disease) Time of Is it
+- therapy [Alveolar proteinosis](disease) what
+- [Respiratory bronchiole-related interstitial lung disease](disease) What is it Ah
+- Suffer [Lung metastases](disease) of What to do What
+- Get [Large amounts of amniotic fluid inhalation](disease) Time of How to heal Is it
+- [Pulmonary pseudotumor](disease) of How to heal what
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) of therapy Ok
+- Suffer [Pneumococcal pneumonia](disease) Time How to heal
+- Got it [Pulmonary bullae](disease) Kiji what
+- What is [Lung metastases](disease) Ah
+- [Pulmonary Actinomycosis](disease) of What
+- Give birth [Pulmonary Actinomycosis](disease) Time Kiji Yeah
+- [Mercury poisoning](disease)
+- Got it [pertussis](disease) of therapy Is it
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) Time of Kiji what
+- [Cadmium poisoning](disease) of How to treat Is it
+- infection [Lung abscess](disease) of Acridine
+- infection [Pulmonary embolism](disease) Time of How to treat Ok
+- How to treat [Adult respiratory distress syndrome](disease) Yeah
+- What is [Carbon disulfide poisoning](disease) Ok
+- therapy [Pulmonary Aspergillosis](disease) Time What
+- Worthy of [Hypersensitivity pneumonia](disease) Time Kiji
+- Got it [cold](disease) How to treat Yeah
+- What is [SARS](disease)
+- Got it [Foreign body in the respiratory tract](disease) Time of How to heal
+- Get [Septic shock](disease) Time of How to heal what
+- [Lobar Pneumonia](disease)
+- Catch [Building Sick Syndrome](disease) Treatment method Ah
+- infection [Simple pulmonary eosinophilic infiltration](disease) Time of Is it
+- How to treat [Large amounts of amniotic fluid inhalation](disease) Time Yeah
+- infection [cold](disease) Time of How to treat Yeah
+- Got it [Goodpasture syndrome](disease) Time How to heal Is it
+- Suffer [cold](disease) of How to treat Ah
+- What is [Goodpasture syndrome](disease) Is it
+- Get [pertussis](disease) Time of Treatment method Ok
+- What is [Pulmonary Aspergillosis](disease) Is it
+- What is [Septic shock](disease) Ok
+- Get [Pulmonary Actinomycosis](disease) Time Kiji what
+- infection [Alveolar proteinosis](disease) How to treat Ah
+- How to cure [Pulmonary embolism](disease) Time Yeah
+- Suffer [Pulmonary Edema](disease) Time therapy Ah
+- [pertussis](disease) What is it what
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) Time How to treat Acridine
+- What is [Emphysema](disease) Acridine
+- What is [Bacillus pneumoniae pneumonia](disease) Is it
+- [Pulmonary pseudotumor](disease) What is it Ok
+- Get [Pulmonary Cryptococcosis](disease) Time How to treat Ok
+- Kiji [Foreign body in the respiratory tract](disease) Time What
+- How to cure [Adult respiratory distress syndrome](disease) of Yeah
+- gave birth [Pulmonary-pleural amebiasis](disease) of what
+- Give birth [Large amounts of amniotic fluid inhalation](disease) of What to do What
+- Suffer [Pulmonary Candidiasis](disease) Time of Kiji Ok
+- [Bacillus pneumoniae pneumonia](disease) of How to treat Acridine
+- How to cure [Carbon disulfide poisoning](disease) Time Is it
+- Give birth [Bullae](disease) How to do Ah
+- What to do [Pulmonary hemorrhage-nephritis syndrome](disease) of Acridine
+- Catch [Pulmonary bullae](disease) of How to heal Yeah
+- Get [Lung abscess](disease) How to treat Acridine
+- infection [SARS](disease) Time How to treat What
+- infection [Pulmonary-pleural amebiasis](disease) Time of How to treat Yeah
+- Kiji [pneumonia](disease) Time of what
+- How to heal [Emphysema](disease) of what
+- gave birth [Mercury poisoning](disease) Time How to cure Is it
+- What is [Foreign body in the respiratory tract](disease)
+- Got it [cold](disease) How to heal Acridine
+- Get [Bullae](disease) Time of How to cure What
+- Suffer [Benzene poisoning](disease) of Acridine
+- gave birth [Pulmonary bullae](disease) Time of How to treat
+- What is [Bullae](disease) what
+- Suffer [pneumonia](disease) How to cure Ok
+- infection [Lung cancer](disease) of How to cure Ok
+- [Cadmium poisoning](disease) What is it Yeah
+- Catch [Alveolar proteinosis](disease) Time How to do What
+- Catch [pertussis](disease) Time of What to do Yeah
+- How to do [Foreign body in the respiratory tract](disease) Time what
+- Catch [Pneumococcal pneumonia](disease) Time of therapy Yeah
+- Catch [Simple pulmonary eosinophilic infiltration](disease) Time of How to treat Ah
+- Get [Pneumococcal pneumonia](disease) Time therapy What
+- [cold](disease) What is it disease Is it
+- What is [Pulmonary Aspergillosis](disease) what
+- Catch [Pulmonary Cryptococcosis](disease) of what
+- Get [pneumonia](disease) How to treat What
+- gave birth [Alveolar proteinosis](disease) Time Kiji Acridine
+- Got it [Radiation pneumonia](disease) Time How to cure Acridine
+- Give birth [Pulmonary Actinomycosis](disease) of How to cure Ah
+- gave birth [Lung metastases](disease) Time of therapy Is it
+- Worthy of [Pulmonary-pleural amebiasis](disease) Time of Kiji Is it
+- Suffer [pneumonia](disease) Time of How to treat Is it
+- Get [Goodpasture syndrome](disease) Time Kiji What
+- [Lung abscess](disease) What is it disease what
+- Get [Septic shock](disease) Time of What to do Is it
+- Got it [Pulmonary pseudotumor](disease) Time of How to heal What
+- Get [Pulmonary embolism](disease) of Treatment method Ok
+- [Emphysema](disease) What is it disease Ah
+- [Respiratory bronchiole-related interstitial lung disease](disease)
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What is it disease Ah
+- [Wheezing bronchitis](disease) What is it
+- [Pulmonary bullae](disease) What is it
+- gave birth [Pulmonary-pleural amebiasis](disease) Time How to heal what
+- infection [Pulmonary embolism](disease) Time of Kiji
+- How to heal [Wheezing bronchitis](disease) what
+- [Goodpasture syndrome](disease) What is it disease what
+- gave birth [Septic shock](disease) Time of How to do Yeah
+- How to treat [Simple pulmonary eosinophilic infiltration](disease) Time Yeah
+- gave birth [Pulmonary Edema](disease) Time of How to heal Yeah
+- Get [Pulmonary-pleural amebiasis](disease) How to treat Acridine
+- Got it [Building Sick Syndrome](disease) of therapy Ah
+- [Pulmonary bullae](disease) What is it disease What
+- infection [pertussis](disease) Time of Kiji Ah
+- [Septic shock](disease) What is it disease What
+- [Wheezing bronchitis](disease) Time How to treat
+- Give birth [Lobar Pneumonia](disease) Time Ok
+- Got it [Mercury poisoning](disease) Time of Treatment method Yeah
+- Got it [Pulmonary Aspergillosis](disease) Time Treatment method what
+- Get [Goodpasture syndrome](disease) of How to heal Ah
+- [Goodpasture syndrome](disease) of Ah
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) Time therapy what
+- Get [Septic shock](disease) Time How to cure what
+- Get [Goodpasture syndrome](disease) Time of How to do Ok
+- infection [Building Sick Syndrome](disease) Time of Acridine
+- gave birth [Lobar Pneumonia](disease) How to cure Yeah
+- [Pulmonary Actinomycosis](disease) What is it disease Acridine
+- Suffer [Lung abscess](disease) of How to cure Is it
+- How to cure [pneumonia](disease)
+- Suffer [Pulmonary Candidiasis](disease) Time Kiji what
+- gave birth [Foreign body in the respiratory tract](disease) of Treatment method Ok
+- Give birth [Pulmonary-pleural amebiasis](disease) Treatment method what
+- What is [pneumonia](disease) Ok
+- Give birth [Pulmonary pseudotumor](disease) Treatment method Is it
+- [Carbon disulfide poisoning](disease) of Kiji
+- gave birth [Emphysema](disease) Time How to do Yeah
+- [Emphysema](disease) What is it Acridine
+- Catch [Building Sick Syndrome](disease) of Is it
+- Kiji [SARS](disease) Time of Ah
+- infection [Building Sick Syndrome](disease) Time of How to treat Ok
+- Catch [cold](disease) Time of How to heal What
+- Suffer [Bullae](disease) therapy What
+- infection [Pulmonary-pleural amebiasis](disease) Time Treatment method Ah
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Time How to cure
+- Got it [Pulmonary Edema](disease) of Kiji Yeah
+- Got it [Pulmonary Edema](disease) Time of How to heal what
+- Got it [Hypersensitivity pneumonia](disease) of How to treat
+- gave birth [Radiation pneumonia](disease) Time of How to heal what
+- Get [Pulmonary Actinomycosis](disease) of How to treat
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) How to treat Ah
+- How to cure [Pulmonary pseudotumor](disease) what
+- Kiji [Lung metastases](disease) of Ah
+- Catch [Pulmonary Candidiasis](disease) of How to treat what
+- What is [SARS](disease) Is it
+- Got it [Mercury poisoning](disease) Time of How to heal Yeah
+- What is [Radiation pneumonia](disease) Acridine
+- Suffer [Cadmium poisoning](disease) Time How to do Acridine
+- [Pulmonary bullae](disease) What is it what
+- Worthy of [pertussis](disease) How to treat what
+- What is [Wheezing bronchitis](disease) Ok
+- Worthy of [Pulmonary embolism](disease) Time of How to heal Yeah
+- [Hypersensitivity pneumonia](disease) Time Ok
+- gave birth [Alveolar proteinosis](disease) Time How to treat What
+- Get [Pulmonary Actinomycosis](disease) Time How to treat Ah
+- [Building Sick Syndrome](disease) What is it Is it
+- [Pulmonary Cryptococcosis](disease) Time Kiji Ok
+- [Pulmonary embolism](disease) of How to cure Ah
+- Treatment method [Pulmonary embolism](disease) Time
+- Catch [Carbon disulfide poisoning](disease) Time of Kiji
+- Give birth [Bullae](disease) Time of How to treat Ok
+- How to cure [Pulmonary bullae](disease) Time what
+- infection [Pulmonary Aspergillosis](disease) of Ok
+- infection [Wheezing bronchitis](disease) How to treat What
+- Catch [Lobar Pneumonia](disease) How to heal What
+- What is [Foreign body in the respiratory tract](disease) Acridine
+- What is [Pneumococcal pneumonia](disease) Acridine
+- What is [Foreign body in the respiratory tract](disease) Ok
+- Catch [Carbon disulfide poisoning](disease) Acridine
+- Give birth [Pulmonary pseudotumor](disease) Time of How to heal what
+- Suffer [SARS](disease) Treatment method Ok
+- What is [Benzene poisoning](disease) Acridine
+- What is [Building Sick Syndrome](disease)
+- [Lung metastases](disease) Time of How to heal What
+- [Mercury poisoning](disease) What is it disease What
+- Catch [pertussis](disease) Time How to heal what
+- Give birth [Benzene poisoning](disease) Time How to cure Acridine
+- Get [Goodpasture syndrome](disease) Kiji Yeah
+- infection [cold](disease) therapy Acridine
+- [Hypersensitivity pneumonia](disease) Time of How to treat What
+- Get [Pulmonary Cryptococcosis](disease) Time How to treat Is it
+- Suffer [Bacillus pneumoniae pneumonia](disease) of How to treat What
+- How to heal [Emphysema](disease) Ok
+- How to treat [SARS](disease) What
+- Worthy of [Mercury poisoning](disease) Kiji Is it
+- Get [Alveolar proteinosis](disease) Time of Treatment method Is it
+- Got it [Carbon disulfide poisoning](disease) of How to treat Acridine
+- [Pulmonary Edema](disease) What is it disease Yeah
+- How to treat [Pulmonary-pleural amebiasis](disease) Time of Ah
+- Worthy of [Bacillus pneumoniae pneumonia](disease) Time How to treat Is it
+- Suffer [Septic shock](disease) How to cure Is it
+- Get [Hypersensitivity pneumonia](disease) Treatment method
+- [Lobar Pneumonia](disease) What is it disease Is it
+- Kiji [Pulmonary Edema](disease) of Ok
+- Get [Pulmonary Actinomycosis](disease) Time How to heal Is it
+- [Goodpasture syndrome](disease) What is it Is it
+- [Goodpasture syndrome](disease) What is it disease Ok
+- Get [Carbon disulfide poisoning](disease) Time of How to treat what
+- What is [Pulmonary pseudotumor](disease) Yeah
+- Suffer [Septic shock](disease) Time of How to cure Is it
+- What is [Wheezing bronchitis](disease) Acridine
+- Give birth [Pulmonary Candidiasis](disease) of How to treat what
+- [Pulmonary pseudotumor](disease) What is it disease Ah
+- What is [Septic shock](disease) Ah
+- Treatment method [Lobar Pneumonia](disease) Time Is it
+- Give birth [Septic shock](disease) How to cure Ok
+- Get [Septic shock](disease) Ok
+- Give birth [Simple pulmonary eosinophilic infiltration](disease) of How to cure Acridine
+- gave birth [Pulmonary pseudotumor](disease) Acridine
+- [Pulmonary Aspergillosis](disease) What is it disease Is it
+- Get [Pulmonary Cryptococcosis](disease) Time Kiji Acridine
+- Worthy of [Pulmonary Candidiasis](disease) Time of Treatment method
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) Time of How to heal Acridine
+- Got it [Septic shock](disease) Time How to cure what
+- How to heal [Respiratory bronchiole-related interstitial lung disease](disease) Time of what
+- [Goodpasture syndrome](disease) Time of How to cure Is it
+- infection [Alveolar proteinosis](disease) Time Kiji Ok
+- [Large amounts of amniotic fluid inhalation](disease) What is it
+- [Pulmonary pseudotumor](disease) of Acridine
+- Get [Carbon disulfide poisoning](disease) Time How to do Ok
+- infection [cold](disease) of Treatment method Yeah
+- Get [Pulmonary embolism](disease) of What to do Ok
+- What is [Pulmonary bullae](disease) Ah
+- infection [Benzene poisoning](disease) Time of How to heal Yeah
+- [Pulmonary Actinomycosis](disease)
+- Give birth [Anaphylactic shock](disease) of How to cure Ok
+- How to cure [Pulmonary Cryptococcosis](disease) Ah
+- What to do [Pulmonary Cryptococcosis](disease) Ah
+- infection [Lobar Pneumonia](disease) Time of Acridine
+- Get [Pulmonary bullae](disease) Treatment method What
+- [Pulmonary-pleural amebiasis](disease) What is it Ok
+- [Pulmonary embolism](disease) What is it disease Ah
+- Give birth [Mercury poisoning](disease) What
+- Catch [Pulmonary embolism](disease) Kiji Is it
+- [Lung abscess](disease) of what
+- What is [pertussis](disease) Ok
+- infection [SARS](disease) of How to cure What
+- Catch [pertussis](disease) of How to treat
+- Get [cold](disease) Time Treatment method Is it
+- How to cure [Pulmonary Cryptococcosis](disease) Time Is it
+- Get [SARS](disease) Time How to heal
+- [Simple pulmonary eosinophilic infiltration](disease) What is it Is it
+- Got it [Pulmonary-pleural amebiasis](disease) of Kiji Yeah
+- infection [Building Sick Syndrome](disease) of How to treat What
+- Catch [Pulmonary Edema](disease) Time of How to heal What
+- gave birth [Cadmium poisoning](disease) What to do Ok
+- How to heal [Pulmonary Candidiasis](disease) Time Is it
+- What is [Large amounts of amniotic fluid inhalation](disease)
+- [Benzene poisoning](disease) What is it disease what
+- [Carbon disulfide poisoning](disease) What is it disease Ah
+- gave birth [Lobar Pneumonia](disease) of therapy what
+- Got it [Pulmonary pseudotumor](disease) Time of therapy Ok
+- gave birth [Pulmonary Edema](disease) How to treat Ah
+- Get [Pulmonary Aspergillosis](disease) Time of How to cure Ok
+- [cold](disease) What is it disease
+- Catch [Building Sick Syndrome](disease) Time of therapy Yeah
+- Got it [Wheezing bronchitis](disease) Time of Kiji
+- [Respiratory bronchiole-related interstitial lung disease](disease) Time How to treat
+- Catch [Pulmonary-pleural amebiasis](disease) of How to treat Ah
+- gave birth [Large amounts of amniotic fluid inhalation](disease) of Kiji Acridine
+- [Lung metastases](disease) What is it disease What
+- Suffer [Cadmium poisoning](disease) Time Kiji
+- [pneumonia](disease) Time
+- Worthy of [Anaphylactic shock](disease) Time of How to heal What
+- Got it [Mercury poisoning](disease) Time Treatment method Ok
+- Got it [Pulmonary Aspergillosis](disease) of Kiji Ok
+- Give birth [Pulmonary-pleural amebiasis](disease) Time of How to heal Ah
+- Get [Alveolar proteinosis](disease) How to treat Yeah
+- Suffer [Lung metastases](disease) Time How to cure Is it
+- Got it [SARS](disease) Kiji Ah
+- Give birth [Bacillus pneumoniae pneumonia](disease) of Treatment method Ah
+- Got it [Bullae](disease) Time of How to do Ok
+- [Pulmonary Cryptococcosis](disease) What is it disease What
+- [Bacillus pneumoniae pneumonia](disease) What is it what
+- Give birth [Alveolar proteinosis](disease) Time of Kiji Yeah
+- Give birth [Anaphylactic shock](disease) Time of therapy Acridine
+- Get [Hypersensitivity pneumonia](disease) What to do What
+- therapy [Lung abscess](disease) Ok
+- Catch [Building Sick Syndrome](disease) of How to do Is it
+- What is [pertussis](disease) Is it
+- [Large amounts of amniotic fluid inhalation](disease) of What
+- Suffer [Pulmonary Actinomycosis](disease) Time of What to do what
+- What is [Carbon disulfide poisoning](disease) Acridine
+- Catch [Lung cancer](disease) How to treat Ok
+- How to do [Radiation pneumonia](disease) Time of what
+- [Respiratory bronchiole-related interstitial lung disease](disease) What is it Yeah
+- infection [pertussis](disease) How to cure Is it
+- Got it [Building Sick Syndrome](disease) of Treatment method what
+- Give birth [Mercury poisoning](disease) Time of therapy Ok
+- gave birth [Pulmonary Candidiasis](disease) Time of therapy Ah
+- What is [Pulmonary Edema](disease) what
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) Time How to treat Ah
+- Give birth [Lung metastases](disease) of Kiji Yeah
+- Got it [Alveolar proteinosis](disease) Time of Kiji Is it
+- Got it [Lung abscess](disease) Time of How to treat
+- [Pulmonary Aspergillosis](disease) What is it What
+- What is [Pulmonary Candidiasis](disease) Ok
+- Catch [pneumonia](disease) Time what
+- Worthy of [Carbon disulfide poisoning](disease) How to treat Yeah
+- Get [Large amounts of amniotic fluid inhalation](disease) Kiji Yeah
+- infection [Large amounts of amniotic fluid inhalation](disease) Time How to cure
+- How to heal [Goodpasture syndrome](disease) of Acridine
+- Get [Lung metastases](disease) How to treat
+- How to cure [Alveolar proteinosis](disease)
+- Suffer [Pneumococcal pneumonia](disease) of How to treat Ok
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) Time of How to cure Acridine
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) of How to cure Is it
+- [Septic shock](disease) What is it disease Is it
+- [Mercury poisoning](disease) Is it
+- Got it [Adult respiratory distress syndrome](disease) How to do what
+- Give birth [Mercury poisoning](disease) Time How to cure Acridine
+- Suffer [Lung metastases](disease) Time of How to treat What
+- Suffer [Pulmonary bullae](disease) Time of Treatment method Is it
+- Give birth [Pneumococcal pneumonia](disease) Time of How to cure what
+- [Bacillus pneumoniae pneumonia](disease) What is it disease what
+- What is [Adult respiratory distress syndrome](disease) Acridine
+- [pneumonia](disease) What is it what
+- [cold](disease) of What to do
+- Give birth [Lung abscess](disease) Time of What to do Is it
+- What is [Pulmonary bullae](disease)
+- infection [Pulmonary embolism](disease) Time of Treatment method Ok
+- infection [Goodpasture syndrome](disease) What to do Ah
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What is it
+- Get [Bacillus pneumoniae pneumonia](disease) Time How to cure Ok
+- gave birth [Lung abscess](disease) Time of How to treat
+- Got it [Lung metastases](disease) Treatment method Ah
+- Got it [Alveolar proteinosis](disease) of Kiji Ah
+- Worthy of [Pulmonary Cryptococcosis](disease) Time Kiji What
+- Give birth [Carbon disulfide poisoning](disease) Time How to treat Ah
+- Catch [Carbon disulfide poisoning](disease) Time How to treat Ah
+- How to treat [Pulmonary bullae](disease) What
+- Got it [pneumonia](disease) Time of How to cure Is it
+- Got it [pneumonia](disease) Time Kiji Ok
+- Catch [Pulmonary Actinomycosis](disease) of What to do what
+- Got it [SARS](disease) Time How to heal
+- How to heal [Alveolar proteinosis](disease)
+- gave birth [Large amounts of amniotic fluid inhalation](disease) How to treat Ok
+- infection [Lobar Pneumonia](disease) Time of How to heal What
+- gave birth [Carbon disulfide poisoning](disease) Kiji Yeah
+- Get [Pulmonary pseudotumor](disease) of Is it
+- [Wheezing bronchitis](disease) Time Kiji What
+- What to do [Pulmonary Edema](disease) Time of
+- Get [Pneumococcal pneumonia](disease) of How to treat What
+- Suffer [Lobar Pneumonia](disease) of How to treat What
+- infection [pneumonia](disease) Time of How to heal Acridine
+- Got it [Goodpasture syndrome](disease) Time of therapy Ok
+- Got it [Alveolar proteinosis](disease) How to do
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What is it disease Yeah
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) Time of How to do Is it
+- Catch [Building Sick Syndrome](disease) of How to heal Acridine
+- Get [pertussis](disease) Time How to cure Is it
+- Catch [Lobar Pneumonia](disease) How to cure
+- Give birth [Pulmonary Edema](disease) of What to do What
+- [Anaphylactic shock](disease) What is it Is it
+- [Pulmonary Actinomycosis](disease) What is it disease Ah
+- [Cadmium poisoning](disease) What is it disease Is it
+- gave birth [Cadmium poisoning](disease) Time How to cure What
+- [Pulmonary Cryptococcosis](disease) Time of Kiji
+- Worthy of [Goodpasture syndrome](disease) Time How to treat Ah
+- [Pulmonary Actinomycosis](disease) What is it
+- Catch [Alveolar proteinosis](disease) of How to cure what
+- Worthy of [Lung abscess](disease) Kiji what
+- Suffer [Pulmonary Edema](disease) Time What to do what
+- [Bullae](disease) What is it
+- Suffer [Bacillus pneumoniae pneumonia](disease) How to heal Is it
+- [Pulmonary Cryptococcosis](disease) of Kiji What
+- [Pulmonary Cryptococcosis](disease) What is it disease Is it
+- Got it [Building Sick Syndrome](disease) of Kiji
+- [Cadmium poisoning](disease) Time of How to treat What
+- Treatment method [Large amounts of amniotic fluid inhalation](disease) Time of Yeah
+- infection [Alveolar proteinosis](disease) Time Kiji Is it
+- Got it [Pulmonary-pleural amebiasis](disease) Time How to cure Is it
+- Get [Pulmonary Edema](disease) Time of How to do Ok
+- [Goodpasture syndrome](disease) How to cure what
+- Worthy of [Cadmium poisoning](disease) Time How to treat Is it
+- Give birth [Anaphylactic shock](disease) Time of How to cure Yeah
+- [Lobar Pneumonia](disease) Time of How to cure Is it
+- What is [Adult respiratory distress syndrome](disease) What
+- infection [Alveolar proteinosis](disease) Time Kiji Ah
+- gave birth [SARS](disease) Time of therapy Acridine
+- What is [Pulmonary bullae](disease) Ok
+- Catch [Lung abscess](disease) Time of What to do Ok
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) Time Treatment method Is it
+- infection [Alveolar proteinosis](disease) Kiji Yeah
+- [Carbon disulfide poisoning](disease) What is it what
+- What is [Respiratory bronchiole-related interstitial lung disease](disease) Yeah
+- Suffer [Alveolar proteinosis](disease) Time How to treat what
+- What is [Respiratory bronchiole-related interstitial lung disease](disease) What
+- [Pulmonary Candidiasis](disease) How to treat Ah
+- Give birth [SARS](disease) How to heal Ok
+- [Pulmonary Aspergillosis](disease) What is it disease what
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) Time Kiji What
+- Suffer [Pulmonary Cryptococcosis](disease) How to cure Acridine
+- What is [Pulmonary Edema](disease) Is it
+- Worthy of [Pulmonary Actinomycosis](disease) Time Kiji What
+- What is [Pulmonary Candidiasis](disease) Ah
+- [Emphysema](disease) of Kiji Yeah
+- Suffer [Large amounts of amniotic fluid inhalation](disease) Treatment method Acridine
+- Catch [cold](disease) of Acridine
+- Catch [Pulmonary Edema](disease) Time of How to cure Ah
+- Got it [Simple pulmonary eosinophilic infiltration](disease) Time Kiji Ah
+- gave birth [pneumonia](disease) therapy Yeah
+- therapy [Pulmonary Cryptococcosis](disease) Time of Acridine
+- Give birth [cold](disease) How to cure Acridine
+- What is [Pulmonary Cryptococcosis](disease) Ok
+- Give birth [SARS](disease) Time of How to cure
+- How to cure [cold](disease) Time Yeah
+- What is [cold](disease) Ok
+- Give birth [Wheezing bronchitis](disease) Time therapy Acridine
+- Give birth [Pulmonary bullae](disease) therapy Yeah
+- Get [Pulmonary bullae](disease) of How to cure Is it
+- How to heal [Septic shock](disease) of Acridine
+- Suffer [Alveolar proteinosis](disease) Time Treatment method Ok
+- [Foreign body in the respiratory tract](disease) Time Yeah
+- Give birth [Pulmonary Cryptococcosis](disease) How to cure Yeah
+- Worthy of [Foreign body in the respiratory tract](disease) Time of Ok
+- Worthy of [Septic shock](disease) Time of How to do Yeah
+- How to heal [Mercury poisoning](disease) of Yeah
+- Suffer [Pneumococcal pneumonia](disease) of How to cure Is it
+- Catch [Cadmium poisoning](disease) Time
+- Kiji [Alveolar proteinosis](disease) of Yeah
+- What is [Cadmium poisoning](disease) Ah
+- [Large amounts of amniotic fluid inhalation](disease) What is it disease Ok
+- How to treat [Septic shock](disease) Time of Ok
+- Worthy of [Pulmonary Actinomycosis](disease) How to do Yeah
+- Got it [Anaphylactic shock](disease) Time How to treat What
+- [Pulmonary pseudotumor](disease) What is it
+- Got it [Alveolar proteinosis](disease) of Ah
+- [Radiation pneumonia](disease) What is it disease Yeah
+- [Pulmonary Edema](disease) What is it disease Ok
+- Worthy of [Pneumococcal pneumonia](disease) How to heal Is it
+- [cold](disease) What is it disease What
+- [Building Sick Syndrome](disease) of Kiji Ok
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What is it what
+- [Lobar Pneumonia](disease) Time of What to do Is it
+- gave birth [Pulmonary Candidiasis](disease) Time of How to treat Yeah
+- Get [Anaphylactic shock](disease) Time How to heal Yeah
+- Catch [pneumonia](disease) of Kiji
+- Give birth [Simple pulmonary eosinophilic infiltration](disease) How to heal What
+- Catch [Anaphylactic shock](disease) therapy what
+- Give birth [Bullae](disease) Time How to heal Ah
+- [Cadmium poisoning](disease) What is it disease Yeah
+- infection [Pulmonary Edema](disease) of How to heal Ok
+- What is [Lung cancer](disease) Acridine
+- Suffer [Emphysema](disease) of How to cure Is it
+- Got it [pertussis](disease) How to cure
+- Got it [Lobar Pneumonia](disease) How to heal Ok
+- What is [SARS](disease) what
+- What to do [Goodpasture syndrome](disease) what
+- [Adult respiratory distress syndrome](disease) What is it disease Is it
+- infection [Foreign body in the respiratory tract](disease) Time of Treatment method Ok
+- Got it [Pulmonary Cryptococcosis](disease) How to cure Is it
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) Time of Is it
+- Got it [Wheezing bronchitis](disease) How to cure
+- What is [Pulmonary Actinomycosis](disease) Ok
+- Got it [Alveolar proteinosis](disease) Time of How to do what
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) of How to heal Acridine
+- Got it [Pulmonary Aspergillosis](disease) of How to cure Is it
+- infection [Alveolar proteinosis](disease) of Ah
+- Suffer [Pulmonary Candidiasis](disease) of How to heal what
+- gave birth [Pulmonary Candidiasis](disease) of Treatment method what
+- gave birth [Cadmium poisoning](disease) of How to heal what
+- Give birth [Alveolar proteinosis](disease) Time How to cure
+- What is [Pulmonary Candidiasis](disease) Is it
+- Get [pneumonia](disease) of therapy Acridine
+- [Lung abscess](disease) Time How to do Ok
+- Kiji [Pulmonary-pleural amebiasis](disease) Time of what
+- [Pulmonary Aspergillosis](disease) of How to do Is it
+- What to do [Building Sick Syndrome](disease) what
+- gave birth [Lung abscess](disease) Time How to cure Ok
+- How to cure [Hypersensitivity pneumonia](disease) of
+- Suffer [Pulmonary embolism](disease) Time of How to treat Yeah
+- How to treat [Lung cancer](disease) of Is it
+- Kiji [Alveolar proteinosis](disease) Time of Ok
+- Suffer [Pulmonary bullae](disease) of How to treat What
+- gave birth [Large amounts of amniotic fluid inhalation](disease) Time of How to heal Is it
+- What to do [Lung metastases](disease) Time Is it
+- [Bullae](disease) What is it Ok
+- Got it [pneumonia](disease) of Is it
+- infection [Pulmonary pseudotumor](disease) of Treatment method Ok
+- [Mercury poisoning](disease) Time of Kiji What
+- infection [Mercury poisoning](disease) Time How to cure Is it
+- Suffer [pertussis](disease) of How to heal What
+- Catch [Foreign body in the respiratory tract](disease) Time of How to treat Ah
+- Suffer [Pulmonary embolism](disease) Time How to treat Is it
+- Catch [Building Sick Syndrome](disease) Time of Yeah
+- [Hypersensitivity pneumonia](disease) What is it what
+- gave birth [pneumonia](disease) How to heal Yeah
+- gave birth [Mercury poisoning](disease) Time of How to treat Ok
+- [Mercury poisoning](disease) of How to heal Ok
+- What is [Building Sick Syndrome](disease) Ok
+- Get [Bacillus pneumoniae pneumonia](disease) of therapy Yeah
+- gave birth [Wheezing bronchitis](disease) Time How to treat Ok
+- Get [cold](disease) therapy
+- infection [Anaphylactic shock](disease) Kiji Ok
+- Give birth [Goodpasture syndrome](disease) Time of How to treat Is it
+- What is [Pulmonary Aspergillosis](disease) Ah
+- What is [Pulmonary embolism](disease) Acridine
+- [Pneumococcal pneumonia](disease) What is it disease Ok
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) therapy Ah
+- Got it [Pulmonary pseudotumor](disease) of How to heal Ah
+- [Emphysema](disease) What is it Ok
+- Worthy of [Pulmonary embolism](disease) of How to treat Ah
+- Suffer [Lobar Pneumonia](disease) Time of How to heal What
+- infection [Pulmonary pseudotumor](disease) Time therapy what
+- gave birth [Lung metastases](disease) Time of How to cure What
+- gave birth [Pulmonary pseudotumor](disease) Time Kiji what
+- gave birth [Pulmonary bullae](disease) How to treat
+- Kiji [cold](disease) Time Acridine
+- Suffer [Pulmonary Candidiasis](disease) Kiji Is it
+- Suffer [Wheezing bronchitis](disease) Time of How to heal Yeah
+- [Lung cancer](disease) therapy Acridine
+- How to cure [Goodpasture syndrome](disease) Time of Is it
+- [cold](disease) What is it disease Ok
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) Time of Kiji What
+- Worthy of [Emphysema](disease) of therapy Ah
+- Suffer [Lung cancer](disease) How to do
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) Time How to treat Ah
+- Treatment method [Lobar Pneumonia](disease) of
+- Give birth [Hypersensitivity pneumonia](disease) of what
+- [Cadmium poisoning](disease) What is it what
+- How to cure [Hypersensitivity pneumonia](disease) Yeah
+- therapy [Pulmonary embolism](disease) Time What
+- infection [Wheezing bronchitis](disease) How to treat Acridine
+- Get [Lung abscess](disease) Time How to do What
+- [Radiation pneumonia](disease) What is it What
+- [Pulmonary Edema](disease) Time of Ok
+- infection [cold](disease) Time How to heal What
+- [Hypersensitivity pneumonia](disease) What is it disease Is it
+- Kiji [Benzene poisoning](disease) of What
+- [Pulmonary-pleural amebiasis](disease) What is it What
+- Give birth [Wheezing bronchitis](disease) How to treat Is it
+- Give birth [Cadmium poisoning](disease) of Kiji What
+- How to cure [Pulmonary pseudotumor](disease) What
+- [pneumonia](disease) Time What to do Yeah
+- Give birth [Anaphylactic shock](disease) of How to do Ok
+- gave birth [Wheezing bronchitis](disease) Time of How to do Yeah
+- Suffer [Adult respiratory distress syndrome](disease) of How to cure what
+- infection [Bacillus pneumoniae pneumonia](disease) Acridine
+- [Wheezing bronchitis](disease) What is it disease Is it
+- Got it [SARS](disease) Time therapy Acridine
+- What is [Hypersensitivity pneumonia](disease) Is it
+- Get [Mercury poisoning](disease) of therapy Ok
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) Time How to heal what
+- Worthy of [Bullae](disease) of What to do Acridine
+- Treatment method [Pulmonary hemorrhage-nephritis syndrome](disease) Time Acridine
+- Get [Foreign body in the respiratory tract](disease) of What to do What
+- Kiji [pertussis](disease) Time
+- How to treat [Bacillus pneumoniae pneumonia](disease) Time
+- Catch [Cadmium poisoning](disease) Kiji Acridine
+- Got it [Benzene poisoning](disease) of How to treat Ok
+- Catch [Lung cancer](disease) of therapy Ok
+- [Pulmonary Aspergillosis](disease) How to cure Acridine
+- Give birth [Alveolar proteinosis](disease) Time of What to do What
+- How to do [pertussis](disease) Time of Ok
+- Get [Pneumococcal pneumonia](disease) Time How to treat Yeah
+- Suffer [Anaphylactic shock](disease) of How to treat Ok
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) Time How to heal Ah
+- How to heal [Anaphylactic shock](disease)
+- How to heal [Mercury poisoning](disease) of Ah
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) Time of How to do what
+- How to cure [Alveolar proteinosis](disease) Time
+- [Alveolar proteinosis](disease) What is it disease Ok
+- Worthy of [Cadmium poisoning](disease) Time of What to do
+- What is [Adult respiratory distress syndrome](disease) Ok
+- Give birth [Benzene poisoning](disease) of Kiji What
+- Suffer [Foreign body in the respiratory tract](disease) Time Ok
+- infection [Emphysema](disease) of Kiji Acridine
+- [Pulmonary-pleural amebiasis](disease) What is it
+- [Pulmonary-pleural amebiasis](disease) Time of Kiji Yeah
+- Worthy of [Carbon disulfide poisoning](disease) Time of How to heal What
+- Got it [Mercury poisoning](disease) What to do Acridine
+- Catch [Lobar Pneumonia](disease) Kiji Ah
+- How to heal [Lung cancer](disease) of Is it
+- [Foreign body in the respiratory tract](disease) What is it what
+- Give birth [Pulmonary Candidiasis](disease) Kiji
+- infection [Simple pulmonary eosinophilic infiltration](disease) Time of Treatment method What
+- Got it [Anaphylactic shock](disease) How to heal What
+- Got it [Carbon disulfide poisoning](disease) of Kiji Yeah
+- Worthy of [Mercury poisoning](disease) of How to heal what
+- Got it [Mercury poisoning](disease) How to treat Yeah
+- What is [Lung cancer](disease) Is it
+- Give birth [Lobar Pneumonia](disease) of How to treat
+- Catch [Radiation pneumonia](disease) of Kiji Ok
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) Time What to do Ok
+- Got it [Pulmonary Aspergillosis](disease) of What to do Is it
+- Worthy of [Building Sick Syndrome](disease) Time How to cure Ok
+- What is [Goodpasture syndrome](disease)
+- Worthy of [Anaphylactic shock](disease) What to do
+- Get [Hypersensitivity pneumonia](disease) Time of How to heal What
+- Catch [Goodpasture syndrome](disease) of Is it
+- [Alveolar proteinosis](disease) of How to treat Yeah
+- [Pulmonary-pleural amebiasis](disease) What is it disease What
+- Worthy of [Pulmonary embolism](disease) Time of therapy Yeah
+- Give birth [Pulmonary-pleural amebiasis](disease) Time of Kiji Acridine
+- How to treat [SARS](disease) Time
+- Worthy of [Anaphylactic shock](disease) of How to treat Yeah
+- Catch [Simple pulmonary eosinophilic infiltration](disease) of How to treat Yeah
+- Give birth [Radiation pneumonia](disease) of therapy Ah
+- [Pulmonary Aspergillosis](disease) What is it disease Ah
+- [SARS](disease) What is it What
+- Get [Anaphylactic shock](disease) of How to cure
+- gave birth [Carbon disulfide poisoning](disease) of How to heal what
+- How to treat [Pulmonary Aspergillosis](disease) Time of
+- infection [Bullae](disease) Time of Kiji
+- infection [Lobar Pneumonia](disease) Time How to cure Is it
+- Worthy of [Foreign body in the respiratory tract](disease) Time of therapy Ok
+- Give birth [Septic shock](disease) of How to heal
+- [Radiation pneumonia](disease) What is it disease Ok
+- [Lung metastases](disease) What is it
+- Worthy of [Pulmonary bullae](disease) of How to treat Yeah
+- How to heal [Anaphylactic shock](disease) What
+- Suffer [Bullae](disease) of How to heal
+- Worthy of [Pulmonary-pleural amebiasis](disease) How to treat
+- [Lung abscess](disease) What is it Ah
+- therapy [Anaphylactic shock](disease) Time
+- [Lung metastases](disease) What is it disease Yeah
+- Got it [Pulmonary pseudotumor](disease) What to do Yeah
+- gave birth [Lobar Pneumonia](disease) of How to cure Is it
+- How to heal [Pulmonary Candidiasis](disease) Time Yeah
+- Got it [Pulmonary pseudotumor](disease) of How to cure what
+- What is [Hypersensitivity pneumonia](disease) what
+- Get [Pulmonary-pleural amebiasis](disease) Time of Kiji Ah
+- infection [Adult respiratory distress syndrome](disease) therapy Acridine
+- Treatment method [Wheezing bronchitis](disease) Time Yeah
+- Suffer [Wheezing bronchitis](disease) therapy Yeah
+- [Respiratory bronchiole-related interstitial lung disease](disease) What is it What
+- [Pulmonary Cryptococcosis](disease) Time of How to heal Ok
+- Get [Lung metastases](disease) of Treatment method Ah
+- How to treat [Benzene poisoning](disease) Time What
+- Got it [Pneumococcal pneumonia](disease) How to cure Is it
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) Time of How to heal What
+- gave birth [Lung cancer](disease) Time therapy
+- Catch [Mercury poisoning](disease) How to cure Is it
+- [pneumonia](disease) What is it What
+- What is [Wheezing bronchitis](disease) Ah
+- Got it [Anaphylactic shock](disease) of How to heal
+- [Building Sick Syndrome](disease) What is it Acridine
+- What is [Simple pulmonary eosinophilic infiltration](disease) Is it
+- infection [Cadmium poisoning](disease) of therapy Yeah
+- Give birth [Goodpasture syndrome](disease) what
+- Catch [Wheezing bronchitis](disease) of How to cure Ok
+- [Radiation pneumonia](disease) What is it
+- How to cure [Pulmonary-pleural amebiasis](disease) Time of
+- [Wheezing bronchitis](disease) Time of How to treat Acridine
+- [cold](disease) What is it Ah
+- Give birth [Lung metastases](disease) Time of therapy Acridine
+- Get [cold](disease) of Kiji
+- [Pneumococcal pneumonia](disease) What is it Acridine
+- Worthy of [Building Sick Syndrome](disease) Time of How to treat Acridine
+- Suffer [Lung abscess](disease) Time How to treat Is it
+- Worthy of [cold](disease) Kiji Ah
+- [pertussis](disease) What is it Acridine
+- What is [Pulmonary hemorrhage-nephritis syndrome](disease) Acridine
+- infection [Alveolar proteinosis](disease) How to treat Is it
+- Kiji [Building Sick Syndrome](disease) Time of Ok
+- Catch [Pulmonary Actinomycosis](disease) Time therapy Ok
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) How to cure Is it
+- Give birth [Adult respiratory distress syndrome](disease) Time How to cure What
+- gave birth [Pulmonary Actinomycosis](disease) of How to heal Yeah
+- Kiji [Building Sick Syndrome](disease) Time of Is it
+- [Alveolar proteinosis](disease) of what
+- [Pulmonary pseudotumor](disease) What is it disease Ok
+- [Bullae](disease) How to treat what
+- [Emphysema](disease) Treatment method Yeah
+- What to do [Pulmonary bullae](disease) of what
+- How to heal [Pulmonary hemorrhage-nephritis syndrome](disease) of what
+- Catch [Pulmonary Edema](disease) How to treat What
+- Get [Pulmonary-pleural amebiasis](disease) of How to treat Acridine
+- infection [Bullae](disease) Time of what
+- Got it [SARS](disease) of How to heal
+- Kiji [Adult respiratory distress syndrome](disease) Time of Acridine
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) therapy Acridine
+- [Pulmonary Edema](disease) What is it disease What
+- Suffer [Radiation pneumonia](disease) of How to treat what
+- [Pulmonary bullae](disease) How to heal Ok
+- Catch [Pulmonary embolism](disease) Time How to cure
+- Worthy of [Lung cancer](disease) Time Ok
+- Worthy of [Bullae](disease) of therapy Acridine
+- [Respiratory bronchiole-related interstitial lung disease](disease) Time of How to cure
+- gave birth [SARS](disease) of How to heal What
+- Get [Alveolar proteinosis](disease) Time of How to do Ah
+- Give birth [Simple pulmonary eosinophilic infiltration](disease) How to cure What
+- Got it [Pulmonary bullae](disease) of How to heal Is it
+- What is [Mercury poisoning](disease) Yeah
+- Suffer [Carbon disulfide poisoning](disease) of How to treat Acridine
+- Get [Emphysema](disease) of How to heal Yeah
+- [Pulmonary-pleural amebiasis](disease) How to treat What
+- Give birth [Emphysema](disease) Time of What to do Ah
+- What is [Building Sick Syndrome](disease) What
+- Suffer [Lobar Pneumonia](disease) Time of Treatment method Acridine
+- [pertussis](disease) of Ah
+- Get [Lung abscess](disease) of Kiji Yeah
+- therapy [Anaphylactic shock](disease) Time Yeah
+- gave birth [Lung cancer](disease) Ok
+- [Alveolar proteinosis](disease) What is it Acridine
+- What is [Respiratory bronchiole-related interstitial lung disease](disease) Acridine
+- Get [Radiation pneumonia](disease) How to heal Is it
+- [Pulmonary-pleural amebiasis](disease) How to cure what
+- Give birth [Pulmonary Cryptococcosis](disease) of How to cure Is it
+- What is [Pulmonary bullae](disease) Is it
+- Worthy of [Wheezing bronchitis](disease) Time of Kiji Yeah
+- [Radiation pneumonia](disease) Time of How to cure what
+- Got it [pneumonia](disease) of How to cure Yeah
+- infection [pneumonia](disease) Time of Kiji
+- Give birth [Goodpasture syndrome](disease) Treatment method
+- infection [Lobar Pneumonia](disease) of Treatment method Is it
+- infection [Wheezing bronchitis](disease) Time Is it
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) therapy Is it
+- Suffer [Alveolar proteinosis](disease) of How to treat Yeah
+- [Benzene poisoning](disease) Time of Treatment method Acridine
+- Got it [Cadmium poisoning](disease) of How to do what
+- Suffer [Alveolar proteinosis](disease) of Kiji What
+- How to treat [Lung abscess](disease) Time what
+- infection [Simple pulmonary eosinophilic infiltration](disease) of What to do Ok
+- [Large amounts of amniotic fluid inhalation](disease) What is it what
+- Catch [Pulmonary Candidiasis](disease) of How to heal Ok
+- Worthy of [Pneumococcal pneumonia](disease) of How to heal what
+- Worthy of [Alveolar proteinosis](disease) Time of How to cure Acridine
+- How to treat [Alveolar proteinosis](disease) Time Yeah
+- gave birth [Septic shock](disease) Time How to heal Ah
+- How to treat [Foreign body in the respiratory tract](disease) What
+- How to heal [Carbon disulfide poisoning](disease) what
+- [Pulmonary bullae](disease) What is it disease what
+- What is [Pulmonary Cryptococcosis](disease)
+- infection [Alveolar proteinosis](disease) Treatment method Ok
+- Worthy of [Pulmonary bullae](disease) of Kiji Ah
+- How to do [Carbon disulfide poisoning](disease) Time what
+- Catch [Pulmonary bullae](disease) Time of How to treat Is it
+- therapy [pneumonia](disease) Time of Ok
+- Got it [Goodpasture syndrome](disease) Time of How to heal Yeah
+- Get [Radiation pneumonia](disease) How to do Acridine
+- Give birth [Foreign body in the respiratory tract](disease) of Treatment method What
+- How to cure [Large amounts of amniotic fluid inhalation](disease) Ok
+- How to treat [Large amounts of amniotic fluid inhalation](disease)
+- Give birth [Carbon disulfide poisoning](disease) Time of What to do What
+- Worthy of [Lobar Pneumonia](disease) Time How to heal What
+- Worthy of [Pulmonary-pleural amebiasis](disease) Time Treatment method Yeah
+- Got it [Pulmonary Aspergillosis](disease) of Kiji What
+- Give birth [Bacillus pneumoniae pneumonia](disease) Time of How to treat what
+- Suffer [Foreign body in the respiratory tract](disease) Time of therapy Ok
+- Give birth [Goodpasture syndrome](disease) Treatment method What
+- Suffer [Pulmonary Cryptococcosis](disease) How to treat Yeah
+- Get [Carbon disulfide poisoning](disease) therapy Is it
+- Get [Lung metastases](disease) Time of How to treat Is it
+- How to treat [Pulmonary bullae](disease) Time Acridine
+- Get [Pulmonary Edema](disease) of How to treat Ok
+- [pneumonia](disease) What is it disease Yeah
+- [Cadmium poisoning](disease) What is it disease
+- [Cadmium poisoning](disease) What is it
+- gave birth [Lung metastases](disease) How to cure Ah
+- Worthy of [Pulmonary Aspergillosis](disease) therapy What
+- What is [Pulmonary Edema](disease)
+- Catch [Lung cancer](disease) of What to do What
+- How to treat [Emphysema](disease) Time Ok
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) Time of What to do
+- gave birth [Pulmonary bullae](disease) of therapy Ok
+- infection [Pulmonary embolism](disease) Time How to heal Ok
+- Suffer [Carbon disulfide poisoning](disease) Time How to treat what
+- Get [pertussis](disease) Time of How to treat Acridine
+- Suffer [Alveolar proteinosis](disease) Time How to cure Is it
+- infection [Pulmonary pseudotumor](disease) of How to treat Ok
+- How to cure [Pneumococcal pneumonia](disease) Time Ah
+- Suffer [Bullae](disease) Time of How to heal
+- Catch [Goodpasture syndrome](disease) How to cure Ah
+- Give birth [pertussis](disease) Time Treatment method Ah
+- Worthy of [Pulmonary Aspergillosis](disease) Time of How to cure Acridine
+- [Large amounts of amniotic fluid inhalation](disease) What is it Ok
+- Suffer [Bullae](disease) Time of What to do Yeah
+- Catch [Lobar Pneumonia](disease) How to cure what
+- Get [Alveolar proteinosis](disease) Time Kiji
+- [Respiratory bronchiole-related interstitial lung disease](disease) What is it disease What
+- How to cure [Wheezing bronchitis](disease) Time of What
+- gave birth [Hypersensitivity pneumonia](disease) Time What to do Yeah
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) of How to treat Ah
+- Catch [Emphysema](disease) Time of Kiji Acridine
+- Worthy of [Lung metastases](disease) of Treatment method Ah
+- infection [SARS](disease) Time of How to do Is it
+- What is [Pulmonary pseudotumor](disease) Is it
+- Give birth [Cadmium poisoning](disease) Time of therapy What
+- Get [SARS](disease) Time of How to cure
+- Got it [Cadmium poisoning](disease) Time of How to do Acridine
+- [Lung abscess](disease) of Kiji what
+- Kiji [Simple pulmonary eosinophilic infiltration](disease) of what
+- Suffer [Pulmonary-pleural amebiasis](disease) What to do what
+- [Pulmonary-pleural amebiasis](disease) What is it disease Yeah
+- infection [Cadmium poisoning](disease) Time How to treat what
+- Get [pertussis](disease) of How to heal
+- infection [SARS](disease) of therapy What
+- infection [Pulmonary embolism](disease) What
+- gave birth [Lobar Pneumonia](disease) Time of How to heal
+- infection [Bullae](disease) How to heal what
+- What is [Building Sick Syndrome](disease) Ah
+- Worthy of [Emphysema](disease) Time of How to heal
+- [Large amounts of amniotic fluid inhalation](disease) What is it Acridine
+- [Carbon disulfide poisoning](disease) What is it disease Ok
+- gave birth [cold](disease)
+- gave birth [Foreign body in the respiratory tract](disease) Kiji What
+- [pertussis](disease) Treatment method Ah
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) How to heal Is it
+- infection [Lung metastases](disease) of How to do
+- infection [Pneumococcal pneumonia](disease) Kiji Is it
+- Worthy of [Lung metastases](disease) Time of What
+- Suffer [Alveolar proteinosis](disease) of How to treat what
+- Kiji [Lung cancer](disease) Time Acridine
+- [Wheezing bronchitis](disease) Time Treatment method What
+- Got it [Pulmonary Edema](disease) of Treatment method Yeah
+- Give birth [Benzene poisoning](disease) Kiji Yeah
+- infection [Pulmonary bullae](disease) Time Kiji Yeah
+- [Lung cancer](disease) What is it Ah
+- Give birth [Hypersensitivity pneumonia](disease) Kiji Acridine
+- Got it [Simple pulmonary eosinophilic infiltration](disease) of How to treat What
+- Treatment method [Pulmonary hemorrhage-nephritis syndrome](disease) of Ok
+- Catch [SARS](disease) How to do
+- Suffer [Pulmonary Cryptococcosis](disease) Time Kiji Yeah
+- Get [Cadmium poisoning](disease) Time How to cure Ok
+- infection [Lung cancer](disease) Time of How to heal What
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) How to treat Ok
+- Worthy of [Lung metastases](disease) of Kiji What
+- [Pulmonary pseudotumor](disease) What is it disease What
+- What is [pneumonia](disease) what
+- gave birth [Pneumococcal pneumonia](disease) How to do what
+- Suffer [Mercury poisoning](disease) therapy Acridine
+- What is [Pulmonary hemorrhage-nephritis syndrome](disease) what
+- Catch [Lobar Pneumonia](disease) of Kiji What
+- infection [Lung metastases](disease) of How to heal Acridine
+- [Adult respiratory distress syndrome](disease) Time of Ok
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) How to do Acridine
+- infection [SARS](disease) Time therapy what
+- infection [Radiation pneumonia](disease) Time How to treat Acridine
+- Worthy of [Benzene poisoning](disease) of How to cure Ok
+- infection [Pulmonary Actinomycosis](disease) How to treat what
+- Give birth [Hypersensitivity pneumonia](disease) Time of How to cure Ok
+- infection [Hypersensitivity pneumonia](disease) Time therapy Is it
+- infection [Pulmonary embolism](disease) How to do Is it
+- [Lung cancer](disease) Time How to heal Acridine
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What is it Acridine
+- Give birth [Pulmonary Aspergillosis](disease) How to do Yeah
+- [Pneumococcal pneumonia](disease) What is it disease What
+- [Large amounts of amniotic fluid inhalation](disease) How to heal
+- Suffer [Building Sick Syndrome](disease) of Treatment method Ok
+- infection [Pulmonary bullae](disease) Time How to treat Yeah
+- [Lung abscess](disease) How to do Is it
+- Get [Pulmonary Candidiasis](disease) Time of How to cure what
+- Got it [Pulmonary embolism](disease) Time of therapy Is it
+- Catch [Lung abscess](disease) Time How to heal Acridine
+- Get [Pulmonary bullae](disease) How to do What
+- Suffer [Pulmonary embolism](disease) Time What
+- How to cure [Alveolar proteinosis](disease) Time Yeah
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) Time How to heal what
+- Worthy of [cold](disease) Time How to do
+- gave birth [Wheezing bronchitis](disease) of How to treat Ok
+- infection [Pulmonary Actinomycosis](disease) Time How to treat Acridine
+- [Carbon disulfide poisoning](disease) What is it Is it
+- Suffer [Adult respiratory distress syndrome](disease) Time What to do
+- [Building Sick Syndrome](disease) Time what
+- therapy [Lung abscess](disease) of Ok
+- How to treat [Anaphylactic shock](disease) Time of Ok
+- [Septic shock](disease) How to do Yeah
+- [Simple pulmonary eosinophilic infiltration](disease) What is it Yeah
+- [Lung cancer](disease) What is it disease Ok
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) Kiji Yeah
+- Got it [Foreign body in the respiratory tract](disease) Time of therapy what
+- Suffer [Pulmonary embolism](disease) How to heal Ok
+- Give birth [Adult respiratory distress syndrome](disease) How to cure Is it
+- [Emphysema](disease) Kiji Yeah
+- Give birth [Pulmonary-pleural amebiasis](disease) of How to do Is it
+- [pertussis](disease) What is it disease Yeah
+- What to do [cold](disease) Time Is it
+- Catch [Lung abscess](disease) Time How to cure Ok
+- Catch [Cadmium poisoning](disease) Time Kiji Ah
+- [Lobar Pneumonia](disease) What is it Yeah
+- Kiji [Pulmonary Aspergillosis](disease) Time Ok
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) How to heal what
+- [Hypersensitivity pneumonia](disease) What is it
+- [SARS](disease) What is it Ok
+- [Pulmonary Candidiasis](disease) What is it disease Is it
+- gave birth [Adult respiratory distress syndrome](disease) Time How to heal Ah
+- infection [Pulmonary-pleural amebiasis](disease) Time How to do Yeah
+- gave birth [Alveolar proteinosis](disease) Time of What to do What
+- Suffer [Septic shock](disease) Time How to do Acridine
+- [Goodpasture syndrome](disease) What is it
+- Give birth [Pulmonary Cryptococcosis](disease) of How to cure Ok
+- Give birth [Emphysema](disease) Time of How to treat
+- [Bullae](disease) of How to cure Is it
+- [Lung metastases](disease) What is it Yeah
+- gave birth [Goodpasture syndrome](disease) of How to heal Ah
+- [Lung cancer](disease) of How to do Is it
+- What is [Large amounts of amniotic fluid inhalation](disease) Ah
+- [Foreign body in the respiratory tract](disease) What is it disease Ok
+- Treatment method [Pulmonary Actinomycosis](disease) Acridine
+- Catch [Pulmonary pseudotumor](disease) Time of Kiji what
+- Catch [Alveolar proteinosis](disease) Kiji Yeah
+- How to treat [Pulmonary embolism](disease) Time of Is it
+- How to treat [Pulmonary hemorrhage-nephritis syndrome](disease) Time of Ok
+- Give birth [Pulmonary Candidiasis](disease) of Is it
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) Time How to treat What
+- Suffer [Mercury poisoning](disease) Time of How to heal Ah
+- [Large amounts of amniotic fluid inhalation](disease) What is it Yeah
+- What is [Bullae](disease) What
+- gave birth [Large amounts of amniotic fluid inhalation](disease) How to do Acridine
+- What to do [Benzene poisoning](disease) what
+- Worthy of [Cadmium poisoning](disease) Time Kiji what
+- Get [Bullae](disease) Time Kiji Ok
+- Suffer [Pulmonary Aspergillosis](disease) Time How to treat Acridine
+- Catch [Pulmonary Candidiasis](disease) Time of How to do What
+- [Pulmonary Actinomycosis](disease) What is it disease Ok
+- gave birth [Emphysema](disease) Time therapy Acridine
+- gave birth [Building Sick Syndrome](disease) Time Kiji Is it
+- [Pulmonary Cryptococcosis](disease) What is it
+- Catch [Mercury poisoning](disease) Time How to heal
+- Give birth [Hypersensitivity pneumonia](disease) of What to do Acridine
+- gave birth [Pneumococcal pneumonia](disease) Time of How to cure Ah
+- Get [Pulmonary embolism](disease) Time of Kiji
+- Suffer [Pulmonary Cryptococcosis](disease) Time Kiji Ah
+- Get [Simple pulmonary eosinophilic infiltration](disease) therapy Acridine
+- Suffer [Foreign body in the respiratory tract](disease) How to cure Ah
+- What to do [Hypersensitivity pneumonia](disease) of Ah
+- [Emphysema](disease) of How to cure Ah
+- Worthy of [Anaphylactic shock](disease) of How to do Ok
+- Catch [Pneumococcal pneumonia](disease) Time of Treatment method Ok
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) How to heal Yeah
+- Worthy of [Alveolar proteinosis](disease) Time of How to treat what
+- Worthy of [cold](disease) of Kiji What
+- gave birth [cold](disease) Time What
+- [Lobar Pneumonia](disease) What is it disease Ah
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) How to cure what
+- Catch [Cadmium poisoning](disease) of Treatment method Ah
+- therapy [Anaphylactic shock](disease) Yeah
+- Get [Hypersensitivity pneumonia](disease) Time of Treatment method Acridine
+- gave birth [Pulmonary Actinomycosis](disease) Time Kiji what
+- Catch [Goodpasture syndrome](disease) of How to heal Ah
+- [Pneumococcal pneumonia](disease) What is it
+- Kiji [Pulmonary Candidiasis](disease) Time of
+- Kiji [Goodpasture syndrome](disease) Time Ok
+- Got it [Pulmonary bullae](disease) Time of How to heal What
+- Worthy of [Alveolar proteinosis](disease) Time How to cure Ok
+- What is [Pulmonary bullae](disease) Yeah
+- Give birth [Pulmonary-pleural amebiasis](disease) Time How to heal What
+- Give birth [Pulmonary Aspergillosis](disease) Time of How to treat Yeah
+- Suffer [cold](disease) Time of Treatment method
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) Time of Treatment method Ah
+- Give birth [Pulmonary Candidiasis](disease) Acridine
+- gave birth [Pulmonary bullae](disease) How to do Ok
+- Suffer [Goodpasture syndrome](disease) of How to treat Is it
+- [Septic shock](disease) What is it What
+- What is [Pulmonary Cryptococcosis](disease) Acridine
+- Worthy of [Pulmonary Aspergillosis](disease) Kiji Ok
+- Treatment method [Alveolar proteinosis](disease) Time Ok
+- [Foreign body in the respiratory tract](disease) How to heal Ah
+- Catch [Septic shock](disease) Time of How to cure Ah
+- Give birth [Alveolar proteinosis](disease) Time of Ok
+- Give birth [Pulmonary bullae](disease) How to heal Yeah
+- Worthy of [Benzene poisoning](disease) Time Treatment method Yeah
+- gave birth [Carbon disulfide poisoning](disease) Time How to cure Is it
+- infection [Pulmonary Candidiasis](disease) of Kiji Ah
+- Catch [Alveolar proteinosis](disease) Time How to cure Is it
+- Get [Pulmonary bullae](disease) Time How to cure Ah
+- gave birth [Bacillus pneumoniae pneumonia](disease) Time of Ah
+- Suffer [Foreign body in the respiratory tract](disease) Time Kiji Is it
+- Suffer [Pulmonary Cryptococcosis](disease) Time Kiji What
+- Get [pneumonia](disease) of How to cure
+- Suffer [Lobar Pneumonia](disease) Time of How to heal Acridine
+- Get [Lobar Pneumonia](disease) Time of How to cure Ah
+- Catch [Septic shock](disease) of What to do what
+- [Pulmonary bullae](disease) Time How to treat What
+- Worthy of [Anaphylactic shock](disease) Time How to treat Ah
+- Give birth [Pulmonary Aspergillosis](disease) Time of Treatment method What
+- Worthy of [Lung abscess](disease) Time of How to heal Acridine
+- Suffer [Alveolar proteinosis](disease) of What to do What
+- How to heal [Pulmonary-pleural amebiasis](disease) Ok
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) of How to cure What
+- gave birth [Bacillus pneumoniae pneumonia](disease) How to treat Ah
+- gave birth [Lung abscess](disease) of What to do Is it
+- Give birth [Goodpasture syndrome](disease) Time of How to cure Ok
+- infection [Mercury poisoning](disease) Time of How to heal what
+- Worthy of [Pulmonary embolism](disease) Time Treatment method Yeah
+- Worthy of [Carbon disulfide poisoning](disease) How to cure Ah
+- Worthy of [Foreign body in the respiratory tract](disease) Time How to heal Ok
+- What is [pertussis](disease) What
+- Get [Carbon disulfide poisoning](disease) of How to treat
+- Get [Hypersensitivity pneumonia](disease) Time What to do
+- How to cure [Simple pulmonary eosinophilic infiltration](disease) Time What
+- [Pneumococcal pneumonia](disease) Time How to cure Is it
+- [Anaphylactic shock](disease) of How to do Yeah
+- [Wheezing bronchitis](disease) What is it Ok
+- [Septic shock](disease) What is it disease Ok
+- Give birth [Emphysema](disease) How to heal What
+- [cold](disease) What is it Is it
+- infection [Pulmonary-pleural amebiasis](disease) of How to cure What
+- infection [Simple pulmonary eosinophilic infiltration](disease) of Kiji Ok
+- Suffer [Alveolar proteinosis](disease) Time How to cure Ok
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) Time Kiji What
+- [Radiation pneumonia](disease) What is it Acridine
+- Worthy of [Foreign body in the respiratory tract](disease) of Treatment method Yeah
+- Catch [pertussis](disease) Time of What to do
+- Kiji [Alveolar proteinosis](disease) Time of
+- [Pulmonary-pleural amebiasis](disease) what
+- Got it [Carbon disulfide poisoning](disease) Time How to treat Ah
+- Give birth [cold](disease) of How to cure Yeah
+- [pertussis](disease) Time Kiji What
+- What is [Cadmium poisoning](disease) what
+- [Pulmonary-pleural amebiasis](disease) What is it disease Ok
+- Give birth [Cadmium poisoning](disease) of How to treat Is it
+- [Benzene poisoning](disease) Time Yeah
+- Get [Bacillus pneumoniae pneumonia](disease) Time of How to treat Is it
+- infection [Goodpasture syndrome](disease) of How to cure Acridine
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) Time of How to heal what
+- Worthy of [Carbon disulfide poisoning](disease) Time of How to treat Ah
+- Get [Pulmonary Edema](disease) How to heal Yeah
+- [SARS](disease) What is it disease Acridine
+- gave birth [Cadmium poisoning](disease) of How to treat Ok
+- Get [Mercury poisoning](disease) of Treatment method what
+- Get [Pulmonary embolism](disease) Time of What to do Is it
+- [Benzene poisoning](disease) What is it disease
+- Get [Carbon disulfide poisoning](disease) Time of What to do what
+- Give birth [Pneumococcal pneumonia](disease) of Kiji Yeah
+- Got it [Anaphylactic shock](disease) Time of Kiji Ok
+- infection [cold](disease) How to do Is it
+- Suffer [Alveolar proteinosis](disease) Time How to treat Ok
+- [Pneumococcal pneumonia](disease) What is it what
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) Time How to do Is it
+- Suffer [Benzene poisoning](disease) Time How to heal
+- Suffer [Lobar Pneumonia](disease) Time of Treatment method Ah
+- Suffer [Radiation pneumonia](disease) Time therapy
+- [Hypersensitivity pneumonia](disease) What is it disease Ok
+- Treatment method [Wheezing bronchitis](disease) Time of What
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) of How to treat what
+- [Foreign body in the respiratory tract](disease) What is it What
+- [Emphysema](disease) Time Acridine
+- [Pulmonary Actinomycosis](disease) What is it what
+- What to do [Goodpasture syndrome](disease) Time Acridine
+- Catch [Bacillus pneumoniae pneumonia](disease) How to heal what
+- What is [pertussis](disease) Acridine
+- Get [Pulmonary pseudotumor](disease) Time How to cure Yeah
+- gave birth [pneumonia](disease) of How to treat
+- What is [Lobar Pneumonia](disease) What
+- Worthy of [Bullae](disease) Time How to heal what
+- Suffer [Lung cancer](disease) Time of what
+- [Bullae](disease) What is it Acridine
+- Catch [Pulmonary Actinomycosis](disease) of What to do What
+- Kiji [Pulmonary Cryptococcosis](disease) of Ok
+- gave birth [Pulmonary bullae](disease) How to heal
+- [Alveolar proteinosis](disease) What is it Ah
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) Time of Kiji Is it
+- Worthy of [Bacillus pneumoniae pneumonia](disease) Time of What to do Is it
+- gave birth [Pulmonary Candidiasis](disease) How to heal what
+- [Adult respiratory distress syndrome](disease) What is it Ok
+- infection [Cadmium poisoning](disease) Kiji Is it
+- Give birth [pertussis](disease) of What to do Acridine
+- Suffer [Lung abscess](disease) How to heal Ah
+- Give birth [Pneumococcal pneumonia](disease) Time of Kiji Is it
+- How to cure [Bullae](disease) Time Acridine
+- gave birth [Goodpasture syndrome](disease) Time How to cure Ok
+- Catch [Alveolar proteinosis](disease) Time of therapy Ok
+- Got it [Goodpasture syndrome](disease) of How to cure What
+- Catch [Pulmonary Edema](disease) of How to cure
+- [Pulmonary-pleural amebiasis](disease) of therapy Ah
+- Get [Cadmium poisoning](disease) How to cure what
+- gave birth [cold](disease) of How to heal What
+- What is [Anaphylactic shock](disease) Yeah
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) Time How to treat what
+- gave birth [Bacillus pneumoniae pneumonia](disease) Time of How to treat Ah
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) Time of Kiji what
+- How to do [pneumonia](disease) of what
+- Suffer [Pulmonary bullae](disease) of How to treat Is it
+- How to cure [Septic shock](disease) Time Ah
+- [Hypersensitivity pneumonia](disease) What is it Acridine
+- Got it [Pneumococcal pneumonia](disease) of Treatment method
+- Worthy of [Pulmonary pseudotumor](disease) How to cure what
+- [Pulmonary Aspergillosis](disease) What is it Acridine
+- infection [Building Sick Syndrome](disease) Time How to treat What
+- [Respiratory bronchiole-related interstitial lung disease](disease) What is it disease Yeah
+- [Lung metastases](disease) What is it What
+- [Pulmonary embolism](disease) Time Kiji Ok
+- Worthy of [pertussis](disease) Treatment method Yeah
+- How to treat [Pulmonary pseudotumor](disease) Time of What
+- Get [Alveolar proteinosis](disease) How to heal Yeah
+- infection [Simple pulmonary eosinophilic infiltration](disease) How to do
+- gave birth [Bullae](disease) of What to do
+- Worthy of [Pulmonary-pleural amebiasis](disease) How to do Is it
+- Give birth [Benzene poisoning](disease) Treatment method what
+- What is [pertussis](disease) what
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) therapy Is it
+- infection [Adult respiratory distress syndrome](disease) Time of How to heal
+- Get [Adult respiratory distress syndrome](disease) Time How to cure what
+- Get [Pulmonary Cryptococcosis](disease) Time of Kiji Is it
+- What to do [Foreign body in the respiratory tract](disease) Ah
+- [Building Sick Syndrome](disease) What is it Ah
+- [Mercury poisoning](disease) What is it
+- gave birth [Emphysema](disease) Time Kiji
+- Give birth [Benzene poisoning](disease) of therapy Yeah
+- Get [Pulmonary pseudotumor](disease) Time of How to treat What
+- [Pulmonary bullae](disease) Time What
+- Got it [Alveolar proteinosis](disease) of Treatment method What
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) of Kiji What
+- Worthy of [Benzene poisoning](disease) How to treat what
+- Got it [Building Sick Syndrome](disease) Time therapy Is it
+- therapy [Foreign body in the respiratory tract](disease) Time Ah
+- infection [Pulmonary pseudotumor](disease) Kiji Yeah
+- Get [Pulmonary Edema](disease) of How to treat What
+- Worthy of [Pulmonary-pleural amebiasis](disease) Kiji what
+- How to treat [Building Sick Syndrome](disease) Time of what
+- Worthy of [Pneumococcal pneumonia](disease) Time of Acridine
+- [Carbon disulfide poisoning](disease) of Yeah
+- Catch [SARS](disease) Acridine
+- infection [Pneumococcal pneumonia](disease) Time How to cure Is it
+- infection [Building Sick Syndrome](disease) Time What to do Is it
+- How to cure [pertussis](disease) of Acridine
+- Get [Bullae](disease) Time How to do Acridine
+- [Building Sick Syndrome](disease) Time of Kiji Ah
+- Give birth [SARS](disease) of Kiji what
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) Time What to do Yeah
+- How to do [Lobar Pneumonia](disease) Time of
+- [Alveolar proteinosis](disease) Time of Kiji Acridine
+- gave birth [Wheezing bronchitis](disease) Time what
+- Get [Bullae](disease) Time How to do
+- [pneumonia](disease) Time of How to treat Is it
+- [Respiratory bronchiole-related interstitial lung disease](disease) What is it disease Acridine
+- therapy [Pulmonary Edema](disease) of Is it
+- Suffer [Anaphylactic shock](disease) How to heal Ah
+- Get [Lung cancer](disease) How to heal
+- Worthy of [Hypersensitivity pneumonia](disease) Time of Kiji Acridine
+- Give birth [Lung metastases](disease) Time How to cure Ah
+- [Septic shock](disease) of What to do Acridine
+- Treatment method [Goodpasture syndrome](disease) What
+- Get [Building Sick Syndrome](disease) Time What to do What
+- Worthy of [Emphysema](disease) How to heal Acridine
+- infection [Anaphylactic shock](disease) Kiji What
+- therapy [Adult respiratory distress syndrome](disease) Ok
+- Worthy of [Emphysema](disease) Time of How to treat Yeah
+- Worthy of [cold](disease) of How to cure Ok
+- What is [Mercury poisoning](disease) What
+- Suffer [Cadmium poisoning](disease) of How to heal Yeah
+- Treatment method [Pulmonary pseudotumor](disease) Time Acridine
+- Suffer [Pulmonary Cryptococcosis](disease) Kiji Ok
+- [Pulmonary Actinomycosis](disease) What is it Ah
+- [pertussis](disease) What is it
+- What is [Anaphylactic shock](disease) Ok
+- Treatment method [Pulmonary Cryptococcosis](disease) Ah
+- [Radiation pneumonia](disease) What is it what
+- How to treat [Radiation pneumonia](disease) Time of Is it
+- Suffer [Alveolar proteinosis](disease) What to do Ok
+- How to heal [Bacillus pneumoniae pneumonia](disease) of Is it
+- What is [Pulmonary pseudotumor](disease) Ah
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What is it disease Ok
+- Suffer [Pulmonary-pleural amebiasis](disease) How to cure Ah
+- Give birth [Pulmonary-pleural amebiasis](disease) Time How to cure Yeah
+- Worthy of [Lobar Pneumonia](disease) of How to do Acridine
+- Got it [Benzene poisoning](disease) Time How to cure
+- Give birth [pneumonia](disease) of How to heal Acridine
+- Get [Mercury poisoning](disease) Time How to heal Ok
+- Suffer [Wheezing bronchitis](disease) Time Treatment method What
+- [Respiratory bronchiole-related interstitial lung disease](disease) of Kiji Is it
+- Suffer [Lung abscess](disease) of therapy Ok
+- infection [Septic shock](disease) How to cure Ah
+- [Pulmonary Actinomycosis](disease) How to heal Is it
+- How to treat [pneumonia](disease) Time What
+- [Lung cancer](disease) What is it disease What
+- [Pulmonary Actinomycosis](disease) What is it Ok
+- Suffer [Pulmonary Edema](disease) How to treat Yeah
+- Suffer [Alveolar proteinosis](disease) What to do What
+- Get [Lung abscess](disease) Kiji Is it
+- Got it [Bacillus pneumoniae pneumonia](disease) How to treat Yeah
+- Catch [Emphysema](disease) Time Kiji Ok
+- How to cure [Foreign body in the respiratory tract](disease) Time of Ok
+- Got it [Bullae](disease) of How to treat Ok
+- [Pulmonary bullae](disease) Time of What to do Ok
+- Suffer [Cadmium poisoning](disease) of Treatment method what
+- [Pulmonary Candidiasis](disease) What is it disease what
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) How to treat What
+- Catch [Bullae](disease) Time of How to treat what
+- Worthy of [Adult respiratory distress syndrome](disease) Time Treatment method What
+- [Anaphylactic shock](disease) What is it What
+- Got it [SARS](disease) Time of Kiji what
+- gave birth [Alveolar proteinosis](disease) therapy Yeah
+- [Respiratory bronchiole-related interstitial lung disease](disease) Time of therapy Ok
+- Get [Septic shock](disease) of Kiji Yeah
+- Got it [Pulmonary Actinomycosis](disease) Time of How to cure Ok
+- infection [Foreign body in the respiratory tract](disease) Time How to cure what
+- Treatment method [Pulmonary Aspergillosis](disease)
+- Get [Pulmonary bullae](disease) of How to treat Ok
+- Worthy of [Pulmonary pseudotumor](disease) Time How to heal What
+- Suffer [Goodpasture syndrome](disease) of Treatment method what
+- Kiji [Building Sick Syndrome](disease) Ah
+- Suffer [Pulmonary bullae](disease) Time of How to cure Ah
+- [Bullae](disease) What is it disease Acridine
+- [Wheezing bronchitis](disease) What is it disease Ah
+- Catch [Adult respiratory distress syndrome](disease) Time of How to cure Ah
+- Get [Pulmonary Edema](disease) what
+- [Anaphylactic shock](disease) What is it Ah
+- How to treat [Foreign body in the respiratory tract](disease) what
+- Get [Lung metastases](disease) of What to do what
+- Get [Hypersensitivity pneumonia](disease) Time Treatment method Ah
+- infection [Pulmonary Edema](disease) Time of How to treat Ah
+- infection [Lung cancer](disease) of therapy Is it
+- infection [Lobar Pneumonia](disease) Time How to treat Ah
+- [Pulmonary Candidiasis](disease) of How to treat What
+- [Pulmonary pseudotumor](disease) What is it what
+- Got it [SARS](disease) Time of How to treat what
+- What is [Bacillus pneumoniae pneumonia](disease)
+- Give birth [Radiation pneumonia](disease) Time How to heal Yeah
+- Worthy of [Emphysema](disease) Time Kiji Ok
+- Give birth [Wheezing bronchitis](disease) Time of How to heal Yeah
+- [Carbon disulfide poisoning](disease) What is it Ok
+- infection [Large amounts of amniotic fluid inhalation](disease) of How to cure Yeah
+- Get [Lobar Pneumonia](disease) Time How to treat Ok
+- [Hypersensitivity pneumonia](disease) Kiji Yeah
+- What is [Pulmonary hemorrhage-nephritis syndrome](disease)
+- Get [Lung cancer](disease) How to heal Ok
+- How to heal [Pulmonary Cryptococcosis](disease) Time Acridine
+- [Pulmonary Candidiasis](disease) What is it disease
+- [Respiratory bronchiole-related interstitial lung disease](disease) What is it Is it
+- [Bullae](disease) Time of Yeah
+- What is [Pulmonary Cryptococcosis](disease) Is it
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) therapy Ok
+- How to treat [Pulmonary hemorrhage-nephritis syndrome](disease) of Ok
+- Give birth [Lung cancer](disease) of How to treat
+- therapy [Respiratory bronchiole-related interstitial lung disease](disease) of Acridine
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) Time of What to do What
+- Catch [Pneumococcal pneumonia](disease) of How to heal What
+- Give birth [Pulmonary embolism](disease) Time of Kiji Yeah
+- [Pulmonary Candidiasis](disease) What is it
+- [Bullae](disease) What is it disease Ah
+- How to cure [Lobar Pneumonia](disease) Time what
+- [cold](disease) What is it Yeah
+- Get [Goodpasture syndrome](disease) Time How to cure
+- Got it [Foreign body in the respiratory tract](disease) Time of How to heal what
+- [Lung cancer](disease) What is it What
+- Suffer [pertussis](disease) How to treat Yeah
+- [Pulmonary Candidiasis](disease) What is it What
+- gave birth [Benzene poisoning](disease) of How to treat
+- How to heal [Building Sick Syndrome](disease) Ok
+- [Pneumococcal pneumonia](disease) Time Treatment method Acridine
+- Give birth [Pulmonary-pleural amebiasis](disease) How to cure Acridine
+- Got it [Building Sick Syndrome](disease) Time of Kiji Is it
+- [Lung metastases](disease) What is it Ok
+- Give birth [Pulmonary-pleural amebiasis](disease) of How to heal Ok
+- Catch [Lung cancer](disease) Time of How to treat what
+- Give birth [Pulmonary Edema](disease) Time Is it
+- gave birth [Foreign body in the respiratory tract](disease) How to treat Is it
+- Suffer [Benzene poisoning](disease) of Kiji
+- Worthy of [Wheezing bronchitis](disease) Time of Kiji
+- [Lung metastases](disease) Time How to do Acridine
+- What is [Simple pulmonary eosinophilic infiltration](disease) What
+- Get [SARS](disease) of Ah
+- Suffer [Wheezing bronchitis](disease) of What to do Ah
+- [Radiation pneumonia](disease) What is it Yeah
+- gave birth [Emphysema](disease) Time of Yeah
+- Worthy of [Anaphylactic shock](disease) of How to cure Is it
+- Got it [SARS](disease) of Treatment method What
+- Catch [Pulmonary embolism](disease) Time of therapy Acridine
+- [Benzene poisoning](disease) How to treat what
+- Got it [Pulmonary Actinomycosis](disease) Time of How to heal Is it
+- Give birth [Alveolar proteinosis](disease) How to heal Ah
+- Catch [Pulmonary embolism](disease) of Kiji Is it
+- Got it [Large amounts of amniotic fluid inhalation](disease) of What to do Ok
+- infection [Bullae](disease) Time How to heal Is it
+- [Radiation pneumonia](disease) What is it disease what
+- What is [Pulmonary Aspergillosis](disease) Ok
+- How to cure [Adult respiratory distress syndrome](disease) Time Acridine
+- Get [Lobar Pneumonia](disease) How to cure Is it
+- Get [pneumonia](disease) Time of Ah
+- Treatment method [Adult respiratory distress syndrome](disease) Time Ah
+- Worthy of [Pulmonary pseudotumor](disease) Time What to do
+- Get [pertussis](disease) of Kiji what
+- Got it [Anaphylactic shock](disease) of therapy what
+- Suffer [Foreign body in the respiratory tract](disease) How to treat Ah
+- [SARS](disease) What is it disease
+- Suffer [Alveolar proteinosis](disease) of Kiji Acridine
+- What to do [Lung abscess](disease) Ah
+- [Simple pulmonary eosinophilic infiltration](disease) What is it disease Ok
+- infection [Emphysema](disease) Kiji Ok
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) Time of Treatment method Is it
+- infection [Mercury poisoning](disease) of How to heal Ah
+- Worthy of [Alveolar proteinosis](disease) Time How to do What
+- How to do [Emphysema](disease) Time of what
+- Worthy of [Radiation pneumonia](disease) How to do
+- Give birth [Bullae](disease) Time How to treat Acridine
+- How to treat [Lobar Pneumonia](disease) Is it
+- Get [Pulmonary Aspergillosis](disease) Time How to heal What
+- Catch [Lobar Pneumonia](disease) Kiji
+- What to do [Pulmonary Edema](disease) of Acridine
+- Got it [Hypersensitivity pneumonia](disease) of therapy Yeah
+- [Pneumococcal pneumonia](disease) What is it Ah
+- [Radiation pneumonia](disease) What is it disease Is it
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) of Ok
+- What is [Foreign body in the respiratory tract](disease) what
+- gave birth [Large amounts of amniotic fluid inhalation](disease) Time of Treatment method Ok
+- Worthy of [cold](disease) of How to treat Acridine
+- [SARS](disease) What is it Is it
+- Get [Mercury poisoning](disease) Time of What to do Ok
+- Catch [Hypersensitivity pneumonia](disease) Time of How to treat Acridine
+- Suffer [Alveolar proteinosis](disease) Time How to heal Ok
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) of What to do What
+- Catch [Foreign body in the respiratory tract](disease) of Treatment method Yeah
+- [Mercury poisoning](disease) What is it disease what
+- Got it [Lung cancer](disease) Time Acridine
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What is it Is it
+- Worthy of [Hypersensitivity pneumonia](disease) Kiji what
+- How to cure [Foreign body in the respiratory tract](disease) Time of what
+- What to do [Pulmonary embolism](disease) of Yeah
+- gave birth [Lung abscess](disease) therapy Is it
+- Catch [Hypersensitivity pneumonia](disease) Time what
+- Get [Lung abscess](disease) Time of How to heal Ok
+- Got it [Building Sick Syndrome](disease) Time of Kiji Ah
+- Worthy of [Bullae](disease) Kiji Acridine
+- Get [Goodpasture syndrome](disease) Time Treatment method what
+- Suffer [Radiation pneumonia](disease) Time of How to treat What
+- [Carbon disulfide poisoning](disease) What is it Ah
+- [Lobar Pneumonia](disease) How to treat Ok
+- Got it [Pulmonary-pleural amebiasis](disease) Time of What to do what
+- [Pulmonary bullae](disease) Time therapy Acridine
+- Get [Pulmonary-pleural amebiasis](disease) Time of Kiji Ok
+- Got it [Simple pulmonary eosinophilic infiltration](disease) Time of How to do what
+- [Foreign body in the respiratory tract](disease) of How to cure What
+- infection [Large amounts of amniotic fluid inhalation](disease) How to cure Acridine
+- How to cure [Lung cancer](disease) Time Ah
+- infection [Lung cancer](disease) of How to treat What
+- [Alveolar proteinosis](disease) What is it disease Yeah
+- [Respiratory bronchiole-related interstitial lung disease](disease) What is it Ok
+- [Benzene poisoning](disease) What is it Is it
+- Worthy of [Pulmonary bullae](disease) of How to treat Is it
+- What to do [Bacillus pneumoniae pneumonia](disease) what
+- Got it [Septic shock](disease) Kiji
+- [Pulmonary embolism](disease) What is it
+- Got it [Alveolar proteinosis](disease) of How to treat Yeah
+- [Anaphylactic shock](disease) What is it disease
+- Worthy of [Pulmonary Cryptococcosis](disease) Time of what
+- gave birth [SARS](disease) How to cure Ok
+- [pertussis](disease) What is it Yeah
+- infection [Benzene poisoning](disease) Time of Treatment method Acridine
+- gave birth [Radiation pneumonia](disease) Time of What to do
+- Got it [Pulmonary pseudotumor](disease) of What to do Ok
+- [Septic shock](disease) Time How to treat Ok
+- Kiji [Radiation pneumonia](disease) Yeah
+- How to do [Pulmonary Actinomycosis](disease) Time Acridine
+- Catch [cold](disease) of therapy Is it
+- Give birth [Foreign body in the respiratory tract](disease) of Kiji Ah
+- Got it [Anaphylactic shock](disease) How to do Ok
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) of Kiji
+- Catch [Benzene poisoning](disease) Time of Treatment method
+- Suffer [Lung abscess](disease) How to heal Yeah
+- [Septic shock](disease) What is it Is it
+- What to do [Respiratory bronchiole-related interstitial lung disease](disease) Time Ah
+- [Pulmonary Cryptococcosis](disease) What is it Is it
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) How to treat What
+- Catch [Lung cancer](disease) of How to treat Yeah
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Kiji Is it
+- Catch [Lung metastases](disease) How to do what
+- Get [Pulmonary Aspergillosis](disease) of How to cure Is it
+- Catch [Alveolar proteinosis](disease) How to treat Yeah
+- Got it [Pulmonary-pleural amebiasis](disease) Time therapy what
+- Get [Alveolar proteinosis](disease) Time of What to do Is it
+- [Lung abscess](disease) What is it disease What
+- Give birth [Lung abscess](disease) Time How to heal Yeah
+- What is [Lung abscess](disease) Ah
+- Suffer [Pulmonary Candidiasis](disease) of Kiji Acridine
+- [cold](disease) Time of How to cure Ok
+- [Pulmonary bullae](disease) What is it Ah
+- Worthy of [Pulmonary Aspergillosis](disease) of How to treat Ok
+- Get [Pulmonary Candidiasis](disease) Time of How to heal Is it
+- therapy [Pulmonary-pleural amebiasis](disease) of Is it
+- [Large amounts of amniotic fluid inhalation](disease) What is it disease
+- Got it [Mercury poisoning](disease) of therapy
+- Got it [Cadmium poisoning](disease) of How to do What
+- [Pulmonary Actinomycosis](disease) What is it disease What
+- [Lobar Pneumonia](disease) Time of How to heal what
+- Suffer [Emphysema](disease) Time of How to treat what
+- infection [Pulmonary Candidiasis](disease) Time of How to treat What
+- gave birth [Cadmium poisoning](disease) of therapy what
+- [Pulmonary Aspergillosis](disease) What is it disease Yeah
+- How to cure [Pulmonary-pleural amebiasis](disease) Ok
+- gave birth [Anaphylactic shock](disease) What to do Acridine
+- gave birth [Wheezing bronchitis](disease) What to do Acridine
+- Give birth [Large amounts of amniotic fluid inhalation](disease) Time of what
+- Give birth [pertussis](disease) of Kiji what
+- [Wheezing bronchitis](disease) of therapy What
+- Give birth [Benzene poisoning](disease) of therapy
+- [Pulmonary Cryptococcosis](disease) What is it Yeah
+- Get [Mercury poisoning](disease) of Treatment method Acridine
+- How to heal [Pulmonary Edema](disease) of Yeah
+- Catch [Alveolar proteinosis](disease) Time of Kiji Is it
+- infection [Pulmonary-pleural amebiasis](disease) How to heal Ok
+- gave birth [pertussis](disease) Kiji Yeah
+- [Pulmonary Cryptococcosis](disease) What is it Acridine
+- [Carbon disulfide poisoning](disease) Kiji
+- Got it [Foreign body in the respiratory tract](disease) Time of Kiji Acridine
+- Treatment method [Lung cancer](disease) Ah
+- Worthy of [Pulmonary bullae](disease) How to cure Ah
+- [Pulmonary embolism](disease) of How to cure What
+- Catch [Carbon disulfide poisoning](disease) of What to do
+- Kiji [Pulmonary hemorrhage-nephritis syndrome](disease) Time of Is it
+- How to cure [Radiation pneumonia](disease) What
+- Worthy of [Pulmonary-pleural amebiasis](disease) of therapy
+- Get [Large amounts of amniotic fluid inhalation](disease) of How to cure Is it
+- Catch [Cadmium poisoning](disease) How to cure Acridine
+- Worthy of [Pulmonary bullae](disease) Time Treatment method what
+- gave birth [Pulmonary Aspergillosis](disease) Time How to treat Is it
+- [Respiratory bronchiole-related interstitial lung disease](disease) Time of How to heal Acridine
+- How to cure [Anaphylactic shock](disease) Time of Ah
+- [Lung metastases](disease) Time of How to heal Is it
+- Worthy of [Lobar Pneumonia](disease) Time How to treat Acridine
+- Got it [cold](disease) of Treatment method
+- What to do [pneumonia](disease) Acridine
+- Got it [Pulmonary Actinomycosis](disease) How to do Ah
+- therapy [Pulmonary pseudotumor](disease) Time of Is it
+- infection [Cadmium poisoning](disease) Kiji
+- gave birth [Pulmonary Actinomycosis](disease) How to cure Acridine
+- gave birth [Septic shock](disease) Treatment method Is it
+- How to cure [Anaphylactic shock](disease) Time Yeah
+- Got it [Carbon disulfide poisoning](disease) Time of How to treat What
+- infection [Pulmonary bullae](disease) of
+- Suffer [Pulmonary-pleural amebiasis](disease) of How to cure What
+- Worthy of [Lung metastases](disease) Time Ok
+- [Bullae](disease) What is it Yeah
+- [Mercury poisoning](disease) Time Ok
+- Kiji [Pulmonary Cryptococcosis](disease)
+- [Hypersensitivity pneumonia](disease) What is it disease
+- Give birth [Pulmonary bullae](disease) Time How to cure Yeah
+- Get [Mercury poisoning](disease) of Treatment method Yeah
+- Get [Bacillus pneumoniae pneumonia](disease) of How to heal Ah
+- Got it [Pulmonary Aspergillosis](disease) of How to cure Acridine
+- gave birth [Pulmonary Candidiasis](disease) Time Kiji Ok
+- Got it [Cadmium poisoning](disease) How to heal Ah
+- infection [Pulmonary-pleural amebiasis](disease) of Kiji Yeah
+- gave birth [Radiation pneumonia](disease) Time of what
+- Worthy of [Pneumococcal pneumonia](disease) of How to cure What
+- What is [Septic shock](disease) Is it
+- Catch [Mercury poisoning](disease) Time What to do
+- Worthy of [Carbon disulfide poisoning](disease) Time How to treat Is it
+- [Pulmonary Actinomycosis](disease) Time How to treat What
+- Got it [Carbon disulfide poisoning](disease) Time of How to heal Acridine
+- Catch [pneumonia](disease) Time Kiji Ok
+- Got it [Lung cancer](disease) of How to cure Ok
+- [Pulmonary Candidiasis](disease) How to heal Acridine
+- Got it [Simple pulmonary eosinophilic infiltration](disease) Time How to do what
+- Got it [Mercury poisoning](disease) of How to do Ok
+- Give birth [Pulmonary bullae](disease) Time of How to heal Acridine
+- infection [Alveolar proteinosis](disease) of Kiji What
+- [Radiation pneumonia](disease) What is it disease What
+- What is [SARS](disease) Yeah
+- [Pulmonary-pleural amebiasis](disease) Acridine
+- gave birth [Pulmonary pseudotumor](disease) Yeah
+- What is [Foreign body in the respiratory tract](disease) Ah
+- Get [Radiation pneumonia](disease) How to cure Ok
+- Worthy of [Adult respiratory distress syndrome](disease) of How to heal
+- [pneumonia](disease) What is it disease Acridine
+- Get [Radiation pneumonia](disease) Time How to treat what
+- How to cure [Carbon disulfide poisoning](disease) Time of Yeah
+- How to heal [Mercury poisoning](disease) Yeah
+- [Lung abscess](disease) Time of How to do Yeah
+- What is [Cadmium poisoning](disease) What
+- [Benzene poisoning](disease) What is it disease Acridine
+- Got it [Lobar Pneumonia](disease) How to cure What
+- [Lobar Pneumonia](disease) of How to treat
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) of Is it
+- [Lung abscess](disease) What is it disease Is it
+- Catch [Anaphylactic shock](disease) Time of How to heal Ah
+- Get [cold](disease) Time of Kiji Ah
+- Give birth [Adult respiratory distress syndrome](disease) How to do What
+- Got it [Lung abscess](disease) Time of How to heal Is it
+- gave birth [pertussis](disease) of How to cure Ah
+- infection [Pulmonary Candidiasis](disease) Time of How to treat
+- [SARS](disease) How to do Ah
+- How to do [Large amounts of amniotic fluid inhalation](disease) What
+- Got it [Pulmonary Candidiasis](disease) Time of What to do what
+- infection [Pulmonary Cryptococcosis](disease) Time Treatment method
+- [Carbon disulfide poisoning](disease) Time of How to heal
+- Get [SARS](disease) Time How to heal Ok
+- Catch [Pulmonary Candidiasis](disease) of How to treat Is it
+- How to heal [Simple pulmonary eosinophilic infiltration](disease) Time
+- Suffer [Foreign body in the respiratory tract](disease) Time Kiji Acridine
+- gave birth [Pulmonary Candidiasis](disease) How to treat what
+- [Pulmonary Candidiasis](disease) What is it disease Yeah
+- How to cure [Pulmonary-pleural amebiasis](disease) Time Acridine
+- gave birth [Large amounts of amniotic fluid inhalation](disease) How to cure Ah
+- [Pulmonary Aspergillosis](disease) What is it Ok
+- Give birth [Septic shock](disease) of Treatment method What
+- Got it [cold](disease) Time Kiji Is it
+- Treatment method [SARS](disease) Time of Acridine
+- gave birth [Pulmonary bullae](disease) Time How to treat Acridine
+- Worthy of [Pulmonary-pleural amebiasis](disease) Time of What to do Is it
+- [Large amounts of amniotic fluid inhalation](disease) What is it Ah
+- Worthy of [Septic shock](disease) of Kiji Is it
+- [Adult respiratory distress syndrome](disease) What is it disease Yeah
+- [Alveolar proteinosis](disease) Time How to treat what
+- Get [Simple pulmonary eosinophilic infiltration](disease) Time of How to heal Ok
+- gave birth [Benzene poisoning](disease) Time of Kiji What
+- What is [Lung metastases](disease) What
+- How to do [pertussis](disease) Time of
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) Time Kiji
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What is it disease what
+- [Pulmonary Candidiasis](disease) What is it Is it
+- gave birth [Hypersensitivity pneumonia](disease) Time of therapy
+- Get [Lobar Pneumonia](disease) Time How to treat Acridine
+- How to cure [pertussis](disease) Time of Acridine
+- gave birth [Pulmonary Actinomycosis](disease) Kiji Acridine
+- Give birth [Adult respiratory distress syndrome](disease) Time of How to cure Yeah
+- Give birth [Pulmonary Edema](disease) Time of Kiji what
+- gave birth [Bullae](disease) Time How to treat what
+- Worthy of [Pulmonary pseudotumor](disease) How to cure Ah
+- Got it [Bacillus pneumoniae pneumonia](disease) therapy Ok
+- Give birth [Simple pulmonary eosinophilic infiltration](disease) Treatment method Ok
+- Catch [Benzene poisoning](disease) of Treatment method What
+- Treatment method [SARS](disease) Yeah
+- gave birth [Radiation pneumonia](disease) Kiji Ah
+- [Cadmium poisoning](disease) What is it Is it
+- [Foreign body in the respiratory tract](disease) What is it disease Yeah
+- Suffer [Pulmonary Aspergillosis](disease) How to do Yeah
+- How to heal [Foreign body in the respiratory tract](disease) Ok
+- Got it [Benzene poisoning](disease) therapy What
+- gave birth [pertussis](disease) Time of How to cure Ah
+- [Goodpasture syndrome](disease) of How to do Ok
+- How to cure [Goodpasture syndrome](disease) of What
+- [Cadmium poisoning](disease) of How to cure What
+- How to heal [Pulmonary embolism](disease) what
+- How to cure [Goodpasture syndrome](disease) Ok
+- [Pulmonary Candidiasis](disease) What to do Acridine
+- [cold](disease) What is it disease what
+- Got it [Building Sick Syndrome](disease) Time of What to do Is it
+- What is [Building Sick Syndrome](disease) Yeah
+- gave birth [Cadmium poisoning](disease) Time of How to heal Is it
+- [Pulmonary-pleural amebiasis](disease) How to treat
+- [Pulmonary-pleural amebiasis](disease) Time Ok
+- Kiji [Simple pulmonary eosinophilic infiltration](disease) of Ok
+- [Pulmonary pseudotumor](disease) of How to treat What
+- Get [Hypersensitivity pneumonia](disease) Time of How to heal Is it
+- Catch [Radiation pneumonia](disease) of How to treat Acridine
+- [Pulmonary Aspergillosis](disease) What is it disease
+- Catch [pertussis](disease) Time Kiji Is it
+- Get [Lobar Pneumonia](disease) Time How to cure
+- What is [Emphysema](disease)
+- gave birth [Goodpasture syndrome](disease) of How to treat Is it
+- Get [Bacillus pneumoniae pneumonia](disease) of Treatment method Ok
+- gave birth [Pulmonary Candidiasis](disease) How to cure what
+- Suffer [SARS](disease) Ok
+- How to treat [Lobar Pneumonia](disease) of
+- Give birth [Septic shock](disease) Time of How to treat What
+- infection [Hypersensitivity pneumonia](disease) Time How to do
+- [Emphysema](disease) What is it
+- Kiji [cold](disease) Time Is it
+- Worthy of [Foreign body in the respiratory tract](disease) Time of How to cure Is it
+- infection [Emphysema](disease) How to heal Yeah
+- Give birth [Pulmonary Aspergillosis](disease) Time Kiji Acridine
+- gave birth [Large amounts of amniotic fluid inhalation](disease) What to do what
+- Catch [Building Sick Syndrome](disease) How to treat What
+- gave birth [Benzene poisoning](disease) Kiji Is it
+- Got it [Alveolar proteinosis](disease) Time Treatment method Yeah
+- How to treat [Lobar Pneumonia](disease) Time of
+- [Lung cancer](disease) What is it Is it
+- How to heal [Pulmonary Candidiasis](disease) Acridine
+- How to cure [SARS](disease) Ok
+- How to treat [Pulmonary-pleural amebiasis](disease) of Yeah
+- Worthy of [Adult respiratory distress syndrome](disease) How to do Acridine
+- Catch [Pulmonary Actinomycosis](disease) Time of Acridine
+- Get [Mercury poisoning](disease) of
+- [Pulmonary bullae](disease) Time of How to do Yeah
+- [Simple pulmonary eosinophilic infiltration](disease) What is it disease
+- Suffer [Lung metastases](disease) of Kiji
+- Get [Benzene poisoning](disease) of How to cure Acridine
+- Suffer [Adult respiratory distress syndrome](disease) of How to do Yeah
+- [Pulmonary bullae](disease) What is it disease Yeah
+- Catch [pneumonia](disease) of Kiji what
+- [Goodpasture syndrome](disease) What is it Yeah
+- Suffer [Pneumococcal pneumonia](disease) of Treatment method Is it
+- What is [Pulmonary bullae](disease) what
+- Worthy of [pertussis](disease) How to treat What
+- What is [Bullae](disease)
+- [Carbon disulfide poisoning](disease) What is it disease Is it
+- Suffer [cold](disease) of Treatment method Yeah
+- How to cure [Pulmonary Edema](disease) Time Yeah
+- [pertussis](disease) Time What to do Is it
+- Kiji [Lobar Pneumonia](disease) of Yeah
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) of Treatment method Ok
+- Catch [Septic shock](disease) of What to do What
+- Give birth [Radiation pneumonia](disease) of How to cure
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) of How to cure Is it
+- [Mercury poisoning](disease) What is it Ah
+- Catch [Pneumococcal pneumonia](disease) How to heal Ah
+- [Mercury poisoning](disease) What is it Is it
+- Got it [Alveolar proteinosis](disease) Time of How to heal Acridine
+- Get [Adult respiratory distress syndrome](disease) of What to do what
+- infection [Pulmonary Actinomycosis](disease) Time How to cure what
+- How to treat [Bullae](disease) Time Is it
+- [Mercury poisoning](disease) What is it What
+- Get [pertussis](disease) Time Ok
+- How to cure [Bullae](disease) Time of Yeah
+- [Alveolar proteinosis](disease) Time How to heal what
+- What is [Benzene poisoning](disease) what
+- gave birth [Goodpasture syndrome](disease) Treatment method what
+- Got it [Hypersensitivity pneumonia](disease) Time of therapy Yeah
+- Get [Pulmonary Aspergillosis](disease) How to treat Ok
+- What is [pertussis](disease)
+- [Wheezing bronchitis](disease) of How to do Ok
+- Catch [Mercury poisoning](disease) How to heal Acridine
+- Worthy of [Septic shock](disease) Treatment method Ah
+- [Lobar Pneumonia](disease) of How to cure
+- infection [Large amounts of amniotic fluid inhalation](disease) Treatment method Acridine
+- [Bullae](disease) Time How to do Ok
+- Suffer [cold](disease) Time of How to heal Ok
+- Catch [Pneumococcal pneumonia](disease) of How to treat
+- Worthy of [Radiation pneumonia](disease)
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) Time of How to treat What
+- How to do [Lung cancer](disease) Time Acridine
+- How to treat [Lung abscess](disease) Time of Is it
+- Got it [Building Sick Syndrome](disease) Time How to treat Is it
+- Get [Septic shock](disease) How to cure What
+- How to treat [Septic shock](disease) of Yeah
+- [Goodpasture syndrome](disease) What is it Acridine
+- Give birth [Pulmonary Candidiasis](disease) Time of How to treat Acridine
+- Get [Large amounts of amniotic fluid inhalation](disease) Treatment method Ok
+- infection [Goodpasture syndrome](disease) of How to treat Ah
+- Catch [Lung abscess](disease) Time therapy Acridine
+- Give birth [Pulmonary Cryptococcosis](disease) Time of How to treat Yeah
+- Got it [Emphysema](disease) Time of Kiji
+- What to do [Pulmonary-pleural amebiasis](disease) Time Acridine
+- Kiji [Radiation pneumonia](disease) what
+- gave birth [Pulmonary embolism](disease) Time of Treatment method What
+- Get [Lung metastases](disease) Time of How to cure Is it
+- gave birth [Mercury poisoning](disease) Kiji Ok
+- Give birth [Anaphylactic shock](disease) Time How to treat Ok
+- Give birth [Foreign body in the respiratory tract](disease) of How to treat What
+- Catch [Pulmonary pseudotumor](disease) Kiji Is it
+- Worthy of [Hypersensitivity pneumonia](disease) Time of What to do Is it
+- Give birth [Pulmonary Aspergillosis](disease) Time Kiji Is it
+- Got it [Cadmium poisoning](disease) Time How to cure Ok
+- Treatment method [Pulmonary Candidiasis](disease) of Ok
+- Suffer [Building Sick Syndrome](disease) of therapy what
+- Suffer [Pulmonary Candidiasis](disease) of therapy
+- Got it [Hypersensitivity pneumonia](disease) Treatment method Is it
+- How to treat [Carbon disulfide poisoning](disease) Time of what
+- [Pulmonary Cryptococcosis](disease) Time How to treat What
+- [Bullae](disease) of Ah
+- [Adult respiratory distress syndrome](disease) What is it disease what
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) Time of What to do Yeah
+- gave birth [Pulmonary bullae](disease) Time of How to do Is it
+- Kiji [cold](disease) Time What
+- Worthy of [pneumonia](disease) Time How to cure What
+- Give birth [Mercury poisoning](disease) Kiji Ok
+- Got it [Anaphylactic shock](disease) Time Treatment method what
+- Get [Anaphylactic shock](disease) of How to cure Is it
+- [Mercury poisoning](disease) What is it disease
+- [Simple pulmonary eosinophilic infiltration](disease) Time therapy What
+- [SARS](disease) What is it disease Is it
+- Catch [cold](disease) Time of Ah
+- [cold](disease) How to cure
+- Worthy of [Foreign body in the respiratory tract](disease) What to do What
+- infection [Pulmonary-pleural amebiasis](disease) Kiji Ah
+- What is [Pulmonary hemorrhage-nephritis syndrome](disease) Ok
+- Suffer [Pulmonary Edema](disease) Time How to heal
+- Worthy of [Pulmonary Edema](disease) Time How to treat Ah
+- How to do [Pulmonary Aspergillosis](disease) what
+- [Lung cancer](disease) what
+- Kiji [Simple pulmonary eosinophilic infiltration](disease) What
+- Suffer [Anaphylactic shock](disease) of therapy Is it
+- Give birth [Lung metastases](disease) How to treat Is it
+- Got it [Pulmonary Aspergillosis](disease) Time of therapy Ok
+- How to do [Pulmonary hemorrhage-nephritis syndrome](disease) Time What
+- Get [Lobar Pneumonia](disease) of How to treat Yeah
+- gave birth [Bullae](disease) Acridine
+- How to heal [Benzene poisoning](disease) Time of What
+- Get [Pulmonary pseudotumor](disease) of therapy Ok
+- [Large amounts of amniotic fluid inhalation](disease) What is it disease Acridine
+- Worthy of [Septic shock](disease) How to do Is it
+- Suffer [Emphysema](disease) Time of How to cure What
+- Worthy of [Lung metastases](disease) of How to heal What
+- Catch [Bacillus pneumoniae pneumonia](disease) Time of Kiji What
+- [Foreign body in the respiratory tract](disease) Time How to do What
+- Suffer [Foreign body in the respiratory tract](disease) What
+- Catch [Carbon disulfide poisoning](disease) of What to do Is it
+- [Pulmonary bullae](disease) Time How to heal Acridine
+- How to cure [Emphysema](disease) Time of Is it
+- Got it [Pulmonary bullae](disease) Kiji Ah
+- Give birth [Alveolar proteinosis](disease) Time What to do Is it
+- Get [Simple pulmonary eosinophilic infiltration](disease) of What to do Is it
+- Catch [Simple pulmonary eosinophilic infiltration](disease) of How to treat Acridine
+- Catch [Bullae](disease) of Kiji Ah
+- Catch [Bullae](disease) Time of How to cure Is it
+- [Hypersensitivity pneumonia](disease) What is it What
+- How to cure [Alveolar proteinosis](disease) of Yeah
+- [pertussis](disease) What is it disease what
+- Get [Hypersensitivity pneumonia](disease) Time of How to heal Ah
+- infection [Mercury poisoning](disease) Time of How to cure Ok
+- What is [Pulmonary bullae](disease) Acridine
+- [Pulmonary bullae](disease) of Kiji Yeah
+- Catch [SARS](disease) Time Treatment method What
+- Got it [Large amounts of amniotic fluid inhalation](disease) of Treatment method Ah
+- [Mercury poisoning](disease) What is it what
+- Give birth [Pulmonary Aspergillosis](disease) Time of what
+- infection [Bacillus pneumoniae pneumonia](disease) Time of How to treat Acridine
+- Catch [Pulmonary Edema](disease) of What to do what
+- Give birth [Pulmonary Candidiasis](disease) of How to heal Ah
+- Give birth [Lung cancer](disease) Time How to cure Acridine
+- gave birth [Wheezing bronchitis](disease) Time How to heal
+- Get [Benzene poisoning](disease) Time How to cure
+- [Anaphylactic shock](disease) Time of What
+- gave birth [Septic shock](disease) Time of Kiji Ah
+- [Carbon disulfide poisoning](disease) What is it disease
+- Catch [Emphysema](disease) Time What to do
+- Give birth [Pneumococcal pneumonia](disease) How to treat what
+- gave birth [Lung metastases](disease) What to do Acridine
+- What is [Pulmonary-pleural amebiasis](disease) What
+- Worthy of [Foreign body in the respiratory tract](disease) Time How to treat Ok
+- Get [Pulmonary Actinomycosis](disease) Time How to heal
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What is it disease
+- [Pulmonary pseudotumor](disease) How to treat What
+- [Pulmonary-pleural amebiasis](disease) What is it Is it
+- How to heal [Pulmonary Candidiasis](disease) Time of
+- How to do [Pulmonary bullae](disease) Time Yeah
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) Time of What to do What
+- [Lung cancer](disease) What is it disease Ah
+- [SARS](disease) What is it
+- Catch [Pulmonary bullae](disease) Time of Treatment method What
+- Worthy of [Mercury poisoning](disease) of How to do What
+- [Alveolar proteinosis](disease) Time How to treat Ok
+- Catch [Alveolar proteinosis](disease) Time Kiji Yeah
+- Give birth [Adult respiratory distress syndrome](disease) Time of How to heal What
+- Get [Bacillus pneumoniae pneumonia](disease) Time How to cure
+- infection [Lung cancer](disease) of What to do Ok
+- What is [Pulmonary Actinomycosis](disease) Acridine
+- Suffer [Lung metastases](disease) What to do Ok
+- Worthy of [Foreign body in the respiratory tract](disease) Time of How to cure Ah
+- gave birth [pertussis](disease) Time of How to heal
+- Get [Pulmonary-pleural amebiasis](disease) Time of What to do Ok
+- Give birth [Lung cancer](disease) Time How to cure
+- What is [Pneumococcal pneumonia](disease) Is it
+- Got it [Simple pulmonary eosinophilic infiltration](disease) Time How to cure Yeah
+- gave birth [pneumonia](disease) of
+- Got it [Hypersensitivity pneumonia](disease) Time How to heal Is it
+- Catch [SARS](disease) How to treat
+- Get [Lung cancer](disease) therapy Yeah
+- Suffer [Alveolar proteinosis](disease) Treatment method Ok
+- [pneumonia](disease) Time of How to heal Ok
+- Suffer [Pulmonary Edema](disease) Time of How to treat What
+- gave birth [cold](disease) Time
+- gave birth [Pulmonary-pleural amebiasis](disease) Time What to do
+- Give birth [Hypersensitivity pneumonia](disease) of Kiji Acridine
+- Suffer [Radiation pneumonia](disease) Time How to heal Yeah
+- Suffer [Building Sick Syndrome](disease) of Is it
+- Catch [Emphysema](disease) of How to cure Is it
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) How to heal What
+- gave birth [Cadmium poisoning](disease) Time of How to treat Yeah
+- infection [Adult respiratory distress syndrome](disease) of How to do Acridine
+- [Lung abscess](disease) Time What to do
+- Worthy of [Alveolar proteinosis](disease) of How to heal Acridine
+- [Carbon disulfide poisoning](disease) What is it
+- Worthy of [Pulmonary Candidiasis](disease) of therapy Ah
+- [Lung abscess](disease) What is it disease Ok
+- Give birth [Anaphylactic shock](disease) What to do What
+- [Pneumococcal pneumonia](disease) Time of How to cure what
+- How to cure [Large amounts of amniotic fluid inhalation](disease) Time Yeah
+- Catch [Adult respiratory distress syndrome](disease) of How to cure
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) Time of therapy Acridine
+- [Pulmonary pseudotumor](disease) What is it disease
+- Get [Mercury poisoning](disease) Time of Kiji
+- Suffer [Large amounts of amniotic fluid inhalation](disease) Time How to heal What
+- Worthy of [Radiation pneumonia](disease) Time of Kiji what
+- therapy [Building Sick Syndrome](disease) of Acridine
+- Catch [Lung cancer](disease) How to cure Is it
+- Get [Foreign body in the respiratory tract](disease) Time Yeah
+- Give birth [Lung cancer](disease) Time of Ah
+- Give birth [Cadmium poisoning](disease) Time of How to treat Ah
+- infection [Pulmonary pseudotumor](disease) of Kiji
+- Suffer [Alveolar proteinosis](disease) How to cure Is it
+- Suffer [Pulmonary pseudotumor](disease) Time of How to cure what
+- Get [Pulmonary embolism](disease) Time of How to heal What
+- Got it [Pulmonary Candidiasis](disease)
+- Give birth [Radiation pneumonia](disease) What to do Is it
+- Worthy of [Pulmonary Candidiasis](disease) How to cure Ok
+- Suffer [Mercury poisoning](disease) of What to do What
+- Got it [Pulmonary Edema](disease) Time Kiji Yeah
+- [Pulmonary bullae](disease) Time How to treat Ah
+- gave birth [Alveolar proteinosis](disease) of How to treat Ah
+- Catch [Septic shock](disease) of Treatment method Ah
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Time Kiji What
+- How to treat [Hypersensitivity pneumonia](disease) of Ah
+- Catch [pneumonia](disease) Time What to do Acridine
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) of How to heal Ah
+- Catch [Mercury poisoning](disease) How to cure what
+- [Bullae](disease) What is it disease what
+- Get [Pulmonary Candidiasis](disease) Kiji Is it
+- gave birth [Pulmonary Aspergillosis](disease) of How to cure Ah
+- gave birth [SARS](disease) Time How to heal Acridine
+- Give birth [Pulmonary pseudotumor](disease) of How to do Ok
+- [Pulmonary embolism](disease) Time of What to do Is it
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) Time of How to cure what
+- Suffer [Lobar Pneumonia](disease) How to heal Acridine
+- Got it [pneumonia](disease) How to treat Is it
+- Suffer [Pulmonary Candidiasis](disease) of Kiji Ok
+- infection [Cadmium poisoning](disease) Time How to do what
+- Worthy of [pneumonia](disease) Treatment method what
+- Kiji [Pulmonary Candidiasis](disease) Time Is it
+- Catch [Pulmonary bullae](disease) Time How to heal Acridine
+- [Lung metastases](disease) What is it disease Ah
+- [Hypersensitivity pneumonia](disease) Time of What to do Yeah
+- Give birth [Foreign body in the respiratory tract](disease) Time of Kiji
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) Time therapy
+- gave birth [Bacillus pneumoniae pneumonia](disease) of What to do Is it
+- What is [Building Sick Syndrome](disease) Is it
+- [Radiation pneumonia](disease) What is it Is it
+- Got it [pneumonia](disease) Time of Kiji Is it
+- What is [Adult respiratory distress syndrome](disease) Is it
+- gave birth [Hypersensitivity pneumonia](disease) Time of How to cure Acridine
+- infection [Wheezing bronchitis](disease) Time How to do Yeah
+- How to cure [Pulmonary Cryptococcosis](disease) of Yeah
+- Get [pneumonia](disease) How to treat Is it
+- gave birth [Alveolar proteinosis](disease) Treatment method Ok
+- [Pulmonary bullae](disease) of How to heal Ok
+- Give birth [Goodpasture syndrome](disease) Time How to treat Acridine
+- Suffer [Pulmonary bullae](disease) How to cure what
+- Suffer [Lung metastases](disease) Time Treatment method Ok
+- [Hypersensitivity pneumonia](disease) of How to cure what
+- Catch [Mercury poisoning](disease) Time of How to cure Ok
+- How to heal [Benzene poisoning](disease) of Ah
+- [Pulmonary Cryptococcosis](disease) What is it disease
+- Suffer [Pulmonary Candidiasis](disease) of How to heal Ok
+- Worthy of [Pulmonary-pleural amebiasis](disease) Time Ok
+- Give birth [Septic shock](disease) What to do Ah
+- Get [cold](disease) How to treat Ok
+- gave birth [Pulmonary Cryptococcosis](disease) of How to heal Ah
+- Catch [Lobar Pneumonia](disease) Time How to heal Acridine
+- infection [Adult respiratory distress syndrome](disease) How to treat Yeah
+- What is [cold](disease) Is it
+- [Cadmium poisoning](disease) What is it disease what
+- Worthy of [Lung cancer](disease) Time therapy Ok
+- Worthy of [Lung metastases](disease) What to do Yeah
+- Worthy of [SARS](disease) therapy Ok
+- gave birth [Pulmonary Cryptococcosis](disease) Time therapy what
+- How to do [pneumonia](disease) Time of What
+- [Pulmonary-pleural amebiasis](disease) What is it Acridine
+- How to do [Mercury poisoning](disease) of Is it
+- gave birth [pertussis](disease) Kiji What
+- Got it [Pulmonary pseudotumor](disease) Time What to do Ah
+- Give birth [Wheezing bronchitis](disease) of Is it
+- Give birth [Lung abscess](disease) Time of What
+- Get [Pneumococcal pneumonia](disease) of Treatment method Ok
+- Got it [Anaphylactic shock](disease) of How to do Yeah
+- Worthy of [Lobar Pneumonia](disease) How to heal Ah
+- Got it [Radiation pneumonia](disease) of Kiji Ah
+- Suffer [Radiation pneumonia](disease) How to do what
+- gave birth [Pulmonary Aspergillosis](disease) Time of How to cure
+- Get [Bullae](disease) Time of Acridine
+- gave birth [Building Sick Syndrome](disease) How to heal Is it
+- Got it [Pulmonary-pleural amebiasis](disease) How to cure what
+- Worthy of [Pulmonary Edema](disease) How to do Ok
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) Time How to heal what
+- [Cadmium poisoning](disease) Time of How to cure Ah
+- Suffer [Septic shock](disease) Time of Kiji What
+- How to treat [pneumonia](disease) of Acridine
+- [Pulmonary Aspergillosis](disease) What is it disease What
+- Get [Large amounts of amniotic fluid inhalation](disease) How to treat Ah
+- gave birth [Pulmonary pseudotumor](disease) Time Kiji Acridine
+- [Pulmonary Aspergillosis](disease) What is it
+- Treatment method [Pulmonary bullae](disease) Ok
+- Give birth [Lobar Pneumonia](disease) Time of therapy Is it
+- [Lung cancer](disease) therapy Ah
+- gave birth [Lung cancer](disease) Time of How to treat What
+- How to treat [Lung cancer](disease) Time of
+- Suffer [Alveolar proteinosis](disease) Time of How to cure What
+- Give birth [Alveolar proteinosis](disease) How to cure what
+- gave birth [Radiation pneumonia](disease) of How to treat Is it
+- Worthy of [cold](disease) of How to do Ah
+- Worthy of [Wheezing bronchitis](disease) Time What to do Is it
+- Worthy of [Lung cancer](disease) Time of Kiji what
+- Worthy of [Lung abscess](disease) Time Acridine
+- Give birth [Lung cancer](disease) How to cure Acridine
+- What is [SARS](disease) Ah
+- Get [Bullae](disease) of What
+- [Lung cancer](disease) What is it disease Is it
+- [Adult respiratory distress syndrome](disease) What is it
+- Worthy of [Alveolar proteinosis](disease) therapy Acridine
+- [Wheezing bronchitis](disease) How to heal What
+- Catch [Pulmonary Candidiasis](disease) Time therapy Acridine
+- Give birth [Anaphylactic shock](disease) Time What to do
+- infection [Pulmonary Edema](disease) Time What to do Acridine
+- Kiji [cold](disease) Time what
+- Get [Lung abscess](disease) Time therapy what
+- [Foreign body in the respiratory tract](disease) What is it disease Ah
+- Give birth [Mercury poisoning](disease) Time of What to do Acridine
+- Give birth [Lung abscess](disease) Time of What to do what
+- Catch [Lobar Pneumonia](disease) How to treat Ok
+- Got it [Pulmonary pseudotumor](disease) therapy Yeah
+- therapy [Large amounts of amniotic fluid inhalation](disease) of
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) Time How to treat Acridine
+- gave birth [Pulmonary embolism](disease) How to cure
+- Catch [Pulmonary embolism](disease) Time Treatment method Yeah
+- Got it [Bullae](disease) How to do Acridine
+- gave birth [cold](disease) of Kiji Is it
+- Give birth [Lung metastases](disease) of How to heal Is it
+- [Respiratory bronchiole-related interstitial lung disease](disease) of Kiji What
+- Get [Foreign body in the respiratory tract](disease) of How to cure Ah
+- Kiji [Lung abscess](disease) Time Acridine
+- Suffer [Benzene poisoning](disease) Time How to treat Acridine
+- Got it [Bullae](disease) Time What to do Acridine
+- Suffer [Pulmonary Cryptococcosis](disease) Time How to treat
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) of Ah
+- Suffer [Mercury poisoning](disease) of What to do what
+- Kiji [Alveolar proteinosis](disease) of
+- [pertussis](disease) Time of What
+- Get [Simple pulmonary eosinophilic infiltration](disease) Time Acridine
+- Got it [Large amounts of amniotic fluid inhalation](disease) Time of How to do
+- Worthy of [Lobar Pneumonia](disease) Time What to do Acridine
+- Got it [Pulmonary bullae](disease) How to do Is it
+- gave birth [Cadmium poisoning](disease) Time of How to treat
+- Got it [Pulmonary bullae](disease) of What to do Is it
+- Get [Pulmonary Actinomycosis](disease) therapy Yeah
+- Worthy of [Lung metastases](disease) Time of How to heal Ah
+- Catch [SARS](disease) of What to do what
+- gave birth [Lobar Pneumonia](disease) Time Kiji what
+- Catch [Alveolar proteinosis](disease) Time How to heal Is it
+- [SARS](disease) What is it disease What
+- Got it [Pulmonary-pleural amebiasis](disease) How to treat Ah
+- Catch [Benzene poisoning](disease) Time Kiji what
+- How to do [Pulmonary Edema](disease) Time what
+- [Pulmonary Actinomycosis](disease) What is it disease Is it
+- Got it [Foreign body in the respiratory tract](disease) Kiji Yeah
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) Time of What to do what
+- Get [Goodpasture syndrome](disease) Time of How to do What
+- [Lung cancer](disease) What is it disease
+- Give birth [Cadmium poisoning](disease) Time Kiji Acridine
+- Kiji [Pulmonary Candidiasis](disease) Ah
+- [Large amounts of amniotic fluid inhalation](disease) How to heal what
+- Kiji [Carbon disulfide poisoning](disease) Yeah
+- Suffer [Hypersensitivity pneumonia](disease) Time How to do Is it
+- Catch [SARS](disease) Time What to do Ah
+- infection [Bullae](disease) of How to cure What
+- Treatment method [pertussis](disease) what
+- What is [Anaphylactic shock](disease) Is it
+- infection [Lung metastases](disease) Time Kiji
+- gave birth [Pulmonary Edema](disease) Kiji Ok
+- infection [Mercury poisoning](disease) of How to cure Ah
+- gave birth [Cadmium poisoning](disease) How to heal Ok
+- Catch [Bacillus pneumoniae pneumonia](disease) Time Acridine
+- Suffer [Lung abscess](disease) of How to heal Yeah
+- Get [Wheezing bronchitis](disease) Time of How to treat
+- therapy [Pulmonary Cryptococcosis](disease) What
+- What to do [Alveolar proteinosis](disease) of What
+- Catch [Benzene poisoning](disease) of What to do Ok
+- [Pulmonary Candidiasis](disease) What is it Ok
+- Worthy of [SARS](disease) Time of therapy
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) How to treat Is it
+- [Emphysema](disease) What is it Is it
+- [Pulmonary-pleural amebiasis](disease) What is it disease what
+- Get [Lung metastases](disease) Kiji
+- Suffer [Lung metastases](disease) Time of How to cure What
+- Catch [Pulmonary Actinomycosis](disease) of Yeah
+- infection [cold](disease) of Treatment method Ah
+- [Large amounts of amniotic fluid inhalation](disease) Time of How to treat Ok
+- Give birth [Large amounts of amniotic fluid inhalation](disease) Time of How to treat Ah
+- gave birth [Lung metastases](disease) of therapy Acridine
+- Got it [Benzene poisoning](disease) How to heal Ah
+- Worthy of [Septic shock](disease) of How to heal what
+- [Lung abscess](disease) What is it
+- therapy [Lung cancer](disease) Yeah
+- What is [Lung cancer](disease) Ah
+- Give birth [Septic shock](disease) Yeah
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) Time Kiji Acridine
+- How to do [Alveolar proteinosis](disease) Time what
+- gave birth [Lobar Pneumonia](disease) How to treat Ok
+- Suffer [Septic shock](disease) of Treatment method What
+- Worthy of [SARS](disease) of What to do what
+- Catch [pneumonia](disease) How to treat Ok
+- Catch [Goodpasture syndrome](disease) How to do What
+- Catch [Foreign body in the respiratory tract](disease) Time of How to cure Is it
+- Got it [Pulmonary Candidiasis](disease) of How to treat Is it
+- What is [Lung metastases](disease) what
+- Suffer [Bacillus pneumoniae pneumonia](disease) Time How to treat what
+- [Pneumococcal pneumonia](disease) How to heal Ok
+- [Alveolar proteinosis](disease) What is it
+- gave birth [Pulmonary bullae](disease) of How to treat Ok
+- [Bullae](disease) What is it disease Is it
+- How to treat [Septic shock](disease) Is it
+- What is [Pneumococcal pneumonia](disease) What
+- [Septic shock](disease) Time Treatment method what
+- Catch [Foreign body in the respiratory tract](disease) Time Kiji what
+- How to cure [Alveolar proteinosis](disease) Time of Yeah
+- Suffer [Bullae](disease) Time How to treat What
+- Worthy of [Pulmonary-pleural amebiasis](disease) Time of How to cure Ok
+- [Bacillus pneumoniae pneumonia](disease) What is it disease Acridine
+- Catch [Alveolar proteinosis](disease) Time How to cure
+- gave birth [Septic shock](disease) Time of What
+- Give birth [Alveolar proteinosis](disease) Time of How to cure Is it
+- Worthy of [Pulmonary Aspergillosis](disease) How to do what
+- Kiji [pertussis](disease) Time of
+- [Lung cancer](disease) What is it
+- [Carbon disulfide poisoning](disease) Time of How to heal What
+- therapy [Pulmonary Edema](disease) of What
+- Get [cold](disease) Time of Kiji Acridine
+- Suffer [Goodpasture syndrome](disease) Time How to treat what
+- Worthy of [Pulmonary embolism](disease) of Treatment method Is it
+- Worthy of [pneumonia](disease) Time of How to treat
+- Give birth [Alveolar proteinosis](disease) of therapy Is it
+- [Pulmonary Edema](disease) of Kiji Yeah
+- Catch [SARS](disease) Kiji what
+- [Adult respiratory distress syndrome](disease) What is it disease Ah
+- Got it [pneumonia](disease) Time of How to heal What
+- Give birth [Pulmonary Actinomycosis](disease) Treatment method Acridine
+- [Anaphylactic shock](disease) What is it disease what
+- gave birth [Radiation pneumonia](disease) of How to cure Yeah
+- Suffer [SARS](disease) of Ah
+- Kiji [Lobar Pneumonia](disease) of what
+- How to cure [Pulmonary bullae](disease) Time of what
+- How to heal [Pulmonary hemorrhage-nephritis syndrome](disease) of
+- Get [Pulmonary Cryptococcosis](disease) How to heal
+- Catch [Pulmonary embolism](disease) Time Ah
+- Catch [Septic shock](disease) How to cure Acridine
+- Worthy of [Mercury poisoning](disease) of How to heal Ok
+- Got it [Pulmonary bullae](disease) of How to treat
+- Got it [Cadmium poisoning](disease) of Acridine
+- Give birth [Wheezing bronchitis](disease) Time of Kiji Is it
+- How to cure [Building Sick Syndrome](disease) of Ah
+- Got it [pertussis](disease) Time How to do What
+- Get [Alveolar proteinosis](disease) Time of Treatment method Acridine
+- Get [Pulmonary embolism](disease) Time of Treatment method Ah
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) Time Treatment method
+- Suffer [Lung abscess](disease) How to cure Ok
+- Suffer [Pulmonary embolism](disease) Time of Acridine
+- Worthy of [Alveolar proteinosis](disease) of What to do Yeah
+- What is [Lung abscess](disease) Acridine
+- gave birth [Hypersensitivity pneumonia](disease) of How to do Ah
+- Suffer [Building Sick Syndrome](disease) Time How to do Ah
+- [Pulmonary Candidiasis](disease) What is it disease Ok
+- [Pulmonary Candidiasis](disease) How to treat Is it
+- Worthy of [Pneumococcal pneumonia](disease) How to treat
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) Time of How to cure Is it
+- Worthy of [Septic shock](disease) of What
+- Got it [pertussis](disease) Time Kiji Ah
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) of How to treat
+- Get [Lung metastases](disease) Time Kiji What
+- Give birth [Building Sick Syndrome](disease) How to heal What
+- Suffer [Anaphylactic shock](disease) of therapy Yeah
+- Got it [SARS](disease) Time How to treat Acridine
+- gave birth [Pulmonary Candidiasis](disease) Time of How to treat what
+- [Bullae](disease) Acridine
+- How to heal [Lobar Pneumonia](disease) Time Ah
+- [Septic shock](disease) of How to heal What
+- Get [Lung abscess](disease) of How to treat Ah
+- [Wheezing bronchitis](disease) Time How to cure Ok
+- infection [SARS](disease) Time of What to do Ok
+- Catch [Pulmonary Cryptococcosis](disease) Time How to treat Yeah
+- Worthy of [SARS](disease) Time How to heal Is it
+- [Lung metastases](disease) What
+- Get [pneumonia](disease) Treatment method Acridine
+- gave birth [Pulmonary Actinomycosis](disease) Time of How to cure Is it
+- [Pulmonary Candidiasis](disease) What is it disease Acridine
+- Worthy of [Lobar Pneumonia](disease) Time Kiji Ok
+- How to cure [Goodpasture syndrome](disease) of Ah
+- [Bacillus pneumoniae pneumonia](disease) therapy Ok
+- Suffer [Carbon disulfide poisoning](disease) Time of Treatment method Is it
+- therapy [Pulmonary-pleural amebiasis](disease) Time of
+- Get [Bacillus pneumoniae pneumonia](disease) What to do what
+- [Adult respiratory distress syndrome](disease) of How to treat
+- How to heal [Septic shock](disease) Yeah
+- Catch [Septic shock](disease) Time of How to do Is it
+- How to heal [Foreign body in the respiratory tract](disease) Is it
+- How to treat [Hypersensitivity pneumonia](disease) of Ok
+- Suffer [Anaphylactic shock](disease) Ok
+- [Pulmonary Edema](disease) What is it Ah
+- [Radiation pneumonia](disease) Time What to do what
+- Catch [Lung cancer](disease) of How to cure Ah
+- infection [Goodpasture syndrome](disease) Time of How to treat Is it
+- What is [Goodpasture syndrome](disease) Ok
+- Get [cold](disease) Time Treatment method Ok
+- Catch [Cadmium poisoning](disease) Time of How to cure Is it
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) Time of What to do Ah
+- Suffer [cold](disease) What to do Ah
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Time of How to heal Ah
+- Worthy of [Pneumococcal pneumonia](disease) Time of therapy Acridine
+- Worthy of [Radiation pneumonia](disease) of Treatment method Ok
+- infection [pertussis](disease) What to do
+- Give birth [Pulmonary Edema](disease) Time of How to heal Is it
+- Kiji [SARS](disease) Acridine
+- How to treat [pneumonia](disease) Time Ah
+- Get [Lobar Pneumonia](disease) of therapy Yeah
+- Give birth [Pulmonary Candidiasis](disease) Time of Kiji Yeah
+- [Wheezing bronchitis](disease) What is it Ah
+- [Pulmonary Edema](disease) What is it Ok
+- Get [Pulmonary Actinomycosis](disease) How to treat Acridine
+- infection [Goodpasture syndrome](disease) Time How to heal Yeah
+- [Alveolar proteinosis](disease) Kiji What
+- gave birth [pertussis](disease) Kiji
+- gave birth [Pulmonary pseudotumor](disease) How to heal Yeah
+- How to cure [Wheezing bronchitis](disease) Time Acridine
+- Get [Pulmonary Edema](disease) How to do what
+
+## intent:search_food
+- Catch [Bullae](disease) tonic Acridine
+- Get [Radiation pneumonia](disease) Time of drink
+- infection [Cadmium poisoning](disease) Time dish Yeah
+- Catch [Pneumococcal pneumonia](disease) of diet What
+- gave birth [Emphysema](disease) Can eat What tonic Acridine
+- [Lobar Pneumonia](disease) Time eat
+- Worthy of [Lobar Pneumonia](disease) Time Can eat What recipe Is it
+- Got it [Hypersensitivity pneumonia](disease) drink Acridine
+- Catch [Bacillus pneumoniae pneumonia](disease) of drink Is it
+- Worthy of [pertussis](disease) Time Can eat What menu Acridine
+- Got it [Cadmium poisoning](disease) Time Can eat What drink What
+- Suffer [SARS](disease) Time of diet what
+- Catch [Pulmonary Aspergillosis](disease) Time What food Ok
+- gave birth [Mercury poisoning](disease) Time meal Ok
+- Catch [Pulmonary pseudotumor](disease) Time of Can eat What tonic Ok
+- Get [Carbon disulfide poisoning](disease) Time of tonic Ok
+- Suffer [Carbon disulfide poisoning](disease) Time menu Yeah
+- gave birth [Pulmonary embolism](disease) Time Can eat What diet Is it
+- Worthy of [pertussis](disease) What food What
+- Suffer [Pulmonary bullae](disease) Time Can eat What drink Is it
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) Time drink Ok
+- Catch [Pulmonary Candidiasis](disease) Time of What tonic Ok
+- Catch [SARS](disease) of edible
+- Get [Wheezing bronchitis](disease) Time Can eat What dish Acridine
+- Got it [Alveolar proteinosis](disease) Time of Can eat What tonic Ok
+- infection [Lung cancer](disease) Time of tonic Ah
+- Worthy of [Pulmonary bullae](disease) Time dish what
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) Time What edible Acridine
+- Suffer [Pneumococcal pneumonia](disease) What drink what
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) Time What diet Acridine
+- Got it [SARS](disease) Time of tonic What
+- Worthy of [Carbon disulfide poisoning](disease) Time of What Food Yeah
+- Give birth [Alveolar proteinosis](disease) Time of meal Acridine
+- Got it [Goodpasture syndrome](disease) of Can eat What meal Ah
+- Give birth [Pneumococcal pneumonia](disease) of Can eat What diet Ah
+- infection [Pulmonary-pleural amebiasis](disease) Time drink Yeah
+- Get [Anaphylactic shock](disease) Time Can eat What drink Ah
+- gave birth [cold](disease) of meal Acridine
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) Can eat What food Yeah
+- Suffer [Alveolar proteinosis](disease) Time food Is it
+- gave birth [Bullae](disease) edible What
+- Catch [Benzene poisoning](disease) of What Food Acridine
+- Suffer [Wheezing bronchitis](disease) Time of dish Acridine
+- [Pulmonary Cryptococcosis](disease) of Food Is it
+- Give birth [Pulmonary bullae](disease) of Can eat What edible Ah
+- Give birth [cold](disease) What meal Yeah
+- gave birth [SARS](disease) meal Acridine
+- Give birth [SARS](disease) Time of What menu Is it
+- gave birth [Goodpasture syndrome](disease) menu Yeah
+- Get [SARS](disease) of menu Ah
+- [Septic shock](disease) Time What drink Acridine
+- Worthy of [Carbon disulfide poisoning](disease) of Food Ok
+- Catch [Pulmonary-pleural amebiasis](disease) Time of Can eat What drink What
+- Give birth [Anaphylactic shock](disease) Time meal Ok
+- Got it [Adult respiratory distress syndrome](disease) of What edible what
+- infection [Pulmonary-pleural amebiasis](disease) What dish Acridine
+- [Lobar Pneumonia](disease) Time of Can eat What food Acridine
+- Catch [Septic shock](disease) of tonic
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) drink Acridine
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) Time Can eat What eat Yeah
+- Catch [Simple pulmonary eosinophilic infiltration](disease) Time Can eat What diet Acridine
+- gave birth [Radiation pneumonia](disease) of diet Ah
+- Suffer [Foreign body in the respiratory tract](disease) of What Health products Acridine
+- Catch [Septic shock](disease) diet Yeah
+- gave birth [Pulmonary pseudotumor](disease) Time What meal Ok
+- infection [SARS](disease) Time What edible Acridine
+- Worthy of [Pulmonary-pleural amebiasis](disease) What dish Ok
+- infection [SARS](disease) of meal Acridine
+- Suffer [pneumonia](disease) Time of Can eat What dish what
+- Give birth [Pneumococcal pneumonia](disease) of recipe what
+- Catch [Large amounts of amniotic fluid inhalation](disease) Time What drink Yeah
+- infection [Lung abscess](disease) Time What Food Is it
+- Get [Pulmonary Aspergillosis](disease) Time of meal what
+- infection [Mercury poisoning](disease) Time menu Acridine
+- Got it [Adult respiratory distress syndrome](disease) What menu Ok
+- Suffer [Pulmonary Cryptococcosis](disease) Time What drink Ok
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) edible Acridine
+- Catch [Anaphylactic shock](disease) of recipe what
+- Suffer [Lung metastases](disease) Health products Ok
+- Suffer [Radiation pneumonia](disease) Time edible Yeah
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) Time Can eat What menu what
+- Suffer [Goodpasture syndrome](disease) edible Yeah
+- Catch [Pulmonary Edema](disease) meal Is it
+- Suffer [Bullae](disease) Time What Health products Ok
+- Got it [pertussis](disease) tonic Ah
+- Give birth [Pulmonary Edema](disease) of Health products Ok
+- gave birth [Pulmonary-pleural amebiasis](disease) Time of What food Is it
+- [Hypersensitivity pneumonia](disease) dish Yeah
+- Get [Anaphylactic shock](disease) Time of What edible Ok
+- Worthy of [Carbon disulfide poisoning](disease) Time What tonic
+- Get [Alveolar proteinosis](disease) of tonic what
+- Give birth [Pulmonary bullae](disease) of What Health products Ah
+- Suffer [Large amounts of amniotic fluid inhalation](disease) recipe What
+- Catch [SARS](disease) of What drink Ah
+- Suffer [Lung metastases](disease) of drink Acridine
+- gave birth [Carbon disulfide poisoning](disease) Time of drink Yeah
+- Get [Goodpasture syndrome](disease) Time of Health products
+- Got it [Bullae](disease) Can eat What diet Acridine
+- Got it [Septic shock](disease) Time of diet what
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) of What diet Yeah
+- Give birth [Pulmonary Candidiasis](disease) What recipe Yeah
+- Get [Pulmonary Cryptococcosis](disease) drink Yeah
+- infection [cold](disease) Time of What edible Ah
+- Suffer [Pneumococcal pneumonia](disease) Time of What edible
+- [Pulmonary Actinomycosis](disease) Time of drink Acridine
+- [Emphysema](disease) of eat what
+- Get [Simple pulmonary eosinophilic infiltration](disease) Time of What drink what
+- Got it [Radiation pneumonia](disease) Time of meal Ok
+- infection [Pneumococcal pneumonia](disease) meal Yeah
+- Suffer [Alveolar proteinosis](disease) Time of diet What
+- Suffer [Pulmonary embolism](disease) Time of food Yeah
+- [Pulmonary Actinomycosis](disease) Time drink what
+- Got it [Alveolar proteinosis](disease) Time of drink Yeah
+- infection [Bullae](disease) Time of eat what
+- Got it [Bullae](disease) Time of diet what
+- [Cadmium poisoning](disease) Time dish Ok
+- gave birth [Pulmonary Cryptococcosis](disease) Time of Can eat What Food Ok
+- Give birth [Radiation pneumonia](disease) tonic What
+- gave birth [Large amounts of amniotic fluid inhalation](disease) of Can eat What drink Acridine
+- gave birth [Radiation pneumonia](disease) Time of Can eat What food Is it
+- [cold](disease) of Can eat What Food What
+- infection [SARS](disease) diet Yeah
+- Give birth [Large amounts of amniotic fluid inhalation](disease) diet Is it
+- [Pulmonary embolism](disease) Time of drink Yeah
+- Worthy of [Pneumococcal pneumonia](disease) What meal What
+- Got it [Mercury poisoning](disease) Time tonic What
+- Suffer [Pulmonary-pleural amebiasis](disease) Time of tonic Acridine
+- [Alveolar proteinosis](disease) Time of Can eat What meal Ah
+- Give birth [Lung cancer](disease) Time of food Ok
+- Worthy of [cold](disease) of eat Acridine
+- Give birth [Mercury poisoning](disease) Food Is it
+- Got it [Pulmonary Candidiasis](disease) Can eat What diet What
+- Give birth [Lung abscess](disease) Time of Health products What
+- Catch [Pulmonary embolism](disease) eat
+- Catch [Mercury poisoning](disease) of tonic What
+- infection [Lung metastases](disease) Time of drink Ok
+- gave birth [Pulmonary bullae](disease) Time of Can eat What dish Ok
+- Get [Pulmonary-pleural amebiasis](disease) of What menu what
+- Worthy of [Pulmonary Candidiasis](disease) of Food
+- [Pulmonary pseudotumor](disease) Time dish Ok
+- [Foreign body in the respiratory tract](disease) of edible Ok
+- Got it [Pulmonary Actinomycosis](disease) Time of Can eat What recipe What
+- Got it [Radiation pneumonia](disease) diet Yeah
+- Give birth [Wheezing bronchitis](disease) Time Can eat What Food Ah
+- Catch [Pulmonary Cryptococcosis](disease) Time of What Food
+- infection [Foreign body in the respiratory tract](disease) Time What dish Acridine
+- gave birth [Adult respiratory distress syndrome](disease) Time Can eat What eat Ok
+- infection [Pulmonary pseudotumor](disease) Time of edible Acridine
+- infection [Lung metastases](disease) food What
+- Suffer [Alveolar proteinosis](disease) Can eat What drink What
+- [Pulmonary Actinomycosis](disease) Can eat What menu Is it
+- Give birth [Cadmium poisoning](disease) Time tonic Acridine
+- gave birth [SARS](disease) of tonic what
+- Suffer [Pulmonary Candidiasis](disease) Time of Health products
+- gave birth [Pulmonary bullae](disease) Time of drink Ah
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) Time Can eat What menu Yeah
+- Suffer [Large amounts of amniotic fluid inhalation](disease) Time of edible Acridine
+- gave birth [Building Sick Syndrome](disease) Time Can eat What eat Is it
+- [Simple pulmonary eosinophilic infiltration](disease) Time of food
+- infection [Building Sick Syndrome](disease) Time of What meal Yeah
+- Give birth [Pulmonary Aspergillosis](disease) menu
+- [pneumonia](disease) Time of Health products Ah
+- Worthy of [Wheezing bronchitis](disease) of What diet What
+- Got it [Emphysema](disease) Time What tonic Acridine
+- Give birth [Lung metastases](disease) Time of Can eat What dish Ah
+- Give birth [Pulmonary Aspergillosis](disease) edible
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) of edible
+- [Mercury poisoning](disease) Time meal
+- infection [Foreign body in the respiratory tract](disease) of menu
+- infection [Emphysema](disease) Time of What Health products Yeah
+- Give birth [Carbon disulfide poisoning](disease) of Health products Ok
+- Catch [Lobar Pneumonia](disease) of Can eat What Health products what
+- Got it [Pulmonary Actinomycosis](disease) Time meal What
+- Get [Septic shock](disease) Time Food Is it
+- Suffer [Adult respiratory distress syndrome](disease) of drink Yeah
+- Got it [Adult respiratory distress syndrome](disease) Can eat What diet Acridine
+- [Cadmium poisoning](disease) of What drink what
+- Get [Emphysema](disease) Time tonic Ok
+- Get [Pulmonary embolism](disease) of Can eat What meal
+- Suffer [Lung abscess](disease) Can eat What diet what
+- Suffer [Pulmonary Cryptococcosis](disease) Time food
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) Time of recipe What
+- infection [Pulmonary Cryptococcosis](disease) Can eat What diet
+- Catch [Benzene poisoning](disease) of meal Ok
+- gave birth [Radiation pneumonia](disease) Time What drink
+- Give birth [Pulmonary Candidiasis](disease) of food Ah
+- Suffer [Wheezing bronchitis](disease) Time of Health products Ah
+- Catch [Pulmonary bullae](disease) Time Can eat What diet Ok
+- Catch [Pulmonary Cryptococcosis](disease) of diet What
+- Give birth [SARS](disease) recipe Is it
+- Give birth [Pulmonary bullae](disease) of food
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) Time drink What
+- [Building Sick Syndrome](disease) of What Health products What
+- Catch [Pulmonary Actinomycosis](disease) drink
+- Get [Pulmonary embolism](disease) of Can eat What tonic
+- Give birth [Alveolar proteinosis](disease) of What Food Ok
+- Give birth [Building Sick Syndrome](disease) Time Can eat What tonic
+- Get [Benzene poisoning](disease) What menu Is it
+- Catch [pertussis](disease) of What dish Acridine
+- Got it [Simple pulmonary eosinophilic infiltration](disease) of eat Ah
+- Suffer [Lobar Pneumonia](disease) Time of Can eat What edible Yeah
+- Give birth [Pulmonary-pleural amebiasis](disease) Time of diet Yeah
+- Get [Pulmonary Edema](disease) of Can eat What food Ok
+- [Adult respiratory distress syndrome](disease) of What diet Ah
+- Get [Pulmonary Cryptococcosis](disease) Can eat What food
+- infection [Pulmonary pseudotumor](disease) of dish What
+- Get [Simple pulmonary eosinophilic infiltration](disease) Time drink Ok
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) Time Can eat What Health products Ah
+- Worthy of [Pulmonary Aspergillosis](disease) Time of tonic
+- Worthy of [pneumonia](disease) Time diet
+- Give birth [Bacillus pneumoniae pneumonia](disease) of meal
+- infection [Bullae](disease) Time meal Ok
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) Time Can eat What menu Ah
+- infection [Adult respiratory distress syndrome](disease) Time of tonic What
+- Got it [Lung metastases](disease) Time of Health products Yeah
+- Suffer [Bullae](disease) Can eat What menu Ah
+- [Hypersensitivity pneumonia](disease) of tonic Yeah
+- Suffer [Pulmonary pseudotumor](disease) of drink what
+- Suffer [Pulmonary pseudotumor](disease) meal Yeah
+- Got it [Pulmonary Actinomycosis](disease) Time eat Yeah
+- Give birth [Pulmonary-pleural amebiasis](disease) of What recipe Is it
+- Suffer [Bullae](disease) of food
+- Got it [pneumonia](disease) of edible
+- Catch [Pulmonary pseudotumor](disease) menu Acridine
+- Give birth [Emphysema](disease) Time dish Yeah
+- gave birth [Foreign body in the respiratory tract](disease) of tonic Ah
+- Worthy of [pneumonia](disease) of Can eat What drink what
+- Got it [Radiation pneumonia](disease) Time of meal
+- Get [Alveolar proteinosis](disease) of Can eat What diet Ok
+- [Emphysema](disease) Time Can eat What food what
+- Give birth [Pulmonary embolism](disease) of drink Is it
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) of Can eat What Food Is it
+- Worthy of [Carbon disulfide poisoning](disease) tonic what
+- infection [Hypersensitivity pneumonia](disease) edible Ah
+- Suffer [Goodpasture syndrome](disease) Time Can eat What food Acridine
+- Worthy of [Benzene poisoning](disease) Time recipe Is it
+- Suffer [Anaphylactic shock](disease) of Can eat What dish Yeah
+- Got it [Pulmonary pseudotumor](disease) Time of edible what
+- infection [Pneumococcal pneumonia](disease) Time of menu
+- Worthy of [Pulmonary-pleural amebiasis](disease) of drink Acridine
+- Suffer [pneumonia](disease) tonic Yeah
+- Suffer [cold](disease) Time of Health products Is it
+- infection [Emphysema](disease) Time What Health products what
+- Suffer [Pulmonary bullae](disease) Time tonic Ah
+- Got it [Septic shock](disease) dish What
+- gave birth [Mercury poisoning](disease) Time of diet Yeah
+- Suffer [Radiation pneumonia](disease) of Health products What
+- Got it [Emphysema](disease) Time of What diet Is it
+- Get [Lung cancer](disease) Time of Health products Is it
+- Get [Pulmonary Aspergillosis](disease) What drink Is it
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) Can eat What Food What
+- gave birth [Carbon disulfide poisoning](disease) Time of diet Acridine
+- [Simple pulmonary eosinophilic infiltration](disease) Time of dish Is it
+- Got it [pneumonia](disease) Time of drink Ok
+- Give birth [Bullae](disease) eat Ok
+- Worthy of [Lung metastases](disease) Time drink what
+- Suffer [Lung metastases](disease) Time What Health products
+- Worthy of [pneumonia](disease) Time of tonic what
+- Suffer [Anaphylactic shock](disease) of diet what
+- [Radiation pneumonia](disease) Can eat What tonic Yeah
+- Catch [Large amounts of amniotic fluid inhalation](disease) Can eat What diet Ah
+- Got it [Pulmonary-pleural amebiasis](disease) recipe Ok
+- gave birth [Pulmonary Cryptococcosis](disease) of eat Acridine
+- Give birth [Foreign body in the respiratory tract](disease) dish Yeah
+- Give birth [Hypersensitivity pneumonia](disease) Time of edible Yeah
+- Worthy of [pertussis](disease) Time What Food
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) Time What Health products Acridine
+- [Respiratory bronchiole-related interstitial lung disease](disease) Time tonic
+- Got it [Hypersensitivity pneumonia](disease) of Can eat What recipe what
+- gave birth [Alveolar proteinosis](disease) of Can eat What recipe What
+- Worthy of [Pulmonary embolism](disease) Time food Is it
+- Worthy of [Carbon disulfide poisoning](disease) of drink Ok
+- Get [Benzene poisoning](disease) of food
+- Catch [Large amounts of amniotic fluid inhalation](disease) Time tonic Yeah
+- Give birth [Lung metastases](disease) tonic
+- Catch [Pulmonary embolism](disease) Time Health products Yeah
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) of meal
+- Give birth [Anaphylactic shock](disease) Can eat What edible What
+- gave birth [Mercury poisoning](disease) Can eat What dish What
+- Give birth [Foreign body in the respiratory tract](disease) diet what
+- Give birth [Bacillus pneumoniae pneumonia](disease) Time of Can eat What eat Ah
+- Get [Pulmonary-pleural amebiasis](disease) Time Can eat What recipe what
+- Got it [Adult respiratory distress syndrome](disease) Health products Ok
+- Catch [Carbon disulfide poisoning](disease) Time of dish
+- Worthy of [Building Sick Syndrome](disease) Time What Food What
+- Worthy of [Pulmonary pseudotumor](disease) diet Yeah
+- Catch [Foreign body in the respiratory tract](disease) Time recipe Is it
+- Catch [Pulmonary Edema](disease) Time menu Ah
+- Suffer [Anaphylactic shock](disease) Time Can eat What drink Acridine
+- [Radiation pneumonia](disease) of What menu Ah
+- Give birth [Lung metastases](disease) Time dish Acridine
+- Get [pertussis](disease) of drink
+- Got it [Hypersensitivity pneumonia](disease) Time of Can eat What drink
+- infection [Pulmonary-pleural amebiasis](disease) Time drink
+- [Large amounts of amniotic fluid inhalation](disease) of diet Is it
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) of recipe Ok
+- [pertussis](disease) of Health products Ah
+- Give birth [Bacillus pneumoniae pneumonia](disease) Time food Is it
+- Got it [Cadmium poisoning](disease) of menu Ok
+- Suffer [Adult respiratory distress syndrome](disease) Time Health products
+- Get [Lung cancer](disease) Time of What eat what
+- Worthy of [Lung abscess](disease) of What diet Ah
+- infection [Bullae](disease) Time diet Ah
+- infection [Lung cancer](disease) Time of Can eat What edible Acridine
+- Get [Benzene poisoning](disease) Time drink Ah
+- gave birth [Hypersensitivity pneumonia](disease) of What recipe What
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) Time of What food What
+- Get [SARS](disease) of eat what
+- Get [Pulmonary Cryptococcosis](disease) Time of What Food What
+- Got it [SARS](disease) of drink what
+- Catch [Pneumococcal pneumonia](disease) Time of What menu Acridine
+- Got it [Large amounts of amniotic fluid inhalation](disease) Time of Can eat What recipe Yeah
+- Give birth [Alveolar proteinosis](disease) of recipe what
+- Catch [Goodpasture syndrome](disease) Can eat What diet Is it
+- [Lung cancer](disease) dish Is it
+- [pneumonia](disease) Time of dish Ah
+- Give birth [pertussis](disease) Can eat What drink Acridine
+- Get [Mercury poisoning](disease) Time of drink What
+- gave birth [Radiation pneumonia](disease) Time What tonic Is it
+- Give birth [pertussis](disease) of drink Ok
+- Give birth [Pulmonary Actinomycosis](disease) Time of dish What
+- Catch [Building Sick Syndrome](disease) Can eat What Health products what
+- Suffer [Lobar Pneumonia](disease) of menu What
+- infection [Pulmonary pseudotumor](disease) of tonic
+- Got it [pneumonia](disease) Time tonic
+- Got it [pertussis](disease) Can eat What diet Ok
+- [Pulmonary bullae](disease) What diet
+- infection [Pulmonary Cryptococcosis](disease) Time Can eat What tonic What
+- [pertussis](disease) food Ok
+- Got it [Lung abscess](disease) of Can eat What drink Ah
+- [Pulmonary Aspergillosis](disease) What drink what
+- infection [Pulmonary Actinomycosis](disease) Time of Can eat What food What
+- Give birth [Pulmonary pseudotumor](disease) Time dish
+- gave birth [Wheezing bronchitis](disease) Time diet
+- Suffer [Pulmonary Actinomycosis](disease) Time tonic Acridine
+- Give birth [Lung abscess](disease) of Can eat What tonic Acridine
+- Worthy of [Radiation pneumonia](disease) food Yeah
+- Catch [Lung metastases](disease) Time recipe Ah
+- Get [pneumonia](disease) Time diet Acridine
+- Got it [pertussis](disease) of Can eat What food Is it
+- Got it [Hypersensitivity pneumonia](disease) Time of food Is it
+- Give birth [Alveolar proteinosis](disease) Time of Health products Yeah
+- Catch [Hypersensitivity pneumonia](disease) Time eat Acridine
+- Suffer [Adult respiratory distress syndrome](disease) Time menu Is it
+- gave birth [Septic shock](disease) of What tonic Yeah
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) Can eat What food What
+- Got it [Pulmonary-pleural amebiasis](disease) Time recipe What
+- Worthy of [Building Sick Syndrome](disease) Can eat What drink what
+- Give birth [Pulmonary Edema](disease) of food what
+- Catch [Wheezing bronchitis](disease) Time of What Health products Ah
+- [Pneumococcal pneumonia](disease) of tonic what
+- gave birth [Goodpasture syndrome](disease) of menu Ah
+- Give birth [Pulmonary Aspergillosis](disease) food Ok
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) Time of What eat Is it
+- Catch [Mercury poisoning](disease) of Can eat What tonic what
+- infection [SARS](disease) of food Ah
+- Suffer [Lung cancer](disease) of What dish What
+- [Hypersensitivity pneumonia](disease) of What Health products Ah
+- Got it [Carbon disulfide poisoning](disease) Time of What tonic Ah
+- Catch [Mercury poisoning](disease) Time of edible what
+- gave birth [Building Sick Syndrome](disease) Time food
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) of Can eat What drink Ah
+- gave birth [Pulmonary Edema](disease) Health products What
+- gave birth [pertussis](disease) Food what
+- Worthy of [Lung metastases](disease) Can eat What tonic what
+- [Lung metastases](disease) Time diet Is it
+- Catch [pneumonia](disease) Time of recipe what
+- Suffer [Hypersensitivity pneumonia](disease) of drink Ok
+- Worthy of [Lung metastases](disease) Time food What
+- Suffer [Cadmium poisoning](disease) Time recipe Ok
+- Got it [Alveolar proteinosis](disease) of edible
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) Time meal what
+- Worthy of [SARS](disease) of tonic What
+- Catch [Carbon disulfide poisoning](disease) Time tonic What
+- Get [Building Sick Syndrome](disease) Can eat What Food what
+- [Lung cancer](disease) of diet Acridine
+- infection [Lung metastases](disease) Time of dish Ok
+- [cold](disease) eat What
+- Give birth [Pulmonary-pleural amebiasis](disease) of Can eat What recipe What
+- Worthy of [cold](disease) Time Can eat What tonic Acridine
+- Got it [Bacillus pneumoniae pneumonia](disease) Can eat What drink Ah
+- Get [Pneumococcal pneumonia](disease) of dish what
+- Got it [Emphysema](disease) Time drink Ok
+- gave birth [Bacillus pneumoniae pneumonia](disease) Time of What diet what
+- Get [Alveolar proteinosis](disease) Time recipe Acridine
+- Give birth [Alveolar proteinosis](disease) Time tonic
+- Got it [Radiation pneumonia](disease) of food Acridine
+- gave birth [Goodpasture syndrome](disease) Time of edible Acridine
+- gave birth [Lobar Pneumonia](disease) Time of What edible
+- Catch [Benzene poisoning](disease) Time eat Acridine
+- infection [Building Sick Syndrome](disease) Time of recipe Ok
+- gave birth [cold](disease) of recipe Acridine
+- infection [Pulmonary Edema](disease) Time Health products Ah
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) Time What Health products Is it
+- infection [Carbon disulfide poisoning](disease) of Food Ah
+- Catch [Cadmium poisoning](disease) What tonic
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Time recipe
+- Get [Anaphylactic shock](disease) of eat Is it
+- Get [Pulmonary pseudotumor](disease) eat what
+- Suffer [Emphysema](disease) drink what
+- Suffer [Lung metastases](disease) Time of edible What
+- Worthy of [Hypersensitivity pneumonia](disease) Time of Food Acridine
+- Give birth [Radiation pneumonia](disease) recipe Yeah
+- gave birth [cold](disease) Time of diet
+- Get [cold](disease) of meal Yeah
+- Catch [Adult respiratory distress syndrome](disease) of Can eat What food Ok
+- infection [Foreign body in the respiratory tract](disease) of drink Is it
+- Got it [Wheezing bronchitis](disease) of recipe Acridine
+- [Lung abscess](disease) Time of meal What
+- Get [Lobar Pneumonia](disease) dish
+- Worthy of [Pulmonary Edema](disease) Time menu what
+- infection [Cadmium poisoning](disease) Time Can eat What tonic Acridine
+- Worthy of [Anaphylactic shock](disease) Can eat What recipe Yeah
+- infection [Lung cancer](disease) of Can eat What tonic what
+- Give birth [Anaphylactic shock](disease) What Food
+- gave birth [Septic shock](disease) Food What
+- [Radiation pneumonia](disease) Can eat What meal Acridine
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) Time of Can eat What drink Acridine
+- Worthy of [Adult respiratory distress syndrome](disease) of What dish what
+- [Anaphylactic shock](disease) Time of Can eat What tonic
+- [Radiation pneumonia](disease) Time What edible Yeah
+- Give birth [Septic shock](disease) Time Can eat What tonic Ok
+- gave birth [pertussis](disease) of Can eat What food
+- gave birth [Wheezing bronchitis](disease) drink
+- Give birth [Goodpasture syndrome](disease) of diet
+- infection [Building Sick Syndrome](disease) Time of tonic Ok
+- Worthy of [Building Sick Syndrome](disease) of edible what
+- Suffer [Pneumococcal pneumonia](disease) Time Can eat What drink Yeah
+- Catch [Pneumococcal pneumonia](disease) of What food Is it
+- [Lung cancer](disease) recipe Ok
+- Get [Lung cancer](disease) recipe Is it
+- Give birth [Lung cancer](disease) Health products Ok
+- Catch [Pulmonary Edema](disease) of dish Ah
+- Worthy of [Septic shock](disease) tonic what
+- Suffer [Alveolar proteinosis](disease) Time of edible Acridine
+- Suffer [Adult respiratory distress syndrome](disease) of drink Is it
+- Get [Bullae](disease) Time of Can eat What tonic what
+- Worthy of [Lung metastases](disease) Time of Can eat What eat Is it
+- Give birth [Hypersensitivity pneumonia](disease) of eat Acridine
+- Got it [Pulmonary Candidiasis](disease) Time of Can eat What diet Ah
+- gave birth [Lung abscess](disease) Time of food Ok
+- Worthy of [Bullae](disease) of menu Yeah
+- Got it [Pulmonary embolism](disease) Time of food
+- Get [Bacillus pneumoniae pneumonia](disease) Time of drink Ok
+- Suffer [SARS](disease) Time of recipe Is it
+- infection [Pulmonary pseudotumor](disease) Time Can eat What drink Is it
+- infection [Lung cancer](disease) Can eat What diet what
+- Got it [Goodpasture syndrome](disease) What recipe Acridine
+- Got it [Adult respiratory distress syndrome](disease) of tonic Is it
+- Get [cold](disease) Time of menu What
+- gave birth [pneumonia](disease) Time of Health products
+- Suffer [Lobar Pneumonia](disease) Time meal Is it
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) of edible Ah
+- [Lobar Pneumonia](disease) of tonic
+- Give birth [Wheezing bronchitis](disease) of Can eat What Food what
+- Suffer [Carbon disulfide poisoning](disease) food What
+- Got it [Cadmium poisoning](disease) Time of Can eat What recipe
+- infection [Pulmonary Actinomycosis](disease) Time of diet Ah
+- gave birth [Carbon disulfide poisoning](disease) Time menu what
+- Worthy of [Pulmonary Cryptococcosis](disease) of food Ok
+- Get [Pulmonary Candidiasis](disease) Time tonic What
+- gave birth [Mercury poisoning](disease) Can eat What drink Yeah
+- gave birth [Bacillus pneumoniae pneumonia](disease) Time of meal Ok
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) food
+- infection [Pneumococcal pneumonia](disease) of eat what
+- Worthy of [Pulmonary bullae](disease) Can eat What food Ah
+- [Pulmonary Candidiasis](disease) drink Ah
+- Worthy of [Alveolar proteinosis](disease) of recipe Ok
+- infection [Pulmonary pseudotumor](disease) meal Yeah
+- [Large amounts of amniotic fluid inhalation](disease) of Can eat What eat Ok
+- Give birth [Alveolar proteinosis](disease) of Can eat What food Ok
+- Got it [Pulmonary Aspergillosis](disease) of What tonic Yeah
+- Got it [Bullae](disease) Time of drink Ah
+- gave birth [Adult respiratory distress syndrome](disease) of tonic Yeah
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) of drink Ah
+- Catch [Simple pulmonary eosinophilic infiltration](disease) Time of food
+- Get [pneumonia](disease) Time Can eat What tonic Ok
+- gave birth [Anaphylactic shock](disease) Time of meal Acridine
+- Suffer [Bullae](disease) Time of What recipe Acridine
+- Get [Pulmonary-pleural amebiasis](disease) Time of What recipe
+- Worthy of [Septic shock](disease) of tonic Yeah
+- [Lung metastases](disease) of food Acridine
+- Suffer [Building Sick Syndrome](disease) of tonic what
+- gave birth [Emphysema](disease) Time menu Acridine
+- Suffer [Lung cancer](disease) of What food Acridine
+- Worthy of [Radiation pneumonia](disease) of edible Is it
+- infection [Septic shock](disease) Time drink Acridine
+- Worthy of [Radiation pneumonia](disease) Time diet what
+- [Lobar Pneumonia](disease) of diet Ah
+- Give birth [Pulmonary-pleural amebiasis](disease) Time What meal
+- [Goodpasture syndrome](disease) menu Is it
+- Suffer [SARS](disease) Time eat
+- Suffer [Lobar Pneumonia](disease) Time of What diet Yeah
+- Catch [Emphysema](disease) What Food
+- Got it [Pulmonary Edema](disease) of drink Ah
+- gave birth [Hypersensitivity pneumonia](disease) drink what
+- gave birth [Pneumococcal pneumonia](disease) of drink What
+- Worthy of [Lung cancer](disease) menu Yeah
+- [Pulmonary Candidiasis](disease) of What dish Is it
+- Got it [Cadmium poisoning](disease) Time tonic Is it
+- Worthy of [Pulmonary-pleural amebiasis](disease) Time of menu Yeah
+- Catch [pertussis](disease) Time of Can eat What diet Is it
+- Get [Pulmonary Aspergillosis](disease) of edible
+- Give birth [Cadmium poisoning](disease) Can eat What menu
+- infection [Pulmonary Actinomycosis](disease) of dish Ok
+- Catch [Pulmonary Edema](disease) Time diet Ah
+- gave birth [Anaphylactic shock](disease) eat Ok
+- Worthy of [Benzene poisoning](disease) Time Can eat What food Yeah
+- Suffer [Lung cancer](disease) Time of diet what
+- Suffer [Anaphylactic shock](disease) of What drink Yeah
+- Catch [Pulmonary embolism](disease) of What diet
+- Give birth [Adult respiratory distress syndrome](disease) drink Ah
+- gave birth [Mercury poisoning](disease) of drink
+- Catch [Emphysema](disease) of Health products Ok
+- Get [Bullae](disease) Time of diet what
+- gave birth [Benzene poisoning](disease) Can eat What tonic what
+- Catch [Cadmium poisoning](disease) Time food
+- Suffer [Pneumococcal pneumonia](disease) Time of tonic Yeah
+- Get [Building Sick Syndrome](disease) Time Can eat What diet what
+- Suffer [Foreign body in the respiratory tract](disease) Time of What dish Ok
+- Worthy of [Septic shock](disease) Time of recipe Yeah
+- [Respiratory bronchiole-related interstitial lung disease](disease) of edible What
+- Catch [Pulmonary bullae](disease) Time food Ok
+- Give birth [Anaphylactic shock](disease) tonic Ah
+- Got it [Cadmium poisoning](disease) Time What diet Ah
+- infection [Pulmonary Cryptococcosis](disease) Time dish Ah
+- Suffer [Cadmium poisoning](disease) Time of edible What
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) diet Ok
+- gave birth [Building Sick Syndrome](disease) of recipe Ok
+- gave birth [cold](disease) Time of Food What
+- Worthy of [Foreign body in the respiratory tract](disease) Time drink What
+- [Bullae](disease) Time Health products What
+- Give birth [Alveolar proteinosis](disease) What edible Ok
+- Catch [Pulmonary Candidiasis](disease) of Can eat What diet Acridine
+- Suffer [Pulmonary Actinomycosis](disease) of Can eat What drink Yeah
+- Worthy of [Pneumococcal pneumonia](disease) of Food Is it
+- Got it [Alveolar proteinosis](disease) What Food Is it
+- Give birth [Hypersensitivity pneumonia](disease) of What Food Acridine
+- Suffer [Pulmonary Aspergillosis](disease) What recipe Is it
+- Get [Hypersensitivity pneumonia](disease) Time edible Ok
+- Catch [Alveolar proteinosis](disease) Time of food Acridine
+- Get [Goodpasture syndrome](disease) Time of recipe Ah
+- [Carbon disulfide poisoning](disease) What recipe Ah
+- Suffer [Septic shock](disease) Time food What
+- Got it [Lung abscess](disease) What diet Acridine
+- Worthy of [Alveolar proteinosis](disease) tonic Yeah
+- Catch [cold](disease) of Can eat What eat Ok
+- Give birth [Lung metastases](disease) Time of menu What
+- infection [Pulmonary Cryptococcosis](disease) Time of menu Acridine
+- Catch [pneumonia](disease) of dish
+- gave birth [Lung abscess](disease) of diet Yeah
+- Worthy of [Bullae](disease) food Yeah
+- Got it [Adult respiratory distress syndrome](disease) Time of Health products What
+- gave birth [Cadmium poisoning](disease) Time of Health products
+- Got it [Lobar Pneumonia](disease) Time of Can eat What dish Acridine
+- Give birth [Septic shock](disease) of tonic
+- [Simple pulmonary eosinophilic infiltration](disease) Time of edible
+- gave birth [Building Sick Syndrome](disease) Time of What menu Ah
+- Give birth [pneumonia](disease) Time tonic what
+- infection [Pulmonary-pleural amebiasis](disease) Health products Is it
+- Got it [Pulmonary Cryptococcosis](disease) Time of What Food Yeah
+- infection [Pulmonary embolism](disease) Time What tonic Is it
+- Suffer [Goodpasture syndrome](disease) What tonic Yeah
+- Get [Lung abscess](disease) Time Food Is it
+- Give birth [Large amounts of amniotic fluid inhalation](disease) of What tonic What
+- gave birth [Wheezing bronchitis](disease) What meal What
+- Catch [Alveolar proteinosis](disease) of What drink Acridine
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) Time of Food what
+- infection [Building Sick Syndrome](disease) Time diet Yeah
+- Catch [SARS](disease) Time diet what
+- gave birth [Foreign body in the respiratory tract](disease) of recipe What
+- Worthy of [Alveolar proteinosis](disease) Time Can eat What edible
+- Catch [Large amounts of amniotic fluid inhalation](disease) tonic Acridine
+- [Pulmonary hemorrhage-nephritis syndrome](disease) edible Acridine
+- Give birth [Bacillus pneumoniae pneumonia](disease) dish Ah
+- Worthy of [Benzene poisoning](disease) Time tonic Acridine
+- infection [Radiation pneumonia](disease) Time of food What
+- Suffer [Radiation pneumonia](disease) Time of What Food Acridine
+- [Pneumococcal pneumonia](disease) diet What
+- Get [pneumonia](disease) Time Can eat What drink
+- gave birth [Lung abscess](disease) of Can eat What meal Is it
+- [Hypersensitivity pneumonia](disease) of Food Ok
+- Got it [Large amounts of amniotic fluid inhalation](disease) What menu Ah
+- Worthy of [pertussis](disease) Time of drink Ah
+- Suffer [Pulmonary Edema](disease) of What diet What
+- Get [Lobar Pneumonia](disease) Time Can eat What diet Acridine
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) Time of What edible Ah
+- Got it [Adult respiratory distress syndrome](disease) of Can eat What diet Ah
+- gave birth [Pulmonary-pleural amebiasis](disease) Time of Can eat What Health products what
+- [Septic shock](disease) of eat
+- [Radiation pneumonia](disease) meal
+- [SARS](disease) eat what
+- gave birth [Lung cancer](disease) Time dish
+- Get [Goodpasture syndrome](disease) meal Ok
+- gave birth [Hypersensitivity pneumonia](disease) Time of tonic what
+- Worthy of [Pulmonary bullae](disease) of Health products Acridine
+- Worthy of [pertussis](disease) of Can eat What drink Yeah
+- [Carbon disulfide poisoning](disease) Time Can eat What dish Ah
+- infection [cold](disease) Time What tonic Is it
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) Time recipe Yeah
+- Suffer [Lung cancer](disease) Time edible
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) Time of What recipe
+- Got it [Mercury poisoning](disease) Time of food What
+- Got it [Emphysema](disease) of What diet Is it
+- Worthy of [Carbon disulfide poisoning](disease) of Can eat What eat Ok
+- Suffer [Wheezing bronchitis](disease) Time of menu Ok
+- Worthy of [Alveolar proteinosis](disease) eat Yeah
+- infection [Lung metastases](disease) Time diet Yeah
+- Suffer [pertussis](disease) Time of eat Ah
+- infection [Pulmonary embolism](disease) Time of food Acridine
+- Worthy of [Lung cancer](disease) of drink Acridine
+- Got it [Adult respiratory distress syndrome](disease) drink What
+- Get [Pneumococcal pneumonia](disease) Time of recipe Ah
+- infection [Pulmonary-pleural amebiasis](disease) Time of What eat Ok
+- infection [Large amounts of amniotic fluid inhalation](disease) drink Ok
+- Worthy of [Foreign body in the respiratory tract](disease) Time of edible Ok
+- infection [Hypersensitivity pneumonia](disease) Time of drink
+- Got it [Foreign body in the respiratory tract](disease) Time dish Yeah
+- Worthy of [Alveolar proteinosis](disease) dish Yeah
+- [Respiratory bronchiole-related interstitial lung disease](disease) Time of edible Is it
+- Worthy of [Pulmonary embolism](disease) Time of Can eat What tonic What
+- Get [Carbon disulfide poisoning](disease) Time dish what
+- gave birth [Alveolar proteinosis](disease) Time of What drink
+- Suffer [Adult respiratory distress syndrome](disease) Time of Food what
+- Suffer [Radiation pneumonia](disease) of dish what
+- Give birth [Lung abscess](disease) Time of drink Ok
+- Got it [Lung abscess](disease) Time Can eat What diet Ok
+- Got it [Simple pulmonary eosinophilic infiltration](disease) Time Can eat What menu
+- Suffer [Lobar Pneumonia](disease) Time of Can eat What drink Ah
+- Give birth [Pulmonary bullae](disease) of Can eat What menu what
+- Got it [SARS](disease) food
+- Got it [Cadmium poisoning](disease) of food What
+- gave birth [Pulmonary pseudotumor](disease) Time dish Yeah
+- Worthy of [Alveolar proteinosis](disease) Time Can eat What drink Ok
+- Get [Alveolar proteinosis](disease) of What diet Ok
+- Catch [Radiation pneumonia](disease) Time of What food
+- gave birth [SARS](disease) Time diet Ah
+- Give birth [Building Sick Syndrome](disease) Time of recipe Ok
+- gave birth [Pneumococcal pneumonia](disease) What Food Yeah
+- infection [Adult respiratory distress syndrome](disease) Time What drink Yeah
+- Suffer [Carbon disulfide poisoning](disease) Time Can eat What dish Ah
+- Give birth [Lung abscess](disease) diet Ah
+- Worthy of [Alveolar proteinosis](disease) Time Health products Ah
+- Worthy of [pertussis](disease) Time menu
+- Got it [pneumonia](disease) Time Can eat What menu What
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) Time of Can eat What Health products Yeah
+- infection [Pulmonary Aspergillosis](disease) Can eat What food Yeah
+- Give birth [Septic shock](disease) of eat Yeah
+- [Radiation pneumonia](disease) Time What Health products Yeah
+- [Lung metastases](disease) Time menu
+- gave birth [Emphysema](disease) of What dish What
+- [Goodpasture syndrome](disease) Time of food Ah
+- [Cadmium poisoning](disease) Food Yeah
+- Got it [Foreign body in the respiratory tract](disease) Health products Acridine
+- Give birth [Carbon disulfide poisoning](disease) of edible what
+- Catch [Pulmonary embolism](disease) Time of diet Acridine
+- infection [Lobar Pneumonia](disease) What Health products Is it
+- Catch [Simple pulmonary eosinophilic infiltration](disease) of diet What
+- Got it [Adult respiratory distress syndrome](disease) of edible Acridine
+- Got it [Carbon disulfide poisoning](disease) of eat what
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) of menu Ah
+- Catch [SARS](disease) Time of recipe Yeah
+- Got it [Pulmonary Actinomycosis](disease) Time food Ah
+- Worthy of [SARS](disease) of recipe Is it
+- Suffer [Pulmonary Cryptococcosis](disease) of food Acridine
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) diet Ok
+- Get [Pulmonary-pleural amebiasis](disease) Time tonic Is it
+- gave birth [Adult respiratory distress syndrome](disease) of Can eat What drink what
+- Got it [Building Sick Syndrome](disease) Time What tonic Ah
+- Worthy of [Lung metastases](disease) food Yeah
+- Got it [Pulmonary embolism](disease) Time menu What
+- Got it [Hypersensitivity pneumonia](disease) Time food
+- gave birth [pertussis](disease) What dish What
+- Got it [Pulmonary Cryptococcosis](disease) Time of tonic What
+- Worthy of [Benzene poisoning](disease) Time meal Ok
+- gave birth [Cadmium poisoning](disease) eat Yeah
+- Catch [Large amounts of amniotic fluid inhalation](disease) Time What tonic Ah
+- Worthy of [Pulmonary Actinomycosis](disease) Time dish
+- Got it [Large amounts of amniotic fluid inhalation](disease) What eat what
+- Give birth [Adult respiratory distress syndrome](disease) Time drink Ok
+- Give birth [Pulmonary-pleural amebiasis](disease) Time of Can eat What drink Yeah
+- [cold](disease) Time drink Ah
+- Got it [Pulmonary-pleural amebiasis](disease) Can eat What eat Ok
+- infection [Wheezing bronchitis](disease) Time of What Food Is it
+- Suffer [Bullae](disease) What tonic What
+- Get [Foreign body in the respiratory tract](disease) What dish Ok
+- Give birth [Foreign body in the respiratory tract](disease) Time tonic Yeah
+- Suffer [Lung cancer](disease) Time What Food
+- Give birth [Goodpasture syndrome](disease) Time What diet Ah
+- infection [SARS](disease) of What food Ok
+- Worthy of [Foreign body in the respiratory tract](disease) of Food Ah
+- gave birth [Pulmonary embolism](disease) Time Can eat What tonic Ok
+- Give birth [Pneumococcal pneumonia](disease) What diet Ah
+- Suffer [Bullae](disease) What drink Acridine
+- gave birth [Goodpasture syndrome](disease) of What food Yeah
+- Catch [cold](disease) What Health products Is it
+- Got it [Carbon disulfide poisoning](disease) Time eat Yeah
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) of diet Ok
+- Give birth [Anaphylactic shock](disease) Time of Can eat What edible Ah
+- Suffer [Anaphylactic shock](disease) Time of Can eat What diet Yeah
+- gave birth [Pulmonary Edema](disease) What menu Yeah
+- Worthy of [Wheezing bronchitis](disease) of What menu Ah
+- Give birth [Pulmonary pseudotumor](disease) Time of What eat
+- Got it [Alveolar proteinosis](disease) Time of Can eat What eat Is it
+- gave birth [Adult respiratory distress syndrome](disease) of edible
+- Got it [Alveolar proteinosis](disease) Time What drink Acridine
+- Catch [Alveolar proteinosis](disease) Time of tonic Yeah
+- Worthy of [Bacillus pneumoniae pneumonia](disease) of diet Yeah
+- Suffer [Pulmonary-pleural amebiasis](disease) tonic Ok
+- [Adult respiratory distress syndrome](disease) Time What food Ah
+- Get [Bullae](disease) Time of eat what
+- Suffer [Septic shock](disease) of tonic Ah
+- gave birth [Alveolar proteinosis](disease) Time of drink Acridine
+- infection [SARS](disease) of What food Yeah
+- Worthy of [Lung abscess](disease) of What Health products Is it
+- gave birth [Pulmonary Actinomycosis](disease) Time of meal Is it
+- gave birth [Lung metastases](disease) Time of food Ah
+- Worthy of [cold](disease) edible Yeah
+- gave birth [Carbon disulfide poisoning](disease) of menu Yeah
+- Give birth [pneumonia](disease) Can eat What tonic
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) Time food Ah
+- Worthy of [Adult respiratory distress syndrome](disease) Time food Is it
+- [Emphysema](disease) of What drink
+- Got it [Pulmonary-pleural amebiasis](disease) Time What dish Ah
+- Catch [Pulmonary-pleural amebiasis](disease) of Can eat What Food What
+- Get [Simple pulmonary eosinophilic infiltration](disease) Time drink
+- Got it [Hypersensitivity pneumonia](disease) What dish what
+- Get [Lung abscess](disease) Can eat What food Acridine
+- Catch [Lung cancer](disease) Time recipe What
+- Worthy of [Building Sick Syndrome](disease) Time recipe What
+- Give birth [Cadmium poisoning](disease) Time What food Yeah
+- Suffer [Pulmonary Aspergillosis](disease) Time drink What
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) Time of What drink Ah
+- gave birth [Pneumococcal pneumonia](disease) of What eat Acridine
+- [Emphysema](disease) Time Health products Acridine
+- Get [Pulmonary Aspergillosis](disease) Time of What tonic Acridine
+- Get [Carbon disulfide poisoning](disease) What meal Acridine
+- [Pulmonary Aspergillosis](disease) diet Is it
+- Get [Alveolar proteinosis](disease) of Health products Is it
+- gave birth [Septic shock](disease) Time Can eat What drink
+- gave birth [Lung cancer](disease) Time of What tonic what
+- gave birth [Goodpasture syndrome](disease) of tonic What
+- Worthy of [Goodpasture syndrome](disease) Time of drink Is it
+- infection [Lung abscess](disease) of recipe Acridine
+- Get [Benzene poisoning](disease) Time of Food
+- [Simple pulmonary eosinophilic infiltration](disease) of What drink Ah
+- [Pulmonary hemorrhage-nephritis syndrome](disease) of drink What
+- Got it [pertussis](disease) of What Health products Ah
+- gave birth [Foreign body in the respiratory tract](disease) Time of Can eat What food Ok
+- [Bullae](disease) of dish Is it
+- Get [Simple pulmonary eosinophilic infiltration](disease) of recipe what
+- Got it [Pulmonary Edema](disease) Time of edible What
+- Give birth [Pulmonary Actinomycosis](disease) Time of Can eat What drink Acridine
+- Give birth [Pulmonary Cryptococcosis](disease) tonic Acridine
+- infection [Pneumococcal pneumonia](disease) Time meal Acridine
+- gave birth [Pulmonary Actinomycosis](disease) Time edible Ok
+- Got it [Lobar Pneumonia](disease) Time of Can eat What menu what
+- Catch [Pulmonary Candidiasis](disease) Time of What recipe
+- Got it [cold](disease) Time of What drink What
+- infection [Septic shock](disease) of food Acridine
+- [Wheezing bronchitis](disease) Time of drink Is it
+- [Emphysema](disease) Food what
+- Suffer [Building Sick Syndrome](disease) Time of Health products Ah
+- Give birth [Pneumococcal pneumonia](disease) Time What meal Acridine
+- Worthy of [Alveolar proteinosis](disease) Can eat What meal Yeah
+- Catch [Pulmonary Candidiasis](disease) diet
+- Suffer [Carbon disulfide poisoning](disease) Time of drink Ok
+- Give birth [Benzene poisoning](disease) What drink Ah
+- Suffer [Goodpasture syndrome](disease) of Can eat What Food
+- Catch [Lung metastases](disease) What diet Ah
+- [Septic shock](disease) Can eat What diet what
+- Got it [Pulmonary-pleural amebiasis](disease) Can eat What diet Yeah
+- Catch [Septic shock](disease) Time of food What
+- Get [Pulmonary Edema](disease) Time of What drink Is it
+- [Building Sick Syndrome](disease) What menu Yeah
+- infection [Pneumococcal pneumonia](disease) Time of Can eat What food what
+- Worthy of [Emphysema](disease) of tonic Acridine
+- gave birth [Pulmonary Cryptococcosis](disease) Time of drink What
+- Catch [cold](disease) Time What meal Acridine
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) tonic Is it
+- Catch [Goodpasture syndrome](disease) Time Can eat What drink Ah
+- Get [pertussis](disease) Time tonic Acridine
+- Get [Pulmonary embolism](disease) food Yeah
+- Catch [Mercury poisoning](disease) Time What recipe Yeah
+- Catch [Mercury poisoning](disease) What dish What
+- Got it [Bacillus pneumoniae pneumonia](disease) of recipe Ah
+- infection [Emphysema](disease) of diet Ok
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) of Food Acridine
+- Catch [Lung cancer](disease) Time dish Ah
+- infection [Mercury poisoning](disease) Time tonic Ah
+- Get [Lung cancer](disease) tonic what
+- Give birth [Pulmonary Cryptococcosis](disease) food Acridine
+- Got it [Pulmonary Aspergillosis](disease) of What diet Ok
+- Worthy of [pneumonia](disease) Time Can eat What eat Ah
+- Catch [Radiation pneumonia](disease) Time of Can eat What Health products Acridine
+- [Radiation pneumonia](disease) of Can eat What food Ok
+- Suffer [Pulmonary embolism](disease) Time recipe Acridine
+- Give birth [Bullae](disease) Time What eat
+- Worthy of [Pulmonary Actinomycosis](disease) of Can eat What food Is it
+- Worthy of [pertussis](disease) of Can eat What food what
+- Got it [Pulmonary pseudotumor](disease) of food what
+- Catch [Foreign body in the respiratory tract](disease) meal Ah
+- infection [Lung abscess](disease) of tonic Ok
+- Got it [Pulmonary bullae](disease) Time of What Food What
+- gave birth [Mercury poisoning](disease) Time Health products Ok
+- Get [pneumonia](disease) of diet what
+- Suffer [Bullae](disease) Time What Food
+- Suffer [Pulmonary Actinomycosis](disease) What dish Ok
+- Give birth [Lung cancer](disease) of drink
+- infection [Bullae](disease) Time of menu what
+- infection [Adult respiratory distress syndrome](disease) of food
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) Time of Can eat What dish Acridine
+- Catch [Pulmonary Actinomycosis](disease) of diet What
+- Got it [Pulmonary bullae](disease) drink What
+- Give birth [Benzene poisoning](disease) Time Can eat What drink what
+- [Hypersensitivity pneumonia](disease) Time of recipe Acridine
+- [pneumonia](disease) of Can eat What food what
+- [Anaphylactic shock](disease) food What
+- infection [Lobar Pneumonia](disease) Time Can eat What meal Yeah
+- Give birth [Bullae](disease) diet Acridine
+- Catch [Lung metastases](disease) Time of What drink Yeah
+- [Alveolar proteinosis](disease) of food
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) of What food Ok
+- Catch [Alveolar proteinosis](disease) of tonic what
+- Get [Pulmonary Cryptococcosis](disease) Time food Yeah
+- Give birth [Bacillus pneumoniae pneumonia](disease) What diet Ah
+- Catch [Foreign body in the respiratory tract](disease) diet Ah
+- gave birth [Wheezing bronchitis](disease) Time of dish Is it
+- Get [Carbon disulfide poisoning](disease) of tonic Ok
+- Give birth [Pulmonary Aspergillosis](disease) Time What diet Ok
+- gave birth [Large amounts of amniotic fluid inhalation](disease) Time of Can eat What Health products Ok
+- Suffer [Carbon disulfide poisoning](disease) Time of tonic What
+- Get [SARS](disease) Time of drink
+- Give birth [Lung cancer](disease) What diet what
+- [Bacillus pneumoniae pneumonia](disease) Time of What eat Ah
+- Give birth [Benzene poisoning](disease) of What eat
+- gave birth [Pulmonary Edema](disease) Time tonic Yeah
+- Get [Bacillus pneumoniae pneumonia](disease) Time Health products Ok
+- Got it [Lung cancer](disease) of Can eat What menu what
+- Give birth [Lobar Pneumonia](disease) of meal Ok
+- [Building Sick Syndrome](disease) of tonic Is it
+- [Building Sick Syndrome](disease) of What diet Ok
+- Catch [Pulmonary Candidiasis](disease) Time drink Yeah
+- Worthy of [Pulmonary Edema](disease) of Can eat What edible
+- Give birth [Pneumococcal pneumonia](disease) Time Health products Ah
+- [Foreign body in the respiratory tract](disease) Time tonic what
+- Give birth [Carbon disulfide poisoning](disease) of diet What
+- infection [Pulmonary Actinomycosis](disease) eat
+- Give birth [Benzene poisoning](disease) of recipe Acridine
+- Catch [Wheezing bronchitis](disease) Time of What eat Yeah
+- [Respiratory bronchiole-related interstitial lung disease](disease) of eat Is it
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) of What eat Acridine
+- Get [Building Sick Syndrome](disease) Time of food what
+- Catch [Lung cancer](disease) drink Ah
+- Worthy of [Hypersensitivity pneumonia](disease) Time Can eat What food Acridine
+- Worthy of [Carbon disulfide poisoning](disease) eat Ah
+- Got it [Alveolar proteinosis](disease) Time tonic Is it
+- gave birth [Goodpasture syndrome](disease) Time of What drink Is it
+- Get [Carbon disulfide poisoning](disease) meal Yeah
+- Suffer [Pulmonary Aspergillosis](disease) Time food Yeah
+- [Alveolar proteinosis](disease) food Yeah
+- Worthy of [Goodpasture syndrome](disease) Time of food what
+- infection [Simple pulmonary eosinophilic infiltration](disease) Time of What recipe Yeah
+- Got it [Adult respiratory distress syndrome](disease) Food Acridine
+- Got it [pneumonia](disease) Time of Food Is it
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) Time of tonic what
+- Got it [Pulmonary Edema](disease) Time of diet what
+- Suffer [Cadmium poisoning](disease) Time of food Acridine
+- Suffer [Pulmonary Aspergillosis](disease) Time of diet Ok
+- gave birth [Carbon disulfide poisoning](disease) Time What menu Acridine
+- Catch [Pneumococcal pneumonia](disease) What drink What
+- Catch [Simple pulmonary eosinophilic infiltration](disease) Time of What diet Is it
+- infection [SARS](disease) Time of meal Ah
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) Time of eat What
+- infection [Pulmonary embolism](disease) Time of What drink Is it
+- Get [Pulmonary-pleural amebiasis](disease) Time What food Yeah
+- Give birth [cold](disease) of diet Yeah
+- Get [Pulmonary embolism](disease) of Can eat What drink Yeah
+- [Bullae](disease) Time tonic Is it
+- Suffer [Carbon disulfide poisoning](disease) Can eat What Health products
+- Suffer [Foreign body in the respiratory tract](disease) diet Ah
+- [Pneumococcal pneumonia](disease) of diet Yeah
+- gave birth [Mercury poisoning](disease) Time Can eat What edible what
+- Catch [Emphysema](disease) Time drink Yeah
+- [Lung abscess](disease) of edible What
+- Catch [Pulmonary Edema](disease) What recipe What
+- Got it [Pulmonary-pleural amebiasis](disease) Time Can eat What Health products Ah
+- [Pulmonary Edema](disease) Time What drink what
+- gave birth [Pulmonary Aspergillosis](disease) of diet Ok
+- Worthy of [Alveolar proteinosis](disease) Time of eat Ah
+- Get [Hypersensitivity pneumonia](disease) Time tonic Is it
+- Catch [Foreign body in the respiratory tract](disease) tonic Is it
+- Got it [Building Sick Syndrome](disease) meal Acridine
+- gave birth [Carbon disulfide poisoning](disease) Time eat Yeah
+- [Septic shock](disease) tonic
+- [Goodpasture syndrome](disease) Time What edible Yeah
+- [Pulmonary Edema](disease) of diet Yeah
+- Get [Carbon disulfide poisoning](disease) Time tonic
+- Catch [Carbon disulfide poisoning](disease) of What diet What
+- Worthy of [Alveolar proteinosis](disease) Time food Acridine
+- gave birth [Adult respiratory distress syndrome](disease) of Can eat What Food Ah
+- gave birth [Bullae](disease) Time of edible Ok
+- Worthy of [Lobar Pneumonia](disease) Time Can eat What food Acridine
+- Give birth [cold](disease) Time of What Health products Acridine
+- Got it [Bullae](disease) diet What
+- Worthy of [Adult respiratory distress syndrome](disease) drink Ah
+- infection [Pulmonary pseudotumor](disease) Time of What tonic What
+- Catch [SARS](disease) Time of Can eat What edible what
+- Give birth [Cadmium poisoning](disease) food Ah
+- infection [Simple pulmonary eosinophilic infiltration](disease) Time recipe Ah
+- Get [Alveolar proteinosis](disease) of drink Acridine
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) of tonic Acridine
+- Get [Pulmonary pseudotumor](disease) What food Is it
+- Get [Adult respiratory distress syndrome](disease) Time food What
+- gave birth [Bacillus pneumoniae pneumonia](disease) drink what
+- Suffer [Carbon disulfide poisoning](disease) Time of Can eat What eat Acridine
+- infection [Septic shock](disease) Can eat What diet Yeah
+- Get [Wheezing bronchitis](disease) Can eat What food What
+- Got it [SARS](disease) Time Food Is it
+- Give birth [Bacillus pneumoniae pneumonia](disease) Time of food Ok
+- Got it [Benzene poisoning](disease) Time of drink Ok
+- Catch [Pulmonary Candidiasis](disease) Time of Can eat What drink Ok
+- Get [Alveolar proteinosis](disease) of What Health products what
+- Get [Pulmonary-pleural amebiasis](disease) Time What diet Yeah
+- Give birth [pertussis](disease) Time of What diet
+- Got it [Pulmonary pseudotumor](disease) of tonic What
+- Get [Alveolar proteinosis](disease) Time Can eat What drink
+- gave birth [Cadmium poisoning](disease) Time of food
+- [Cadmium poisoning](disease) Time Can eat What eat Yeah
+- Catch [Alveolar proteinosis](disease) Time of eat Ah
+- Got it [Pulmonary Candidiasis](disease) Time of Can eat What drink Ah
+- Give birth [SARS](disease) dish Yeah
+- Get [Alveolar proteinosis](disease) Time tonic Acridine
+- infection [Lobar Pneumonia](disease) Time menu
+- Give birth [Pulmonary Cryptococcosis](disease) Time tonic
+- Got it [Large amounts of amniotic fluid inhalation](disease) Time Can eat What diet What
+- Give birth [Pulmonary-pleural amebiasis](disease) Time of Health products Ah
+- [Simple pulmonary eosinophilic infiltration](disease) drink Acridine
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) Time of drink
+- Suffer [Emphysema](disease) drink Is it
+- gave birth [Pulmonary bullae](disease) meal Ok
+- Worthy of [Pulmonary pseudotumor](disease) Time of drink what
+- Catch [Pneumococcal pneumonia](disease) of eat
+- Got it [Pulmonary Cryptococcosis](disease) Time of What food
+- Suffer [Bacillus pneumoniae pneumonia](disease) Time of drink Ok
+- Worthy of [Lung abscess](disease) What eat Is it
+- Got it [pertussis](disease) Time diet
+- Suffer [Pulmonary-pleural amebiasis](disease) Time diet Acridine
+- Get [Radiation pneumonia](disease) Time of diet Ah
+- Suffer [Anaphylactic shock](disease) eat Ok
+- gave birth [Bullae](disease) What Food What
+- [Pulmonary-pleural amebiasis](disease) food Ok
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) diet
+- Got it [Bacillus pneumoniae pneumonia](disease) tonic What
+- Suffer [Cadmium poisoning](disease) of eat Acridine
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) Time diet Ah
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) Health products Acridine
+- Give birth [Pulmonary Actinomycosis](disease) Time drink what
+- gave birth [SARS](disease) Time What drink What
+- Got it [Anaphylactic shock](disease) of drink Ok
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) of eat Ah
+- Got it [Goodpasture syndrome](disease) of Can eat What recipe Acridine
+- Suffer [Lung abscess](disease) of diet Is it
+- infection [Alveolar proteinosis](disease) Time edible What
+- Got it [pneumonia](disease) Time Can eat What dish Is it
+- [Mercury poisoning](disease) Time Can eat What menu Yeah
+- Give birth [Lung abscess](disease) Time Can eat What edible Ok
+- Got it [Alveolar proteinosis](disease) What diet what
+- infection [cold](disease) Time What edible
+- Suffer [Pulmonary Actinomycosis](disease) What edible What
+- Get [Pulmonary Aspergillosis](disease) Can eat What drink What
+- Catch [Pneumococcal pneumonia](disease) Time food Acridine
+- Suffer [Lung cancer](disease) Time of Food Ah
+- [Pulmonary bullae](disease) Time of eat what
+- Catch [Pneumococcal pneumonia](disease) Time of What menu What
+- [Anaphylactic shock](disease) drink Acridine
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Time What drink Is it
+- Got it [Pulmonary Edema](disease) Time diet What
+- Suffer [Lobar Pneumonia](disease) of dish Ok
+- Give birth [Pulmonary Edema](disease) Time diet Ok
+- Got it [Cadmium poisoning](disease) of Can eat What eat
+- gave birth [Benzene poisoning](disease) of Can eat What drink Is it
+- [Lung cancer](disease) Time of Food Ok
+- gave birth [Bacillus pneumoniae pneumonia](disease) of recipe what
+- [pertussis](disease) of What Health products what
+- Give birth [Adult respiratory distress syndrome](disease) Time diet Acridine
+- Got it [pertussis](disease) Time of Health products what
+- Suffer [Large amounts of amniotic fluid inhalation](disease) Time of drink
+- Get [Lobar Pneumonia](disease) dish Ah
+- gave birth [Pulmonary embolism](disease) Time of diet Acridine
+- Get [Pulmonary Edema](disease) of eat What
+- infection [Pulmonary pseudotumor](disease) of diet Is it
+- Suffer [Wheezing bronchitis](disease) What recipe what
+- Got it [Radiation pneumonia](disease) of Food Ah
+- Suffer [Pulmonary bullae](disease) diet Yeah
+- Suffer [Radiation pneumonia](disease) of What food Yeah
+- Suffer [Cadmium poisoning](disease) of Can eat What tonic Ah
+- Give birth [Mercury poisoning](disease) of Can eat What menu what
+- [Pulmonary hemorrhage-nephritis syndrome](disease) recipe Yeah
+- Catch [Pulmonary Aspergillosis](disease) edible Ah
+- gave birth [Foreign body in the respiratory tract](disease) of What drink Acridine
+- Got it [Adult respiratory distress syndrome](disease) Time of Can eat What diet Yeah
+- gave birth [Lung metastases](disease) tonic Is it
+- gave birth [Lung metastases](disease) eat Ok
+- infection [Radiation pneumonia](disease) of diet Ok
+- Catch [Goodpasture syndrome](disease) food Ah
+- infection [Mercury poisoning](disease) Time recipe Is it
+- Got it [cold](disease) of drink
+- [Lobar Pneumonia](disease) Time meal What
+- Give birth [Pneumococcal pneumonia](disease) tonic what
+- Get [Foreign body in the respiratory tract](disease) Can eat What tonic Ok
+- infection [Pulmonary Actinomycosis](disease) of edible Ah
+- Get [Pulmonary-pleural amebiasis](disease) of meal Ok
+- gave birth [Pulmonary Candidiasis](disease) Time of Food Acridine
+- Give birth [Pulmonary embolism](disease) of Can eat What diet Ah
+- Got it [Benzene poisoning](disease) tonic what
+- gave birth [Large amounts of amniotic fluid inhalation](disease) What menu What
+- infection [Cadmium poisoning](disease) Time of What diet Ah
+- [Bullae](disease) Time of recipe Yeah
+- Got it [Goodpasture syndrome](disease) of food Is it
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) food Ah
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) Can eat What recipe Acridine
+- gave birth [Lung abscess](disease) Time of menu Ok
+- Got it [Building Sick Syndrome](disease) Time of What drink Ah
+- Suffer [Large amounts of amniotic fluid inhalation](disease) of Can eat What drink Yeah
+- infection [Carbon disulfide poisoning](disease) Can eat What food What
+- [Wheezing bronchitis](disease) of dish Is it
+- Catch [pertussis](disease) Time meal Acridine
+- infection [Adult respiratory distress syndrome](disease) of diet
+- Give birth [cold](disease) Time What tonic what
+- [Pulmonary pseudotumor](disease) of meal Ok
+- Give birth [Carbon disulfide poisoning](disease) of What Food
+- [Pulmonary bullae](disease) Time drink Is it
+- Worthy of [Pulmonary pseudotumor](disease) Time of tonic what
+- Give birth [Bacillus pneumoniae pneumonia](disease) What meal Ah
+- Catch [Pulmonary Actinomycosis](disease) of meal What
+- infection [Pulmonary Cryptococcosis](disease) Time Can eat What meal what
+- Catch [Goodpasture syndrome](disease) Time of recipe Yeah
+- [Hypersensitivity pneumonia](disease) Food Yeah
+- Catch [Bullae](disease) food
+- Suffer [Mercury poisoning](disease) edible
+- Catch [Pulmonary Actinomycosis](disease) food What
+- Worthy of [Pulmonary Cryptococcosis](disease) Time tonic Acridine
+- Catch [Cadmium poisoning](disease) What food Ah
+- Got it [Lung cancer](disease) Time Can eat What dish Acridine
+- infection [Pulmonary-pleural amebiasis](disease) Time Can eat What tonic Yeah
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) Time of What tonic Ok
+- Suffer [Carbon disulfide poisoning](disease) Time Can eat What drink Ah
+- Catch [Benzene poisoning](disease) Time food
+- Get [Pulmonary bullae](disease) of tonic Ah
+- Get [Hypersensitivity pneumonia](disease) Time diet Is it
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) Time recipe Ok
+- [cold](disease) Time of recipe Yeah
+- gave birth [Radiation pneumonia](disease) Time of What food What
+- Catch [Bacillus pneumoniae pneumonia](disease) Time of food Ah
+- [Pulmonary-pleural amebiasis](disease) Time of dish
+- Get [Alveolar proteinosis](disease) Time of Can eat What drink
+- Catch [Carbon disulfide poisoning](disease) Time of Can eat What drink what
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) Can eat What dish Is it
+- Suffer [cold](disease) Time dish What
+- infection [Bacillus pneumoniae pneumonia](disease) Time diet what
+- Get [Alveolar proteinosis](disease) Health products Ah
+- Give birth [Carbon disulfide poisoning](disease) Time meal what
+- gave birth [Wheezing bronchitis](disease) of drink what
+- Got it [Alveolar proteinosis](disease) of What Health products Ok
+- infection [Large amounts of amniotic fluid inhalation](disease) Time of Food Is it
+- Get [SARS](disease) menu Ah
+- Suffer [Wheezing bronchitis](disease) of Can eat What diet Ah
+- Worthy of [Foreign body in the respiratory tract](disease) of What food Ah
+- Get [Lung cancer](disease) Time of Food
+- Get [Building Sick Syndrome](disease) Time drink Ok
+- [SARS](disease) Time of food Acridine
+- [Anaphylactic shock](disease) Time of What food what
+- [Pulmonary Aspergillosis](disease) of meal Yeah
+- infection [Pulmonary Actinomycosis](disease) Time of food Acridine
+- gave birth [Pulmonary Actinomycosis](disease) Time of menu Ah
+- infection [Benzene poisoning](disease) of Can eat What diet Ah
+- [Large amounts of amniotic fluid inhalation](disease) Time of What diet what
+- Get [Anaphylactic shock](disease) Time of Can eat What tonic Ok
+- Suffer [Carbon disulfide poisoning](disease) Time of tonic
+- [Mercury poisoning](disease) diet What
+- Catch [Large amounts of amniotic fluid inhalation](disease) Time diet Acridine
+- Catch [Pulmonary Aspergillosis](disease) of What eat Ah
+- Give birth [Pulmonary Edema](disease) Time of Can eat What Food What
+- [Anaphylactic shock](disease) What recipe What
+- Worthy of [Pulmonary embolism](disease) Time of What tonic Is it
+- [Pulmonary bullae](disease) Time Can eat What drink Ah
+- [pertussis](disease) Time of food what
+- Got it [Lung metastases](disease) Can eat What Health products Ah
+- Get [Emphysema](disease) Health products what
+- [cold](disease) Time of What drink Ah
+- Catch [Lung abscess](disease) Time of diet What
+- Worthy of [Building Sick Syndrome](disease) Time of meal Is it
+- Suffer [Anaphylactic shock](disease) of Can eat What menu Yeah
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) of edible Ok
+- Worthy of [Pulmonary bullae](disease) of food Ah
+- Catch [Pulmonary Candidiasis](disease) meal what
+- Give birth [Carbon disulfide poisoning](disease) of tonic What
+- Catch [Pulmonary embolism](disease) Time of Can eat What diet Is it
+- [Lung metastases](disease) diet Yeah
+- Got it [Lung metastases](disease) of menu Ah
+- [Radiation pneumonia](disease) of food Ah
+- Catch [Adult respiratory distress syndrome](disease) Time tonic Ah
+- Give birth [Large amounts of amniotic fluid inhalation](disease) of food
+- Catch [Adult respiratory distress syndrome](disease) Time of What recipe Is it
+- Suffer [Pulmonary-pleural amebiasis](disease) Time of eat what
+- Give birth [Pulmonary Aspergillosis](disease) Time of diet What
+- Got it [Alveolar proteinosis](disease) Time Food Ah
+- Give birth [Septic shock](disease) Can eat What recipe Ah
+- [Benzene poisoning](disease) of meal what
+- Catch [Pulmonary pseudotumor](disease) Time of Health products Ah
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) of diet what
+- Got it [Pulmonary Edema](disease) of What food What
+- Suffer [Pulmonary Candidiasis](disease) of meal Acridine
+- [Hypersensitivity pneumonia](disease) Time of What recipe Yeah
+- Worthy of [Pulmonary Edema](disease) Can eat What food Ah
+- gave birth [pneumonia](disease) of What meal Ok
+- Got it [Mercury poisoning](disease) diet Ok
+- gave birth [pertussis](disease) Time dish What
+- Give birth [Simple pulmonary eosinophilic infiltration](disease) of What eat Yeah
+- Got it [pertussis](disease) Time What Food Yeah
+- Give birth [Lobar Pneumonia](disease) Time What diet Yeah
+- Get [Pulmonary bullae](disease) Time What food Is it
+- Suffer [Alveolar proteinosis](disease) Time of What Health products Ah
+- [SARS](disease) food what
+- [Lobar Pneumonia](disease) Time of What drink Ok
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) eat Acridine
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) of menu Acridine
+- Give birth [Pneumococcal pneumonia](disease) What food
+- Give birth [Pulmonary Candidiasis](disease) Time What diet Acridine
+- Suffer [Bullae](disease) Time of Can eat What meal Yeah
+- Give birth [Bacillus pneumoniae pneumonia](disease) Time eat Yeah
+- Worthy of [Radiation pneumonia](disease) of What edible Ah
+- [Simple pulmonary eosinophilic infiltration](disease) Time menu Ah
+- infection [Septic shock](disease) Time of What diet Ok
+- gave birth [Wheezing bronchitis](disease) Time of drink Yeah
+- gave birth [Lung cancer](disease) Time Health products Ok
+- Give birth [Carbon disulfide poisoning](disease) Time of What recipe what
+- Get [Adult respiratory distress syndrome](disease) of dish what
+- gave birth [Building Sick Syndrome](disease) Can eat What food What
+- gave birth [Pulmonary Aspergillosis](disease) of What tonic
+- Give birth [pneumonia](disease) diet Acridine
+- Give birth [Simple pulmonary eosinophilic infiltration](disease) Time Can eat What edible Acridine
+- gave birth [Carbon disulfide poisoning](disease) of Can eat What eat
+- gave birth [Pulmonary Actinomycosis](disease) Time of Food Yeah
+- Catch [Alveolar proteinosis](disease) Time of What diet Ah
+- Got it [Large amounts of amniotic fluid inhalation](disease) Time of diet
+- Got it [Alveolar proteinosis](disease) Time of What drink
+- Catch [Bacillus pneumoniae pneumonia](disease) Time of Health products what
+- gave birth [Cadmium poisoning](disease) Time of diet
+- Get [Alveolar proteinosis](disease) Time of Can eat What tonic what
+- [Foreign body in the respiratory tract](disease) Time of tonic Yeah
+- [Pulmonary Candidiasis](disease) Time of Can eat What tonic Yeah
+- Worthy of [Lung metastases](disease) Time recipe
+- Worthy of [Lung metastases](disease) of Health products What
+- infection [Pulmonary pseudotumor](disease) Food what
+- infection [pertussis](disease) Time of food Is it
+- [Radiation pneumonia](disease) Time What tonic what
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) Time of food
+- Suffer [SARS](disease) Time tonic Yeah
+- Give birth [Bacillus pneumoniae pneumonia](disease) of drink Ok
+- Suffer [Pneumococcal pneumonia](disease) Time What recipe Is it
+- Worthy of [Anaphylactic shock](disease) of drink Ah
+- Get [Bacillus pneumoniae pneumonia](disease) Time of food Ah
+- Suffer [Lung cancer](disease) Time of recipe Is it
+- Catch [Goodpasture syndrome](disease) menu
+- Got it [Pulmonary pseudotumor](disease) Time of What drink Ah
+- Worthy of [Cadmium poisoning](disease) Time of Can eat What food what
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) What diet Ok
+- infection [Lung cancer](disease) Time of Can eat What tonic Ok
+- infection [Building Sick Syndrome](disease) food Is it
+- Got it [Radiation pneumonia](disease) What diet Is it
+- Suffer [Pulmonary bullae](disease) tonic Ah
+- [Pulmonary bullae](disease) Time Can eat What meal Acridine
+- Get [Mercury poisoning](disease) tonic Acridine
+- Worthy of [Pulmonary-pleural amebiasis](disease) of food Acridine
+- Catch [pertussis](disease) Time of What drink what
+- Worthy of [Mercury poisoning](disease) Time Health products What
+- Suffer [Pulmonary bullae](disease) Time of food Ok
+- Give birth [Alveolar proteinosis](disease) drink Yeah
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) Time of diet Ok
+- Give birth [Emphysema](disease) Can eat What meal Is it
+- Catch [Pulmonary Aspergillosis](disease) edible What
+- infection [Anaphylactic shock](disease) Time diet Ok
+- Get [Wheezing bronchitis](disease) of eat Ok
+- gave birth [Hypersensitivity pneumonia](disease) recipe
+- Got it [Pulmonary Candidiasis](disease) What meal Is it
+- Suffer [Goodpasture syndrome](disease) drink What
+- infection [Anaphylactic shock](disease) What tonic Ah
+- infection [Building Sick Syndrome](disease) Can eat What diet what
+- Suffer [Lobar Pneumonia](disease) Time of Food Ah
+- Give birth [Foreign body in the respiratory tract](disease) Time What tonic What
+- Worthy of [cold](disease) of recipe what
+- infection [Lung abscess](disease) Time of food what
+- Give birth [Adult respiratory distress syndrome](disease) of Can eat What recipe Ah
+- Worthy of [Alveolar proteinosis](disease) diet Yeah
+- Worthy of [Foreign body in the respiratory tract](disease) Can eat What menu Ok
+- Catch [Goodpasture syndrome](disease) Time What Food Acridine
+- Worthy of [Pulmonary Cryptococcosis](disease) meal Yeah
+- Suffer [Alveolar proteinosis](disease) diet Ah
+- Give birth [Pulmonary Aspergillosis](disease) tonic Acridine
+- Catch [Pulmonary Actinomycosis](disease) Time Health products What
+- Catch [Bacillus pneumoniae pneumonia](disease) Can eat What edible Yeah
+- Give birth [Septic shock](disease) of What drink Ok
+- Suffer [cold](disease) Time food
+- infection [Lung abscess](disease) Time food what
+- Catch [Hypersensitivity pneumonia](disease) of Can eat What diet Ok
+- [Anaphylactic shock](disease) Time Food Ok
+- Suffer [Septic shock](disease) meal what
+- infection [Lobar Pneumonia](disease) Time eat
+- Get [Pulmonary embolism](disease) Time drink Is it
+- Got it [Pulmonary Aspergillosis](disease) of What menu Yeah
+- Suffer [Pneumococcal pneumonia](disease) diet What
+- Catch [Emphysema](disease) edible Acridine
+- Get [Pulmonary Edema](disease) of Can eat What tonic What
+- [Mercury poisoning](disease) Time of What menu
+- Give birth [Cadmium poisoning](disease) of Can eat What tonic Is it
+- Get [Pulmonary Cryptococcosis](disease) Can eat What diet Yeah
+- gave birth [Adult respiratory distress syndrome](disease) Time tonic What
+- Catch [Pulmonary Actinomycosis](disease) Time Can eat What Food Is it
+- Get [Simple pulmonary eosinophilic infiltration](disease) of menu
+- Get [SARS](disease) of diet What
+- Catch [Anaphylactic shock](disease) Food Yeah
+- gave birth [Lung metastases](disease) Time diet what
+- infection [Pulmonary-pleural amebiasis](disease) of Can eat What Food
+- infection [Lung metastases](disease) Time What drink Acridine
+- infection [Lung metastases](disease) of drink Ok
+- Catch [Simple pulmonary eosinophilic infiltration](disease) Time Food Acridine
+- infection [Lung cancer](disease) Time tonic Is it
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) of Can eat What diet Ok
+- Get [Bullae](disease) Time of Can eat What diet
+- gave birth [Mercury poisoning](disease) of tonic
+- Give birth [Pulmonary Aspergillosis](disease) of Can eat What dish Ah
+- infection [Pulmonary Cryptococcosis](disease) Time Can eat What diet What
+- gave birth [pneumonia](disease) Time of What diet what
+- Got it [Wheezing bronchitis](disease) Time of Can eat What tonic Yeah
+- Got it [Simple pulmonary eosinophilic infiltration](disease) of Can eat What Health products What
+- Catch [Bacillus pneumoniae pneumonia](disease) Time of Health products What
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) Time Food Is it
+- infection [Radiation pneumonia](disease) meal Is it
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) of Can eat What drink what
+- Get [Bullae](disease) Time of Can eat What diet Acridine
+- gave birth [Anaphylactic shock](disease) of Health products what
+- Give birth [cold](disease) food Is it
+- Worthy of [Goodpasture syndrome](disease) Time tonic Acridine
+- [Respiratory bronchiole-related interstitial lung disease](disease) Time of What edible What
+- Give birth [Alveolar proteinosis](disease) of Can eat What drink Yeah
+- [Alveolar proteinosis](disease) of Can eat What Food Ok
+- Got it [Emphysema](disease) of edible Ok
+- Get [Pulmonary embolism](disease) food Is it
+- Get [pertussis](disease) Can eat What Health products
+- infection [Foreign body in the respiratory tract](disease) Time What drink Is it
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Time What eat Is it
+- [Pulmonary Cryptococcosis](disease) Time of meal Acridine
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Time What diet Is it
+- Give birth [Pulmonary pseudotumor](disease) Time Health products
+- gave birth [pneumonia](disease) dish Ah
+- infection [Bacillus pneumoniae pneumonia](disease) Time of Health products Acridine
+- Suffer [Septic shock](disease) meal
+- Worthy of [Pulmonary Actinomycosis](disease) Time of drink Acridine
+- Give birth [pertussis](disease) Time of drink Acridine
+- Worthy of [Pulmonary Cryptococcosis](disease) of edible Yeah
+- Get [Lung metastases](disease) of Can eat What tonic Ok
+- Suffer [Anaphylactic shock](disease) diet Acridine
+- Get [Benzene poisoning](disease) food Acridine
+- Suffer [Pulmonary Cryptococcosis](disease) Time dish Is it
+- Worthy of [Pulmonary-pleural amebiasis](disease) Time diet
+- Got it [Lung abscess](disease) recipe Is it
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) dish Ah
+- Catch [Septic shock](disease) Time of food Acridine
+- Worthy of [Pulmonary embolism](disease) of What diet what
+- Worthy of [Pulmonary-pleural amebiasis](disease) of recipe Acridine
+- Worthy of [Lung cancer](disease) Food Yeah
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) Time diet Yeah
+- [Building Sick Syndrome](disease) Time of dish
+- Get [Pulmonary Actinomycosis](disease) Time Can eat What diet what
+- Give birth [Benzene poisoning](disease) Can eat What menu What
+- Worthy of [Lobar Pneumonia](disease) food Yeah
+- Catch [pertussis](disease) Time Can eat What food Ah
+- gave birth [Bullae](disease) Can eat What diet Yeah
+- Worthy of [Pulmonary-pleural amebiasis](disease) Time drink what
+- Got it [Hypersensitivity pneumonia](disease) of Food Acridine
+- Got it [Lobar Pneumonia](disease) Time of Food
+- gave birth [Building Sick Syndrome](disease) Time of edible Acridine
+- Worthy of [Pulmonary Actinomycosis](disease) Can eat What Food Is it
+- Give birth [Pulmonary embolism](disease) Time diet Ok
+- gave birth [pneumonia](disease) Time of recipe Ah
+- Give birth [Pulmonary pseudotumor](disease) Time tonic Is it
+- Catch [Pulmonary Edema](disease) Time What recipe What
+- Get [Pulmonary Edema](disease) of eat
+- Catch [Cadmium poisoning](disease) Time What diet Ok
+- Give birth [Bacillus pneumoniae pneumonia](disease) Time food Ah
+- gave birth [Alveolar proteinosis](disease) Time drink Yeah
+- Suffer [Pulmonary Edema](disease) Time What food Ah
+- Got it [Building Sick Syndrome](disease) of meal Is it
+- Suffer [pneumonia](disease) of What drink What
+- infection [Building Sick Syndrome](disease) Time of What dish
+- Got it [Simple pulmonary eosinophilic infiltration](disease) Can eat What drink Ok
+- Catch [Pulmonary Cryptococcosis](disease) Time of What Food Yeah
+- infection [Pulmonary-pleural amebiasis](disease) Can eat What recipe Yeah
+- gave birth [Building Sick Syndrome](disease) Time of What drink Yeah
+- infection [pertussis](disease) What dish Acridine
+- Get [Pneumococcal pneumonia](disease) Time Food Yeah
+- Suffer [Wheezing bronchitis](disease) Health products What
+- Give birth [SARS](disease) Time What tonic What
+- Worthy of [pertussis](disease) What Food What
+- gave birth [Pulmonary bullae](disease) Time of food what
+- Worthy of [pneumonia](disease) of recipe Is it
+- [Radiation pneumonia](disease) Time What meal Acridine
+- Get [Alveolar proteinosis](disease) of Can eat What tonic Ah
+- [Septic shock](disease) Time meal Ah
+- Got it [Adult respiratory distress syndrome](disease) of What diet
+- Got it [SARS](disease) Time of menu Ok
+- [Anaphylactic shock](disease) Health products Is it
+- Got it [SARS](disease) drink Ah
+- Catch [Bullae](disease) Time of drink Yeah
+- Suffer [Pulmonary pseudotumor](disease) Time menu What
+- Give birth [Building Sick Syndrome](disease) of drink Acridine
+- Suffer [Pulmonary Aspergillosis](disease) Time of What tonic Yeah
+- Suffer [Pulmonary Candidiasis](disease) Time of food Is it
+- Worthy of [Bullae](disease) Time drink
+- Got it [Foreign body in the respiratory tract](disease) Time meal Ah
+- Got it [Mercury poisoning](disease) Time of What tonic Is it
+- Worthy of [Building Sick Syndrome](disease) Time Can eat What drink what
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) Can eat What diet Acridine
+- gave birth [Wheezing bronchitis](disease) of What recipe what
+- Catch [Bullae](disease) food Acridine
+- Got it [pneumonia](disease) of dish
+- infection [Emphysema](disease) Time of food what
+- Get [Carbon disulfide poisoning](disease) of Health products Ok
+- Got it [Septic shock](disease) of What edible Is it
+- Worthy of [SARS](disease) Time of recipe what
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) Time What food Ok
+- Give birth [Lung cancer](disease) Time Can eat What eat what
+- Get [Adult respiratory distress syndrome](disease) Time of Can eat What meal Is it
+- Got it [Foreign body in the respiratory tract](disease) of Can eat What Health products Acridine
+- Get [Septic shock](disease) Can eat What edible What
+- Get [Simple pulmonary eosinophilic infiltration](disease) Time of tonic Acridine
+- Give birth [pneumonia](disease) Can eat What eat Is it
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) Time drink Is it
+- Got it [Radiation pneumonia](disease) Time of tonic what
+- Get [Bullae](disease) Time diet Yeah
+- Give birth [Mercury poisoning](disease) edible Ah
+- Suffer [Alveolar proteinosis](disease) of meal Ok
+- Catch [Adult respiratory distress syndrome](disease) of food Is it
+- Worthy of [Anaphylactic shock](disease) of tonic What
+- Get [Alveolar proteinosis](disease) drink Yeah
+- [SARS](disease) of meal what
+- Got it [Septic shock](disease) Time Can eat What recipe
+- gave birth [Carbon disulfide poisoning](disease) drink Ok
+- Give birth [Pulmonary Edema](disease) dish
+- gave birth [Adult respiratory distress syndrome](disease) Time edible Acridine
+- Get [Pulmonary bullae](disease) food Ok
+- Get [Alveolar proteinosis](disease) What tonic Yeah
+- Got it [Simple pulmonary eosinophilic infiltration](disease) of drink What
+- gave birth [Adult respiratory distress syndrome](disease) dish What
+- Get [Lung abscess](disease) eat
+- Got it [Mercury poisoning](disease) Time of What diet What
+- Worthy of [Anaphylactic shock](disease) Time diet
+- Got it [cold](disease) Time Can eat What diet What
+- Got it [Pulmonary-pleural amebiasis](disease) Time of recipe Ah
+- Catch [Bullae](disease) Time dish What
+- [Pulmonary Candidiasis](disease) of food Yeah
+- Worthy of [Building Sick Syndrome](disease) Time of Health products Is it
+- Give birth [Foreign body in the respiratory tract](disease) menu Ok
+- Get [Lung cancer](disease) Time What drink
+- Catch [Pneumococcal pneumonia](disease) What drink Yeah
+- Suffer [Adult respiratory distress syndrome](disease) Time Food Acridine
+- Got it [SARS](disease) What Health products Yeah
+- Give birth [Lung cancer](disease) Can eat What Food Ah
+- Worthy of [cold](disease) Time recipe Ok
+- Get [SARS](disease) tonic Ah
+- [Simple pulmonary eosinophilic infiltration](disease) Time of What recipe Acridine
+- gave birth [Carbon disulfide poisoning](disease) of drink what
+- Give birth [Lung metastases](disease) Time Can eat What tonic
+- Get [Foreign body in the respiratory tract](disease) of food Ah
+- [SARS](disease) Can eat What edible what
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) tonic Ok
+- Give birth [Lung cancer](disease) Time of food what
+- Get [Anaphylactic shock](disease) of tonic
+- Give birth [Emphysema](disease) Time diet Yeah
+- Got it [Lung metastases](disease) Time of Food
+- Catch [Radiation pneumonia](disease) Time of Can eat What diet what
+- Give birth [Pneumococcal pneumonia](disease) Can eat What Food What
+- gave birth [Hypersensitivity pneumonia](disease) Time of What dish Ah
+- Suffer [Septic shock](disease) Time of What drink Acridine
+- Catch [Goodpasture syndrome](disease) Time food
+- [Pulmonary Actinomycosis](disease) Time of diet Acridine
+- Worthy of [Pulmonary pseudotumor](disease) of Can eat What menu What
+- infection [Simple pulmonary eosinophilic infiltration](disease) of diet What
+- Give birth [Benzene poisoning](disease) meal Ah
+- [Lung abscess](disease) Time Food Ah
+- [Pulmonary Candidiasis](disease) diet
+- Get [Hypersensitivity pneumonia](disease) Time of meal Yeah
+- Suffer [Adult respiratory distress syndrome](disease) recipe What
+- Worthy of [Septic shock](disease) Time Can eat What food Ok
+- [Pulmonary-pleural amebiasis](disease) Time drink Acridine
+- infection [Simple pulmonary eosinophilic infiltration](disease) Time of menu
+- infection [Cadmium poisoning](disease) of food What
+- gave birth [Bacillus pneumoniae pneumonia](disease) Can eat What drink Acridine
+- Give birth [Emphysema](disease) of Can eat What dish Is it
+- Get [Simple pulmonary eosinophilic infiltration](disease) of meal Yeah
+- Give birth [Pulmonary pseudotumor](disease) of What tonic Yeah
+- Catch [Adult respiratory distress syndrome](disease) What menu Yeah
+- [Mercury poisoning](disease) of Food
+- gave birth [Foreign body in the respiratory tract](disease) Time edible Ah
+- Got it [Bullae](disease) Time of Can eat What food What
+- Get [Hypersensitivity pneumonia](disease) of menu Ok
+- Worthy of [Carbon disulfide poisoning](disease) What menu Is it
+- Worthy of [Alveolar proteinosis](disease) Time of Can eat What drink Ok
+- Worthy of [Cadmium poisoning](disease) Time diet
+- gave birth [Wheezing bronchitis](disease) of Can eat What food What
+- [Pulmonary Candidiasis](disease) Time of What eat what
+- Got it [Wheezing bronchitis](disease) Time What edible
+- Give birth [Lung metastases](disease) of dish what
+- Catch [Lung cancer](disease) Time tonic What
+- Worthy of [SARS](disease) of food Yeah
+- gave birth [Building Sick Syndrome](disease) of Food Yeah
+- infection [Pulmonary Cryptococcosis](disease) recipe Yeah
+- Got it [Large amounts of amniotic fluid inhalation](disease) dish Ok
+- gave birth [Bacillus pneumoniae pneumonia](disease) Time Can eat What diet Ah
+- Got it [Lobar Pneumonia](disease) Time of diet Is it
+- Worthy of [Lung cancer](disease) of drink
+- Get [Carbon disulfide poisoning](disease) of What food what
+- Got it [Large amounts of amniotic fluid inhalation](disease) Time Can eat What drink Ah
+- infection [Lung cancer](disease) eat
+- Got it [Benzene poisoning](disease) Time What diet
+- Get [pertussis](disease) of What tonic Ah
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) drink Ok
+- Suffer [Pulmonary Actinomycosis](disease) Time of edible Is it
+- Get [Pulmonary Edema](disease) eat Is it
+- gave birth [Pneumococcal pneumonia](disease) Health products Yeah
+- gave birth [Septic shock](disease) of What recipe what
+- [pneumonia](disease) Time of tonic Ah
+- Suffer [Anaphylactic shock](disease) Time of What diet Ah
+- Give birth [Pulmonary pseudotumor](disease) drink Is it
+- Got it [Lobar Pneumonia](disease) Time of menu Ok
+- [pneumonia](disease) Time diet Ah
+- [Pulmonary embolism](disease) of What drink what
+- gave birth [Wheezing bronchitis](disease) What food Yeah
+- Suffer [Bacillus pneumoniae pneumonia](disease) Time of drink Acridine
+- infection [Adult respiratory distress syndrome](disease) of tonic
+- Give birth [Septic shock](disease) Time of eat
+- Catch [Adult respiratory distress syndrome](disease) Time of What recipe What
+- Worthy of [Septic shock](disease) Time of Food Yeah
+- [Pulmonary Cryptococcosis](disease) Time Can eat What Food Is it
+- [Pulmonary bullae](disease) Can eat What dish What
+- [Carbon disulfide poisoning](disease) What tonic What
+- Worthy of [cold](disease) What diet what
+- Worthy of [Pulmonary pseudotumor](disease) Time of What diet Ok
+- Get [Pulmonary embolism](disease) of Can eat What recipe
+- Get [Cadmium poisoning](disease) of What diet what
+- Catch [pertussis](disease) Time drink Ah
+- Worthy of [Alveolar proteinosis](disease) Time of diet Ok
+- [Benzene poisoning](disease) Can eat What edible Is it
+- [Bullae](disease) Time of What edible Ok
+- Catch [Septic shock](disease) Can eat What dish
+- infection [Lobar Pneumonia](disease) Time drink Ah
+- gave birth [Large amounts of amniotic fluid inhalation](disease) Time of What diet what
+- Suffer [Emphysema](disease) Can eat What meal Acridine
+- [Respiratory bronchiole-related interstitial lung disease](disease) Time What drink Ah
+- Got it [Mercury poisoning](disease) Time tonic Is it
+- Get [Lung abscess](disease) of eat What
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) Time dish Ah
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Time of diet Ah
+- Give birth [pneumonia](disease) of What recipe Ok
+- Catch [Pulmonary Aspergillosis](disease) of drink Ah
+- Worthy of [Alveolar proteinosis](disease) of Food Ah
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) Time What food Is it
+- Catch [Pulmonary pseudotumor](disease) of meal Acridine
+- Worthy of [pertussis](disease) Time recipe Ok
+- [Pulmonary Cryptococcosis](disease) drink
+- [Foreign body in the respiratory tract](disease) What recipe Is it
+- [Mercury poisoning](disease) of food Yeah
+- Suffer [Pulmonary Actinomycosis](disease) diet What
+- gave birth [SARS](disease) Time of drink Ok
+- Catch [pertussis](disease) Time Health products what
+- infection [Lung abscess](disease) Time of What meal what
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) menu Yeah
+- Get [Emphysema](disease) edible Yeah
+- Suffer [Pulmonary Cryptococcosis](disease) recipe What
+- Suffer [Carbon disulfide poisoning](disease) Time meal
+- Catch [Benzene poisoning](disease) food
+- Got it [Pneumococcal pneumonia](disease) of Food Ah
+- Got it [Foreign body in the respiratory tract](disease) of What diet Ah
+- Give birth [Benzene poisoning](disease) Time What food what
+- Suffer [Benzene poisoning](disease) Time of eat what
+- Give birth [Pulmonary bullae](disease) of food What
+- Give birth [Pulmonary-pleural amebiasis](disease) of Can eat What menu What
+- infection [Simple pulmonary eosinophilic infiltration](disease) Time of drink what
+- Give birth [Pulmonary Actinomycosis](disease) Time of menu What
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) of eat What
+- Give birth [Alveolar proteinosis](disease) of tonic Ah
+- gave birth [Pulmonary Candidiasis](disease) What tonic Ah
+- Worthy of [Hypersensitivity pneumonia](disease) of food
+- Get [cold](disease) diet Ah
+- [Lung cancer](disease) of Can eat What diet Acridine
+- gave birth [Wheezing bronchitis](disease) Time of What menu
+- Worthy of [Septic shock](disease) Time drink Ah
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) of What tonic What
+
+## intent:search_symptom
+- [Pulmonary-pleural amebiasis](disease) Time meeting No Yes which performed what
+- Suffer [Radiation pneumonia](disease) of phenomenon
+- Give birth [pneumonia](disease) Time meeting No What which performed What
+- Get [Wheezing bronchitis](disease) Time meeting No Yes which performed
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) Time Have What phenomenon
+- infection [Pulmonary embolism](disease) of Symptoms Acridine
+- Catch [Emphysema](disease) Symptoms What
+- Give birth [Large amounts of amniotic fluid inhalation](disease) Time What which performed what
+- Get [Bullae](disease) meeting Yes phenomenon
+- infection [Anaphylactic shock](disease) No phenomenon what
+- [Goodpasture syndrome](disease) of phenomenon Acridine
+- gave birth [Pulmonary bullae](disease) symptom Is it
+- Suffer [pneumonia](disease) Time Have symptom what
+- gave birth [Carbon disulfide poisoning](disease) meeting Yes phenomenon Is it
+- gave birth [Hypersensitivity pneumonia](disease) Time No Yes phenomenon What
+- Get [Pulmonary Cryptococcosis](disease) of symptom Yeah
+- Worthy of [Alveolar proteinosis](disease) which performed what
+- Get [Goodpasture syndrome](disease) Have What Characterization Ah
+- infection [Goodpasture syndrome](disease) Time No Yes phenomenon Acridine
+- Give birth [Septic shock](disease) Time symptom
+- Give birth [Alveolar proteinosis](disease) Time meeting No What Characterization Yeah
+- Worthy of [Pulmonary Cryptococcosis](disease) phenomenon Yeah
+- infection [Carbon disulfide poisoning](disease) meeting No Yes What symptom Yeah
+- [Septic shock](disease) Yes What symptom What
+- gave birth [Wheezing bronchitis](disease) of phenomenon Ok
+- Get [Adult respiratory distress syndrome](disease) What phenomenon Ah
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) Have What phenomenon
+- Catch [Wheezing bronchitis](disease) Time phenomenon Ok
+- Get [Goodpasture syndrome](disease) Time Characterization Is it
+- Catch [Emphysema](disease) Yes phenomenon What
+- Got it [Pulmonary pseudotumor](disease) Characterization
+- infection [Foreign body in the respiratory tract](disease) Time meeting No Yes What Symptoms Is it
+- Got it [pneumonia](disease) Time meeting What which performed Is it
+- gave birth [Pulmonary pseudotumor](disease) Characterization Yeah
+- Worthy of [Septic shock](disease) Characterization Ok
+- Worthy of [pertussis](disease) of Characterization Yeah
+- Got it [Pulmonary Cryptococcosis](disease) of phenomenon Is it
+- Give birth [Lung abscess](disease) Time Yes What phenomenon Acridine
+- infection [Cadmium poisoning](disease) of symptom Is it
+- Got it [Anaphylactic shock](disease) meeting symptom Ah
+- infection [Simple pulmonary eosinophilic infiltration](disease) of phenomenon Yeah
+- [Lung abscess](disease) of phenomenon Acridine
+- Get [Large amounts of amniotic fluid inhalation](disease) of Characterization Ah
+- Give birth [Pulmonary pseudotumor](disease) Have symptom what
+- Suffer [Goodpasture syndrome](disease) meeting What Characterization
+- Give birth [SARS](disease) Yes which performed What
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) Time No which performed Yeah
+- Catch [Pulmonary Cryptococcosis](disease) No What Symptoms Ah
+- Get [Pulmonary Actinomycosis](disease) phenomenon Acridine
+- Get [Anaphylactic shock](disease) Time which performed Acridine
+- [pertussis](disease) of Symptoms Is it
+- [pertussis](disease) No Yes What which performed Is it
+- Suffer [Radiation pneumonia](disease) Time meeting No Yes symptom Acridine
+- Suffer [Adult respiratory distress syndrome](disease) Symptoms What
+- Got it [Simple pulmonary eosinophilic infiltration](disease) Yes What Symptoms Is it
+- Got it [Pulmonary bullae](disease) Symptoms Acridine
+- gave birth [Lung abscess](disease) of symptom Yeah
+- Catch [Anaphylactic shock](disease) Yes Characterization
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) meeting Yes What Characterization Is it
+- Got it [Pulmonary Aspergillosis](disease) meeting No Yes What symptom Acridine
+- Worthy of [Lung abscess](disease) What symptom Ah
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) Time Characterization What
+- [pneumonia](disease) Characterization Yeah
+- Get [Lung abscess](disease) What symptom
+- Catch [Lung metastases](disease) Time phenomenon Yeah
+- [Alveolar proteinosis](disease) Characterization Yeah
+- Catch [Bullae](disease) Time meeting Yes What symptom Yeah
+- gave birth [pertussis](disease) which performed what
+- gave birth [Hypersensitivity pneumonia](disease) Characterization what
+- Give birth [Pulmonary Actinomycosis](disease) Time No which performed Yeah
+- Give birth [Goodpasture syndrome](disease) meeting No Yes Characterization
+- Get [Anaphylactic shock](disease) No Yes which performed what
+- Catch [Lobar Pneumonia](disease) Time meeting No Yes Symptoms what
+- Get [pneumonia](disease) phenomenon what
+- Catch [Pulmonary embolism](disease) of symptom Acridine
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) meeting Yes phenomenon Ah
+- Give birth [Hypersensitivity pneumonia](disease) Time Characterization Ok
+- Give birth [Lung metastases](disease) Characterization
+- [Adult respiratory distress syndrome](disease) of Characterization
+- infection [Emphysema](disease) Yes phenomenon Yeah
+- Catch [Pulmonary Aspergillosis](disease) Time meeting Yes What which performed Yeah
+- Catch [pertussis](disease) Symptoms Ok
+- Get [Carbon disulfide poisoning](disease) of symptom Ah
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) Time meeting What phenomenon What
+- infection [Septic shock](disease) Time No Yes What Symptoms Is it
+- Give birth [Radiation pneumonia](disease) Time meeting No Yes What which performed Ah
+- gave birth [Pulmonary Candidiasis](disease) Have What symptom what
+- [SARS](disease) Time Have Symptoms Acridine
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) Have What which performed What
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) Have What Symptoms Is it
+- Worthy of [Bacillus pneumoniae pneumonia](disease) What Symptoms What
+- Worthy of [SARS](disease) of symptom Ok
+- gave birth [Pulmonary Aspergillosis](disease) Yes phenomenon Ok
+- Got it [Alveolar proteinosis](disease) meeting Yes which performed What
+- Worthy of [Pulmonary Cryptococcosis](disease) Time Characterization
+- Catch [cold](disease) Time meeting Yes Symptoms
+- Catch [Pulmonary Edema](disease) Have symptom Ok
+- Worthy of [Radiation pneumonia](disease) Time No Yes Symptoms Ok
+- gave birth [Wheezing bronchitis](disease) Characterization What
+- Give birth [Pulmonary Edema](disease) Time Yes What Characterization Is it
+- Got it [Large amounts of amniotic fluid inhalation](disease) Time Have Characterization What
+- Catch [Pulmonary Actinomycosis](disease) Symptoms Ah
+- Give birth [Benzene poisoning](disease) symptom Ah
+- Catch [Pulmonary Candidiasis](disease) Time meeting No phenomenon Yeah
+- Catch [SARS](disease) of which performed Ok
+- Give birth [Alveolar proteinosis](disease) Time Have What which performed Acridine
+- infection [Septic shock](disease) Have What phenomenon
+- [cold](disease) of Symptoms what
+- [Pulmonary Cryptococcosis](disease) Time Yes What symptom Acridine
+- Get [Lung abscess](disease) Time which performed Is it
+- Get [Septic shock](disease) Characterization What
+- Catch [Simple pulmonary eosinophilic infiltration](disease) phenomenon Is it
+- infection [Lung metastases](disease) Symptoms Acridine
+- infection [Mercury poisoning](disease) Have What phenomenon
+- gave birth [SARS](disease) Time symptom Ah
+- Give birth [Pulmonary Candidiasis](disease) Yes Characterization
+- [Lobar Pneumonia](disease) Time Have What symptom Ok
+- [Benzene poisoning](disease) Characterization
+- [cold](disease) Time No Yes What phenomenon what
+- infection [Pulmonary Aspergillosis](disease) of Characterization what
+- Catch [Lung abscess](disease) meeting What symptom Ok
+- infection [Lung metastases](disease) Time meeting No Characterization Is it
+- Worthy of [Pulmonary-pleural amebiasis](disease) Time What Symptoms what
+- gave birth [Building Sick Syndrome](disease) which performed Acridine
+- Give birth [Radiation pneumonia](disease) Symptoms what
+- [Pulmonary Edema](disease) What which performed What
+- [Goodpasture syndrome](disease) Time No Yes Symptoms
+- Suffer [Cadmium poisoning](disease) of which performed Acridine
+- Suffer [Goodpasture syndrome](disease) of Symptoms Acridine
+- gave birth [Pulmonary-pleural amebiasis](disease) No symptom
+- Give birth [Large amounts of amniotic fluid inhalation](disease) Have Symptoms what
+- Worthy of [Pulmonary-pleural amebiasis](disease) of Symptoms what
+- Got it [Alveolar proteinosis](disease) Time No What which performed Ok
+- Got it [Pulmonary pseudotumor](disease) Characterization Is it
+- gave birth [Pulmonary Aspergillosis](disease) of phenomenon Ok
+- Suffer [Pulmonary Aspergillosis](disease) meeting What symptom What
+- Worthy of [Lobar Pneumonia](disease) What phenomenon Yeah
+- Worthy of [Lung cancer](disease) meeting No Yes What phenomenon
+- Get [Pulmonary Cryptococcosis](disease) Time Characterization Ok
+- infection [cold](disease) Time Have Symptoms
+- Got it [Carbon disulfide poisoning](disease) Have Symptoms Acridine
+- Give birth [pertussis](disease) which performed Yeah
+- Worthy of [cold](disease) Have What Symptoms Is it
+- [Pulmonary Actinomycosis](disease) Symptoms Is it
+- Catch [Radiation pneumonia](disease) Time Yes which performed Yeah
+- [Anaphylactic shock](disease) meeting No Yes Symptoms Acridine
+- Give birth [Pulmonary pseudotumor](disease) which performed Ok
+- Worthy of [Lung cancer](disease) Yes symptom
+- Catch [Building Sick Syndrome](disease) meeting No Yes What Characterization Is it
+- gave birth [Benzene poisoning](disease) What symptom Acridine
+- Give birth [pneumonia](disease) meeting No Yes What Symptoms Ok
+- gave birth [Pneumococcal pneumonia](disease) Time No Yes What Symptoms Yeah
+- Give birth [Lung cancer](disease) Time symptom
+- [Emphysema](disease) Time meeting which performed Ah
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) Yes What Symptoms
+- Suffer [Bullae](disease) of phenomenon Ah
+- Worthy of [Anaphylactic shock](disease) of symptom Yeah
+- Catch [Benzene poisoning](disease) Time What phenomenon Yeah
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) Have symptom Is it
+- Suffer [Wheezing bronchitis](disease) of Symptoms Is it
+- Got it [pneumonia](disease) Time Have What Symptoms What
+- Get [Adult respiratory distress syndrome](disease) of symptom Is it
+- Got it [cold](disease) meeting No Yes What phenomenon What
+- Get [Lung abscess](disease) Time Symptoms
+- Worthy of [Alveolar proteinosis](disease) Time What Characterization Ok
+- [Bullae](disease) Time What Characterization Acridine
+- Give birth [Pulmonary pseudotumor](disease) symptom Ah
+- Worthy of [Building Sick Syndrome](disease) of phenomenon
+- [Pneumococcal pneumonia](disease) Have phenomenon Yeah
+- Suffer [Large amounts of amniotic fluid inhalation](disease) No What which performed What
+- [Lung abscess](disease) Time meeting Characterization Acridine
+- Give birth [Cadmium poisoning](disease) Symptoms Ah
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) Have What Characterization what
+- gave birth [Building Sick Syndrome](disease) Time meeting No Yes What Symptoms Ah
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) Time No Yes What phenomenon Yeah
+- gave birth [Large amounts of amniotic fluid inhalation](disease) phenomenon Ok
+- [Lung abscess](disease) of phenomenon Is it
+- [Pulmonary Actinomycosis](disease) Time meeting No Yes What Characterization
+- gave birth [Pulmonary bullae](disease) Time Characterization Ok
+- gave birth [Alveolar proteinosis](disease) meeting Yes which performed Yeah
+- Catch [Anaphylactic shock](disease) meeting which performed What
+- infection [Alveolar proteinosis](disease) meeting Yes What Characterization Ah
+- gave birth [Radiation pneumonia](disease) Time No What which performed Acridine
+- Give birth [Radiation pneumonia](disease) Characterization
+- Suffer [Pulmonary Candidiasis](disease) meeting symptom Ah
+- gave birth [Building Sick Syndrome](disease) Have Characterization Is it
+- Give birth [Wheezing bronchitis](disease) of which performed Ah
+- Suffer [Adult respiratory distress syndrome](disease) meeting Yes Characterization Acridine
+- gave birth [Pulmonary pseudotumor](disease) No Yes symptom Ok
+- Give birth [Pulmonary Edema](disease) Time Have What symptom
+- gave birth [Large amounts of amniotic fluid inhalation](disease) No Yes symptom what
+- [Pulmonary bullae](disease) of symptom Is it
+- Give birth [Emphysema](disease) Time Have phenomenon What
+- Got it [Pneumococcal pneumonia](disease) Time Have which performed what
+- gave birth [Large amounts of amniotic fluid inhalation](disease) meeting No phenomenon what
+- Suffer [Cadmium poisoning](disease) Time meeting Yes What Characterization
+- infection [Pulmonary pseudotumor](disease) meeting No Yes What Characterization what
+- infection [Goodpasture syndrome](disease) Time Yes What symptom Ok
+- Catch [Simple pulmonary eosinophilic infiltration](disease) Have symptom Acridine
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) of symptom Acridine
+- infection [cold](disease) Have symptom Ah
+- gave birth [Mercury poisoning](disease) What symptom What
+- [Alveolar proteinosis](disease) What Symptoms Ok
+- Got it [Pulmonary Aspergillosis](disease) Time Have which performed Ok
+- Get [Pneumococcal pneumonia](disease) No Yes Symptoms What
+- [Respiratory bronchiole-related interstitial lung disease](disease) Time meeting No Yes symptom Ah
+- [Bacillus pneumoniae pneumonia](disease) Time Yes What which performed Ah
+- infection [Carbon disulfide poisoning](disease) Have which performed Yeah
+- Give birth [Pulmonary Candidiasis](disease) Time Symptoms Yeah
+- Got it [cold](disease) which performed Acridine
+- Catch [Wheezing bronchitis](disease) phenomenon What
+- Worthy of [Pulmonary pseudotumor](disease) Time Have which performed What
+- [Pulmonary Aspergillosis](disease) of symptom What
+- Suffer [Hypersensitivity pneumonia](disease) of Symptoms Acridine
+- Got it [Pneumococcal pneumonia](disease) of symptom Ah
+- gave birth [Pulmonary Actinomycosis](disease) Time Yes What phenomenon Is it
+- Suffer [Goodpasture syndrome](disease) What Characterization Acridine
+- Give birth [Bullae](disease) Time meeting Yes What phenomenon Is it
+- [Bullae](disease) Time meeting which performed Is it
+- Suffer [Pulmonary bullae](disease) Time Have Characterization Yeah
+- Give birth [Pulmonary-pleural amebiasis](disease) of symptom Acridine
+- [Benzene poisoning](disease) phenomenon Ah
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) which performed Acridine
+- Suffer [Pulmonary Actinomycosis](disease) Characterization Ok
+- infection [Septic shock](disease) meeting No Characterization Ok
+- [Radiation pneumonia](disease) of which performed Yeah
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) phenomenon Ok
+- Suffer [Anaphylactic shock](disease) of Symptoms what
+- Worthy of [Lobar Pneumonia](disease) Time Have phenomenon Yeah
+- Suffer [Pulmonary Candidiasis](disease) Time What Symptoms Ah
+- Get [Pulmonary Candidiasis](disease) Time Have Symptoms
+- Worthy of [Pulmonary Edema](disease) Have What which performed Ah
+- [Lobar Pneumonia](disease) What Symptoms Ah
+- Suffer [Bacillus pneumoniae pneumonia](disease) Characterization Yeah
+- infection [Pulmonary Edema](disease) Time Have What Symptoms Acridine
+- infection [pertussis](disease) Characterization Is it
+- Got it [Pulmonary Actinomycosis](disease) Have Characterization Acridine
+- Worthy of [Pulmonary Cryptococcosis](disease) Time What which performed Acridine
+- Give birth [Septic shock](disease) Time What Characterization Yeah
+- [pneumonia](disease) which performed What
+- Suffer [pertussis](disease) Time meeting No Symptoms what
+- gave birth [Mercury poisoning](disease) symptom What
+- Give birth [Wheezing bronchitis](disease) meeting No Yes Symptoms Ok
+- Catch [Hypersensitivity pneumonia](disease) of Characterization what
+- Got it [SARS](disease) symptom What
+- Get [Wheezing bronchitis](disease) symptom Ah
+- [Emphysema](disease) Yes phenomenon
+- Got it [Large amounts of amniotic fluid inhalation](disease) of phenomenon
+- Get [Pulmonary Aspergillosis](disease) of which performed Acridine
+- infection [Goodpasture syndrome](disease) Symptoms
+- Got it [Cadmium poisoning](disease) Have What symptom Ok
+- Got it [Foreign body in the respiratory tract](disease) What phenomenon Ok
+- Got it [Lobar Pneumonia](disease) Characterization
+- Worthy of [Hypersensitivity pneumonia](disease) What phenomenon What
+- Got it [Foreign body in the respiratory tract](disease) Characterization what
+- [Adult respiratory distress syndrome](disease) Time Have Symptoms Ah
+- [Bacillus pneumoniae pneumonia](disease) Have What Symptoms what
+- Catch [Pulmonary Cryptococcosis](disease) Time meeting No which performed What
+- Get [Adult respiratory distress syndrome](disease) Time Have Characterization
+- Got it [Radiation pneumonia](disease) Characterization What
+- Suffer [Emphysema](disease) Time meeting What symptom
+- Got it [Pulmonary-pleural amebiasis](disease) Time Symptoms Acridine
+- Got it [Radiation pneumonia](disease) of Symptoms Is it
+- [Pulmonary Actinomycosis](disease) of which performed Is it
+- infection [cold](disease) of which performed Ok
+- Worthy of [pneumonia](disease) of Symptoms Ah
+- [Pulmonary Edema](disease) Have What which performed Ah
+- [SARS](disease) of phenomenon Is it
+- Give birth [Emphysema](disease) meeting No What Symptoms What
+- Give birth [Cadmium poisoning](disease) Time Yes symptom Ok
+- infection [Pulmonary pseudotumor](disease) of symptom Ok
+- Give birth [Bacillus pneumoniae pneumonia](disease) Time meeting Symptoms
+- gave birth [Pulmonary bullae](disease) Time Have What which performed Acridine
+- Suffer [Lung metastases](disease) of Symptoms What
+- Got it [SARS](disease) Time meeting No Yes What Symptoms Acridine
+- [Pulmonary Cryptococcosis](disease) of symptom Yeah
+- infection [Radiation pneumonia](disease) of symptom what
+- Get [Radiation pneumonia](disease) No What Characterization What
+- Get [Pulmonary embolism](disease) Time What symptom Ah
+- Give birth [Pulmonary Aspergillosis](disease) Time What symptom What
+- Give birth [SARS](disease) of Characterization What
+- gave birth [Lung abscess](disease) Symptoms Ok
+- Catch [Foreign body in the respiratory tract](disease) Time meeting phenomenon Is it
+- gave birth [Lung cancer](disease) meeting phenomenon
+- gave birth [Pulmonary pseudotumor](disease) Time which performed
+- Give birth [Pulmonary Candidiasis](disease) No Yes What Symptoms What
+- Suffer [Lung metastases](disease) Time Characterization Is it
+- [Lobar Pneumonia](disease) Time meeting Symptoms Acridine
+- Suffer [Wheezing bronchitis](disease) which performed What
+- Got it [Goodpasture syndrome](disease) Time Yes What Symptoms What
+- Got it [Cadmium poisoning](disease) Time No What which performed Is it
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) Have What Characterization Ok
+- infection [Radiation pneumonia](disease) phenomenon Ok
+- Get [Lung metastases](disease) which performed What
+- Suffer [Cadmium poisoning](disease) Time Have What which performed Is it
+- Worthy of [Cadmium poisoning](disease) of phenomenon Ah
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) What symptom Acridine
+- Got it [Lung metastases](disease) Time Have What Characterization what
+- Get [Alveolar proteinosis](disease) Have What symptom Ok
+- gave birth [Pneumococcal pneumonia](disease) Time No Symptoms
+- Get [Benzene poisoning](disease) Characterization What
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) Time meeting No What Characterization Acridine
+- Catch [Lobar Pneumonia](disease) No Symptoms Ok
+- Get [Hypersensitivity pneumonia](disease) Time meeting No Yes What which performed Acridine
+- Worthy of [Wheezing bronchitis](disease) Characterization Ah
+- Get [Septic shock](disease) Have What Symptoms Is it
+- Suffer [Septic shock](disease) Symptoms
+- gave birth [Goodpasture syndrome](disease) Time Yes symptom Ok
+- Catch [Lobar Pneumonia](disease) Time Have What symptom Ah
+- Get [Building Sick Syndrome](disease) No Symptoms
+- Get [Pulmonary Aspergillosis](disease) of Characterization What
+- Catch [Alveolar proteinosis](disease) Have What Characterization What
+- [Simple pulmonary eosinophilic infiltration](disease) of Symptoms Ok
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) Have What symptom
+- Give birth [Benzene poisoning](disease) which performed Ok
+- Give birth [Pulmonary Candidiasis](disease) What symptom Ah
+- infection [Emphysema](disease) of which performed Acridine
+- Get [Cadmium poisoning](disease) Time meeting What symptom
+- gave birth [Pneumococcal pneumonia](disease) Time Symptoms Yeah
+- Catch [Pulmonary-pleural amebiasis](disease) Time No Yes What Symptoms Acridine
+- infection [Septic shock](disease) Time Have What Characterization What
+- [Pulmonary Cryptococcosis](disease) of phenomenon
+- Give birth [Lung metastases](disease) Time phenomenon What
+- gave birth [pneumonia](disease) Time which performed
+- infection [Pulmonary Cryptococcosis](disease) meeting Yes Characterization What
+- Catch [Anaphylactic shock](disease) Time meeting Yes symptom what
+- Get [Pulmonary Edema](disease) of which performed Acridine
+- Catch [Goodpasture syndrome](disease) meeting No Yes What Symptoms Ah
+- Get [Lung cancer](disease) Have which performed what
+- gave birth [Anaphylactic shock](disease) No symptom Ok
+- infection [Alveolar proteinosis](disease) phenomenon Acridine
+- Suffer [Pulmonary-pleural amebiasis](disease) meeting No Yes Characterization
+- Give birth [Pulmonary Aspergillosis](disease) meeting No Yes What Symptoms Yeah
+- Worthy of [Lung cancer](disease) meeting No Yes which performed what
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) Time No What which performed What
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) Yes which performed Yeah
+- infection [Adult respiratory distress syndrome](disease) Time Have What Characterization Ah
+- [Pulmonary Edema](disease) of symptom Is it
+- Give birth [Foreign body in the respiratory tract](disease) Symptoms What
+- gave birth [Pneumococcal pneumonia](disease) Time meeting Yes Symptoms Ok
+- gave birth [Hypersensitivity pneumonia](disease) of phenomenon Ah
+- Catch [Pulmonary embolism](disease) Time meeting No Yes phenomenon What
+- Got it [Pulmonary Aspergillosis](disease) Symptoms What
+- Worthy of [Lung cancer](disease) meeting Yes What Symptoms Ok
+- Get [Alveolar proteinosis](disease) Time Yes Characterization what
+- Catch [Benzene poisoning](disease) Time Have What which performed
+- Give birth [Alveolar proteinosis](disease) Yes What symptom Ah
+- Worthy of [Alveolar proteinosis](disease) No What Characterization
+- Get [Pulmonary pseudotumor](disease) of symptom Ah
+- Catch [pneumonia](disease) meeting No Yes Characterization Is it
+- Give birth [Pulmonary Candidiasis](disease) No Characterization Acridine
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) Time meeting No Yes phenomenon Ok
+- gave birth [Pulmonary Edema](disease) meeting No What phenomenon Acridine
+- Got it [Pulmonary Actinomycosis](disease) of symptom What
+- Worthy of [SARS](disease) Time No What symptom What
+- Got it [Hypersensitivity pneumonia](disease) Have Characterization Is it
+- Worthy of [Pulmonary Candidiasis](disease) of Symptoms Ah
+- Get [pneumonia](disease) What phenomenon Yeah
+- Catch [Adult respiratory distress syndrome](disease) meeting No Yes What Characterization Is it
+- Suffer [Cadmium poisoning](disease) Time meeting No Symptoms Yeah
+- Get [Hypersensitivity pneumonia](disease) of Symptoms
+- Got it [Pulmonary Aspergillosis](disease) phenomenon what
+- Suffer [Mercury poisoning](disease) Time Have symptom What
+- Give birth [Radiation pneumonia](disease) meeting No Yes Characterization Acridine
+- Got it [Pulmonary bullae](disease) of Characterization Acridine
+- Got it [Wheezing bronchitis](disease) which performed Ok
+- Give birth [Pulmonary pseudotumor](disease) symptom
+- infection [Radiation pneumonia](disease) symptom Is it
+- gave birth [pneumonia](disease) Time which performed What
+- Worthy of [Alveolar proteinosis](disease) Time meeting No Yes What Characterization Is it
+- Suffer [cold](disease) Time What Symptoms
+- Get [Goodpasture syndrome](disease) Have Characterization
+- Got it [Pneumococcal pneumonia](disease) Time meeting Yes What symptom Acridine
+- gave birth [Radiation pneumonia](disease) which performed Ah
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) What Characterization Yeah
+- Catch [Pulmonary Edema](disease) What phenomenon What
+- Catch [Pulmonary Aspergillosis](disease) meeting Yes phenomenon Ah
+- Give birth [Hypersensitivity pneumonia](disease) Have What Symptoms Acridine
+- [Radiation pneumonia](disease) of Characterization Is it
+- Get [Building Sick Syndrome](disease) Have Symptoms
+- Get [Cadmium poisoning](disease) Symptoms What
+- infection [Alveolar proteinosis](disease) Have which performed
+- Catch [Pulmonary Actinomycosis](disease) of phenomenon what
+- [Respiratory bronchiole-related interstitial lung disease](disease) meeting No Yes What phenomenon What
+- Worthy of [Mercury poisoning](disease) which performed
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Time Symptoms Ok
+- Got it [Lobar Pneumonia](disease) Symptoms Yeah
+- Give birth [Alveolar proteinosis](disease) What which performed Ok
+- Got it [Alveolar proteinosis](disease) Time Yes What symptom Ok
+- Suffer [Cadmium poisoning](disease) What Characterization Yeah
+- Got it [pneumonia](disease) Have which performed What
+- gave birth [Bacillus pneumoniae pneumonia](disease) of symptom Ah
+- infection [Hypersensitivity pneumonia](disease) Time Have What symptom Is it
+- Catch [Pulmonary embolism](disease) symptom what
+- Get [Large amounts of amniotic fluid inhalation](disease) which performed What
+- Give birth [Lung metastases](disease) What Symptoms Is it
+- Got it [Alveolar proteinosis](disease) Time Have symptom
+- Catch [Pulmonary Cryptococcosis](disease) Symptoms Yeah
+- Give birth [Bacillus pneumoniae pneumonia](disease) meeting No Yes Symptoms Ok
+- Got it [Pulmonary Candidiasis](disease) Time No What which performed
+- Suffer [pneumonia](disease) Time symptom Acridine
+- [Lung metastases](disease) Time meeting phenomenon Is it
+- Get [Pulmonary Edema](disease) No What which performed Ok
+- Get [Goodpasture syndrome](disease) Time meeting No phenomenon Ah
+- Get [Lobar Pneumonia](disease) of symptom Ok
+- gave birth [Pneumococcal pneumonia](disease) Symptoms Ok
+- Give birth [Hypersensitivity pneumonia](disease) Time meeting Yes Symptoms Acridine
+- Suffer [Pulmonary-pleural amebiasis](disease) Time symptom Yeah
+- infection [Lung metastases](disease) Have phenomenon Acridine
+- Suffer [Radiation pneumonia](disease) Time What Characterization Yeah
+- [Wheezing bronchitis](disease) Time Characterization Ah
+- Worthy of [Bullae](disease) Time meeting No Yes What phenomenon What
+- Worthy of [Anaphylactic shock](disease) Have What Symptoms Is it
+- Suffer [Carbon disulfide poisoning](disease) of Characterization
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) meeting Yes What Characterization Ah
+- Got it [Large amounts of amniotic fluid inhalation](disease) What symptom what
+- Give birth [Simple pulmonary eosinophilic infiltration](disease) Time symptom Ah
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) Time phenomenon Yeah
+- Worthy of [Mercury poisoning](disease) of phenomenon Yeah
+- Worthy of [Alveolar proteinosis](disease) Time meeting which performed
+- Suffer [Pulmonary embolism](disease) Time Have Characterization Ah
+- Get [Anaphylactic shock](disease) of symptom Is it
+- Suffer [Radiation pneumonia](disease) of symptom Yeah
+- gave birth [Pneumococcal pneumonia](disease) Time meeting Yes What Symptoms what
+- Give birth [Radiation pneumonia](disease) Time meeting No symptom
+- infection [Lung abscess](disease) Have symptom Acridine
+- infection [Benzene poisoning](disease) What Symptoms Ah
+- Catch [Mercury poisoning](disease) Time phenomenon
+- Suffer [Building Sick Syndrome](disease) of which performed Ok
+- Get [Alveolar proteinosis](disease) Characterization what
+- Got it [Emphysema](disease) Time Yes phenomenon Ok
+- Get [Pulmonary Actinomycosis](disease) Time What Characterization Acridine
+- Suffer [Pulmonary bullae](disease) Time No Yes Symptoms Is it
+- Got it [Alveolar proteinosis](disease) symptom what
+- [Large amounts of amniotic fluid inhalation](disease) Have Characterization Ok
+- Worthy of [Radiation pneumonia](disease) What which performed Ah
+- infection [Pneumococcal pneumonia](disease) What symptom Is it
+- Worthy of [Bacillus pneumoniae pneumonia](disease) Have phenomenon Acridine
+- infection [pneumonia](disease) Time Have symptom Acridine
+- gave birth [Lung abscess](disease) Time meeting No Yes which performed
+- Catch [Building Sick Syndrome](disease) Time meeting No What phenomenon
+- Got it [Benzene poisoning](disease) Time meeting No Characterization Is it
+- Get [Pulmonary embolism](disease) Time Yes Characterization what
+- gave birth [Emphysema](disease) Time Yes What Characterization Ah
+- Give birth [Lung cancer](disease) phenomenon
+- Got it [Bullae](disease) Symptoms
+- Worthy of [Bacillus pneumoniae pneumonia](disease) Time Yes What which performed Ah
+- [Goodpasture syndrome](disease) No What phenomenon what
+- infection [Lung metastases](disease) phenomenon Yeah
+- [Building Sick Syndrome](disease) Time meeting No Yes Symptoms what
+- Give birth [Anaphylactic shock](disease) Have What Characterization What
+- gave birth [Alveolar proteinosis](disease) meeting No symptom What
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) Symptoms
+- Give birth [Pulmonary Aspergillosis](disease) Characterization
+- gave birth [Pulmonary bullae](disease) Time What Characterization What
+- Get [pertussis](disease) Time Yes which performed what
+- Catch [Radiation pneumonia](disease) phenomenon Acridine
+- [Pulmonary pseudotumor](disease) of which performed Ah
+- [Pulmonary Cryptococcosis](disease) of Characterization What
+- Got it [Bacillus pneumoniae pneumonia](disease) Characterization Yeah
+- Give birth [Bullae](disease) What Characterization Ok
+- [Hypersensitivity pneumonia](disease) meeting No What symptom Acridine
+- gave birth [Hypersensitivity pneumonia](disease) Have symptom Acridine
+- Catch [Pulmonary Cryptococcosis](disease) symptom Is it
+- Worthy of [Septic shock](disease) Time symptom
+- Got it [Pulmonary Cryptococcosis](disease) of symptom Yeah
+- gave birth [Radiation pneumonia](disease) Time What which performed Yeah
+- Suffer [Lung cancer](disease) symptom
+- gave birth [Hypersensitivity pneumonia](disease) Have What phenomenon What
+- gave birth [Pulmonary Candidiasis](disease) No which performed
+- gave birth [Pulmonary bullae](disease) phenomenon Ok
+- Suffer [Benzene poisoning](disease) No What Characterization what
+- Get [Lobar Pneumonia](disease) Time Yes What Characterization Is it
+- gave birth [Emphysema](disease) of Symptoms Ah
+- Got it [Lung cancer](disease) What phenomenon Yeah
+- gave birth [Pulmonary Actinomycosis](disease) Time meeting What phenomenon Ok
+- Suffer [Lung abscess](disease) meeting Yes symptom What
+- gave birth [Mercury poisoning](disease) Characterization Is it
+- Got it [Pulmonary Actinomycosis](disease) of symptom Ah
+- Give birth [Pneumococcal pneumonia](disease) meeting No Yes What Characterization
+- Get [Carbon disulfide poisoning](disease) of Characterization what
+- Got it [Pulmonary Candidiasis](disease) Time Have What Symptoms Is it
+- Worthy of [Alveolar proteinosis](disease) Time symptom Ok
+- Catch [Radiation pneumonia](disease) which performed Yeah
+- Suffer [Pulmonary embolism](disease) Characterization Ah
+- [Pulmonary Aspergillosis](disease) Time What Symptoms what
+- Suffer [Lung cancer](disease) of which performed Acridine
+- Worthy of [Pulmonary-pleural amebiasis](disease) phenomenon Yeah
+- Give birth [Lung abscess](disease) meeting Yes What phenomenon Ok
+- Worthy of [Pulmonary pseudotumor](disease) meeting No Yes Characterization Is it
+- infection [Septic shock](disease) of Characterization Acridine
+- [Pulmonary Aspergillosis](disease) No Yes What symptom Ah
+- infection [Alveolar proteinosis](disease) Symptoms what
+- infection [Pulmonary pseudotumor](disease) phenomenon What
+- [Foreign body in the respiratory tract](disease) Time meeting Yes What Characterization Yeah
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) which performed Ok
+- Get [Pneumococcal pneumonia](disease) No Yes Symptoms
+- Catch [Pulmonary Candidiasis](disease) which performed
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) phenomenon What
+- Got it [Bullae](disease) phenomenon Acridine
+- Worthy of [Septic shock](disease) Time which performed Ok
+- Give birth [Foreign body in the respiratory tract](disease) Time Have What Characterization what
+- [Simple pulmonary eosinophilic infiltration](disease) Have What which performed Acridine
+- Got it [cold](disease) of Symptoms
+- Worthy of [Pulmonary Candidiasis](disease) meeting No Yes What which performed Ok
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) which performed Acridine
+- Suffer [Lobar Pneumonia](disease) Characterization Yeah
+- Give birth [Pulmonary Aspergillosis](disease) Yes What phenomenon Acridine
+- gave birth [Alveolar proteinosis](disease) phenomenon Yeah
+- Suffer [Anaphylactic shock](disease) Time symptom Is it
+- infection [Pulmonary Aspergillosis](disease) No Yes What Characterization
+- [Pulmonary Aspergillosis](disease) Time Yes What symptom Ah
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) of which performed Yeah
+- Got it [Pulmonary-pleural amebiasis](disease) symptom Ok
+- gave birth [Alveolar proteinosis](disease) No Yes What phenomenon Acridine
+- gave birth [Goodpasture syndrome](disease) Time Have What symptom
+- Catch [Simple pulmonary eosinophilic infiltration](disease) of Symptoms What
+- Suffer [Mercury poisoning](disease) No Yes What Symptoms Ok
+- [Mercury poisoning](disease) Time What which performed What
+- [Pulmonary bullae](disease) of which performed Yeah
+- Catch [Lobar Pneumonia](disease) Characterization Yeah
+- Worthy of [Pulmonary-pleural amebiasis](disease) Time Have What Characterization Yeah
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) Characterization Yeah
+- Worthy of [Carbon disulfide poisoning](disease) of phenomenon Ok
+- Catch [Lung abscess](disease) Time Have What symptom Ok
+- Worthy of [Radiation pneumonia](disease) Time Characterization Ok
+- Worthy of [Pulmonary Actinomycosis](disease) which performed
+- [Building Sick Syndrome](disease) which performed Yeah
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) phenomenon Is it
+- Get [Pulmonary Edema](disease) of symptom Yeah
+- Suffer [Lung cancer](disease) Characterization Yeah
+- Got it [Pulmonary Aspergillosis](disease) of symptom Acridine
+- Suffer [Pulmonary Aspergillosis](disease) of phenomenon Yeah
+- infection [pertussis](disease) Time What which performed Ah
+- Get [Pulmonary Candidiasis](disease) symptom
+- Got it [SARS](disease) meeting No What phenomenon what
+- Catch [Foreign body in the respiratory tract](disease) Time Yes What phenomenon What
+- gave birth [Pulmonary Actinomycosis](disease) meeting Characterization Acridine
+- Suffer [Lobar Pneumonia](disease) Characterization Ah
+- Get [Pulmonary Actinomycosis](disease) meeting Yes Characterization Acridine
+- [Pulmonary Cryptococcosis](disease) Have What Symptoms Acridine
+- Catch [Emphysema](disease) Time Have Characterization What
+- Give birth [SARS](disease) of phenomenon Ok
+- Worthy of [Mercury poisoning](disease) Have What symptom Ah
+- Suffer [pneumonia](disease) Time meeting No Yes What phenomenon What
+- Get [Emphysema](disease) meeting Yes What phenomenon
+- [Lobar Pneumonia](disease) of Symptoms
+- infection [Foreign body in the respiratory tract](disease) phenomenon What
+- Give birth [Lung cancer](disease) phenomenon What
+- Catch [Lung cancer](disease) phenomenon what
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) Time Have Characterization Is it
+- Got it [Pulmonary bullae](disease) Time meeting What symptom
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) Time Have What which performed Is it
+- Worthy of [Hypersensitivity pneumonia](disease) Time phenomenon Acridine
+- Give birth [Building Sick Syndrome](disease) of Characterization what
+- [Hypersensitivity pneumonia](disease) Characterization Yeah
+- Worthy of [pneumonia](disease) Time Have Symptoms Ah
+- Got it [Septic shock](disease) of Characterization Ah
+- Get [Lung cancer](disease) Time meeting What Symptoms what
+- Suffer [Emphysema](disease) phenomenon Is it
+- Worthy of [Pulmonary embolism](disease) of Characterization Ah
+- infection [Alveolar proteinosis](disease) Time No Yes which performed What
+- infection [pneumonia](disease) Time No What symptom what
+- [SARS](disease) phenomenon What
+- Get [Septic shock](disease) Time Have What Symptoms Ok
+- Catch [Radiation pneumonia](disease) Time Have What Symptoms Yeah
+- Worthy of [Mercury poisoning](disease) meeting No What Symptoms Is it
+- [Foreign body in the respiratory tract](disease) meeting Yes What symptom what
+- Give birth [Bullae](disease) Time Have What phenomenon Is it
+- Give birth [Bacillus pneumoniae pneumonia](disease) Time Have What symptom Acridine
+- Got it [Carbon disulfide poisoning](disease) meeting No Yes phenomenon what
+- [Foreign body in the respiratory tract](disease) of symptom what
+- Got it [Pulmonary Candidiasis](disease) meeting No Yes which performed Acridine
+- Worthy of [Pulmonary Aspergillosis](disease) Yes What Symptoms Ah
+- [pertussis](disease) Have What Characterization Ah
+- Catch [Mercury poisoning](disease) Time What Characterization Ah
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) Time Symptoms Ok
+- gave birth [Bullae](disease) Time Have Symptoms Is it
+- [Bullae](disease) Time Yes Symptoms What
+- Got it [Adult respiratory distress syndrome](disease) No Yes What which performed Ok
+- Got it [Pulmonary Actinomycosis](disease) What which performed what
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) Have What which performed Yeah
+- Worthy of [Septic shock](disease) Time Have Characterization what
+- Got it [Lung abscess](disease) What Characterization Yeah
+- Get [Alveolar proteinosis](disease) Time Symptoms what
+- gave birth [Lung metastases](disease) Time Have symptom Ah
+- gave birth [Radiation pneumonia](disease) of phenomenon Yeah
+- [Alveolar proteinosis](disease) What Symptoms Is it
+- Worthy of [Bacillus pneumoniae pneumonia](disease) Time Have What Symptoms Ah
+- [Large amounts of amniotic fluid inhalation](disease) Characterization
+- infection [Mercury poisoning](disease) of Symptoms
+- [Benzene poisoning](disease) of which performed
+- [Pulmonary-pleural amebiasis](disease) What symptom Is it
+- Give birth [SARS](disease) which performed Ah
+- Give birth [Alveolar proteinosis](disease) of symptom What
+- infection [Carbon disulfide poisoning](disease) Time Have What Symptoms Ah
+- Worthy of [Lung abscess](disease) Time What Characterization Ok
+- infection [Wheezing bronchitis](disease) phenomenon Is it
+- Give birth [Pulmonary bullae](disease) Time What phenomenon Acridine
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) Time meeting What symptom Acridine
+- Got it [Carbon disulfide poisoning](disease) of which performed
+- infection [Pneumococcal pneumonia](disease) Time meeting No Yes What Symptoms What
+- [Benzene poisoning](disease) What phenomenon
+- Worthy of [Pneumococcal pneumonia](disease) Time No What Symptoms Ok
+- Suffer [Lung metastases](disease) symptom what
+- Suffer [Lobar Pneumonia](disease) What phenomenon Is it
+- Get [cold](disease) No Yes What Characterization Is it
+- Suffer [Pulmonary pseudotumor](disease) of Characterization Ah
+- Give birth [Hypersensitivity pneumonia](disease) of Symptoms What
+- Suffer [pneumonia](disease) Time No What symptom what
+- Give birth [Benzene poisoning](disease) Time Have symptom What
+- Catch [Benzene poisoning](disease) Characterization what
+- Give birth [Pulmonary Cryptococcosis](disease) symptom Acridine
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) meeting No Yes symptom
+- Worthy of [Mercury poisoning](disease) Time Have What symptom Is it
+- Suffer [Building Sick Syndrome](disease) which performed Is it
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) meeting No What Characterization Ah
+- gave birth [Pulmonary embolism](disease) of Symptoms What
+- gave birth [pneumonia](disease) of Symptoms what
+- Get [Septic shock](disease) Time No What which performed
+- Get [Lobar Pneumonia](disease) Symptoms what
+- [Septic shock](disease) of symptom Is it
+- Get [Pneumococcal pneumonia](disease) of which performed Is it
+- infection [Bacillus pneumoniae pneumonia](disease) symptom What
+- Worthy of [Mercury poisoning](disease) Time What symptom
+- Got it [Cadmium poisoning](disease) phenomenon what
+- Suffer [Lung cancer](disease) of Symptoms Is it
+- Give birth [Pulmonary Edema](disease) Time Have What Characterization Acridine
+- Suffer [Pulmonary Cryptococcosis](disease) Have What which performed what
+- infection [Benzene poisoning](disease) phenomenon Is it
+- Give birth [Simple pulmonary eosinophilic infiltration](disease) of which performed what
+- Give birth [Lung metastases](disease) Time meeting No Yes What Characterization Ah
+- Suffer [Pulmonary Edema](disease) Have Characterization Acridine
+- infection [Pulmonary Edema](disease) meeting symptom Ok
+- Suffer [pneumonia](disease) Time Yes What which performed what
+- Get [Alveolar proteinosis](disease) of Characterization Is it
+- Got it [Lung abscess](disease) Yes What phenomenon Ah
+- gave birth [Anaphylactic shock](disease) Have Symptoms What
+- Catch [cold](disease) of symptom Is it
+- infection [Pulmonary bullae](disease) Time What which performed Is it
+- [Pulmonary embolism](disease) Time meeting No which performed Is it
+- Catch [Anaphylactic shock](disease) Have What which performed Yeah
+- Give birth [Bullae](disease) Time symptom
+- Suffer [Pulmonary Aspergillosis](disease) Have What Characterization What
+- Catch [Anaphylactic shock](disease) meeting What phenomenon What
+- [Lung metastases](disease) meeting No What Characterization Is it
+- Got it [Pulmonary pseudotumor](disease) which performed
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) Characterization Ok
+- [Benzene poisoning](disease) Time Have What phenomenon Acridine
+- gave birth [Pulmonary pseudotumor](disease) Have Symptoms Ah
+- gave birth [Lung cancer](disease) Symptoms
+- infection [Alveolar proteinosis](disease) of phenomenon Is it
+- Catch [Adult respiratory distress syndrome](disease) which performed Acridine
+- Suffer [Anaphylactic shock](disease) meeting What Symptoms Is it
+- Get [Lung cancer](disease) Symptoms what
+- Give birth [Bacillus pneumoniae pneumonia](disease) Symptoms Yeah
+- Got it [Benzene poisoning](disease) meeting No What which performed What
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) Time phenomenon Is it
+- Got it [pertussis](disease) Time Yes What Symptoms Ok
+- gave birth [Pneumococcal pneumonia](disease) Yes Characterization What
+- [Alveolar proteinosis](disease) Time meeting No What Characterization What
+- infection [Cadmium poisoning](disease) symptom Ok
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) meeting No What which performed What
+- infection [Simple pulmonary eosinophilic infiltration](disease) Time meeting What Symptoms Ah
+- infection [Carbon disulfide poisoning](disease) of phenomenon Yeah
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) of symptom Ah
+- Get [Lobar Pneumonia](disease) What Characterization Yeah
+- [Lung cancer](disease) Time Yes symptom Yeah
+- Got it [Carbon disulfide poisoning](disease) of Symptoms what
+- Give birth [Lobar Pneumonia](disease) of Characterization Yeah
+- gave birth [pneumonia](disease) What Symptoms Yeah
+- infection [Adult respiratory distress syndrome](disease) Time which performed What
+- infection [Pulmonary Cryptococcosis](disease) Have which performed Acridine
+- [Simple pulmonary eosinophilic infiltration](disease) Yes What symptom Acridine
+- Catch [Pulmonary bullae](disease) Time meeting No Symptoms
+- Suffer [Carbon disulfide poisoning](disease) Time No Yes What Symptoms
+- Suffer [Lung abscess](disease) Time Characterization Acridine
+- Suffer [Lung abscess](disease) of Characterization Ah
+- Give birth [Adult respiratory distress syndrome](disease) Time No What phenomenon Acridine
+- infection [Cadmium poisoning](disease) Have symptom Ah
+- Get [Hypersensitivity pneumonia](disease) of symptom Acridine
+- Got it [Goodpasture syndrome](disease) Time meeting What symptom what
+- Get [Lobar Pneumonia](disease) symptom What
+- [Pulmonary Cryptococcosis](disease) Time meeting No Characterization Yeah
+- Get [Pulmonary Aspergillosis](disease) What which performed Is it
+- Get [SARS](disease) No Yes What phenomenon Is it
+- Catch [Foreign body in the respiratory tract](disease) What Symptoms Ah
+- Suffer [Septic shock](disease) Symptoms Ah
+- Got it [pneumonia](disease) Time What which performed Acridine
+- [Building Sick Syndrome](disease) which performed what
+- Got it [Goodpasture syndrome](disease) Time No Symptoms What
+- Suffer [pertussis](disease) of which performed Acridine
+- Give birth [Alveolar proteinosis](disease) of Characterization
+- Suffer [Emphysema](disease) Time meeting Yes Characterization Ah
+- gave birth [Bullae](disease) of symptom Is it
+- gave birth [Pneumococcal pneumonia](disease) Time Have phenomenon Acridine
+- infection [Simple pulmonary eosinophilic infiltration](disease) meeting No symptom Acridine
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) Time What Characterization Is it
+- [Pulmonary Aspergillosis](disease) which performed Is it
+- Got it [pertussis](disease) No What which performed Ah
+- Worthy of [pertussis](disease) which performed Acridine
+- Worthy of [Pulmonary Candidiasis](disease) of symptom Acridine
+- Worthy of [Lung cancer](disease) Time meeting No Yes Characterization Acridine
+- Worthy of [cold](disease) of Characterization Acridine
+- Catch [Pulmonary Aspergillosis](disease) which performed Acridine
+- Got it [Radiation pneumonia](disease) Yes What phenomenon Yeah
+- [Pulmonary-pleural amebiasis](disease) No phenomenon Yeah
+- [Building Sick Syndrome](disease) meeting No What Symptoms Is it
+- Get [Benzene poisoning](disease) Time No What symptom what
+- Worthy of [Anaphylactic shock](disease) meeting Yes What Characterization what
+- Got it [Foreign body in the respiratory tract](disease) which performed what
+- gave birth [Pulmonary bullae](disease) Symptoms Acridine
+- Suffer [Mercury poisoning](disease) symptom what
+- Give birth [Benzene poisoning](disease) Time which performed What
+- [Foreign body in the respiratory tract](disease) Time What Symptoms
+- Suffer [Pulmonary Edema](disease) Time phenomenon Is it
+- Worthy of [Cadmium poisoning](disease) Time Have What Symptoms Is it
+- [Septic shock](disease) Have which performed Ok
+- Catch [Simple pulmonary eosinophilic infiltration](disease) No Characterization Acridine
+- [Radiation pneumonia](disease) Time What Characterization Yeah
+- Catch [Pulmonary embolism](disease) Symptoms Ah
+- Catch [Pulmonary pseudotumor](disease) No What symptom Acridine
+- Suffer [Pulmonary Cryptococcosis](disease) Have which performed Yeah
+- Worthy of [Pulmonary-pleural amebiasis](disease) What Symptoms
+- [Pulmonary embolism](disease) Time What phenomenon Yeah
+- Suffer [cold](disease) Time symptom Yeah
+- Suffer [Pulmonary bullae](disease) Time Yes Symptoms What
+- Get [Radiation pneumonia](disease) Time meeting Symptoms Ok
+- Worthy of [cold](disease) which performed Acridine
+- Suffer [Benzene poisoning](disease) symptom Is it
+- Get [Lung cancer](disease) Time meeting Yes What symptom Is it
+- [Hypersensitivity pneumonia](disease) of Characterization Is it
+- Got it [Septic shock](disease) of symptom What
+- infection [Goodpasture syndrome](disease) Symptoms Is it
+- Get [Pulmonary Actinomycosis](disease) which performed what
+- Suffer [Benzene poisoning](disease) Time No symptom What
+- Get [Lung abscess](disease) Symptoms What
+- Worthy of [Pulmonary Cryptococcosis](disease) No Yes symptom Yeah
+- Give birth [Pulmonary embolism](disease) of Characterization what
+- Suffer [Pulmonary pseudotumor](disease) which performed what
+- Give birth [Pulmonary Edema](disease) symptom what
+- Suffer [Lung metastases](disease) Time meeting No Yes symptom what
+- Suffer [Mercury poisoning](disease) of Characterization Ok
+- Catch [Pulmonary bullae](disease) No Yes phenomenon Is it
+- gave birth [Adult respiratory distress syndrome](disease) Characterization Yeah
+- Give birth [Hypersensitivity pneumonia](disease) of Characterization Ah
+- gave birth [Lung metastases](disease) What phenomenon Ok
+- Get [Cadmium poisoning](disease) Time No which performed
+- [Alveolar proteinosis](disease) of Symptoms What
+- Catch [Lung abscess](disease) Time symptom Yeah
+- Suffer [cold](disease) of Symptoms Yeah
+- Get [Cadmium poisoning](disease) Time Characterization Ah
+- Catch [Alveolar proteinosis](disease) What Symptoms What
+- infection [Pulmonary Candidiasis](disease) phenomenon Is it
+- [Respiratory bronchiole-related interstitial lung disease](disease) Have What which performed Is it
+- Give birth [Bacillus pneumoniae pneumonia](disease) No symptom Ok
+- [pneumonia](disease) Have which performed
+- Catch [Hypersensitivity pneumonia](disease) meeting No Yes symptom what
+- [SARS](disease) Time meeting No Symptoms What
+- Worthy of [Pulmonary pseudotumor](disease) Time phenomenon Ok
+- Worthy of [Pulmonary Cryptococcosis](disease) Time meeting phenomenon Ah
+- Get [Wheezing bronchitis](disease) phenomenon Ah
+- Get [Anaphylactic shock](disease) of Characterization
+- Worthy of [Mercury poisoning](disease) Time Symptoms what
+- Got it [Mercury poisoning](disease) Have Characterization Ok
+- Get [Pulmonary Aspergillosis](disease) Time What which performed What
+- Worthy of [Carbon disulfide poisoning](disease) of which performed Acridine
+- Got it [pneumonia](disease) Time Symptoms
+- infection [Pulmonary embolism](disease) Have What Symptoms Ah
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) Time which performed Acridine
+- [Pulmonary-pleural amebiasis](disease) Characterization Acridine
+- Got it [Bacillus pneumoniae pneumonia](disease) phenomenon Ah
+- Get [Alveolar proteinosis](disease) symptom Is it
+- gave birth [Radiation pneumonia](disease) Time What symptom what
+- infection [Building Sick Syndrome](disease) of phenomenon Is it
+- Got it [Pulmonary Edema](disease) of phenomenon Yeah
+- Give birth [Simple pulmonary eosinophilic infiltration](disease) phenomenon Ok
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) Yes What symptom Acridine
+- Give birth [Foreign body in the respiratory tract](disease) Time No Yes What Characterization Acridine
+- infection [Pulmonary pseudotumor](disease) What phenomenon Ok
+- Get [Pulmonary Aspergillosis](disease) Time meeting Yes which performed What
+- Worthy of [Septic shock](disease) Time which performed Is it
+- Give birth [Large amounts of amniotic fluid inhalation](disease) Symptoms Acridine
+- Get [Foreign body in the respiratory tract](disease) Time meeting Yes phenomenon Ok
+- Got it [Pulmonary Aspergillosis](disease) of Characterization Ah
+- Get [SARS](disease) Time Have Symptoms Is it
+- Got it [Lung cancer](disease) Symptoms Ok
+- [Alveolar proteinosis](disease) phenomenon what
+- Give birth [Pulmonary Edema](disease) meeting No Characterization What
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) Time Have Characterization
+- Got it [Simple pulmonary eosinophilic infiltration](disease) meeting phenomenon What
+- Give birth [Pulmonary embolism](disease) Time meeting Characterization what
+- Got it [Lobar Pneumonia](disease) Time Yes What phenomenon Is it
+- Suffer [Lung abscess](disease) meeting No Characterization Ah
+- Get [Benzene poisoning](disease) Time meeting No What phenomenon What
+- Worthy of [pneumonia](disease) meeting No Yes Characterization Yeah
+- gave birth [Hypersensitivity pneumonia](disease) of which performed
+- Got it [Pulmonary Edema](disease) Symptoms Is it
+- Suffer [Pulmonary Actinomycosis](disease) Time meeting Yes symptom Acridine
+- Give birth [Lobar Pneumonia](disease) of which performed Acridine
+- Suffer [cold](disease) which performed Ah
+- infection [Pulmonary-pleural amebiasis](disease) symptom What
+- Give birth [Simple pulmonary eosinophilic infiltration](disease) Symptoms Yeah
+- Worthy of [Lobar Pneumonia](disease) meeting No Yes phenomenon Acridine
+- infection [Septic shock](disease) Time Characterization Ok
+- Got it [Pulmonary Aspergillosis](disease) Have What which performed Ok
+- Suffer [cold](disease) Time Have symptom Ah
+- Catch [Lung cancer](disease) Characterization Yeah
+- Give birth [Lung metastases](disease) of Symptoms Ah
+- Worthy of [Alveolar proteinosis](disease) which performed Acridine
+- Give birth [Pulmonary Aspergillosis](disease) Have What Symptoms Ok
+- Worthy of [Septic shock](disease) Time No Yes Characterization Ah
+- infection [Pulmonary Candidiasis](disease) which performed Ah
+- Catch [Pulmonary Edema](disease) Have Characterization Is it
+- Worthy of [SARS](disease) Have What Characterization What
+- Worthy of [Lobar Pneumonia](disease) of symptom Ok
+- Worthy of [Pulmonary bullae](disease) of which performed Is it
+- Suffer [Pulmonary Actinomycosis](disease) No Yes What Symptoms What
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) phenomenon
+- Worthy of [Pulmonary-pleural amebiasis](disease) Time meeting No Yes What Characterization Yeah
+- Got it [Bacillus pneumoniae pneumonia](disease) symptom
+- Got it [cold](disease) No Symptoms
+- Suffer [Pneumococcal pneumonia](disease) of symptom What
+- Worthy of [Mercury poisoning](disease) meeting Yes symptom What
+- Got it [Lobar Pneumonia](disease) meeting Yes symptom
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) Time Have Symptoms Acridine
+- Worthy of [Hypersensitivity pneumonia](disease) of which performed Yeah
+- gave birth [Carbon disulfide poisoning](disease) Time symptom What
+- Suffer [Emphysema](disease) of Characterization
+- Suffer [Hypersensitivity pneumonia](disease) What Symptoms Ah
+- Suffer [Wheezing bronchitis](disease) meeting No Yes which performed Acridine
+- [Pneumococcal pneumonia](disease) Time symptom
+- Get [pertussis](disease) Symptoms Is it
+- Got it [Pulmonary Candidiasis](disease) which performed Ah
+- Catch [Lung abscess](disease) Yes symptom What
+- Get [Pulmonary-pleural amebiasis](disease) of which performed
+- Got it [Lung metastases](disease) of phenomenon Ok
+- Give birth [Bullae](disease) which performed what
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) Time which performed what
+- Got it [Emphysema](disease) Time Have which performed Ok
+- [Goodpasture syndrome](disease) Time No What phenomenon Yeah
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) No symptom Yeah
+- Get [Wheezing bronchitis](disease) Characterization Ok
+- Worthy of [Lung abscess](disease) of Characterization Ah
+- Worthy of [Pulmonary Candidiasis](disease) of which performed Yeah
+- Get [SARS](disease) Time which performed Is it
+- gave birth [Adult respiratory distress syndrome](disease) Characterization What
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) Have What phenomenon Ah
+- infection [Large amounts of amniotic fluid inhalation](disease) Time meeting What Symptoms
+- [Pulmonary Actinomycosis](disease) Time No Yes symptom Is it
+- Catch [Large amounts of amniotic fluid inhalation](disease) meeting No What Symptoms what
+- Catch [Bullae](disease) of Characterization Ah
+- [pertussis](disease) which performed what
+- Worthy of [Cadmium poisoning](disease) Yes Characterization
+- infection [Pulmonary pseudotumor](disease) Characterization Ah
+- [SARS](disease) Symptoms
+- Suffer [Pulmonary Edema](disease) Time Yes symptom Ah
+- gave birth [Pulmonary bullae](disease) phenomenon Is it
+- Catch [Septic shock](disease) meeting Yes What Characterization
+- Worthy of [Pulmonary-pleural amebiasis](disease) Time meeting What phenomenon Ok
+- gave birth [Alveolar proteinosis](disease) Time No Yes which performed Yeah
+- Get [Wheezing bronchitis](disease) of symptom Ah
+- Give birth [Alveolar proteinosis](disease) meeting No Yes What phenomenon Yeah
+- gave birth [Septic shock](disease) phenomenon
+- Catch [Lobar Pneumonia](disease) Time Characterization Yeah
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) Symptoms Yeah
+- Worthy of [Building Sick Syndrome](disease) Have What phenomenon What
+- Suffer [Septic shock](disease) which performed Is it
+- Get [Pulmonary Candidiasis](disease) Time No What phenomenon What
+- infection [Foreign body in the respiratory tract](disease) phenomenon what
+- Catch [Alveolar proteinosis](disease) Time Have What phenomenon Yeah
+- Got it [pertussis](disease) phenomenon Acridine
+- infection [Pulmonary-pleural amebiasis](disease) What phenomenon What
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) symptom What
+- Worthy of [Benzene poisoning](disease) which performed Ah
+- Suffer [Wheezing bronchitis](disease) of which performed Yeah
+- infection [pneumonia](disease) No Yes which performed Ah
+- Worthy of [Building Sick Syndrome](disease) What Symptoms
+- [pertussis](disease) Time Have symptom What
+- Suffer [Lobar Pneumonia](disease) of Symptoms
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) Time phenomenon Acridine
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) which performed Is it
+- [Emphysema](disease) Time symptom Yeah
+- Worthy of [Pneumococcal pneumonia](disease) of which performed Acridine
+- infection [Radiation pneumonia](disease) Have which performed
+- Get [Wheezing bronchitis](disease) Yes What symptom what
+- Suffer [Adult respiratory distress syndrome](disease) Time Have What symptom Acridine
+- Worthy of [Bullae](disease) symptom What
+- Get [Pulmonary pseudotumor](disease) of which performed Ah
+- gave birth [Lung metastases](disease) of phenomenon What
+- gave birth [Lung metastases](disease) symptom Ok
+- gave birth [Building Sick Syndrome](disease) Time No What phenomenon what
+- Suffer [Bullae](disease) Time Have Symptoms Acridine
+- Catch [Radiation pneumonia](disease) Characterization Acridine
+- infection [Pulmonary bullae](disease) Characterization Ah
+- Catch [Foreign body in the respiratory tract](disease) Time Have What Symptoms Ah
+- Got it [Pulmonary Aspergillosis](disease) Time No symptom Ok
+- Give birth [Pulmonary Actinomycosis](disease) meeting phenomenon Is it
+- Suffer [Alveolar proteinosis](disease) of symptom what
+- Give birth [Pulmonary Candidiasis](disease) No Yes Characterization Ok
+- [Pneumococcal pneumonia](disease) Time What which performed What
+- Get [Building Sick Syndrome](disease) meeting What phenomenon Yeah
+- infection [Bullae](disease) Characterization What
+- Give birth [pneumonia](disease) Time What Symptoms Ah
+- [Benzene poisoning](disease) of symptom Ok
+- Give birth [Lung metastases](disease) No which performed Acridine
+- Worthy of [Pulmonary Aspergillosis](disease) Yes What Symptoms Ok
+- Suffer [pneumonia](disease) Have Symptoms
+- Catch [Adult respiratory distress syndrome](disease) Characterization
+- gave birth [Bullae](disease) meeting What symptom Ah
+- Give birth [Lung metastases](disease) meeting Characterization Yeah
+- [Benzene poisoning](disease) of Symptoms Yeah
+- Got it [Pulmonary Candidiasis](disease) Have What Characterization what
+- Get [Lung metastases](disease) phenomenon Yeah
+- infection [Pulmonary pseudotumor](disease) symptom What
+- gave birth [Pulmonary Actinomycosis](disease) Yes What symptom Is it
+- [cold](disease) Time meeting No What phenomenon Ok
+- gave birth [Bullae](disease) meeting No Symptoms Ok
+- Worthy of [Goodpasture syndrome](disease) Time meeting Yes Symptoms What
+- Suffer [Lung abscess](disease) What which performed Yeah
+- Give birth [Building Sick Syndrome](disease) No Yes Symptoms What
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) Have What symptom
+- Get [Pulmonary Actinomycosis](disease) of which performed Yeah
+- Catch [Emphysema](disease) No Yes Symptoms Acridine
+- Catch [pneumonia](disease) phenomenon Ok
+- Got it [Carbon disulfide poisoning](disease) Time Have What which performed Ah
+- Got it [Lung cancer](disease) Time phenomenon Acridine
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) Time meeting symptom Acridine
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) Time Yes What Characterization Ok
+- Suffer [Pneumococcal pneumonia](disease) Time meeting which performed Acridine
+- Got it [Pulmonary bullae](disease) Have Characterization what
+- infection [Anaphylactic shock](disease) Characterization Acridine
+- Catch [Lung metastases](disease) which performed Acridine
+- infection [Alveolar proteinosis](disease) of symptom what
+- [Alveolar proteinosis](disease) Time Yes Symptoms
+- Worthy of [Anaphylactic shock](disease) What Characterization Ok
+- Give birth [Emphysema](disease) of Characterization Yeah
+- [Pulmonary Candidiasis](disease) Time which performed Ah
+- [SARS](disease) Time No What Characterization Yeah
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) meeting What symptom what
+- gave birth [Wheezing bronchitis](disease) Time meeting symptom Ok
+- [Bullae](disease) What phenomenon Ok
+- Give birth [pneumonia](disease) Time meeting No What phenomenon what
+- Catch [pertussis](disease) No Characterization Is it
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) Time phenomenon Ok
+- [SARS](disease) Time No What phenomenon Ok
+- [Respiratory bronchiole-related interstitial lung disease](disease) which performed What
+- infection [cold](disease) No Yes What phenomenon Ok
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) symptom Ok
+- Catch [Simple pulmonary eosinophilic infiltration](disease) of phenomenon Ah
+- gave birth [Pneumococcal pneumonia](disease) of symptom
+- gave birth [Adult respiratory distress syndrome](disease) Time Have Characterization Is it
+- Give birth [Pulmonary-pleural amebiasis](disease) of which performed Acridine
+- Catch [Benzene poisoning](disease) Time What symptom
+- Give birth [Carbon disulfide poisoning](disease) meeting Yes What Characterization what
+- Suffer [Radiation pneumonia](disease) Characterization Ok
+- gave birth [Septic shock](disease) Symptoms what
+- Get [SARS](disease) Symptoms Yeah
+- Worthy of [Pulmonary-pleural amebiasis](disease) What symptom Ok
+- gave birth [Lobar Pneumonia](disease) meeting Yes symptom Ah
+- Get [Pulmonary Edema](disease) of which performed what
+- Catch [Emphysema](disease) meeting What Symptoms what
+- Got it [Wheezing bronchitis](disease) of symptom Ah
+- infection [Cadmium poisoning](disease) phenomenon Acridine
+- Got it [Anaphylactic shock](disease) Symptoms what
+- Got it [Adult respiratory distress syndrome](disease) Have Characterization Acridine
+- Give birth [Pulmonary Actinomycosis](disease) Symptoms What
+- Give birth [Radiation pneumonia](disease) of symptom Is it
+- infection [Pulmonary bullae](disease) Time meeting No Yes What which performed Ah
+- infection [Alveolar proteinosis](disease) of which performed Yeah
+- Worthy of [Wheezing bronchitis](disease) What symptom Is it
+- Get [Simple pulmonary eosinophilic infiltration](disease) of phenomenon Ah
+- Catch [Lobar Pneumonia](disease) Time What symptom Yeah
+- infection [Foreign body in the respiratory tract](disease) Time symptom Is it
+- gave birth [Benzene poisoning](disease) No Yes What symptom Is it
+- gave birth [Alveolar proteinosis](disease) Characterization what
+- infection [Septic shock](disease) meeting No Yes What phenomenon what
+- Suffer [Large amounts of amniotic fluid inhalation](disease) Time No Yes What Symptoms
+- [pertussis](disease) symptom what
+- gave birth [Cadmium poisoning](disease) of Symptoms Ok
+- Suffer [Pulmonary bullae](disease) Time meeting What which performed what
+- Give birth [Pulmonary embolism](disease) Yes symptom Yeah
+- Worthy of [Alveolar proteinosis](disease) Time Characterization
+- Got it [Building Sick Syndrome](disease) Time Yes which performed
+- [Goodpasture syndrome](disease) Time Yes phenomenon Acridine
+- Catch [Pulmonary Actinomycosis](disease) Symptoms What
+- infection [Foreign body in the respiratory tract](disease) of phenomenon Acridine
+- Give birth [Pulmonary Aspergillosis](disease) Time meeting Yes What Symptoms What
+- Catch [Radiation pneumonia](disease) which performed Is it
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) What symptom what
+- Got it [Lung cancer](disease) meeting No Yes Characterization What
+- Get [Pneumococcal pneumonia](disease) No which performed Is it
+- Suffer [Building Sick Syndrome](disease) phenomenon what
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) Time No Yes What symptom
+- infection [Anaphylactic shock](disease) Symptoms
+- Worthy of [Pulmonary Edema](disease) of which performed Yeah
+- Got it [Bullae](disease) Time Have What phenomenon What
+- Get [Carbon disulfide poisoning](disease) Symptoms Acridine
+- Give birth [Pulmonary Actinomycosis](disease) Time What phenomenon Ok
+- Got it [Pulmonary Candidiasis](disease) which performed what
+- Get [Lung metastases](disease) which performed what
+- Worthy of [Pulmonary embolism](disease) of Symptoms Yeah
+- Catch [Large amounts of amniotic fluid inhalation](disease) of Characterization what
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) Time Have What Symptoms Is it
+- Give birth [cold](disease) phenomenon Yeah
+- infection [Pulmonary Actinomycosis](disease) What symptom What
+- infection [Pulmonary-pleural amebiasis](disease) Have What phenomenon What
+- Worthy of [Pulmonary Cryptococcosis](disease) Characterization
+- Suffer [Anaphylactic shock](disease) Time Have phenomenon What
+- Worthy of [Pneumococcal pneumonia](disease) Time What symptom Ah
+- Got it [Septic shock](disease) Time What which performed Ah
+- [Septic shock](disease) phenomenon Yeah
+- Give birth [Mercury poisoning](disease) which performed Ok
+- Got it [Pulmonary-pleural amebiasis](disease) Time meeting No Yes What phenomenon Is it
+- Get [Radiation pneumonia](disease) meeting No What phenomenon Yeah
+- [Lung metastases](disease) Time Yes Symptoms
+- Get [Lung abscess](disease) Have Characterization what
+- Suffer [Hypersensitivity pneumonia](disease) What symptom
+- Got it [Building Sick Syndrome](disease) phenomenon Ah
+- Give birth [Pulmonary pseudotumor](disease) Time meeting No Yes symptom
+- gave birth [Hypersensitivity pneumonia](disease) phenomenon Ah
+- Worthy of [Goodpasture syndrome](disease) Time Have which performed
+- Get [Lung metastases](disease) which performed Ah
+- gave birth [Building Sick Syndrome](disease) Have which performed Yeah
+- Get [Wheezing bronchitis](disease) No Yes Characterization what
+- Worthy of [Bacillus pneumoniae pneumonia](disease) meeting No Yes phenomenon Yeah
+- Give birth [Pulmonary pseudotumor](disease) Have Characterization
+- Suffer [Septic shock](disease) Yes which performed Ok
+- [Hypersensitivity pneumonia](disease) Have Symptoms what
+- Worthy of [Bullae](disease) What Characterization Ok
+- Suffer [Pulmonary Cryptococcosis](disease) of symptom
+- Got it [Pulmonary Edema](disease) Symptoms Ok
+- infection [Simple pulmonary eosinophilic infiltration](disease) Time Have What phenomenon Acridine
+- gave birth [Building Sick Syndrome](disease) Characterization Ok
+- infection [Pulmonary-pleural amebiasis](disease) Time What which performed Ah
+- Get [Wheezing bronchitis](disease) of Symptoms Ok
+- Got it [Benzene poisoning](disease) meeting No Yes phenomenon What
+- [Pulmonary-pleural amebiasis](disease) Time meeting phenomenon what
+- gave birth [Wheezing bronchitis](disease) of Characterization what
+- Give birth [Foreign body in the respiratory tract](disease) Time meeting Yes What symptom What
+- gave birth [Septic shock](disease) Time which performed Acridine
+- [Benzene poisoning](disease) Time Have What which performed Ok
+- Got it [SARS](disease) meeting No Yes symptom
+- [Pulmonary Actinomycosis](disease) of Characterization Acridine
+- [SARS](disease) Time Have Characterization Ah
+- [Pulmonary hemorrhage-nephritis syndrome](disease) of Symptoms What
+- Give birth [Pulmonary pseudotumor](disease) phenomenon Ah
+- Worthy of [Wheezing bronchitis](disease) symptom What
+- Give birth [Wheezing bronchitis](disease) Time meeting No Yes What which performed Yeah
+- Get [Alveolar proteinosis](disease) No Yes symptom
+- Worthy of [cold](disease) Time meeting What phenomenon Ah
+- infection [Foreign body in the respiratory tract](disease) Have What symptom Ah
+- [Adult respiratory distress syndrome](disease) which performed Acridine
+- Get [Alveolar proteinosis](disease) of Characterization Acridine
+- gave birth [Wheezing bronchitis](disease) of symptom Ok
+- Get [Pulmonary Candidiasis](disease) Time Yes What which performed Is it
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) phenomenon Yeah
+- Catch [Large amounts of amniotic fluid inhalation](disease) of which performed Ah
+- Suffer [Pulmonary Cryptococcosis](disease) Time No Yes What symptom what
+- Get [Septic shock](disease) No Characterization What
+- infection [Goodpasture syndrome](disease) Time meeting No Yes phenomenon Ok
+- Give birth [Pulmonary Aspergillosis](disease) of phenomenon Yeah
+- infection [Alveolar proteinosis](disease) of Symptoms Ah
+- Got it [Goodpasture syndrome](disease) of Characterization Is it
+- Give birth [Pulmonary embolism](disease) Time meeting What Symptoms Ok
+- Suffer [Pneumococcal pneumonia](disease) Time meeting What Symptoms Ah
+- [Pulmonary pseudotumor](disease) Time Have symptom Ok
+- [Goodpasture syndrome](disease) Time What Symptoms Ok
+- Give birth [Alveolar proteinosis](disease) Have Symptoms Acridine
+- Suffer [Pneumococcal pneumonia](disease) Time No What phenomenon what
+- Give birth [Adult respiratory distress syndrome](disease) What which performed Is it
+- Worthy of [Pulmonary pseudotumor](disease) Have symptom Ah
+- Catch [Carbon disulfide poisoning](disease) Have symptom
+- [Carbon disulfide poisoning](disease) Time which performed Ah
+- Got it [SARS](disease) Time Have What Symptoms Ok
+- Give birth [Hypersensitivity pneumonia](disease) Time which performed
+- [Lung abscess](disease) Have What Symptoms What
+- infection [Mercury poisoning](disease) of Characterization Ah
+- infection [Adult respiratory distress syndrome](disease) which performed Acridine
+- [Respiratory bronchiole-related interstitial lung disease](disease) Time Have Characterization What
+- Catch [Building Sick Syndrome](disease) Have which performed Is it
+- gave birth [Pulmonary Candidiasis](disease) of which performed what
+- infection [Bacillus pneumoniae pneumonia](disease) symptom Ah
+- infection [Hypersensitivity pneumonia](disease) Time No What phenomenon Yeah
+- Got it [Hypersensitivity pneumonia](disease) Time Have What which performed what
+- Suffer [Lung abscess](disease) phenomenon
+- Got it [Alveolar proteinosis](disease) of Characterization Is it
+- Get [Large amounts of amniotic fluid inhalation](disease) Time What Characterization Acridine
+- Give birth [Pulmonary pseudotumor](disease) What Characterization
+- Catch [Adult respiratory distress syndrome](disease) of symptom Yeah
+- Get [Large amounts of amniotic fluid inhalation](disease) Time What phenomenon Acridine
+- Got it [Cadmium poisoning](disease) Have phenomenon What
+- Get [Pulmonary embolism](disease) meeting No Yes which performed Ok
+- [Pulmonary-pleural amebiasis](disease) No Yes What Symptoms Yeah
+- Worthy of [cold](disease) of phenomenon
+- Catch [Goodpasture syndrome](disease) Characterization Acridine
+- gave birth [Radiation pneumonia](disease) Time No What Characterization Ok
+- Give birth [Hypersensitivity pneumonia](disease) symptom what
+- Get [Adult respiratory distress syndrome](disease) Time What Symptoms What
+- [Radiation pneumonia](disease) Have What phenomenon
+- Suffer [Pulmonary Edema](disease) Have What phenomenon Yeah
+- Got it [Adult respiratory distress syndrome](disease) Characterization What
+- Catch [pneumonia](disease) Time phenomenon
+- Get [Pulmonary pseudotumor](disease) Time meeting No Yes What phenomenon Yeah
+- Catch [Lung abscess](disease) Have What Symptoms Ah
+- Catch [Hypersensitivity pneumonia](disease) of Characterization Yeah
+- Get [Pulmonary Edema](disease) phenomenon
+- [Building Sick Syndrome](disease) meeting symptom Is it
+- Worthy of [Pulmonary Candidiasis](disease) Yes What symptom what
+- [Foreign body in the respiratory tract](disease) Time What Characterization Ok
+- Get [Lobar Pneumonia](disease) of Symptoms What
+- Get [SARS](disease) What phenomenon
+- [Respiratory bronchiole-related interstitial lung disease](disease) What Symptoms What
+- Got it [cold](disease) symptom What
+- infection [Radiation pneumonia](disease) of Characterization
+- Get [Pulmonary bullae](disease) Time Have phenomenon What
+- Worthy of [Emphysema](disease) Characterization what
+- infection [pneumonia](disease) Symptoms what
+- [Pulmonary pseudotumor](disease) of which performed Yeah
+- Suffer [Lung cancer](disease) Characterization What
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) of Symptoms Is it
+- Got it [Alveolar proteinosis](disease) meeting Characterization Ah
+- Got it [Pulmonary embolism](disease) What which performed What
+- Give birth [Bullae](disease) phenomenon Yeah
+- Got it [Carbon disulfide poisoning](disease) Have Characterization Acridine
+- Suffer [Benzene poisoning](disease) which performed what
+- Worthy of [Lobar Pneumonia](disease) meeting No Yes which performed Acridine
+- gave birth [pneumonia](disease) Time which performed Ok
+- Get [Emphysema](disease) of phenomenon
+- infection [Pulmonary Aspergillosis](disease) Have which performed what
+- gave birth [Foreign body in the respiratory tract](disease) symptom Acridine
+- Got it [Pulmonary Actinomycosis](disease) Time What phenomenon Ok
+- Got it [Pulmonary embolism](disease) Time No What Symptoms what
+- Get [Pulmonary-pleural amebiasis](disease) symptom
+- Suffer [Wheezing bronchitis](disease) Characterization Ok
+- gave birth [Pulmonary pseudotumor](disease) Have phenomenon What
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) which performed what
+- [Pulmonary Actinomycosis](disease) of Symptoms Ah
+- Get [Pulmonary embolism](disease) Have Characterization Acridine
+- [Pulmonary Cryptococcosis](disease) Time No Yes What Symptoms Ok
+- Suffer [Large amounts of amniotic fluid inhalation](disease) Time phenomenon Yeah
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) Time Yes Characterization Ok
+- Give birth [Pulmonary-pleural amebiasis](disease) Have What phenomenon Is it
+- Worthy of [Pulmonary-pleural amebiasis](disease) Have Characterization Is it
+- infection [Bacillus pneumoniae pneumonia](disease) Time Have Characterization Ok
+- [Bacillus pneumoniae pneumonia](disease) symptom Is it
+- Get [Pneumococcal pneumonia](disease) of Characterization
+- [Building Sick Syndrome](disease) meeting Characterization Is it
+- Worthy of [Pulmonary-pleural amebiasis](disease) of symptom Yeah
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) Time What Symptoms Is it
+- Suffer [Pulmonary pseudotumor](disease) Time meeting No Yes What phenomenon Ah
+- Suffer [Pulmonary Cryptococcosis](disease) Have phenomenon Yeah
+- infection [Benzene poisoning](disease) symptom what
+- infection [Benzene poisoning](disease) What phenomenon
+- Got it [Pulmonary Candidiasis](disease) Symptoms What
+- Give birth [Anaphylactic shock](disease) symptom Acridine
+- [Pulmonary embolism](disease) of symptom Ah
+- Catch [Large amounts of amniotic fluid inhalation](disease) Time No phenomenon What
+- Suffer [Pulmonary embolism](disease) of Characterization Yeah
+- Worthy of [Benzene poisoning](disease) Time Symptoms Acridine
+- Got it [Pneumococcal pneumonia](disease) What phenomenon Yeah
+- Suffer [Foreign body in the respiratory tract](disease) Characterization Ok
+- infection [Pulmonary-pleural amebiasis](disease) Time Yes symptom Ok
+- Worthy of [Building Sick Syndrome](disease) which performed Ah
+- Worthy of [Foreign body in the respiratory tract](disease) No Yes What Characterization what
+- Give birth [Lung abscess](disease) Time No Yes Characterization Acridine
+- Worthy of [Lung abscess](disease) of Characterization Is it
+- Catch [Mercury poisoning](disease) Yes What which performed Ah
+- Suffer [Lung abscess](disease) symptom Is it
+- infection [Large amounts of amniotic fluid inhalation](disease) of Symptoms Is it
+- gave birth [Septic shock](disease) Time meeting What Symptoms what
+- Got it [Pulmonary Cryptococcosis](disease) Time meeting phenomenon Ok
+- Give birth [Radiation pneumonia](disease) Time meeting Yes What Characterization What
+- Worthy of [Pneumococcal pneumonia](disease) Symptoms Is it
+- Suffer [Carbon disulfide poisoning](disease) of phenomenon What
+- Catch [Alveolar proteinosis](disease) phenomenon Ok
+- Suffer [Radiation pneumonia](disease) of which performed What
+- Worthy of [Pulmonary pseudotumor](disease) Time No Yes What phenomenon Acridine
+- Get [Pulmonary Cryptococcosis](disease) of Symptoms what
+- gave birth [Pulmonary Candidiasis](disease) Have What phenomenon Is it
+- Catch [Bacillus pneumoniae pneumonia](disease) Time Yes which performed Is it
+- infection [Benzene poisoning](disease) Time Characterization what
+- [Pulmonary Edema](disease) Characterization Yeah
+- Suffer [Lung abscess](disease) Have which performed Yeah
+- Suffer [Bacillus pneumoniae pneumonia](disease) What Symptoms Ok
+- Got it [Cadmium poisoning](disease) Time meeting What which performed
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) symptom Acridine
+- Give birth [Alveolar proteinosis](disease) Time Characterization what
+- Get [Pulmonary Edema](disease) Time meeting No Yes which performed Is it
+- infection [Bacillus pneumoniae pneumonia](disease) Time What phenomenon Yeah
+- Worthy of [pneumonia](disease) Characterization Ok
+- Suffer [Hypersensitivity pneumonia](disease) Time meeting Yes Characterization Ok
+- infection [Pulmonary pseudotumor](disease) of which performed Acridine
+- Give birth [Pneumococcal pneumonia](disease) of phenomenon Ok
+- Worthy of [Wheezing bronchitis](disease) Time meeting No Yes What symptom Is it
+- Give birth [Benzene poisoning](disease) meeting No Yes which performed Yeah
+- Worthy of [Alveolar proteinosis](disease) of Characterization Ok
+- [cold](disease) Have What phenomenon Ah
+- gave birth [Large amounts of amniotic fluid inhalation](disease) symptom Acridine
+- Give birth [Hypersensitivity pneumonia](disease) Time Have What Symptoms what
+- Catch [Lung abscess](disease) No What Symptoms Ah
+- Give birth [Pulmonary pseudotumor](disease) meeting No Yes What which performed what
+- [Pneumococcal pneumonia](disease) Time symptom Acridine
+- Give birth [Pulmonary Actinomycosis](disease) meeting No which performed Acridine
+- Got it [Alveolar proteinosis](disease) Have symptom Acridine
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) Yes Characterization what
+- Suffer [Emphysema](disease) Have What phenomenon What
+- infection [Pneumococcal pneumonia](disease) Time meeting Yes What Characterization Is it
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) Time which performed Ah
+- infection [Pulmonary Cryptococcosis](disease) Time What phenomenon Ok
+- Get [Radiation pneumonia](disease) Time Yes What phenomenon Is it
+- Suffer [Pulmonary Edema](disease) Time meeting No Yes phenomenon Acridine
+- Get [Adult respiratory distress syndrome](disease) of Symptoms Is it
+- gave birth [Pneumococcal pneumonia](disease) Have Characterization What
+- Get [Pulmonary bullae](disease) Time Have What Symptoms
+- Got it [Foreign body in the respiratory tract](disease) Time Have Symptoms Ok
+- Suffer [Pulmonary-pleural amebiasis](disease) Time Yes What which performed Acridine
+- gave birth [Building Sick Syndrome](disease) Symptoms Ok
+- Suffer [Septic shock](disease) phenomenon what
+- [Adult respiratory distress syndrome](disease) No symptom what
+- Worthy of [Emphysema](disease) Time What Characterization
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) of phenomenon What
+- [Pulmonary Candidiasis](disease) which performed Ok
+- gave birth [Alveolar proteinosis](disease) of Characterization what
+- Catch [Radiation pneumonia](disease) What Symptoms
+- gave birth [Benzene poisoning](disease) meeting Yes Symptoms Acridine
+- [Hypersensitivity pneumonia](disease) symptom
+- Catch [Bullae](disease) which performed what
+- Get [Septic shock](disease) No What phenomenon Yeah
+- Catch [Pulmonary Cryptococcosis](disease) Time What which performed what
+- Give birth [Pulmonary Actinomycosis](disease) Time Have Characterization what
+- Give birth [Hypersensitivity pneumonia](disease) Time Have phenomenon Acridine
+- Got it [Bullae](disease) Time meeting No Yes which performed Acridine
+- Worthy of [Bacillus pneumoniae pneumonia](disease) Have What Symptoms Ok
+- Give birth [Pulmonary Candidiasis](disease) meeting No What symptom Yeah
+- gave birth [Pulmonary-pleural amebiasis](disease) Time Have which performed what
+- Got it [Alveolar proteinosis](disease) Time Characterization Ah
+- infection [Pneumococcal pneumonia](disease) Symptoms what
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) of phenomenon what
+- [Pulmonary Edema](disease) of Characterization Ah
+- Give birth [Alveolar proteinosis](disease) Time meeting No Characterization Acridine
+- [Benzene poisoning](disease) meeting No Yes Characterization Is it
+- gave birth [Mercury poisoning](disease) phenomenon Acridine
+- Suffer [Pulmonary pseudotumor](disease) meeting No Yes Symptoms Acridine
+- Worthy of [Adult respiratory distress syndrome](disease) Time Have Characterization Yeah
+- gave birth [Goodpasture syndrome](disease) phenomenon What
+- Give birth [Hypersensitivity pneumonia](disease) Time Have Characterization what
+- infection [Alveolar proteinosis](disease) meeting phenomenon What
+- infection [Pneumococcal pneumonia](disease) meeting No What Characterization Yeah
+- [Lobar Pneumonia](disease) meeting No What which performed Acridine
+- Suffer [Pulmonary Cryptococcosis](disease) of which performed Acridine
+- gave birth [SARS](disease) of symptom Ah
+- Worthy of [Lobar Pneumonia](disease) meeting No Yes What which performed Ok
+- [Pulmonary Actinomycosis](disease) What phenomenon Acridine
+- Suffer [Large amounts of amniotic fluid inhalation](disease) Time Have What symptom Yeah
+- gave birth [Carbon disulfide poisoning](disease) Time What Symptoms Ok
+- Got it [Benzene poisoning](disease) of which performed what
+- Suffer [cold](disease) Time What symptom Ah
+- Get [Lung abscess](disease) Time What Symptoms Yeah
+- [Hypersensitivity pneumonia](disease) symptom Ah
+- Give birth [Lung metastases](disease) meeting No Yes Characterization what
+- [Lung metastases](disease) which performed Is it
+- Catch [Pulmonary-pleural amebiasis](disease) of symptom what
+- [Pulmonary Cryptococcosis](disease) meeting What Symptoms Is it
+- Worthy of [Alveolar proteinosis](disease) which performed Ok
+- Get [cold](disease) of which performed What
+- Worthy of [Pulmonary Candidiasis](disease) of which performed Is it
+- Catch [pertussis](disease) Time No Yes What which performed Ok
+- Give birth [Emphysema](disease) symptom Ok
+- infection [Cadmium poisoning](disease) Time What phenomenon Yeah
+- Get [Building Sick Syndrome](disease) Have What which performed
+- [Pulmonary bullae](disease) Time Have which performed Yeah
+- Get [Mercury poisoning](disease) Characterization Yeah
+- Got it [Lung abscess](disease) meeting Characterization What
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) phenomenon Yeah
+- infection [Bacillus pneumoniae pneumonia](disease) Characterization What
+- [pneumonia](disease) of phenomenon what
+- Get [Carbon disulfide poisoning](disease) symptom What
+- gave birth [Pulmonary Candidiasis](disease) Time meeting No Yes phenomenon what
+- Worthy of [Pneumococcal pneumonia](disease) Have What Symptoms
+- Catch [Pulmonary bullae](disease) of Characterization what
+- infection [Pulmonary Candidiasis](disease) Time which performed Ah
+- Suffer [Building Sick Syndrome](disease) Time Have What phenomenon Acridine
+- Got it [Bullae](disease) Have phenomenon What
+- gave birth [Pulmonary pseudotumor](disease) Have phenomenon what
+- Get [cold](disease) phenomenon Acridine
+- Got it [pertussis](disease) Time No which performed Acridine
+- [Cadmium poisoning](disease) of which performed
+- Get [Alveolar proteinosis](disease) Symptoms Acridine
+- Worthy of [Pulmonary Actinomycosis](disease) of Symptoms Ah
+- Worthy of [Cadmium poisoning](disease) of symptom Ah
+- [cold](disease) of phenomenon Yeah
+- Suffer [Pulmonary Candidiasis](disease) Time Have which performed Yeah
+- Give birth [Mercury poisoning](disease) Time Have What Symptoms Acridine
+- Get [Septic shock](disease) Time Characterization Yeah
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) Have symptom Acridine
+- Catch [Simple pulmonary eosinophilic infiltration](disease) Time Have Characterization Ah
+- Suffer [Lung metastases](disease) Time meeting Yes phenomenon what
+- Catch [pneumonia](disease) Characterization Ah
+- gave birth [pneumonia](disease) Time What phenomenon Yeah
+- Suffer [Pulmonary Candidiasis](disease) Yes What Characterization Ah
+- Catch [pertussis](disease) Symptoms Is it
+- infection [Pulmonary bullae](disease) of phenomenon Ah
+- Give birth [Radiation pneumonia](disease) No Yes symptom
+- Get [Carbon disulfide poisoning](disease) Time What Symptoms
+- Worthy of [pneumonia](disease) Time Have Symptoms Acridine
+- Get [Cadmium poisoning](disease) No What which performed
+- Worthy of [Adult respiratory distress syndrome](disease) Time which performed Ah
+- Got it [pneumonia](disease) Characterization Yeah
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) Time Have Characterization Ah
+- Got it [Radiation pneumonia](disease) symptom Ok
+- Give birth [Adult respiratory distress syndrome](disease) Symptoms What
+- Worthy of [Foreign body in the respiratory tract](disease) Time Have What which performed Ah
+- Got it [Hypersensitivity pneumonia](disease) Time No Yes symptom
+- Worthy of [Pulmonary bullae](disease) Time Have What Symptoms What
+- Worthy of [cold](disease) phenomenon Is it
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) of Characterization Yeah
+- Get [Pulmonary Candidiasis](disease) No which performed Is it
+- infection [Anaphylactic shock](disease) Time What symptom Is it
+- Get [Lung abscess](disease) Have symptom Acridine
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) Time Have which performed what
+- [Wheezing bronchitis](disease) meeting Symptoms what
+- [Mercury poisoning](disease) Yes What Characterization What
+- Catch [Radiation pneumonia](disease) meeting symptom what
+- Got it [Adult respiratory distress syndrome](disease) Time meeting Symptoms What
+- Got it [Pulmonary embolism](disease) Time Have Symptoms Ok
+- Worthy of [Pulmonary Actinomycosis](disease) Time symptom what
+- Got it [Large amounts of amniotic fluid inhalation](disease) Time meeting No Yes What phenomenon Yeah
+- Suffer [Pulmonary Candidiasis](disease) Time Symptoms Ok
+- gave birth [Alveolar proteinosis](disease) which performed
+- Worthy of [Pulmonary Cryptococcosis](disease) of which performed Yeah
+- Give birth [Alveolar proteinosis](disease) Characterization Yeah
+- Get [Alveolar proteinosis](disease) symptom Ok
+- Got it [Goodpasture syndrome](disease) of Symptoms Acridine
+- Give birth [Pulmonary Edema](disease) Have phenomenon Is it
+- [Wheezing bronchitis](disease) Time Characterization Ok
+- Worthy of [Lobar Pneumonia](disease) of Characterization What
+- Suffer [Foreign body in the respiratory tract](disease) Time Have Characterization What
+- Got it [cold](disease) of Symptoms Ah
+- Suffer [Lobar Pneumonia](disease) which performed Is it
+- gave birth [Cadmium poisoning](disease) meeting What Symptoms Is it
+- Catch [Pulmonary embolism](disease) Time What phenomenon what
+- Worthy of [Pulmonary Actinomycosis](disease) of which performed Acridine
+- gave birth [Pneumococcal pneumonia](disease) Time No What symptom Ok
+- infection [Bullae](disease) Time meeting Yes What which performed Ok
+- [Radiation pneumonia](disease) Time Have What Symptoms Yeah
+- Get [Simple pulmonary eosinophilic infiltration](disease) Time Have which performed Yeah
+- Suffer [Wheezing bronchitis](disease) Time What Characterization
+- Got it [Hypersensitivity pneumonia](disease) of phenomenon what
+- Catch [cold](disease) Time meeting Yes What symptom what
+- Worthy of [Pneumococcal pneumonia](disease) phenomenon What
+- Worthy of [Benzene poisoning](disease) No Yes What symptom Yeah
+- gave birth [SARS](disease) which performed Acridine
+- Get [Pulmonary bullae](disease) symptom What
+- Give birth [Pulmonary bullae](disease) Time Characterization Acridine
+- [Lobar Pneumonia](disease) Time meeting No Characterization Ok
+- Got it [Lung metastases](disease) What Characterization what
+- infection [pneumonia](disease) of which performed what
+- Got it [Anaphylactic shock](disease) which performed Ok
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Have Characterization Yeah
+- infection [SARS](disease) of Characterization What
+- Got it [Lung metastases](disease) Time meeting No What phenomenon Is it
+- Suffer [Anaphylactic shock](disease) which performed Is it
+- Get [Wheezing bronchitis](disease) Time meeting phenomenon Ah
+- Get [Lung cancer](disease) of symptom Acridine
+- Give birth [Mercury poisoning](disease) Time What phenomenon What
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) of Characterization
+- Get [Lung metastases](disease) Time Have which performed what
+- Got it [Pulmonary bullae](disease) Have What phenomenon Ah
+- [Pneumococcal pneumonia](disease) What which performed what
+- gave birth [pneumonia](disease) phenomenon Ok
+- Worthy of [Pulmonary Candidiasis](disease) Have Symptoms Is it
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) meeting Yes What which performed Yeah
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) meeting Characterization Acridine
+- Got it [Bullae](disease) meeting No Yes symptom Is it
+- gave birth [Goodpasture syndrome](disease) Time Symptoms Ah
+- Get [cold](disease) phenomenon What
+- Got it [Mercury poisoning](disease) Yes which performed Ah
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) symptom Is it
+- Got it [Pulmonary embolism](disease) Time meeting What symptom Ah
+- infection [Septic shock](disease) Time Yes which performed What
+- Got it [Carbon disulfide poisoning](disease) Time Characterization Ah
+- infection [pneumonia](disease) Time Yes symptom what
+- Got it [Pulmonary Cryptococcosis](disease) Characterization Ah
+- Give birth [Mercury poisoning](disease) symptom Acridine
+- Suffer [Goodpasture syndrome](disease) Characterization
+- Get [Lobar Pneumonia](disease) Time What symptom Is it
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) phenomenon what
+- Catch [Bacillus pneumoniae pneumonia](disease) Have symptom what
+- gave birth [Pulmonary bullae](disease) No which performed Ah
+- gave birth [Alveolar proteinosis](disease) Time What symptom Yeah
+- Give birth [Adult respiratory distress syndrome](disease) meeting What Symptoms
+- Suffer [Pulmonary Aspergillosis](disease) Have Symptoms Yeah
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) symptom Acridine
+- Suffer [Pulmonary Actinomycosis](disease) Have symptom Ok
+- Got it [Cadmium poisoning](disease) What Characterization Is it
+- gave birth [Pulmonary bullae](disease) Time meeting No Yes What which performed Is it
+- gave birth [Lung abscess](disease) What symptom What
+- Suffer [Bullae](disease) What which performed Ah
+- Worthy of [Cadmium poisoning](disease) which performed Is it
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) Time Have What which performed
+- infection [Simple pulmonary eosinophilic infiltration](disease) which performed Acridine
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) phenomenon Ah
+- Worthy of [pertussis](disease) Time phenomenon What
+- Suffer [Alveolar proteinosis](disease) which performed
+- Worthy of [Foreign body in the respiratory tract](disease) Characterization What
+- Suffer [Adult respiratory distress syndrome](disease) Time meeting No Yes phenomenon Ok
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) of which performed
+- [pertussis](disease) of phenomenon What
+- gave birth [Lung abscess](disease) Characterization Ah
+- Catch [Pulmonary-pleural amebiasis](disease) meeting No phenomenon Ah
+- Catch [Bullae](disease) Time meeting What phenomenon Is it
+- Worthy of [SARS](disease) of phenomenon Is it
+- Catch [Pulmonary Aspergillosis](disease) meeting Yes What Characterization what
+- gave birth [Large amounts of amniotic fluid inhalation](disease) Time Have What symptom Acridine
+- gave birth [pneumonia](disease) Time meeting No What symptom Ok
+- Got it [Building Sick Syndrome](disease) Time Have What Characterization Ok
+- Worthy of [Radiation pneumonia](disease) No What symptom Is it
+- Suffer [Pulmonary-pleural amebiasis](disease) phenomenon Is it
+- Get [Pulmonary Actinomycosis](disease) Have What Characterization Ah
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) Have symptom Acridine
+- [SARS](disease) Symptoms Yeah
+- infection [Benzene poisoning](disease) Time No Symptoms what
+- Catch [Pulmonary pseudotumor](disease) Time No Yes which performed Ah
+- Get [Lung abscess](disease) No Yes What phenomenon Ok
+- Worthy of [Carbon disulfide poisoning](disease) Time What phenomenon What
+- [Pulmonary Cryptococcosis](disease) What which performed Ah
+- [Lung metastases](disease) Time meeting What phenomenon Ah
+- Worthy of [Bullae](disease) of symptom Is it
+- Get [Pulmonary Candidiasis](disease) of Characterization Ah
+- infection [Benzene poisoning](disease) of phenomenon Yeah
+- Give birth [Foreign body in the respiratory tract](disease) Have What phenomenon
+- Give birth [Pulmonary Candidiasis](disease) of Symptoms Ah
+- Catch [Bullae](disease) Have What symptom What
+- Worthy of [Pulmonary pseudotumor](disease) Have What phenomenon What
+- Suffer [Lung metastases](disease) What phenomenon what
+- Got it [Lung abscess](disease) Time Yes Symptoms Ah
+- gave birth [Emphysema](disease) Time What which performed Is it
+- [Pulmonary Cryptococcosis](disease) What Characterization Acridine
+- infection [Emphysema](disease) of phenomenon Acridine
+- infection [Pulmonary bullae](disease) Time Have What phenomenon what
+- Suffer [Radiation pneumonia](disease) Time Symptoms
+- Get [Adult respiratory distress syndrome](disease) No Yes symptom Acridine
+- Got it [Pulmonary Aspergillosis](disease) No Characterization Ok
+- gave birth [Pulmonary Actinomycosis](disease) of symptom Ok
+- Worthy of [Pulmonary Edema](disease) Characterization what
+- Suffer [SARS](disease) Symptoms Acridine
+- [Radiation pneumonia](disease) of phenomenon Acridine
+- infection [cold](disease) Time Characterization Is it
+- Get [Carbon disulfide poisoning](disease) No Yes phenomenon Ok
+- [Hypersensitivity pneumonia](disease) Symptoms Acridine
+- Give birth [Alveolar proteinosis](disease) Time What which performed What
+- Got it [Pneumococcal pneumonia](disease) Time meeting Symptoms Is it
+- Give birth [Pulmonary Cryptococcosis](disease) of Characterization Acridine
+- gave birth [Pulmonary Edema](disease) Symptoms Is it
+- Get [Pulmonary Aspergillosis](disease) What Symptoms
+- gave birth [Pulmonary Cryptococcosis](disease) of Symptoms Yeah
+- [Goodpasture syndrome](disease) Symptoms Yeah
+- Worthy of [Emphysema](disease) Time Symptoms Acridine
+- Got it [Cadmium poisoning](disease) of symptom
+- Get [Adult respiratory distress syndrome](disease) meeting What phenomenon Is it
+- Worthy of [Carbon disulfide poisoning](disease) of Symptoms Ah
+- Got it [Bacillus pneumoniae pneumonia](disease) of phenomenon Ok
+- gave birth [Lobar Pneumonia](disease) Have symptom Is it
+- Get [Goodpasture syndrome](disease) Time Have phenomenon Yeah
+- Get [Lobar Pneumonia](disease) Symptoms What
+- infection [Pulmonary Actinomycosis](disease) Time Have What phenomenon Ah
+- Give birth [Bullae](disease) Time which performed what
+- Give birth [Goodpasture syndrome](disease) meeting Symptoms
+- Get [Pulmonary Cryptococcosis](disease) Time What phenomenon what
+- Catch [pneumonia](disease) Have What symptom what
+- Get [Cadmium poisoning](disease) No phenomenon Ok
+- [Simple pulmonary eosinophilic infiltration](disease) meeting Yes What which performed Yeah
+- Got it [cold](disease) What which performed What
+- gave birth [Radiation pneumonia](disease) Characterization What
+- Get [Septic shock](disease) of phenomenon Acridine
+- Give birth [cold](disease) of Characterization Ok
+- Suffer [pneumonia](disease) Characterization Ah
+- Give birth [Alveolar proteinosis](disease) Time What phenomenon
+- Give birth [Pulmonary bullae](disease) What symptom Is it
+- gave birth [Carbon disulfide poisoning](disease) of phenomenon Is it
+- gave birth [Pulmonary bullae](disease) Have What Characterization Acridine
+- Got it [Alveolar proteinosis](disease) Have What phenomenon what
+- Give birth [Cadmium poisoning](disease) Time symptom Acridine
+- Catch [Cadmium poisoning](disease) Symptoms Acridine
+- gave birth [SARS](disease) Time which performed Ah
+- gave birth [Pulmonary Edema](disease) of Characterization Yeah
+- infection [Goodpasture syndrome](disease) symptom Acridine
+- gave birth [Lung cancer](disease) meeting What Symptoms Ok
+- Catch [Pulmonary-pleural amebiasis](disease) Time meeting No Yes Characterization Ah
+- gave birth [Lung metastases](disease) Time No What symptom
+- Worthy of [Pulmonary bullae](disease) of symptom Ok
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) of symptom Yeah
+- Worthy of [Pulmonary Actinomycosis](disease) of symptom
+- Get [Building Sick Syndrome](disease) Time Have What phenomenon Acridine
+- Catch [Simple pulmonary eosinophilic infiltration](disease) What Characterization Ok
+- Worthy of [Pulmonary embolism](disease) Time No What which performed Ok
+- Give birth [Bacillus pneumoniae pneumonia](disease) symptom What
+- [pneumonia](disease) Symptoms
+- gave birth [Pulmonary-pleural amebiasis](disease) symptom
+
+## intent:search_cause
+- How will Worthy of [Bacillus pneumoniae pneumonia](disease) Is it
+- Why infection [cold](disease) Acridine
+- How would [Pulmonary Candidiasis](disease) Ah
+- How come Give birth [Lung cancer](disease) what
+- Worthy of [Pulmonary-pleural amebiasis](disease) the reason
+- Will cause Suffer [Adult respiratory distress syndrome](disease) What
+- How come Suffer [pneumonia](disease) Yeah
+- Catch [Wheezing bronchitis](disease) the reason Is it
+- infection [pertussis](disease) Cause Is it
+- How come Give birth [Adult respiratory distress syndrome](disease) Ah
+- infection [Benzene poisoning](disease) of the reason Yeah
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) the reason
+- How will Got it [Carbon disulfide poisoning](disease) Yeah
+- Will lead to Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) what
+- Worthy of [Bullae](disease) Cause Ah
+- Why infection [Lung abscess](disease) what
+- gave birth [Lung cancer](disease) of the reason Acridine
+- Worthy of [Bacillus pneumoniae pneumonia](disease) Cause What
+- Suffer [Pulmonary-pleural amebiasis](disease) of the reason Yeah
+- why Catch [Lung cancer](disease)
+- why Suffer [Benzene poisoning](disease) Is it
+- Get [Pulmonary pseudotumor](disease) of the reason what
+- why Give birth [Carbon disulfide poisoning](disease) what
+- How to [Pulmonary hemorrhage-nephritis syndrome](disease) Ah
+- [Cadmium poisoning](disease) the reason what
+- why gave birth [Bacillus pneumoniae pneumonia](disease) Acridine
+- How is it Worthy of [Alveolar proteinosis](disease) Ah
+- [Pulmonary Aspergillosis](disease) the reason Acridine
+- Catch [Foreign body in the respiratory tract](disease) of the reason
+- How is it Get [Pneumococcal pneumonia](disease) What
+- gave birth [Goodpasture syndrome](disease) the reason what
+- How would Got it [Lobar Pneumonia](disease) Yeah
+- infection [Pneumococcal pneumonia](disease) Cause Is it
+- Why Catch [Pulmonary Actinomycosis](disease) What
+- How come Get [Alveolar proteinosis](disease) what
+- Worthy of [Benzene poisoning](disease) of Cause
+- Catch [Large amounts of amniotic fluid inhalation](disease) of the reason What
+- Got it [pertussis](disease) of Cause Ok
+- Give birth [Pulmonary Cryptococcosis](disease) Cause Is it
+- How is it Worthy of [Benzene poisoning](disease)
+- Got it [pertussis](disease) of the reason Is it
+- Suffer [Cadmium poisoning](disease) of the reason Ah
+- Suffer [Building Sick Syndrome](disease) of the reason Yeah
+- How would Got it [Pulmonary bullae](disease) Ah
+- How to Get [Bullae](disease) What
+- Catch [Foreign body in the respiratory tract](disease) Cause Acridine
+- How is it Catch [Alveolar proteinosis](disease) What
+- How to Worthy of [Bacillus pneumoniae pneumonia](disease)
+- How will gave birth [Carbon disulfide poisoning](disease) What
+- Why Give birth [Simple pulmonary eosinophilic infiltration](disease) Acridine
+- How will Get [Wheezing bronchitis](disease) Ah
+- Why Suffer [Pneumococcal pneumonia](disease) what
+- Why gave birth [Pulmonary Actinomycosis](disease) Acridine
+- Give birth [Pulmonary Cryptococcosis](disease) of the reason Yeah
+- Why infection [Respiratory bronchiole-related interstitial lung disease](disease)
+- Will cause Get [Simple pulmonary eosinophilic infiltration](disease) what
+- Get [Bullae](disease) Cause Ah
+- Will cause Worthy of [SARS](disease) What
+- How would Give birth [Respiratory bronchiole-related interstitial lung disease](disease) Ah
+- How come Give birth [Lobar Pneumonia](disease) Is it
+- How will gave birth [pertussis](disease) Ah
+- How come Got it [Emphysema](disease)
+- Why Get [Lobar Pneumonia](disease) what
+- How would gave birth [Pulmonary pseudotumor](disease) Acridine
+- how come Get [Building Sick Syndrome](disease) Ah
+- Get [Pulmonary Cryptococcosis](disease) of the reason Yeah
+- How will [Lung abscess](disease) Ah
+- How to Give birth [Pulmonary Candidiasis](disease) Ok
+- How is it gave birth [cold](disease)
+- Get [Mercury poisoning](disease) of the reason Ah
+- Will cause infection [Cadmium poisoning](disease) What
+- How would Worthy of [SARS](disease)
+- Why Worthy of [Lung cancer](disease)
+- Why Got it [Large amounts of amniotic fluid inhalation](disease) Is it
+- How would Get [Pulmonary bullae](disease) what
+- How would Get [Adult respiratory distress syndrome](disease) what
+- How would Suffer [Building Sick Syndrome](disease) Ah
+- How to Give birth [Septic shock](disease) Yeah
+- how come infection [Mercury poisoning](disease) Ah
+- Give birth [Pulmonary bullae](disease) Cause What
+- Why gave birth [Pulmonary Edema](disease) Is it
+- How would [Simple pulmonary eosinophilic infiltration](disease) Is it
+- How is it Worthy of [Goodpasture syndrome](disease)
+- Will cause Got it [Mercury poisoning](disease) Yeah
+- Get [Foreign body in the respiratory tract](disease) of Cause Yeah
+- How would infection [Septic shock](disease) what
+- why [cold](disease) Is it
+- Worthy of [cold](disease) of the reason what
+- Give birth [Alveolar proteinosis](disease) Cause what
+- How is it infection [Lung metastases](disease) Yeah
+- How will Give birth [Wheezing bronchitis](disease)
+- Will cause Suffer [Foreign body in the respiratory tract](disease) Yeah
+- how come Get [Pulmonary Candidiasis](disease) What
+- How come Got it [Pulmonary-pleural amebiasis](disease) Ok
+- How would Worthy of [Lung metastases](disease) What
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) of the reason Ok
+- how come gave birth [Pulmonary bullae](disease) Acridine
+- why [Alveolar proteinosis](disease) Is it
+- how come Catch [pneumonia](disease) Is it
+- gave birth [Pulmonary Aspergillosis](disease) of the reason Acridine
+- Worthy of [Pulmonary Actinomycosis](disease) the reason
+- Give birth [Bullae](disease) of the reason Yeah
+- why infection [Pulmonary bullae](disease) what
+- How will Suffer [Anaphylactic shock](disease) Ok
+- why [Benzene poisoning](disease)
+- Suffer [Anaphylactic shock](disease) the reason Ok
+- Worthy of [Radiation pneumonia](disease) Cause Ok
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Cause
+- Get [Bacillus pneumoniae pneumonia](disease) of the reason What
+- How will gave birth [Bacillus pneumoniae pneumonia](disease) What
+- why Got it [SARS](disease) Acridine
+- infection [Pulmonary bullae](disease) of Cause Acridine
+- How come Catch [Pulmonary Edema](disease) Is it
+- Will lead to Worthy of [Lung metastases](disease) What
+- Will cause gave birth [Pulmonary Aspergillosis](disease)
+- How is it Suffer [Hypersensitivity pneumonia](disease) Acridine
+- Get [SARS](disease) the reason Yeah
+- Got it [Pulmonary Aspergillosis](disease) of Cause what
+- Suffer [Building Sick Syndrome](disease) of the reason Ok
+- gave birth [cold](disease) the reason Yeah
+- How would [Carbon disulfide poisoning](disease) what
+- Will lead to Catch [Bacillus pneumoniae pneumonia](disease) Is it
+- Got it [Benzene poisoning](disease) of Cause Ah
+- How come infection [Lobar Pneumonia](disease) Yeah
+- Suffer [Mercury poisoning](disease) of Cause
+- gave birth [Pulmonary Actinomycosis](disease) of the reason Is it
+- How will infection [Bacillus pneumoniae pneumonia](disease) Ok
+- infection [Adult respiratory distress syndrome](disease) of the reason what
+- How would Give birth [Lung cancer](disease) Is it
+- Got it [Pneumococcal pneumonia](disease) Cause Ok
+- How would Get [Bacillus pneumoniae pneumonia](disease) Ah
+- Why infection [Lobar Pneumonia](disease)
+- Why infection [Pulmonary Edema](disease) Is it
+- how come Give birth [Pulmonary Edema](disease)
+- Why Get [pneumonia](disease) what
+- why Catch [Pulmonary embolism](disease) what
+- How will Suffer [Radiation pneumonia](disease) Ah
+- How is it Give birth [Mercury poisoning](disease) What
+- Will cause Catch [Pulmonary hemorrhage-nephritis syndrome](disease)
+- Give birth [Large amounts of amniotic fluid inhalation](disease) Cause what
+- Suffer [Pneumococcal pneumonia](disease) the reason Yeah
+- How is it Catch [cold](disease) what
+- why Suffer [pneumonia](disease) Is it
+- How come Suffer [Pneumococcal pneumonia](disease) Yeah
+- How come [Radiation pneumonia](disease) Ok
+- Got it [Septic shock](disease) the reason Ah
+- gave birth [Benzene poisoning](disease) the reason Ok
+- Give birth [Pulmonary Cryptococcosis](disease) of the reason Is it
+- Got it [Benzene poisoning](disease) of the reason Yeah
+- Why Give birth [Lobar Pneumonia](disease)
+- Get [Pulmonary-pleural amebiasis](disease) of Cause Ok
+- How to infection [Pulmonary Edema](disease) Ok
+- [Lung metastases](disease) Cause Yeah
+- How is it Worthy of [Pulmonary embolism](disease) Ok
+- How would Catch [Pulmonary Candidiasis](disease)
+- Catch [Pulmonary bullae](disease) of the reason Is it
+- Will cause Suffer [Mercury poisoning](disease) Yeah
+- How to Catch [Pulmonary Candidiasis](disease) Is it
+- gave birth [Lung metastases](disease) of the reason Ok
+- Suffer [Adult respiratory distress syndrome](disease) Cause Acridine
+- Why Catch [Alveolar proteinosis](disease) Ah
+- How would Worthy of [Benzene poisoning](disease) Ah
+- Worthy of [Pulmonary Edema](disease) the reason Ok
+- Worthy of [Lung cancer](disease) of Cause Acridine
+- Give birth [Septic shock](disease) of the reason
+- [Bacillus pneumoniae pneumonia](disease) Cause Ok
+- How is it Worthy of [Bacillus pneumoniae pneumonia](disease) Ah
+- infection [Alveolar proteinosis](disease) Cause Ok
+- How would Suffer [Pulmonary bullae](disease) Acridine
+- How is it Get [Building Sick Syndrome](disease)
+- How to Suffer [Pulmonary Edema](disease) Is it
+- How come Got it [SARS](disease) what
+- Will cause infection [Bullae](disease) What
+- [Goodpasture syndrome](disease) the reason What
+- Worthy of [Cadmium poisoning](disease) the reason Is it
+- Will lead to [Hypersensitivity pneumonia](disease) what
+- Suffer [Pulmonary Edema](disease) Cause What
+- Catch [Radiation pneumonia](disease) Cause
+- Get [Septic shock](disease) the reason what
+- Why Give birth [Bullae](disease) Acridine
+- How would Worthy of [Bacillus pneumoniae pneumonia](disease) what
+- How come Worthy of [Pneumococcal pneumonia](disease) What
+- how come Got it [Pulmonary embolism](disease) Is it
+- how come [Pulmonary embolism](disease) Ah
+- Got it [SARS](disease) of the reason What
+- How come Got it [Alveolar proteinosis](disease)
+- Suffer [Pneumococcal pneumonia](disease) Cause
+- gave birth [Anaphylactic shock](disease) of the reason Ok
+- gave birth [SARS](disease) of Cause Is it
+- Why Got it [Goodpasture syndrome](disease)
+- why gave birth [SARS](disease) Yeah
+- Why Catch [Mercury poisoning](disease) Yeah
+- how come infection [Pulmonary Aspergillosis](disease) Acridine
+- why gave birth [Pulmonary Actinomycosis](disease) Is it
+- Why Get [Simple pulmonary eosinophilic infiltration](disease) what
+- [Alveolar proteinosis](disease) of Cause
+- Will lead to [Lung metastases](disease)
+- why Catch [pertussis](disease) Ok
+- How will Got it [Mercury poisoning](disease)
+- How would Got it [Wheezing bronchitis](disease) Ok
+- Get [Anaphylactic shock](disease) the reason What
+- gave birth [Pulmonary bullae](disease) the reason What
+- why Worthy of [Benzene poisoning](disease) Acridine
+- Why infection [Large amounts of amniotic fluid inhalation](disease) Ah
+- How will Suffer [cold](disease) Is it
+- gave birth [Pulmonary bullae](disease) of Cause Yeah
+- why Suffer [Pulmonary-pleural amebiasis](disease) Acridine
+- Will cause Got it [Cadmium poisoning](disease)
+- Why [Pulmonary Cryptococcosis](disease) Ok
+- Worthy of [Pulmonary embolism](disease) of Cause Yeah
+- Worthy of [Building Sick Syndrome](disease) of the reason what
+- How would infection [Pulmonary Actinomycosis](disease)
+- [Foreign body in the respiratory tract](disease) the reason
+- Give birth [Pulmonary Actinomycosis](disease) the reason What
+- how come Suffer [pneumonia](disease) what
+- [pertussis](disease) of the reason what
+- How will Got it [Foreign body in the respiratory tract](disease) Ok
+- Give birth [Benzene poisoning](disease) the reason Acridine
+- gave birth [Radiation pneumonia](disease) Cause What
+- Get [Wheezing bronchitis](disease) of the reason Is it
+- how come Got it [Foreign body in the respiratory tract](disease) Yeah
+- Give birth [pneumonia](disease) of the reason Acridine
+- Why Get [Goodpasture syndrome](disease) What
+- How would Got it [Pulmonary-pleural amebiasis](disease) Acridine
+- Worthy of [Pulmonary-pleural amebiasis](disease) of the reason Is it
+- why [Pulmonary Actinomycosis](disease) what
+- why Catch [Lobar Pneumonia](disease) Acridine
+- Get [Radiation pneumonia](disease) the reason What
+- why Got it [Alveolar proteinosis](disease) Is it
+- how come gave birth [Cadmium poisoning](disease) Yeah
+- How come Suffer [Pulmonary embolism](disease)
+- How would gave birth [Radiation pneumonia](disease) what
+- How will gave birth [Hypersensitivity pneumonia](disease) What
+- Why Got it [Bacillus pneumoniae pneumonia](disease) Is it
+- How will Catch [Simple pulmonary eosinophilic infiltration](disease) Acridine
+- Get [Alveolar proteinosis](disease) of the reason Ah
+- how come Catch [Pulmonary bullae](disease) What
+- How is it Worthy of [Pulmonary Aspergillosis](disease)
+- how come Give birth [Pulmonary Actinomycosis](disease) Ok
+- infection [cold](disease) of Cause What
+- Worthy of [Pulmonary bullae](disease) Cause What
+- Worthy of [Lung cancer](disease) the reason Yeah
+- Worthy of [Alveolar proteinosis](disease) the reason Acridine
+- Will lead to Got it [Simple pulmonary eosinophilic infiltration](disease) Is it
+- How would infection [Lobar Pneumonia](disease) what
+- why [Mercury poisoning](disease) Acridine
+- How would infection [Building Sick Syndrome](disease) Ah
+- How would gave birth [Pulmonary Cryptococcosis](disease) Yeah
+- How will Suffer [Hypersensitivity pneumonia](disease) Ok
+- Got it [Pulmonary Edema](disease) of the reason Is it
+- How would Get [Radiation pneumonia](disease) Yeah
+- How would Got it [Foreign body in the respiratory tract](disease) Yeah
+- Catch [Emphysema](disease) Cause Ok
+- Why [Pulmonary Cryptococcosis](disease) Acridine
+- Worthy of [Pulmonary Candidiasis](disease) of the reason Ok
+- Why Give birth [cold](disease) Yeah
+- How would Catch [Cadmium poisoning](disease)
+- gave birth [Emphysema](disease) Cause what
+- Get [Building Sick Syndrome](disease) Cause Is it
+- [Radiation pneumonia](disease) the reason
+- Will cause infection [Adult respiratory distress syndrome](disease) Ah
+- How would Give birth [Lung metastases](disease) What
+- How to Worthy of [SARS](disease) Ok
+- gave birth [pertussis](disease) Cause Ok
+- [Benzene poisoning](disease) the reason Is it
+- How to Get [Large amounts of amniotic fluid inhalation](disease) Ok
+- Suffer [Alveolar proteinosis](disease) the reason Acridine
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) of the reason Yeah
+- how come Get [Goodpasture syndrome](disease) Is it
+- Catch [Cadmium poisoning](disease) of Cause Acridine
+- How to Suffer [Carbon disulfide poisoning](disease) Is it
+- Give birth [Hypersensitivity pneumonia](disease) of the reason what
+- How would Give birth [Building Sick Syndrome](disease) Is it
+- Got it [Emphysema](disease) the reason Ah
+- Why Got it [Emphysema](disease)
+- Why Suffer [pneumonia](disease)
+- Will cause Worthy of [Wheezing bronchitis](disease) Ah
+- How come Got it [Pulmonary Candidiasis](disease) Ok
+- How to infection [Mercury poisoning](disease) Ah
+- Suffer [Radiation pneumonia](disease) Cause Is it
+- How would [pertussis](disease) Acridine
+- How will [pneumonia](disease) Ok
+- Got it [Alveolar proteinosis](disease) Cause Acridine
+- how come gave birth [Septic shock](disease) Ok
+- gave birth [Cadmium poisoning](disease) the reason
+- infection [Carbon disulfide poisoning](disease) of the reason Yeah
+- Give birth [Building Sick Syndrome](disease) the reason Is it
+- Suffer [Hypersensitivity pneumonia](disease) of the reason Yeah
+- Get [Pulmonary Actinomycosis](disease) Cause Acridine
+- [SARS](disease) of the reason What
+- why infection [pneumonia](disease) What
+- How to Give birth [Large amounts of amniotic fluid inhalation](disease) Yeah
+- [Building Sick Syndrome](disease) Cause
+- Why [Alveolar proteinosis](disease) Is it
+- Catch [Simple pulmonary eosinophilic infiltration](disease) the reason Acridine
+- how come Got it [Radiation pneumonia](disease) Acridine
+- How to Catch [Pulmonary Aspergillosis](disease) what
+- Give birth [Simple pulmonary eosinophilic infiltration](disease) Cause what
+- Why infection [Mercury poisoning](disease) Acridine
+- How would Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) Ok
+- How to infection [Pulmonary Actinomycosis](disease) Ok
+- How will Worthy of [Lung abscess](disease) Ok
+- Why Get [Wheezing bronchitis](disease) Acridine
+- Why Suffer [Alveolar proteinosis](disease) Acridine
+- How would gave birth [Alveolar proteinosis](disease) what
+- How come gave birth [Wheezing bronchitis](disease) Ah
+- How come Worthy of [Lung cancer](disease) Is it
+- Will cause infection [Emphysema](disease) Ah
+- How would Get [pneumonia](disease) Yeah
+- How will Catch [Radiation pneumonia](disease) what
+- Will cause Got it [Radiation pneumonia](disease) Is it
+- How would Worthy of [Bullae](disease) Acridine
+- Got it [Pulmonary Actinomycosis](disease) the reason What
+- why Suffer [Large amounts of amniotic fluid inhalation](disease) Acridine
+- How is it Worthy of [Alveolar proteinosis](disease) Acridine
+- How come Give birth [Cadmium poisoning](disease)
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) the reason what
+- How to infection [cold](disease) Acridine
+- Why infection [Mercury poisoning](disease) what
+- How would Got it [cold](disease) what
+- How would infection [Wheezing bronchitis](disease) Ah
+- how come Worthy of [Anaphylactic shock](disease) What
+- [Lung cancer](disease) of the reason Ah
+- How would Get [Emphysema](disease) Yeah
+- Why [Anaphylactic shock](disease)
+- why infection [Pulmonary pseudotumor](disease) Acridine
+- Why [Pulmonary Aspergillosis](disease) Ok
+- How would Worthy of [Pulmonary pseudotumor](disease) Ok
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) of the reason What
+- Will lead to Suffer [Pulmonary embolism](disease) Yeah
+- How to Give birth [Mercury poisoning](disease) Ah
+- How to Worthy of [Adult respiratory distress syndrome](disease)
+- infection [Pulmonary bullae](disease) Cause Is it
+- How is it Catch [SARS](disease) Is it
+- Why Catch [Pulmonary pseudotumor](disease) Ok
+- how come [Pulmonary Edema](disease) Ah
+- [Pulmonary Edema](disease) Cause Yeah
+- Will cause Got it [Mercury poisoning](disease) Acridine
+- How to Worthy of [Alveolar proteinosis](disease) Ah
+- gave birth [pneumonia](disease) the reason Ah
+- infection [Bullae](disease) of the reason Yeah
+- Got it [Adult respiratory distress syndrome](disease) Cause Yeah
+- Will cause Got it [Mercury poisoning](disease) What
+- Will lead to gave birth [Benzene poisoning](disease) what
+- Worthy of [Pulmonary bullae](disease) of the reason Yeah
+- Catch [cold](disease) the reason what
+- Give birth [pneumonia](disease) of the reason What
+- Worthy of [SARS](disease) of Cause Ok
+- How would [Lung cancer](disease)
+- Will lead to Got it [Bacillus pneumoniae pneumonia](disease) Ok
+- Will cause gave birth [Pulmonary embolism](disease)
+- Suffer [Septic shock](disease) the reason Is it
+- How would [Large amounts of amniotic fluid inhalation](disease) What
+- How would Catch [Alveolar proteinosis](disease) Acridine
+- Will lead to Worthy of [Pulmonary Actinomycosis](disease) Ah
+- Why Suffer [Foreign body in the respiratory tract](disease)
+- Give birth [Lung metastases](disease) of the reason Ok
+- How would Get [Bullae](disease) Yeah
+- Will cause Worthy of [Alveolar proteinosis](disease) What
+- Why Got it [Lung cancer](disease) Acridine
+- Why Worthy of [SARS](disease) Acridine
+- Worthy of [Lobar Pneumonia](disease) the reason Ok
+- why [Bullae](disease) Is it
+- Will cause Suffer [Bullae](disease)
+- How to Worthy of [Radiation pneumonia](disease) Is it
+- How come Catch [Emphysema](disease) What
+- How come Get [Pulmonary Cryptococcosis](disease)
+- Will cause Catch [Alveolar proteinosis](disease) Ah
+- How would Suffer [Pulmonary Edema](disease) Ok
+- Give birth [Pulmonary embolism](disease) the reason what
+- Will cause Catch [Pulmonary pseudotumor](disease) Acridine
+- Get [Pulmonary pseudotumor](disease) of Cause Acridine
+- infection [Large amounts of amniotic fluid inhalation](disease) Cause Acridine
+- How come Catch [Cadmium poisoning](disease)
+- How come gave birth [Alveolar proteinosis](disease) What
+- Suffer [Building Sick Syndrome](disease) of the reason
+- How come Worthy of [Carbon disulfide poisoning](disease) Is it
+- why Catch [Respiratory bronchiole-related interstitial lung disease](disease) what
+- Catch [Goodpasture syndrome](disease) the reason Ok
+- Will cause Give birth [Alveolar proteinosis](disease) Acridine
+- Why Worthy of [Pulmonary embolism](disease) Ah
+- How is it Suffer [pneumonia](disease) Ah
+- infection [SARS](disease) Cause what
+- how come gave birth [Lung abscess](disease)
+- Will cause infection [Benzene poisoning](disease) what
+- Catch [Lung abscess](disease) the reason What
+- Will cause Get [Alveolar proteinosis](disease) Yeah
+- How would Suffer [Pulmonary Cryptococcosis](disease) Yeah
+- Give birth [Foreign body in the respiratory tract](disease) Cause Yeah
+- Will cause [Benzene poisoning](disease)
+- Will lead to [Lung cancer](disease) what
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) the reason Yeah
+- How come Give birth [Alveolar proteinosis](disease) Ah
+- Got it [Benzene poisoning](disease) Cause Ok
+- why Give birth [Anaphylactic shock](disease) Ah
+- How would Worthy of [Cadmium poisoning](disease) What
+- How would Get [Hypersensitivity pneumonia](disease) Is it
+- How is it [Pulmonary Candidiasis](disease) Yeah
+- How would [Building Sick Syndrome](disease) Yeah
+- Get [Radiation pneumonia](disease) of the reason Is it
+- How would Catch [Pulmonary pseudotumor](disease) Ah
+- Why Suffer [Pneumococcal pneumonia](disease) What
+- Will cause Catch [Bullae](disease) Is it
+- How will Suffer [Alveolar proteinosis](disease) what
+- Worthy of [Pulmonary Aspergillosis](disease) of the reason Ok
+- [Bullae](disease) the reason Ah
+- how come Catch [Goodpasture syndrome](disease) Ok
+- Will cause Suffer [Pulmonary Aspergillosis](disease)
+- How to infection [pneumonia](disease) Is it
+- How would gave birth [Alveolar proteinosis](disease)
+- Worthy of [Anaphylactic shock](disease) of the reason Yeah
+- Worthy of [Pulmonary Candidiasis](disease) of the reason Ah
+- How come [Lung abscess](disease) Ah
+- Worthy of [Bacillus pneumoniae pneumonia](disease) the reason Ah
+- Got it [Mercury poisoning](disease) of the reason What
+- How come Catch [Radiation pneumonia](disease) Ah
+- Got it [Foreign body in the respiratory tract](disease) of Cause What
+- Worthy of [Carbon disulfide poisoning](disease) the reason
+- How to gave birth [Large amounts of amniotic fluid inhalation](disease) what
+- infection [Lung cancer](disease) Cause Ah
+- Why Got it [Lung cancer](disease) Yeah
+- How come Give birth [Goodpasture syndrome](disease) Ah
+- Why Worthy of [Hypersensitivity pneumonia](disease) What
+- gave birth [cold](disease) of Cause Acridine
+- [Pulmonary Actinomycosis](disease) Cause
+- why infection [Mercury poisoning](disease) Acridine
+- How is it Worthy of [Pulmonary Cryptococcosis](disease) What
+- Why Worthy of [Pulmonary Candidiasis](disease)
+- how come Get [Bullae](disease) Yeah
+- Worthy of [Lung abscess](disease) Cause Ah
+- How would Suffer [Lung metastases](disease) Ah
+- How is it Got it [Pulmonary hemorrhage-nephritis syndrome](disease)
+- How is it gave birth [Cadmium poisoning](disease) Ah
+- How would Got it [Respiratory bronchiole-related interstitial lung disease](disease) What
+- How to Get [pertussis](disease) Is it
+- How would Worthy of [Alveolar proteinosis](disease) Yeah
+- Will lead to gave birth [Pulmonary Candidiasis](disease) Ok
+- Get [Goodpasture syndrome](disease) Cause Ok
+- Will lead to Got it [Lobar Pneumonia](disease) What
+- Why Worthy of [Mercury poisoning](disease) Ok
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) the reason
+- How will [Emphysema](disease) Ok
+- Will cause [Pulmonary Cryptococcosis](disease) What
+- How would Catch [Foreign body in the respiratory tract](disease)
+- Why Got it [Anaphylactic shock](disease) Ok
+- Catch [Wheezing bronchitis](disease) of the reason What
+- Give birth [Lung metastases](disease) of the reason Yeah
+- Suffer [Bacillus pneumoniae pneumonia](disease) the reason Acridine
+- Get [SARS](disease) of the reason Is it
+- Worthy of [Mercury poisoning](disease) Cause what
+- why Catch [Pulmonary bullae](disease) what
+- Why Worthy of [Anaphylactic shock](disease) what
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) Cause What
+- how come [Anaphylactic shock](disease) Acridine
+- Suffer [Goodpasture syndrome](disease) the reason Acridine
+- How would Catch [Cadmium poisoning](disease) Ah
+- why infection [Pulmonary Actinomycosis](disease) Ah
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) of the reason Acridine
+- How to Suffer [Lung abscess](disease) What
+- why Get [Building Sick Syndrome](disease) Is it
+- Will cause Worthy of [Adult respiratory distress syndrome](disease)
+- Why Got it [Respiratory bronchiole-related interstitial lung disease](disease)
+- [Pneumococcal pneumonia](disease) Cause Acridine
+- Catch [Carbon disulfide poisoning](disease) of Cause
+- How to gave birth [Lung cancer](disease) Acridine
+- How is it [Wheezing bronchitis](disease) What
+- How would Get [Lung metastases](disease) Acridine
+- Will lead to Catch [Pulmonary Cryptococcosis](disease) Acridine
+- infection [Large amounts of amniotic fluid inhalation](disease) of the reason Ok
+- gave birth [Alveolar proteinosis](disease) of Cause Acridine
+- How is it infection [Simple pulmonary eosinophilic infiltration](disease) Ah
+- Why Give birth [Pulmonary embolism](disease) what
+- Suffer [Wheezing bronchitis](disease) the reason
+- Suffer [Cadmium poisoning](disease) of Cause Yeah
+- Suffer [Bullae](disease) of the reason what
+- Will cause Got it [Septic shock](disease) Ah
+- Why Suffer [Bullae](disease) Is it
+- Got it [Pulmonary Actinomycosis](disease) the reason Ah
+- Why Get [Large amounts of amniotic fluid inhalation](disease) Acridine
+- Will lead to [Pulmonary Cryptococcosis](disease) Is it
+- Will cause [Carbon disulfide poisoning](disease) what
+- Give birth [Wheezing bronchitis](disease) Cause
+- How would Worthy of [Lung abscess](disease) Yeah
+- infection [Anaphylactic shock](disease) of the reason Yeah
+- How would [Radiation pneumonia](disease) Ah
+- How to Catch [Alveolar proteinosis](disease) Ah
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) Cause Ah
+- How come gave birth [Anaphylactic shock](disease) Acridine
+- Get [Pulmonary Aspergillosis](disease) the reason Ah
+- Get [Foreign body in the respiratory tract](disease) of the reason Ok
+- Suffer [Lung abscess](disease) of Cause what
+- Catch [Goodpasture syndrome](disease) Cause Yeah
+- gave birth [Pulmonary Cryptococcosis](disease) Cause Ok
+- gave birth [Carbon disulfide poisoning](disease) of Cause Is it
+- Catch [Pulmonary Actinomycosis](disease) of Cause Is it
+- Why gave birth [Wheezing bronchitis](disease)
+- How would Get [Wheezing bronchitis](disease) Is it
+- How come Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Is it
+- Suffer [Pneumococcal pneumonia](disease) of the reason Ah
+- Worthy of [Pulmonary Aspergillosis](disease) the reason What
+- [Foreign body in the respiratory tract](disease) of Cause Ok
+- Will cause gave birth [Radiation pneumonia](disease) Ok
+- Give birth [Pulmonary Aspergillosis](disease) Cause what
+- why Got it [Septic shock](disease) Yeah
+- why gave birth [Emphysema](disease) what
+- How would Suffer [Wheezing bronchitis](disease)
+- Worthy of [Pulmonary Edema](disease) the reason Ah
+- gave birth [Goodpasture syndrome](disease) the reason Yeah
+- Give birth [Alveolar proteinosis](disease) of Cause
+- why Worthy of [Pulmonary Actinomycosis](disease) Acridine
+- How to Worthy of [Bullae](disease) Ah
+- Get [Bullae](disease) of Cause Ok
+- How to Get [Pulmonary-pleural amebiasis](disease) Yeah
+- Catch [Wheezing bronchitis](disease) of the reason Yeah
+- Catch [Pulmonary pseudotumor](disease) Cause What
+- How is it Suffer [Pulmonary Actinomycosis](disease) Is it
+- Catch [Lung metastases](disease) the reason Acridine
+- How would Worthy of [pertussis](disease) What
+- How come Got it [Pulmonary-pleural amebiasis](disease) What
+- Give birth [Pulmonary bullae](disease) of the reason Ah
+- [Respiratory bronchiole-related interstitial lung disease](disease) Cause
+- why Catch [Radiation pneumonia](disease) Is it
+- Will cause gave birth [pertussis](disease) Ok
+- Get [Pulmonary Cryptococcosis](disease) the reason Yeah
+- Worthy of [Pneumococcal pneumonia](disease) Cause what
+- How to Suffer [Cadmium poisoning](disease) Ah
+- How would Got it [Wheezing bronchitis](disease) Ah
+- Will cause Suffer [Lung cancer](disease) What
+- [pertussis](disease) of Cause Ah
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) the reason what
+- Will lead to Worthy of [Pulmonary Edema](disease) What
+- Worthy of [Building Sick Syndrome](disease) the reason Acridine
+- How come Catch [Adult respiratory distress syndrome](disease)
+- How is it Got it [Benzene poisoning](disease) Ok
+- How to Get [Bacillus pneumoniae pneumonia](disease) Is it
+- Catch [pertussis](disease) Cause Ok
+- How to [Anaphylactic shock](disease) What
+- gave birth [Radiation pneumonia](disease) of Cause
+- Catch [Wheezing bronchitis](disease) of Cause What
+- how come infection [Hypersensitivity pneumonia](disease) Is it
+- Get [Septic shock](disease) the reason Is it
+- How to Get [pertussis](disease) Yeah
+- How to Give birth [Wheezing bronchitis](disease) Yeah
+- Catch [Wheezing bronchitis](disease) Cause Ok
+- Catch [Alveolar proteinosis](disease) the reason
+- infection [Pulmonary Actinomycosis](disease) of the reason Ah
+- Catch [Pulmonary Aspergillosis](disease) of Cause Yeah
+- Will lead to infection [Pulmonary Edema](disease) Ok
+- How is it Worthy of [Cadmium poisoning](disease) Is it
+- Will lead to Catch [Simple pulmonary eosinophilic infiltration](disease) what
+- How come Catch [Pulmonary hemorrhage-nephritis syndrome](disease) Is it
+- Give birth [Adult respiratory distress syndrome](disease) Cause what
+- How would Get [Hypersensitivity pneumonia](disease) what
+- How would [Anaphylactic shock](disease) Acridine
+- How will Worthy of [Building Sick Syndrome](disease) what
+- How is it Worthy of [Pneumococcal pneumonia](disease) Is it
+- Will lead to Get [cold](disease) What
+- How is it gave birth [Pulmonary Candidiasis](disease) Ah
+- Catch [Lung abscess](disease) the reason what
+- How is it infection [Septic shock](disease) Acridine
+- gave birth [Cadmium poisoning](disease) of the reason what
+- How would infection [Lung abscess](disease) What
+- Got it [Alveolar proteinosis](disease) of the reason what
+- How come Worthy of [Lung metastases](disease) Is it
+- infection [SARS](disease) of Cause Yeah
+- Worthy of [Pulmonary pseudotumor](disease) of Cause Ok
+- why Worthy of [Pulmonary-pleural amebiasis](disease) Acridine
+- How is it Suffer [Pulmonary bullae](disease) Yeah
+- infection [Pulmonary-pleural amebiasis](disease) Cause
+- Will lead to gave birth [pneumonia](disease) Yeah
+- Catch [Pulmonary Edema](disease) Cause Ah
+- How would gave birth [Pulmonary Edema](disease) What
+- How would gave birth [pneumonia](disease) Ok
+- How would Give birth [Bullae](disease) what
+- Get [Lung cancer](disease) of Cause
+- how come Get [pertussis](disease) What
+- Worthy of [Goodpasture syndrome](disease) of the reason Is it
+- infection [Radiation pneumonia](disease) Cause
+- [Large amounts of amniotic fluid inhalation](disease) Cause Ok
+- how come gave birth [Pulmonary Aspergillosis](disease) Ok
+- Why Got it [Pulmonary hemorrhage-nephritis syndrome](disease)
+- How will Worthy of [Benzene poisoning](disease) What
+- How come Get [Large amounts of amniotic fluid inhalation](disease)
+- Will lead to Give birth [Septic shock](disease) What
+- how come Give birth [Pulmonary pseudotumor](disease) Ah
+- [Pulmonary-pleural amebiasis](disease) of the reason Yeah
+- infection [Pulmonary bullae](disease) the reason Is it
+- gave birth [Cadmium poisoning](disease) of the reason Acridine
+- How will [Bacillus pneumoniae pneumonia](disease) Yeah
+- [Respiratory bronchiole-related interstitial lung disease](disease) of Cause Yeah
+- gave birth [Wheezing bronchitis](disease) of the reason What
+- Will cause Give birth [Hypersensitivity pneumonia](disease) Acridine
+- Why Got it [Pulmonary-pleural amebiasis](disease) Yeah
+- gave birth [Radiation pneumonia](disease) of Cause Ah
+- Catch [Carbon disulfide poisoning](disease) the reason Ah
+- gave birth [SARS](disease) Cause Is it
+- how come Give birth [Lung abscess](disease) Yeah
+- gave birth [Pneumococcal pneumonia](disease) of Cause Is it
+- infection [Bullae](disease) the reason Ok
+- How to Got it [Carbon disulfide poisoning](disease) Yeah
+- how come Got it [Respiratory bronchiole-related interstitial lung disease](disease) Is it
+- Will lead to Give birth [Emphysema](disease)
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) Cause Is it
+- Give birth [Pulmonary embolism](disease) the reason Acridine
+- How would [Pulmonary bullae](disease) what
+- Get [Pulmonary Candidiasis](disease) the reason
+- How would Give birth [Pulmonary Cryptococcosis](disease) What
+- How come gave birth [Benzene poisoning](disease) Ok
+- gave birth [Septic shock](disease) of Cause What
+- Get [Pulmonary Candidiasis](disease) the reason What
+- why [Pulmonary Edema](disease) what
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) the reason Yeah
+- infection [Lobar Pneumonia](disease) of Cause Is it
+- Why gave birth [Lung metastases](disease) Ok
+- How is it Worthy of [Bullae](disease) Yeah
+- infection [Pneumococcal pneumonia](disease) Cause Yeah
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) of Cause what
+- How will Worthy of [Pulmonary-pleural amebiasis](disease)
+- Got it [Wheezing bronchitis](disease) of Cause Yeah
+- Got it [Bacillus pneumoniae pneumonia](disease) of Cause Ah
+- Catch [Pulmonary pseudotumor](disease) of Cause Is it
+- Why Give birth [Pulmonary Candidiasis](disease) Yeah
+- How is it Suffer [Pulmonary bullae](disease) Ok
+- Will lead to Give birth [Wheezing bronchitis](disease)
+- how come Got it [Pulmonary Aspergillosis](disease) Is it
+- Will cause Got it [pertussis](disease) Acridine
+- Why infection [Pneumococcal pneumonia](disease) What
+- Get [Pulmonary bullae](disease) of Cause Acridine
+- Will cause Get [cold](disease) Yeah
+- gave birth [pertussis](disease) the reason Is it
+- How to infection [Cadmium poisoning](disease) Ah
+- Get [Bullae](disease) of Cause Ah
+- Catch [Pulmonary Candidiasis](disease) Cause Ah
+- Will lead to [Wheezing bronchitis](disease) Ah
+- How will Got it [SARS](disease) what
+- Why Got it [Pulmonary-pleural amebiasis](disease) Acridine
+- Catch [Septic shock](disease) Cause Yeah
+- How is it infection [Septic shock](disease) Yeah
+- Give birth [Emphysema](disease) of the reason Ah
+- why Catch [Pulmonary Candidiasis](disease) Yeah
+- How will gave birth [Mercury poisoning](disease)
+- [Pulmonary Edema](disease) Cause what
+- How to infection [SARS](disease) what
+- How will Give birth [Emphysema](disease) what
+- How would Worthy of [Foreign body in the respiratory tract](disease) Acridine
+- How is it Give birth [Pulmonary-pleural amebiasis](disease) what
+- Why Catch [Lung abscess](disease) Is it
+- How to Got it [Lung metastases](disease) what
+- Will lead to Got it [Anaphylactic shock](disease) Acridine
+- How to gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) Acridine
+- Will cause Catch [Alveolar proteinosis](disease) Yeah
+- Will lead to [pneumonia](disease) Ok
+- Why Catch [Building Sick Syndrome](disease)
+- Will cause gave birth [Alveolar proteinosis](disease) Yeah
+- gave birth [Benzene poisoning](disease) the reason
+- Worthy of [Lobar Pneumonia](disease) of the reason
+- Catch [Pulmonary Aspergillosis](disease) of the reason
+- Why Worthy of [Benzene poisoning](disease)
+- Get [Simple pulmonary eosinophilic infiltration](disease) of Cause Ah
+- How is it [Anaphylactic shock](disease) Yeah
+- Catch [Large amounts of amniotic fluid inhalation](disease) the reason Ok
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) the reason what
+- Will cause gave birth [Building Sick Syndrome](disease)
+- How is it infection [Pulmonary pseudotumor](disease)
+- How to [Pulmonary Cryptococcosis](disease)
+- How would infection [Lung cancer](disease) Ah
+- Get [Bullae](disease) Cause Is it
+- infection [Pulmonary Actinomycosis](disease) of Cause what
+- Worthy of [Lung metastases](disease) the reason Ah
+- How come Give birth [Lung metastases](disease) Ah
+- How would Catch [Carbon disulfide poisoning](disease)
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) the reason Acridine
+- Will lead to Catch [Foreign body in the respiratory tract](disease) Ah
+- Will cause Suffer [Septic shock](disease) what
+- how come Suffer [Pulmonary embolism](disease) Acridine
+- Suffer [Pulmonary bullae](disease) Cause what
+- gave birth [Bacillus pneumoniae pneumonia](disease) Cause Ok
+- How to Worthy of [Pulmonary Actinomycosis](disease) Is it
+- how come [Pneumococcal pneumonia](disease) Yeah
+- Got it [Pulmonary Actinomycosis](disease) of Cause Ok
+- infection [Pulmonary bullae](disease) the reason What
+- Suffer [Cadmium poisoning](disease) the reason
+- Will cause Catch [Pulmonary embolism](disease) what
+- How would Suffer [Carbon disulfide poisoning](disease)
+- How would Catch [Carbon disulfide poisoning](disease) Ok
+- Got it [Pulmonary embolism](disease) of Cause Ok
+- Give birth [Pulmonary pseudotumor](disease) Cause Is it
+- How will [Pulmonary embolism](disease) Ah
+- How to Give birth [Pneumococcal pneumonia](disease) Ah
+- Will lead to Get [Bacillus pneumoniae pneumonia](disease) Acridine
+- How come Worthy of [Lung abscess](disease) Yeah
+- why Suffer [Simple pulmonary eosinophilic infiltration](disease) What
+- How would Got it [Pulmonary hemorrhage-nephritis syndrome](disease) Ok
+- Catch [Hypersensitivity pneumonia](disease) Cause Yeah
+- How is it Suffer [Pulmonary Edema](disease) Is it
+- Why Give birth [Pulmonary Cryptococcosis](disease) Is it
+- how come Get [Pulmonary Aspergillosis](disease) Ah
+- How is it Suffer [pneumonia](disease)
+- How come Get [Pulmonary hemorrhage-nephritis syndrome](disease) what
+- How come Worthy of [Pulmonary Cryptococcosis](disease) Acridine
+- Will cause Give birth [Lobar Pneumonia](disease) What
+- How come gave birth [Building Sick Syndrome](disease)
+- How come Worthy of [Foreign body in the respiratory tract](disease) Acridine
+- [Lung cancer](disease) the reason Acridine
+- Got it [Lobar Pneumonia](disease) the reason Ok
+- Will lead to Got it [Bullae](disease)
+- Worthy of [Pulmonary embolism](disease) the reason Yeah
+- How would Catch [Bacillus pneumoniae pneumonia](disease) what
+- Will lead to gave birth [SARS](disease)
+- Got it [pneumonia](disease) the reason Is it
+- Suffer [Goodpasture syndrome](disease) the reason Is it
+- Catch [Radiation pneumonia](disease) of Cause Yeah
+- How would gave birth [SARS](disease) what
+- How to Catch [Pulmonary Edema](disease)
+- Give birth [Building Sick Syndrome](disease) of the reason Is it
+- why Suffer [cold](disease) Yeah
+- How come infection [Carbon disulfide poisoning](disease) Yeah
+- Got it [Pulmonary Edema](disease) of the reason What
+- How would [Large amounts of amniotic fluid inhalation](disease) Yeah
+- Will cause Got it [Pulmonary bullae](disease) Ok
+- How is it [Simple pulmonary eosinophilic infiltration](disease)
+- Will cause Catch [cold](disease) what
+- How would Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) Yeah
+- Give birth [Lung metastases](disease) the reason
+- Suffer [Lung abscess](disease) the reason what
+- [Foreign body in the respiratory tract](disease) the reason Yeah
+- why Get [Benzene poisoning](disease)
+- Catch [Hypersensitivity pneumonia](disease) of Cause Ah
+- infection [Anaphylactic shock](disease) of Cause Acridine
+- Worthy of [Pulmonary Actinomycosis](disease) the reason Ah
+- Will lead to Worthy of [Lung metastases](disease)
+- how come [Lung abscess](disease) Is it
+- Catch [Building Sick Syndrome](disease) of the reason
+- How to [Pneumococcal pneumonia](disease)
+- Will cause gave birth [pneumonia](disease) Ah
+- infection [Pulmonary-pleural amebiasis](disease) of Cause
+- Give birth [Adult respiratory distress syndrome](disease) the reason Is it
+- How would infection [Pulmonary Candidiasis](disease) Ok
+- How is it Give birth [Adult respiratory distress syndrome](disease) Is it
+- Get [Simple pulmonary eosinophilic infiltration](disease) of Cause what
+- Worthy of [Emphysema](disease) of Cause Ok
+- Will lead to Catch [Adult respiratory distress syndrome](disease) Yeah
+- Why Suffer [Mercury poisoning](disease) What
+- Will cause Get [Pulmonary Edema](disease) Ok
+- [Hypersensitivity pneumonia](disease) the reason Acridine
+- infection [Pulmonary Candidiasis](disease) of the reason what
+- Will lead to Give birth [pertussis](disease) What
+- Give birth [Pulmonary Edema](disease) of the reason what
+- How to Catch [Septic shock](disease) Ok
+- Give birth [Hypersensitivity pneumonia](disease) of Cause Ah
+- How will gave birth [Lung cancer](disease) Yeah
+- why Worthy of [Building Sick Syndrome](disease) Acridine
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Cause Acridine
+- Got it [Pulmonary Actinomycosis](disease) of the reason Yeah
+- Give birth [Lung cancer](disease) the reason Ah
+- how come gave birth [Emphysema](disease) Ok
+- Worthy of [Bacillus pneumoniae pneumonia](disease) of Cause Ah
+- Will cause Suffer [pneumonia](disease) what
+- Get [Hypersensitivity pneumonia](disease) of the reason what
+- How come Give birth [Pulmonary embolism](disease) Ok
+- infection [Goodpasture syndrome](disease) of the reason Yeah
+- How will [Anaphylactic shock](disease) Yeah
+- How would Suffer [Respiratory bronchiole-related interstitial lung disease](disease) What
+- why Catch [Radiation pneumonia](disease) Ok
+- Why [Carbon disulfide poisoning](disease) Ok
+- How come gave birth [Hypersensitivity pneumonia](disease) Ok
+- How is it Suffer [Mercury poisoning](disease) Ah
+- Give birth [Bacillus pneumoniae pneumonia](disease) of Cause Acridine
+- Why Suffer [Benzene poisoning](disease) Yeah
+- Catch [cold](disease) the reason Acridine
+- Worthy of [Anaphylactic shock](disease) of Cause Yeah
+- How to Worthy of [Septic shock](disease) Ah
+- Why Catch [Pulmonary bullae](disease)
+- How come gave birth [Pulmonary Edema](disease)
+- How would Catch [Lung cancer](disease) Is it
+- Suffer [Pneumococcal pneumonia](disease) of the reason Is it
+- How would [Large amounts of amniotic fluid inhalation](disease) Ah
+- Give birth [Alveolar proteinosis](disease) the reason Acridine
+- infection [Lung cancer](disease) of the reason Ok
+- Suffer [Pulmonary embolism](disease) Cause what
+- Worthy of [Foreign body in the respiratory tract](disease) Cause Ah
+- how come gave birth [Bullae](disease) Acridine
+- How would [Goodpasture syndrome](disease)
+- [Alveolar proteinosis](disease) the reason Ok
+- Why Suffer [Lung cancer](disease) Ok
+- How come Give birth [Alveolar proteinosis](disease) What
+- How would Worthy of [Foreign body in the respiratory tract](disease)
+- How will gave birth [Hypersensitivity pneumonia](disease) Ok
+- infection [Mercury poisoning](disease) of Cause Yeah
+- [Pulmonary embolism](disease) Cause What
+- Will cause [Emphysema](disease) Is it
+- [Large amounts of amniotic fluid inhalation](disease) Cause Ah
+- Will lead to [Pulmonary hemorrhage-nephritis syndrome](disease)
+- How would Give birth [Benzene poisoning](disease)
+- Will lead to Worthy of [Pneumococcal pneumonia](disease) what
+- Worthy of [Hypersensitivity pneumonia](disease) of the reason
+- why Give birth [Large amounts of amniotic fluid inhalation](disease) Acridine
+- why [Pulmonary Aspergillosis](disease) Ok
+- [Bullae](disease) of the reason Ah
+- Will cause Get [Septic shock](disease) Ok
+- Will cause Worthy of [Bullae](disease) Ok
+- Catch [Pulmonary Cryptococcosis](disease) of Cause Is it
+- Why Give birth [Adult respiratory distress syndrome](disease) Acridine
+- Got it [Septic shock](disease) of Cause Ok
+- [Pulmonary bullae](disease) the reason What
+- Will cause infection [Simple pulmonary eosinophilic infiltration](disease) Is it
+- How to Catch [Lung abscess](disease) Ah
+- Why Catch [Cadmium poisoning](disease) Acridine
+- Suffer [Benzene poisoning](disease) of the reason what
+- [Foreign body in the respiratory tract](disease) Cause
+- why Suffer [Pulmonary Cryptococcosis](disease)
+- How would Give birth [Pulmonary-pleural amebiasis](disease) Ok
+- How to Got it [Alveolar proteinosis](disease) Ok
+- why Suffer [Pulmonary embolism](disease)
+- Give birth [Pulmonary bullae](disease) of the reason what
+- how come Catch [Adult respiratory distress syndrome](disease) Ok
+- How would Worthy of [Adult respiratory distress syndrome](disease) what
+- Got it [Bacillus pneumoniae pneumonia](disease) of the reason Acridine
+- [Alveolar proteinosis](disease) of Cause Yeah
+- Will cause [Building Sick Syndrome](disease) Ok
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) of Cause Ah
+- Why Suffer [Goodpasture syndrome](disease) Yeah
+- How to gave birth [Pulmonary Cryptococcosis](disease) Ah
+- How would Got it [Adult respiratory distress syndrome](disease) what
+- [Lung abscess](disease) Cause Ah
+- How would infection [Emphysema](disease) Yeah
+- Why Give birth [Carbon disulfide poisoning](disease) Ah
+- Suffer [Benzene poisoning](disease) of the reason Ah
+- How come Get [Pulmonary-pleural amebiasis](disease) what
+- Will lead to Worthy of [Adult respiratory distress syndrome](disease) what
+- Why Get [Pulmonary pseudotumor](disease) Is it
+- why Give birth [cold](disease) Ok
+- gave birth [Cadmium poisoning](disease) Cause Is it
+- why Got it [Mercury poisoning](disease)
+- Why Worthy of [Large amounts of amniotic fluid inhalation](disease)
+- How to [pneumonia](disease) What
+- how come gave birth [Anaphylactic shock](disease) Acridine
+- Got it [Simple pulmonary eosinophilic infiltration](disease) the reason Ok
+- infection [Lung cancer](disease) the reason Acridine
+- Suffer [Pulmonary bullae](disease) the reason
+- Got it [pneumonia](disease) of the reason Ah
+- How would Got it [Foreign body in the respiratory tract](disease) Acridine
+- Will lead to Catch [Bullae](disease) Is it
+- Will cause gave birth [Bullae](disease) What
+- How will [Bacillus pneumoniae pneumonia](disease) Acridine
+- Will lead to gave birth [Goodpasture syndrome](disease)
+- How come Suffer [Radiation pneumonia](disease) Ah
+- why gave birth [Pulmonary bullae](disease) Yeah
+- How would [Lung cancer](disease) Yeah
+- How come Got it [Pulmonary Cryptococcosis](disease)
+- Will cause Worthy of [Bacillus pneumoniae pneumonia](disease) Is it
+- Got it [Adult respiratory distress syndrome](disease) of the reason What
+- Will lead to Catch [Lung abscess](disease) what
+- How will Worthy of [Carbon disulfide poisoning](disease) Acridine
+- Get [pertussis](disease) of the reason Ok
+- why [Alveolar proteinosis](disease) what
+- How will gave birth [Anaphylactic shock](disease) Ah
+- Worthy of [Hypersensitivity pneumonia](disease) Cause Yeah
+- How is it infection [Emphysema](disease) Yeah
+- infection [Pulmonary Aspergillosis](disease) the reason what
+- Will lead to Catch [Lung abscess](disease)
+- Got it [Pulmonary Candidiasis](disease) of the reason Ok
+- How to [Foreign body in the respiratory tract](disease) what
+- How come infection [Respiratory bronchiole-related interstitial lung disease](disease) Ah
+- Give birth [Emphysema](disease) of Cause Yeah
+- How would infection [Adult respiratory distress syndrome](disease) Acridine
+- How is it infection [Goodpasture syndrome](disease) What
+- why [Mercury poisoning](disease) what
+- How is it [pertussis](disease) What
+- infection [Pulmonary embolism](disease) the reason Is it
+- how come Catch [Benzene poisoning](disease) Is it
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) of Cause Ok
+- infection [Pulmonary Candidiasis](disease) of Cause Is it
+- How to Suffer [Lobar Pneumonia](disease) Ok
+- Got it [Alveolar proteinosis](disease) of Cause Ah
+- How come Catch [Radiation pneumonia](disease) Ok
+- How come gave birth [Pulmonary bullae](disease) Acridine
+- How will gave birth [Pulmonary-pleural amebiasis](disease) Ok
+- Will cause Worthy of [Hypersensitivity pneumonia](disease) Acridine
+- why [Carbon disulfide poisoning](disease) Yeah
+- infection [Bullae](disease) the reason
+- How would Worthy of [pneumonia](disease) Yeah
+- gave birth [Alveolar proteinosis](disease) of the reason What
+- how come Suffer [Pulmonary embolism](disease) Yeah
+- How is it Get [Pulmonary Candidiasis](disease) What
+- Will cause Give birth [Lung metastases](disease) Ah
+- Suffer [Radiation pneumonia](disease) the reason what
+- Catch [Pulmonary bullae](disease) of the reason Yeah
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) of the reason What
+- Give birth [Lung cancer](disease) of the reason Ok
+- How would Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) What
+- How would infection [Wheezing bronchitis](disease) Acridine
+- Will lead to gave birth [Lung cancer](disease) What
+- How to Catch [Lung cancer](disease) Acridine
+- How would Get [Emphysema](disease) what
+- How would Catch [Lung abscess](disease) Yeah
+- Get [Lung abscess](disease) Cause What
+- Will cause [Radiation pneumonia](disease) Ah
+- Got it [Building Sick Syndrome](disease) Cause
+- How would Worthy of [Bullae](disease)
+- How would Catch [Alveolar proteinosis](disease) Yeah
+- Why [Respiratory bronchiole-related interstitial lung disease](disease) Ok
+- How is it Get [Pulmonary Actinomycosis](disease) Yeah
+- Catch [cold](disease) of Cause
+- Got it [Pulmonary-pleural amebiasis](disease) Cause Ah
+- Catch [Emphysema](disease) of the reason what
+- How will [Pulmonary embolism](disease)
+- Catch [Foreign body in the respiratory tract](disease) of the reason What
+- How would Catch [Pulmonary Cryptococcosis](disease) Ok
+- why Catch [Lobar Pneumonia](disease) What
+- Suffer [Pulmonary pseudotumor](disease) Cause Ah
+- Will cause [Lung cancer](disease) Yeah
+- How would infection [Simple pulmonary eosinophilic infiltration](disease) what
+- gave birth [Building Sick Syndrome](disease) of the reason what
+- How will Catch [Lung metastases](disease) what
+- How would [Pulmonary pseudotumor](disease) Is it
+- How will Give birth [Pulmonary Actinomycosis](disease) What
+- How come Suffer [Pulmonary pseudotumor](disease) Acridine
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) the reason Ah
+- How will Suffer [cold](disease) Yeah
+- How to Get [Carbon disulfide poisoning](disease) Is it
+- Why Catch [Pneumococcal pneumonia](disease) Acridine
+- Will cause Suffer [Septic shock](disease)
+- How come Got it [Pulmonary embolism](disease)
+- how come Catch [Large amounts of amniotic fluid inhalation](disease) Acridine
+- How will Give birth [Wheezing bronchitis](disease) Ah
+- Got it [Adult respiratory distress syndrome](disease) of Cause what
+- Got it [Lung metastases](disease) of Cause Yeah
+- Got it [Simple pulmonary eosinophilic infiltration](disease) of Cause Yeah
+- Got it [Simple pulmonary eosinophilic infiltration](disease) the reason
+- How would Got it [Simple pulmonary eosinophilic infiltration](disease) Ah
+- How to infection [Pulmonary Aspergillosis](disease) What
+- infection [Mercury poisoning](disease) Cause What
+- How would Worthy of [Bullae](disease) Ok
+- How would [Foreign body in the respiratory tract](disease) Ah
+- How would Worthy of [Adult respiratory distress syndrome](disease) Ok
+- Suffer [Building Sick Syndrome](disease) of Cause what
+- How come Worthy of [Pulmonary Cryptococcosis](disease) Yeah
+- How is it Worthy of [SARS](disease) Ok
+- Will cause gave birth [Mercury poisoning](disease) Ah
+- how come gave birth [Cadmium poisoning](disease) Ok
+- Catch [Simple pulmonary eosinophilic infiltration](disease) of Cause Ok
+- Will cause Catch [Large amounts of amniotic fluid inhalation](disease) Ah
+- Why gave birth [Pulmonary Cryptococcosis](disease) Acridine
+- Will cause gave birth [Pulmonary embolism](disease) Acridine
+- Will cause Give birth [Benzene poisoning](disease) Yeah
+- Catch [Pulmonary Cryptococcosis](disease) of the reason What
+- How would Suffer [pertussis](disease) Ok
+- How to Give birth [Pulmonary Candidiasis](disease) Is it
+- How will Suffer [Hypersensitivity pneumonia](disease) Acridine
+- Why infection [Emphysema](disease) Ah
+- Suffer [Wheezing bronchitis](disease) of the reason
+- Worthy of [Pneumococcal pneumonia](disease) Cause Yeah
+- Why infection [Pulmonary hemorrhage-nephritis syndrome](disease) Acridine
+- How would Catch [Pulmonary bullae](disease) What
+- Catch [Alveolar proteinosis](disease) of Cause Acridine
+- why Got it [Goodpasture syndrome](disease)
+- Will cause [pertussis](disease) what
+- Will cause Catch [Simple pulmonary eosinophilic infiltration](disease) Is it
+- Suffer [pertussis](disease) of Cause Is it
+- why Got it [Carbon disulfide poisoning](disease)
+- How would [Pulmonary Cryptococcosis](disease) Ah
+- Why Got it [Mercury poisoning](disease) Ah
+- Why Suffer [Bullae](disease) what
+- why Give birth [Bullae](disease) Ah
+- How will [Large amounts of amniotic fluid inhalation](disease)
+- infection [Pneumococcal pneumonia](disease) of Cause Ah
+- Will cause Suffer [Anaphylactic shock](disease) Ok
+- [Cadmium poisoning](disease) of Cause What
+- gave birth [cold](disease) the reason Acridine
+- Get [Mercury poisoning](disease) of Cause what
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) the reason what
+- How will Got it [Simple pulmonary eosinophilic infiltration](disease) Ok
+- Why gave birth [Adult respiratory distress syndrome](disease) Ok
+- Will lead to Get [Lung cancer](disease) Acridine
+- [Pulmonary Candidiasis](disease) Cause Yeah
+- How come Suffer [Anaphylactic shock](disease) Ah
+- infection [Pulmonary bullae](disease) of the reason What
+- How come Give birth [Alveolar proteinosis](disease) Ok
+- Get [Pulmonary Actinomycosis](disease) of the reason Ah
+- How come infection [Radiation pneumonia](disease) Ah
+- why Got it [pertussis](disease)
+- Why Got it [cold](disease) Ok
+- Catch [Septic shock](disease) of the reason Ok
+- Get [Bacillus pneumoniae pneumonia](disease) Cause
+- how come infection [Lung abscess](disease) Ah
+- Will lead to Suffer [Respiratory bronchiole-related interstitial lung disease](disease) what
+- how come [Pulmonary hemorrhage-nephritis syndrome](disease) Is it
+- how come Catch [Pneumococcal pneumonia](disease) Ah
+- How would Catch [SARS](disease) Yeah
+- Why gave birth [pertussis](disease) Ah
+- gave birth [Pulmonary Aspergillosis](disease) Cause Yeah
+- Will lead to [Pulmonary embolism](disease) Yeah
+- Give birth [Foreign body in the respiratory tract](disease) of the reason Yeah
+- Give birth [Pulmonary Edema](disease) of Cause what
+- [Mercury poisoning](disease) of Cause
+- How to Catch [Pneumococcal pneumonia](disease) Is it
+- Give birth [Alveolar proteinosis](disease) Cause Acridine
+- How is it Worthy of [Bacillus pneumoniae pneumonia](disease) Ok
+- gave birth [Septic shock](disease) the reason Ah
+- Why gave birth [Lung abscess](disease) Ah
+- How will infection [Radiation pneumonia](disease) Is it
+- Suffer [cold](disease) the reason Yeah
+- Why Suffer [Foreign body in the respiratory tract](disease) Acridine
+- Give birth [Hypersensitivity pneumonia](disease) the reason What
+- infection [Mercury poisoning](disease) Cause Ah
+- How will Worthy of [Adult respiratory distress syndrome](disease) what
+- How would Get [Pulmonary-pleural amebiasis](disease) Is it
+- How will Get [SARS](disease) What
+- infection [Lung cancer](disease) of Cause What
+- How is it Got it [Building Sick Syndrome](disease) What
+- Suffer [Septic shock](disease) of the reason Yeah
+- How to gave birth [Wheezing bronchitis](disease) what
+- Worthy of [Alveolar proteinosis](disease) of the reason What
+- infection [Pulmonary-pleural amebiasis](disease) Cause What
+- gave birth [Pulmonary bullae](disease) the reason Is it
+- How will gave birth [pertussis](disease) what
+- Suffer [Cadmium poisoning](disease) of Cause what
+- infection [Carbon disulfide poisoning](disease) the reason Ok
+- Why Got it [Radiation pneumonia](disease) What
+- Will lead to Catch [Septic shock](disease) Yeah
+- How would Suffer [Foreign body in the respiratory tract](disease) Ah
+- How will Catch [Pneumococcal pneumonia](disease)
+- How will Catch [Alveolar proteinosis](disease) Is it
+- how come Suffer [Radiation pneumonia](disease) What
+- How come Catch [cold](disease) Acridine
+- How is it Suffer [Pulmonary Aspergillosis](disease) Ok
+- Suffer [Bullae](disease) of Cause Ok
+- Why Catch [Foreign body in the respiratory tract](disease)
+- Will lead to [Pneumococcal pneumonia](disease) Acridine
+- Get [Radiation pneumonia](disease) Cause Ok
+- how come Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) What
+- gave birth [Building Sick Syndrome](disease) the reason Ah
+- Will lead to Catch [Adult respiratory distress syndrome](disease) Acridine
+- Get [Radiation pneumonia](disease) of Cause What
+- How would Worthy of [Pulmonary Aspergillosis](disease) Yeah
+- How would gave birth [Pulmonary Aspergillosis](disease)
+- Give birth [Lung abscess](disease) Cause Yeah
+- Got it [Mercury poisoning](disease) of Cause Acridine
+- Got it [Anaphylactic shock](disease) of Cause Yeah
+- Get [Benzene poisoning](disease) the reason Yeah
+- how come gave birth [Pulmonary Aspergillosis](disease) what
+- Why Suffer [Bacillus pneumoniae pneumonia](disease) Yeah
+- how come Got it [Emphysema](disease) Ok
+- infection [Lung abscess](disease) Cause What
+- Worthy of [Pulmonary embolism](disease) the reason Ok
+- How will Give birth [SARS](disease) What
+- How will [Lung metastases](disease)
+- why infection [Adult respiratory distress syndrome](disease) Ah
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) of Cause Ok
+- How come Give birth [pneumonia](disease) Is it
+- Will lead to Catch [Pulmonary-pleural amebiasis](disease) Is it
+- how come Suffer [Pneumococcal pneumonia](disease) Acridine
+- How will Worthy of [Adult respiratory distress syndrome](disease) Ok
+- how come Give birth [Pulmonary Edema](disease) Ok
+- How will Give birth [Pulmonary Aspergillosis](disease) Is it
+- infection [Pulmonary Cryptococcosis](disease) of Cause What
+- Catch [pneumonia](disease) the reason what
+- How will Worthy of [Alveolar proteinosis](disease)
+- Why infection [Anaphylactic shock](disease) Ah
+- How to Get [cold](disease) Is it
+- infection [Foreign body in the respiratory tract](disease) Cause Is it
+- How come Got it [Radiation pneumonia](disease) Ah
+- How would infection [Hypersensitivity pneumonia](disease) What
+- Get [Pulmonary-pleural amebiasis](disease) of the reason what
+- Why Give birth [Building Sick Syndrome](disease) Acridine
+- infection [Pulmonary bullae](disease) of the reason
+- Catch [Bacillus pneumoniae pneumonia](disease) of the reason Ok
+- How is it Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) Ok
+- How will Suffer [Benzene poisoning](disease) Is it
+- [Pulmonary bullae](disease) of Cause Ah
+- How will Give birth [Pulmonary bullae](disease) What
+- how come Suffer [Goodpasture syndrome](disease) Acridine
+- How would Suffer [Pulmonary bullae](disease) Is it
+- [Carbon disulfide poisoning](disease) of Cause Ok
+- How to Get [Wheezing bronchitis](disease) Acridine
+- Catch [Radiation pneumonia](disease) of the reason
+- Why gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) Yeah
+- How would Suffer [Building Sick Syndrome](disease) What
+- Will lead to Catch [Pulmonary bullae](disease) Acridine
+- Catch [SARS](disease) the reason Yeah
+- Give birth [Radiation pneumonia](disease) of the reason Ah
+- Worthy of [pertussis](disease) Cause Acridine
+- How would infection [Pulmonary Actinomycosis](disease) Is it
+- Will cause Got it [pertussis](disease) Ok
+- gave birth [Pulmonary Actinomycosis](disease) Cause Ah
+- How is it Catch [pneumonia](disease) Ah
+- Suffer [Pulmonary Cryptococcosis](disease) of the reason what
+- Catch [pneumonia](disease) Cause Ah
+- Will lead to Got it [Pulmonary hemorrhage-nephritis syndrome](disease) Ok
+- Got it [Hypersensitivity pneumonia](disease) of the reason Ok
+- How come Catch [Pulmonary bullae](disease)
+- How will Catch [Bullae](disease) what
+- How will Get [Large amounts of amniotic fluid inhalation](disease) Ok
+- Give birth [pneumonia](disease) the reason Is it
+- How will infection [Respiratory bronchiole-related interstitial lung disease](disease) Ok
+- How come Give birth [cold](disease) Ok
+- [Cadmium poisoning](disease) the reason Ah
+- why Give birth [Lobar Pneumonia](disease) Is it
+- Worthy of [SARS](disease) Cause Ok
+- How would gave birth [Mercury poisoning](disease) Ah
+- How will gave birth [Pulmonary Aspergillosis](disease)
+- Worthy of [Pulmonary embolism](disease) Cause Ok
+- why Get [Goodpasture syndrome](disease) What
+- infection [Wheezing bronchitis](disease) Cause what
+- Get [Lung cancer](disease) the reason What
+- Will lead to gave birth [Alveolar proteinosis](disease) Is it
+- Give birth [Lung cancer](disease) of the reason Ah
+- gave birth [Alveolar proteinosis](disease) of Cause
+- How come Catch [Pneumococcal pneumonia](disease) Yeah
+- gave birth [Pulmonary Cryptococcosis](disease) of the reason what
+- How would Got it [Benzene poisoning](disease) Ok
+- how come gave birth [Alveolar proteinosis](disease) What
+- gave birth [Pulmonary bullae](disease) Cause what
+- Worthy of [Alveolar proteinosis](disease) of the reason Yeah
+- how come [Hypersensitivity pneumonia](disease) Acridine
+- Will lead to gave birth [Emphysema](disease) Acridine
+- How would [Hypersensitivity pneumonia](disease) What
+- why Catch [Anaphylactic shock](disease) Is it
+- Why Suffer [Lung abscess](disease) Ah
+- Why infection [Building Sick Syndrome](disease) what
+- gave birth [Carbon disulfide poisoning](disease) of the reason Ah
+- How would infection [Goodpasture syndrome](disease) Is it
+- Get [Bacillus pneumoniae pneumonia](disease) the reason Acridine
+- Got it [Lobar Pneumonia](disease) the reason What
+- Catch [Mercury poisoning](disease) the reason Yeah
+- How will Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) Ok
+- gave birth [Lung metastases](disease) of Cause Acridine
+- Why Catch [pneumonia](disease) Is it
+- how come [Hypersensitivity pneumonia](disease) Ah
+- Give birth [Alveolar proteinosis](disease) of the reason Is it
+- how come infection [Simple pulmonary eosinophilic infiltration](disease) Acridine
+- How would Catch [Carbon disulfide poisoning](disease) Is it
+- How will Worthy of [Septic shock](disease) Acridine
+- Get [Pulmonary embolism](disease) the reason Acridine
+- How is it Catch [Cadmium poisoning](disease) What
+- Will cause Give birth [Septic shock](disease) Ok
+- why Give birth [Lung metastases](disease) Acridine
+- Got it [Simple pulmonary eosinophilic infiltration](disease) of the reason Is it
+- how come Suffer [Alveolar proteinosis](disease) Is it
+- Suffer [Hypersensitivity pneumonia](disease) the reason Is it
+- Will cause Got it [Foreign body in the respiratory tract](disease) Acridine
+- Got it [Pulmonary Actinomycosis](disease) Cause Is it
+- why Give birth [Bacillus pneumoniae pneumonia](disease) what
+- Why Worthy of [Pulmonary bullae](disease) Yeah
+- Will cause Got it [Respiratory bronchiole-related interstitial lung disease](disease) Acridine
+- Catch [cold](disease) the reason Ok
+- why [Lobar Pneumonia](disease) what
+- Suffer [Anaphylactic shock](disease) Cause Is it
+- How would Give birth [Mercury poisoning](disease) what
+- How come [Benzene poisoning](disease) Is it
+- Will lead to [Pulmonary Cryptococcosis](disease) What
+- Will cause Get [pneumonia](disease) Is it
+- Will lead to Give birth [Bacillus pneumoniae pneumonia](disease) What
+- Catch [SARS](disease) the reason what
+- why Catch [Pulmonary hemorrhage-nephritis syndrome](disease) what
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) of the reason What
+- Catch [Bacillus pneumoniae pneumonia](disease) the reason Yeah
+- Why infection [Pulmonary hemorrhage-nephritis syndrome](disease) Yeah
+- Give birth [Mercury poisoning](disease) the reason Ah
+- Will lead to [Large amounts of amniotic fluid inhalation](disease) What
+- How to Worthy of [Foreign body in the respiratory tract](disease) Yeah
+- how come infection [Pulmonary Actinomycosis](disease)
+- Will lead to [Bullae](disease) Ok
+- Get [pneumonia](disease) of the reason Ok
+- infection [Mercury poisoning](disease) Cause Ok
+- Will cause Worthy of [Respiratory bronchiole-related interstitial lung disease](disease)
+- Why [Adult respiratory distress syndrome](disease) Yeah
+- Will lead to gave birth [Bullae](disease) Yeah
+- Will cause Got it [pertussis](disease) what
+- Why Catch [Pulmonary Edema](disease) Yeah
+- Will cause infection [Alveolar proteinosis](disease) what
+- Worthy of [Mercury poisoning](disease) of Cause What
+- Suffer [Septic shock](disease) of the reason Acridine
+- Will lead to Catch [Lung abscess](disease) What
+- How is it infection [Foreign body in the respiratory tract](disease) Yeah
+- How will [cold](disease)
+- Worthy of [Pulmonary Aspergillosis](disease) of Cause Acridine
+- How would [Cadmium poisoning](disease) Ah
+- How would Worthy of [Adult respiratory distress syndrome](disease) Acridine
+- how come infection [Pulmonary hemorrhage-nephritis syndrome](disease) Yeah
+- gave birth [pneumonia](disease) of Cause Is it
+- Why Worthy of [cold](disease) Is it
+- Got it [Pulmonary-pleural amebiasis](disease) of Cause What
+- How would Got it [Foreign body in the respiratory tract](disease)
+- How come gave birth [Carbon disulfide poisoning](disease)
+- Will lead to [Large amounts of amniotic fluid inhalation](disease) Yeah
+- [Lung cancer](disease) of the reason what
+- why [Building Sick Syndrome](disease) Is it
+- Why [Bacillus pneumoniae pneumonia](disease)
+- How to Got it [Septic shock](disease) Is it
+- How would infection [Cadmium poisoning](disease) Is it
+- How come Give birth [Respiratory bronchiole-related interstitial lung disease](disease) what
+- Will lead to gave birth [pneumonia](disease) Ok
+- How is it Give birth [Pulmonary-pleural amebiasis](disease) Yeah
+- Why Get [Building Sick Syndrome](disease) Is it
+- Get [Emphysema](disease) of the reason Acridine
+- Catch [Emphysema](disease) of Cause Ok
+- Suffer [Large amounts of amniotic fluid inhalation](disease) the reason Acridine
+- How would [Septic shock](disease) Ok
+- Suffer [Pulmonary Candidiasis](disease) of Cause Is it
+- gave birth [Hypersensitivity pneumonia](disease) the reason Acridine
+- Give birth [pneumonia](disease) of Cause
+- How would Catch [Pulmonary Candidiasis](disease) Ah
+- Got it [Septic shock](disease) the reason what
+- How is it Worthy of [Emphysema](disease) what
+- why infection [Anaphylactic shock](disease) Acridine
+- How to Suffer [Benzene poisoning](disease)
+- How would Worthy of [Lung abscess](disease) what
+- Will cause Suffer [Lobar Pneumonia](disease) Ok
+- How would infection [Emphysema](disease) Is it
+- Got it [Pulmonary Cryptococcosis](disease) of Cause what
+- How is it [Alveolar proteinosis](disease) Yeah
+- Will cause gave birth [Foreign body in the respiratory tract](disease) Ah
+- How would Give birth [Lobar Pneumonia](disease)
+- How to Get [Cadmium poisoning](disease) what
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) Cause
+- How would Give birth [Lung metastases](disease)
+- Why Catch [Radiation pneumonia](disease)
+- why [Emphysema](disease) Is it
+- Give birth [Pulmonary Cryptococcosis](disease) the reason Ok
+- Suffer [Carbon disulfide poisoning](disease) Cause What
+- Get [Pneumococcal pneumonia](disease) Cause what
+- How is it Suffer [Lung cancer](disease)
+- gave birth [Lung cancer](disease) Cause what
+- How is it Give birth [Bullae](disease) Ah
+- How to infection [Benzene poisoning](disease) Ah
+- Give birth [Goodpasture syndrome](disease) of Cause what
+- How would Worthy of [Pulmonary Cryptococcosis](disease) Is it
+- How come Catch [Pulmonary bullae](disease) What
+- How to gave birth [Anaphylactic shock](disease) What
+- Will cause Get [Lung abscess](disease) What
+- How would Get [Anaphylactic shock](disease) Yeah
+- How would Got it [Lobar Pneumonia](disease) Ah
+- How would Get [Pulmonary Cryptococcosis](disease) Is it
+- Why Worthy of [Mercury poisoning](disease) Is it
+- [Alveolar proteinosis](disease) of Cause Ok
+- How will infection [Wheezing bronchitis](disease) Ok
+- why Suffer [Bacillus pneumoniae pneumonia](disease) Ah
+- Give birth [Large amounts of amniotic fluid inhalation](disease) the reason Ok
+- How would Worthy of [Septic shock](disease) What
+- How to [SARS](disease) Yeah
+- Got it [SARS](disease) Cause what
+- [Lung abscess](disease) the reason Is it
+- How would [Lung abscess](disease) Acridine
+- [Lung metastases](disease) the reason Acridine
+- How would gave birth [Benzene poisoning](disease)
+- Why Get [Pulmonary embolism](disease) Is it
+- How would Catch [Anaphylactic shock](disease) Yeah
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) of the reason
+- infection [Pulmonary Aspergillosis](disease) Cause Acridine
+- Give birth [Cadmium poisoning](disease) of the reason what
+- how come Worthy of [Pulmonary Aspergillosis](disease) what
+- How would [SARS](disease)
+- How would gave birth [Pulmonary embolism](disease) Ah
+- How is it [Simple pulmonary eosinophilic infiltration](disease) Ok
+- Will cause Give birth [Pulmonary hemorrhage-nephritis syndrome](disease)
+- How will [Respiratory bronchiole-related interstitial lung disease](disease) What
+- Suffer [Pulmonary Aspergillosis](disease) of Cause
+- [pertussis](disease) Cause what
+- How to [pertussis](disease) Ah
+- Will lead to gave birth [Pulmonary Edema](disease) Ah
+- Got it [Pulmonary Edema](disease) the reason Yeah
+- How will [Pulmonary Edema](disease) Acridine
+- [Lung cancer](disease) of Cause Ah
+- Why Suffer [Emphysema](disease) Ah
+- Give birth [Alveolar proteinosis](disease) of the reason
+- gave birth [Pulmonary embolism](disease) of Cause Is it
+- How to Get [Building Sick Syndrome](disease) Ah
+- How will Give birth [Foreign body in the respiratory tract](disease) Ok
+- How is it [Lung abscess](disease) What
+- Got it [Pulmonary pseudotumor](disease) the reason Is it
+- Suffer [cold](disease) of Cause Acridine
+- Suffer [Pulmonary pseudotumor](disease) of Cause What
+- Suffer [SARS](disease) of the reason Acridine
+- How to Got it [Adult respiratory distress syndrome](disease) Ah
+- How come Suffer [Lung cancer](disease) Is it
+- Suffer [Pulmonary bullae](disease) Cause Is it
+- Will cause Worthy of [Pulmonary Aspergillosis](disease) Yeah
+- How would infection [Goodpasture syndrome](disease) Acridine
+- Got it [Large amounts of amniotic fluid inhalation](disease) of the reason Ah
+- How will Worthy of [Cadmium poisoning](disease) Acridine
+- How is it Get [Pulmonary Cryptococcosis](disease) what
+- Will lead to infection [Foreign body in the respiratory tract](disease) what
+- Catch [Building Sick Syndrome](disease) the reason Is it
+- Worthy of [Building Sick Syndrome](disease) the reason
+- How to Got it [Large amounts of amniotic fluid inhalation](disease) Is it
+- infection [Benzene poisoning](disease) of the reason Acridine
+- How would Worthy of [Lobar Pneumonia](disease)
+- Will lead to Catch [cold](disease) Acridine
+- How to Worthy of [Pulmonary Actinomycosis](disease) Ah
+- Get [Benzene poisoning](disease) of the reason Ok
+- Worthy of [SARS](disease) of Cause Ah
+- Suffer [Radiation pneumonia](disease) of Cause What
+- Will cause Got it [Lung metastases](disease) Ah
+- Give birth [Adult respiratory distress syndrome](disease) of the reason Ah
+- Will cause infection [Lobar Pneumonia](disease) Yeah
+- Will lead to Give birth [Mercury poisoning](disease) Yeah
+- Get [Pulmonary bullae](disease) Cause Ok
+- gave birth [Bacillus pneumoniae pneumonia](disease) the reason What
+- how come gave birth [Lung abscess](disease) Acridine
+- Give birth [cold](disease) of Cause what
+- Get [pertussis](disease) of the reason Is it
+- How to Got it [Pulmonary Aspergillosis](disease) Ok
+- why gave birth [pneumonia](disease) What
+- why Give birth [Pulmonary-pleural amebiasis](disease) Is it
+- why Give birth [Cadmium poisoning](disease) Yeah
+- Why [Lung abscess](disease) Yeah
+- Will lead to [Alveolar proteinosis](disease) What
+- Give birth [Adult respiratory distress syndrome](disease) of Cause Yeah
+- Catch [Carbon disulfide poisoning](disease) Cause what
+- Worthy of [Pulmonary-pleural amebiasis](disease) the reason Ah
+- infection [Mercury poisoning](disease) the reason What
+- Will cause gave birth [Radiation pneumonia](disease) what
+- Give birth [Pulmonary Edema](disease) the reason Is it
+- Get [Adult respiratory distress syndrome](disease) of the reason
+- gave birth [Lobar Pneumonia](disease) Cause Is it
+- How would Got it [Lung cancer](disease) What
+- Catch [Adult respiratory distress syndrome](disease) the reason What
+- Will cause Worthy of [Emphysema](disease) Acridine
+- infection [Pulmonary embolism](disease) Cause Is it
+- Will cause gave birth [SARS](disease) Is it
+- Will cause [Wheezing bronchitis](disease) Ok
+- How would infection [pertussis](disease) what
+- Why Suffer [Radiation pneumonia](disease) Yeah
+- Will lead to gave birth [Adult respiratory distress syndrome](disease) Is it
+- Will lead to Get [Pulmonary Cryptococcosis](disease) Acridine
+- [Building Sick Syndrome](disease) of Cause Ok
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) Cause Acridine
+- [Pulmonary Edema](disease) of the reason Acridine
+- Why gave birth [Bullae](disease) Yeah
+- Get [Lung abscess](disease) of Cause What
+- Why Get [Emphysema](disease) What
+- How to Get [Lobar Pneumonia](disease) What
+- Will cause infection [Bacillus pneumoniae pneumonia](disease) Is it
+- Why Suffer [Simple pulmonary eosinophilic infiltration](disease) What
+- why Get [Benzene poisoning](disease) what
+- Catch [Pulmonary Cryptococcosis](disease) the reason Is it
+- Will lead to Get [Mercury poisoning](disease) Yeah
+- How will [Benzene poisoning](disease) what
+- Give birth [Pulmonary bullae](disease) the reason Ah
+- How is it infection [Cadmium poisoning](disease) what
+- How is it Give birth [Hypersensitivity pneumonia](disease)
+- Give birth [Lobar Pneumonia](disease) of Cause Ah
+- How to Catch [Mercury poisoning](disease) what
+- How would gave birth [Pneumococcal pneumonia](disease) Yeah
+- Catch [SARS](disease) of the reason Ah
+- [Hypersensitivity pneumonia](disease) of Cause Ok
+- why Get [Adult respiratory distress syndrome](disease) Ok
+- How is it Worthy of [cold](disease) Yeah
+- why Worthy of [Pulmonary Actinomycosis](disease)
+- How is it Get [Septic shock](disease) what
+- How to infection [Radiation pneumonia](disease) Acridine
+- Will cause Get [Pulmonary Actinomycosis](disease) What
+- how come infection [Respiratory bronchiole-related interstitial lung disease](disease) What
+- How will Worthy of [Goodpasture syndrome](disease) What
+- how come Catch [Pulmonary Edema](disease) What
+- Suffer [Mercury poisoning](disease) of the reason what
+- Why Suffer [Pulmonary Aspergillosis](disease) Ok
+- Why Suffer [Emphysema](disease) Yeah
+- Suffer [Cadmium poisoning](disease) the reason What
+- Why Give birth [Lung cancer](disease)
+- Suffer [Lung metastases](disease) of Cause Ah
+- Give birth [Cadmium poisoning](disease) Cause What
+- Why Get [Pulmonary bullae](disease) Yeah
+- how come Suffer [cold](disease)
+- how come Give birth [Pneumococcal pneumonia](disease) What
+- How is it Get [cold](disease) what
+- Why Worthy of [Emphysema](disease)
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) of Cause Acridine
+- why Give birth [Mercury poisoning](disease) Ah
+- [Pneumococcal pneumonia](disease) of the reason Acridine
+- How come Worthy of [Hypersensitivity pneumonia](disease) Ah
+- How will [Foreign body in the respiratory tract](disease) Ah
+- Why Suffer [Pulmonary Cryptococcosis](disease) What
+- How is it Got it [Bullae](disease) Ok
+- why Get [Carbon disulfide poisoning](disease) What
+- Get [Anaphylactic shock](disease) of the reason Yeah
+- how come Get [Pulmonary pseudotumor](disease) What
+- how come Catch [Alveolar proteinosis](disease) What
+- Will lead to Got it [Foreign body in the respiratory tract](disease) Ok
+- Why infection [pneumonia](disease) Yeah
+- Give birth [SARS](disease) Cause Ah
+- How would gave birth [Pulmonary Candidiasis](disease) what
+- Will cause gave birth [Septic shock](disease) Acridine
+- Got it [Radiation pneumonia](disease) of Cause Is it
+- How to Give birth [Bullae](disease) Ok
+- How would infection [Benzene poisoning](disease) What
+- [Anaphylactic shock](disease) of Cause Ah
+- How would Catch [pertussis](disease) what
+- How would Worthy of [Anaphylactic shock](disease) Is it
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) the reason Yeah
+- Worthy of [Pneumococcal pneumonia](disease) of the reason what
+- Suffer [Pneumococcal pneumonia](disease) the reason
+- gave birth [Pulmonary Aspergillosis](disease) the reason What
+- Catch [Pulmonary Candidiasis](disease) of Cause Is it
+- how come Get [Building Sick Syndrome](disease) Acridine
+- [Lung metastases](disease) of the reason Ok
+- How would Give birth [Foreign body in the respiratory tract](disease) Yeah
+- How would Worthy of [Benzene poisoning](disease) what
+- Got it [Lung cancer](disease) Cause Acridine
+- How would [Lung metastases](disease) Acridine
+- Give birth [Benzene poisoning](disease) Cause Ok
+- Will lead to gave birth [Pulmonary-pleural amebiasis](disease) Ah
+- How would Got it [Mercury poisoning](disease) Ah
+- why Give birth [Lung cancer](disease) what
+- how come [Bullae](disease) Is it
+- Worthy of [Building Sick Syndrome](disease) Cause Yeah
+- Got it [Pulmonary Aspergillosis](disease) the reason Is it
+- How would Catch [Foreign body in the respiratory tract](disease) what
+- Catch [Septic shock](disease) the reason Acridine
+- Will cause gave birth [Lung abscess](disease)
+- why Get [Pulmonary pseudotumor](disease) Yeah
+- Get [Pulmonary Edema](disease) Cause
+- How is it Get [pneumonia](disease) Is it
+- how come infection [pneumonia](disease) Ah
+- [Radiation pneumonia](disease) of Cause Ah
+- Catch [Lung metastases](disease) of Cause
+- infection [Foreign body in the respiratory tract](disease) the reason what
+- How to Catch [pneumonia](disease) what
+- How would infection [cold](disease) Yeah
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) Cause Acridine
+- Suffer [Pulmonary Aspergillosis](disease) of Cause Yeah
+- How to Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) What
+- How to infection [Benzene poisoning](disease) what
+- How will Got it [Pulmonary hemorrhage-nephritis syndrome](disease) Ah
+- Got it [Large amounts of amniotic fluid inhalation](disease) of the reason What
+- [Wheezing bronchitis](disease) of Cause Ok
+- [Adult respiratory distress syndrome](disease) Cause What
+- gave birth [Pulmonary Actinomycosis](disease) the reason Is it
+- gave birth [Alveolar proteinosis](disease) of the reason Is it
+- gave birth [Alveolar proteinosis](disease) Cause Is it
+- How come Got it [pertussis](disease) what
+- How will Catch [Lung metastases](disease) Yeah
+- How come gave birth [Simple pulmonary eosinophilic infiltration](disease) What
+- infection [Pulmonary Aspergillosis](disease) of Cause Is it
+- Give birth [pertussis](disease) Cause Is it
+- Suffer [Pulmonary Cryptococcosis](disease) the reason Ok
+- Worthy of [Pulmonary Candidiasis](disease) the reason Is it
+- Will lead to Get [Septic shock](disease) Ok
+- How come Get [Pulmonary Aspergillosis](disease) What
+- Suffer [Hypersensitivity pneumonia](disease) the reason what
+- How to Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) Acridine
+- How will [Pulmonary-pleural amebiasis](disease) what
+- why Give birth [Adult respiratory distress syndrome](disease) what
+- How to Suffer [pertussis](disease) What
+- How is it Suffer [Pulmonary Cryptococcosis](disease) Yeah
+- How will infection [Foreign body in the respiratory tract](disease)
+- Worthy of [Emphysema](disease) of Cause What
+- How would gave birth [Respiratory bronchiole-related interstitial lung disease](disease) Yeah
+- How is it gave birth [SARS](disease) What
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) of Cause Acridine
+- Why Get [Pulmonary embolism](disease) what
+- gave birth [Wheezing bronchitis](disease) of the reason Is it
+- Will cause gave birth [Carbon disulfide poisoning](disease) Is it
+- How come [Pulmonary-pleural amebiasis](disease) Is it
+- [SARS](disease) of Cause
+- Got it [Radiation pneumonia](disease) of Cause
+- Will lead to gave birth [Pulmonary Aspergillosis](disease)
+- Will lead to Got it [Alveolar proteinosis](disease) what
+- Suffer [Septic shock](disease) the reason Ah
+- How would [Lung metastases](disease) Ok
+- Worthy of [pertussis](disease) Cause Ok
+- infection [Anaphylactic shock](disease) Cause Yeah
+- Suffer [Benzene poisoning](disease) Cause Acridine
+- gave birth [Pulmonary Actinomycosis](disease) of Cause Ok
+- Why Worthy of [Septic shock](disease)
+- why [Foreign body in the respiratory tract](disease) Ah
+- Suffer [Bullae](disease) Cause What
+- Suffer [Lung metastases](disease) of Cause What
+- Will cause Worthy of [pertussis](disease) Yeah
+- How will Worthy of [SARS](disease) Is it
+- How would Suffer [pneumonia](disease) Is it
+- How is it Worthy of [Emphysema](disease) Acridine
+- Why Get [Lung abscess](disease) Is it
+- Why [Septic shock](disease) Ok
+- why Worthy of [Pulmonary Cryptococcosis](disease) What
+- Catch [Pulmonary Aspergillosis](disease) of the reason Acridine
+- [Bacillus pneumoniae pneumonia](disease) Cause Ah
+- How to infection [Pulmonary-pleural amebiasis](disease) what
+- How will Suffer [Adult respiratory distress syndrome](disease) Is it
+- How would Catch [Pulmonary Cryptococcosis](disease) What
+- Worthy of [Radiation pneumonia](disease) the reason
+- Get [Goodpasture syndrome](disease) of the reason
+- How is it Suffer [Alveolar proteinosis](disease) Yeah
+- How will [Alveolar proteinosis](disease) Ah
+- how come Got it [Large amounts of amniotic fluid inhalation](disease) Ah
+- Got it [Foreign body in the respiratory tract](disease) Cause Acridine
+- Give birth [Pneumococcal pneumonia](disease) the reason what
+- why Give birth [Simple pulmonary eosinophilic infiltration](disease) what
+- Will lead to Give birth [Wheezing bronchitis](disease) Ah
+- Will lead to gave birth [Pulmonary embolism](disease)
+- Get [Simple pulmonary eosinophilic infiltration](disease) of the reason Acridine
+- How to Catch [Bacillus pneumoniae pneumonia](disease) What
+- How to Give birth [Adult respiratory distress syndrome](disease) Acridine
+- how come Get [Lung metastases](disease) Ok
+- How would [Pulmonary Aspergillosis](disease) Is it
+- Worthy of [SARS](disease) Cause What
+- how come [Pneumococcal pneumonia](disease) what
+- Suffer [pertussis](disease) of Cause what
+
+## intent:search_neopathy
+- Catch [Cadmium poisoning](disease) No What Appear together Yeah
+- Got it [Benzene poisoning](disease) meeting What Appear together what
+- Give birth [Alveolar proteinosis](disease) Co-occurrence Yeah
+- Got it [Benzene poisoning](disease) meeting No Concurrent
+- infection [Goodpasture syndrome](disease) Happen together Have Yeah
+- Got it [Pneumococcal pneumonia](disease) No Have complication Ah
+- gave birth [pneumonia](disease) Happen together Have Acridine
+- Catch [SARS](disease) What Appear together Ok
+- gave birth [Pulmonary embolism](disease) meeting No Have Co-occurrence Is it
+- Catch [Pneumococcal pneumonia](disease) of Concomitantly Ah
+- Worthy of [Radiation pneumonia](disease) Happen together What Acridine
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) meeting Have What Happen together Yeah
+- Get [Pulmonary embolism](disease) Co-occurrence Yeah
+- Got it [Pulmonary-pleural amebiasis](disease) meeting No complication Ah
+- Catch [Pulmonary pseudotumor](disease) Appear together Yeah
+- Got it [Benzene poisoning](disease) Have Happen together What
+- infection [Benzene poisoning](disease) of Appear together What Yeah
+- Catch [Pulmonary bullae](disease) Appear together Have What
+- [SARS](disease) Appear together What Ah
+- Catch [Pneumococcal pneumonia](disease) No Have What Concurrent Yeah
+- Get [Alveolar proteinosis](disease) What Co-occurrence Is it
+- Get [Lung cancer](disease) No Appear together Ok
+- Give birth [Mercury poisoning](disease) What complication What
+- Catch [Pulmonary embolism](disease) Have What Happen together
+- Give birth [Adult respiratory distress syndrome](disease) complication Have What What
+- Suffer [Pulmonary Actinomycosis](disease) Happen together Have Yeah
+- infection [Hypersensitivity pneumonia](disease) meeting What Appear together What
+- Give birth [Pulmonary Cryptococcosis](disease) of complication Have What
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) of Appear together Have What What
+- Suffer [Bacillus pneumoniae pneumonia](disease) meeting No Appear together Acridine
+- infection [Lung abscess](disease) No What Appear together
+- Catch [Radiation pneumonia](disease) of Appear together Have Yeah
+- gave birth [Carbon disulfide poisoning](disease) meeting What Happen together
+- Worthy of [Pulmonary Aspergillosis](disease) of complication Have What Yeah
+- infection [Lung abscess](disease) of Happen together Have Acridine
+- Worthy of [Adult respiratory distress syndrome](disease) No Concomitantly Ah
+- gave birth [Carbon disulfide poisoning](disease) What Appear together Ah
+- Catch [Pulmonary Edema](disease) of Happen together Have Is it
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) of Accompanying What
+- Catch [Pulmonary Candidiasis](disease) meeting No Happen together Yeah
+- [Pulmonary Edema](disease) meeting No Have What Appear together Is it
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) No Accompanying Is it
+- Got it [Simple pulmonary eosinophilic infiltration](disease) meeting No complication Acridine
+- Suffer [pertussis](disease) No Have What Concomitantly What
+- [Building Sick Syndrome](disease) No What Happen together what
+- Get [Pulmonary Cryptococcosis](disease) Happen together What Acridine
+- [Radiation pneumonia](disease) of Happen together What Acridine
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) of Co-occurrence Have What Yeah
+- Got it [Lung metastases](disease) Happen together What Yeah
+- Get [Septic shock](disease) meeting Accompanying Yeah
+- Suffer [Pulmonary-pleural amebiasis](disease) meeting No Have What Appear together what
+- [Cadmium poisoning](disease) Appear together Is it
+- Get [Pulmonary Actinomycosis](disease) of Appear together Have Yeah
+- infection [SARS](disease) of Happen together Have What
+- gave birth [Pulmonary Candidiasis](disease) of Appear together Have What What
+- infection [Large amounts of amniotic fluid inhalation](disease) Appear together What Is it
+- Suffer [Pulmonary bullae](disease) meeting No Have Appear together Acridine
+- Suffer [Pulmonary-pleural amebiasis](disease) of Happen together Have What Yeah
+- Get [Radiation pneumonia](disease) of Accompanying Have Ok
+- Give birth [Pneumococcal pneumonia](disease) meeting Have What Happen together Ah
+- Worthy of [pertussis](disease) Appear together Have What
+- Worthy of [Lung abscess](disease) Appear together what
+- Got it [SARS](disease) meeting No Have What Happen together Is it
+- Get [Pulmonary Cryptococcosis](disease) of Co-occurrence What Yeah
+- gave birth [Pulmonary Aspergillosis](disease) What Appear together Yeah
+- Give birth [Septic shock](disease) Accompanying Acridine
+- [Lung abscess](disease) What Concurrent
+- Got it [Pulmonary Cryptococcosis](disease) of Happen together What Yeah
+- Got it [Foreign body in the respiratory tract](disease) of Accompanying What Yeah
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Concurrent Have What
+- [Pneumococcal pneumonia](disease) meeting Have Concurrent Is it
+- Worthy of [Pulmonary embolism](disease) meeting Have Appear together Yeah
+- gave birth [Bullae](disease) Appear together Have What
+- Suffer [Alveolar proteinosis](disease) No Have Co-occurrence
+- Give birth [Pulmonary Aspergillosis](disease) No Have Appear together Ah
+- Worthy of [Building Sick Syndrome](disease) of Happen together Yeah
+- Worthy of [Benzene poisoning](disease) Have What Appear together What
+- Get [Lung metastases](disease) of Accompanying What What
+- Worthy of [Pulmonary Aspergillosis](disease) meeting No What Appear together Ok
+- Got it [Cadmium poisoning](disease) Concomitantly Have What Ok
+- Catch [Lung abscess](disease) Appear together what
+- Get [Goodpasture syndrome](disease) No What complication what
+- Worthy of [Pulmonary embolism](disease) meeting No Have complication Ah
+- infection [Wheezing bronchitis](disease) meeting No Have What Concomitantly Acridine
+- gave birth [Anaphylactic shock](disease) Have Appear together Yeah
+- Suffer [Goodpasture syndrome](disease) of Accompanying What
+- Got it [Lung cancer](disease) of Happen together What What
+- Catch [Benzene poisoning](disease) meeting No complication Acridine
+- Got it [Goodpasture syndrome](disease) meeting Have Co-occurrence Ah
+- Got it [Simple pulmonary eosinophilic infiltration](disease) Happen together what
+- Worthy of [Goodpasture syndrome](disease) meeting Have complication Ok
+- Catch [Benzene poisoning](disease) meeting Have Appear together
+- Catch [pertussis](disease) of Happen together Have What Acridine
+- Give birth [Lung abscess](disease) meeting No What Happen together Ah
+- Give birth [Anaphylactic shock](disease) of Accompanying
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) complication What Yeah
+- Worthy of [Alveolar proteinosis](disease) of Concurrent What
+- Suffer [Bacillus pneumoniae pneumonia](disease) of Co-occurrence Have What
+- Catch [Carbon disulfide poisoning](disease) meeting No Co-occurrence Ok
+- [Hypersensitivity pneumonia](disease) of complication Have What Ok
+- Got it [pertussis](disease) meeting Accompanying Ok
+- Get [Emphysema](disease) meeting No Have What Happen together Ok
+- gave birth [Pulmonary Aspergillosis](disease) complication Ok
+- Give birth [Carbon disulfide poisoning](disease) Appear together what
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) Appear together
+- Give birth [Pulmonary embolism](disease) No What Happen together
+- Catch [Mercury poisoning](disease) Appear together Have Ah
+- Suffer [Lung cancer](disease) of complication Have Acridine
+- Worthy of [Building Sick Syndrome](disease) meeting No Co-occurrence
+- [Lung cancer](disease) No Have What Happen together Ah
+- Get [Lobar Pneumonia](disease) Accompanying
+- gave birth [Wheezing bronchitis](disease) Concurrent Acridine
+- Suffer [Foreign body in the respiratory tract](disease) of Appear together What
+- Got it [Pulmonary Aspergillosis](disease) of Accompanying What
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) No Happen together Acridine
+- Suffer [Alveolar proteinosis](disease) meeting Have Concomitantly what
+- infection [Bullae](disease) Appear together Have Acridine
+- Get [Anaphylactic shock](disease) Have What Concomitantly What
+- [Adult respiratory distress syndrome](disease) meeting Happen together what
+- Catch [Anaphylactic shock](disease) Concurrent What Ok
+- Worthy of [Building Sick Syndrome](disease) No What Happen together Ah
+- Suffer [Pulmonary Candidiasis](disease) of Accompanying What Yeah
+- Give birth [Pulmonary pseudotumor](disease) What Accompanying what
+- [Pulmonary Cryptococcosis](disease) meeting What Concurrent Yeah
+- Get [Alveolar proteinosis](disease) of Happen together Have Acridine
+- Got it [Lung abscess](disease) of Happen together Have What Ah
+- Worthy of [Pulmonary embolism](disease) Happen together Have Ah
+- Catch [Septic shock](disease) Appear together What Ok
+- infection [Lung abscess](disease) Appear together Ah
+- Give birth [pertussis](disease) No What Happen together Acridine
+- Worthy of [Wheezing bronchitis](disease) No Have What Appear together Acridine
+- Get [Emphysema](disease) of Accompanying Have What
+- [Wheezing bronchitis](disease) of Happen together What Ok
+- gave birth [Bacillus pneumoniae pneumonia](disease) meeting Have Concurrent Acridine
+- Got it [cold](disease) No Have What Appear together what
+- Worthy of [Pulmonary bullae](disease) meeting No Have What Appear together Ok
+- gave birth [Pulmonary embolism](disease) Appear together What Yeah
+- Worthy of [Goodpasture syndrome](disease) of Co-occurrence What what
+- Catch [Foreign body in the respiratory tract](disease) of Concurrent Have What Ok
+- Suffer [Pneumococcal pneumonia](disease) meeting No What Appear together what
+- [Lung cancer](disease) Have Appear together what
+- gave birth [Carbon disulfide poisoning](disease) Appear together Have What What
+- [Pulmonary pseudotumor](disease) No Have What Appear together Ah
+- Suffer [SARS](disease) Have What Appear together what
+- Worthy of [Radiation pneumonia](disease) Happen together Have What
+- [Septic shock](disease) meeting No Concurrent Yeah
+- gave birth [cold](disease) Concurrent Ok
+- Worthy of [Bullae](disease) meeting No What Accompanying What
+- Got it [Pulmonary embolism](disease) No Have Accompanying what
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) Happen together Have What What
+- infection [Pulmonary bullae](disease) What Appear together
+- Get [Lung abscess](disease) of Accompanying
+- Get [Goodpasture syndrome](disease) What Co-occurrence What
+- gave birth [Septic shock](disease) meeting What Happen together what
+- Suffer [Pulmonary embolism](disease) No Have What Happen together Acridine
+- Get [Pulmonary embolism](disease) No Co-occurrence
+- Suffer [Carbon disulfide poisoning](disease) Concurrent Have What Acridine
+- Suffer [Lung cancer](disease) of complication Have What Is it
+- Got it [Lobar Pneumonia](disease) Appear together Have What
+- Catch [cold](disease) meeting Have What Co-occurrence Ok
+- [Pulmonary Candidiasis](disease) of Concomitantly Have Is it
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) meeting What Appear together Ok
+- Suffer [pneumonia](disease) meeting No Have Accompanying Yeah
+- Get [cold](disease) of Happen together What
+- Suffer [Hypersensitivity pneumonia](disease) Concomitantly Have What Ok
+- Catch [Bullae](disease) meeting No Have Appear together Ok
+- Suffer [Radiation pneumonia](disease) No What Concomitantly Ok
+- Got it [Simple pulmonary eosinophilic infiltration](disease) of complication Ah
+- gave birth [Bacillus pneumoniae pneumonia](disease) of Happen together What What
+- Suffer [Pulmonary-pleural amebiasis](disease) Appear together Have What Is it
+- infection [Bacillus pneumoniae pneumonia](disease) No What Concomitantly what
+- Got it [Emphysema](disease) No Happen together what
+- Worthy of [Radiation pneumonia](disease) Appear together What Ok
+- Catch [Large amounts of amniotic fluid inhalation](disease) of Co-occurrence Ok
+- infection [Large amounts of amniotic fluid inhalation](disease) of Appear together What What
+- gave birth [Pulmonary-pleural amebiasis](disease) meeting What Happen together Is it
+- [Benzene poisoning](disease) of Co-occurrence What Acridine
+- Get [Pulmonary Cryptococcosis](disease) of Appear together Have What
+- infection [Pulmonary pseudotumor](disease) meeting Have What Concomitantly Acridine
+- Worthy of [Bacillus pneumoniae pneumonia](disease) of Happen together What Acridine
+- Give birth [Bullae](disease) of Accompanying Have What
+- Suffer [Lung abscess](disease) Happen together
+- Get [Pulmonary pseudotumor](disease) Have Happen together Ok
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) complication Have Ok
+- Suffer [Carbon disulfide poisoning](disease) meeting What Concurrent What
+- Catch [Lung cancer](disease) of Co-occurrence What Is it
+- Get [Lobar Pneumonia](disease) Concurrent Have Ah
+- Suffer [Cadmium poisoning](disease) Accompanying Yeah
+- infection [Pulmonary pseudotumor](disease) Concurrent what
+- Got it [Anaphylactic shock](disease) of Appear together What Ah
+- gave birth [cold](disease) of Happen together Have
+- Give birth [Lung abscess](disease) Concurrent Have Ah
+- Suffer [Cadmium poisoning](disease) Have Appear together
+- Worthy of [Pulmonary-pleural amebiasis](disease) Concomitantly
+- Suffer [Mercury poisoning](disease) meeting Happen together Acridine
+- infection [Cadmium poisoning](disease) meeting Concomitantly Is it
+- Get [Bacillus pneumoniae pneumonia](disease) Appear together Have What
+- Worthy of [Alveolar proteinosis](disease) of Accompanying Have What Yeah
+- Give birth [Cadmium poisoning](disease) meeting No Have Concomitantly What
+- gave birth [Radiation pneumonia](disease) meeting No Appear together What
+- Give birth [Pneumococcal pneumonia](disease) Appear together Have What Ok
+- Got it [Foreign body in the respiratory tract](disease) Appear together What Acridine
+- Worthy of [Pneumococcal pneumonia](disease) Happen together Have what
+- [Benzene poisoning](disease) Have complication Ok
+- Give birth [Radiation pneumonia](disease) Happen together Have What Acridine
+- [Respiratory bronchiole-related interstitial lung disease](disease) of complication Have What what
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) Co-occurrence Have What Ah
+- [Wheezing bronchitis](disease) meeting No Concomitantly what
+- Catch [SARS](disease) of Appear together Have
+- [SARS](disease) Co-occurrence Is it
+- Catch [Pulmonary pseudotumor](disease) What complication What
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) of Happen together Have What what
+- Got it [Septic shock](disease) meeting No Have What Appear together Is it
+- Give birth [Building Sick Syndrome](disease) complication Have Is it
+- infection [cold](disease) Appear together Have What
+- Got it [Cadmium poisoning](disease) No Appear together Yeah
+- Got it [Pulmonary Actinomycosis](disease) of Concomitantly What Acridine
+- [Mercury poisoning](disease) No Have Appear together Ah
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) Appear together Have What Is it
+- [Anaphylactic shock](disease) No What Appear together What
+- Got it [Carbon disulfide poisoning](disease) meeting What Happen together Yeah
+- Suffer [Foreign body in the respiratory tract](disease) No What Appear together Ah
+- Worthy of [Cadmium poisoning](disease) No What Appear together what
+- Got it [Pulmonary embolism](disease) meeting Have Happen together
+- Got it [Lung cancer](disease) Accompanying Have What Ah
+- Worthy of [Emphysema](disease) of Happen together What What
+- gave birth [cold](disease) of Accompanying What What
+- Worthy of [Anaphylactic shock](disease) Accompanying Have What Acridine
+- Worthy of [Alveolar proteinosis](disease) meeting Have complication Yeah
+- Get [Building Sick Syndrome](disease) Co-occurrence Is it
+- gave birth [Benzene poisoning](disease) Have What Concurrent what
+- Got it [Alveolar proteinosis](disease) No Have Accompanying What
+- Suffer [Pulmonary Edema](disease) Accompanying Have Is it
+- gave birth [Lung metastases](disease) meeting No Happen together Ok
+- gave birth [Large amounts of amniotic fluid inhalation](disease) meeting Have What Accompanying Ah
+- Give birth [Pulmonary Aspergillosis](disease) of Happen together what
+- Get [Benzene poisoning](disease) No Have Concomitantly Ok
+- Got it [Pulmonary-pleural amebiasis](disease) No Appear together Is it
+- Get [Radiation pneumonia](disease) Concomitantly Have What Ah
+- Worthy of [Benzene poisoning](disease) Accompanying Have Acridine
+- Suffer [Radiation pneumonia](disease) Have What Co-occurrence What
+- Suffer [Pulmonary Actinomycosis](disease) What complication Is it
+- Suffer [pneumonia](disease) meeting Have What Appear together what
+- [Wheezing bronchitis](disease) meeting No Have What Appear together
+- [Pulmonary pseudotumor](disease) Appear together Have what
+- Suffer [Lobar Pneumonia](disease) meeting What Appear together what
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Concomitantly Ah
+- Get [Mercury poisoning](disease) No Have Appear together Yeah
+- gave birth [Pulmonary Actinomycosis](disease) Appear together What what
+- infection [Pulmonary Actinomycosis](disease) meeting No Have What Concurrent Yeah
+- Get [Septic shock](disease) meeting Have Appear together Yeah
+- [Alveolar proteinosis](disease) Concurrent what
+- [Bacillus pneumoniae pneumonia](disease) Have Appear together What
+- Give birth [Pulmonary-pleural amebiasis](disease) of Appear together Ah
+- Suffer [Goodpasture syndrome](disease) No Have Appear together
+- [pneumonia](disease) No What Concomitantly Ah
+- Got it [Adult respiratory distress syndrome](disease) Accompanying Have What Acridine
+- Got it [Anaphylactic shock](disease) No What Accompanying Acridine
+- Worthy of [Lung cancer](disease) No Have What Happen together Yeah
+- Get [Pulmonary-pleural amebiasis](disease) No Concurrent Acridine
+- [Respiratory bronchiole-related interstitial lung disease](disease) Concomitantly Have what
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) meeting What Concomitantly
+- [pneumonia](disease) meeting Have What Concomitantly What
+- Catch [Lung cancer](disease) Appear together What
+- Suffer [Lobar Pneumonia](disease) No What Co-occurrence Acridine
+- infection [Lung cancer](disease) Appear together What
+- Catch [SARS](disease) Happen together Have What
+- infection [Large amounts of amniotic fluid inhalation](disease) Concurrent What
+- gave birth [Lung abscess](disease) What Happen together Yeah
+- Catch [Benzene poisoning](disease) What Appear together Acridine
+- [Bullae](disease) complication Have What Is it
+- infection [Pneumococcal pneumonia](disease) meeting What Happen together Is it
+- gave birth [Anaphylactic shock](disease) Concurrent Have What Yeah
+- Catch [cold](disease) meeting Have What Appear together
+- [Pulmonary pseudotumor](disease) Co-occurrence What what
+- Worthy of [Pulmonary embolism](disease) Appear together What what
+- Get [Pneumococcal pneumonia](disease) Have Happen together Ah
+- Got it [Pulmonary embolism](disease) meeting No Have Appear together what
+- Suffer [Wheezing bronchitis](disease) No Have Happen together
+- Give birth [Pneumococcal pneumonia](disease) No What Concurrent
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) meeting No Concurrent Is it
+- infection [Radiation pneumonia](disease) of Happen together What Yeah
+- [Alveolar proteinosis](disease) meeting No Have Accompanying Yeah
+- Worthy of [Benzene poisoning](disease) meeting No Have What Co-occurrence Ah
+- Worthy of [SARS](disease) What Appear together What
+- Give birth [Bullae](disease) What Accompanying
+- Get [Carbon disulfide poisoning](disease) Appear together Have What Acridine
+- infection [Benzene poisoning](disease) of Appear together What what
+- Got it [Pulmonary-pleural amebiasis](disease) of complication What Acridine
+- Get [SARS](disease) meeting No Have Happen together Acridine
+- Worthy of [Bacillus pneumoniae pneumonia](disease) meeting Have What Concurrent
+- Give birth [Adult respiratory distress syndrome](disease) of Appear together Acridine
+- Got it [Mercury poisoning](disease) of Accompanying What Ah
+- [pertussis](disease) Appear together What
+- infection [Lung metastases](disease) Concomitantly Have Is it
+- Catch [Septic shock](disease) meeting Happen together what
+- Catch [Large amounts of amniotic fluid inhalation](disease) Appear together What Acridine
+- [Benzene poisoning](disease) of Co-occurrence Ok
+- Got it [Lung metastases](disease) meeting No Happen together Is it
+- Catch [Lung cancer](disease) of Appear together Have What Acridine
+- Worthy of [pertussis](disease) No What Appear together What
+- Catch [Foreign body in the respiratory tract](disease) meeting What Happen together Is it
+- Get [Pulmonary Actinomycosis](disease) of Accompanying Yeah
+- infection [Lung abscess](disease) of Appear together Have Is it
+- Suffer [cold](disease) Appear together Have What What
+- Get [Pulmonary embolism](disease) Happen together Have Yeah
+- Got it [SARS](disease) of Accompanying Have Yeah
+- infection [Anaphylactic shock](disease) of Happen together What Ok
+- [Emphysema](disease) of Appear together Have What
+- Catch [Large amounts of amniotic fluid inhalation](disease) of Appear together Have What Ok
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) of Happen together Have what
+- [Lung metastases](disease) Happen together Have What Ah
+- Suffer [pneumonia](disease) Accompanying what
+- Catch [Septic shock](disease) Have What Happen together what
+- Worthy of [Alveolar proteinosis](disease) meeting No What Happen together Ok
+- Worthy of [Pneumococcal pneumonia](disease) meeting Concurrent
+- Got it [Cadmium poisoning](disease) of Appear together What Ok
+- gave birth [pertussis](disease) Appear together What Ah
+- infection [Bacillus pneumoniae pneumonia](disease) meeting What Concomitantly Acridine
+- Get [Pneumococcal pneumonia](disease) No Have Accompanying
+- Worthy of [Anaphylactic shock](disease) meeting Have Appear together what
+- Got it [Lung abscess](disease) No Happen together what
+- Got it [Bacillus pneumoniae pneumonia](disease) of Appear together Have What Ah
+- Got it [pneumonia](disease) No Have What Accompanying Is it
+- Give birth [Radiation pneumonia](disease) of complication What Ah
+- Get [Pulmonary bullae](disease) Co-occurrence Have
+- gave birth [Carbon disulfide poisoning](disease) meeting No Have What complication Ok
+- Got it [Pulmonary Aspergillosis](disease) Appear together What what
+- Suffer [Pulmonary Actinomycosis](disease) of Happen together Have Is it
+- [pertussis](disease) meeting No What Concomitantly Ah
+- Suffer [pneumonia](disease) of Appear together What Ok
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) meeting What Happen together
+- Get [Anaphylactic shock](disease) What Happen together
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) No What Concomitantly
+- infection [Lung abscess](disease) Have What Appear together What
+- Got it [Radiation pneumonia](disease) of Concurrent What what
+- Worthy of [Lung abscess](disease) of Happen together Have Ok
+- Worthy of [Pneumococcal pneumonia](disease) of Co-occurrence Is it
+- Get [Hypersensitivity pneumonia](disease) Have What Happen together What
+- Catch [Radiation pneumonia](disease) Happen together Have Is it
+- gave birth [Emphysema](disease) No Have Concurrent Acridine
+- Get [Pulmonary Edema](disease) of Concurrent What Yeah
+- gave birth [Pulmonary Actinomycosis](disease) Concurrent Have What What
+- infection [Large amounts of amniotic fluid inhalation](disease) No Have What complication Is it
+- Got it [Alveolar proteinosis](disease) No Happen together Yeah
+- Suffer [Alveolar proteinosis](disease) Co-occurrence What
+- Suffer [Bullae](disease) No What Appear together Yeah
+- Suffer [Wheezing bronchitis](disease) complication What Ah
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) Co-occurrence What
+- gave birth [Carbon disulfide poisoning](disease) meeting Co-occurrence What
+- Give birth [Large amounts of amniotic fluid inhalation](disease) No Have Accompanying Ok
+- Get [Adult respiratory distress syndrome](disease) No Have Co-occurrence what
+- gave birth [Emphysema](disease) of Appear together
+- Suffer [Pulmonary-pleural amebiasis](disease) Appear together What Yeah
+- Worthy of [Alveolar proteinosis](disease) Appear together Have Ok
+- Suffer [Lung abscess](disease) Appear together Have What
+- Suffer [Benzene poisoning](disease) complication Have Acridine
+- Catch [Adult respiratory distress syndrome](disease) What Appear together Ah
+- Give birth [Pulmonary-pleural amebiasis](disease) complication what
+- Catch [cold](disease) No Have Concurrent Ok
+- [Pulmonary embolism](disease) of Concurrent What Ah
+- Suffer [Goodpasture syndrome](disease) Co-occurrence What What
+- infection [Pneumococcal pneumonia](disease) No Appear together Ah
+- gave birth [Building Sick Syndrome](disease) meeting Have What Happen together what
+- Suffer [Anaphylactic shock](disease) What Concomitantly Yeah
+- Worthy of [Septic shock](disease) of Appear together Acridine
+- [Lung abscess](disease) meeting What Concurrent
+- [Foreign body in the respiratory tract](disease) No Appear together Is it
+- Get [Radiation pneumonia](disease) of Concomitantly What Acridine
+- Give birth [Bullae](disease) of Appear together What Ah
+- Catch [Simple pulmonary eosinophilic infiltration](disease) of Co-occurrence Have Ok
+- Get [pertussis](disease) Happen together Have Ah
+- gave birth [Anaphylactic shock](disease) meeting Happen together Yeah
+- [pneumonia](disease) Have Happen together Yeah
+- infection [Simple pulmonary eosinophilic infiltration](disease) Concomitantly What Yeah
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) of Appear together Have What what
+- Catch [pneumonia](disease) No Have Accompanying Acridine
+- Catch [SARS](disease) Accompanying Acridine
+- Suffer [pertussis](disease) of Happen together Have Is it
+- Suffer [Building Sick Syndrome](disease) meeting No complication Is it
+- gave birth [Large amounts of amniotic fluid inhalation](disease) of Appear together What What
+- Give birth [Anaphylactic shock](disease) What Appear together Acridine
+- Suffer [Anaphylactic shock](disease) meeting Have Accompanying
+- infection [Alveolar proteinosis](disease) No Have Happen together What
+- gave birth [Pulmonary Cryptococcosis](disease) meeting No Have complication Is it
+- infection [Anaphylactic shock](disease) Happen together Have Acridine
+- infection [Building Sick Syndrome](disease) Happen together Have What Yeah
+- infection [Lung metastases](disease) Have What Happen together what
+- gave birth [Lung abscess](disease) of Concomitantly Have What Acridine
+- [cold](disease) meeting Accompanying
+- Worthy of [Septic shock](disease) meeting Have Appear together Ok
+- Worthy of [Bullae](disease) meeting No What Appear together Ah
+- Get [Lung metastases](disease) of Appear together Have What
+- Get [Pulmonary Actinomycosis](disease) Concurrent Is it
+- [Hypersensitivity pneumonia](disease) Concomitantly What What
+- gave birth [Goodpasture syndrome](disease) Have What Appear together what
+- Suffer [Lung metastases](disease) Appear together What Ah
+- Suffer [Pulmonary Edema](disease) Have What Appear together Ok
+- [Goodpasture syndrome](disease) No complication Is it
+- Got it [Pulmonary-pleural amebiasis](disease) Appear together What Ah
+- Suffer [Goodpasture syndrome](disease) meeting No Concomitantly What
+- Worthy of [Wheezing bronchitis](disease) meeting Have What Happen together Yeah
+- infection [Pulmonary Cryptococcosis](disease) Happen together Yeah
+- Got it [Pulmonary Actinomycosis](disease) meeting What Appear together
+- gave birth [Alveolar proteinosis](disease) Happen together what
+- gave birth [SARS](disease) meeting Have Happen together what
+- Catch [Wheezing bronchitis](disease) of Co-occurrence Have What Acridine
+- [Hypersensitivity pneumonia](disease) Co-occurrence What What
+- Get [SARS](disease) Appear together Have What Ah
+- infection [Pulmonary bullae](disease) Happen together What
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) of Appear together Have What What
+- Give birth [cold](disease) complication What Ah
+- Give birth [pneumonia](disease) Accompanying Ok
+- infection [Lung abscess](disease) meeting Have What Appear together Ok
+- infection [Carbon disulfide poisoning](disease) of Appear together Have What
+- infection [Septic shock](disease) of Concurrent Have what
+- infection [Bullae](disease) Accompanying Have Ah
+- Get [Simple pulmonary eosinophilic infiltration](disease) meeting What Appear together
+- Suffer [Lung metastases](disease) of Concurrent Have What Yeah
+- infection [Simple pulmonary eosinophilic infiltration](disease) Appear together Have Yeah
+- infection [Pulmonary Aspergillosis](disease) meeting Have What Appear together Is it
+- Worthy of [Pulmonary Cryptococcosis](disease) of Appear together Have What
+- Worthy of [Bacillus pneumoniae pneumonia](disease) No Have What Happen together
+- Give birth [Pulmonary bullae](disease) No Have Happen together Ok
+- Suffer [Pulmonary Candidiasis](disease) Appear together Have What What
+- Give birth [Alveolar proteinosis](disease) of Accompanying Ok
+- Give birth [Alveolar proteinosis](disease) of Concurrent Have What
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) of Appear together What Acridine
+- Got it [Mercury poisoning](disease) of Happen together Have What Acridine
+- Catch [Pulmonary Candidiasis](disease) meeting No Appear together Ok
+- Suffer [Goodpasture syndrome](disease) Concomitantly Ok
+- Catch [Lung cancer](disease) meeting No What Happen together Ah
+- infection [Alveolar proteinosis](disease) meeting Appear together What
+- Give birth [Radiation pneumonia](disease) of Happen together What
+- Get [Emphysema](disease) of Concurrent what
+- Worthy of [Pulmonary Edema](disease) Appear together Have What What
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) meeting What Concomitantly what
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) meeting Accompanying Acridine
+- infection [Wheezing bronchitis](disease) Happen together Have What
+- Suffer [Pulmonary Candidiasis](disease) meeting Have Appear together Ok
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) No complication what
+- Give birth [Benzene poisoning](disease) Happen together Have Yeah
+- Suffer [Lung metastases](disease) No Have What complication Ok
+- [Pulmonary bullae](disease) meeting Have What Appear together Ok
+- Catch [Pulmonary bullae](disease) of Concurrent What
+- gave birth [Pulmonary Cryptococcosis](disease) meeting Have What Appear together Ah
+- Suffer [Bacillus pneumoniae pneumonia](disease) What Co-occurrence Acridine
+- Suffer [Pulmonary bullae](disease) Co-occurrence What Ah
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) No Have What complication Is it
+- Catch [Lung abscess](disease) meeting No What Happen together Yeah
+- Give birth [Bacillus pneumoniae pneumonia](disease) Have What Co-occurrence Acridine
+- Suffer [Lung cancer](disease) meeting No Have Appear together Yeah
+- gave birth [Bacillus pneumoniae pneumonia](disease) meeting Co-occurrence Ok
+- Got it [Alveolar proteinosis](disease) meeting What Happen together Yeah
+- Give birth [pneumonia](disease) Concomitantly Ah
+- gave birth [Pulmonary-pleural amebiasis](disease) Happen together What Acridine
+- Suffer [Mercury poisoning](disease) Happen together Have Ok
+- [Pulmonary-pleural amebiasis](disease) meeting Happen together Yeah
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) complication Is it
+- Suffer [Bullae](disease) meeting What Co-occurrence What
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) meeting No Have What Happen together
+- Give birth [Radiation pneumonia](disease) of Appear together What What
+- [Pulmonary Actinomycosis](disease) of Appear together Is it
+- Get [pertussis](disease) Appear together Ah
+- Get [Pulmonary Actinomycosis](disease) No What Happen together Acridine
+- infection [Pulmonary-pleural amebiasis](disease) meeting Have What Concomitantly Ah
+- Worthy of [Pulmonary Cryptococcosis](disease) meeting No What Appear together Acridine
+- Worthy of [Pulmonary Cryptococcosis](disease) of Happen together What Ok
+- [Pulmonary Cryptococcosis](disease) Have complication What
+- Got it [pertussis](disease) meeting Appear together What
+- Got it [Pulmonary Candidiasis](disease) of Appear together Have What Is it
+- Catch [Lung abscess](disease) No What Appear together what
+- Suffer [Alveolar proteinosis](disease) of Appear together Ok
+- infection [Carbon disulfide poisoning](disease) of Concurrent Yeah
+- Catch [Lung metastases](disease) Happen together What What
+- Get [pneumonia](disease) of Appear together what
+- Got it [Pulmonary Actinomycosis](disease) of complication What Ah
+- Give birth [Emphysema](disease) meeting Concomitantly Acridine
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) of Happen together What Acridine
+- Got it [Goodpasture syndrome](disease) Accompanying Yeah
+- Catch [Emphysema](disease) Happen together What
+- Get [Lung abscess](disease) Co-occurrence what
+- [Pulmonary pseudotumor](disease) Have Appear together Is it
+- Catch [Emphysema](disease) Have What Appear together
+- Catch [Cadmium poisoning](disease) No Appear together Acridine
+- infection [Bullae](disease) Have Concomitantly Is it
+- Worthy of [Lung metastases](disease) Have Appear together
+- Suffer [Pulmonary bullae](disease) Happen together What Acridine
+- Worthy of [cold](disease) No What Happen together What
+- Give birth [Pulmonary pseudotumor](disease) Happen together Have Acridine
+- infection [Pneumococcal pneumonia](disease) Appear together Have What Is it
+- Get [cold](disease) Happen together
+- [Foreign body in the respiratory tract](disease) of Appear together what
+- Catch [Emphysema](disease) of Appear together What what
+- Give birth [Septic shock](disease) No Have Happen together Ah
+- [Lung abscess](disease) Co-occurrence Have What
+- gave birth [pneumonia](disease) Accompanying Have What what
+- Catch [Building Sick Syndrome](disease) of Accompanying Have Acridine
+- Get [Lung cancer](disease) Happen together What Ah
+- Give birth [Pneumococcal pneumonia](disease) complication Have Ah
+- Catch [SARS](disease) Concomitantly What
+- infection [Mercury poisoning](disease) No Accompanying Is it
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) Appear together Have What Acridine
+- Give birth [Emphysema](disease) Concurrent Yeah
+- Got it [Wheezing bronchitis](disease) No What Accompanying What
+- Get [Lung metastases](disease) No Have Happen together Ah
+- [Goodpasture syndrome](disease) of Appear together Have Acridine
+- infection [Bullae](disease) Appear together Is it
+- Catch [cold](disease) Appear together Have What Acridine
+- Got it [Simple pulmonary eosinophilic infiltration](disease) Appear together What Acridine
+- gave birth [Pulmonary Aspergillosis](disease) Have Happen together what
+- Worthy of [Alveolar proteinosis](disease) meeting No Have What Appear together Is it
+- Give birth [Pulmonary Aspergillosis](disease) meeting Have Appear together what
+- Got it [Pulmonary embolism](disease) Happen together What
+- [Anaphylactic shock](disease) Appear together What what
+- Catch [Building Sick Syndrome](disease) meeting What Appear together Ok
+- gave birth [Bacillus pneumoniae pneumonia](disease) Have Happen together Yeah
+- Suffer [Pulmonary Aspergillosis](disease) meeting No Co-occurrence Ah
+- Suffer [Lung abscess](disease) Have Happen together
+- Give birth [pertussis](disease) Concurrent Yeah
+- Worthy of [Mercury poisoning](disease) What Accompanying What
+- Catch [Pulmonary-pleural amebiasis](disease) Happen together what
+- Suffer [Alveolar proteinosis](disease) No Appear together What
+- infection [Pulmonary-pleural amebiasis](disease) of complication Have What
+- gave birth [Pneumococcal pneumonia](disease) of complication Have What what
+- Catch [Lung abscess](disease) Have Appear together What
+- [Benzene poisoning](disease) of Happen together Have Ok
+- Worthy of [Pneumococcal pneumonia](disease) Appear together What What
+- Got it [Pulmonary Actinomycosis](disease) No Have Appear together Yeah
+- gave birth [Pulmonary Aspergillosis](disease) meeting Have What Appear together Acridine
+- Catch [SARS](disease) meeting No Have What Appear together What
+- Get [Pulmonary embolism](disease) of Happen together what
+- Get [Pulmonary Aspergillosis](disease) What Concurrent Ah
+- Suffer [Pneumococcal pneumonia](disease) No What Co-occurrence what
+- Worthy of [Lung cancer](disease) of Concomitantly Have Is it
+- Got it [Septic shock](disease) meeting No Have What Happen together what
+- Catch [Emphysema](disease) Appear together Have What Ok
+- Got it [SARS](disease) of Happen together What what
+- Get [Pulmonary Edema](disease) meeting Have What complication What
+- infection [Pulmonary-pleural amebiasis](disease) of Appear together Yeah
+- infection [Lobar Pneumonia](disease) No Happen together Ok
+- Got it [SARS](disease) of complication Have Is it
+- Get [Alveolar proteinosis](disease) meeting Have What Happen together Ok
+- Give birth [Mercury poisoning](disease) Have What Co-occurrence what
+- Worthy of [Lung abscess](disease) of Happen together Have What Is it
+- Got it [Lobar Pneumonia](disease) of Appear together Have Ah
+- Get [Pulmonary Cryptococcosis](disease) meeting Have What Co-occurrence Is it
+- Worthy of [Foreign body in the respiratory tract](disease) Accompanying what
+- [Pulmonary Actinomycosis](disease) meeting What Appear together Acridine
+- Get [Pneumococcal pneumonia](disease) of Happen together Have Acridine
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) meeting Have What Co-occurrence Yeah
+- [Emphysema](disease) meeting Co-occurrence what
+- Worthy of [Bullae](disease) complication What What
+- Give birth [Septic shock](disease) of Appear together Have Ok
+- Worthy of [Lobar Pneumonia](disease) Have What Appear together Ok
+- Give birth [Building Sick Syndrome](disease) of Concomitantly
+- Catch [Pulmonary-pleural amebiasis](disease) of Accompanying Ok
+- Got it [Adult respiratory distress syndrome](disease) Happen together Have Acridine
+- Give birth [Pulmonary Cryptococcosis](disease) Appear together What
+- Worthy of [Pulmonary embolism](disease) Appear together What Is it
+- Got it [Pulmonary embolism](disease) What Appear together what
+- gave birth [Lung cancer](disease) Appear together what
+- Got it [Pneumococcal pneumonia](disease) of Concurrent Have What Yeah
+- Catch [Adult respiratory distress syndrome](disease) of Concomitantly What Is it
+- infection [Septic shock](disease) No Happen together what
+- Worthy of [Lobar Pneumonia](disease) meeting No Have What Co-occurrence Ok
+- Suffer [Pulmonary pseudotumor](disease) of Co-occurrence What Yeah
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) Have What Co-occurrence Ah
+- [Wheezing bronchitis](disease) meeting No Have What Appear together Is it
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) meeting No Co-occurrence Ah
+- [Lung cancer](disease) Have What Accompanying What
+- [Radiation pneumonia](disease) meeting Concurrent What
+- Give birth [Carbon disulfide poisoning](disease) of Happen together Have What What
+- Catch [Benzene poisoning](disease) of Happen together Ah
+- Suffer [Pulmonary bullae](disease) meeting No Appear together what
+- Worthy of [Bacillus pneumoniae pneumonia](disease) meeting No Have What Happen together Ah
+- Give birth [Lung metastases](disease) meeting No Have Appear together Is it
+- infection [SARS](disease) Happen together Is it
+- Give birth [pertussis](disease) Appear together What Yeah
+- gave birth [Wheezing bronchitis](disease) of Happen together Have what
+- Give birth [cold](disease) No complication Yeah
+- Worthy of [Lung cancer](disease) meeting What Appear together Ok
+- gave birth [Pulmonary Edema](disease) of Happen together Have What
+- Got it [Pulmonary Cryptococcosis](disease) of Appear together what
+- [Benzene poisoning](disease) Appear together What Is it
+- Got it [Pulmonary Cryptococcosis](disease) meeting No Have What Accompanying What
+- Suffer [Adult respiratory distress syndrome](disease) Have Happen together Is it
+- gave birth [Adult respiratory distress syndrome](disease) of Appear together Have Ok
+- infection [Lung abscess](disease) meeting Have What Accompanying
+- [Cadmium poisoning](disease) No What Happen together Yeah
+- Give birth [Pulmonary Edema](disease) meeting No Have What Appear together What
+- infection [Goodpasture syndrome](disease) meeting No Have What Happen together Yeah
+- Catch [Emphysema](disease) No Have What complication
+- [pneumonia](disease) of Appear together Have What
+- Give birth [Benzene poisoning](disease) Appear together Is it
+- gave birth [Building Sick Syndrome](disease) Happen together Ah
+- gave birth [Wheezing bronchitis](disease) No Happen together Ok
+- infection [Pulmonary-pleural amebiasis](disease) of Accompanying Is it
+- Got it [Pulmonary Aspergillosis](disease) Happen together What Acridine
+- Worthy of [Adult respiratory distress syndrome](disease) complication What
+- [Radiation pneumonia](disease) Have What Concomitantly Yeah
+- infection [Pulmonary embolism](disease) Have What Accompanying Is it
+- infection [Hypersensitivity pneumonia](disease) Have What Co-occurrence Yeah
+- Worthy of [Adult respiratory distress syndrome](disease) Accompanying Have What Yeah
+- Suffer [Radiation pneumonia](disease) meeting Have What complication Yeah
+- gave birth [Pulmonary pseudotumor](disease) of Happen together What What
+- [pneumonia](disease) meeting What Happen together Ok
+- Worthy of [Hypersensitivity pneumonia](disease) meeting No Have Happen together Ah
+- Get [Pulmonary Cryptococcosis](disease) What Accompanying Ok
+- Worthy of [Carbon disulfide poisoning](disease) of Appear together What
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) Appear together Have What
+- [Building Sick Syndrome](disease) Appear together What Is it
+- infection [Bacillus pneumoniae pneumonia](disease) Concomitantly Have Yeah
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) Happen together What Is it
+- [Large amounts of amniotic fluid inhalation](disease) meeting Have complication Ah
+- Got it [Radiation pneumonia](disease) Have What Accompanying Is it
+- Suffer [Anaphylactic shock](disease) What Appear together Ah
+- infection [Goodpasture syndrome](disease) Happen together Have what
+- [Respiratory bronchiole-related interstitial lung disease](disease) meeting Have What Appear together Acridine
+- Got it [Mercury poisoning](disease) No Appear together Ah
+- Get [Goodpasture syndrome](disease) No complication Yeah
+- Catch [Building Sick Syndrome](disease) Happen together Is it
+- Got it [Radiation pneumonia](disease) of Happen together Is it
+- Give birth [Lobar Pneumonia](disease) Appear together Have What What
+- [pneumonia](disease) of Happen together Have What Is it
+- Catch [Lung abscess](disease) Concomitantly Is it
+- Give birth [Benzene poisoning](disease) Happen together What Ah
+- [Goodpasture syndrome](disease) Happen together Have What Yeah
+- gave birth [Building Sick Syndrome](disease) Appear together Have What
+- Get [Goodpasture syndrome](disease) Happen together Have What What
+- Give birth [Pulmonary Candidiasis](disease) What Happen together Is it
+- Worthy of [Lung abscess](disease) meeting Have Happen together Yeah
+- infection [Emphysema](disease) meeting No What Happen together Is it
+- gave birth [pneumonia](disease) No Have Happen together
+- Get [SARS](disease) meeting No Have What Concomitantly Yeah
+- Give birth [Building Sick Syndrome](disease) of Concurrent What
+- Suffer [Lung metastases](disease) Co-occurrence Have What
+- infection [Bullae](disease) Appear together Have what
+- Got it [Mercury poisoning](disease) No Happen together Ah
+- [Pulmonary bullae](disease) What Concurrent Ok
+- gave birth [Pulmonary Edema](disease) meeting Have Appear together Is it
+- [Anaphylactic shock](disease) meeting No Have What Appear together what
+- Got it [Pulmonary-pleural amebiasis](disease) Accompanying Have what
+- gave birth [Pulmonary Edema](disease) meeting Concurrent
+- Get [Adult respiratory distress syndrome](disease) meeting No complication Ah
+- gave birth [Benzene poisoning](disease) No Have Concomitantly Is it
+- Got it [Carbon disulfide poisoning](disease) of Appear together Have What What
+- Got it [Bullae](disease) of Happen together What Ah
+- Get [Pulmonary Candidiasis](disease) What Happen together What
+- gave birth [Anaphylactic shock](disease) No Have Accompanying Acridine
+- Give birth [Bacillus pneumoniae pneumonia](disease) meeting No Have What Appear together what
+- Give birth [Pulmonary Edema](disease) meeting Have Appear together
+- [Anaphylactic shock](disease) of Happen together Have What
+- Catch [SARS](disease) meeting No Appear together Ah
+- Worthy of [Hypersensitivity pneumonia](disease) Have What Accompanying Acridine
+- Give birth [Bullae](disease) of Co-occurrence Have what
+- Suffer [Anaphylactic shock](disease) meeting What Co-occurrence Yeah
+- gave birth [Pulmonary Edema](disease) meeting No Have Appear together Ah
+- Suffer [Bullae](disease) of Happen together Have What Yeah
+- Worthy of [Pulmonary Aspergillosis](disease) Appear together Yeah
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Concomitantly What Yeah
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) No Have Appear together
+- Get [SARS](disease) of Co-occurrence Have What
+- Catch [Pulmonary Aspergillosis](disease) Have Happen together Acridine
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) meeting No Have What Happen together Is it
+- gave birth [SARS](disease) Have Happen together What
+- gave birth [SARS](disease) Concomitantly Have Acridine
+- Worthy of [Alveolar proteinosis](disease) No Happen together Ok
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) meeting Concomitantly Yeah
+- Give birth [Alveolar proteinosis](disease) meeting Happen together What
+- Worthy of [Wheezing bronchitis](disease) of Appear together Have What Ok
+- Give birth [Lung abscess](disease) Have What Co-occurrence Ah
+- Catch [Lung cancer](disease) No complication Is it
+- Worthy of [pneumonia](disease) of Accompanying Is it
+- Worthy of [Cadmium poisoning](disease) What Appear together What
+- Got it [Emphysema](disease) meeting Have Happen together Acridine
+- [Emphysema](disease) of Concomitantly Have What
+- Suffer [Adult respiratory distress syndrome](disease) No Appear together What
+- infection [Bullae](disease) Have What Appear together Ah
+- Worthy of [Emphysema](disease) meeting Have What Happen together Ah
+- Got it [Emphysema](disease) complication Have What Acridine
+- Got it [Pulmonary Aspergillosis](disease) meeting What Concurrent what
+- [Pulmonary Candidiasis](disease) complication What Ok
+- [Mercury poisoning](disease) of Appear together Ok
+- Got it [pertussis](disease) complication Acridine
+- Get [Carbon disulfide poisoning](disease) of Happen together Have What Ok
+- Get [Pulmonary Candidiasis](disease) Happen together Ok
+- Get [Septic shock](disease) Happen together Acridine
+- Got it [Pneumococcal pneumonia](disease) of Concurrent Have What Ah
+- Get [Lung abscess](disease) meeting What complication Acridine
+- infection [Hypersensitivity pneumonia](disease) of complication What what
+- Catch [Adult respiratory distress syndrome](disease) Concurrent Is it
+- infection [Emphysema](disease) No Have Appear together
+- Got it [Pulmonary bullae](disease) Appear together Have What Is it
+- Worthy of [Adult respiratory distress syndrome](disease) complication Have What Acridine
+- Got it [Emphysema](disease) Accompanying Have Is it
+- [SARS](disease) Happen together Have Ah
+- Catch [Adult respiratory distress syndrome](disease) Appear together what
+- Got it [Pulmonary Actinomycosis](disease) Appear together
+- Catch [Carbon disulfide poisoning](disease) of Concurrent Have What Ok
+- Got it [Radiation pneumonia](disease) of Appear together Ah
+- Catch [Pulmonary Actinomycosis](disease) of Appear together Have What what
+- infection [Lung metastases](disease) of complication Have Acridine
+- gave birth [Goodpasture syndrome](disease) Co-occurrence Is it
+- Worthy of [Building Sick Syndrome](disease) meeting No What complication
+- infection [Goodpasture syndrome](disease) of complication Have What What
+- Worthy of [Lung cancer](disease) Accompanying What
+- Give birth [Lung metastases](disease) of Concurrent Have What Yeah
+- gave birth [cold](disease) Happen together Have What
+- infection [Emphysema](disease) meeting No Have What Happen together Yeah
+- Got it [cold](disease) Have Happen together Ok
+- Worthy of [Pulmonary Cryptococcosis](disease) complication Have What Yeah
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) Happen together Have What Yeah
+- Suffer [Emphysema](disease) Have What Appear together Ok
+- infection [Wheezing bronchitis](disease) Have What Happen together Ok
+- gave birth [Benzene poisoning](disease) Happen together Have Acridine
+- infection [Pulmonary pseudotumor](disease) Appear together Have
+- Give birth [Mercury poisoning](disease) Concomitantly Ok
+- [Building Sick Syndrome](disease) Happen together Have What what
+- Get [Large amounts of amniotic fluid inhalation](disease) Concomitantly What What
+- gave birth [cold](disease) complication What What
+- Give birth [Mercury poisoning](disease) Accompanying What What
+- Catch [Alveolar proteinosis](disease) No Have What Concomitantly what
+- Worthy of [Lung abscess](disease) Concomitantly What Is it
+- Get [Pulmonary Cryptococcosis](disease) Have What Concurrent Yeah
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) No Have Concurrent Is it
+- Catch [Lung cancer](disease) meeting No Have What Appear together Acridine
+- [Goodpasture syndrome](disease) meeting Have What Happen together Acridine
+- infection [Pulmonary Edema](disease) No Have Appear together Is it
+- Catch [Benzene poisoning](disease) Appear together what
+- Suffer [Carbon disulfide poisoning](disease) meeting Have What Happen together What
+- Worthy of [Lung metastases](disease) meeting Have Happen together Ah
+- [Pulmonary pseudotumor](disease) meeting What Co-occurrence Yeah
+- Got it [Pulmonary embolism](disease) No What Appear together Ok
+- [Lobar Pneumonia](disease) No Have Happen together Yeah
+- Worthy of [Bullae](disease) Have What Appear together Is it
+- Give birth [Wheezing bronchitis](disease) No Have What Happen together What
+- [Lung abscess](disease) meeting Have What Happen together What
+- Give birth [Septic shock](disease) meeting No Have What Accompanying Ok
+- gave birth [Bullae](disease) of Appear together What Yeah
+- Got it [cold](disease) No Have What Concurrent Yeah
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) meeting No What Happen together Is it
+- Worthy of [Pulmonary bullae](disease) meeting Happen together Ah
+- Catch [Pulmonary Edema](disease) meeting What Happen together
+- infection [Pulmonary pseudotumor](disease) meeting What Appear together Yeah
+- infection [Pulmonary Candidiasis](disease) No Have Co-occurrence Yeah
+- [Alveolar proteinosis](disease) meeting What Concomitantly Ok
+- Give birth [Wheezing bronchitis](disease) Have What Happen together Ok
+- Got it [Lung cancer](disease) No Concomitantly Is it
+- Suffer [Goodpasture syndrome](disease) Appear together Have Ok
+- Catch [Pulmonary pseudotumor](disease) meeting Have Accompanying Is it
+- gave birth [Pulmonary Aspergillosis](disease) What Co-occurrence Yeah
+- Got it [Lung abscess](disease) meeting No Have Appear together Is it
+- Suffer [Carbon disulfide poisoning](disease) complication Ah
+- Worthy of [Septic shock](disease) meeting Have What Happen together Ok
+- Give birth [Foreign body in the respiratory tract](disease) of Appear together What Ok
+- [Lobar Pneumonia](disease) of Appear together What What
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) meeting No What Appear together what
+- infection [Lung abscess](disease) What complication what
+- [Wheezing bronchitis](disease) No Have Concurrent Yeah
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) Appear together Have
+- gave birth [Foreign body in the respiratory tract](disease) meeting Co-occurrence Is it
+- Get [Anaphylactic shock](disease) of Concurrent Acridine
+- infection [Carbon disulfide poisoning](disease) No Have What Appear together what
+- gave birth [Pulmonary pseudotumor](disease) meeting No Have Happen together Ok
+- Suffer [Adult respiratory distress syndrome](disease) No Have Appear together what
+- [Mercury poisoning](disease) of Concomitantly What Is it
+- Worthy of [Pulmonary Aspergillosis](disease) No Appear together Acridine
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) of Appear together What what
+- Got it [Lobar Pneumonia](disease) meeting No Have Concurrent Is it
+- Get [Pulmonary Aspergillosis](disease) of Appear together Have What Ah
+- gave birth [Lobar Pneumonia](disease) of Appear together Have What what
+- Suffer [Adult respiratory distress syndrome](disease) of Happen together
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) Appear together Is it
+- Got it [Building Sick Syndrome](disease) of Happen together What
+- Worthy of [pneumonia](disease) No What Appear together Ah
+- Get [Pulmonary-pleural amebiasis](disease) No Have complication what
+- [Benzene poisoning](disease) of Concomitantly Have What
+- Get [Alveolar proteinosis](disease) of Happen together Yeah
+- Get [Lung metastases](disease) Appear together What
+- Worthy of [Pulmonary Actinomycosis](disease) of Appear together Yeah
+- gave birth [Lung cancer](disease) Have What Appear together Ah
+- Suffer [Lung cancer](disease) Have Accompanying Yeah
+- Suffer [Adult respiratory distress syndrome](disease) No What Happen together What
+- gave birth [Hypersensitivity pneumonia](disease) of Concomitantly what
+- Give birth [pneumonia](disease) of Happen together Have What Ah
+- Give birth [Lung metastases](disease) meeting No Have What Happen together what
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) of Appear together Have Ah
+- Give birth [Alveolar proteinosis](disease) meeting No Happen together
+- Catch [Building Sick Syndrome](disease) No Have What Happen together what
+- Give birth [Lung cancer](disease) of Concomitantly What
+- Worthy of [cold](disease) Have Concomitantly Ah
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) No Co-occurrence Yeah
+- Suffer [Bullae](disease) Happen together Acridine
+- infection [Bullae](disease) No What Concomitantly Acridine
+- gave birth [Pulmonary embolism](disease) meeting Have What Appear together Is it
+- [Lobar Pneumonia](disease) complication What Acridine
+- Give birth [Foreign body in the respiratory tract](disease) No Happen together What
+- [Bacillus pneumoniae pneumonia](disease) Appear together Have What
+- Suffer [cold](disease) of Concurrent Have Acridine
+- Suffer [Building Sick Syndrome](disease) of Happen together What Ok
+- infection [Bacillus pneumoniae pneumonia](disease) Happen together Is it
+- Worthy of [Lobar Pneumonia](disease) of Concurrent What what
+- infection [Adult respiratory distress syndrome](disease) meeting No Have What Happen together Ah
+- Give birth [Alveolar proteinosis](disease) Happen together Have What What
+- Give birth [Pulmonary Candidiasis](disease) Happen together Have What
+- Worthy of [Hypersensitivity pneumonia](disease) Concurrent What Yeah
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) of Happen together Have Is it
+- infection [Pulmonary embolism](disease) meeting Have complication Acridine
+- infection [Simple pulmonary eosinophilic infiltration](disease) complication Ah
+- Catch [pertussis](disease) meeting Have Accompanying What
+- Suffer [Pulmonary Aspergillosis](disease) meeting complication Yeah
+- gave birth [Pulmonary embolism](disease) No Have Appear together Yeah
+- Get [pertussis](disease) Have What Happen together What
+- infection [Anaphylactic shock](disease) of Happen together Have What Ah
+- Suffer [Radiation pneumonia](disease) Have What Appear together What
+- Get [Bacillus pneumoniae pneumonia](disease) complication What
+- Suffer [Lung abscess](disease) meeting What Appear together Ah
+- Get [Pulmonary Candidiasis](disease) Happen together Have What
+- Worthy of [Pneumococcal pneumonia](disease) of Concomitantly Have Ah
+- Get [Simple pulmonary eosinophilic infiltration](disease) meeting No Appear together Is it
+- Catch [Pulmonary Actinomycosis](disease) meeting Co-occurrence Yeah
+- Get [Septic shock](disease) meeting No Have Appear together Yeah
+- Get [Pulmonary bullae](disease) meeting No What Concomitantly Is it
+- Get [Septic shock](disease) No What Accompanying Acridine
+- gave birth [Septic shock](disease) complication Ok
+- Worthy of [Pulmonary Actinomycosis](disease) Appear together What what
+- Suffer [Bacillus pneumoniae pneumonia](disease) No Appear together Ok
+- Give birth [Adult respiratory distress syndrome](disease) of Co-occurrence Yeah
+- Give birth [Pulmonary Edema](disease) of complication Have Is it
+- [Pulmonary-pleural amebiasis](disease) Have Co-occurrence Is it
+- Worthy of [Lung abscess](disease) No Have What Co-occurrence Is it
+- Give birth [Alveolar proteinosis](disease) of Concomitantly Have What Yeah
+- gave birth [cold](disease) Appear together Yeah
+- Get [Septic shock](disease) Concomitantly What
+- infection [pertussis](disease) No Appear together what
+- gave birth [Pulmonary embolism](disease) meeting No Have What Appear together
+- infection [Bacillus pneumoniae pneumonia](disease) What Co-occurrence
+- Got it [Lung abscess](disease) of Concurrent Have what
+- [Large amounts of amniotic fluid inhalation](disease) meeting No What Accompanying Ok
+- Catch [Bullae](disease) meeting Concurrent What
+- Got it [Pulmonary Edema](disease) No Have What Appear together Acridine
+- Suffer [Pulmonary-pleural amebiasis](disease) meeting No Have Appear together Yeah
+- Worthy of [Alveolar proteinosis](disease) Appear together What what
+- infection [Wheezing bronchitis](disease) Appear together
+- Suffer [Wheezing bronchitis](disease) Have complication what
+- Worthy of [Alveolar proteinosis](disease) of Appear together What What
+- [Building Sick Syndrome](disease) No Have Appear together Yeah
+- gave birth [Wheezing bronchitis](disease) of complication What
+- Catch [Pulmonary bullae](disease) meeting No What Happen together What
+- [Simple pulmonary eosinophilic infiltration](disease) complication Have Ah
+- Suffer [Pulmonary Aspergillosis](disease) of Happen together Acridine
+- Got it [Benzene poisoning](disease) meeting Co-occurrence what
+- gave birth [Pulmonary embolism](disease) of Happen together Have What Acridine
+- Catch [Bullae](disease) No Accompanying what
+- Worthy of [Building Sick Syndrome](disease) of Appear together Ok
+- infection [Lung abscess](disease) Co-occurrence What what
+- infection [Wheezing bronchitis](disease) meeting No Have What Co-occurrence What
+- Get [Radiation pneumonia](disease) No complication Ah
+- Suffer [Anaphylactic shock](disease) Appear together What Yeah
+- Got it [Bullae](disease) meeting No Have What Happen together Is it
+- Catch [Alveolar proteinosis](disease) Happen together Have What Ok
+- Get [Septic shock](disease) of Co-occurrence what
+- infection [Emphysema](disease) Appear together Have What Is it
+- Worthy of [Goodpasture syndrome](disease) meeting Appear together Ok
+- [Goodpasture syndrome](disease) of Happen together What
+- Worthy of [Alveolar proteinosis](disease) Appear together Have What Ah
+- [Pulmonary Cryptococcosis](disease) What Co-occurrence Ok
+- infection [Pulmonary Candidiasis](disease) What Concomitantly what
+- [Pulmonary Aspergillosis](disease) meeting No complication what
+- Worthy of [Pulmonary embolism](disease) No What Concomitantly Is it
+- [Emphysema](disease) of Concomitantly Have Yeah
+- Get [pertussis](disease) of Concomitantly Have What what
+- Catch [Benzene poisoning](disease) meeting No Have What Appear together What
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) of Accompanying Have what
+- gave birth [Carbon disulfide poisoning](disease) No Have Appear together What
+- Got it [Pulmonary-pleural amebiasis](disease) of Happen together What
+- infection [Lobar Pneumonia](disease) of Happen together What What
+- Suffer [Anaphylactic shock](disease) meeting Happen together Ok
+- infection [cold](disease) Concomitantly What Yeah
+- Get [Wheezing bronchitis](disease) Appear together Have what
+- gave birth [Goodpasture syndrome](disease) No Have What Appear together Is it
+- infection [Pulmonary Aspergillosis](disease) of Happen together Ok
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) of Appear together Have
+- gave birth [Cadmium poisoning](disease) complication Have what
+- Catch [Cadmium poisoning](disease) meeting Have What Appear together Is it
+- Suffer [Pulmonary Candidiasis](disease) of Appear together Have Ah
+- Got it [Anaphylactic shock](disease) Co-occurrence Yeah
+- infection [Alveolar proteinosis](disease) of complication Have What
+- Catch [cold](disease) of Appear together Ok
+- Suffer [Pulmonary Cryptococcosis](disease) Co-occurrence Have Ah
+- [Pulmonary pseudotumor](disease) of Concomitantly what
+- Catch [Lobar Pneumonia](disease) meeting Have Co-occurrence Ah
+- Suffer [Cadmium poisoning](disease) No Have What Concurrent Acridine
+- infection [Pulmonary pseudotumor](disease) Have Happen together Ok
+- Suffer [Bacillus pneumoniae pneumonia](disease) meeting No Have What Happen together Ok
+- gave birth [SARS](disease) meeting No Have Happen together What
+- [Pulmonary Actinomycosis](disease) Concomitantly Is it
+- Catch [Pulmonary Actinomycosis](disease) Co-occurrence Have Yeah
+- [Pulmonary Edema](disease) Happen together What What
+- gave birth [Mercury poisoning](disease) Co-occurrence Is it
+- Catch [Alveolar proteinosis](disease) of Appear together Have Is it
+- [Simple pulmonary eosinophilic infiltration](disease) Concurrent Have Ok
+- Worthy of [Lung cancer](disease) meeting No Happen together Is it
+- Get [Lung metastases](disease) of complication Have What Yeah
+- Get [cold](disease) What Happen together what
+- Suffer [Pulmonary Candidiasis](disease) No Have What Happen together Is it
+- Give birth [Lung metastases](disease) of complication What Yeah
+- Give birth [Anaphylactic shock](disease) Concurrent What
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) Happen together What Yeah
+- gave birth [Bullae](disease) No What Happen together Is it
+- Give birth [pertussis](disease) meeting No Happen together Is it
+- Get [Wheezing bronchitis](disease) No complication Yeah
+- Worthy of [Lung cancer](disease) complication Have What what
+- Give birth [Emphysema](disease) meeting What Appear together Ah
+- Got it [Emphysema](disease) of Appear together What
+- gave birth [Pulmonary embolism](disease) meeting Have Happen together Acridine
+- Give birth [Pulmonary Cryptococcosis](disease) Co-occurrence Is it
+- Got it [Pulmonary Aspergillosis](disease) of Concurrent
+- Give birth [SARS](disease) meeting No Co-occurrence Acridine
+- [Pulmonary Edema](disease) No Have What Appear together Ok
+- [Large amounts of amniotic fluid inhalation](disease) meeting No Have Appear together Ah
+- Worthy of [Pulmonary bullae](disease) Co-occurrence Have Ok
+- gave birth [Benzene poisoning](disease) No Appear together Ok
+- infection [Pulmonary embolism](disease) Have What Accompanying Ok
+- Get [Anaphylactic shock](disease) Appear together Have what
+- Worthy of [cold](disease) of Happen together Have
+- Catch [Pulmonary Candidiasis](disease) of Happen together Have What Is it
+- Get [Foreign body in the respiratory tract](disease) complication Is it
+- Suffer [Benzene poisoning](disease) meeting Have What Happen together Is it
+- Suffer [Lobar Pneumonia](disease) Happen together What Ok
+- Catch [Alveolar proteinosis](disease) Have What complication Ok
+- Worthy of [Bullae](disease) Have What Appear together
+- [Hypersensitivity pneumonia](disease) Happen together What What
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) Have What Happen together what
+- Got it [Carbon disulfide poisoning](disease) No Have What Appear together
+- Suffer [Lung abscess](disease) Appear together What Acridine
+- Got it [Foreign body in the respiratory tract](disease) No Appear together Yeah
+- Get [Pulmonary embolism](disease) Happen together What Acridine
+- Got it [Adult respiratory distress syndrome](disease) meeting Have What Co-occurrence
+- Got it [Pulmonary Edema](disease) No Appear together What
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) Appear together Have Ok
+- Catch [Pulmonary Candidiasis](disease) Appear together
+- Suffer [Bacillus pneumoniae pneumonia](disease) No Have Co-occurrence Yeah
+- Give birth [Wheezing bronchitis](disease) meeting No Have What Concurrent Ok
+- Catch [Cadmium poisoning](disease) of Appear together Have Yeah
+- [Wheezing bronchitis](disease) Appear together Have What What
+- Suffer [cold](disease) Happen together Ok
+- Give birth [Carbon disulfide poisoning](disease) complication Have What Is it
+- Give birth [Cadmium poisoning](disease) No Have Co-occurrence what
+- Got it [Lung abscess](disease) Concomitantly Yeah
+- [Pulmonary embolism](disease) of Concurrent Have What Yeah
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) Appear together Have What
+- [Cadmium poisoning](disease) meeting Have Happen together what
+- Give birth [Large amounts of amniotic fluid inhalation](disease) Appear together Have What Ah
+- Get [Alveolar proteinosis](disease) Accompanying Have What Yeah
+- Suffer [Wheezing bronchitis](disease) Happen together What Ok
+- infection [Building Sick Syndrome](disease) meeting Have What Accompanying Acridine
+- Got it [Alveolar proteinosis](disease) Have What Appear together what
+- [Bullae](disease) Have Co-occurrence What
+- gave birth [Septic shock](disease) Happen together Have What What
+- Got it [Emphysema](disease) No Co-occurrence Ah
+- Catch [pertussis](disease) meeting Appear together
+- Worthy of [Bullae](disease) Concurrent What
+- gave birth [Large amounts of amniotic fluid inhalation](disease) Happen together Have What Ok
+- Give birth [Pulmonary Actinomycosis](disease) No Have What complication
+- gave birth [Benzene poisoning](disease) Accompanying What Acridine
+- [Pulmonary Aspergillosis](disease) of Concurrent what
+- [Emphysema](disease) meeting Have What Appear together What
+- Give birth [Pulmonary Aspergillosis](disease) of Co-occurrence What Yeah
+- Worthy of [Pulmonary Cryptococcosis](disease) What Appear together what
+- Catch [Lung abscess](disease) meeting Have Accompanying Acridine
+- Give birth [Simple pulmonary eosinophilic infiltration](disease) of Co-occurrence What
+- Suffer [Pulmonary Aspergillosis](disease) No What Happen together Is it
+- Got it [Lung cancer](disease) meeting Have What Happen together Ok
+- [Building Sick Syndrome](disease) No Happen together Ah
+- Suffer [Pulmonary bullae](disease) Have What Co-occurrence Acridine
+- [Pulmonary Cryptococcosis](disease) of Appear together What Ok
+- gave birth [Hypersensitivity pneumonia](disease) of Appear together Have What Ah
+- infection [Pneumococcal pneumonia](disease) meeting Have What Appear together
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) Happen together Have what
+- [Alveolar proteinosis](disease) Have Concurrent Ah
+- Got it [Building Sick Syndrome](disease) meeting What Appear together Ok
+- [Goodpasture syndrome](disease) meeting What complication Yeah
+- Get [Anaphylactic shock](disease) meeting Have Appear together Ok
+- gave birth [Foreign body in the respiratory tract](disease) Appear together What Is it
+- Got it [Bullae](disease) Appear together Is it
+- [Pulmonary embolism](disease) Have Happen together Acridine
+- [Simple pulmonary eosinophilic infiltration](disease) of complication Have What Ah
+- Suffer [Building Sick Syndrome](disease) Appear together
+- Give birth [Carbon disulfide poisoning](disease) No What Co-occurrence Yeah
+- gave birth [pertussis](disease) meeting What Appear together What
+- Catch [Lung metastases](disease) No Have What Appear together Acridine
+- gave birth [pertussis](disease) of Appear together Have What Is it
+- Suffer [Pulmonary bullae](disease) of complication what
+- gave birth [Carbon disulfide poisoning](disease) Happen together what
+- Worthy of [Lung metastases](disease) meeting What Co-occurrence what
+- Suffer [Goodpasture syndrome](disease) No Have What complication Yeah
+- [Lung abscess](disease) complication Have What Ah
+- infection [Pulmonary Cryptococcosis](disease) meeting Have Appear together Ok
+- Get [Lung cancer](disease) of Accompanying Have Ah
+- gave birth [Pulmonary Cryptococcosis](disease) meeting No Appear together Is it
+- Get [Pulmonary bullae](disease) Happen together Is it
+- Get [Bacillus pneumoniae pneumonia](disease) meeting Concurrent Is it
+- Give birth [Mercury poisoning](disease) No Have Appear together Ah
+- [Goodpasture syndrome](disease) Happen together Have What What
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) of Appear together Have Ok
+- infection [Building Sick Syndrome](disease) of Accompanying Acridine
+- [Pulmonary bullae](disease) complication Have What Yeah
+- [Pulmonary Actinomycosis](disease) of Appear together Have What
+- Catch [Carbon disulfide poisoning](disease) of Happen together Acridine
+- Give birth [pneumonia](disease) of Happen together Have What What
+- Give birth [Pulmonary Aspergillosis](disease) of Happen together Is it
+- infection [Hypersensitivity pneumonia](disease) Concurrent Have What Is it
+- [Septic shock](disease) of Happen together Have What What
+- Suffer [Pulmonary Candidiasis](disease) of Appear together What Is it
+- [Large amounts of amniotic fluid inhalation](disease) Co-occurrence What Ah
+- [Lung cancer](disease) meeting No Have What Appear together Ok
+- Get [Carbon disulfide poisoning](disease) meeting No Have Appear together Is it
+- gave birth [Goodpasture syndrome](disease) of Co-occurrence Have What
+- Catch [Lung metastases](disease) Appear together Acridine
+- gave birth [Lung cancer](disease) of Appear together
+- Get [Lung abscess](disease) No Happen together What
+- gave birth [Pulmonary pseudotumor](disease) meeting Have What Happen together Yeah
+- Suffer [Pulmonary Candidiasis](disease) What Appear together Acridine
+- Give birth [cold](disease) of Accompanying What Ah
+- Suffer [Large amounts of amniotic fluid inhalation](disease) of Concomitantly What Ok
+- Catch [Building Sick Syndrome](disease) Happen together Yeah
+- infection [cold](disease) No Have complication Is it
+- [Pulmonary bullae](disease) of Appear together What Yeah
+- Give birth [Mercury poisoning](disease) No Have Happen together Ok
+- [Alveolar proteinosis](disease) Appear together What
+- infection [Large amounts of amniotic fluid inhalation](disease) meeting What complication Is it
+- Suffer [Pulmonary Aspergillosis](disease) No What Concurrent Ok
+- gave birth [Lung abscess](disease) Happen together Have Yeah
+- Worthy of [Lung cancer](disease) meeting Have Concurrent what
+- Suffer [Building Sick Syndrome](disease) Happen together Have
+- [Bacillus pneumoniae pneumonia](disease) Accompanying Yeah
+- Catch [Emphysema](disease) Concurrent What Acridine
+- [Wheezing bronchitis](disease) Have What complication what
+- gave birth [cold](disease) Concurrent Have what
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) Happen together What what
+- [Bullae](disease) meeting Have What Co-occurrence Yeah
+- Get [Pulmonary-pleural amebiasis](disease) of Appear together Have What Is it
+- Worthy of [pneumonia](disease) meeting What Concomitantly Yeah
+- Got it [Hypersensitivity pneumonia](disease) meeting No Have What Happen together what
+- Get [Pulmonary pseudotumor](disease) meeting What Co-occurrence Ok
+- gave birth [Lung cancer](disease) of Co-occurrence Ah
+- Get [Pulmonary embolism](disease) Accompanying Have
+- Suffer [Pulmonary pseudotumor](disease) of Appear together Have What Is it
+- Give birth [Carbon disulfide poisoning](disease) meeting No Have What Appear together Is it
+- Give birth [Pulmonary Actinomycosis](disease) of Appear together What Yeah
+- Got it [Building Sick Syndrome](disease) of Appear together what
+- Give birth [Adult respiratory distress syndrome](disease) of Co-occurrence What What
+- [Septic shock](disease) meeting Have Happen together Yeah
+- [Building Sick Syndrome](disease) No Have Appear together Ah
+- Got it [Anaphylactic shock](disease) meeting No Have complication Acridine
+- Got it [pneumonia](disease) What Happen together What
+- infection [Bacillus pneumoniae pneumonia](disease) No What Happen together
+- Suffer [Lung metastases](disease) of Concurrent Have Is it
+- Get [Cadmium poisoning](disease) meeting Appear together Is it
+- Give birth [Radiation pneumonia](disease) meeting No What Concomitantly Acridine
+- Worthy of [Building Sick Syndrome](disease) Concurrent Yeah
+- [Pulmonary embolism](disease) No What Happen together Ah
+- [Emphysema](disease) meeting Appear together Is it
+- gave birth [pneumonia](disease) No Have What Happen together what
+- Give birth [Goodpasture syndrome](disease) Appear together Have Is it
+- Suffer [Pulmonary-pleural amebiasis](disease) Appear together What Ah
+- infection [Large amounts of amniotic fluid inhalation](disease) meeting What Happen together Ok
+- Give birth [Large amounts of amniotic fluid inhalation](disease) meeting No Have What Happen together Is it
+- [Lung cancer](disease) No Have Concomitantly
+- Worthy of [Building Sick Syndrome](disease) No Concurrent Ok
+- Worthy of [Pulmonary-pleural amebiasis](disease) meeting No Have Appear together What
+- gave birth [cold](disease) complication Have What what
+- gave birth [Building Sick Syndrome](disease) Happen together Have what
+- Give birth [Goodpasture syndrome](disease) of Concomitantly Have Ah
+- gave birth [Anaphylactic shock](disease) Appear together What Ah
+- Catch [cold](disease) Have Happen together Is it
+- Get [Anaphylactic shock](disease) meeting Have What Appear together Ah
+- Catch [Pneumococcal pneumonia](disease) Co-occurrence Have Yeah
+- Get [Lobar Pneumonia](disease) of Concomitantly Yeah
+- Catch [Pulmonary embolism](disease) of Co-occurrence What
+- Suffer [Pulmonary bullae](disease) of Concomitantly Have What Ah
+- Suffer [Pulmonary bullae](disease) complication What Is it
+- Got it [Pulmonary bullae](disease) of Happen together What
+- Suffer [Pulmonary-pleural amebiasis](disease) meeting Have What Happen together Yeah
+- Get [Alveolar proteinosis](disease) Accompanying Is it
+- gave birth [Lung metastases](disease) meeting What Appear together Yeah
+- Catch [Hypersensitivity pneumonia](disease) No What Happen together Ok
+- Get [Pulmonary Candidiasis](disease) meeting No Happen together Acridine
+- Get [Pulmonary pseudotumor](disease) of Happen together Have Ok
+- Give birth [Bullae](disease) meeting Have What complication what
+- Get [Pulmonary Aspergillosis](disease) of Appear together Acridine
+- Get [Anaphylactic shock](disease) of Appear together Have What
+- Got it [Lung abscess](disease) Concomitantly What What
+- Suffer [Large amounts of amniotic fluid inhalation](disease) No What Happen together
+- infection [Bullae](disease) meeting No Have What Accompanying What
+- Get [Septic shock](disease) of Appear together Have What Ah
+- Get [Pneumococcal pneumonia](disease) Accompanying Acridine
+- Got it [Pulmonary pseudotumor](disease) What Happen together Ah
+- Catch [Septic shock](disease) Have Happen together Acridine
+- Worthy of [Emphysema](disease) No Happen together Is it
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) No Have Concurrent Yeah
+- Got it [Pneumococcal pneumonia](disease) No What Appear together Ah
+- gave birth [Lung abscess](disease) of Appear together Have What Ok
+- infection [Cadmium poisoning](disease) meeting Have Appear together
+- Suffer [Pulmonary Aspergillosis](disease) of Appear together What
+- gave birth [Pulmonary embolism](disease) of Co-occurrence What Yeah
+- Get [Pulmonary Candidiasis](disease) No Have What Happen together Ok
+- gave birth [Pulmonary Candidiasis](disease) Appear together Ah
+- Catch [cold](disease) Happen together Have What
+- Got it [Lung abscess](disease) of Concomitantly Have What Is it
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) No Have What Happen together Yeah
+- Get [Foreign body in the respiratory tract](disease) complication What Acridine
+- Get [Pulmonary embolism](disease) Concomitantly Have What
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) Accompanying Have
+- Give birth [Cadmium poisoning](disease) of Appear together Have Is it
+- infection [Alveolar proteinosis](disease) Appear together Ok
+- Suffer [Pulmonary Actinomycosis](disease) of Concurrent Yeah
+- Give birth [pneumonia](disease) meeting No What Appear together Acridine
+- Suffer [SARS](disease) complication Acridine
+- [Pulmonary Candidiasis](disease) of Co-occurrence
+- Worthy of [Foreign body in the respiratory tract](disease) Have What Appear together Ah
+- Suffer [Foreign body in the respiratory tract](disease) of Concurrent Is it
+- infection [Pulmonary bullae](disease) complication Have Ah
+- Get [Hypersensitivity pneumonia](disease) Happen together Ah
+- Get [Large amounts of amniotic fluid inhalation](disease) Happen together Have What
+- Catch [pneumonia](disease) meeting Have Happen together Ah
+- [Bacillus pneumoniae pneumonia](disease) Co-occurrence What what
+- Worthy of [Pulmonary Cryptococcosis](disease) of Appear together what
+- infection [Pulmonary embolism](disease) of Happen together Yeah
+- Catch [Hypersensitivity pneumonia](disease) meeting No Concomitantly
+- Get [Pulmonary embolism](disease) No Have Accompanying Is it
+- Get [Cadmium poisoning](disease) of complication Have What What
+- [Lung cancer](disease) complication Yeah
+- [Benzene poisoning](disease) complication What Ah
+- Suffer [Goodpasture syndrome](disease) Have What Happen together Ah
+- [Anaphylactic shock](disease) of Appear together Have Is it
+- infection [Anaphylactic shock](disease) What Co-occurrence What
+- Suffer [Alveolar proteinosis](disease) meeting No Accompanying what
+- Get [Adult respiratory distress syndrome](disease) Have What Concurrent Yeah
+- Suffer [Lung cancer](disease) meeting No Concurrent Ah
+- Give birth [Mercury poisoning](disease) meeting No What Happen together Ah
+- Catch [Mercury poisoning](disease) Have Appear together Yeah
+- Suffer [cold](disease) meeting No Happen together Ah
+- Catch [Cadmium poisoning](disease) meeting No Have What complication Is it
+- infection [Pulmonary bullae](disease) Accompanying What Ok
+- Suffer [Anaphylactic shock](disease) No What complication Ah
+- Give birth [Adult respiratory distress syndrome](disease) No What Happen together What
+- [cold](disease) Have Happen together what
+- Get [Lung abscess](disease) of Accompanying What what
+- Got it [Radiation pneumonia](disease) meeting Have complication What
+- gave birth [Emphysema](disease) meeting Have Appear together Acridine
+- gave birth [Hypersensitivity pneumonia](disease) meeting Appear together what
+- Got it [Cadmium poisoning](disease) No Have Happen together
+- Worthy of [pneumonia](disease) meeting What Concurrent
+- Suffer [Septic shock](disease) Happen together What Ah
+- infection [Lobar Pneumonia](disease) Accompanying What Ah
+- gave birth [Large amounts of amniotic fluid inhalation](disease) No Have What Happen together Acridine
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) Have Happen together Acridine
+- [Pulmonary Actinomycosis](disease) No Have Happen together Ah
+- [Lobar Pneumonia](disease) meeting No What Appear together Ah
+- Get [Hypersensitivity pneumonia](disease) meeting complication Ok
+- Got it [Septic shock](disease) No Have What Appear together Is it
+- [Pulmonary Candidiasis](disease) meeting What Happen together what
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) No Happen together
+- Give birth [Alveolar proteinosis](disease) No Have What Co-occurrence
+- Give birth [Alveolar proteinosis](disease) Have What Appear together Is it
+- [Emphysema](disease) Happen together What Ah
+- Give birth [Mercury poisoning](disease) of Appear together Ah
+- Give birth [Pulmonary Candidiasis](disease) of Appear together what
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Happen together Have Yeah
+- Worthy of [Mercury poisoning](disease) No Accompanying Ok
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) Accompanying Have Ok
+- infection [Simple pulmonary eosinophilic infiltration](disease) Appear together Have What
+- Worthy of [Radiation pneumonia](disease) Appear together What Acridine
+- Suffer [Wheezing bronchitis](disease) of Happen together Have What Ok
+- infection [Mercury poisoning](disease) Co-occurrence What Ok
+- Get [Goodpasture syndrome](disease) meeting No complication What
+- [Goodpasture syndrome](disease) meeting Have What Appear together What
+- gave birth [Lobar Pneumonia](disease) Appear together Have Ah
+- infection [Large amounts of amniotic fluid inhalation](disease) Have Concurrent Ah
+- gave birth [Pulmonary embolism](disease) meeting Have Happen together What
+- Suffer [Pulmonary Actinomycosis](disease) complication Have What Ah
+- infection [Wheezing bronchitis](disease) No Appear together Acridine
+- Worthy of [SARS](disease) meeting Have Appear together What
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) Accompanying What What
+- [cold](disease) Concurrent Have Yeah
+- Worthy of [Pulmonary embolism](disease) Have Accompanying What
+- Suffer [Pulmonary Edema](disease) No Happen together what
+- Got it [pertussis](disease) No Have What Concurrent Is it
+- infection [Pulmonary pseudotumor](disease) meeting No Concomitantly Acridine
+- Got it [Goodpasture syndrome](disease) meeting Have Concomitantly
+- gave birth [Lung cancer](disease) Happen together
+- Give birth [Bullae](disease) complication What Ah
+- gave birth [Pulmonary Aspergillosis](disease) No What complication
+- Worthy of [Hypersensitivity pneumonia](disease) of Appear together Have Ah
+- Worthy of [Pneumococcal pneumonia](disease) meeting What Co-occurrence What
+- Get [Pulmonary pseudotumor](disease) Appear together What what
+- Got it [Wheezing bronchitis](disease) of Co-occurrence What Acridine
+- Catch [Pulmonary Cryptococcosis](disease) meeting No Have What Happen together
+- Got it [Alveolar proteinosis](disease) meeting Have Happen together
+- Got it [Lung cancer](disease) Happen together What Acridine
+- Get [Septic shock](disease) of Concomitantly Have What What
+- Worthy of [Pneumococcal pneumonia](disease) meeting No Have What Appear together
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) of Appear together What What
+- gave birth [SARS](disease) Happen together What Yeah
+- Catch [Carbon disulfide poisoning](disease) meeting Have Concomitantly Is it
+- Get [Bullae](disease) meeting Happen together Acridine
+- [Goodpasture syndrome](disease) meeting Have What Appear together Acridine
+- [Cadmium poisoning](disease) Happen together Yeah
+- Catch [Septic shock](disease) No Happen together
+- Catch [Lung cancer](disease) of Appear together Is it
+- Get [Benzene poisoning](disease) Appear together Have
+- [Lung abscess](disease) meeting No complication Is it
+- Give birth [Cadmium poisoning](disease) Concurrent what
+- Worthy of [Carbon disulfide poisoning](disease) of Happen together What Yeah
+- Suffer [Pulmonary Edema](disease) No What Accompanying Is it
+- [Benzene poisoning](disease) meeting No What Appear together Is it
+- Got it [Lung cancer](disease) No Have What Appear together Ah
+- Worthy of [Pneumococcal pneumonia](disease) Co-occurrence Have Ah
+- [Pulmonary bullae](disease) Appear together Ah
+- gave birth [Lung abscess](disease) Happen together What Ah
+- infection [Large amounts of amniotic fluid inhalation](disease) meeting Happen together Acridine
+- Catch [pneumonia](disease) No Have What Co-occurrence Ok
+- Catch [cold](disease) meeting Appear together
+- infection [pertussis](disease) complication What Is it
+- Catch [Pulmonary Candidiasis](disease) of complication Have Acridine
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) meeting No Have complication Ok
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) of complication Have Ah
+- Got it [Carbon disulfide poisoning](disease) meeting Accompanying Yeah
+- Suffer [Goodpasture syndrome](disease) of Happen together Acridine
+- Worthy of [Septic shock](disease) meeting No Have Happen together Is it
+- Got it [Hypersensitivity pneumonia](disease) Happen together Have What
+- Got it [Bacillus pneumoniae pneumonia](disease) of complication Have
+- Give birth [Emphysema](disease) meeting No Have Appear together Ok
+- gave birth [Lung abscess](disease) No Have What complication Yeah
+- Get [Building Sick Syndrome](disease) Accompanying Have Acridine
+- [Pulmonary Actinomycosis](disease) What Happen together Ok
+- [Carbon disulfide poisoning](disease) No Have Concurrent
+- infection [Pulmonary-pleural amebiasis](disease) of Happen together What Is it
+- Suffer [Radiation pneumonia](disease) of Appear together Ah
+- [Lung cancer](disease) No Co-occurrence Is it
+- [Alveolar proteinosis](disease) Co-occurrence what
+- Give birth [pertussis](disease) meeting No What Concomitantly Acridine
+- Give birth [Lobar Pneumonia](disease) Accompanying
+- Worthy of [Pulmonary Aspergillosis](disease) meeting Have What Appear together Ok
+- Got it [Lung abscess](disease) of Accompanying What
+- Worthy of [Pulmonary Candidiasis](disease) meeting Appear together
+- Worthy of [Adult respiratory distress syndrome](disease) Appear together Have Yeah
+- Got it [Cadmium poisoning](disease) of Appear together What Yeah
+- [Bullae](disease) No Accompanying
+- Get [Cadmium poisoning](disease) Happen together Have What
+- Worthy of [Hypersensitivity pneumonia](disease) No Concomitantly Ah
+- [Pulmonary Candidiasis](disease) meeting No What Happen together
+- [pneumonia](disease) meeting No Have Co-occurrence
+- Give birth [Septic shock](disease) No Have Co-occurrence What
+- infection [Lobar Pneumonia](disease) Accompanying Have What what
+- [Lung abscess](disease) Concurrent What
+- Give birth [Pulmonary Cryptococcosis](disease) meeting Have What Concurrent What
+- Get [Cadmium poisoning](disease) meeting No Appear together Yeah
+- Worthy of [Pulmonary Candidiasis](disease) No Have What Accompanying
+- Suffer [Adult respiratory distress syndrome](disease) of Happen together What Ok
+- Got it [Goodpasture syndrome](disease) of Appear together What Ok
+- Got it [cold](disease) meeting No Have What Appear together Ah
+- Get [Bacillus pneumoniae pneumonia](disease) What Concomitantly what
+- Catch [Pulmonary Aspergillosis](disease) of Concomitantly Have What what
+- Worthy of [cold](disease) Concomitantly What Is it
+- Worthy of [Pulmonary Cryptococcosis](disease) meeting No Have What Concomitantly Yeah
+- infection [cold](disease) meeting No What Appear together Ok
+- Worthy of [Wheezing bronchitis](disease) of Appear together Have Yeah
+- Get [Pulmonary Actinomycosis](disease) What Co-occurrence what
+- Suffer [Alveolar proteinosis](disease) Happen together Have Yeah
+- Got it [pneumonia](disease) of Accompanying Have What what
+- Get [Large amounts of amniotic fluid inhalation](disease) What Accompanying Ok
+- Worthy of [Carbon disulfide poisoning](disease) No Have complication Ah
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) meeting Have What Concurrent Acridine
+- Catch [cold](disease) meeting No Have Co-occurrence Yeah
+- Give birth [Hypersensitivity pneumonia](disease) No What Appear together what
+- Got it [Pulmonary-pleural amebiasis](disease) Co-occurrence What what
+- Worthy of [Pulmonary Actinomycosis](disease) What Appear together Ah
+- Worthy of [Lung cancer](disease) meeting Have What Concurrent Ok
+- Worthy of [SARS](disease) Co-occurrence
+- Suffer [Building Sick Syndrome](disease) No Have What Appear together Ok
+- gave birth [Mercury poisoning](disease) No What Co-occurrence Yeah
+- Suffer [Building Sick Syndrome](disease) Happen together what
+- Worthy of [Bacillus pneumoniae pneumonia](disease) of Accompanying Have What What
+- Worthy of [Bullae](disease) Have Concomitantly Acridine
+- Worthy of [pneumonia](disease) Have Appear together Ok
+- infection [Lung cancer](disease) of Concomitantly What Yeah
+- Worthy of [Pneumococcal pneumonia](disease) of Appear together Have What Acridine
+- Catch [Lobar Pneumonia](disease) meeting Have What complication Acridine
+- gave birth [cold](disease) of complication what
+- Give birth [Septic shock](disease) Appear together Is it
+- Got it [Pulmonary Actinomycosis](disease) Have What Appear together
+- Got it [Simple pulmonary eosinophilic infiltration](disease) of Concomitantly What Yeah
+- Give birth [pertussis](disease) Appear together Have What Ok
+- Catch [Adult respiratory distress syndrome](disease) complication What What
+- gave birth [Cadmium poisoning](disease) meeting No Appear together Yeah
+- Suffer [Benzene poisoning](disease) of Happen together Ok
+- gave birth [Alveolar proteinosis](disease) of Co-occurrence Have What What
+- Got it [Goodpasture syndrome](disease) No Have Concomitantly What
+- Catch [Cadmium poisoning](disease) Concurrent Have Yeah
+- Suffer [Emphysema](disease) of Happen together Acridine
+- Worthy of [Alveolar proteinosis](disease) Concomitantly What What
+- Give birth [SARS](disease) Appear together Yeah
+- [Pulmonary pseudotumor](disease) meeting What complication Yeah
+- [Foreign body in the respiratory tract](disease) Happen together Is it
+- Catch [Emphysema](disease) of Concomitantly What Acridine
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) meeting No Have Happen together Ok
+- [Carbon disulfide poisoning](disease) of Concomitantly Have What what
+- infection [Benzene poisoning](disease) of complication What Yeah
+- Got it [cold](disease) meeting Have What Accompanying
+- Catch [Adult respiratory distress syndrome](disease) of Co-occurrence Have What
+- Give birth [Cadmium poisoning](disease) Concurrent What Ok
+- Catch [Alveolar proteinosis](disease) meeting No What Happen together Ok
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) No Have What Concurrent Is it
+- infection [Wheezing bronchitis](disease) No Have Happen together Is it
+- Suffer [Mercury poisoning](disease) Happen together What
+- Got it [Pulmonary Actinomycosis](disease) meeting No What Co-occurrence Ah
+- Get [Bullae](disease) of Appear together What Is it
+- Catch [Cadmium poisoning](disease) Have What Concurrent Acridine
+- Catch [Alveolar proteinosis](disease) No Have Concurrent Ok
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) Concurrent what
+- Worthy of [Pulmonary Actinomycosis](disease) meeting No What complication Ok
+- Suffer [Pulmonary pseudotumor](disease) Concurrent What
+- gave birth [Mercury poisoning](disease) Appear together Have Ah
+- Worthy of [Pulmonary Cryptococcosis](disease) No What Co-occurrence Ah
+- [Lung metastases](disease) meeting No Have Appear together Yeah
+- Got it [Pulmonary pseudotumor](disease) meeting No Have Happen together what
+- Catch [Pulmonary Candidiasis](disease) of Appear together Acridine
+- Got it [SARS](disease) of Appear together Ah
+- [cold](disease) Have Happen together What
+- Catch [Benzene poisoning](disease) Concomitantly Yeah
+- gave birth [Pulmonary-pleural amebiasis](disease) No Have Appear together Ok
+- [Pulmonary Cryptococcosis](disease) No Have Appear together Acridine
+- Give birth [Alveolar proteinosis](disease) Concurrent Acridine
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) What Appear together Ok
+- Worthy of [Pulmonary bullae](disease) Have Appear together Acridine
+- Give birth [Building Sick Syndrome](disease) Happen together Have Ah
+- Worthy of [Anaphylactic shock](disease) No Appear together
+- gave birth [Bullae](disease) Accompanying Have Ok
+- gave birth [Pulmonary bullae](disease) Have What Happen together What
+- Catch [Mercury poisoning](disease) Have What Co-occurrence Ok
+- Give birth [Building Sick Syndrome](disease) Accompanying
+- Got it [Pulmonary embolism](disease) Concomitantly Is it
+- Catch [Lung cancer](disease) No Have Happen together Yeah
+- Catch [Alveolar proteinosis](disease) of Happen together Have What
+- [Anaphylactic shock](disease) Happen together Have What what
+- Worthy of [Emphysema](disease) Appear together Have What Ah
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) No Appear together Ok
+- gave birth [cold](disease) No What Appear together What
+- Give birth [Pulmonary Edema](disease) of Co-occurrence Is it
+- Suffer [cold](disease) No What Concurrent Is it
+- Get [Benzene poisoning](disease) meeting Have What Happen together
+- Worthy of [Lobar Pneumonia](disease) of Appear together What Ok
+- Got it [Bacillus pneumoniae pneumonia](disease) of Concomitantly What Yeah
+- Give birth [Alveolar proteinosis](disease) meeting Have What Happen together What
+- Got it [cold](disease) of Happen together Have What Ok
+- Suffer [Goodpasture syndrome](disease) meeting Appear together
+- Suffer [pneumonia](disease) of Appear together What what
+- [Emphysema](disease) meeting What Concomitantly What
+- gave birth [Septic shock](disease) meeting No What Happen together Ah
+- gave birth [Benzene poisoning](disease) meeting Have Appear together Acridine
+- Got it [Pulmonary bullae](disease) of Concurrent What Ok
+- Worthy of [Cadmium poisoning](disease) of Happen together Ok
+- gave birth [Bullae](disease) Have What complication what
+- Give birth [Bacillus pneumoniae pneumonia](disease) of complication Have Ah
+- Got it [Simple pulmonary eosinophilic infiltration](disease) of Concurrent What Is it
+- [Pneumococcal pneumonia](disease) Happen together What Ok
+- Give birth [Lung cancer](disease) of Concurrent Acridine
+- [Mercury poisoning](disease) No What complication Acridine
+- Worthy of [Alveolar proteinosis](disease) complication What what
+- gave birth [Building Sick Syndrome](disease) Happen together What Is it
+- gave birth [Lung abscess](disease) Happen together Acridine
+- [Bullae](disease) meeting No Have Accompanying Yeah
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) Have What Concurrent Acridine
+- Give birth [Adult respiratory distress syndrome](disease) of Happen together Have Yeah
+- Catch [Pneumococcal pneumonia](disease) meeting No Happen together Is it
+- Suffer [Carbon disulfide poisoning](disease) No Have What Appear together what
+- Suffer [Cadmium poisoning](disease) meeting What Appear together Is it
+- Suffer [Foreign body in the respiratory tract](disease) Happen together Have What Ok
+- Worthy of [Carbon disulfide poisoning](disease) No What Appear together Yeah
+- Catch [Pulmonary Actinomycosis](disease) Have What Appear together
+- Catch [Adult respiratory distress syndrome](disease) meeting No Happen together
+- gave birth [Pneumococcal pneumonia](disease) Appear together What Ok
+- Worthy of [Mercury poisoning](disease) of Concurrent What What
+- Got it [Pneumococcal pneumonia](disease) Appear together Have Ok
+- Give birth [Large amounts of amniotic fluid inhalation](disease) of Co-occurrence Have What
+- Get [Wheezing bronchitis](disease) Happen together What Acridine
+- Got it [SARS](disease) Happen together Have What Acridine
+- Worthy of [Lung metastases](disease) Have What Appear together Is it
+- Worthy of [pneumonia](disease) meeting What Appear together
+- Get [Pulmonary Aspergillosis](disease) Happen together Have
+- Worthy of [Pulmonary embolism](disease) of Happen together Have What Yeah
+- Worthy of [Hypersensitivity pneumonia](disease) meeting Have Happen together
+- Got it [cold](disease) Have Concomitantly Ah
+- Give birth [Alveolar proteinosis](disease) meeting Have What Concomitantly Yeah
+- Worthy of [Pulmonary Edema](disease) of Appear together Acridine
+- Got it [Goodpasture syndrome](disease) meeting No Have Accompanying Ok
+- Get [Carbon disulfide poisoning](disease) No Have Concomitantly Ah
+- Catch [Mercury poisoning](disease) Happen together Have What Is it
+- gave birth [Wheezing bronchitis](disease) Have Co-occurrence Yeah
+- [Adult respiratory distress syndrome](disease) No Have Accompanying what
+- Give birth [cold](disease) of Happen together Have Is it
+- Suffer [Lung metastases](disease) No What Co-occurrence What
+- Catch [Pulmonary pseudotumor](disease) Concurrent Acridine
+- Get [Radiation pneumonia](disease) Concurrent Is it
+- Worthy of [Building Sick Syndrome](disease) of Appear together Is it
+- Catch [Pulmonary embolism](disease) Happen together What what
+- Give birth [Alveolar proteinosis](disease) meeting No Accompanying Yeah
+- Give birth [Foreign body in the respiratory tract](disease) Have Happen together
+- gave birth [Septic shock](disease) meeting Have What Happen together Is it
+- Got it [Carbon disulfide poisoning](disease) of Concurrent Ok
+- Catch [Pulmonary Aspergillosis](disease) Appear together Have What
+- Suffer [Anaphylactic shock](disease) What Co-occurrence
+- Got it [pertussis](disease) of Happen together Yeah
+- [Bullae](disease) No What Appear together What
+- [Lung metastases](disease) of Co-occurrence Yeah
+- infection [Adult respiratory distress syndrome](disease) of complication What Yeah
+- Catch [Lung metastases](disease) meeting No Have Happen together What
+- Got it [Lung metastases](disease) of Appear together Have what
+- gave birth [Pulmonary Candidiasis](disease) of Appear together Have What what
+- infection [Radiation pneumonia](disease) of Accompanying Have What
+- [Pulmonary embolism](disease) Accompanying Have Ah
+- Get [SARS](disease) Concomitantly Have Ok
+- Give birth [Pulmonary Candidiasis](disease) meeting Have What Happen together Ok
+- [SARS](disease) of Concomitantly Have What
+- Worthy of [Pulmonary bullae](disease) meeting No Have What Concurrent Acridine
+- [Radiation pneumonia](disease) meeting No What complication Is it
+- [Anaphylactic shock](disease) No Have complication Ok
+- Get [Pulmonary bullae](disease) of Accompanying
+- Get [Pulmonary Aspergillosis](disease) meeting Have What Happen together Ah
+- gave birth [Benzene poisoning](disease) No Concurrent what
+- Catch [Pulmonary pseudotumor](disease) complication
+- Give birth [Cadmium poisoning](disease) Have Accompanying Ah
+- Worthy of [Lung cancer](disease) meeting Have What Appear together Acridine
+- Give birth [Lung abscess](disease) of Appear together Ok
+- gave birth [Pulmonary Cryptococcosis](disease) meeting No Have What Happen together Is it
+- Worthy of [Lung metastases](disease) Co-occurrence Acridine
+- [Lobar Pneumonia](disease) meeting What Accompanying Yeah
+- [Wheezing bronchitis](disease) of Happen together Ah
+- infection [Pulmonary Edema](disease) Appear together What
+- Catch [Pulmonary pseudotumor](disease) Concomitantly Have What
+- Give birth [Alveolar proteinosis](disease) Concurrent What Ok
+- infection [Mercury poisoning](disease) meeting Concurrent
+- Suffer [Large amounts of amniotic fluid inhalation](disease) No Have What Concurrent
+- Give birth [Pneumococcal pneumonia](disease) of Appear together Have what
+- Give birth [Pneumococcal pneumonia](disease) Concurrent Ah
+- [Alveolar proteinosis](disease) No Have Co-occurrence Ah
+- Worthy of [SARS](disease) No Have What Concomitantly Acridine
+- Suffer [Pulmonary pseudotumor](disease) meeting No What Accompanying Acridine
+- Got it [Bullae](disease) No Have What Appear together Yeah
+- gave birth [pertussis](disease) meeting What Happen together Ok
+- Catch [Pneumococcal pneumonia](disease) meeting No What Happen together
+- Get [Lung abscess](disease) No What Co-occurrence
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) meeting No Have complication Ah
+- gave birth [Pulmonary Actinomycosis](disease) meeting No Co-occurrence What
+- Give birth [Pulmonary Aspergillosis](disease) No Happen together what
+- Get [Lung cancer](disease) meeting No Happen together what
+- Suffer [Lobar Pneumonia](disease) meeting No Concurrent what
+- infection [Emphysema](disease) Happen together Have What Acridine
+- Get [Cadmium poisoning](disease) meeting Have What Happen together Acridine
+- Suffer [Large amounts of amniotic fluid inhalation](disease) No Have What complication what
+- infection [cold](disease) meeting Have Concomitantly Yeah
+- infection [Pulmonary embolism](disease) of Concurrent Yeah
+- Get [Adult respiratory distress syndrome](disease) No Have What Accompanying Yeah
+- Got it [Large amounts of amniotic fluid inhalation](disease) meeting Have What Happen together Yeah
+- Get [Pulmonary Candidiasis](disease) of Concomitantly Have What Yeah
+- Got it [Septic shock](disease) complication What what
+- Got it [Pulmonary-pleural amebiasis](disease) meeting Have What Co-occurrence Ah
+- Got it [Carbon disulfide poisoning](disease) of Appear together Have Ah
+- infection [Mercury poisoning](disease) Co-occurrence Is it
+- [Wheezing bronchitis](disease) No Have Appear together Is it
+- Get [Pulmonary Edema](disease) Appear together Have What Yeah
+- Got it [pertussis](disease) of Appear together What
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) Happen together Have Ah
+- Get [Anaphylactic shock](disease) of Happen together What Ah
+- [Alveolar proteinosis](disease) Accompanying Have What Is it
+- gave birth [Pneumococcal pneumonia](disease) meeting Have Co-occurrence Acridine
+- Got it [Pulmonary Edema](disease) of Appear together Have What
+- Get [Bullae](disease) meeting Appear together Ok
+- Catch [Lung metastases](disease) Happen together what
+- gave birth [Lung metastases](disease) meeting What Concurrent
+- Worthy of [Septic shock](disease) of Concurrent What
+- Give birth [Pulmonary Candidiasis](disease) meeting Have Accompanying Is it
+- Got it [Radiation pneumonia](disease) meeting Have Co-occurrence Ah
+- Catch [pertussis](disease) Happen together What Is it
+- Worthy of [Alveolar proteinosis](disease) Appear together What What
+- Got it [Alveolar proteinosis](disease) of Happen together Have What
+- [Adult respiratory distress syndrome](disease) Accompanying What Ok
+- infection [pneumonia](disease) of Happen together What what
+- infection [Pulmonary Candidiasis](disease) of Concurrent What
+- [Carbon disulfide poisoning](disease) meeting No Have Happen together Is it
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) complication what
+- Suffer [Pulmonary bullae](disease) Have What Concomitantly Is it
+- Got it [Alveolar proteinosis](disease) Appear together Have Ah
+- Worthy of [cold](disease) Happen together What
+- Worthy of [Pulmonary bullae](disease) No What Appear together Is it
+- Worthy of [Pulmonary Edema](disease) Concurrent Have what
+
+## intent:search_drug
+- Suffer [SARS](disease) of Medication what
+- gave birth [Pulmonary Candidiasis](disease) Time drug Ok
+- Give birth [Hypersensitivity pneumonia](disease) Time Yan Pian Acridine
+- Get [Alveolar proteinosis](disease) What drug
+- Give birth [Simple pulmonary eosinophilic infiltration](disease) of medicine
+- gave birth [Pulmonary-pleural amebiasis](disease) capsule Ah
+- Got it [Goodpasture syndrome](disease) Time of Yan Pian Ah
+- Catch [Lung abscess](disease) of drug what
+- [SARS](disease) Time of Medication what
+- infection [Goodpasture syndrome](disease) of capsule Ok
+- Worthy of [Alveolar proteinosis](disease) capsule
+- Catch [Adult respiratory distress syndrome](disease) eat What Medication Ah
+- Worthy of [Carbon disulfide poisoning](disease) Time Oral liquid Ah
+- gave birth [Bullae](disease) eat Medication Is it
+- infection [Pulmonary Candidiasis](disease) This eat What drug what
+- [Lung cancer](disease) This What medicine what
+- Worthy of [Adult respiratory distress syndrome](disease) eat drug Ah
+- Worthy of [Foreign body in the respiratory tract](disease) of Medication Acridine
+- Suffer [pneumonia](disease) drug What
+- Give birth [Building Sick Syndrome](disease) This What Oral liquid What
+- Catch [Pulmonary Aspergillosis](disease) What drug What
+- Get [Adult respiratory distress syndrome](disease) eat medicine Yeah
+- [Anaphylactic shock](disease) eat What Medication what
+- Got it [Pulmonary embolism](disease) Yan Pian Ah
+- Worthy of [Radiation pneumonia](disease) This eat capsule What
+- Give birth [Pulmonary Candidiasis](disease) eat What drug Ok
+- Worthy of [Anaphylactic shock](disease) Time Oral liquid
+- Suffer [Alveolar proteinosis](disease) eat Medication What
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Time capsule What
+- Catch [Pulmonary bullae](disease) eat What capsule Acridine
+- Got it [Lung cancer](disease) capsule Acridine
+- Get [Pulmonary-pleural amebiasis](disease) Time Medication Is it
+- [Anaphylactic shock](disease) What capsule Ah
+- Got it [Lung metastases](disease) This eat What drug What
+- Give birth [Bullae](disease) What Yan Pian Is it
+- Got it [Lung metastases](disease) Time of drug Acridine
+- Got it [Bullae](disease) eat medicine Ok
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) eat What drug what
+- Suffer [Pneumococcal pneumonia](disease) of capsule Is it
+- infection [Alveolar proteinosis](disease) eat Yan Pian Acridine
+- Got it [Goodpasture syndrome](disease) This eat What capsule What
+- [Pulmonary Cryptococcosis](disease) eat Yan Pian Ok
+- Got it [Lung metastases](disease) of drug Yeah
+- Got it [Radiation pneumonia](disease) Time Medication what
+- infection [Pulmonary embolism](disease) This eat Yan Pian Yeah
+- gave birth [Adult respiratory distress syndrome](disease) of medicine what
+- Suffer [Pulmonary Candidiasis](disease) Time of drug Acridine
+- Worthy of [Lung metastases](disease) This eat Medication Ok
+- infection [SARS](disease) drug Ok
+- Get [Anaphylactic shock](disease) medicine What
+- Catch [Bullae](disease) eat Medication what
+- Catch [cold](disease) What capsule Acridine
+- Give birth [Alveolar proteinosis](disease) Oral liquid Ah
+- Suffer [Goodpasture syndrome](disease) Oral liquid Acridine
+- Give birth [Carbon disulfide poisoning](disease) What capsule Acridine
+- Give birth [Goodpasture syndrome](disease) eat Medication what
+- gave birth [Lung abscess](disease) Time of capsule Ah
+- Give birth [Adult respiratory distress syndrome](disease) eat What capsule Ah
+- gave birth [Lung cancer](disease) eat Yan Pian what
+- Give birth [Lung abscess](disease) Time of Yan Pian
+- Worthy of [Pulmonary bullae](disease) This eat What drug Yeah
+- Give birth [Lobar Pneumonia](disease) Time of Medication Ok
+- Suffer [SARS](disease) eat drug Ah
+- infection [Pulmonary pseudotumor](disease) eat medicine What
+- [Pulmonary-pleural amebiasis](disease) This drug
+- [Pulmonary embolism](disease) eat What Medication Acridine
+- Suffer [Cadmium poisoning](disease) capsule Is it
+- Got it [Pulmonary Actinomycosis](disease) Time of drug Yeah
+- [Wheezing bronchitis](disease) Time Yan Pian
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) medicine what
+- gave birth [Lobar Pneumonia](disease) Time of capsule what
+- Catch [Building Sick Syndrome](disease) Time of Oral liquid Ok
+- Suffer [Septic shock](disease) of medicine
+- Got it [Pulmonary-pleural amebiasis](disease) This eat What Yan Pian What
+- infection [Pulmonary Actinomycosis](disease) of capsule Yeah
+- Give birth [Simple pulmonary eosinophilic infiltration](disease) Time Yan Pian Is it
+- Catch [Carbon disulfide poisoning](disease) What drug What
+- Give birth [Pulmonary bullae](disease) This Oral liquid Is it
+- infection [Goodpasture syndrome](disease) This eat What Oral liquid
+- infection [Pulmonary embolism](disease) of capsule Is it
+- Got it [Pulmonary bullae](disease) This capsule
+- Worthy of [Lobar Pneumonia](disease) This eat What Oral liquid Yeah
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) This eat Yan Pian what
+- infection [Lung metastases](disease) of capsule Ok
+- Suffer [Pulmonary Aspergillosis](disease) This eat What Oral liquid Ok
+- Got it [Bullae](disease) Time of capsule Yeah
+- Got it [Carbon disulfide poisoning](disease) Medication Yeah
+- Get [Bacillus pneumoniae pneumonia](disease) of Medication
+- Get [Large amounts of amniotic fluid inhalation](disease) Time of Yan Pian Acridine
+- Get [Pulmonary embolism](disease) Time medicine Acridine
+- Suffer [Pneumococcal pneumonia](disease) eat What Medication Yeah
+- Suffer [Emphysema](disease) What drug What
+- Get [Septic shock](disease) Time of capsule Ok
+- infection [pertussis](disease) What Yan Pian Ah
+- Give birth [Goodpasture syndrome](disease) of medicine
+- Get [Large amounts of amniotic fluid inhalation](disease) This drug Ah
+- Catch [Pulmonary-pleural amebiasis](disease) Time Yan Pian what
+- [Pneumococcal pneumonia](disease) This eat What medicine Is it
+- Worthy of [Anaphylactic shock](disease) Oral liquid what
+- Catch [Pneumococcal pneumonia](disease) This eat What capsule what
+- Catch [Pulmonary Cryptococcosis](disease) of medicine What
+- Catch [Simple pulmonary eosinophilic infiltration](disease) eat What Oral liquid Is it
+- infection [Anaphylactic shock](disease) Yan Pian Is it
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) medicine What
+- Get [Pulmonary-pleural amebiasis](disease) What Medication
+- Get [Pulmonary Cryptococcosis](disease) This Oral liquid Ah
+- Suffer [Pulmonary Actinomycosis](disease) of drug Ah
+- Catch [Pulmonary Edema](disease) Medication Acridine
+- Get [Benzene poisoning](disease) This eat What Medication what
+- gave birth [Cadmium poisoning](disease) of Yan Pian
+- Suffer [Anaphylactic shock](disease) Time of medicine Acridine
+- Get [Pneumococcal pneumonia](disease) eat medicine What
+- Got it [Carbon disulfide poisoning](disease) This What Medication Acridine
+- Give birth [Pulmonary Aspergillosis](disease) of medicine Yeah
+- Got it [Pulmonary pseudotumor](disease) Time of drug Acridine
+- Suffer [Pulmonary embolism](disease) Medication Ah
+- Worthy of [Anaphylactic shock](disease) This eat What Oral liquid
+- Got it [pneumonia](disease) of drug Acridine
+- Suffer [Pulmonary Actinomycosis](disease) capsule
+- [pneumonia](disease) What capsule What
+- Catch [SARS](disease) of capsule Is it
+- Give birth [Lung abscess](disease) This eat capsule Ok
+- gave birth [Pulmonary embolism](disease) Time capsule
+- Suffer [Wheezing bronchitis](disease) eat Oral liquid What
+- Suffer [Lung metastases](disease) This eat What Oral liquid
+- [Radiation pneumonia](disease) This What Yan Pian What
+- Catch [Pneumococcal pneumonia](disease) capsule what
+- Got it [Carbon disulfide poisoning](disease) What Medication Acridine
+- Catch [Pulmonary Aspergillosis](disease) This capsule what
+- Worthy of [Septic shock](disease) Time of Yan Pian what
+- Give birth [Simple pulmonary eosinophilic infiltration](disease) Time of drug Acridine
+- Got it [Anaphylactic shock](disease) capsule Is it
+- Get [Lung abscess](disease) eat What Yan Pian Acridine
+- Catch [Bullae](disease) What capsule Is it
+- [Septic shock](disease) This eat capsule Is it
+- gave birth [Alveolar proteinosis](disease) eat drug Acridine
+- Get [Bacillus pneumoniae pneumonia](disease) eat capsule Ah
+- Give birth [Pulmonary Cryptococcosis](disease) eat What Medication Ah
+- [Cadmium poisoning](disease) medicine Ok
+- gave birth [Pulmonary Cryptococcosis](disease) eat medicine Ok
+- Suffer [Hypersensitivity pneumonia](disease) This What Medication What
+- infection [Simple pulmonary eosinophilic infiltration](disease) eat What Oral liquid Is it
+- infection [Simple pulmonary eosinophilic infiltration](disease) This What capsule
+- Worthy of [Pulmonary Candidiasis](disease) eat What drug What
+- infection [Pulmonary-pleural amebiasis](disease) Yan Pian
+- Get [Anaphylactic shock](disease) Medication
+- Suffer [Lung abscess](disease) This eat drug Yeah
+- Worthy of [Septic shock](disease) This Oral liquid Is it
+- Catch [Alveolar proteinosis](disease) Time of drug Yeah
+- gave birth [Mercury poisoning](disease) Time capsule Acridine
+- Got it [Pulmonary Aspergillosis](disease) This eat What Medication what
+- Catch [Simple pulmonary eosinophilic infiltration](disease) of drug Yeah
+- Give birth [Pneumococcal pneumonia](disease) This eat What medicine Ah
+- Worthy of [Building Sick Syndrome](disease) of Oral liquid Yeah
+- Worthy of [Pulmonary Edema](disease) Time of capsule What
+- Give birth [Pulmonary Candidiasis](disease) eat What Yan Pian Is it
+- Suffer [Mercury poisoning](disease) This What capsule Ah
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Time of medicine What
+- gave birth [Lung cancer](disease) Time of Medication Ah
+- Catch [pneumonia](disease) medicine Yeah
+- Suffer [Large amounts of amniotic fluid inhalation](disease) drug Yeah
+- Catch [Pulmonary bullae](disease) Time of drug Is it
+- infection [Adult respiratory distress syndrome](disease) eat What medicine
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) eat drug Yeah
+- infection [cold](disease) capsule Is it
+- Suffer [Benzene poisoning](disease) Time of Oral liquid Ah
+- Suffer [Bacillus pneumoniae pneumonia](disease) of drug Ah
+- gave birth [Pulmonary-pleural amebiasis](disease) This eat What capsule Is it
+- Get [Lung cancer](disease) eat drug Is it
+- Give birth [Pulmonary Cryptococcosis](disease) Time Medication Acridine
+- infection [Foreign body in the respiratory tract](disease) eat capsule Yeah
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) eat drug What
+- infection [pertussis](disease) This eat What Oral liquid Yeah
+- Got it [Septic shock](disease) eat Medication What
+- Suffer [Pulmonary Actinomycosis](disease) Time of capsule Yeah
+- Suffer [Pulmonary-pleural amebiasis](disease) Yan Pian
+- Catch [Radiation pneumonia](disease) This eat Yan Pian
+- Got it [Anaphylactic shock](disease) of medicine Ok
+- infection [Carbon disulfide poisoning](disease) drug Is it
+- Got it [Mercury poisoning](disease) Time drug Ah
+- Give birth [Pulmonary bullae](disease) Time Medication
+- [Septic shock](disease) Medication
+- Catch [Simple pulmonary eosinophilic infiltration](disease) eat drug what
+- [Lung metastases](disease) This eat What capsule Ok
+- Catch [Pulmonary Aspergillosis](disease) of capsule Acridine
+- Get [Lung metastases](disease) This What medicine Ah
+- [Alveolar proteinosis](disease) This capsule
+- Give birth [Building Sick Syndrome](disease) of Medication Ah
+- Get [Anaphylactic shock](disease) What capsule Ok
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) of medicine What
+- Got it [Emphysema](disease) Time of drug Is it
+- Worthy of [Cadmium poisoning](disease) This Yan Pian Ok
+- Get [Hypersensitivity pneumonia](disease) of Yan Pian what
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) Time Oral liquid Ah
+- infection [Large amounts of amniotic fluid inhalation](disease) What Medication Is it
+- Catch [Pulmonary embolism](disease) eat Medication Ok
+- Suffer [Building Sick Syndrome](disease) This eat Oral liquid Acridine
+- Give birth [Pneumococcal pneumonia](disease) This What drug What
+- Got it [Bacillus pneumoniae pneumonia](disease) This drug Acridine
+- gave birth [Large amounts of amniotic fluid inhalation](disease) This eat drug Acridine
+- Catch [Wheezing bronchitis](disease) This What medicine Is it
+- infection [Mercury poisoning](disease) Oral liquid Ah
+- [Lobar Pneumonia](disease) This eat Yan Pian Is it
+- Suffer [pneumonia](disease) This eat What medicine what
+- Get [Cadmium poisoning](disease) Time Oral liquid Ah
+- Worthy of [Mercury poisoning](disease) capsule Yeah
+- infection [Pulmonary pseudotumor](disease) This What Yan Pian Ah
+- [pertussis](disease) Time medicine Acridine
+- Worthy of [Carbon disulfide poisoning](disease) of capsule Is it
+- Get [Pulmonary pseudotumor](disease) This eat Medication
+- Give birth [Pulmonary bullae](disease) Oral liquid What
+- Worthy of [Emphysema](disease) of capsule Ah
+- Give birth [Benzene poisoning](disease) Time of Medication Ok
+- [Large amounts of amniotic fluid inhalation](disease) eat drug Yeah
+- Worthy of [Hypersensitivity pneumonia](disease) Yan Pian Is it
+- Catch [Anaphylactic shock](disease) eat Medication Yeah
+- Suffer [Hypersensitivity pneumonia](disease) Medication Ah
+- Suffer [Radiation pneumonia](disease) Time capsule Ah
+- Worthy of [SARS](disease) of Medication What
+- Give birth [cold](disease) Time medicine Ok
+- [Emphysema](disease) eat medicine Ah
+- Got it [Simple pulmonary eosinophilic infiltration](disease) of capsule Is it
+- gave birth [Emphysema](disease) of medicine
+- Get [Emphysema](disease) Time of medicine What
+- Suffer [pneumonia](disease) eat capsule Ok
+- Got it [Bacillus pneumoniae pneumonia](disease) This eat What capsule What
+- Got it [Pulmonary Edema](disease) eat medicine Acridine
+- infection [Pulmonary Aspergillosis](disease) This What capsule Acridine
+- Give birth [Pulmonary bullae](disease) eat What medicine Acridine
+- gave birth [Hypersensitivity pneumonia](disease) eat capsule Is it
+- Get [Anaphylactic shock](disease) drug Acridine
+- Suffer [Pulmonary bullae](disease) What Oral liquid What
+- [cold](disease) of medicine Ok
+- infection [Pulmonary pseudotumor](disease) This Yan Pian Ok
+- Suffer [Emphysema](disease) eat Medication
+- Give birth [Radiation pneumonia](disease) Oral liquid Ah
+- gave birth [Anaphylactic shock](disease) eat Medication Yeah
+- gave birth [Cadmium poisoning](disease) This Oral liquid Yeah
+- gave birth [Foreign body in the respiratory tract](disease) of Oral liquid What
+- infection [Pulmonary Edema](disease) Time of Oral liquid Ah
+- Give birth [cold](disease) of medicine Ok
+- Worthy of [Foreign body in the respiratory tract](disease) of Yan Pian
+- Give birth [Pulmonary Edema](disease) Time capsule What
+- [Simple pulmonary eosinophilic infiltration](disease) This eat Yan Pian What
+- gave birth [Wheezing bronchitis](disease) eat What medicine
+- gave birth [Carbon disulfide poisoning](disease) Time of drug What
+- Got it [Radiation pneumonia](disease) This eat Yan Pian Is it
+- Suffer [SARS](disease) Oral liquid Yeah
+- gave birth [Pulmonary Actinomycosis](disease) This eat What drug What
+- Worthy of [pneumonia](disease) What capsule Yeah
+- Give birth [Lung cancer](disease) eat What medicine What
+- gave birth [Pulmonary pseudotumor](disease) Yan Pian what
+- Worthy of [Anaphylactic shock](disease) This eat What Yan Pian what
+- [Septic shock](disease) medicine What
+- gave birth [Alveolar proteinosis](disease) Time of drug Acridine
+- infection [Goodpasture syndrome](disease) What Oral liquid What
+- Give birth [Radiation pneumonia](disease) Time drug Ah
+- Got it [Pulmonary Cryptococcosis](disease) This eat What drug What
+- [Pneumococcal pneumonia](disease) Medication Ah
+- gave birth [Pulmonary pseudotumor](disease) Yan Pian Yeah
+- Suffer [Adult respiratory distress syndrome](disease) What capsule Is it
+- Got it [Pulmonary Aspergillosis](disease) This eat Medication Yeah
+- Suffer [Wheezing bronchitis](disease) eat What medicine Acridine
+- Got it [Pneumococcal pneumonia](disease) This eat What Yan Pian Ah
+- Give birth [Cadmium poisoning](disease) medicine Ok
+- Worthy of [Pulmonary-pleural amebiasis](disease) This eat medicine Ah
+- Catch [Pulmonary Cryptococcosis](disease) This eat medicine what
+- gave birth [Lobar Pneumonia](disease) This eat What drug Ah
+- Suffer [Alveolar proteinosis](disease) Time of Oral liquid Ok
+- Give birth [Bacillus pneumoniae pneumonia](disease) Time of Oral liquid
+- Give birth [Pulmonary-pleural amebiasis](disease) eat What Oral liquid Is it
+- infection [Pulmonary Aspergillosis](disease) eat Oral liquid What
+- Get [Pulmonary embolism](disease) Time Yan Pian Ok
+- gave birth [Large amounts of amniotic fluid inhalation](disease) Time of drug Is it
+- Get [Hypersensitivity pneumonia](disease) This drug Yeah
+- gave birth [Lobar Pneumonia](disease) Yan Pian What
+- infection [Radiation pneumonia](disease) This What medicine Ok
+- Worthy of [cold](disease) Yan Pian Ah
+- [Pulmonary pseudotumor](disease) medicine Yeah
+- Suffer [Lung cancer](disease) Time Oral liquid Acridine
+- Catch [Foreign body in the respiratory tract](disease) Oral liquid what
+- [Pulmonary Actinomycosis](disease) Oral liquid Is it
+- Catch [Bullae](disease) This eat medicine Ok
+- Worthy of [Pulmonary bullae](disease) This Oral liquid Ah
+- gave birth [Bullae](disease) eat What drug Ok
+- Got it [Pulmonary embolism](disease) This What Medication Yeah
+- Suffer [Mercury poisoning](disease) What Medication Acridine
+- Worthy of [Bacillus pneumoniae pneumonia](disease) What Yan Pian Acridine
+- infection [Adult respiratory distress syndrome](disease) This Medication Is it
+- infection [Pulmonary Cryptococcosis](disease) Oral liquid What
+- [Simple pulmonary eosinophilic infiltration](disease) What medicine Ok
+- Worthy of [Pulmonary pseudotumor](disease) This What drug Is it
+- Worthy of [Adult respiratory distress syndrome](disease) This Oral liquid What
+- gave birth [Pulmonary Edema](disease) This Oral liquid Is it
+- Suffer [Lobar Pneumonia](disease) eat What drug Acridine
+- Got it [Bullae](disease) Time Oral liquid
+- gave birth [Pulmonary bullae](disease) This eat What medicine Ok
+- Catch [Septic shock](disease) medicine what
+- [Simple pulmonary eosinophilic infiltration](disease) Time medicine Ah
+- [Lung abscess](disease) This eat Medication Ah
+- gave birth [Pulmonary Actinomycosis](disease) Time Medication What
+- Catch [Simple pulmonary eosinophilic infiltration](disease) Time of drug
+- gave birth [Lung metastases](disease) Medication Is it
+- infection [Lung cancer](disease) Time drug Ah
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) Time of medicine Ok
+- Catch [SARS](disease) Medication Ah
+- infection [Benzene poisoning](disease) medicine Ok
+- infection [Pulmonary Edema](disease) Oral liquid
+- Get [Goodpasture syndrome](disease) medicine Yeah
+- Suffer [Pneumococcal pneumonia](disease) capsule Yeah
+- gave birth [Pulmonary pseudotumor](disease) This eat What capsule Ah
+- Suffer [Septic shock](disease) eat What Medication Is it
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) What Medication Ah
+- Got it [Goodpasture syndrome](disease) of drug Is it
+- [Cadmium poisoning](disease) This eat What drug Ah
+- infection [Lung cancer](disease) This What capsule What
+- [Pulmonary Candidiasis](disease) This What capsule Yeah
+- [cold](disease) This What capsule Acridine
+- [Benzene poisoning](disease) eat What drug what
+- gave birth [Pulmonary bullae](disease) What drug what
+- [cold](disease) Time of drug
+- Give birth [Foreign body in the respiratory tract](disease) This eat What drug Ok
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) eat medicine Ok
+- infection [Hypersensitivity pneumonia](disease) This What capsule
+- gave birth [Pulmonary Cryptococcosis](disease) eat What Oral liquid Is it
+- Suffer [Pulmonary Candidiasis](disease) What drug what
+- gave birth [Mercury poisoning](disease) Time medicine Ok
+- gave birth [Lobar Pneumonia](disease) eat What Oral liquid Ok
+- Catch [Emphysema](disease) This What Oral liquid Ok
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) Time of medicine Ah
+- infection [Pulmonary pseudotumor](disease) eat What drug what
+- Worthy of [Lobar Pneumonia](disease) of drug Yeah
+- Get [Lung abscess](disease) Time of Medication Acridine
+- Suffer [Building Sick Syndrome](disease) Time drug Ah
+- infection [Anaphylactic shock](disease) eat What Medication Ok
+- Catch [Pneumococcal pneumonia](disease) medicine Is it
+- Worthy of [Pulmonary bullae](disease) Medication What
+- gave birth [Pulmonary Candidiasis](disease) This drug what
+- Worthy of [Pulmonary-pleural amebiasis](disease) Yan Pian Is it
+- [Respiratory bronchiole-related interstitial lung disease](disease) Oral liquid Is it
+- Give birth [Emphysema](disease) This Yan Pian Is it
+- [Pulmonary-pleural amebiasis](disease) This eat What capsule
+- [Pulmonary pseudotumor](disease) capsule Ok
+- Worthy of [Lobar Pneumonia](disease) drug Is it
+- Get [Hypersensitivity pneumonia](disease) What drug Acridine
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) This eat drug
+- infection [Building Sick Syndrome](disease) What Medication Acridine
+- Worthy of [Lung abscess](disease) drug What
+- Got it [Mercury poisoning](disease) drug what
+- Worthy of [Benzene poisoning](disease) This eat Oral liquid what
+- infection [Septic shock](disease) This eat What Medication Is it
+- Got it [Large amounts of amniotic fluid inhalation](disease) eat What drug
+- [Mercury poisoning](disease) What Oral liquid Acridine
+- Got it [Hypersensitivity pneumonia](disease) of Yan Pian What
+- infection [Building Sick Syndrome](disease) This eat What Oral liquid What
+- Worthy of [Pneumococcal pneumonia](disease) Yan Pian Is it
+- Get [Pulmonary Edema](disease) This eat What Oral liquid
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) This eat What Medication what
+- infection [Building Sick Syndrome](disease) medicine
+- Suffer [Emphysema](disease) Time Medication what
+- infection [Cadmium poisoning](disease) This Oral liquid
+- Give birth [Lobar Pneumonia](disease) This eat What Medication What
+- infection [Building Sick Syndrome](disease) This What capsule what
+- Suffer [Adult respiratory distress syndrome](disease) This drug
+- Give birth [Pulmonary Edema](disease) medicine Ok
+- Got it [Anaphylactic shock](disease) medicine Is it
+- infection [Pulmonary pseudotumor](disease) This eat What Medication Ok
+- gave birth [Lung cancer](disease) Time Oral liquid What
+- gave birth [Carbon disulfide poisoning](disease) What drug Ok
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) Time capsule Acridine
+- Suffer [Bacillus pneumoniae pneumonia](disease) This eat What medicine Is it
+- gave birth [Lung cancer](disease) Time medicine Is it
+- Get [SARS](disease) This eat Oral liquid Acridine
+- Get [Lung cancer](disease) What capsule what
+- Got it [Cadmium poisoning](disease) eat What drug what
+- Suffer [Pneumococcal pneumonia](disease) Time of Yan Pian what
+- Catch [Carbon disulfide poisoning](disease) This eat medicine
+- Catch [Carbon disulfide poisoning](disease) This eat medicine Ok
+- Catch [Simple pulmonary eosinophilic infiltration](disease) capsule What
+- Worthy of [Wheezing bronchitis](disease) This eat drug Is it
+- Give birth [Septic shock](disease) What medicine What
+- [Pulmonary pseudotumor](disease) What medicine
+- Get [Bacillus pneumoniae pneumonia](disease) Time Yan Pian What
+- Get [Bacillus pneumoniae pneumonia](disease) What Yan Pian Yeah
+- gave birth [Septic shock](disease) Time of capsule what
+- gave birth [Radiation pneumonia](disease) This Yan Pian Ah
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) Oral liquid Acridine
+- Get [Lung abscess](disease) eat drug what
+- infection [pertussis](disease) Time Yan Pian what
+- Catch [pertussis](disease) Time medicine what
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) This eat Yan Pian Yeah
+- Give birth [Carbon disulfide poisoning](disease) Time capsule Acridine
+- Got it [pertussis](disease) Oral liquid Ah
+- gave birth [Lobar Pneumonia](disease) of drug what
+- gave birth [Mercury poisoning](disease) drug
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) This eat Oral liquid what
+- Worthy of [Anaphylactic shock](disease) Time Medication Acridine
+- Catch [cold](disease) This eat What Yan Pian what
+- Suffer [Lung metastases](disease) This What Medication Yeah
+- Catch [Pulmonary Actinomycosis](disease) eat What medicine Ah
+- Worthy of [Pulmonary Actinomycosis](disease) Yan Pian
+- infection [pneumonia](disease) of capsule What
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) eat Yan Pian Acridine
+- [Bullae](disease) Time Medication What
+- Get [Benzene poisoning](disease) eat Yan Pian What
+- Got it [Pulmonary Cryptococcosis](disease) eat drug Is it
+- Get [Pulmonary Candidiasis](disease) Time medicine Ok
+- infection [Cadmium poisoning](disease) eat Medication Ok
+- [Pulmonary-pleural amebiasis](disease) This What Oral liquid what
+- infection [Radiation pneumonia](disease) Time of Oral liquid Acridine
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) This eat Oral liquid Ah
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) Time of Yan Pian Yeah
+- Got it [Lung cancer](disease) Time medicine Ok
+- Give birth [Bacillus pneumoniae pneumonia](disease) Time of medicine Ok
+- Give birth [Lung abscess](disease) What Medication Yeah
+- [cold](disease) of capsule Ah
+- Catch [Goodpasture syndrome](disease) of Medication Acridine
+- Got it [Pulmonary Actinomycosis](disease) of drug What
+- Catch [Pulmonary pseudotumor](disease) of Oral liquid Is it
+- Suffer [Lung cancer](disease) eat drug What
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) of capsule
+- infection [Mercury poisoning](disease) medicine Yeah
+- [Pulmonary pseudotumor](disease) Yan Pian Ok
+- gave birth [Pulmonary pseudotumor](disease) capsule
+- Get [Wheezing bronchitis](disease) This eat capsule What
+- gave birth [cold](disease) drug What
+- Suffer [Alveolar proteinosis](disease) Time of Medication What
+- Worthy of [Pulmonary pseudotumor](disease) Medication Is it
+- Catch [Emphysema](disease) This What Oral liquid Acridine
+- [Hypersensitivity pneumonia](disease) eat medicine Ah
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) This eat Yan Pian Acridine
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) What medicine what
+- [Anaphylactic shock](disease) Time drug Is it
+- Get [Anaphylactic shock](disease) of Oral liquid What
+- infection [Cadmium poisoning](disease) This eat What Oral liquid Yeah
+- Catch [Alveolar proteinosis](disease) drug
+- Got it [Septic shock](disease) of Medication Is it
+- infection [Pulmonary Actinomycosis](disease) Time of capsule What
+- Catch [SARS](disease) capsule Ah
+- Worthy of [Foreign body in the respiratory tract](disease) What Yan Pian Is it
+- infection [Hypersensitivity pneumonia](disease) This eat What Oral liquid Acridine
+- Suffer [Lung cancer](disease) This What drug Acridine
+- Catch [Septic shock](disease) This capsule What
+- Get [Pulmonary Candidiasis](disease) medicine what
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) of drug What
+- infection [Lobar Pneumonia](disease) of drug What
+- Catch [Adult respiratory distress syndrome](disease) This Yan Pian Is it
+- Give birth [Mercury poisoning](disease) Time drug Acridine
+- Give birth [Lobar Pneumonia](disease) Time of Yan Pian Yeah
+- [pertussis](disease) drug Is it
+- gave birth [Pulmonary pseudotumor](disease) capsule Ah
+- infection [Emphysema](disease) Oral liquid Yeah
+- Catch [pertussis](disease) This What Yan Pian Acridine
+- Got it [Cadmium poisoning](disease) This eat What Yan Pian Acridine
+- gave birth [Large amounts of amniotic fluid inhalation](disease) This medicine Ah
+- Got it [Pneumococcal pneumonia](disease) Time drug Ah
+- Worthy of [Lung cancer](disease) eat What medicine what
+- Worthy of [Foreign body in the respiratory tract](disease) This Medication Is it
+- infection [Radiation pneumonia](disease) of capsule What
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) This What Oral liquid What
+- Got it [Hypersensitivity pneumonia](disease) Time drug
+- [Pulmonary Candidiasis](disease) capsule Is it
+- gave birth [Pulmonary Edema](disease) This eat What Medication Ok
+- Worthy of [Lung cancer](disease) This eat medicine Acridine
+- Get [Bacillus pneumoniae pneumonia](disease) eat What capsule Ah
+- gave birth [Pulmonary Actinomycosis](disease) This eat What Yan Pian what
+- [Lung abscess](disease) This eat Medication Ok
+- Get [Pulmonary pseudotumor](disease) This eat Yan Pian What
+- Give birth [Lung cancer](disease) Time capsule Ah
+- Get [Alveolar proteinosis](disease) eat medicine what
+- Get [Emphysema](disease) eat What capsule Ah
+- Worthy of [Alveolar proteinosis](disease) What medicine What
+- infection [Pulmonary embolism](disease) eat Oral liquid what
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) This eat Yan Pian What
+- gave birth [Cadmium poisoning](disease) Time of Yan Pian what
+- Catch [Wheezing bronchitis](disease) Time of medicine Yeah
+- infection [Hypersensitivity pneumonia](disease) Time of capsule
+- Catch [Benzene poisoning](disease) Time of medicine Yeah
+- infection [Pulmonary Aspergillosis](disease) Time of Medication Ok
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Yan Pian Acridine
+- Got it [Carbon disulfide poisoning](disease) Time of Medication what
+- gave birth [Bullae](disease) What Oral liquid what
+- Catch [Pulmonary Edema](disease) Time medicine
+- Catch [Radiation pneumonia](disease) medicine Ok
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) eat Medication Is it
+- Suffer [Pulmonary Actinomycosis](disease) Time of drug What
+- infection [SARS](disease) This What Medication Is it
+- infection [Mercury poisoning](disease) eat capsule Ah
+- Got it [Emphysema](disease) Time Yan Pian Ok
+- Worthy of [Foreign body in the respiratory tract](disease) This What Yan Pian what
+- Suffer [Goodpasture syndrome](disease) Oral liquid Ah
+- infection [Pulmonary bullae](disease) What Oral liquid Yeah
+- Suffer [Benzene poisoning](disease) This eat drug What
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) of Yan Pian Acridine
+- Give birth [Hypersensitivity pneumonia](disease) Time Oral liquid Yeah
+- Catch [Pulmonary Actinomycosis](disease) This medicine what
+- Suffer [Pulmonary Candidiasis](disease) Yan Pian
+- Get [cold](disease) Oral liquid Ok
+- infection [cold](disease) eat Medication Ah
+- Give birth [Pneumococcal pneumonia](disease) eat What Oral liquid What
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) eat What Medication Is it
+- Worthy of [pertussis](disease) This eat Oral liquid
+- gave birth [Pulmonary embolism](disease) eat What drug Acridine
+- Give birth [Benzene poisoning](disease) of capsule Ok
+- [Emphysema](disease) This What capsule Is it
+- infection [Anaphylactic shock](disease) Time Oral liquid What
+- Catch [Emphysema](disease) What Yan Pian What
+- Got it [pertussis](disease) of drug Yeah
+- Got it [Hypersensitivity pneumonia](disease) of drug Is it
+- Got it [pneumonia](disease) of Oral liquid
+- [Radiation pneumonia](disease) Time of capsule what
+- Catch [Anaphylactic shock](disease) This What capsule
+- Suffer [Radiation pneumonia](disease) Time Oral liquid
+- [Bacillus pneumoniae pneumonia](disease) This What Medication What
+- gave birth [Pulmonary Candidiasis](disease) This What Yan Pian what
+- Get [pertussis](disease) capsule what
+- Suffer [Wheezing bronchitis](disease) eat What drug Yeah
+- Got it [Simple pulmonary eosinophilic infiltration](disease) Time of medicine Ok
+- Worthy of [Hypersensitivity pneumonia](disease) What capsule
+- Worthy of [Alveolar proteinosis](disease) This eat What capsule Yeah
+- infection [Pulmonary bullae](disease) eat medicine Acridine
+- Worthy of [Pulmonary embolism](disease) eat What medicine what
+- Give birth [Lung abscess](disease) What capsule what
+- Suffer [Pulmonary embolism](disease) capsule what
+- Catch [Lung abscess](disease) of Medication Yeah
+- Get [Pulmonary Aspergillosis](disease) Time of medicine Acridine
+- Suffer [Pulmonary Actinomycosis](disease) What capsule
+- Suffer [Adult respiratory distress syndrome](disease) eat capsule Acridine
+- Give birth [Alveolar proteinosis](disease) medicine Acridine
+- Worthy of [Pulmonary embolism](disease) This eat medicine Acridine
+- Get [Simple pulmonary eosinophilic infiltration](disease) Time Yan Pian Yeah
+- gave birth [Large amounts of amniotic fluid inhalation](disease) This Medication
+- Worthy of [Pulmonary Cryptococcosis](disease) Time capsule What
+- Suffer [Carbon disulfide poisoning](disease) Oral liquid What
+- Got it [Adult respiratory distress syndrome](disease) Time Yan Pian Is it
+- gave birth [Anaphylactic shock](disease) This Oral liquid Yeah
+- gave birth [Radiation pneumonia](disease) What Oral liquid Is it
+- Catch [Building Sick Syndrome](disease) capsule Ah
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) What drug what
+- Worthy of [Pulmonary Edema](disease) This eat What Yan Pian
+- Get [Wheezing bronchitis](disease) This eat Oral liquid Yeah
+- Catch [Pulmonary pseudotumor](disease) Medication Acridine
+- Catch [Wheezing bronchitis](disease) This eat drug Ah
+- Worthy of [Lung cancer](disease) Oral liquid
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) This eat What Yan Pian Is it
+- Suffer [Bullae](disease) Time medicine
+- [Pulmonary Actinomycosis](disease) This eat What drug Acridine
+- Give birth [Pulmonary embolism](disease) This Oral liquid Yeah
+- infection [Alveolar proteinosis](disease) eat What Oral liquid Acridine
+- Get [Building Sick Syndrome](disease) This eat What medicine Acridine
+- [Radiation pneumonia](disease) What drug Is it
+- Suffer [Pulmonary embolism](disease) This eat Oral liquid Is it
+- infection [Lung metastases](disease) medicine Ok
+- Got it [pertussis](disease) This Yan Pian
+- gave birth [Mercury poisoning](disease) Time of medicine Yeah
+- Worthy of [Anaphylactic shock](disease) This eat What medicine Ah
+- Give birth [Septic shock](disease) What medicine Ah
+- Give birth [Goodpasture syndrome](disease) of Yan Pian Acridine
+- Get [Simple pulmonary eosinophilic infiltration](disease) medicine Acridine
+- Worthy of [Hypersensitivity pneumonia](disease) What Yan Pian What
+- Give birth [Wheezing bronchitis](disease) eat Medication
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) Medication Ah
+- Got it [Pulmonary-pleural amebiasis](disease) Time Medication Yeah
+- Catch [cold](disease) Time of Medication Is it
+- Got it [Emphysema](disease) This What drug Ok
+- [Pulmonary Actinomycosis](disease) This eat What medicine What
+- infection [Pulmonary bullae](disease) Yan Pian
+- Got it [Radiation pneumonia](disease) eat capsule Acridine
+- Give birth [SARS](disease) What drug Is it
+- Got it [Lung abscess](disease) Time Yan Pian Acridine
+- infection [Hypersensitivity pneumonia](disease) This eat capsule
+- infection [Adult respiratory distress syndrome](disease) Medication Acridine
+- Catch [Pulmonary Edema](disease) eat capsule Ah
+- Got it [Goodpasture syndrome](disease) This eat drug Acridine
+- Get [Pulmonary bullae](disease) eat What capsule what
+- gave birth [Lung abscess](disease) Time of medicine Is it
+- Give birth [pertussis](disease) This eat Yan Pian Ah
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) This What capsule
+- Worthy of [Pulmonary bullae](disease) This capsule what
+- gave birth [Pulmonary Aspergillosis](disease) eat What medicine Yeah
+- Got it [Pulmonary embolism](disease) drug what
+- Give birth [Lung cancer](disease) eat What drug Acridine
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) Yan Pian what
+- Get [Bacillus pneumoniae pneumonia](disease) Time of Yan Pian Is it
+- gave birth [Pulmonary Candidiasis](disease) This What Oral liquid Acridine
+- gave birth [pertussis](disease) This What medicine Acridine
+- Worthy of [cold](disease) of Medication Is it
+- gave birth [Pulmonary Cryptococcosis](disease) This eat Yan Pian What
+- Suffer [cold](disease) This eat medicine Ah
+- Worthy of [Emphysema](disease) This What capsule Acridine
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) medicine what
+- Got it [Alveolar proteinosis](disease) Oral liquid Ok
+- Get [Bullae](disease) Time drug Is it
+- Catch [Pulmonary Candidiasis](disease) This medicine What
+- Got it [Carbon disulfide poisoning](disease) eat medicine Yeah
+- gave birth [Pulmonary pseudotumor](disease) Time Oral liquid what
+- Give birth [Simple pulmonary eosinophilic infiltration](disease) Yan Pian Yeah
+- Get [Benzene poisoning](disease) of capsule
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) This What capsule Is it
+- Worthy of [Alveolar proteinosis](disease) This Yan Pian
+- Suffer [pertussis](disease) This medicine What
+- Got it [Lung metastases](disease) eat What Yan Pian
+- gave birth [Pulmonary Cryptococcosis](disease) This eat What drug Ah
+- infection [Lung cancer](disease) of drug Acridine
+- Worthy of [Foreign body in the respiratory tract](disease) This Medication Acridine
+- Got it [Pulmonary Candidiasis](disease) Time medicine
+- Got it [Carbon disulfide poisoning](disease) of drug Acridine
+- Suffer [Pulmonary Actinomycosis](disease) of Yan Pian
+- Got it [Adult respiratory distress syndrome](disease) eat Medication Is it
+- gave birth [Alveolar proteinosis](disease) of drug what
+- Got it [Carbon disulfide poisoning](disease) eat What Medication Ok
+- Catch [Lung cancer](disease) Oral liquid What
+- Suffer [Septic shock](disease) Time Medication What
+- Give birth [Building Sick Syndrome](disease) What capsule what
+- [Bullae](disease) This eat medicine Ah
+- gave birth [pneumonia](disease) eat Medication Acridine
+- Got it [Emphysema](disease) eat What Yan Pian What
+- Worthy of [Building Sick Syndrome](disease) Time medicine what
+- Give birth [Pulmonary pseudotumor](disease) Time capsule Ok
+- Worthy of [Alveolar proteinosis](disease) Time Oral liquid Acridine
+- Worthy of [Lung metastases](disease) What capsule Acridine
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) Yan Pian What
+- Suffer [Pneumococcal pneumonia](disease) Medication What
+- Give birth [Pulmonary Cryptococcosis](disease) Time Medication Ah
+- Got it [Lung cancer](disease) Time of capsule Yeah
+- Catch [Anaphylactic shock](disease) Time medicine What
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) drug Ah
+- infection [cold](disease) eat Medication
+- infection [Pneumococcal pneumonia](disease) of medicine Is it
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) Time capsule
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) Time of capsule
+- infection [Alveolar proteinosis](disease) of Yan Pian What
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) Time drug Acridine
+- [Foreign body in the respiratory tract](disease) This What drug Is it
+- [Alveolar proteinosis](disease) of Yan Pian Is it
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) medicine Is it
+- Suffer [pertussis](disease) eat What Oral liquid What
+- infection [Pulmonary Actinomycosis](disease) eat What medicine Acridine
+- gave birth [Pneumococcal pneumonia](disease) Time capsule What
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Oral liquid Is it
+- gave birth [Goodpasture syndrome](disease) This eat What Oral liquid Is it
+- infection [Lung cancer](disease) eat Yan Pian Is it
+- [Lung abscess](disease) Yan Pian Yeah
+- gave birth [Large amounts of amniotic fluid inhalation](disease) of Oral liquid Acridine
+- Catch [Lung metastases](disease) of medicine
+- Catch [Lung cancer](disease) This eat What Medication Yeah
+- [Alveolar proteinosis](disease) Time of capsule Ah
+- Suffer [Bullae](disease) What Yan Pian Acridine
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) What Yan Pian
+- Catch [Septic shock](disease) This What drug Ah
+- gave birth [Lung metastases](disease) of medicine Acridine
+- Got it [Radiation pneumonia](disease) eat Oral liquid What
+- Get [Simple pulmonary eosinophilic infiltration](disease) What drug what
+- Suffer [Hypersensitivity pneumonia](disease) eat What capsule Acridine
+- Catch [Alveolar proteinosis](disease) Time of capsule Ok
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) of Medication Ok
+- Catch [Alveolar proteinosis](disease) This eat What medicine What
+- Suffer [Pulmonary embolism](disease) eat Oral liquid Ah
+- infection [Goodpasture syndrome](disease) Time of Medication what
+- Get [Simple pulmonary eosinophilic infiltration](disease) Time of Medication Ok
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) of Oral liquid Acridine
+- infection [Wheezing bronchitis](disease) Time drug Ah
+- [Pulmonary Edema](disease) of Yan Pian What
+- Get [Pneumococcal pneumonia](disease) capsule Ah
+- [Pneumococcal pneumonia](disease) Time Medication what
+- [Foreign body in the respiratory tract](disease) This Medication
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) eat What Yan Pian Is it
+- Got it [Pulmonary bullae](disease) This Oral liquid Yeah
+- Give birth [Mercury poisoning](disease) Time Yan Pian Ok
+- Got it [Alveolar proteinosis](disease) Oral liquid
+- gave birth [Lung metastases](disease) capsule Ah
+- Suffer [Cadmium poisoning](disease) of Medication
+- Give birth [Pulmonary Edema](disease) This What drug Ok
+- Suffer [Benzene poisoning](disease) of capsule Ah
+- Give birth [Pulmonary bullae](disease) eat medicine What
+- Get [Simple pulmonary eosinophilic infiltration](disease) This eat medicine Acridine
+- gave birth [pneumonia](disease) Time medicine Yeah
+- Worthy of [cold](disease) Time Medication Acridine
+- Got it [Large amounts of amniotic fluid inhalation](disease) Time of Yan Pian Ah
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) Time Yan Pian Is it
+- Get [Septic shock](disease) Time Yan Pian what
+- Catch [Pneumococcal pneumonia](disease) This Yan Pian Ah
+- Got it [Adult respiratory distress syndrome](disease) What Oral liquid
+- infection [Pulmonary-pleural amebiasis](disease) This eat What Medication Yeah
+- Catch [Bullae](disease) of drug Acridine
+- Worthy of [cold](disease) eat capsule Ok
+- Catch [pertussis](disease) Time of capsule
+- Worthy of [Pulmonary Edema](disease) eat What Yan Pian what
+- Catch [Building Sick Syndrome](disease) Time of medicine Yeah
+- Catch [Pulmonary Edema](disease) drug
+- Suffer [Pulmonary pseudotumor](disease) Medication Ah
+- Worthy of [Pulmonary Aspergillosis](disease) This eat capsule What
+- Suffer [Alveolar proteinosis](disease) of Medication Is it
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) medicine Ah
+- [Anaphylactic shock](disease) medicine
+- Catch [Foreign body in the respiratory tract](disease) This eat Yan Pian
+- Worthy of [Pulmonary Edema](disease) What capsule Acridine
+- Suffer [Bullae](disease) capsule What
+- Suffer [Pulmonary embolism](disease) eat capsule What
+- Worthy of [Benzene poisoning](disease) Time Medication Yeah
+- Catch [pertussis](disease) capsule what
+- Give birth [Pneumococcal pneumonia](disease) This eat What drug Ah
+- Get [Bacillus pneumoniae pneumonia](disease) This eat Oral liquid Yeah
+- gave birth [Wheezing bronchitis](disease) This capsule what
+- Suffer [Pulmonary Aspergillosis](disease) This eat medicine Is it
+- Give birth [Lung cancer](disease) eat What drug Ok
+- gave birth [Wheezing bronchitis](disease) This eat Oral liquid
+- Catch [Bacillus pneumoniae pneumonia](disease) This eat drug what
+- infection [Lung metastases](disease) This eat What Yan Pian Ok
+- infection [Adult respiratory distress syndrome](disease) This medicine Yeah
+- gave birth [Pulmonary Actinomycosis](disease) This eat drug Ah
+- Get [Pulmonary-pleural amebiasis](disease) This eat What medicine Yeah
+- infection [Anaphylactic shock](disease) medicine
+- gave birth [Anaphylactic shock](disease) This What drug Yeah
+- Suffer [Foreign body in the respiratory tract](disease) of drug What
+- gave birth [Pulmonary Cryptococcosis](disease) medicine Is it
+- Get [pertussis](disease) This What medicine Acridine
+- Get [Adult respiratory distress syndrome](disease) eat What Oral liquid what
+- Got it [Emphysema](disease) Time of Oral liquid What
+- [Alveolar proteinosis](disease) Time of Yan Pian Is it
+- Got it [Bullae](disease) Time medicine
+- Worthy of [Bullae](disease) Medication
+- Suffer [Lobar Pneumonia](disease) of capsule What
+- gave birth [Benzene poisoning](disease) Time medicine What
+- [Carbon disulfide poisoning](disease) drug Ok
+- infection [Wheezing bronchitis](disease) Medication Is it
+- Worthy of [SARS](disease) of Medication what
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) eat What medicine Is it
+- Got it [pertussis](disease) This eat What Yan Pian
+- Catch [Mercury poisoning](disease) medicine What
+- infection [Pulmonary-pleural amebiasis](disease) Oral liquid
+- Suffer [Radiation pneumonia](disease) of drug Is it
+- Suffer [cold](disease) eat What drug Is it
+- [Carbon disulfide poisoning](disease) Medication what
+- Suffer [Bullae](disease) What medicine what
+- gave birth [Pulmonary Edema](disease) eat Oral liquid Ah
+- Give birth [Carbon disulfide poisoning](disease) of medicine What
+- infection [Foreign body in the respiratory tract](disease) Oral liquid Is it
+- gave birth [Pulmonary Cryptococcosis](disease) Yan Pian Ah
+- [Pulmonary Cryptococcosis](disease) This eat medicine Yeah
+- Got it [pneumonia](disease) Yan Pian Yeah
+- [Goodpasture syndrome](disease) eat Oral liquid Ah
+- Got it [Bacillus pneumoniae pneumonia](disease) Time of medicine Acridine
+- [Alveolar proteinosis](disease) medicine Is it
+- [Pulmonary Aspergillosis](disease) This capsule Yeah
+- gave birth [Bullae](disease) eat What Medication Ah
+- Get [Emphysema](disease) This What Medication Acridine
+- [Cadmium poisoning](disease) of Medication Yeah
+- gave birth [Goodpasture syndrome](disease) Medication Is it
+- Get [Large amounts of amniotic fluid inhalation](disease) Time of Yan Pian Yeah
+- Catch [Benzene poisoning](disease) Time of drug Yeah
+- Get [pneumonia](disease) drug What
+- Get [Pulmonary Actinomycosis](disease) Time of Medication Ok
+- gave birth [Pneumococcal pneumonia](disease) This drug Is it
+- Catch [Cadmium poisoning](disease) This eat What capsule Yeah
+- Give birth [Lobar Pneumonia](disease) Time of drug Ok
+- Get [Wheezing bronchitis](disease) This Medication Is it
+- Catch [Pulmonary bullae](disease) eat What Oral liquid Ok
+- gave birth [Septic shock](disease) Time of Yan Pian Ok
+- [pneumonia](disease) eat What medicine Yeah
+- Catch [pneumonia](disease) Time medicine Acridine
+- Suffer [Cadmium poisoning](disease) This eat What Yan Pian Ah
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) medicine What
+- Worthy of [Septic shock](disease) This What Oral liquid Acridine
+- gave birth [SARS](disease) This eat medicine Acridine
+- [Building Sick Syndrome](disease) This eat drug Ah
+- Give birth [Pulmonary bullae](disease) This drug Ah
+- Got it [Alveolar proteinosis](disease) of drug Ok
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) eat What Yan Pian what
+- Get [Pulmonary pseudotumor](disease) Time Oral liquid Acridine
+- Worthy of [Goodpasture syndrome](disease) This eat What Medication
+- Got it [Anaphylactic shock](disease) This What drug What
+- Got it [cold](disease) Time Medication what
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Time of Yan Pian What
+- Get [pertussis](disease) medicine Ah
+- Got it [Pulmonary-pleural amebiasis](disease) eat What capsule
+- Got it [Wheezing bronchitis](disease) What Medication Ah
+- Suffer [Adult respiratory distress syndrome](disease) Time Yan Pian what
+- Catch [Building Sick Syndrome](disease) Time of Oral liquid Ah
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) This eat Oral liquid Ok
+- Worthy of [Alveolar proteinosis](disease) Oral liquid Ah
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Time Medication Yeah
+- Get [Pulmonary Edema](disease) Oral liquid what
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) This eat What Oral liquid
+- infection [Emphysema](disease) eat What drug Is it
+- [Pulmonary pseudotumor](disease) What Yan Pian Yeah
+- Catch [Septic shock](disease) This eat capsule what
+- infection [Pulmonary Cryptococcosis](disease) This eat drug Acridine
+- Suffer [Pulmonary pseudotumor](disease) eat What drug What
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) This What medicine Yeah
+- gave birth [Bacillus pneumoniae pneumonia](disease) of medicine Yeah
+- gave birth [Pulmonary embolism](disease) This eat Medication What
+- Suffer [Lobar Pneumonia](disease) This What medicine
+- Get [Bacillus pneumoniae pneumonia](disease) of Oral liquid Acridine
+- Worthy of [Foreign body in the respiratory tract](disease) eat Yan Pian Yeah
+- [Pulmonary Edema](disease) eat What medicine what
+- Give birth [Lung abscess](disease) This What medicine Acridine
+- Catch [Lung metastases](disease) What Oral liquid Acridine
+- gave birth [Anaphylactic shock](disease) This eat Medication Yeah
+- Give birth [Pulmonary Aspergillosis](disease) This eat What Oral liquid What
+- gave birth [Pulmonary bullae](disease) This What capsule What
+- Get [Pneumococcal pneumonia](disease) eat What Yan Pian
+- Catch [Pulmonary bullae](disease) Time of medicine
+- [Septic shock](disease) This Medication Acridine
+- Catch [Pulmonary pseudotumor](disease) Time of drug Is it
+- infection [Bullae](disease) Time of Medication what
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) of Oral liquid What
+- Catch [Radiation pneumonia](disease) of capsule Ah
+- Catch [Hypersensitivity pneumonia](disease) Time of Medication Ok
+- [Adult respiratory distress syndrome](disease) Medication Ok
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) eat Yan Pian Ah
+- Suffer [Building Sick Syndrome](disease) What medicine Ok
+- Catch [Pulmonary-pleural amebiasis](disease) This eat What medicine Yeah
+- Get [Pulmonary Candidiasis](disease) What Oral liquid Acridine
+- Give birth [Pulmonary pseudotumor](disease) Time of Yan Pian Yeah
+- Worthy of [Pulmonary embolism](disease) of Medication
+- infection [Pulmonary embolism](disease) Oral liquid Yeah
+- Got it [Pulmonary-pleural amebiasis](disease) capsule Is it
+- Catch [Pulmonary bullae](disease) Yan Pian Acridine
+- Get [Pulmonary Candidiasis](disease) Oral liquid Acridine
+- Get [Pulmonary Edema](disease) What capsule What
+- Suffer [Wheezing bronchitis](disease) drug Is it
+- [Emphysema](disease) This What medicine Ah
+- gave birth [Hypersensitivity pneumonia](disease) Oral liquid Ah
+- [Pulmonary-pleural amebiasis](disease) eat drug Acridine
+- Suffer [Pulmonary-pleural amebiasis](disease) eat What Yan Pian Yeah
+- Worthy of [Building Sick Syndrome](disease) What drug Ok
+- Suffer [Radiation pneumonia](disease) This eat Medication Is it
+- [Pulmonary bullae](disease) This capsule Ok
+- Suffer [Goodpasture syndrome](disease) Time of Yan Pian Ok
+- infection [Goodpasture syndrome](disease) eat Yan Pian what
+- [Foreign body in the respiratory tract](disease) Time Yan Pian Is it
+- infection [Radiation pneumonia](disease) eat What Oral liquid
+- Get [Lobar Pneumonia](disease) This eat What Oral liquid What
+- Give birth [Pulmonary Aspergillosis](disease) This Medication Ah
+- Suffer [Anaphylactic shock](disease) of Yan Pian Ah
+- infection [Pulmonary-pleural amebiasis](disease) Yan Pian Is it
+- [Pulmonary Candidiasis](disease) This medicine
+- Get [Alveolar proteinosis](disease) This eat Yan Pian Yeah
+- Catch [Radiation pneumonia](disease) of drug Is it
+- Get [Pulmonary embolism](disease) What Medication what
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) This drug Ah
+- [Hypersensitivity pneumonia](disease) What Yan Pian Is it
+- infection [pneumonia](disease) of drug Is it
+- Give birth [SARS](disease) Time Medication what
+- Worthy of [Hypersensitivity pneumonia](disease) Medication Yeah
+- Catch [pertussis](disease) Time Medication What
+- Get [Large amounts of amniotic fluid inhalation](disease) eat Medication Ok
+- gave birth [pertussis](disease) This What Oral liquid Ok
+- Give birth [Pulmonary Edema](disease) drug Yeah
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) What drug Ok
+- gave birth [SARS](disease) Oral liquid
+- Worthy of [Alveolar proteinosis](disease) eat What Medication Is it
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) Time of Medication what
+- infection [Pulmonary embolism](disease) This eat medicine what
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) Time of Yan Pian Ah
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) This eat What Oral liquid
+- Catch [Carbon disulfide poisoning](disease) eat What Yan Pian Yeah
+- Give birth [Septic shock](disease) Time of drug Ok
+- [Respiratory bronchiole-related interstitial lung disease](disease) This What Medication Ok
+- Catch [cold](disease) This What drug What
+- Give birth [Large amounts of amniotic fluid inhalation](disease) This eat What drug Is it
+- Get [Adult respiratory distress syndrome](disease) This What capsule
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) What capsule Is it
+- Got it [Goodpasture syndrome](disease) This drug Ah
+- infection [SARS](disease) This What Medication Ah
+- infection [Goodpasture syndrome](disease) eat What drug Ok
+- infection [Benzene poisoning](disease) eat What Medication Ah
+- Suffer [Pulmonary Aspergillosis](disease) eat drug Acridine
+- Worthy of [Pulmonary Actinomycosis](disease) Time of drug Yeah
+- [Simple pulmonary eosinophilic infiltration](disease) This eat capsule
+- [Anaphylactic shock](disease) What medicine Yeah
+- infection [Lung metastases](disease) Medication Ok
+- [Radiation pneumonia](disease) Oral liquid Ah
+- Give birth [Pulmonary Aspergillosis](disease) eat Medication Yeah
+- Catch [Large amounts of amniotic fluid inhalation](disease) eat What drug
+- Give birth [Pulmonary-pleural amebiasis](disease) Time of medicine Is it
+- gave birth [Carbon disulfide poisoning](disease) This capsule Ok
+- [Pulmonary bullae](disease) of capsule Ah
+- Worthy of [Adult respiratory distress syndrome](disease) eat Yan Pian what
+- Get [Bacillus pneumoniae pneumonia](disease) Medication What
+- gave birth [Respiratory bronchiole-related interstitial lung disease](disease) eat Oral liquid Acridine
+- gave birth [Hypersensitivity pneumonia](disease) capsule Ah
+- infection [Alveolar proteinosis](disease) This What Oral liquid what
+- Get [Radiation pneumonia](disease) Time of Oral liquid
+- [Lobar Pneumonia](disease) medicine Yeah
+- infection [Cadmium poisoning](disease) This eat What Yan Pian Ok
+- Got it [Respiratory bronchiole-related interstitial lung disease](disease) This eat What Medication what
+- Catch [Lung metastases](disease) This eat Yan Pian
+- [Pulmonary bullae](disease) of Oral liquid what
+- Get [Lobar Pneumonia](disease) This What Oral liquid Is it
+- Got it [Lung cancer](disease) This Medication What
+- gave birth [Pulmonary Actinomycosis](disease) eat What Yan Pian Ok
+- gave birth [cold](disease) of Yan Pian Yeah
+- Get [Septic shock](disease) Medication
+- Got it [cold](disease) Time Yan Pian what
+- gave birth [cold](disease) Time of Yan Pian what
+- infection [Foreign body in the respiratory tract](disease) This eat What medicine Ok
+- Get [Pulmonary pseudotumor](disease) Time of capsule Acridine
+- Suffer [Lung abscess](disease) drug Ah
+- Suffer [Pulmonary Actinomycosis](disease) eat Medication Yeah
+- infection [Foreign body in the respiratory tract](disease) Time drug Yeah
+- [cold](disease) drug Ah
+- infection [Hypersensitivity pneumonia](disease) This drug Ah
+- Suffer [Alveolar proteinosis](disease) eat What Medication what
+- Got it [Bacillus pneumoniae pneumonia](disease) of Medication Is it
+- Worthy of [Pulmonary Edema](disease) What capsule Is it
+- Give birth [Pulmonary Cryptococcosis](disease) of Medication Ah
+- Worthy of [Pulmonary bullae](disease) Medication Yeah
+- infection [SARS](disease) What Medication Yeah
+- Suffer [Bacillus pneumoniae pneumonia](disease) This eat What Medication Ah
+- Catch [Benzene poisoning](disease) Time of Medication Yeah
+- Worthy of [Cadmium poisoning](disease) What drug Acridine
+- Give birth [Foreign body in the respiratory tract](disease) This eat What drug what
+- Give birth [pneumonia](disease) This What Medication Acridine
+- Catch [Pulmonary Candidiasis](disease) eat What Medication Ok
+- Worthy of [Alveolar proteinosis](disease) This Oral liquid Ok
+- Suffer [Foreign body in the respiratory tract](disease) This eat What capsule Is it
+- infection [Anaphylactic shock](disease) This eat medicine Acridine
+- Catch [Pulmonary Cryptococcosis](disease) Oral liquid Acridine
+- infection [Pneumococcal pneumonia](disease) eat What capsule what
+- Give birth [Wheezing bronchitis](disease) eat What capsule Acridine
+- [Hypersensitivity pneumonia](disease) This eat drug Is it
+- Give birth [Septic shock](disease) Time of Oral liquid Acridine
+- infection [Pulmonary-pleural amebiasis](disease) Time Yan Pian Ok
+- gave birth [Pulmonary Candidiasis](disease) eat What capsule Ah
+- Got it [Pulmonary Edema](disease) Medication Ok
+- gave birth [Benzene poisoning](disease) This What Yan Pian Ok
+- Got it [Septic shock](disease) What medicine Ok
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) drug Ok
+- gave birth [Lung abscess](disease) capsule Ok
+- Get [Pulmonary-pleural amebiasis](disease) This eat Oral liquid Acridine
+- Get [Large amounts of amniotic fluid inhalation](disease) Time Yan Pian
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) Time of drug Ok
+- infection [Pulmonary Candidiasis](disease) Oral liquid
+- Get [Radiation pneumonia](disease) Time of drug what
+- Give birth [Septic shock](disease) This What drug Ok
+- infection [Carbon disulfide poisoning](disease) This What Oral liquid Ah
+- infection [Bullae](disease) eat Yan Pian Ok
+- Suffer [Large amounts of amniotic fluid inhalation](disease) capsule What
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) Medication Yeah
+- Got it [Mercury poisoning](disease) medicine What
+- Get [Emphysema](disease) Time drug
+- Catch [Cadmium poisoning](disease) medicine Ok
+- [Hypersensitivity pneumonia](disease) Medication what
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) Time of capsule Is it
+- infection [Adult respiratory distress syndrome](disease) What drug Is it
+- Suffer [Anaphylactic shock](disease) eat What Medication
+- Suffer [Alveolar proteinosis](disease) of Yan Pian Acridine
+- gave birth [pertussis](disease) drug Ah
+- gave birth [Cadmium poisoning](disease) eat medicine
+- Got it [Foreign body in the respiratory tract](disease) Time Oral liquid what
+- [Pulmonary embolism](disease) This What Yan Pian what
+- Got it [Cadmium poisoning](disease) of capsule Acridine
+- [Alveolar proteinosis](disease) capsule Is it
+- gave birth [Wheezing bronchitis](disease) Time of Medication
+- Suffer [Alveolar proteinosis](disease) Medication What
+- Worthy of [pneumonia](disease) What Oral liquid What
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) This Yan Pian Ok
+- Suffer [pneumonia](disease) Yan Pian Ok
+- Give birth [Pulmonary Cryptococcosis](disease) This eat Yan Pian Acridine
+- Catch [Septic shock](disease) This eat What Yan Pian Is it
+- Worthy of [Anaphylactic shock](disease) of Medication what
+- [pneumonia](disease) This What Oral liquid What
+- [Pulmonary hemorrhage-nephritis syndrome](disease) of drug Is it
+- Get [Large amounts of amniotic fluid inhalation](disease) Time of drug Acridine
+- Get [Emphysema](disease) Time drug What
+- gave birth [Large amounts of amniotic fluid inhalation](disease) Time Medication Acridine
+- Catch [Alveolar proteinosis](disease) Oral liquid Is it
+- Suffer [Alveolar proteinosis](disease) medicine
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) medicine Acridine
+- Give birth [Pulmonary Candidiasis](disease) Oral liquid What
+- gave birth [Pulmonary pseudotumor](disease) Time medicine
+- infection [Simple pulmonary eosinophilic infiltration](disease) Time of Oral liquid Ah
+- infection [Alveolar proteinosis](disease) Time Yan Pian Acridine
+- gave birth [Alveolar proteinosis](disease) This Oral liquid Ok
+- [Pulmonary bullae](disease) This Oral liquid What
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) This What capsule What
+- [Alveolar proteinosis](disease) eat Oral liquid what
+- Suffer [cold](disease) medicine Ok
+- Give birth [Foreign body in the respiratory tract](disease) This eat What Medication Acridine
+- Catch [Hypersensitivity pneumonia](disease) Oral liquid Yeah
+- Get [SARS](disease) Time capsule Acridine
+- Suffer [Alveolar proteinosis](disease) Time drug Ah
+- Suffer [Lung metastases](disease) This eat medicine Ok
+- Worthy of [Pulmonary Edema](disease) of Oral liquid Acridine
+- Suffer [Pulmonary Aspergillosis](disease) Time of Medication Yeah
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) Time medicine Ah
+- Suffer [Pulmonary bullae](disease) Time of Oral liquid Is it
+- Suffer [Pulmonary pseudotumor](disease) medicine Ok
+- Worthy of [Hypersensitivity pneumonia](disease) Time of Yan Pian Acridine
+- Give birth [Lung abscess](disease) This medicine what
+- Get [Respiratory bronchiole-related interstitial lung disease](disease) eat drug
+- Suffer [Pneumococcal pneumonia](disease) eat What medicine Is it
+- gave birth [Large amounts of amniotic fluid inhalation](disease) Time drug what
+- Got it [Benzene poisoning](disease) Time of Oral liquid What
+- Give birth [Alveolar proteinosis](disease) This What capsule what
+- [pneumonia](disease) Oral liquid Acridine
+- gave birth [Large amounts of amniotic fluid inhalation](disease) Time capsule what
+- Get [Mercury poisoning](disease) This eat What medicine Yeah
+- [Pulmonary hemorrhage-nephritis syndrome](disease) drug What
+- Give birth [Adult respiratory distress syndrome](disease) of capsule what
+- Worthy of [Lobar Pneumonia](disease) What medicine What
+- [Pneumococcal pneumonia](disease) Time of Medication What
+- [Pulmonary pseudotumor](disease) Yan Pian What
+- Worthy of [Radiation pneumonia](disease) of Medication Is it
+- infection [Mercury poisoning](disease) of medicine Ah
+- Got it [Emphysema](disease) Time of Medication Is it
+- Got it [Pulmonary Edema](disease) medicine Is it
+- Give birth [Pulmonary embolism](disease) This eat What Medication Yeah
+- Worthy of [Cadmium poisoning](disease) of drug Ah
+- Give birth [Cadmium poisoning](disease) This eat What capsule Acridine
+- Catch [pneumonia](disease) eat What Medication
+- Get [Radiation pneumonia](disease) This eat What medicine Ah
+- Got it [Lobar Pneumonia](disease) This capsule Acridine
+- Suffer [Large amounts of amniotic fluid inhalation](disease) Time of drug Ok
+- Catch [SARS](disease) eat What Medication What
+- Get [Pneumococcal pneumonia](disease) Time of medicine What
+- Get [Large amounts of amniotic fluid inhalation](disease) eat capsule Ah
+- Get [Adult respiratory distress syndrome](disease) This Medication what
+- [Building Sick Syndrome](disease) Medication Yeah
+- infection [Bacillus pneumoniae pneumonia](disease) This Medication Yeah
+- Got it [Pulmonary embolism](disease) This Yan Pian What
+- Got it [Foreign body in the respiratory tract](disease) This medicine what
+- Suffer [Building Sick Syndrome](disease) drug Ah
+- [Pulmonary Actinomycosis](disease) Time medicine Acridine
+- Suffer [Pulmonary pseudotumor](disease) This eat What Medication Ah
+- Catch [Cadmium poisoning](disease) This What Yan Pian What
+- Give birth [Lung cancer](disease) Medication Acridine
+- [Pulmonary Cryptococcosis](disease) eat What capsule Ok
+- Give birth [Emphysema](disease) Time of Oral liquid Is it
+- Got it [Emphysema](disease) medicine Ok
+- Suffer [Mercury poisoning](disease) Medication Is it
+- [Building Sick Syndrome](disease) Time of capsule Ok
+- gave birth [Bullae](disease) drug Ah
+- Catch [Pulmonary-pleural amebiasis](disease) This eat drug Ok
+- Get [Bacillus pneumoniae pneumonia](disease) This Yan Pian Ah
+- gave birth [Pulmonary Edema](disease) Medication Ah
+- Got it [Lung abscess](disease) eat What Yan Pian Ok
+- Get [Emphysema](disease) This eat Medication Ah
+- Worthy of [SARS](disease) This What Oral liquid Yeah
+- Suffer [Large amounts of amniotic fluid inhalation](disease) drug Ok
+- infection [Large amounts of amniotic fluid inhalation](disease) This Yan Pian Ah
+- Suffer [Bacillus pneumoniae pneumonia](disease) eat Medication Ah
+- Suffer [Bacillus pneumoniae pneumonia](disease) capsule Is it
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) medicine Is it
+- [Cadmium poisoning](disease) Oral liquid
+- Get [Radiation pneumonia](disease) eat capsule Ah
+- Suffer [Lung cancer](disease) This What capsule Ah
+- Catch [Lung cancer](disease) What capsule What
+- Give birth [Lobar Pneumonia](disease) This eat capsule what
+- Worthy of [Pneumococcal pneumonia](disease) What medicine Acridine
+- infection [Pulmonary embolism](disease) Time Yan Pian Is it
+- Catch [Foreign body in the respiratory tract](disease) of Yan Pian Is it
+- [Pulmonary Cryptococcosis](disease) Time of Oral liquid Ah
+- [Anaphylactic shock](disease) Medication Yeah
+- [Lung abscess](disease) Time Medication what
+- infection [Pulmonary Cryptococcosis](disease) Time of Oral liquid Is it
+- Suffer [Alveolar proteinosis](disease) of drug Is it
+- [Pulmonary Candidiasis](disease) Time capsule what
+- [Carbon disulfide poisoning](disease) This Medication Acridine
+- Worthy of [Emphysema](disease) of drug Is it
+- Give birth [pertussis](disease) This eat What Medication Ok
+- Give birth [Pulmonary Aspergillosis](disease) This eat Yan Pian Is it
+- Give birth [Wheezing bronchitis](disease) This eat Oral liquid What
+- Suffer [pertussis](disease) This eat What Yan Pian Ok
+- infection [cold](disease) This eat Medication Acridine
+- Suffer [Lung abscess](disease) Time of capsule Yeah
+- infection [Pulmonary pseudotumor](disease) capsule Acridine
+- infection [SARS](disease) This eat Oral liquid what
+- infection [pertussis](disease) of Medication Acridine
+- Got it [Lobar Pneumonia](disease) Time of drug Ah
+- Worthy of [Lobar Pneumonia](disease) This What drug
+- Suffer [Benzene poisoning](disease) What Oral liquid Ah
+- [Cadmium poisoning](disease) eat capsule Ah
+- gave birth [Anaphylactic shock](disease) This Oral liquid what
+- [SARS](disease) of Medication What
+- Get [Pulmonary pseudotumor](disease) Time of medicine What
+- Suffer [Mercury poisoning](disease) This capsule Is it
+- gave birth [Building Sick Syndrome](disease) What medicine
+- Give birth [Septic shock](disease) eat capsule Is it
+- infection [Lung abscess](disease) Time capsule What
+- Suffer [Bacillus pneumoniae pneumonia](disease) eat What medicine what
+- Catch [Pulmonary embolism](disease) eat drug Acridine
+- Worthy of [Carbon disulfide poisoning](disease) Time of capsule Ok
+- Got it [Pulmonary pseudotumor](disease) Time of capsule What
+- Get [Emphysema](disease) Time capsule Ah
+- gave birth [Large amounts of amniotic fluid inhalation](disease) capsule
+- Get [Pulmonary-pleural amebiasis](disease) eat capsule Ah
+- gave birth [Mercury poisoning](disease) drug Ok
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) capsule
+- infection [Lung cancer](disease) This What Oral liquid Yeah
+- gave birth [Pulmonary Aspergillosis](disease) of Oral liquid Acridine
+- Catch [Benzene poisoning](disease) eat capsule Ah
+- Suffer [Wheezing bronchitis](disease) Time of drug Yeah
+- gave birth [Simple pulmonary eosinophilic infiltration](disease) This What capsule Ok
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) This drug What
+- Give birth [Lobar Pneumonia](disease) eat What Yan Pian What
+- Give birth [Pulmonary Candidiasis](disease) eat capsule Is it
+- Give birth [Bullae](disease) of Oral liquid Yeah
+- Worthy of [Adult respiratory distress syndrome](disease) medicine What
+- Suffer [Radiation pneumonia](disease) What drug What
+- infection [Lung cancer](disease) What Yan Pian What
+- [Radiation pneumonia](disease) This eat What capsule Acridine
+- Worthy of [Pneumococcal pneumonia](disease) This Oral liquid
+- Give birth [Pulmonary Candidiasis](disease) Time Yan Pian What
+- [Lung metastases](disease) This What drug what
+- Got it [Foreign body in the respiratory tract](disease) Time of medicine Is it
+- gave birth [SARS](disease) This Medication Acridine
+- Get [Lung metastases](disease) This eat Oral liquid
+- gave birth [Lung cancer](disease) This What capsule what
+- infection [pneumonia](disease) What Yan Pian Ok
+- Catch [Bullae](disease) This What Yan Pian Acridine
+- infection [cold](disease) What Yan Pian Acridine
+- gave birth [SARS](disease) drug what
+- [Goodpasture syndrome](disease) of Oral liquid Acridine
+- Catch [pneumonia](disease) This eat drug Acridine
+- Worthy of [Building Sick Syndrome](disease) Time of Yan Pian
+- gave birth [Pulmonary Actinomycosis](disease) drug What
+- Got it [Carbon disulfide poisoning](disease) eat capsule what
+- Give birth [Pulmonary Candidiasis](disease) eat Oral liquid what
+- gave birth [Lung cancer](disease) This What medicine What
+- Get [Hypersensitivity pneumonia](disease) This Yan Pian
+- Give birth [Pulmonary Edema](disease) of Medication what
+- infection [Large amounts of amniotic fluid inhalation](disease) This Medication
+- Got it [Goodpasture syndrome](disease) This drug
+- Get [Large amounts of amniotic fluid inhalation](disease) This eat What medicine Ok
+- [Carbon disulfide poisoning](disease) of Yan Pian Acridine
+- gave birth [Bacillus pneumoniae pneumonia](disease) of Yan Pian
+- gave birth [Bullae](disease) Time Oral liquid Acridine
+- Suffer [Emphysema](disease) What Oral liquid What
+- Catch [Cadmium poisoning](disease) This eat capsule what
+- infection [Simple pulmonary eosinophilic infiltration](disease) This eat Medication Acridine
+- Worthy of [Lung abscess](disease) This eat What capsule Acridine
+- [Mercury poisoning](disease) This What Yan Pian Yeah
+- Catch [Pulmonary-pleural amebiasis](disease) of Medication Ah
+- gave birth [Pulmonary-pleural amebiasis](disease) Oral liquid Is it
+- gave birth [Hypersensitivity pneumonia](disease) of capsule
+- gave birth [Goodpasture syndrome](disease) What Yan Pian Yeah
+- Catch [Bullae](disease) Oral liquid Acridine
+- Give birth [Pulmonary Actinomycosis](disease) This eat medicine
+- Worthy of [Adult respiratory distress syndrome](disease) Time of drug Ah
+- Suffer [Pulmonary Aspergillosis](disease) Medication Yeah
+- Catch [Emphysema](disease) drug Ah
+- Catch [Lung cancer](disease) This What capsule Acridine
+- Suffer [Cadmium poisoning](disease) drug Acridine
+- Catch [Pulmonary Candidiasis](disease) This Medication
+- Give birth [Pulmonary Candidiasis](disease) What capsule Is it
+- Worthy of [Benzene poisoning](disease) This medicine Yeah
+- Catch [pertussis](disease) This What drug What
+- Got it [Bacillus pneumoniae pneumonia](disease) medicine what
+- Catch [Pulmonary hemorrhage-nephritis syndrome](disease) Time capsule What
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) This What Yan Pian
+- Get [Radiation pneumonia](disease) Time Oral liquid Ah
+- Suffer [Septic shock](disease) of drug Ok
+- Give birth [Septic shock](disease) This eat What medicine Acridine
+- Suffer [Pulmonary embolism](disease) This eat Medication Ok
+- [Large amounts of amniotic fluid inhalation](disease) Time Oral liquid Ah
+- Got it [SARS](disease) This eat drug Ok
+- Get [Mercury poisoning](disease) eat What Medication Acridine
+- Give birth [Respiratory bronchiole-related interstitial lung disease](disease) This What capsule what
+- infection [cold](disease) This eat What medicine Ok
+- Suffer [Pulmonary bullae](disease) eat Oral liquid Acridine
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) What Oral liquid Ok
+- Got it [pneumonia](disease) What drug Is it
+- Got it [Pulmonary Edema](disease) eat capsule what
+- Get [Carbon disulfide poisoning](disease) Time of medicine
+- Catch [Lung metastases](disease) Time of capsule Ok
+- Suffer [SARS](disease) eat What drug
+- [Pulmonary Candidiasis](disease) Time capsule What
+- Give birth [Pulmonary Candidiasis](disease) of medicine What
+- [Respiratory bronchiole-related interstitial lung disease](disease) This eat capsule Acridine
+- Got it [cold](disease) eat What Medication what
+- infection [Lung cancer](disease) This What capsule Ok
+- [Bacillus pneumoniae pneumonia](disease) This Medication Ah
+- Get [Pulmonary pseudotumor](disease) Time of drug Yeah
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Time of Medication Yeah
+- gave birth [Pneumococcal pneumonia](disease) Time of medicine What
+- Give birth [Alveolar proteinosis](disease) Time of Oral liquid Ok
+- Catch [Large amounts of amniotic fluid inhalation](disease) This What Medication Yeah
+- Give birth [Building Sick Syndrome](disease) This eat What drug Ok
+- Got it [Foreign body in the respiratory tract](disease) What Yan Pian Ah
+- Worthy of [Building Sick Syndrome](disease) capsule
+- Get [Alveolar proteinosis](disease) of Yan Pian What
+- Get [pneumonia](disease) eat Medication Yeah
+- infection [Anaphylactic shock](disease) of drug Acridine
+- Got it [Pulmonary Actinomycosis](disease) This eat Medication Ah
+- gave birth [SARS](disease) of Oral liquid Ah
+- Get [Pulmonary Aspergillosis](disease) This eat What Medication Ok
+- infection [Large amounts of amniotic fluid inhalation](disease) Time of Oral liquid Is it
+- Got it [Pulmonary Actinomycosis](disease) eat Oral liquid Acridine
+- Catch [Lung metastases](disease) What Oral liquid Yeah
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) eat What drug Ah
+- Catch [Carbon disulfide poisoning](disease) This What capsule Is it
+- Get [Carbon disulfide poisoning](disease) of medicine What
+- Worthy of [Building Sick Syndrome](disease) Time of Oral liquid What
+- Give birth [Pulmonary embolism](disease) What drug Acridine
+- Got it [Alveolar proteinosis](disease) Time of medicine Ah
+- gave birth [Pneumococcal pneumonia](disease) Medication What
+- [Benzene poisoning](disease) eat What Medication Ok
+- Get [Alveolar proteinosis](disease) Time of drug What
+- Got it [Pulmonary-pleural amebiasis](disease) This eat Oral liquid Ah
+- Suffer [Goodpasture syndrome](disease) This Yan Pian what
+- gave birth [Adult respiratory distress syndrome](disease) Time Medication what
+- Catch [Building Sick Syndrome](disease) capsule
+- infection [Pulmonary embolism](disease) drug Acridine
+- Got it [Anaphylactic shock](disease) What Medication
+- Get [Alveolar proteinosis](disease) medicine Acridine
+- gave birth [Lung abscess](disease) drug Ah
+- [Hypersensitivity pneumonia](disease) eat Yan Pian what
+- Give birth [Large amounts of amniotic fluid inhalation](disease) This eat What drug what
+- infection [Wheezing bronchitis](disease) Time Oral liquid Ok
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) eat Medication Acridine
+- Suffer [pneumonia](disease) of Medication What
+- gave birth [pneumonia](disease) Time of drug Acridine
+- Worthy of [Pulmonary Cryptococcosis](disease) capsule Yeah
+- gave birth [pertussis](disease) drug Yeah
+- Get [Mercury poisoning](disease) Oral liquid Acridine
+- [Goodpasture syndrome](disease) eat What Yan Pian Is it
+- Suffer [Pulmonary bullae](disease) of Medication Ah
+- gave birth [Alveolar proteinosis](disease) of Medication Ok
+- Worthy of [Benzene poisoning](disease) This eat What Medication What
+- [Adult respiratory distress syndrome](disease) of Medication Acridine
+- Worthy of [Foreign body in the respiratory tract](disease) capsule what
+- Catch [Carbon disulfide poisoning](disease) This What capsule Ok
+- [Bacillus pneumoniae pneumonia](disease) What Oral liquid
+- Get [Alveolar proteinosis](disease) This eat Medication Ah
+- infection [Radiation pneumonia](disease) This eat drug Acridine
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) of Oral liquid What
+- infection [Anaphylactic shock](disease) Time medicine what
+- gave birth [Alveolar proteinosis](disease) This Oral liquid Ah
+- Got it [Pulmonary-pleural amebiasis](disease) This Yan Pian What
+- Got it [Bacillus pneumoniae pneumonia](disease) This eat What medicine Ah
+- Catch [Pulmonary pseudotumor](disease) eat Oral liquid Acridine
+- Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) Yan Pian What
+- Suffer [Pulmonary embolism](disease) eat Medication Ok
+- gave birth [Lobar Pneumonia](disease) eat What Yan Pian What
+- Catch [Emphysema](disease) drug Is it
+- Got it [Lobar Pneumonia](disease) eat What drug Yeah
+- Get [Lung abscess](disease) of Oral liquid What
+- infection [Pulmonary Aspergillosis](disease) Medication Yeah
+- Suffer [Pneumococcal pneumonia](disease) Time of drug What
+- gave birth [Radiation pneumonia](disease) Medication Acridine
+- gave birth [Building Sick Syndrome](disease) This Oral liquid Ok
+- Worthy of [Wheezing bronchitis](disease) drug
+- Suffer [Carbon disulfide poisoning](disease) capsule Acridine
+- Get [Pulmonary Candidiasis](disease) eat medicine Is it
+- Catch [Pulmonary Cryptococcosis](disease) Time Yan Pian Yeah
+- Suffer [Respiratory bronchiole-related interstitial lung disease](disease) of drug Acridine
+- Got it [Pulmonary bullae](disease) This eat What capsule Yeah
+- Get [pertussis](disease) eat Yan Pian
+- Give birth [Radiation pneumonia](disease) Yan Pian Yeah
+- Got it [Lung cancer](disease) eat Medication Ah
+- gave birth [pertussis](disease) This eat drug what
+- gave birth [Lung cancer](disease) Time Medication
+- Worthy of [Benzene poisoning](disease) This eat What drug Ok
+- gave birth [Pulmonary Cryptococcosis](disease) eat What Yan Pian
+- Suffer [Cadmium poisoning](disease) capsule
+- gave birth [Wheezing bronchitis](disease) This Oral liquid what
+- gave birth [Emphysema](disease) eat What Oral liquid what
+- [Emphysema](disease) This eat What Oral liquid
+- Suffer [Alveolar proteinosis](disease) Yan Pian what
+- infection [SARS](disease) eat Medication Ah
+- Get [Radiation pneumonia](disease) What Yan Pian What
+- [Pneumococcal pneumonia](disease) eat Medication What
+- Catch [Bacillus pneumoniae pneumonia](disease) This eat What Oral liquid Yeah
+- infection [Carbon disulfide poisoning](disease) Time Oral liquid
+- gave birth [Hypersensitivity pneumonia](disease) eat Oral liquid
+- gave birth [Bacillus pneumoniae pneumonia](disease) This drug Ok
+- Get [Cadmium poisoning](disease) of Oral liquid Ah
+- Worthy of [Pulmonary bullae](disease) eat Medication Ah
+- infection [Lobar Pneumonia](disease) eat What Medication Is it
+- Worthy of [Building Sick Syndrome](disease) What Oral liquid Acridine
+- Got it [Pulmonary embolism](disease) Time of drug Ah
+- Give birth [Hypersensitivity pneumonia](disease) Yan Pian Ah
+- gave birth [pneumonia](disease) Medication
+- Get [Bacillus pneumoniae pneumonia](disease) eat What Yan Pian Ah
+- gave birth [Alveolar proteinosis](disease) What Yan Pian
+- Get [Alveolar proteinosis](disease) Oral liquid Ah
+- gave birth [Bacillus pneumoniae pneumonia](disease) Time of Yan Pian Acridine
+- gave birth [Anaphylactic shock](disease) drug What
+- Give birth [Lung abscess](disease) of Medication What
+- gave birth [Pneumococcal pneumonia](disease) Oral liquid
+- Got it [Septic shock](disease) medicine Ok
+- Worthy of [Bullae](disease) Yan Pian Yeah
+- Got it [Simple pulmonary eosinophilic infiltration](disease) This eat What medicine Yeah
+- Worthy of [Large amounts of amniotic fluid inhalation](disease) medicine What
+- Get [cold](disease) eat What drug Ok
+- Suffer [Wheezing bronchitis](disease) eat Medication Is it
+- Suffer [Pulmonary Aspergillosis](disease) Yan Pian Ok
+- [Large amounts of amniotic fluid inhalation](disease) Time of Yan Pian Is it
+- gave birth [Benzene poisoning](disease) This eat What medicine what
+- Got it [Lung metastases](disease) This Yan Pian What
+- Get [Pulmonary Actinomycosis](disease) Time drug what
+- Suffer [pneumonia](disease) This eat Yan Pian
+- Get [Pulmonary embolism](disease) capsule Ah
+- Worthy of [Foreign body in the respiratory tract](disease) Time of Yan Pian
+- Suffer [Adult respiratory distress syndrome](disease) Oral liquid Is it
+- Suffer [Lobar Pneumonia](disease) of drug Ah
+- [Pulmonary Aspergillosis](disease) This What Yan Pian Yeah
+- Give birth [Pulmonary Edema](disease) medicine What
+- infection [Emphysema](disease) of drug Ok
+- Give birth [Pulmonary Cryptococcosis](disease) This What drug
+- Suffer [Emphysema](disease) of Oral liquid
+- Worthy of [Pulmonary-pleural amebiasis](disease) This What Medication Ah
+- Got it [SARS](disease) This eat What Oral liquid Is it
+- Got it [Emphysema](disease) drug Acridine
+- infection [Septic shock](disease) capsule Acridine
+- Got it [Carbon disulfide poisoning](disease) eat drug Acridine
+- Got it [Pulmonary bullae](disease) Time of Yan Pian
+- Got it [Bullae](disease) of drug Ah
+- gave birth [Radiation pneumonia](disease) Time of Medication what
+- Catch [Lung metastases](disease) medicine Ok
+- Catch [Wheezing bronchitis](disease) This eat What drug Ah
+- gave birth [SARS](disease) Medication Yeah
+- Worthy of [Pneumococcal pneumonia](disease) eat Yan Pian Ok
+- Get [Adult respiratory distress syndrome](disease) of medicine Yeah
+- Got it [Septic shock](disease) Time drug Ah
+- Catch [Simple pulmonary eosinophilic infiltration](disease) eat medicine Ok
+- Suffer [cold](disease) capsule Is it
+- Got it [Pulmonary Actinomycosis](disease) This What drug Ah
+- Got it [Goodpasture syndrome](disease) eat What medicine Ah
+- infection [pneumonia](disease) Oral liquid what
+- Suffer [Alveolar proteinosis](disease) drug Acridine
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What Oral liquid Ok
+- Suffer [pertussis](disease) Time of Medication What
+- [Bullae](disease) What capsule Ok
+- gave birth [Wheezing bronchitis](disease) Time of Oral liquid what
+- Worthy of [pertussis](disease) eat drug Ah
+- Catch [Emphysema](disease) Time of capsule Yeah
+- Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) This medicine Acridine
+- infection [Bullae](disease) of drug Yeah
+- infection [Pulmonary bullae](disease) This What Yan Pian Ah
+- Got it [Pulmonary hemorrhage-nephritis syndrome](disease) eat What capsule Yeah
+- Give birth [Anaphylactic shock](disease) eat What capsule
+- gave birth [Building Sick Syndrome](disease) This eat capsule Ah
+- Worthy of [Pulmonary-pleural amebiasis](disease) What Medication
+- infection [Goodpasture syndrome](disease) drug Yeah
+- Worthy of [Lung abscess](disease) This eat What Medication Ah
+- Give birth [Alveolar proteinosis](disease) What drug Yeah
+- [Goodpasture syndrome](disease) medicine Is it
+- Get [Pulmonary pseudotumor](disease) Yan Pian Yeah
+- Catch [Lung cancer](disease) This eat medicine Acridine
+- Catch [Mercury poisoning](disease) Time of drug Yeah
+- gave birth [Bacillus pneumoniae pneumonia](disease) This What Oral liquid Ah
+- Catch [Bullae](disease) This eat Yan Pian Ok
+- Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) This eat What Yan Pian Yeah
+- Worthy of [pertussis](disease) Yan Pian What
+- Give birth [pneumonia](disease) eat Oral liquid Is it
+- Got it [Benzene poisoning](disease) Time capsule Ah
+- gave birth [Lobar Pneumonia](disease) eat What capsule What
+- Give birth [Pulmonary Aspergillosis](disease) capsule Ok
+- [Lung metastases](disease) This eat medicine what
+- Catch [Septic shock](disease) This Yan Pian
+- gave birth [Cadmium poisoning](disease) Time drug what
+- infection [Mercury poisoning](disease) This Yan Pian
+- gave birth [Benzene poisoning](disease) This eat What medicine Ok
+- infection [Radiation pneumonia](disease) Time drug what
+- infection [Pulmonary Aspergillosis](disease) eat capsule Ah
+- Suffer [SARS](disease) of capsule what
+- gave birth [Benzene poisoning](disease) What capsule what
+- Catch [Large amounts of amniotic fluid inhalation](disease) Medication Ah
+- [Hypersensitivity pneumonia](disease) Time of Medication Is it
+- infection [Bacillus pneumoniae pneumonia](disease) eat What Yan Pian Yeah
+- infection [Cadmium poisoning](disease) This medicine
+- infection [Alveolar proteinosis](disease) What Oral liquid Is it
+- infection [Bacillus pneumoniae pneumonia](disease) medicine what
+- infection [pertussis](disease) eat drug Acridine
+- Suffer [Lung metastases](disease) Time of Oral liquid Yeah
+- Got it [Pulmonary embolism](disease) Time Yan Pian Is it
+- Got it [Pulmonary pseudotumor](disease) drug What
+- Got it [Wheezing bronchitis](disease) Time Yan Pian Acridine
+- Catch [Septic shock](disease) This eat Yan Pian Ok
+- Catch [Pulmonary Cryptococcosis](disease) Time of drug Ah
+- infection [Bullae](disease) Time Medication Ah
+- infection [Pulmonary bullae](disease) What Medication Ok
+- infection [Lung abscess](disease) This What drug Is it
+- Got it [Bacillus pneumoniae pneumonia](disease) This eat What Medication Is it
+- infection [Pulmonary Edema](disease) This eat Medication Acridine
+- gave birth [pertussis](disease) eat Yan Pian Is it
+- Give birth [Large amounts of amniotic fluid inhalation](disease) Time of Yan Pian Ah
+- Get [Pulmonary Edema](disease) drug what
+- Suffer [Adult respiratory distress syndrome](disease) Time medicine what
+- Give birth [Benzene poisoning](disease) Time of medicine
+- Suffer [Foreign body in the respiratory tract](disease) Time of Yan Pian Is it
+- infection [Lung metastases](disease) medicine What
+- [Pulmonary Edema](disease) eat What medicine Acridine
+- Give birth [Lung metastases](disease) Oral liquid Ok
+- infection [Mercury poisoning](disease) This What drug Ah
+- Catch [Bullae](disease) eat Medication Is it
+- Worthy of [Alveolar proteinosis](disease) Time Medication Ok
+- Get [Pneumococcal pneumonia](disease) of capsule what
+- Worthy of [Pulmonary Aspergillosis](disease) Time of capsule what
+- Get [Building Sick Syndrome](disease) Yan Pian Yeah
+- [Alveolar proteinosis](disease) What capsule Ah
+- Suffer [Lung metastases](disease) drug What
+- Catch [Respiratory bronchiole-related interstitial lung disease](disease) Time Oral liquid
+- Got it [cold](disease) This eat What Oral liquid Yeah
+- Give birth [Lung metastases](disease) of capsule
+- Worthy of [Goodpasture syndrome](disease) This eat capsule Acridine
+- Got it [Pulmonary Actinomycosis](disease) Time of capsule Acridine
+- Worthy of [Adult respiratory distress syndrome](disease) This eat What Oral liquid what
+- infection [Radiation pneumonia](disease) capsule Ok
+- Catch [Mercury poisoning](disease) This eat capsule Is it
+- Worthy of [Lung metastases](disease) This eat Oral liquid Ah
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) eat medicine Yeah
+- Got it [Benzene poisoning](disease) capsule What
+- gave birth [Wheezing bronchitis](disease) Time of capsule What
+- Give birth [Large amounts of amniotic fluid inhalation](disease) drug Acridine
+- infection [Pulmonary-pleural amebiasis](disease) This eat What Medication Ah
+- [Pulmonary Cryptococcosis](disease) medicine Yeah
+- Get [Pulmonary bullae](disease) What Medication Yeah
+- Catch [Simple pulmonary eosinophilic infiltration](disease) Time Medication What
+- Give birth [Cadmium poisoning](disease) Time Medication Acridine
+- Get [Lung metastases](disease) Time of medicine Is it
+- Give birth [Wheezing bronchitis](disease) This What capsule
+- Get [Cadmium poisoning](disease) Yan Pian
+- infection [Anaphylactic shock](disease) drug What
+- Worthy of [Simple pulmonary eosinophilic infiltration](disease) What Medication
+- Worthy of [Wheezing bronchitis](disease) Time Oral liquid
+- Give birth [Mercury poisoning](disease) This capsule
+- Got it [Cadmium poisoning](disease) Time Yan Pian Ok
+- Worthy of [Building Sick Syndrome](disease) Time of medicine
+- Give birth [Pulmonary embolism](disease) This Yan Pian
+- [Pulmonary Candidiasis](disease) eat What medicine Acridine
+- infection [Benzene poisoning](disease) of capsule What
+- Got it [Pulmonary bullae](disease) drug Acridine
+- Suffer [Pulmonary bullae](disease) This eat What medicine what
+- Suffer [Pulmonary Candidiasis](disease) What capsule Yeah
+- Give birth [Simple pulmonary eosinophilic infiltration](disease) medicine Ah
+- Suffer [Cadmium poisoning](disease) drug What
+- Give birth [Lobar Pneumonia](disease) Time Yan Pian what
+- Catch [Lobar Pneumonia](disease) Time of capsule Acridine
+- gave birth [Building Sick Syndrome](disease) capsule Ah
+- Got it [Pulmonary Candidiasis](disease) This eat drug What
+- Catch [Lung abscess](disease) Oral liquid Acridine
+- infection [Respiratory bronchiole-related interstitial lung disease](disease) eat What Medication Yeah
+- Got it [Lung metastases](disease) Yan Pian Yeah
+- [Pulmonary-pleural amebiasis](disease) eat Yan Pian
+- Suffer [Alveolar proteinosis](disease) This eat What drug what
+- Give birth [Pulmonary-pleural amebiasis](disease) eat What medicine
+- Suffer [Pulmonary pseudotumor](disease) eat capsule Ok
+- Get [Pulmonary Aspergillosis](disease) This What capsule What
+- [Anaphylactic shock](disease) What Yan Pian Ok
+- Suffer [Building Sick Syndrome](disease) This eat capsule what
+- Suffer [Pulmonary Aspergillosis](disease) This eat drug Yeah
+- Suffer [Emphysema](disease) This capsule What
+- Worthy of [pneumonia](disease) What drug Acridine
+- Worthy of [Bacillus pneumoniae pneumonia](disease) eat What Yan Pian what
+- Suffer [Emphysema](disease) eat What capsule
+- Catch [Building Sick Syndrome](disease) Time of Medication Is it
+- Give birth [pneumonia](disease) Oral liquid Ok
+- Get [Adult respiratory distress syndrome](disease) What medicine what
+- Suffer [Carbon disulfide poisoning](disease) This What Yan Pian Is it
+- infection [Pulmonary hemorrhage-nephritis syndrome](disease) Time Oral liquid Is it
+- Get [Cadmium poisoning](disease) Time Yan Pian Ah
+- [Benzene poisoning](disease) Medication Yeah
+- Worthy of [Lobar Pneumonia](disease) Medication What
+- Get [pneumonia](disease) Time Medication Acridine
+- Got it [Pulmonary Cryptococcosis](disease) Time of medicine Acridine
+- Catch [Hypersensitivity pneumonia](disease) This capsule Yeah
+- infection [pneumonia](disease) Time of Oral liquid Acridine
+- Get [Bacillus pneumoniae pneumonia](disease) Yan Pian Yeah
+- gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) Time of capsule what
+- Get [Hypersensitivity pneumonia](disease) This medicine What
+- infection [Benzene poisoning](disease) This medicine
+- [Pulmonary Edema](disease) Time drug
+- gave birth [Pulmonary Candidiasis](disease) Time medicine
+- [Alveolar proteinosis](disease) This What Medication
+- Got it [Building Sick Syndrome](disease) eat Oral liquid What
+- Got it [Pulmonary Candidiasis](disease) What drug Is it
+- Suffer [cold](disease) This eat capsule Is it
+- infection [Carbon disulfide poisoning](disease) Time of Yan Pian What
+- Worthy of [Pulmonary Actinomycosis](disease) This Oral liquid Ah
+- Get [Carbon disulfide poisoning](disease) of capsule
+- Get [Pulmonary-pleural amebiasis](disease) eat Oral liquid
+- Worthy of [pertussis](disease) Time Yan Pian Yeah
+- infection [Hypersensitivity pneumonia](disease) capsule What
+- gave birth [Lung abscess](disease) Time Oral liquid Acridine
+- Give birth [Pulmonary Candidiasis](disease) Time medicine Is it
+- Got it [Cadmium poisoning](disease) This eat What drug Acridine
+- Get [pneumonia](disease) Time capsule what
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Time of Medication What
+- Give birth [Pulmonary Cryptococcosis](disease) This eat drug Acridine
+- Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Time Oral liquid Is it
+- Catch [Lung cancer](disease) This eat What Yan Pian Ok
+- Suffer [Carbon disulfide poisoning](disease) This What medicine Ok
+- gave birth [SARS](disease) Time of Oral liquid
+- [Alveolar proteinosis](disease) This eat What medicine Ok
+- Got it [Pulmonary bullae](disease) Time drug Ok
+- [Bullae](disease) This What Yan Pian Acridine
+- Get [Cadmium poisoning](disease) capsule
+- infection [Alveolar proteinosis](disease) eat What drug Ok
+- Get [Pulmonary hemorrhage-nephritis syndrome](disease) This eat Medication Ah
+- Suffer [Simple pulmonary eosinophilic infiltration](disease) This What Medication
+- [Pulmonary-pleural amebiasis](disease) eat What Medication Is it
+- Worthy of [Adult respiratory distress syndrome](disease) This eat What medicine what
+- Get [Lung cancer](disease) capsule Ah
+- infection [Lung cancer](disease) eat Oral liquid Ok
+- Got it [Pulmonary Cryptococcosis](disease) Time of Medication Ah
+
+## intent:search_prevention
+- Avoid Give birth [Carbon disulfide poisoning](disease)
+- Avoid Give birth [Cadmium poisoning](disease) Ok
+- Avoid infection [Lobar Pneumonia](disease) Acridine
+- Guard against infection [Pulmonary Candidiasis](disease) Is it
+- Why not Give birth [Foreign body in the respiratory tract](disease) Yeah
+- prevent gave birth [Pneumococcal pneumonia](disease) What
+- Why not [Pulmonary pseudotumor](disease)
+- How can I not infection [Building Sick Syndrome](disease) Is it
+- How not Worthy of [Building Sick Syndrome](disease) what
+- How can it not Worthy of [SARS](disease) Is it
+- prevention Suffer [Bullae](disease) what
+- Bypass [Pulmonary bullae](disease) what
+- How can I not gave birth [Goodpasture syndrome](disease) Ah
+- Escape Got it [Pulmonary Aspergillosis](disease) Ok
+- How can I not gave birth [Bacillus pneumoniae pneumonia](disease) what
+- Avoid infection [Large amounts of amniotic fluid inhalation](disease) Ah
+- How can i not [Goodpasture syndrome](disease) Yeah
+- How can you not infection [Pulmonary Aspergillosis](disease)
+- How can it not Get [Lung abscess](disease) Ok
+- How can you not Get [Lobar Pneumonia](disease) Ok
+- How can I not Worthy of [Mercury poisoning](disease) what
+- How can I not gave birth [Radiation pneumonia](disease) Yeah
+- Escape Worthy of [Septic shock](disease) Is it
+- How can i not Give birth [Carbon disulfide poisoning](disease) Ah
+- Escape gave birth [Pulmonary Edema](disease) Yeah
+- Avoid Worthy of [Lobar Pneumonia](disease) Ah
+- Bypass infection [Benzene poisoning](disease) Ah
+- Why not gave birth [Bullae](disease) Acridine
+- Resist [Pulmonary-pleural amebiasis](disease) what
+- Avoid Got it [Pulmonary Edema](disease) Acridine
+- How can I not Got it [Lung metastases](disease) Ok
+- How can I not infection [Anaphylactic shock](disease) Yeah
+- Avoid Got it [Cadmium poisoning](disease) Is it
+- escape Suffer [Septic shock](disease) Ah
+- What not Worthy of [Pulmonary Edema](disease) Ah
+- Avoid Get [Pulmonary bullae](disease) Is it
+- What not Give birth [Alveolar proteinosis](disease) Yeah
+- Avoid Give birth [Emphysema](disease) Ah
+- How can I not Worthy of [Goodpasture syndrome](disease) Yeah
+- Dodge Got it [Large amounts of amniotic fluid inhalation](disease) Is it
+- lest Get [Cadmium poisoning](disease) Ok
+- How can you not Worthy of [Simple pulmonary eosinophilic infiltration](disease) what
+- How can I not Catch [Pulmonary Actinomycosis](disease) Yeah
+- How can I not infection [Goodpasture syndrome](disease) Yeah
+- How can we not Got it [Bullae](disease) Yeah
+- Why not Give birth [Adult respiratory distress syndrome](disease) what
+- Avoid Catch [Respiratory bronchiole-related interstitial lung disease](disease)
+- How can I not Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) What
+- Why not Catch [Pneumococcal pneumonia](disease) Ah
+- resist Get [pertussis](disease) What
+- lest Get [Alveolar proteinosis](disease) Ok
+- Resist Get [Hypersensitivity pneumonia](disease) Ah
+- How can i not Get [Hypersensitivity pneumonia](disease) Acridine
+- Why not infection [cold](disease) Ok
+- prevent Suffer [Alveolar proteinosis](disease) Acridine
+- prevention gave birth [Foreign body in the respiratory tract](disease)
+- Why not infection [Cadmium poisoning](disease) what
+- How can I not infection [Simple pulmonary eosinophilic infiltration](disease) Acridine
+- How not Give birth [Carbon disulfide poisoning](disease) Ah
+- How can I not Give birth [Bacillus pneumoniae pneumonia](disease) Ok
+- Why not Suffer [Foreign body in the respiratory tract](disease) What
+- lest Got it [cold](disease) Acridine
+- Escape Suffer [Pulmonary bullae](disease) Ah
+- How can I not gave birth [Pulmonary Actinomycosis](disease)
+- Resist Give birth [Pulmonary Edema](disease) Acridine
+- How can I not Give birth [Bullae](disease) Ah
+- lest Worthy of [Pulmonary Aspergillosis](disease) What
+- Avoid gave birth [Septic shock](disease) What
+- Bypass Got it [Large amounts of amniotic fluid inhalation](disease)
+- Avoid Suffer [Wheezing bronchitis](disease) Ok
+- Why not gave birth [Hypersensitivity pneumonia](disease) what
+- How can we not Get [Bacillus pneumoniae pneumonia](disease) Yeah
+- Avoid Catch [Mercury poisoning](disease) Ok
+- Bypass Catch [Pulmonary Cryptococcosis](disease) Ah
+- How can I not gave birth [Pulmonary pseudotumor](disease) Yeah
+- Why not gave birth [Pulmonary Cryptococcosis](disease) Is it
+- Avoid infection [Alveolar proteinosis](disease) Is it
+- How can I not Suffer [Foreign body in the respiratory tract](disease) Acridine
+- Bypass gave birth [Carbon disulfide poisoning](disease) what
+- What not Get [Alveolar proteinosis](disease) What
+- How can I not Worthy of [Emphysema](disease) Ok
+- How can it not gave birth [Emphysema](disease) What
+- Resist Got it [Cadmium poisoning](disease)
+- How can we not Give birth [Building Sick Syndrome](disease) what
+- How can I not Worthy of [Septic shock](disease) Ok
+- How can you not infection [Lung metastases](disease) Acridine
+- How can it not Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) Acridine
+- Escape Worthy of [Pulmonary Candidiasis](disease) What
+- Escape Get [Wheezing bronchitis](disease) Ah
+- Avoid Give birth [Respiratory bronchiole-related interstitial lung disease](disease) What
+- How not [Pulmonary Cryptococcosis](disease) Acridine
+- What not Suffer [Pulmonary bullae](disease) Ok
+- Bypass [Bullae](disease) Yeah
+- How can we not Get [Mercury poisoning](disease) Ok
+- How can I not Catch [Septic shock](disease) Is it
+- What not [cold](disease) Yeah
+- escape Got it [pertussis](disease) Ok
+- Why not Worthy of [Benzene poisoning](disease) Ok
+- resist Give birth [Wheezing bronchitis](disease) Is it
+- Guard against Got it [Foreign body in the respiratory tract](disease) Is it
+- How can I not Give birth [Pulmonary pseudotumor](disease)
+- lest infection [pneumonia](disease) Ah
+- Why not Get [Septic shock](disease)
+- How can you not Give birth [Pulmonary-pleural amebiasis](disease) What
+- Why not Worthy of [SARS](disease) Is it
+- Why not Got it [Pulmonary Cryptococcosis](disease)
+- How can you not Got it [Simple pulmonary eosinophilic infiltration](disease) Ok
+- How can you not Worthy of [Goodpasture syndrome](disease) Is it
+- Avoid Give birth [Wheezing bronchitis](disease) Ok
+- How can I not Get [Benzene poisoning](disease) Ah
+- Why not Worthy of [Pulmonary Aspergillosis](disease) Is it
+- Why not gave birth [Building Sick Syndrome](disease) Ah
+- prevent Catch [Emphysema](disease) Ok
+- How can I not [cold](disease) Yeah
+- Bypass Give birth [Wheezing bronchitis](disease) Acridine
+- Resist infection [Cadmium poisoning](disease) Is it
+- Avoid Catch [Cadmium poisoning](disease) Ah
+- How can I not Worthy of [Carbon disulfide poisoning](disease) Ah
+- Avoid Suffer [Foreign body in the respiratory tract](disease) Is it
+- prevent infection [Septic shock](disease) Ok
+- What not Suffer [Lung cancer](disease) What
+- What not Give birth [Respiratory bronchiole-related interstitial lung disease](disease) What
+- escape gave birth [Bacillus pneumoniae pneumonia](disease) Ah
+- How can it not gave birth [Hypersensitivity pneumonia](disease) Ah
+- Escape infection [Hypersensitivity pneumonia](disease) Ah
+- Why not Get [Lung metastases](disease) what
+- Avoid Got it [Pulmonary Aspergillosis](disease) Acridine
+- Why not gave birth [Goodpasture syndrome](disease) Acridine
+- Why not Give birth [pertussis](disease) Is it
+- Why not [Bullae](disease) Ah
+- Resist Catch [cold](disease) What
+- Resist infection [Alveolar proteinosis](disease) Is it
+- What not Give birth [SARS](disease) Ok
+- prevention infection [Lung abscess](disease) Ah
+- How can I not Got it [Simple pulmonary eosinophilic infiltration](disease) What
+- Bypass Get [pneumonia](disease) Yeah
+- Resist Got it [Building Sick Syndrome](disease) Ok
+- prevent Get [Septic shock](disease) What
+- Why not [Pulmonary Candidiasis](disease) Ah
+- Avoid Get [Pulmonary-pleural amebiasis](disease) Yeah
+- Resist Got it [Simple pulmonary eosinophilic infiltration](disease) Ah
+- escape infection [Pulmonary bullae](disease) what
+- How can I not Get [Lung cancer](disease) Ok
+- Why not gave birth [Bacillus pneumoniae pneumonia](disease) Ah
+- Escape Catch [Alveolar proteinosis](disease) What
+- Why not infection [Hypersensitivity pneumonia](disease) Ah
+- Avoid Get [Septic shock](disease) what
+- Avoid Get [Pneumococcal pneumonia](disease)
+- Avoid Worthy of [Benzene poisoning](disease) Acridine
+- Why not Got it [Lung metastases](disease) Ok
+- lest Give birth [Emphysema](disease) Ah
+- Why not Get [Goodpasture syndrome](disease) What
+- Why not Catch [Bullae](disease) Is it
+- What not Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Ok
+- Why not Get [pneumonia](disease) What
+- Avoid Catch [Pulmonary hemorrhage-nephritis syndrome](disease) what
+- Resist Catch [Lung abscess](disease) Yeah
+- How can we not gave birth [Alveolar proteinosis](disease) Acridine
+- Why not infection [Septic shock](disease) Is it
+- Resist Worthy of [Pulmonary pseudotumor](disease) Is it
+- Dodge gave birth [Pulmonary embolism](disease) Yeah
+- How can it not gave birth [Simple pulmonary eosinophilic infiltration](disease)
+- Avoid Suffer [Cadmium poisoning](disease) what
+- Avoid gave birth [pertussis](disease) Yeah
+- How can I not Worthy of [cold](disease) Ah
+- How can it not gave birth [Cadmium poisoning](disease) Ah
+- resist gave birth [Goodpasture syndrome](disease) what
+- Bypass Get [Lung cancer](disease)
+- Dodge Get [Hypersensitivity pneumonia](disease) Ok
+- Resist Worthy of [Pulmonary Aspergillosis](disease) What
+- How can we not Give birth [Pulmonary bullae](disease) Is it
+- How can I not Give birth [Pulmonary pseudotumor](disease) Is it
+- How can I not Worthy of [Lung abscess](disease) what
+- Avoid [Bacillus pneumoniae pneumonia](disease) Is it
+- Why not Get [Pulmonary embolism](disease) what
+- How can I not Suffer [Pulmonary Candidiasis](disease) Ah
+- How can I not infection [Pulmonary-pleural amebiasis](disease)
+- Bypass Give birth [Lobar Pneumonia](disease)
+- Why not gave birth [Emphysema](disease) Ok
+- How can I not [Pulmonary hemorrhage-nephritis syndrome](disease) what
+- prevention Give birth [Anaphylactic shock](disease) What
+- Why not Got it [Benzene poisoning](disease) Yeah
+- How can I not [Respiratory bronchiole-related interstitial lung disease](disease) Is it
+- What not Give birth [Pulmonary Cryptococcosis](disease) what
+- How can I not Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) Yeah
+- How can it not Get [Bacillus pneumoniae pneumonia](disease) What
+- Bypass Suffer [Pulmonary Cryptococcosis](disease) What
+- Bypass Worthy of [Pulmonary Cryptococcosis](disease)
+- What not Got it [Pulmonary Aspergillosis](disease) Yeah
+- Dodge infection [Radiation pneumonia](disease) Is it
+- How can it not Catch [Pulmonary Edema](disease) Acridine
+- Avoid Give birth [Pulmonary Cryptococcosis](disease) Acridine
+- escape [Lung cancer](disease) What
+- How can I not Give birth [Pulmonary embolism](disease)
+- Why not [Foreign body in the respiratory tract](disease) What
+- How can i not Catch [Hypersensitivity pneumonia](disease) Yeah
+- How not infection [Lobar Pneumonia](disease)
+- Guard against Give birth [Respiratory bronchiole-related interstitial lung disease](disease) Yeah
+- prevention [Benzene poisoning](disease) Acridine
+- How can it not gave birth [Lobar Pneumonia](disease) Is it
+- Escape infection [Benzene poisoning](disease) What
+- How can I not Give birth [Adult respiratory distress syndrome](disease) what
+- Avoid gave birth [Lung metastases](disease) Ok
+- How can I not Get [Large amounts of amniotic fluid inhalation](disease) Ah
+- escape Got it [Alveolar proteinosis](disease) Ah
+- prevention gave birth [Lung metastases](disease) Is it
+- Resist Catch [Goodpasture syndrome](disease) Ok
+- Why not Got it [Large amounts of amniotic fluid inhalation](disease) Acridine
+- Bypass Give birth [Lobar Pneumonia](disease) Ah
+- What not Give birth [Goodpasture syndrome](disease) Ah
+- Avoid Catch [Lung abscess](disease) Yeah
+- How can we not Suffer [Pulmonary Actinomycosis](disease) Ah
+- How not Catch [Bullae](disease) Ok
+- Why not Give birth [Lobar Pneumonia](disease) Ah
+- resist gave birth [Pulmonary embolism](disease) Ah
+- Why not Get [Wheezing bronchitis](disease) Is it
+- prevent [Goodpasture syndrome](disease) Acridine
+- Dodge infection [pertussis](disease) Ah
+- How can I not Give birth [SARS](disease) Ah
+- Guard against Catch [Large amounts of amniotic fluid inhalation](disease)
+- prevent Got it [Carbon disulfide poisoning](disease) what
+- Avoid Worthy of [Pulmonary embolism](disease)
+- prevention Catch [Benzene poisoning](disease) what
+- Why not infection [Bacillus pneumoniae pneumonia](disease)
+- How can it not Get [Alveolar proteinosis](disease) Acridine
+- How can I not Give birth [SARS](disease) what
+- How not Give birth [Cadmium poisoning](disease) Ok
+- Why not Suffer [Hypersensitivity pneumonia](disease)
+- How can I not Got it [Lobar Pneumonia](disease) Is it
+- Avoid Catch [Benzene poisoning](disease) What
+- How can I not Get [Cadmium poisoning](disease) Acridine
+- Why not Worthy of [Goodpasture syndrome](disease) Ah
+- lest Suffer [Pneumococcal pneumonia](disease) Ok
+- resist Suffer [Pulmonary Edema](disease) Yeah
+- What not [Pulmonary hemorrhage-nephritis syndrome](disease) Ah
+- How can I not gave birth [Lung abscess](disease)
+- Avoid Get [Emphysema](disease) Ok
+- Why not infection [Pulmonary Edema](disease)
+- Avoid Suffer [Goodpasture syndrome](disease)
+- How can I not Get [Simple pulmonary eosinophilic infiltration](disease) Yeah
+- Avoid infection [cold](disease) Yeah
+- What not Worthy of [cold](disease) Yeah
+- Why not Worthy of [Pulmonary Aspergillosis](disease) Ah
+- How not infection [Anaphylactic shock](disease) What
+- escape Worthy of [Carbon disulfide poisoning](disease) Ok
+- How can I not Worthy of [Septic shock](disease)
+- Resist Get [Foreign body in the respiratory tract](disease) What
+- Why not Give birth [Bullae](disease) what
+- How can I not gave birth [pneumonia](disease) Is it
+- Avoid infection [Pulmonary Candidiasis](disease)
+- Why not Get [Cadmium poisoning](disease) Is it
+- Why not Get [Respiratory bronchiole-related interstitial lung disease](disease) Acridine
+- How can it not infection [Large amounts of amniotic fluid inhalation](disease) What
+- escape Worthy of [Bullae](disease) Acridine
+- Avoid Get [Alveolar proteinosis](disease) Is it
+- Why not Get [Pulmonary Cryptococcosis](disease) Yeah
+- lest [Mercury poisoning](disease)
+- What not Suffer [Carbon disulfide poisoning](disease) Yeah
+- What not Got it [Pulmonary Aspergillosis](disease)
+- How can we not Give birth [Septic shock](disease) Acridine
+- Avoid [Lung metastases](disease) Ah
+- resist infection [Bacillus pneumoniae pneumonia](disease) Is it
+- Guard against [Alveolar proteinosis](disease) what
+- Why not gave birth [Pulmonary Edema](disease) Yeah
+- Guard against [Alveolar proteinosis](disease) What
+- How can it not infection [Pneumococcal pneumonia](disease) Is it
+- Why not Got it [Pulmonary Cryptococcosis](disease) Ah
+- How can I not infection [Simple pulmonary eosinophilic infiltration](disease) what
+- prevent Give birth [Adult respiratory distress syndrome](disease) Acridine
+- Why not Worthy of [Hypersensitivity pneumonia](disease) Is it
+- Escape Got it [Pulmonary-pleural amebiasis](disease) Yeah
+- escape infection [Pulmonary embolism](disease) what
+- How can we not Worthy of [pertussis](disease)
+- Avoid Give birth [Alveolar proteinosis](disease) Acridine
+- Avoid gave birth [Bullae](disease) What
+- Why not Got it [Bullae](disease) Yeah
+- Bypass [Pulmonary-pleural amebiasis](disease) what
+- Avoid infection [Septic shock](disease) What
+- Escape infection [Septic shock](disease) Ok
+- What not Worthy of [Lung abscess](disease) Is it
+- How can I not Get [Pneumococcal pneumonia](disease) Ok
+- How can you not infection [Bullae](disease)
+- Dodge Worthy of [Pulmonary Aspergillosis](disease)
+- Resist Suffer [Adult respiratory distress syndrome](disease) Acridine
+- Why not Worthy of [Benzene poisoning](disease) what
+- lest infection [Mercury poisoning](disease) What
+- What not Catch [Building Sick Syndrome](disease)
+- Resist [Hypersensitivity pneumonia](disease) Acridine
+- escape [Cadmium poisoning](disease) what
+- Dodge Give birth [Foreign body in the respiratory tract](disease) What
+- Why not Got it [Lung metastases](disease) Is it
+- Why not Give birth [pertussis](disease) What
+- How can it not infection [Cadmium poisoning](disease) Yeah
+- Avoid Got it [Adult respiratory distress syndrome](disease) what
+- Why not [Pulmonary Candidiasis](disease) Acridine
+- How can it not Give birth [Pulmonary hemorrhage-nephritis syndrome](disease)
+- Why not [Mercury poisoning](disease) Yeah
+- Guard against Worthy of [Large amounts of amniotic fluid inhalation](disease)
+- prevention Suffer [Alveolar proteinosis](disease)
+- How can I not [Lobar Pneumonia](disease) Acridine
+- How can it not [SARS](disease) what
+- What not [Goodpasture syndrome](disease) What
+- Avoid Get [Pulmonary embolism](disease) Acridine
+- Avoid [SARS](disease) Yeah
+- Bypass Suffer [pneumonia](disease) Yeah
+- How can it not Give birth [Lobar Pneumonia](disease)
+- Why not Catch [Lung cancer](disease)
+- lest [cold](disease) Is it
+- How can we not Got it [pneumonia](disease) what
+- How can I not Suffer [Anaphylactic shock](disease) Ah
+- Avoid infection [Mercury poisoning](disease) Acridine
+- How can I not Suffer [Radiation pneumonia](disease) what
+- How can I not gave birth [Pulmonary Candidiasis](disease) what
+- What not Get [Radiation pneumonia](disease) Acridine
+- prevention gave birth [Carbon disulfide poisoning](disease) Is it
+- prevent Got it [Hypersensitivity pneumonia](disease)
+- Avoid Worthy of [Pulmonary Actinomycosis](disease) Ok
+- Why not Worthy of [Anaphylactic shock](disease) Yeah
+- How can I not Got it [Carbon disulfide poisoning](disease) Ok
+- Why not [Hypersensitivity pneumonia](disease) Acridine
+- How can I not Got it [Pulmonary-pleural amebiasis](disease) Ok
+- How not Got it [Pulmonary bullae](disease) What
+- lest Got it [Cadmium poisoning](disease) Acridine
+- Why not gave birth [Lobar Pneumonia](disease) Is it
+- Why not Catch [SARS](disease)
+- How can i not gave birth [Carbon disulfide poisoning](disease) Yeah
+- resist Suffer [Benzene poisoning](disease) Ok
+- resist Get [Pulmonary embolism](disease) Ok
+- resist Worthy of [Foreign body in the respiratory tract](disease) Yeah
+- Avoid infection [Pulmonary Aspergillosis](disease) Is it
+- Why not Get [Pulmonary Actinomycosis](disease) Acridine
+- Avoid [Carbon disulfide poisoning](disease) Is it
+- Why not gave birth [Pulmonary Actinomycosis](disease) Yeah
+- Bypass gave birth [Lobar Pneumonia](disease) Acridine
+- What not infection [Respiratory bronchiole-related interstitial lung disease](disease) Acridine
+- Why not Worthy of [Carbon disulfide poisoning](disease) Acridine
+- Resist Catch [Anaphylactic shock](disease) What
+- How can it not [Pulmonary bullae](disease) Ah
+- Why not Suffer [Alveolar proteinosis](disease) Acridine
+- Resist Suffer [Goodpasture syndrome](disease) Is it
+- How can I not Give birth [Building Sick Syndrome](disease) Ah
+- prevention gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) Ah
+- How can it not Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease) Is it
+- Resist infection [Lung metastases](disease) Ok
+- Escape Suffer [Cadmium poisoning](disease) Ah
+- How can I not Get [Goodpasture syndrome](disease) Ah
+- Escape Got it [Pulmonary Aspergillosis](disease)
+- How can it not Suffer [Large amounts of amniotic fluid inhalation](disease) what
+- How can I not Get [Goodpasture syndrome](disease) what
+- Resist Got it [Lung cancer](disease) Acridine
+- Why not Suffer [Wheezing bronchitis](disease) Ok
+- Avoid Suffer [Radiation pneumonia](disease) Is it
+- How can we not Worthy of [Pulmonary-pleural amebiasis](disease) What
+- lest Catch [Pulmonary hemorrhage-nephritis syndrome](disease) What
+- prevent [Alveolar proteinosis](disease) Ok
+- Resist Worthy of [pneumonia](disease)
+- How can I not Get [Foreign body in the respiratory tract](disease) Ok
+- Resist Got it [cold](disease) What
+- Avoid Give birth [Pulmonary Cryptococcosis](disease) Is it
+- How can I not Get [Lobar Pneumonia](disease) Acridine
+- prevent Give birth [Bullae](disease) What
+- Avoid Catch [Alveolar proteinosis](disease) Ah
+- prevention Get [Carbon disulfide poisoning](disease) Acridine
+- Why not Give birth [Pulmonary embolism](disease) Acridine
+- Resist Suffer [Radiation pneumonia](disease) Is it
+- How can I not infection [Benzene poisoning](disease) Ah
+- Why not Give birth [SARS](disease) Yeah
+- Bypass gave birth [Pulmonary Aspergillosis](disease) Ah
+- How can I not Suffer [Adult respiratory distress syndrome](disease) What
+- How can I not gave birth [Simple pulmonary eosinophilic infiltration](disease) Ah
+- Why not [Pneumococcal pneumonia](disease) Acridine
+- prevent infection [Hypersensitivity pneumonia](disease) Acridine
+- How can we not gave birth [Respiratory bronchiole-related interstitial lung disease](disease) Yeah
+- Why not Suffer [Bullae](disease) what
+- Bypass Worthy of [Lung cancer](disease) What
+- resist infection [Pulmonary Cryptococcosis](disease) Acridine
+- Avoid Catch [pneumonia](disease) Yeah
+- How can we not Suffer [Lung cancer](disease) Ok
+- How can it not Get [Bacillus pneumoniae pneumonia](disease) what
+- Resist [Lobar Pneumonia](disease) What
+- What not Get [Pulmonary Actinomycosis](disease) Is it
+- How can it not infection [Lobar Pneumonia](disease) Is it
+- How can it not Worthy of [Foreign body in the respiratory tract](disease) Yeah
+- Avoid [pertussis](disease) Ok
+- Avoid Suffer [Anaphylactic shock](disease) What
+- Dodge Worthy of [Respiratory bronchiole-related interstitial lung disease](disease)
+- How not Suffer [Alveolar proteinosis](disease) What
+- Why not Give birth [Cadmium poisoning](disease) Yeah
+- What not Catch [Hypersensitivity pneumonia](disease) Ok
+- Avoid [Adult respiratory distress syndrome](disease) Ok
+- How can I not Suffer [Pneumococcal pneumonia](disease) Yeah
+- Dodge infection [Mercury poisoning](disease) what
+- How can I not Got it [Emphysema](disease) Acridine
+- Why not gave birth [Lung metastases](disease) Ah
+- How can I not Worthy of [Lobar Pneumonia](disease) Ok
+- Why not Worthy of [Pulmonary Cryptococcosis](disease) Acridine
+- Why not gave birth [Pulmonary pseudotumor](disease) what
+- Guard against gave birth [Goodpasture syndrome](disease) what
+- Avoid infection [Respiratory bronchiole-related interstitial lung disease](disease) Is it
+- How can we not Give birth [Simple pulmonary eosinophilic infiltration](disease) Yeah
+- How can I not Give birth [Pulmonary Cryptococcosis](disease) Ah
+- Avoid infection [Lung abscess](disease) what
+- Avoid [Hypersensitivity pneumonia](disease) Is it
+- Guard against [Lung abscess](disease) Acridine
+- lest Got it [Emphysema](disease) Ok
+- How can you not [Emphysema](disease) Acridine
+- How can we not Suffer [Pulmonary embolism](disease) What
+- How can I not Suffer [Alveolar proteinosis](disease) Ok
+- lest Worthy of [Lung cancer](disease) Acridine
+- escape Give birth [Emphysema](disease) What
+- Guard against infection [Pulmonary Actinomycosis](disease) Ah
+- How can I not Catch [Goodpasture syndrome](disease) Ok
+- How can we not Catch [Alveolar proteinosis](disease) Yeah
+- Why not gave birth [Alveolar proteinosis](disease) what
+- Why not Suffer [Pneumococcal pneumonia](disease) Yeah
+- How can we not Give birth [Anaphylactic shock](disease)
+- How can I not Get [Pulmonary Edema](disease) Ah
+- Why not [Lung cancer](disease) Yeah
+- How can I not Worthy of [Bacillus pneumoniae pneumonia](disease) Is it
+- Why not gave birth [Adult respiratory distress syndrome](disease) Ah
+- Avoid Give birth [Radiation pneumonia](disease) Ok
+- How can I not Give birth [Lung abscess](disease) Yeah
+- prevention Get [Lobar Pneumonia](disease) Ah
+- How can I not Worthy of [Lobar Pneumonia](disease)
+- escape Got it [Pulmonary bullae](disease) Is it
+- Why not Got it [Simple pulmonary eosinophilic infiltration](disease) What
+- prevent Give birth [Foreign body in the respiratory tract](disease) Ah
+- resist infection [Pulmonary pseudotumor](disease) what
+- Avoid [Lobar Pneumonia](disease) Is it
+- How can I not Got it [pertussis](disease) What
+- Why not Give birth [Pulmonary Cryptococcosis](disease) Is it
+- lest Give birth [Pulmonary Candidiasis](disease)
+- Why not gave birth [Hypersensitivity pneumonia](disease)
+- Why not infection [Goodpasture syndrome](disease)
+- Why not Get [Radiation pneumonia](disease) what
+- Avoid gave birth [Lung abscess](disease) What
+- Escape [Pulmonary-pleural amebiasis](disease) What
+- What not infection [Pulmonary embolism](disease) Yeah
+- How can we not Catch [Emphysema](disease) What
+- How can it not Suffer [Wheezing bronchitis](disease) What
+- Escape Catch [Pulmonary pseudotumor](disease) what
+- Avoid Suffer [Lung abscess](disease) Ok
+- How can i not Catch [cold](disease) what
+- Resist Worthy of [Cadmium poisoning](disease) Is it
+- How not Get [pneumonia](disease) Yeah
+- How not gave birth [Pulmonary bullae](disease) Is it
+- Why not Give birth [Bacillus pneumoniae pneumonia](disease) What
+- lest Catch [Pulmonary Actinomycosis](disease) Acridine
+- How can it not Give birth [Respiratory bronchiole-related interstitial lung disease](disease) Yeah
+- Why not Suffer [Pulmonary Actinomycosis](disease) Acridine
+- How can I not Got it [Pulmonary pseudotumor](disease) Acridine
+- Avoid Suffer [pertussis](disease) Ah
+- How can I not infection [Pulmonary Aspergillosis](disease)
+- escape Suffer [SARS](disease) Ah
+- How can i not Catch [Foreign body in the respiratory tract](disease) what
+- What not Suffer [Pulmonary Edema](disease) what
+- Why not Catch [Radiation pneumonia](disease)
+- How can it not Got it [Carbon disulfide poisoning](disease) Yeah
+- lest infection [Mercury poisoning](disease)
+- Why not Suffer [Wheezing bronchitis](disease) Is it
+- Avoid Suffer [SARS](disease) Yeah
+- Why not Suffer [Emphysema](disease) Ah
+- Why not Got it [cold](disease) Ah
+- What not Got it [Pulmonary Aspergillosis](disease) What
+- Why not Get [cold](disease) What
+- How can we not Get [Hypersensitivity pneumonia](disease) Acridine
+- Why not Suffer [Pulmonary Cryptococcosis](disease) Is it
+- Guard against Catch [Cadmium poisoning](disease) Acridine
+- prevent [SARS](disease) what
+- What not gave birth [Adult respiratory distress syndrome](disease) What
+- How can I not Worthy of [Lung abscess](disease)
+- Why not gave birth [Radiation pneumonia](disease) Is it
+- What not Catch [Pulmonary pseudotumor](disease) Ok
+- resist Give birth [SARS](disease) Acridine
+- Why not Suffer [Cadmium poisoning](disease)
+- Why not Got it [Pulmonary hemorrhage-nephritis syndrome](disease) Acridine
+- How can I not Get [pneumonia](disease) Acridine
+- Why not Got it [Pulmonary hemorrhage-nephritis syndrome](disease)
+- Why not Suffer [pneumonia](disease)
+- How can I not [Lung metastases](disease) Is it
+- lest Worthy of [Mercury poisoning](disease) What
+- Why not Worthy of [Pneumococcal pneumonia](disease) what
+- What not Worthy of [Building Sick Syndrome](disease) what
+- prevent Suffer [Pulmonary Aspergillosis](disease) Is it
+- prevent Worthy of [Pulmonary embolism](disease) Ah
+- prevention Worthy of [Building Sick Syndrome](disease) Is it
+- lest Catch [Simple pulmonary eosinophilic infiltration](disease)
+- How can I not Suffer [cold](disease) Yeah
+- Why not Suffer [Alveolar proteinosis](disease) What
+- Avoid Get [Pulmonary hemorrhage-nephritis syndrome](disease) what
+- Why not Suffer [Simple pulmonary eosinophilic infiltration](disease) Ok
+- resist Suffer [Pulmonary Cryptococcosis](disease) Acridine
+- Why not gave birth [Alveolar proteinosis](disease) Is it
+- escape [Benzene poisoning](disease) Is it
+- Why not Catch [Alveolar proteinosis](disease) What
+- Bypass [Radiation pneumonia](disease) Is it
+- Why not Worthy of [Large amounts of amniotic fluid inhalation](disease) Ah
+- Why not infection [Septic shock](disease) Yeah
+- How can I not infection [Pulmonary hemorrhage-nephritis syndrome](disease) Is it
+- Avoid Suffer [Lung metastases](disease) Ah
+- How can I not Got it [Pulmonary embolism](disease) Acridine
+- What not gave birth [Alveolar proteinosis](disease) Yeah
+- resist Got it [cold](disease) What
+- Avoid Suffer [Respiratory bronchiole-related interstitial lung disease](disease) what
+- lest Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) What
+- Why not infection [Building Sick Syndrome](disease) Acridine
+- Why not Give birth [cold](disease) Is it
+- prevention Got it [Pulmonary Edema](disease) what
+- How can it not infection [Bullae](disease) Ah
+- Resist Get [Pulmonary Candidiasis](disease) what
+- How can it not Got it [Foreign body in the respiratory tract](disease) Ok
+- How can it not infection [Pulmonary hemorrhage-nephritis syndrome](disease) Acridine
+- Avoid Catch [Mercury poisoning](disease) Ah
+- Why not gave birth [pertussis](disease) Yeah
+- How can it not Give birth [Mercury poisoning](disease) Yeah
+- Why not Give birth [pertussis](disease) Ah
+- Why not Suffer [Building Sick Syndrome](disease) what
+- Avoid infection [Pulmonary Edema](disease) Ah
+- Avoid gave birth [Carbon disulfide poisoning](disease)
+- How can I not Suffer [pneumonia](disease) What
+- Guard against Worthy of [Hypersensitivity pneumonia](disease) what
+- What not Worthy of [Pulmonary Candidiasis](disease)
+- Escape infection [Pulmonary Aspergillosis](disease)
+- lest Get [Alveolar proteinosis](disease) Is it
+- lest gave birth [Hypersensitivity pneumonia](disease) Yeah
+- resist [pneumonia](disease) Is it
+- How can I not Give birth [Pulmonary Cryptococcosis](disease)
+- Dodge Give birth [Pneumococcal pneumonia](disease) Ah
+- Why not Worthy of [Lung metastases](disease) what
+- Avoid Give birth [Pulmonary Candidiasis](disease) Acridine
+- Why not Worthy of [cold](disease) Ah
+- Dodge gave birth [Hypersensitivity pneumonia](disease) Is it
+- How can I not Suffer [Benzene poisoning](disease) Is it
+- Bypass infection [Anaphylactic shock](disease)
+- lest infection [SARS](disease) Is it
+- How can you not [Goodpasture syndrome](disease) Yeah
+- Why not Got it [Adult respiratory distress syndrome](disease)
+- Why not Get [Foreign body in the respiratory tract](disease) what
+- Guard against Give birth [Pulmonary Cryptococcosis](disease) Acridine
+- How can we not Worthy of [pneumonia](disease) Ah
+- How can we not Got it [Pulmonary hemorrhage-nephritis syndrome](disease) Acridine
+- escape gave birth [Pulmonary hemorrhage-nephritis syndrome](disease) Yeah
+- What not Catch [Emphysema](disease) Ah
+- escape Get [Foreign body in the respiratory tract](disease) Is it
+- prevention Get [Adult respiratory distress syndrome](disease) Acridine
+- Bypass Worthy of [Carbon disulfide poisoning](disease) Yeah
+- How can it not Suffer [Mercury poisoning](disease) what
+- Avoid Got it [Anaphylactic shock](disease) What
+- Avoid Give birth [Septic shock](disease) what
+- lest infection [Wheezing bronchitis](disease) Ok
+- resist infection [Large amounts of amniotic fluid inhalation](disease) What
+- How can I not gave birth [Pulmonary Candidiasis](disease) Ah
+- Why not Worthy of [Carbon disulfide poisoning](disease) what
+- How can you not infection [Pulmonary embolism](disease) Acridine
+- How can I not Get [Pneumococcal pneumonia](disease)
+- How can you not Give birth [Wheezing bronchitis](disease) Ok
+- Why not Worthy of [Anaphylactic shock](disease) Ok
+- How can you not Get [Goodpasture syndrome](disease) what
+- Why not Get [Septic shock](disease) what
+- What not Got it [Pulmonary bullae](disease) Ah
+- How can I not Get [pertussis](disease) Yeah
+- Why not Get [Pulmonary Aspergillosis](disease)
+- Avoid Got it [SARS](disease) Yeah
+- How can I not Give birth [Pulmonary bullae](disease)
+- Avoid infection [Alveolar proteinosis](disease) Yeah
+- Why not Get [Benzene poisoning](disease) what
+- Guard against Worthy of [pertussis](disease) Ok
+- How can I not [Alveolar proteinosis](disease) Ah
+- What not Get [Lobar Pneumonia](disease) Ok
+- How can it not Give birth [Pulmonary Edema](disease) Is it
+- What not Worthy of [Pulmonary bullae](disease) What
+- How can I not infection [Simple pulmonary eosinophilic infiltration](disease) Ah
+- How can I not Suffer [Carbon disulfide poisoning](disease)
+- How can it not gave birth [Pulmonary Actinomycosis](disease)
+- How can I not Got it [Pulmonary pseudotumor](disease) Ah
+- Why not [Radiation pneumonia](disease) What
+- Why not Catch [pertussis](disease) Yeah
+- What not [Large amounts of amniotic fluid inhalation](disease) What
+- Why not Get [Lung metastases](disease)
+- Why not Got it [Pulmonary Candidiasis](disease) what
+- Avoid [pneumonia](disease) Is it
+- How can it not Get [Benzene poisoning](disease) Acridine
+- Avoid [Carbon disulfide poisoning](disease) What
+- prevention Suffer [Foreign body in the respiratory tract](disease) Acridine
+- How can it not infection [Simple pulmonary eosinophilic infiltration](disease) Ok
+- How can I not Catch [Pulmonary Candidiasis](disease)
+- escape Catch [Adult respiratory distress syndrome](disease)
+- How can you not infection [Emphysema](disease) Is it
+- escape Worthy of [Benzene poisoning](disease) Is it
+- Escape Got it [Foreign body in the respiratory tract](disease)
+- lest Get [Adult respiratory distress syndrome](disease) Yeah
+- How can I not Give birth [Bullae](disease) what
+- How can you not Get [Lung abscess](disease) Ah
+- Why not Got it [Emphysema](disease) What
+- Escape Catch [Lung metastases](disease) what
+- Avoid infection [Hypersensitivity pneumonia](disease) Ok
+- What not Give birth [Goodpasture syndrome](disease) Ok
+- What not Got it [pertussis](disease)
+- Avoid Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) Ah
+- Why not [Pulmonary bullae](disease) what
+- Dodge gave birth [pertussis](disease) Acridine
+- escape Got it [Lobar Pneumonia](disease) what
+- Avoid gave birth [Respiratory bronchiole-related interstitial lung disease](disease) Yeah
+- Why not Got it [Pulmonary Cryptococcosis](disease) Is it
+- Guard against Suffer [Adult respiratory distress syndrome](disease) what
+- How can you not Give birth [Benzene poisoning](disease) Is it
+- Bypass [Lobar Pneumonia](disease) Is it
+- Why not gave birth [Septic shock](disease) Ah
+- resist Catch [Lung metastases](disease) Ok
+- Bypass [Pulmonary Cryptococcosis](disease) Yeah
+- Dodge Got it [Emphysema](disease) Ah
+- How can I not infection [Lung abscess](disease) Ok
+- Dodge Suffer [Large amounts of amniotic fluid inhalation](disease) Acridine
+- Resist infection [Large amounts of amniotic fluid inhalation](disease) What
+- How can I not Got it [Wheezing bronchitis](disease) Ok
+- Why not infection [Alveolar proteinosis](disease) Yeah
+- Why not gave birth [Bullae](disease) Ok
+- How not Suffer [Foreign body in the respiratory tract](disease) Yeah
+- Guard against Suffer [Foreign body in the respiratory tract](disease) Acridine
+- How can I not gave birth [Lung metastases](disease) Yeah
+- How can i not [Pulmonary Aspergillosis](disease) Ah
+- How can I not Got it [Emphysema](disease) Is it
+- Avoid Get [Building Sick Syndrome](disease) Ok
+- Bypass Give birth [Lobar Pneumonia](disease) Acridine
+- What not Give birth [Pulmonary Actinomycosis](disease) Ok
+- Avoid Suffer [Adult respiratory distress syndrome](disease) Yeah
+- Why not Got it [Adult respiratory distress syndrome](disease) Ok
+- How can I not Get [Alveolar proteinosis](disease)
+- Bypass infection [Pulmonary Cryptococcosis](disease) What
+- Avoid Give birth [Mercury poisoning](disease) What
+- prevent Catch [Pulmonary Aspergillosis](disease)
+- prevent Get [Lung metastases](disease) Ah
+- Dodge Got it [Adult respiratory distress syndrome](disease) Yeah
+- How can it not Get [Alveolar proteinosis](disease) Ok
+- How can you not Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Ok
+- How can I not Get [pertussis](disease) What
+- How can it not Catch [Pulmonary embolism](disease)
+- How can I not Catch [Pulmonary bullae](disease) Ok
+- Why not [Wheezing bronchitis](disease) Is it
+- prevention gave birth [Pulmonary embolism](disease) Is it
+- Why not gave birth [Benzene poisoning](disease) Ah
+- Why not Got it [Adult respiratory distress syndrome](disease) Acridine
+- How can it not Give birth [Pneumococcal pneumonia](disease) what
+- prevent Got it [Alveolar proteinosis](disease) Yeah
+- How can we not Catch [Pneumococcal pneumonia](disease) Yeah
+- Avoid Get [Respiratory bronchiole-related interstitial lung disease](disease)
+- Avoid [SARS](disease) Is it
+- escape [Pulmonary Aspergillosis](disease)
+- Avoid gave birth [Bullae](disease) Is it
+- Avoid gave birth [Simple pulmonary eosinophilic infiltration](disease) Is it
+- prevent Give birth [Anaphylactic shock](disease) Ok
+- Why not Give birth [Pulmonary Aspergillosis](disease) what
+- How can I not Suffer [Large amounts of amniotic fluid inhalation](disease) Acridine
+- prevention gave birth [Septic shock](disease) Acridine
+- Bypass Got it [Lung cancer](disease) Ok
+- prevent Got it [Pulmonary embolism](disease) Ok
+- What not [Lobar Pneumonia](disease) Acridine
+- Avoid Got it [Alveolar proteinosis](disease) Acridine
+- What not Get [Pulmonary Candidiasis](disease) Yeah
+- How can I not infection [Pneumococcal pneumonia](disease) What
+- How not Worthy of [Cadmium poisoning](disease) what
+- Avoid gave birth [Emphysema](disease) What
+- Dodge Suffer [Pulmonary Candidiasis](disease) Acridine
+- What not Suffer [Wheezing bronchitis](disease) What
+- Why not gave birth [Emphysema](disease) Yeah
+- resist infection [Pulmonary Edema](disease) Is it
+- lest Suffer [Mercury poisoning](disease) Yeah
+- What not Get [Alveolar proteinosis](disease) Is it
+- Dodge Got it [Cadmium poisoning](disease) Ah
+- resist Give birth [pneumonia](disease) Yeah
+- How can it not Catch [Pulmonary-pleural amebiasis](disease) Ah
+- What not Get [Foreign body in the respiratory tract](disease) Ok
+- What not Got it [Lung metastases](disease) Acridine
+- Why not Worthy of [Septic shock](disease) Ah
+- Bypass [Large amounts of amniotic fluid inhalation](disease) What
+- Why not Worthy of [Building Sick Syndrome](disease) What
+- Why not infection [Mercury poisoning](disease) Acridine
+- How can I not gave birth [Radiation pneumonia](disease) what
+- Bypass infection [Pulmonary Edema](disease) Acridine
+- escape gave birth [Carbon disulfide poisoning](disease) What
+- Avoid Get [Cadmium poisoning](disease) Ah
+- Avoid Suffer [Pulmonary bullae](disease) what
+- Avoid Worthy of [Benzene poisoning](disease)
+- Avoid infection [SARS](disease) What
+- Avoid Catch [Pulmonary bullae](disease) What
+- Avoid gave birth [Wheezing bronchitis](disease) Ok
+- How can we not Worthy of [Adult respiratory distress syndrome](disease)
+- Bypass infection [Radiation pneumonia](disease) Ok
+- How can I not [Pulmonary Actinomycosis](disease) Is it
+- How can it not gave birth [pertussis](disease) what
+- Avoid [Pulmonary-pleural amebiasis](disease) Yeah
+- prevention Catch [Alveolar proteinosis](disease)
+- How not Catch [pertussis](disease) Yeah
+- prevention gave birth [Septic shock](disease) What
+- Why not Give birth [Lobar Pneumonia](disease) Is it
+- Avoid Suffer [Pulmonary Aspergillosis](disease)
+- Why not [Pulmonary Actinomycosis](disease) What
+- escape Worthy of [Lung metastases](disease) Yeah
+- What not gave birth [Bullae](disease)
+- Why not Catch [Pulmonary pseudotumor](disease) Acridine
+- Bypass gave birth [Alveolar proteinosis](disease) what
+- Why not Get [Goodpasture syndrome](disease) Ok
+- prevent Got it [Pneumococcal pneumonia](disease) Ah
+- Escape Give birth [Alveolar proteinosis](disease)
+- How can you not Suffer [Benzene poisoning](disease)
+- How can I not Get [Pulmonary embolism](disease)
+- How can it not Get [Anaphylactic shock](disease) Ah
+- Why not Worthy of [pertussis](disease)
+- How can I not Get [Wheezing bronchitis](disease) Ok
+- Why not Give birth [Bacillus pneumoniae pneumonia](disease) Ok
+- Why not infection [SARS](disease) Ah
+- How can I not Got it [Respiratory bronchiole-related interstitial lung disease](disease) Is it
+- Avoid Get [Anaphylactic shock](disease) What
+- Avoid Got it [SARS](disease) Ok
+- Escape gave birth [Anaphylactic shock](disease)
+- How can I not Got it [pneumonia](disease) what
+- How can we not gave birth [Bacillus pneumoniae pneumonia](disease) Ah
+- escape Suffer [Adult respiratory distress syndrome](disease) Yeah
+- Avoid gave birth [Large amounts of amniotic fluid inhalation](disease)
+- How not Worthy of [Wheezing bronchitis](disease) What
+- escape [Benzene poisoning](disease) Acridine
+- Why not [Pneumococcal pneumonia](disease) What
+- resist Suffer [Lung cancer](disease) Is it
+- Why not Give birth [Benzene poisoning](disease) Ah
+- Why not Suffer [Pulmonary embolism](disease) Is it
+- escape gave birth [Pulmonary Edema](disease) Ah
+- How can we not Got it [Pulmonary Aspergillosis](disease) What
+- What not Got it [Adult respiratory distress syndrome](disease) What
+- What not Suffer [Cadmium poisoning](disease) Acridine
+- How can I not Suffer [Pulmonary bullae](disease) Ah
+- How can I not [Benzene poisoning](disease) Ok
+- Avoid infection [Lung metastases](disease) What
+- Avoid Worthy of [Bacillus pneumoniae pneumonia](disease) Is it
+- escape gave birth [Lung abscess](disease) what
+- resist Worthy of [Pulmonary Aspergillosis](disease) Is it
+- How can I not Give birth [pertussis](disease) Ah
+- Escape Got it [pneumonia](disease) Yeah
+- prevention Catch [Lung cancer](disease) Ok
+- How can I not [Building Sick Syndrome](disease) Is it
+- Avoid Give birth [cold](disease) Acridine
+- How can it not gave birth [Carbon disulfide poisoning](disease) Ok
+- Why not Get [Pneumococcal pneumonia](disease) Ok
+- How can we not [Lung metastases](disease) Is it
+- prevent [Goodpasture syndrome](disease) Ok
+- prevent [Respiratory bronchiole-related interstitial lung disease](disease) Yeah
+- What not infection [Pulmonary-pleural amebiasis](disease) Ok
+- How can I not Catch [Bullae](disease) Acridine
+- Why not Worthy of [Foreign body in the respiratory tract](disease) what
+- Avoid Catch [Carbon disulfide poisoning](disease) Ah
+- How can I not infection [pneumonia](disease) Ok
+- Why not gave birth [Anaphylactic shock](disease) Ah
+- How can you not Suffer [Pulmonary bullae](disease) what
+- prevent Get [Simple pulmonary eosinophilic infiltration](disease) Is it
+- Why not Worthy of [cold](disease) What
+- How not Give birth [Pulmonary embolism](disease) what
+- How can we not Get [Alveolar proteinosis](disease) Is it
+- lest infection [Pulmonary bullae](disease) Acridine
+- prevent Got it [pneumonia](disease)
+- Why not Catch [Adult respiratory distress syndrome](disease)
+- What not [Pulmonary bullae](disease) Acridine
+- Why not Give birth [Foreign body in the respiratory tract](disease)
+- How not Catch [Lung abscess](disease) Ah
+- Why not [Simple pulmonary eosinophilic infiltration](disease) what
+- How can we not infection [pneumonia](disease)
+- How can I not infection [SARS](disease)
+- Dodge Give birth [pertussis](disease) Ok
+- How can we not Worthy of [Bacillus pneumoniae pneumonia](disease) What
+- Resist Get [Lung metastases](disease) Yeah
+- Guard against Got it [Pulmonary-pleural amebiasis](disease) what
+- How can I not Catch [Pulmonary Aspergillosis](disease) Ok
+- Avoid infection [Radiation pneumonia](disease) Ok
+- How can I not Get [Foreign body in the respiratory tract](disease) Is it
+- Why not Get [Pulmonary bullae](disease) Ok
+- How can I not Catch [Radiation pneumonia](disease) what
+- Bypass infection [Anaphylactic shock](disease) Yeah
+- Why not Got it [Cadmium poisoning](disease)
+- How can you not Catch [Alveolar proteinosis](disease) what
+- Why not Suffer [Goodpasture syndrome](disease)
+- Avoid infection [Goodpasture syndrome](disease) What
+- What not Worthy of [Pulmonary Cryptococcosis](disease) Ok
+- How can it not Catch [Radiation pneumonia](disease) Is it
+- lest infection [Pulmonary Candidiasis](disease) What
+- What not Worthy of [pertussis](disease) What
+- Why not gave birth [Bullae](disease) Is it
+- Why not infection [Lung metastases](disease) what
+- How can I not Got it [Lung abscess](disease) what
+- Why not Got it [Pulmonary Cryptococcosis](disease) What
+- Resist Worthy of [Pulmonary embolism](disease) Acridine
+- Escape Give birth [Adult respiratory distress syndrome](disease) Ah
+- Why not infection [Pneumococcal pneumonia](disease) Is it
+- Why not Got it [Pulmonary embolism](disease)
+- What not Got it [Bullae](disease) Ok
+- Avoid [Adult respiratory distress syndrome](disease) Yeah
+- How can we not gave birth [Building Sick Syndrome](disease) Ok
+- Dodge Catch [SARS](disease) Is it
+- How can I not Get [Septic shock](disease) Ok
+- prevent Suffer [Alveolar proteinosis](disease) Ah
+- How can it not Got it [Pulmonary Cryptococcosis](disease) Ok
+- What not infection [Simple pulmonary eosinophilic infiltration](disease) Yeah
+- Why not gave birth [Lung abscess](disease) Ah
+- prevention Got it [Mercury poisoning](disease) Is it
+- How can you not Get [Foreign body in the respiratory tract](disease) what
+- What not Got it [Pneumococcal pneumonia](disease) Is it
+- Guard against Worthy of [Anaphylactic shock](disease)
+- Why not Get [pertussis](disease) Is it
+- How can I not gave birth [Pulmonary-pleural amebiasis](disease) What
+- Why not [Pulmonary Cryptococcosis](disease) Acridine
+- What not [Pulmonary Cryptococcosis](disease) Ah
+- Why not Get [Pulmonary bullae](disease) Yeah
+- Why not Got it [Pulmonary Actinomycosis](disease) Yeah
+- Dodge Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) Ok
+- Avoid Give birth [Simple pulmonary eosinophilic infiltration](disease) Ah
+- prevention Got it [Pulmonary-pleural amebiasis](disease)
+- Why not Catch [Pulmonary embolism](disease)
+- How not Catch [Alveolar proteinosis](disease)
+- prevention Give birth [Alveolar proteinosis](disease) Acridine
+- How can we not Worthy of [Carbon disulfide poisoning](disease)
+- Avoid Get [Hypersensitivity pneumonia](disease)
+- How can you not Worthy of [Pulmonary hemorrhage-nephritis syndrome](disease)
+- Why not Suffer [Mercury poisoning](disease) What
+- Why not Get [Wheezing bronchitis](disease) Ah
+- How can i not Give birth [Bullae](disease)
+- Escape infection [Simple pulmonary eosinophilic infiltration](disease) Acridine
+- prevention [Cadmium poisoning](disease) Is it
+- How can I not infection [Carbon disulfide poisoning](disease) what
+- How can I not Get [Foreign body in the respiratory tract](disease) Ah
+- resist Got it [Pulmonary Actinomycosis](disease) Ah
+- How can I not [Pulmonary-pleural amebiasis](disease) Acridine
+- How can you not Give birth [Alveolar proteinosis](disease) Acridine
+- Dodge Suffer [Bullae](disease) Yeah
+- How can we not gave birth [Carbon disulfide poisoning](disease) Ok
+- Bypass Suffer [Pulmonary Aspergillosis](disease) Ok
+- Avoid Got it [Alveolar proteinosis](disease) what
+- Avoid [Septic shock](disease) Is it
+- Dodge gave birth [Pulmonary-pleural amebiasis](disease)
+- How can I not Give birth [Bacillus pneumoniae pneumonia](disease) Ah
+- How can i not Give birth [pneumonia](disease) Ok
+- Why not infection [Bacillus pneumoniae pneumonia](disease) Is it
+- How can you not Worthy of [pneumonia](disease) Yeah
+- What not Get [Emphysema](disease) What
+- What not Catch [Pulmonary hemorrhage-nephritis syndrome](disease) Is it
+- Avoid infection [Wheezing bronchitis](disease) Ok
+- How can i not Give birth [Bullae](disease) Yeah
+- Why not [Pulmonary-pleural amebiasis](disease) Is it
+- Avoid gave birth [Wheezing bronchitis](disease) Ah
+- resist [Cadmium poisoning](disease) Yeah
+- Avoid Got it [Pulmonary-pleural amebiasis](disease) Ok
+- How can I not Suffer [Pulmonary Actinomycosis](disease) What
+- resist infection [Pulmonary Aspergillosis](disease) Yeah
+- Why not Got it [Pulmonary Aspergillosis](disease) Is it
+- Avoid [Radiation pneumonia](disease) Ah
+- How can I not Suffer [Simple pulmonary eosinophilic infiltration](disease) Ah
+- Avoid Suffer [Emphysema](disease) Ok
+- Escape Give birth [Pulmonary Candidiasis](disease) what
+- Why not Get [Pulmonary-pleural amebiasis](disease) Ok
+- resist Worthy of [Foreign body in the respiratory tract](disease) Ok
+- How can we not gave birth [pertussis](disease) Acridine
+- How can it not [Lung metastases](disease) Acridine
+- Why not gave birth [Pulmonary Aspergillosis](disease) Yeah
+- Why not infection [Pulmonary pseudotumor](disease) Ah
+- What not infection [Pulmonary-pleural amebiasis](disease) what
+- prevent Worthy of [Simple pulmonary eosinophilic infiltration](disease) Ok
+- Why not Give birth [Building Sick Syndrome](disease) Ok
+- How can I not Get [Adult respiratory distress syndrome](disease) what
+- Why not Catch [pneumonia](disease) Yeah
+- Dodge Got it [pneumonia](disease) Yeah
+- What not Catch [Pneumococcal pneumonia](disease) Is it
+- Escape Suffer [Alveolar proteinosis](disease) what
+- Avoid infection [Hypersensitivity pneumonia](disease) Is it
+- Bypass [pneumonia](disease) What
+- Avoid [pertussis](disease) Is it
+- Why not Suffer [Pulmonary Candidiasis](disease) Acridine
+- How can you not gave birth [Lung cancer](disease)
+- Avoid [Radiation pneumonia](disease) What
+- Why not Worthy of [Lung cancer](disease) Ah
+- How not Catch [Pulmonary pseudotumor](disease) what
+- How can I not Give birth [Septic shock](disease) What
+- What not Suffer [Pulmonary Aspergillosis](disease) Ok
+- Guard against Give birth [Lung metastases](disease) Ok
+- How can I not Get [Pulmonary Actinomycosis](disease) Ok
+- Why not Worthy of [Cadmium poisoning](disease) Yeah
+- Why not Suffer [Lobar Pneumonia](disease) Ah
+- What not Catch [Mercury poisoning](disease) Yeah
+- resist Worthy of [Lung abscess](disease) What
+- Avoid Catch [SARS](disease) Yeah
+- Avoid Catch [pneumonia](disease) Ah
+- lest infection [Lung cancer](disease) Ah
+- How can i not Got it [Lung abscess](disease) Acridine
+- How can I not gave birth [Pulmonary Candidiasis](disease)
+- prevent Give birth [Pulmonary Edema](disease) What
+- How can we not Give birth [Pulmonary Aspergillosis](disease) Ah
+- Avoid [Respiratory bronchiole-related interstitial lung disease](disease) What
+- resist Worthy of [Radiation pneumonia](disease)
+- Avoid Got it [Pulmonary hemorrhage-nephritis syndrome](disease)
+- resist infection [Wheezing bronchitis](disease) Acridine
+- Why not Catch [Pulmonary Actinomycosis](disease)
+- Why not gave birth [Wheezing bronchitis](disease) Acridine
+- How can we not Worthy of [Bullae](disease) what
+- Dodge Suffer [Hypersensitivity pneumonia](disease) Ok
+- Why not [Bullae](disease) Is it
+- How can I not gave birth [Adult respiratory distress syndrome](disease) Acridine
+- Why not Worthy of [Adult respiratory distress syndrome](disease)
+- Why not Give birth [Wheezing bronchitis](disease) Ah
+- Avoid [Alveolar proteinosis](disease)
+- How can I not [Benzene poisoning](disease) Is it
+- resist Give birth [Lung cancer](disease) Acridine
+- Resist Got it [Large amounts of amniotic fluid inhalation](disease) Ah
+- How can I not infection [Lung cancer](disease) what
+- How can we not Catch [Emphysema](disease) Yeah
+- prevent Give birth [Wheezing bronchitis](disease) what
+- lest Suffer [Bacillus pneumoniae pneumonia](disease)
+- Resist infection [pneumonia](disease) Yeah
+- Why not [Benzene poisoning](disease) Ok
+- How can I not Catch [Alveolar proteinosis](disease) Yeah
+- escape Got it [cold](disease) Ah
+- Avoid Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) What
+- How not infection [Pulmonary embolism](disease) Acridine
+- Dodge [Adult respiratory distress syndrome](disease)
+- Why not Got it [Cadmium poisoning](disease) What
+- Why not Get [Respiratory bronchiole-related interstitial lung disease](disease) Ah
+- Why not Give birth [Pulmonary Cryptococcosis](disease) Ah
+- Why not Suffer [Adult respiratory distress syndrome](disease) Acridine
+- Why not Get [Bullae](disease) Acridine
+- What not Worthy of [Pulmonary Aspergillosis](disease) What
+- How can I not infection [Pulmonary hemorrhage-nephritis syndrome](disease) Yeah
+- How can it not Get [Lung cancer](disease) what
+- Why not Catch [pneumonia](disease)
+- prevent Get [Emphysema](disease) What
+- lest gave birth [Bullae](disease)
+- How can i not infection [Septic shock](disease) Yeah
+- Avoid Worthy of [Cadmium poisoning](disease) Ah
+- Avoid Got it [Mercury poisoning](disease) Ah
+- prevent gave birth [Large amounts of amniotic fluid inhalation](disease) Ok
+- lest Get [Bullae](disease) Acridine
+- What not gave birth [Bullae](disease) Acridine
+- Avoid Give birth [pneumonia](disease) Acridine
+- Why not Suffer [Building Sick Syndrome](disease) What
+- Escape Get [Mercury poisoning](disease) what
+- How can we not [Radiation pneumonia](disease)
+- Why not Suffer [Lung abscess](disease) Ok
+- Why not infection [Bullae](disease)
+- What not Suffer [Bullae](disease) What
+- How can we not Worthy of [Lung cancer](disease) what
+- Avoid Give birth [Goodpasture syndrome](disease) Ok
+- Guard against Catch [Septic shock](disease) Is it
+- How can we not [Septic shock](disease) What
+- How can I not Worthy of [Pulmonary Actinomycosis](disease)
+- Resist infection [SARS](disease) Ah
+- escape Give birth [Large amounts of amniotic fluid inhalation](disease)
+- Avoid infection [Pulmonary Edema](disease) Ok
+- What not Catch [Septic shock](disease) Ok
+- Escape Got it [Pulmonary Aspergillosis](disease) Is it
+- How can i not Give birth [Mercury poisoning](disease)
+- How can i not [Pulmonary Cryptococcosis](disease) What
+- How can i not Got it [Pulmonary hemorrhage-nephritis syndrome](disease) What
+- Avoid Worthy of [Pulmonary Edema](disease) What
+- Why not Give birth [cold](disease) Acridine
+- lest gave birth [Pulmonary bullae](disease)
+- How can it not Worthy of [Radiation pneumonia](disease) What
+- prevent Got it [Wheezing bronchitis](disease) What
+- Avoid gave birth [Carbon disulfide poisoning](disease) what
+- How can I not Catch [Pulmonary Cryptococcosis](disease) Acridine
+- How can I not infection [Large amounts of amniotic fluid inhalation](disease) Ah
+- Avoid Suffer [Respiratory bronchiole-related interstitial lung disease](disease) Is it
+- Why not Get [Lobar Pneumonia](disease) Acridine
+- resist infection [Radiation pneumonia](disease) what
+- How can you not Suffer [Pulmonary bullae](disease) Ah
+- Why not Suffer [Large amounts of amniotic fluid inhalation](disease) Ah
+- Avoid [Pulmonary bullae](disease) Yeah
+- Why not gave birth [Wheezing bronchitis](disease) Is it
+- Why not Worthy of [Pulmonary Aspergillosis](disease) What
+- Bypass Give birth [Anaphylactic shock](disease) What
+- resist Get [Lung cancer](disease)
+- prevention gave birth [Mercury poisoning](disease) Ah
+- How can it not Suffer [Pulmonary embolism](disease) what
+- How can it not Suffer [Pulmonary Cryptococcosis](disease) what
+- escape gave birth [Simple pulmonary eosinophilic infiltration](disease) Is it
+- Escape Worthy of [Mercury poisoning](disease) Ok
+- Why not Worthy of [Building Sick Syndrome](disease) Acridine
+- How can I not Give birth [Pulmonary embolism](disease) Is it
+- Why not Got it [Simple pulmonary eosinophilic infiltration](disease) Is it
+- Why not Suffer [Mercury poisoning](disease)
+- Why not gave birth [Anaphylactic shock](disease) what
+- Why not Get [Bacillus pneumoniae pneumonia](disease) Yeah
+- Why not [pertussis](disease) Ah
+- Escape [Pulmonary hemorrhage-nephritis syndrome](disease) Yeah
+- Why not [Pulmonary Edema](disease) what
+- Avoid Give birth [cold](disease) what
+- How can we not Give birth [Pulmonary bullae](disease) Acridine
+- How can I not gave birth [Septic shock](disease) What
+- Bypass Get [Anaphylactic shock](disease) Is it
+- Escape Worthy of [Simple pulmonary eosinophilic infiltration](disease) Acridine
+- Why not [Lung abscess](disease) Acridine
+- Why not Give birth [Carbon disulfide poisoning](disease) Acridine
+- prevention Suffer [Lung cancer](disease) Ah
+- resist [Radiation pneumonia](disease) Acridine
+- Avoid Suffer [Bullae](disease) Yeah
+- resist Give birth [Goodpasture syndrome](disease) Acridine
+- How can I not Suffer [Bacillus pneumoniae pneumonia](disease) what
+- How can i not Got it [Pulmonary pseudotumor](disease) Acridine
+- Avoid Suffer [cold](disease) Yeah
+- Why not Suffer [Pulmonary embolism](disease)
+- How not Worthy of [Simple pulmonary eosinophilic infiltration](disease) What
+- prevent Get [Hypersensitivity pneumonia](disease) Ok
+- Escape [cold](disease) Ah
+- Why not Get [Foreign body in the respiratory tract](disease) Ok
+- Why not Got it [Pulmonary Actinomycosis](disease)
+- Avoid Worthy of [pneumonia](disease) Acridine
+- How can I not gave birth [Respiratory bronchiole-related interstitial lung disease](disease) Acridine
+- Bypass [Pulmonary Cryptococcosis](disease) Is it
+- Guard against Catch [Pulmonary Actinomycosis](disease) Ah
+- How can I not infection [pertussis](disease) What
+- How can I not Worthy of [Alveolar proteinosis](disease)
+- Avoid Worthy of [Carbon disulfide poisoning](disease) Ah
+- escape infection [Pulmonary-pleural amebiasis](disease) Acridine
+- Avoid gave birth [Building Sick Syndrome](disease) Ok
+- Avoid Give birth [Building Sick Syndrome](disease) What
+- prevent [Lung metastases](disease) Ok
+- How can I not Suffer [Pulmonary bullae](disease) Is it
+- Avoid [Pulmonary bullae](disease) Is it
+- How can it not Get [Wheezing bronchitis](disease) What
+- prevention infection [Pulmonary embolism](disease) Ah
+- Why not Suffer [Lung cancer](disease) what
+- How can I not gave birth [pertussis](disease) Is it
+- How can I not Suffer [Adult respiratory distress syndrome](disease) what
+- How can you not Give birth [Anaphylactic shock](disease)
+- How can i not gave birth [Pneumococcal pneumonia](disease) Ok
+- lest Get [Benzene poisoning](disease) What
+- How can you not infection [Pulmonary bullae](disease) Ok
+- How not infection [Anaphylactic shock](disease) Yeah
+- Why not Worthy of [Pulmonary Actinomycosis](disease) Yeah
+- Guard against Worthy of [Cadmium poisoning](disease) What
+- How can it not [Bacillus pneumoniae pneumonia](disease)
+- Avoid gave birth [Anaphylactic shock](disease) what
+- Avoid infection [Radiation pneumonia](disease) Ah
+- Why not infection [Mercury poisoning](disease) What
+- Avoid Get [Cadmium poisoning](disease) Yeah
+- escape Give birth [Lung cancer](disease) Acridine
+- escape Catch [pertussis](disease) Ok
+- How can you not Catch [Lung abscess](disease) Is it
+- How can it not Catch [Bacillus pneumoniae pneumonia](disease) What
+- How can I not Catch [Alveolar proteinosis](disease) What
+- How can I not Worthy of [Goodpasture syndrome](disease) Ok
+- Avoid Got it [Pulmonary pseudotumor](disease) Is it
+- resist Give birth [Adult respiratory distress syndrome](disease) what
+- How can I not Got it [Pulmonary Candidiasis](disease) Yeah
+- How can you not infection [Lobar Pneumonia](disease) What
+- Why not [Building Sick Syndrome](disease)
+- Why not Get [Septic shock](disease) Is it
+- Why not gave birth [Lung metastases](disease) What
+- Bypass Suffer [Pulmonary Aspergillosis](disease) What
+- Avoid Give birth [Hypersensitivity pneumonia](disease) Acridine
+- Escape gave birth [Respiratory bronchiole-related interstitial lung disease](disease) Yeah
+- Avoid [Pulmonary-pleural amebiasis](disease) Acridine
+- How not Suffer [Pulmonary bullae](disease) Yeah
+- Why not Give birth [Lung metastases](disease) Acridine
+- How can it not Got it [Respiratory bronchiole-related interstitial lung disease](disease) Ah
+- How can you not gave birth [Lung metastases](disease) Yeah
+- Avoid Suffer [Pulmonary Actinomycosis](disease) Is it
+- How can I not Got it [Pulmonary-pleural amebiasis](disease) What
+- lest Got it [Pulmonary embolism](disease)
+- What not [Lung metastases](disease) what
+- Why not Get [Pulmonary Cryptococcosis](disease) Ah
+- Why not Suffer [Goodpasture syndrome](disease) Yeah
+- Why not gave birth [Pulmonary Candidiasis](disease) Ok
+- Why not infection [pneumonia](disease) Acridine
+- Dodge Worthy of [Wheezing bronchitis](disease)
+- How can we not Suffer [Goodpasture syndrome](disease) what
+- How can i not gave birth [pertussis](disease) what
+- Avoid Give birth [Large amounts of amniotic fluid inhalation](disease) Yeah
+- Avoid Get [Respiratory bronchiole-related interstitial lung disease](disease) Ok
+- Why not Suffer [Pulmonary-pleural amebiasis](disease) Yeah
+- Why not Get [Pulmonary pseudotumor](disease) Yeah
+- Avoid Catch [Respiratory bronchiole-related interstitial lung disease](disease) Ok
+- lest [cold](disease) Ok
+- How can we not Give birth [Bullae](disease) What
+- Resist gave birth [Pulmonary-pleural amebiasis](disease) What
+- How can I not gave birth [Lung cancer](disease) Acridine
+- Dodge gave birth [Pulmonary pseudotumor](disease) Yeah
+- How can we not Worthy of [Pulmonary embolism](disease) Is it
+- How can it not gave birth [Lung cancer](disease) what
+- How can it not Get [Pulmonary Edema](disease)
+- Why not Get [Pulmonary Aspergillosis](disease) what
+- Why not Suffer [Pulmonary Aspergillosis](disease) Ok
+- lest Suffer [Bacillus pneumoniae pneumonia](disease) Yeah
+- How can it not Catch [Lobar Pneumonia](disease)
+- Guard against Catch [Cadmium poisoning](disease) Is it
+- How can I not Worthy of [Pulmonary Actinomycosis](disease) Ok
+- Avoid Suffer [SARS](disease) Is it
+- prevention Worthy of [Wheezing bronchitis](disease) Ok
+- Why not Got it [Emphysema](disease) Acridine
+- prevention Got it [cold](disease)
+- How can it not Get [Pulmonary Cryptococcosis](disease) Ah
+- What not Catch [Mercury poisoning](disease) Is it
+- escape gave birth [Lung metastases](disease)
+- Escape gave birth [Respiratory bronchiole-related interstitial lung disease](disease) what
+- Why not Give birth [Pneumococcal pneumonia](disease) What
+- Why not Catch [SARS](disease) Yeah
+- Avoid [Goodpasture syndrome](disease) Acridine
+- How can I not Catch [cold](disease) what
+- Bypass infection [Anaphylactic shock](disease) Ah
+- How can i not Suffer [Goodpasture syndrome](disease)
+- Guard against Get [Alveolar proteinosis](disease) Yeah
+- escape Worthy of [Pneumococcal pneumonia](disease) Yeah
+- lest Worthy of [Lung metastases](disease) Ok
+- Why not gave birth [Alveolar proteinosis](disease) Yeah
+- Avoid Catch [Mercury poisoning](disease) what
+- prevent gave birth [pneumonia](disease) Ah
+- Avoid gave birth [Pulmonary-pleural amebiasis](disease) Ah
+- Why not Got it [Hypersensitivity pneumonia](disease) Ok
+- escape Catch [Bullae](disease) Yeah
+- How can I not Give birth [Alveolar proteinosis](disease) what
+- How can you not Suffer [Adult respiratory distress syndrome](disease) Ah
+- Guard against Suffer [Cadmium poisoning](disease) What
+- prevent Give birth [Adult respiratory distress syndrome](disease) Ah
+- How can it not Worthy of [Emphysema](disease) Ok
+- Guard against Give birth [Wheezing bronchitis](disease)
+- What not Got it [Adult respiratory distress syndrome](disease) Acridine
+- prevent Catch [Pneumococcal pneumonia](disease) Is it
+- How can we not Got it [Radiation pneumonia](disease) what
+- How can you not Worthy of [Goodpasture syndrome](disease) What
+- Avoid Give birth [SARS](disease) Is it
+- Resist Catch [Pulmonary Candidiasis](disease)
+- How can it not Give birth [Pulmonary hemorrhage-nephritis syndrome](disease) what
+- prevention Suffer [Building Sick Syndrome](disease) Is it
+- Why not infection [Carbon disulfide poisoning](disease) What
+- How can we not infection [Cadmium poisoning](disease) Yeah
+- Guard against Catch [Bacillus pneumoniae pneumonia](disease) Yeah
+- Resist Suffer [Goodpasture syndrome](disease) Yeah
+- prevention Give birth [Mercury poisoning](disease) Ok
+- How can I not Got it [Foreign body in the respiratory tract](disease) What
+- How can I not Get [Lung metastases](disease) Ok
+- Avoid Catch [Pulmonary-pleural amebiasis](disease) Ah
+- Why not infection [Anaphylactic shock](disease) Ah
+- Avoid Catch [Large amounts of amniotic fluid inhalation](disease)
+- How can we not Suffer [Pneumococcal pneumonia](disease) Ok
+- What not gave birth [Carbon disulfide poisoning](disease) Acridine
+- How can I not Catch [Pulmonary Aspergillosis](disease) What
+- Avoid Worthy of [Lung abscess](disease) Ok
+- Avoid Got it [Simple pulmonary eosinophilic infiltration](disease) Ok
+- Resist gave birth [Septic shock](disease) Acridine
+- How can it not gave birth [Simple pulmonary eosinophilic infiltration](disease) Yeah
+- Avoid Give birth [Pulmonary pseudotumor](disease)
+- How can I not Give birth [Adult respiratory distress syndrome](disease) Ok
+- Avoid Catch [Septic shock](disease) Ah
+- Why not gave birth [Lung metastases](disease) what
+- How not Get [Pulmonary Actinomycosis](disease) Yeah
+- Why not Give birth [Radiation pneumonia](disease) Ah
+- Escape [Respiratory bronchiole-related interstitial lung disease](disease) Ok
+- Why not gave birth [Emphysema](disease) Ah
+- Bypass Worthy of [pertussis](disease) Is it
+- escape Catch [Pulmonary embolism](disease) Ah
+- How not Suffer [Lobar Pneumonia](disease) Ah
+- Avoid Worthy of [Alveolar proteinosis](disease)
+- Why not gave birth [Bullae](disease)
+- Avoid Worthy of [Septic shock](disease) Is it
+- Resist Give birth [pertussis](disease) Acridine
+- Avoid Got it [Pulmonary embolism](disease) What
+- How can I not gave birth [Large amounts of amniotic fluid inhalation](disease) Ok
+- prevent Get [Bacillus pneumoniae pneumonia](disease) Ok
+- Why not gave birth [cold](disease) what
+- Guard against Catch [Mercury poisoning](disease) Ok
+- Why not Got it [Pneumococcal pneumonia](disease) Ok
+- How can I not gave birth [Pulmonary pseudotumor](disease) what
+- How can it not Suffer [Pulmonary hemorrhage-nephritis syndrome](disease) Ah
+- prevention Suffer [Pneumococcal pneumonia](disease) Yeah
+- Bypass Worthy of [Pulmonary-pleural amebiasis](disease) Is it
+- Why not Worthy of [Hypersensitivity pneumonia](disease) What
+- How can it not Worthy of [pneumonia](disease)
+- How can it not gave birth [Anaphylactic shock](disease) Yeah
+- Why not Get [Bacillus pneumoniae pneumonia](disease) Ah
+- How can we not gave birth [Lung abscess](disease) Acridine
+- Why not infection [Pneumococcal pneumonia](disease) Yeah
+- How can I not Suffer [Pulmonary-pleural amebiasis](disease) Acridine
+- How can I not Suffer [Bacillus pneumoniae pneumonia](disease) Yeah
+- Avoid Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) what
+- What not [SARS](disease) Ah
+- Why not Get [Emphysema](disease)
+- Avoid infection [Pneumococcal pneumonia](disease) Ok
+- Escape Worthy of [Carbon disulfide poisoning](disease) What
+- How can it not infection [Building Sick Syndrome](disease) What
+- Why not [Pulmonary-pleural amebiasis](disease) what
+- Escape Got it [Goodpasture syndrome](disease) Yeah
+- Why not Give birth [SARS](disease) what
+- What not Get [Pulmonary pseudotumor](disease) Acridine
+- Avoid Worthy of [Adult respiratory distress syndrome](disease) Acridine
+- Why not Give birth [Benzene poisoning](disease) Yeah
+- resist gave birth [Pulmonary-pleural amebiasis](disease) Is it
+- Why not [Pulmonary Actinomycosis](disease) what
+- Why not [Pneumococcal pneumonia](disease) Is it
+- prevention infection [Pulmonary-pleural amebiasis](disease) Ah
+- lest Catch [Pulmonary Cryptococcosis](disease) Acridine
+- Why not Catch [Septic shock](disease) Acridine
+- Dodge Worthy of [pneumonia](disease) Acridine
+- Why not Suffer [Benzene poisoning](disease) Ok
+- Guard against Give birth [Anaphylactic shock](disease) Is it
+- What not Get [Radiation pneumonia](disease)
+- How not Give birth [Pulmonary Edema](disease) What
+- Why not Worthy of [Pulmonary embolism](disease) What
+- How can I not Give birth [Cadmium poisoning](disease) Ah
+- Avoid Suffer [Pulmonary pseudotumor](disease) what
+- lest gave birth [Foreign body in the respiratory tract](disease) what
+- Why not Worthy of [pneumonia](disease) Yeah
+- Avoid Get [Pulmonary Cryptococcosis](disease)
+- Why not Get [Pulmonary Candidiasis](disease)
+- How not Suffer [Alveolar proteinosis](disease) Acridine
+- Avoid Give birth [Radiation pneumonia](disease) What
+- lest Suffer [Pulmonary embolism](disease) Ah
+- lest Get [Anaphylactic shock](disease) what
+- How not infection [Alveolar proteinosis](disease) Ah
+- How can we not Got it [Lung abscess](disease)
+- prevent gave birth [Hypersensitivity pneumonia](disease) What
+- lest gave birth [Pulmonary Actinomycosis](disease) Acridine
+- Why not [Large amounts of amniotic fluid inhalation](disease) Ok
+- What not Give birth [Pulmonary Aspergillosis](disease) What
+- prevention gave birth [Pulmonary Edema](disease) what
+- What not gave birth [Pulmonary Edema](disease) Ah
+- Resist Catch [Pulmonary Actinomycosis](disease) Is it
+- Why not Get [Simple pulmonary eosinophilic infiltration](disease) Ah
+- Resist Suffer [SARS](disease)
+- How can it not [Lung abscess](disease) Acridine
+- Avoid Get [Bullae](disease) Ok
+- Bypass Catch [Septic shock](disease) Is it
+- Why not infection [Lung abscess](disease)
+- Why not Get [Lung abscess](disease) Ah
+- Why not Get [Large amounts of amniotic fluid inhalation](disease) What
+- prevent Got it [pertussis](disease) what
+- How can I not infection [Hypersensitivity pneumonia](disease) Ah
+- lest Get [Pulmonary Actinomycosis](disease) what
+- How can I not Worthy of [Hypersensitivity pneumonia](disease)
+- How not Worthy of [Bacillus pneumoniae pneumonia](disease) what
+- Why not Suffer [Cadmium poisoning](disease) Acridine
+- How can you not Get [Pulmonary-pleural amebiasis](disease)
+- Avoid gave birth [Pulmonary-pleural amebiasis](disease)
+- How can i not [Septic shock](disease) Is it
+- escape Suffer [Anaphylactic shock](disease)
+- How can I not Suffer [Hypersensitivity pneumonia](disease) Yeah
+- How can i not Got it [Goodpasture syndrome](disease) Is it
+- Why not gave birth [Hypersensitivity pneumonia](disease) Acridine
+- How can it not Suffer [Lobar Pneumonia](disease) Is it
+- Why not Give birth [Alveolar proteinosis](disease) what
+- Why not Catch [Lung cancer](disease) Is it
+- Avoid gave birth [Goodpasture syndrome](disease) Acridine
+- Why not Give birth [Mercury poisoning](disease)
+- How can it not Got it [Pulmonary bullae](disease) Ah
+- How can I not Suffer [Lung metastases](disease) What
+- lest Give birth [Adult respiratory distress syndrome](disease) Acridine
+- Guard against Get [Pulmonary pseudotumor](disease) Acridine
+- How can I not Worthy of [Anaphylactic shock](disease) what
+- How can I not infection [pneumonia](disease) What
+- How can you not Suffer [Carbon disulfide poisoning](disease) Ok
+- How can I not [Pulmonary Actinomycosis](disease) What
+- resist Catch [Pulmonary pseudotumor](disease) what
+- Avoid gave birth [cold](disease) Is it
+- How not Catch [Pulmonary-pleural amebiasis](disease)
+- How can I not Give birth [Cadmium poisoning](disease) Yeah
+- Dodge Suffer [Pulmonary bullae](disease) Ok
+- Avoid Get [Foreign body in the respiratory tract](disease) Ah
+- prevent Worthy of [Alveolar proteinosis](disease) Ok
+- How can we not Suffer [Pulmonary Aspergillosis](disease) Ah
+- Avoid Worthy of [Large amounts of amniotic fluid inhalation](disease) Ah
+- Why not gave birth [pneumonia](disease) Ok
+- resist Get [Bacillus pneumoniae pneumonia](disease)
+- Avoid Worthy of [Pulmonary embolism](disease) Acridine
+- How can it not gave birth [Alveolar proteinosis](disease)
+- Resist Worthy of [Radiation pneumonia](disease) What
+- How can it not Catch [Goodpasture syndrome](disease) What
+- How can I not Worthy of [Large amounts of amniotic fluid inhalation](disease) what
+- Why not Catch [Lung cancer](disease) What
+- Guard against Catch [Pulmonary hemorrhage-nephritis syndrome](disease) What
+- Resist Give birth [Emphysema](disease)
+- Dodge infection [Adult respiratory distress syndrome](disease)
+- Avoid Catch [Building Sick Syndrome](disease) Is it
+- Why not [Pneumococcal pneumonia](disease) Ah
+- How can i not Get [Septic shock](disease) what
+- Escape Give birth [Wheezing bronchitis](disease)
+- Why not [Pulmonary Edema](disease)
+- What not [Large amounts of amniotic fluid inhalation](disease) Acridine
+- Avoid infection [Lung metastases](disease) Acridine
+- Avoid infection [Hypersensitivity pneumonia](disease) what
+- Why not Got it [Pulmonary Cryptococcosis](disease) Ok
+- prevent Suffer [Hypersensitivity pneumonia](disease) What
+- Resist Catch [Respiratory bronchiole-related interstitial lung disease](disease) Yeah
+- prevent Got it [Radiation pneumonia](disease)
+- Avoid Got it [Mercury poisoning](disease) Is it
+- Avoid Catch [Foreign body in the respiratory tract](disease)
+- Avoid [Pulmonary Actinomycosis](disease) what
+- Resist [pertussis](disease) Ah
+- Why not gave birth [Pulmonary bullae](disease)
+- Why not Catch [Pulmonary-pleural amebiasis](disease) what
+- How can I not Get [Pulmonary hemorrhage-nephritis syndrome](disease)
+- How can i not Got it [Goodpasture syndrome](disease)
+- Avoid infection [Lung cancer](disease) Yeah
+- How can I not Catch [Lung abscess](disease) What
+- prevention [pertussis](disease) Ok
+- How can it not Get [Simple pulmonary eosinophilic infiltration](disease)
+- How can I not gave birth [Building Sick Syndrome](disease) What
+- Avoid Get [Pulmonary Actinomycosis](disease) Ah
+- Avoid Suffer [Hypersensitivity pneumonia](disease) Acridine
+- Why not gave birth [Pulmonary Candidiasis](disease) Is it
+- Avoid [Building Sick Syndrome](disease) Ok
+- Why not Worthy of [Pneumococcal pneumonia](disease) What
+- Escape Give birth [Pulmonary Cryptococcosis](disease) What
+- lest infection [Alveolar proteinosis](disease) Yeah
+- How can you not gave birth [Foreign body in the respiratory tract](disease)
+- Avoid Suffer [Lobar Pneumonia](disease) what
+- resist Worthy of [Pulmonary Aspergillosis](disease) Yeah
+- How can we not Give birth [Bacillus pneumoniae pneumonia](disease) Ok
+- How can we not infection [pertussis](disease) Is it
+- How can it not Suffer [Mercury poisoning](disease) Ah
+- How can I not Get [Hypersensitivity pneumonia](disease) Is it
+- Escape Got it [Foreign body in the respiratory tract](disease) what
+- How can you not Suffer [pneumonia](disease) Acridine
+- Dodge Worthy of [Pulmonary embolism](disease) Ok
+- Bypass Catch [Pulmonary Actinomycosis](disease) Ah
+- How can it not Catch [SARS](disease) Is it
+- Guard against gave birth [Alveolar proteinosis](disease) Acridine
+- How can I not Suffer [Building Sick Syndrome](disease) Yeah
+- Escape Worthy of [Bullae](disease)
+- lest Get [Pulmonary hemorrhage-nephritis syndrome](disease) what
+- Dodge [Radiation pneumonia](disease) what
+- How can i not Get [Pulmonary Edema](disease) what
+- prevent gave birth [Adult respiratory distress syndrome](disease) What
+- Guard against Suffer [Respiratory bronchiole-related interstitial lung disease](disease) Is it
+- Why not Suffer [Anaphylactic shock](disease)
+- resist Worthy of [Pulmonary bullae](disease) Acridine
+- What not Get [Alveolar proteinosis](disease) Acridine
+- Resist Get [Lung metastases](disease)
+- Why not [SARS](disease) Yeah
+- What not Give birth [Wheezing bronchitis](disease) what
+- Bypass Catch [Bacillus pneumoniae pneumonia](disease) Ok
+- How can it not Give birth [Bacillus pneumoniae pneumonia](disease) Yeah
+- How can I not Suffer [Respiratory bronchiole-related interstitial lung disease](disease) Ok
+- How can i not [Hypersensitivity pneumonia](disease)
+- How can I not [Radiation pneumonia](disease) Ah
+- prevention Give birth [Pulmonary Actinomycosis](disease) Ah
+- Avoid Get [Lung metastases](disease) Acridine
+- Why not Get [Wheezing bronchitis](disease) Yeah
+- escape infection [Respiratory bronchiole-related interstitial lung disease](disease) Yeah
+- How can I not Suffer [Mercury poisoning](disease) Yeah
+- Avoid Suffer [Pulmonary embolism](disease) what
+- Why not Get [Pulmonary Actinomycosis](disease) Yeah
+- How can i not Catch [Pulmonary Cryptococcosis](disease) Ok
+- Why not Catch [Pulmonary hemorrhage-nephritis syndrome](disease) Ah
+- How can I not gave birth [Septic shock](disease) Yeah
+- Avoid [Foreign body in the respiratory tract](disease) Yeah
+- Avoid infection [Pulmonary-pleural amebiasis](disease)
+- How not Give birth [Pulmonary Actinomycosis](disease) Ah
+- How can it not Catch [Bacillus pneumoniae pneumonia](disease) Is it
+- How not Got it [Pulmonary hemorrhage-nephritis syndrome](disease) what
+- How can I not Worthy of [Septic shock](disease) What
+- What not infection [Pulmonary bullae](disease) Ah
+- prevent Give birth [Lobar Pneumonia](disease) Acridine
+- prevention Get [Lobar Pneumonia](disease) Yeah
+- How can I not Give birth [Alveolar proteinosis](disease) Yeah
+- Why not infection [Simple pulmonary eosinophilic infiltration](disease) Yeah
+- lest Worthy of [Mercury poisoning](disease) what
+- Avoid Suffer [Pulmonary bullae](disease) What
+- Guard against Got it [Wheezing bronchitis](disease) Is it
+- What not gave birth [Radiation pneumonia](disease) Is it
+- How can I not Catch [Large amounts of amniotic fluid inhalation](disease) Yeah
+- Guard against gave birth [Hypersensitivity pneumonia](disease) Ok
+- How can I not gave birth [Mercury poisoning](disease) Ok
+- Why not gave birth [Alveolar proteinosis](disease) Acridine
+- Why not Suffer [pertussis](disease) What
+- Avoid [Simple pulmonary eosinophilic infiltration](disease) what
+- How can we not infection [Adult respiratory distress syndrome](disease) what
+- Dodge Suffer [Building Sick Syndrome](disease) What
+- Why not Worthy of [Lung cancer](disease) Is it
+- lest Suffer [Benzene poisoning](disease) Yeah
+- Bypass infection [Respiratory bronchiole-related interstitial lung disease](disease)
+- lest Suffer [Lung metastases](disease) Ok
+- How can it not Worthy of [Building Sick Syndrome](disease) Ok
+- How can I not gave birth [Pulmonary-pleural amebiasis](disease) Ok
+- Why not gave birth [Anaphylactic shock](disease) Yeah
+- How can I not infection [Adult respiratory distress syndrome](disease) Acridine
+- prevent Catch [Radiation pneumonia](disease)
+- How not [Septic shock](disease) Yeah
+- Why not Get [Pulmonary-pleural amebiasis](disease) Ah
+- Why not infection [Lobar Pneumonia](disease) Ok
+- Why not Worthy of [Pulmonary pseudotumor](disease)
+- Why not Give birth [Simple pulmonary eosinophilic infiltration](disease) What
+- Escape gave birth [Pulmonary Edema](disease) Ok
+- Why not [Foreign body in the respiratory tract](disease) Ah
+- Avoid Catch [Pulmonary Actinomycosis](disease) what
+- How can I not Get [Wheezing bronchitis](disease)
+- Dodge Get [Pulmonary pseudotumor](disease) Ah
+- Escape Give birth [pertussis](disease) what
+- Bypass infection [Pulmonary Cryptococcosis](disease) Ah
+- prevent gave birth [Lung cancer](disease) Ah
+- How can I not Give birth [Cadmium poisoning](disease) What
+- Escape [Lobar Pneumonia](disease) Is it
+- Dodge [Lung cancer](disease) what
+- Bypass gave birth [Hypersensitivity pneumonia](disease)
+- Bypass gave birth [Pulmonary Actinomycosis](disease) what
+- How can I not Get [Pulmonary bullae](disease) Acridine
+- Avoid Worthy of [cold](disease) What
+- How can it not Suffer [Lung cancer](disease) Acridine
+- What not Get [Pulmonary hemorrhage-nephritis syndrome](disease) Acridine
+- Guard against [Cadmium poisoning](disease) Ah
+- How not gave birth [Respiratory bronchiole-related interstitial lung disease](disease) Ah
+- Why not gave birth [Pulmonary Aspergillosis](disease) Ah
+- Resist Give birth [Adult respiratory distress syndrome](disease) what
+- What not Suffer [Benzene poisoning](disease)
+- Avoid Worthy of [Pulmonary Candidiasis](disease) Is it
+- How can I not Worthy of [Pulmonary embolism](disease) Acridine
+- How can it not Get [Foreign body in the respiratory tract](disease) Ok
+- prevent [Pulmonary Cryptococcosis](disease) Ah
+- escape Give birth [Pulmonary Aspergillosis](disease) Is it
+- lest Suffer [Radiation pneumonia](disease) What
+- Resist Suffer [Foreign body in the respiratory tract](disease) what
+- How can we not [Respiratory bronchiole-related interstitial lung disease](disease) Yeah
+- How can we not Catch [Mercury poisoning](disease) Is it
+- Why not Catch [Lung metastases](disease) Is it
+- Guard against [Pulmonary Cryptococcosis](disease) what
+- How can I not infection [Pulmonary hemorrhage-nephritis syndrome](disease)
+- How can I not Catch [Septic shock](disease) Acridine
+- resist infection [cold](disease) what
+- Resist Give birth [Bullae](disease) Yeah
+- How can it not Got it [Benzene poisoning](disease) Ah
+- How can you not Catch [Benzene poisoning](disease) Is it
+- prevention Catch [Bullae](disease) Ah
+- Avoid Worthy of [Respiratory bronchiole-related interstitial lung disease](disease) Yeah
+- resist [Hypersensitivity pneumonia](disease) Is it
+- How can it not gave birth [Pulmonary embolism](disease) Yeah
+- How can I not Give birth [Large amounts of amniotic fluid inhalation](disease) Acridine
+- What not Give birth [Simple pulmonary eosinophilic infiltration](disease) Ah
+- Why not Give birth [pertussis](disease) what
+- How can it not infection [Carbon disulfide poisoning](disease) what
+- How can I not Get [Pulmonary Candidiasis](disease)
+- How can I not Got it [Pulmonary bullae](disease) Ah
+- Why not Worthy of [Foreign body in the respiratory tract](disease) Ah
+- escape Give birth [pertussis](disease) Is it
+- prevention Suffer [Large amounts of amniotic fluid inhalation](disease) What
+- How can it not Get [Pulmonary Aspergillosis](disease) Is it
+- Avoid Catch [Pulmonary Actinomycosis](disease) Is it
+- lest Worthy of [Pulmonary-pleural amebiasis](disease) Acridine
+- prevent Worthy of [Mercury poisoning](disease) Yeah
+- What not Got it [Pneumococcal pneumonia](disease) Ah
+- How can I not Give birth [Pulmonary hemorrhage-nephritis syndrome](disease)
+- lest Suffer [Foreign body in the respiratory tract](disease) Ok
+- Avoid Get [Pulmonary hemorrhage-nephritis syndrome](disease) What
+- Why not [Pulmonary Aspergillosis](disease) Yeah
+- Guard against infection [cold](disease) Is it
+- escape Worthy of [Hypersensitivity pneumonia](disease) Ah
+- How can I not Give birth [Foreign body in the respiratory tract](disease) Is it
+- How can i not Get [Carbon disulfide poisoning](disease) what
+- Guard against Give birth [Cadmium poisoning](disease) What
+- lest Get [Respiratory bronchiole-related interstitial lung disease](disease) What
+- How can I not Worthy of [Pulmonary Candidiasis](disease) What
+- Resist Catch [Pulmonary Cryptococcosis](disease) Ok
+- Resist Catch [Pulmonary Edema](disease) what
+- How can I not Worthy of [Cadmium poisoning](disease) Ah
+- How can it not Catch [Pulmonary Aspergillosis](disease)
+- Why not gave birth [Building Sick Syndrome](disease) Ok
+- Why not [pneumonia](disease)
+- Avoid infection [Carbon disulfide poisoning](disease) Ah
+- How can you not [Pulmonary embolism](disease)
+- Bypass Get [Alveolar proteinosis](disease)
+- Bypass Catch [Lung metastases](disease) Acridine
+- Why not Give birth [Pulmonary Actinomycosis](disease) what
+- prevention gave birth [Benzene poisoning](disease) what
+- Avoid gave birth [Building Sick Syndrome](disease) Ah
+- Why not Got it [pertussis](disease) Is it
+- Why not [Adult respiratory distress syndrome](disease) Ah
+- Why not gave birth [pneumonia](disease) what
+- prevent Suffer [Adult respiratory distress syndrome](disease)
+- How can it not Got it [Simple pulmonary eosinophilic infiltration](disease) what
+- How can we not gave birth [Pulmonary Candidiasis](disease) Is it
+- Resist Suffer [Pulmonary Cryptococcosis](disease) Is it
+- How can I not gave birth [pneumonia](disease) what
+- Why not [Adult respiratory distress syndrome](disease) Ok
+- How can I not infection [Bacillus pneumoniae pneumonia](disease) Acridine
+- resist gave birth [Wheezing bronchitis](disease) what
+- Bypass gave birth [SARS](disease) Is it
+- Avoid Got it [Lobar Pneumonia](disease) What
+- Avoid infection [Pulmonary Edema](disease)
+- How can it not [cold](disease) Yeah
+- Avoid Get [Bacillus pneumoniae pneumonia](disease) What
+- Avoid Get [Foreign body in the respiratory tract](disease) Ok
+- How can I not Give birth [Lobar Pneumonia](disease) Is it
+- How can it not infection [Anaphylactic shock](disease) Ok
+- How can it not gave birth [SARS](disease) Yeah
+- How not infection [Wheezing bronchitis](disease)
+- Guard against Get [Foreign body in the respiratory tract](disease) what
+- Why not Worthy of [pertussis](disease) Yeah
+- Why not Catch [Alveolar proteinosis](disease) Ah
+- How can it not Worthy of [Pulmonary Candidiasis](disease) Acridine
+- Avoid Got it [Respiratory bronchiole-related interstitial lung disease](disease) Acridine
+- Avoid [Large amounts of amniotic fluid inhalation](disease)
+- What not Give birth [Bullae](disease) Is it
+- How not [Benzene poisoning](disease)
+- How can you not Get [Hypersensitivity pneumonia](disease) Ah
+- Why not infection [Pulmonary bullae](disease) What
+- Avoid gave birth [Goodpasture syndrome](disease) Yeah
+- Avoid Worthy of [Hypersensitivity pneumonia](disease) Ah
+- Why not Get [Respiratory bronchiole-related interstitial lung disease](disease) what
+- Why not Give birth [Pulmonary bullae](disease) What
+- Resist Suffer [Large amounts of amniotic fluid inhalation](disease) Ok
+- Why not infection [Pulmonary Actinomycosis](disease)
+
+## intent:search_drug_func
+- [Cefpodoxime proxetil capsules](drug) OK Used to Yeah
+- [Acetylspiramycin tablets](drug) OK What to treat Yeah
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) OK use Yeah
+- [Cangyi nose drops](drug) OK What to heal What
+- [Stone tea](drug) Used to Ah
+- [Azithromycin enteric-coated tablets](drug) what is the benefit
+- [Acetylspiramycin tablets](drug) Indications What
+- [Nabumetone Capsules](drug) Used to Is it
+- [Salmon calcitonin injection](drug) Cure Ok
+- [Pain Relief Tablets](drug) OK What to do Is it
+- [Nucleus loose knot tablets](drug) Cure Is it
+- [Five Vitamin Oral Solution](drug) OK What to do Acridine
+- [Vitamin C injection](drug) need what
+- [Nucleus loose knot tablets](drug) OK need what
+- [Azithromycin enteric-coated tablets](drug) OK What's the use What
+- [Cefdinir Dispersible Tablets](drug) usefulness Ok
+- [Azithromycin enteric-coated tablets](drug) What to treat Ah
+- [Cervical cancer film](drug) What's the benefit Ah
+- [Five Vitamin Oral Solution](drug) Used to Ok
+- [Yunnan Baiyao Tincture](drug) use Is it
+- [Vitamin C injection](drug) What are the benefits Ah
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) OK usefulness Is it
+- [Five Vitamin Oral Solution](drug) What to do Ok
+- [Dydrogesterone tablets](drug) What is the use
+- [Azithromycin enteric-coated tablets](drug) Is it
+- [Mecobalamin Tablets](drug) OK Indications Yeah
+- [Acyclovir eye drops](drug) OK What to treat Ah
+- [Ginseng Health Pills](drug) OK What to treat Is it
+- [Hassinide solution](drug) OK what is the benefit Acridine
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) OK Cure What
+- [Ginseng Health Pills](drug) OK What's the benefit Acridine
+- [Acyclovir eye drops](drug) OK need Acridine
+- [Cefdinir Dispersible Tablets](drug) What to treat
+- [Hassinide solution](drug) What to treat Acridine
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) OK What's the use Ok
+- [Dydrogesterone tablets](drug) OK what is the benefit What
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) OK
+- [Cefpodoxime proxetil capsules](drug) want Yeah
+- [Cangyi nose drops](drug) OK What's the benefit
+- [Cefpodoxime proxetil capsules](drug) OK What's the benefit Ok
+- [Gecko Dingchuan Pills](drug) OK usefulness
+- [Ejiao Oyster Oral Liquid](drug) What's the use Ah
+- [Dan Bie Capsules](drug) Cure what
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) Ah
+- [Dydrogesterone tablets](drug) What to treat what
+- [Stone tea](drug) OK Indications Acridine
+- [Lenmoxicillin Hydrochloride Tablets](drug) Indications of what Yeah
+- [Ginseng Health Pills](drug) OK Indications of what what
+- [Tripterygium Glycoside Tablets](drug) OK Indications of what what
+- [Tibolone tablets](drug) OK want Ah
+- [Metronidazole Vitamin B6 Tablets](drug) What to treat Ah
+- [Cefpodoxime proxetil capsules](drug) OK What's the use Ah
+- [Cangyi nose drops](drug) What to heal Ok
+- [Shengxue Ning Tablets](drug) What are the benefits
+- [Nabumetone Capsules](drug) What to do Ah
+- [Yunnan Baiyao Tincture](drug) usefulness What
+- [Mecobalamin Tablets](drug) OK usefulness
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) OK What to do What
+- [Acyclovir eye drops](drug) OK Cure what
+- [Compound Cantharidin Capsules](drug) What to treat Ok
+- [Cefpodoxime proxetil capsules](drug) What are the benefits
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) OK usefulness Ah
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) usefulness What
+- [Nucleus loose knot tablets](drug) OK What to do What
+- [Dan Bie Capsules](drug) OK Indications of what Acridine
+- [Nucleus loose knot tablets](drug) OK What's the benefit Ah
+- [Clindamycin Hydrochloride Capsules](drug) OK Indications Ah
+- [Clindamycin Hydrochloride Capsules](drug) OK What to treat Is it
+- [Clindamycin Hydrochloride Capsules](drug) OK What's the benefit
+- [Metronidazole Vitamin B6 Tablets](drug) OK What's the benefit Ok
+- [Recombinant human growth hormone injection](drug) OK What to do What
+- [Yunnan Baiyao Tincture](drug) OK What is the use Yeah
+- [Acetylspiramycin tablets](drug) usefulness what
+- [Lenmoxicillin Hydrochloride Tablets](drug) use What
+- [Tibolone tablets](drug) Ok
+- [Cefdinir Dispersible Tablets](drug) OK Used to
+- [Dan Bie Capsules](drug) OK What is the use Is it
+- [Cefpodoxime proxetil capsules](drug) What to treat Ok
+- [Compound Cantharidin Capsules](drug) OK What to treat Yeah
+- [Cefpodoxime proxetil capsules](drug) OK Ah
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) What are the benefits Yeah
+- [Sparfloxacin Tablets](drug) need Is it
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) What to do what
+- [Colloidal Pectin Bismuth Capsules](drug) OK Cure what
+- [Tripterygium Glycoside Tablets](drug) What to do What
+- [Ginseng Health Pills](drug) Used to Ok
+- [Vitamin C injection](drug) OK Cure Ah
+- [Tibolone tablets](drug) What are the benefits what
+- [Salmon calcitonin injection](drug) What to treat Is it
+- [Oxymetazoline Hydrochloride Spray](drug) OK Indications Is it
+- [Tibolone tablets](drug) OK What to do Is it
+- [Pain Relief Tablets](drug) Cure Ok
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) OK Cure What
+- [Lenmoxicillin Hydrochloride Tablets](drug) OK want Ok
+- [Salmon calcitonin injection](drug) need Ok
+- [Hassinide solution](drug) OK want Yeah
+- [Ginseng Health Pills](drug) OK Acridine
+- [Metronidazole Vitamin B6 Tablets](drug) OK what is the benefit Ah
+- [Nabumetone Capsules](drug) What are the benefits Ah
+- [Ginseng Health Pills](drug) What to heal what
+- [Dan Bie Capsules](drug) What to treat What
+- [Dydrogesterone tablets](drug) use what
+- [Nucleus loose knot tablets](drug) OK What's the use Acridine
+- [Clindamycin Hydrochloride Capsules](drug) Cure Yeah
+- [Dydrogesterone tablets](drug) Used to Is it
+- [Recombinant human growth hormone injection](drug) OK use What
+- [Oxymetazoline Hydrochloride Spray](drug) What are the benefits Ok
+- [Azithromycin enteric-coated tablets](drug) What to do Yeah
+- [Compound Cantharidin Capsules](drug) OK Indications what
+- [Yunnan Baiyao Tincture](drug) What to treat Ok
+- [Recombinant human growth hormone injection](drug) OK Used to Acridine
+- [Five Vitamin Oral Solution](drug) OK what is the benefit Is it
+- [Acyclovir eye drops](drug) OK What to treat Ok
+- [Ginseng Health Pills](drug) What to heal Acridine
+- [Acyclovir eye drops](drug) OK use Ok
+- [Compound Cantharidin Capsules](drug) Used to What
+- [Tripterygium Glycoside Tablets](drug) Indications what
+- [Cefpodoxime proxetil capsules](drug) OK What's the benefit Yeah
+- [Recombinant human growth hormone injection](drug) OK what is the benefit What
+- [Acyclovir eye drops](drug) What's the use What
+- [Shengxue Ning Tablets](drug) What to treat What
+- [Gecko Dingchuan Pills](drug) OK What are the benefits
+- [Clindamycin Hydrochloride Capsules](drug) OK Indications
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) need What
+- [Gecko Dingchuan Pills](drug) OK What is the use Ah
+- [Oxymetazoline Hydrochloride Spray](drug) What are the benefits Is it
+- [Mecobalamin Tablets](drug) OK What's the benefit Ah
+- [Nucleus loose knot tablets](drug) what is the benefit Yeah
+- [Acyclovir eye drops](drug) What to treat
+- [Ejiao Oyster Oral Liquid](drug) Cure what
+- [Nucleus loose knot tablets](drug) What are the benefits What
+- [Metronidazole Vitamin B6 Tablets](drug) Indications of what Acridine
+- [Oxymetazoline Hydrochloride Spray](drug) OK What to heal Acridine
+- [Vitamin C injection](drug) OK What to do Yeah
+- [Stone tea](drug) OK What's the benefit Yeah
+- [Colloidal Pectin Bismuth Capsules](drug) OK What to do Acridine
+- [Acyclovir eye drops](drug) Indications Acridine
+- [Oxymetazoline Hydrochloride Spray](drug) Cure Yeah
+- [Yunnan Baiyao Tincture](drug) OK What's the benefit what
+- [Shengxue Ning Tablets](drug) OK Is it
+- [Cefpodoxime proxetil capsules](drug) What's the use Is it
+- [Gecko Dingchuan Pills](drug) OK What to do what
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) usefulness Ah
+- [Mecobalamin Tablets](drug) use Ok
+- [Azithromycin enteric-coated tablets](drug) What's the benefit Yeah
+- [Gecko Dingchuan Pills](drug) OK What is the use what
+- [Vitamin C injection](drug) What to do
+- [Hassinide solution](drug) OK What to heal What
+- [Salmon calcitonin injection](drug) Cure What
+- [Tibolone tablets](drug) What to treat Is it
+- [Tibolone tablets](drug) OK What to treat Yeah
+- [Lenmoxicillin Hydrochloride Tablets](drug) OK What is the use Ok
+- [Colloidal Pectin Bismuth Capsules](drug) need Ok
+- [Tibolone tablets](drug) What are the benefits Yeah
+- [Ejiao Oyster Oral Liquid](drug) Cure Ah
+- [Stone tea](drug) What to treat what
+- [Sparfloxacin Tablets](drug) Cure Ok
+- [Lenmoxicillin Hydrochloride Tablets](drug) want Is it
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) usefulness Ah
+- [Clindamycin Hydrochloride Capsules](drug) What to heal Is it
+- [Pain Relief Tablets](drug) OK What to do what
+- [Compound Cantharidin Capsules](drug) want Acridine
+- [Clindamycin Hydrochloride Capsules](drug) what is the benefit Yeah
+- [Dydrogesterone tablets](drug) OK What are the benefits What
+- [Tibolone tablets](drug) What to do What
+- [Dydrogesterone tablets](drug) use Yeah
+- [Colloidal Pectin Bismuth Capsules](drug) What to treat Acridine
+- [Dan Bie Capsules](drug) What are the benefits what
+- [Cefpodoxime proxetil capsules](drug) OK use Acridine
+- [Cefdinir Dispersible Tablets](drug) OK What's the use what
+- [Metronidazole Vitamin B6 Tablets](drug) OK What to do what
+- [Gecko Dingchuan Pills](drug) What
+- [Cervical cancer film](drug) OK What are the benefits Is it
+- [Tripterygium Glycoside Tablets](drug) What are the benefits Is it
+- [Five Vitamin Oral Solution](drug) What to do
+- [Gecko Dingchuan Pills](drug) OK Cure Is it
+- [Metronidazole Vitamin B6 Tablets](drug) what is the benefit Ok
+- [Colloidal Pectin Bismuth Capsules](drug) What to do Ah
+- [Oxymetazoline Hydrochloride Spray](drug) What to do Yeah
+- [Salmon calcitonin injection](drug) What
+- [Acyclovir eye drops](drug) OK What's the use Yeah
+- [Mecobalamin Tablets](drug) What to heal what
+- [Cefdinir Dispersible Tablets](drug) OK What's the benefit Acridine
+- [Dan Bie Capsules](drug) OK Cure Yeah
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) OK What to do Ok
+- [Acetylspiramycin tablets](drug) Indications of what
+- [Sparfloxacin Tablets](drug) What is the use Ok
+- [Tripterygium Glycoside Tablets](drug) OK What's the benefit what
+- [Lenmoxicillin Hydrochloride Tablets](drug) OK usefulness Is it
+- [Tripterygium Glycoside Tablets](drug) OK Cure what
+- [Sparfloxacin Tablets](drug) OK want What
+- [Cangyi nose drops](drug) use Is it
+- [Azithromycin enteric-coated tablets](drug) What to treat Acridine
+- [Oxymetazoline Hydrochloride Spray](drug) What to do Ok
+- [Stone tea](drug) OK What to do Is it
+- [Pain Relief Tablets](drug) Indications of what Ah
+- [Cefpodoxime proxetil capsules](drug) What is the use Acridine
+- [Cefpodoxime proxetil capsules](drug) OK What
+- [Lenmoxicillin Hydrochloride Tablets](drug) OK What to treat Yeah
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) What is the use what
+- [Cefpodoxime proxetil capsules](drug) Indications Ok
+- [Cervical cancer film](drug) need Acridine
+- [Oxymetazoline Hydrochloride Spray](drug) want Ok
+- [Yunnan Baiyao Tincture](drug) need
+- [Nabumetone Capsules](drug) OK Cure What
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) OK want Is it
+- [Mecobalamin Tablets](drug) OK What to heal Yeah
+- [Ginseng Health Pills](drug) OK usefulness Acridine
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) Indications What
+- [Stone tea](drug) need Acridine
+- [Acetylspiramycin tablets](drug) OK need Is it
+- [Nabumetone Capsules](drug) OK What's the use Ok
+- [Nabumetone Capsules](drug) OK What to do
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) Indications of what
+- [Cangyi nose drops](drug) OK Ah
+- [Ginseng Health Pills](drug) Used to what
+- [Oxymetazoline Hydrochloride Spray](drug) OK usefulness What
+- [Oxymetazoline Hydrochloride Spray](drug) OK What are the benefits Is it
+- [Mecobalamin Tablets](drug) want Yeah
+- [Gecko Dingchuan Pills](drug) OK What are the benefits Ok
+- [Gecko Dingchuan Pills](drug) what
+- [Acyclovir eye drops](drug) OK What's the use What
+- [Hassinide solution](drug) need Ok
+- [Mecobalamin Tablets](drug) OK What to do Acridine
+- [Nabumetone Capsules](drug) OK What to do Ok
+- [Mecobalamin Tablets](drug) OK What are the benefits what
+- [Yunnan Baiyao Tincture](drug) OK Cure what
+- [Metronidazole Vitamin B6 Tablets](drug) Cure Is it
+- [Five Vitamin Oral Solution](drug) use Is it
+- [Tripterygium Glycoside Tablets](drug) what is the benefit Yeah
+- [Nabumetone Capsules](drug) OK Indications Yeah
+- [Compound Cantharidin Capsules](drug) OK What to do Ok
+- [Ejiao Oyster Oral Liquid](drug) OK Indications Acridine
+- [Metronidazole Vitamin B6 Tablets](drug) OK What is the use What
+- [Acyclovir eye drops](drug) OK What to treat Yeah
+- [Recombinant human growth hormone injection](drug) Indications Ok
+- [Stone tea](drug) OK What to treat Acridine
+- [Colloidal Pectin Bismuth Capsules](drug) OK What's the use
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) use
+- [Mecobalamin Tablets](drug) What to do Acridine
+- [Cangyi nose drops](drug) What to do what
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) OK usefulness What
+- [Azithromycin enteric-coated tablets](drug) use Yeah
+- [Mecobalamin Tablets](drug) What to treat Ah
+- [Five Vitamin Oral Solution](drug) OK usefulness Acridine
+- [Shengxue Ning Tablets](drug) need Yeah
+- [Azithromycin enteric-coated tablets](drug) What is the use Is it
+- [Vitamin C injection](drug) OK What's the benefit Ah
+- [Hassinide solution](drug) What is the use
+- [Oxymetazoline Hydrochloride Spray](drug) OK use What
+- [Mecobalamin Tablets](drug) OK Cure What
+- [Five Vitamin Oral Solution](drug) OK What are the benefits Acridine
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) What to treat Acridine
+- [Ginseng Health Pills](drug)
+- [Compound Cantharidin Capsules](drug) Cure Yeah
+- [Pain Relief Tablets](drug) Indications Acridine
+- [Ejiao Oyster Oral Liquid](drug) Indications Ok
+- [Five Vitamin Oral Solution](drug) OK need
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) OK What's the use Ok
+- [Azithromycin enteric-coated tablets](drug) OK Indications of what Is it
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) OK What to treat Is it
+- [Nabumetone Capsules](drug) What to treat Is it
+- [Acetylspiramycin tablets](drug) What are the benefits what
+- [Cefpodoxime proxetil capsules](drug) OK What to treat Yeah
+- [Mecobalamin Tablets](drug) OK What is the use What
+- [Nucleus loose knot tablets](drug) OK want Ah
+- [Metronidazole Vitamin B6 Tablets](drug) OK What to treat Yeah
+- [Oxymetazoline Hydrochloride Spray](drug) OK What to treat Ok
+- [Acyclovir eye drops](drug) use Ok
+- [Tibolone tablets](drug) need Is it
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) What's the benefit Acridine
+- [Metronidazole Vitamin B6 Tablets](drug) OK Indications Yeah
+- [Dan Bie Capsules](drug) Cure Acridine
+- [Clindamycin Hydrochloride Capsules](drug) OK Cure Ah
+- [Nucleus loose knot tablets](drug) OK What's the benefit Ok
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) OK Cure Is it
+- [Azithromycin enteric-coated tablets](drug) want Yeah
+- [Cefdinir Dispersible Tablets](drug) What to do Is it
+- [Nucleus loose knot tablets](drug) OK What to treat Ah
+- [Sparfloxacin Tablets](drug) use
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) What to do Ah
+- [Shengxue Ning Tablets](drug) OK What is the use Acridine
+- [Vitamin C injection](drug) OK What's the benefit Yeah
+- [Dydrogesterone tablets](drug) Cure Yeah
+- [Cefpodoxime proxetil capsules](drug) Indications of what What
+- [Acyclovir eye drops](drug) want
+- [Shengxue Ning Tablets](drug) OK Indications Acridine
+- [Sparfloxacin Tablets](drug) OK what
+- [Acetylspiramycin tablets](drug) What are the benefits Yeah
+- [Pain Relief Tablets](drug) want Ok
+- [Sparfloxacin Tablets](drug) What are the benefits What
+- [Ejiao Oyster Oral Liquid](drug) Cure What
+- [Recombinant human growth hormone injection](drug) Cure What
+- [Dan Bie Capsules](drug) Indications of what Ah
+- [Colloidal Pectin Bismuth Capsules](drug) What are the benefits Ah
+- [Oxymetazoline Hydrochloride Spray](drug) Indications of what Yeah
+- [Ginseng Health Pills](drug) want Acridine
+- [Colloidal Pectin Bismuth Capsules](drug) OK What to treat Ok
+- [Metronidazole Vitamin B6 Tablets](drug) need
+- [Stone tea](drug) OK use Ah
+- [Acyclovir eye drops](drug) OK What is the use Yeah
+- [Pain Relief Tablets](drug) OK what is the benefit Is it
+- [Shengxue Ning Tablets](drug) What to heal Is it
+- [Tibolone tablets](drug) OK Used to What
+- [Ginseng Health Pills](drug) OK What to do Ok
+- [Oxymetazoline Hydrochloride Spray](drug) What's the use Acridine
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) OK need
+- [Vitamin C injection](drug) usefulness what
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) Indications of what Acridine
+- [Hassinide solution](drug) OK Acridine
+- [Vitamin C injection](drug) OK What to treat Yeah
+- [Oxymetazoline Hydrochloride Spray](drug) OK What to treat Yeah
+- [Stone tea](drug) OK What's the use Ah
+- [Metronidazole Vitamin B6 Tablets](drug) OK What to treat Ah
+- [Cervical cancer film](drug) OK What are the benefits
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) OK Cure Acridine
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) What to do Yeah
+- [Recombinant human growth hormone injection](drug) OK What to treat Is it
+- [Ginseng Health Pills](drug) OK usefulness What
+- [Recombinant human growth hormone injection](drug) OK Cure What
+- [Acyclovir eye drops](drug) OK What to treat Acridine
+- [Lenmoxicillin Hydrochloride Tablets](drug) What's the benefit Yeah
+- [Acetylspiramycin tablets](drug) OK want Is it
+- [Tibolone tablets](drug) OK Indications
+- [Acetylspiramycin tablets](drug) Cure what
+- [Tibolone tablets](drug) use
+- [Acetylspiramycin tablets](drug) OK want Acridine
+- [Sparfloxacin Tablets](drug) Cure what
+- [Ejiao Oyster Oral Liquid](drug) OK What's the use
+- [Cefdinir Dispersible Tablets](drug) OK want
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) Used to Ok
+- [Metronidazole Vitamin B6 Tablets](drug) OK What to heal Acridine
+- [Metronidazole Vitamin B6 Tablets](drug) What is the use Yeah
+- [Dydrogesterone tablets](drug) OK need Ah
+- [Shengxue Ning Tablets](drug) OK want Yeah
+- [Ginseng Health Pills](drug) OK Indications of what What
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) OK What is the use
+- [Ginseng Health Pills](drug) OK What to treat
+- [Acyclovir eye drops](drug) use Yeah
+- [Shengxue Ning Tablets](drug) OK Indications of what what
+- [Yunnan Baiyao Tincture](drug) OK Indications Ah
+- [Dydrogesterone tablets](drug) OK What are the benefits Ok
+- [Mecobalamin Tablets](drug) What is the use Is it
+- [Colloidal Pectin Bismuth Capsules](drug) Used to Is it
+- [Recombinant human growth hormone injection](drug) OK Indications
+- [Compound Cantharidin Capsules](drug) OK What to treat Ah
+- [Dydrogesterone tablets](drug) OK Indications Yeah
+- [Vitamin C injection](drug) OK What to heal Ok
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) OK What's the benefit What
+- [Stone tea](drug) OK Used to Ok
+- [Tibolone tablets](drug) OK Indications What
+- [Cervical cancer film](drug) What is the use
+- [Compound Cantharidin Capsules](drug) OK Indications
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) OK Used to What
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) OK what is the benefit
+- [Nucleus loose knot tablets](drug) Indications Acridine
+- [Salmon calcitonin injection](drug) What to heal
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) what is the benefit
+- [Pain Relief Tablets](drug) What is the use
+- [Acyclovir eye drops](drug) OK What is the use What
+- [Pain Relief Tablets](drug) OK What to treat Is it
+- [Colloidal Pectin Bismuth Capsules](drug) What's the benefit Ah
+- [Stone tea](drug) OK What to do Ah
+- [Cervical cancer film](drug) What are the benefits Ah
+- [Clindamycin Hydrochloride Capsules](drug) need Acridine
+- [Lenmoxicillin Hydrochloride Tablets](drug) What to treat Yeah
+- [Cangyi nose drops](drug) OK Indications of what Ah
+- [Ejiao Oyster Oral Liquid](drug) Cure Acridine
+- [Pain Relief Tablets](drug) What to do What
+- [Recombinant human growth hormone injection](drug) need Ok
+- [Ginseng Health Pills](drug) Cure Acridine
+- [Dan Bie Capsules](drug) OK What to heal what
+- [Recombinant human growth hormone injection](drug) What are the benefits What
+- [Cefpodoxime proxetil capsules](drug) OK What to treat
+- [Hassinide solution](drug) OK want Is it
+- [Nabumetone Capsules](drug) What to do Yeah
+- [Five Vitamin Oral Solution](drug) OK What to treat Yeah
+- [Yunnan Baiyao Tincture](drug) OK What to treat
+- [Acyclovir eye drops](drug) What's the benefit Ah
+- [Nabumetone Capsules](drug) What's the benefit
+- [Salmon calcitonin injection](drug) OK usefulness
+- [Acetylspiramycin tablets](drug) usefulness What
+- [Tripterygium Glycoside Tablets](drug) What to treat What
+- [Metronidazole Vitamin B6 Tablets](drug) OK What to treat Acridine
+- [Clindamycin Hydrochloride Capsules](drug) OK need Is it
+- [Cervical cancer film](drug) What to heal Is it
+- [Hassinide solution](drug) OK need Acridine
+- [Recombinant human growth hormone injection](drug) What to treat What
+- [Cangyi nose drops](drug) OK What to treat Ah
+- [Oxymetazoline Hydrochloride Spray](drug) OK Cure Ah
+- [Dydrogesterone tablets](drug) OK What to treat Acridine
+- [Compound Cantharidin Capsules](drug) OK Cure Acridine
+- [Ginseng Health Pills](drug) Indications Acridine
+- [Azithromycin enteric-coated tablets](drug) OK usefulness What
+- [Hassinide solution](drug) what
+- [Recombinant human growth hormone injection](drug) OK What's the benefit Ok
+- [Vitamin C injection](drug) What to do Acridine
+- [Shengxue Ning Tablets](drug) want Is it
+- [Nucleus loose knot tablets](drug) OK Indications Ok
+- [Hassinide solution](drug) OK What to treat Is it
+- [Clindamycin Hydrochloride Capsules](drug) OK Used to
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) Cure
+- [Mecobalamin Tablets](drug) OK need Yeah
+- [Stone tea](drug) want What
+- [Gecko Dingchuan Pills](drug) Cure Acridine
+- [Cangyi nose drops](drug) what
+- [Mecobalamin Tablets](drug) OK What to do Ok
+- [Yunnan Baiyao Tincture](drug) What's the use what
+- [Gecko Dingchuan Pills](drug) OK What to treat
+- [Yunnan Baiyao Tincture](drug) What to treat what
+- [Tripterygium Glycoside Tablets](drug) OK Used to Yeah
+- [Yunnan Baiyao Tincture](drug) What to heal Yeah
+- [Stone tea](drug) OK usefulness Yeah
+- [Acyclovir eye drops](drug) What to do Ah
+- [Cangyi nose drops](drug) what is the benefit Acridine
+- [Tripterygium Glycoside Tablets](drug) What's the benefit what
+- [Acyclovir eye drops](drug) need Acridine
+- [Cefpodoxime proxetil capsules](drug) usefulness Is it
+- [Nabumetone Capsules](drug) OK Cure Is it
+- [Metronidazole Vitamin B6 Tablets](drug) What's the use what
+- [Dan Bie Capsules](drug) What's the use Ok
+- [Dan Bie Capsules](drug) OK Yeah
+- [Shengxue Ning Tablets](drug) Indications of what Acridine
+- [Cervical cancer film](drug) need What
+- [Gecko Dingchuan Pills](drug) What is the use
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) OK What to heal Ok
+- [Sparfloxacin Tablets](drug) What to treat Is it
+- [Cangyi nose drops](drug) OK what is the benefit Ok
+- [Lenmoxicillin Hydrochloride Tablets](drug) OK What to treat Ok
+- [Stone tea](drug) OK What to treat Ah
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) Indications of what Ah
+- [Compound Cantharidin Capsules](drug) OK want what
+- [Azithromycin enteric-coated tablets](drug) OK What's the benefit Ok
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) Ok
+- [Yunnan Baiyao Tincture](drug) What's the use Ah
+- [Dan Bie Capsules](drug) OK Ah
+- [Dan Bie Capsules](drug) What is the use Is it
+- [Cefdinir Dispersible Tablets](drug) Is it
+- [Lenmoxicillin Hydrochloride Tablets](drug) want Ah
+- [Hassinide solution](drug) usefulness Ok
+- [Cefpodoxime proxetil capsules](drug) OK usefulness Ah
+- [Lenmoxicillin Hydrochloride Tablets](drug) Indications
+- [Mecobalamin Tablets](drug) Used to what
+- [Recombinant human growth hormone injection](drug) OK What are the benefits Is it
+- [Mecobalamin Tablets](drug) OK Cure Ah
+- [Sparfloxacin Tablets](drug) OK What is the use Yeah
+- [Cangyi nose drops](drug) OK need What
+- [Stone tea](drug) OK What's the benefit Ah
+- [Acetylspiramycin tablets](drug) OK What to treat Acridine
+- [Cangyi nose drops](drug) need Acridine
+- [Nabumetone Capsules](drug) need What
+- [Cervical cancer film](drug) OK What to do Ok
+- [Stone tea](drug) OK What to treat Is it
+- [Tripterygium Glycoside Tablets](drug) OK usefulness Yeah
+- [Cervical cancer film](drug) OK Indications of what
+- [Recombinant human growth hormone injection](drug) What to heal what
+- [Nucleus loose knot tablets](drug) What's the use what
+- [Shengxue Ning Tablets](drug) OK What to treat what
+- [Clindamycin Hydrochloride Capsules](drug) Used to Ah
+- [Ginseng Health Pills](drug) What is the use Is it
+- [Nabumetone Capsules](drug) OK Used to
+- [Cefpodoxime proxetil capsules](drug) OK Indications of what Ok
+- [Acyclovir eye drops](drug) OK What to treat What
+- [Dydrogesterone tablets](drug) OK what is the benefit Yeah
+- [Clindamycin Hydrochloride Capsules](drug) OK What are the benefits Is it
+- [Ginseng Health Pills](drug) OK What to do Is it
+- [Acyclovir eye drops](drug) What to treat Ah
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) OK What's the benefit Ok
+- [Tibolone tablets](drug) OK use what
+- [Nucleus loose knot tablets](drug) OK Indications of what what
+- [Pain Relief Tablets](drug) What to treat
+- [Gecko Dingchuan Pills](drug) OK What's the benefit what
+- [Colloidal Pectin Bismuth Capsules](drug) What to do Acridine
+- [Lenmoxicillin Hydrochloride Tablets](drug) OK what is the benefit
+- [Gecko Dingchuan Pills](drug) Cure Is it
+- [Dan Bie Capsules](drug) OK What to heal Acridine
+- [Ejiao Oyster Oral Liquid](drug) OK Cure What
+- [Cefdinir Dispersible Tablets](drug) Ah
+- [Yunnan Baiyao Tincture](drug) What to heal what
+- [Ejiao Oyster Oral Liquid](drug) OK Indications of what What
+- [Lenmoxicillin Hydrochloride Tablets](drug) OK want What
+- [Vitamin C injection](drug) OK What to do Acridine
+- [Dydrogesterone tablets](drug) OK Indications of what Is it
+- [Tripterygium Glycoside Tablets](drug) Used to Acridine
+- [Gecko Dingchuan Pills](drug) need what
+- [Salmon calcitonin injection](drug) use Acridine
+- [Compound Cantharidin Capsules](drug) What to treat Is it
+- [Tibolone tablets](drug) OK Ah
+- [Cefpodoxime proxetil capsules](drug) OK what is the benefit
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) OK What's the use Ok
+- [Sparfloxacin Tablets](drug) What's the use what
+- [Tripterygium Glycoside Tablets](drug) Cure Yeah
+- [Cangyi nose drops](drug) OK Indications Acridine
+- [Lenmoxicillin Hydrochloride Tablets](drug) what is the benefit Yeah
+- [Azithromycin enteric-coated tablets](drug) What to do What
+- [Clindamycin Hydrochloride Capsules](drug) Indications of what
+- [Nucleus loose knot tablets](drug) OK What to heal Acridine
+- [Dydrogesterone tablets](drug) OK want Acridine
+- [Colloidal Pectin Bismuth Capsules](drug) OK usefulness Is it
+- [Nucleus loose knot tablets](drug) OK what
+- [Ejiao Oyster Oral Liquid](drug) OK need Ah
+- [Sparfloxacin Tablets](drug) OK usefulness Is it
+- [Cefdinir Dispersible Tablets](drug) OK what
+- [Tibolone tablets](drug)
+- [Vitamin C injection](drug) What to treat Yeah
+- [Mecobalamin Tablets](drug) What to treat Yeah
+- [Tripterygium Glycoside Tablets](drug) OK what is the benefit what
+- [Five Vitamin Oral Solution](drug) OK
+- [Salmon calcitonin injection](drug) What are the benefits what
+- [Cefpodoxime proxetil capsules](drug) use Acridine
+- [Ejiao Oyster Oral Liquid](drug) what is the benefit Acridine
+- [Sparfloxacin Tablets](drug) OK Indications what
+- [Compound Cantharidin Capsules](drug) Used to
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) OK What are the benefits What
+- [Compound Cantharidin Capsules](drug) OK What to treat Is it
+- [Oxymetazoline Hydrochloride Spray](drug) OK Acridine
+- [Nabumetone Capsules](drug) OK What's the use Acridine
+- [Yunnan Baiyao Tincture](drug) OK use Yeah
+- [Acetylspiramycin tablets](drug) what is the benefit Yeah
+- [Cervical cancer film](drug) OK Indications what
+- [Mecobalamin Tablets](drug) OK Cure
+- [Dydrogesterone tablets](drug) Indications of what Acridine
+- [Nucleus loose knot tablets](drug) Ok
+- [Lenmoxicillin Hydrochloride Tablets](drug) What is the use Is it
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) What to treat Yeah
+- [Nucleus loose knot tablets](drug) What to treat what
+- [Acetylspiramycin tablets](drug) OK What are the benefits Ok
+- [Dan Bie Capsules](drug) OK need Is it
+- [Cangyi nose drops](drug) What's the benefit Yeah
+- [Gecko Dingchuan Pills](drug) OK what is the benefit Ah
+- [Salmon calcitonin injection](drug) Cure what
+- [Yunnan Baiyao Tincture](drug) OK What's the use
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) Indications of what Ah
+- [Vitamin C injection](drug) What to treat what
+- [Lenmoxicillin Hydrochloride Tablets](drug) What's the benefit what
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) OK What's the benefit Acridine
+- [Ginseng Health Pills](drug) OK Cure Ah
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) use Is it
+- [Ejiao Oyster Oral Liquid](drug) OK Indications of what Is it
+- [Stone tea](drug) OK What is the use what
+- [Yunnan Baiyao Tincture](drug) What to do Acridine
+- [Dan Bie Capsules](drug) OK what is the benefit Acridine
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) OK What are the benefits what
+- [Shengxue Ning Tablets](drug) What to treat
+- [Salmon calcitonin injection](drug) Used to
+- [Dan Bie Capsules](drug) OK Indications Ok
+- [Lenmoxicillin Hydrochloride Tablets](drug) what is the benefit Ah
+- [Vitamin C injection](drug) OK What are the benefits Yeah
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) OK Indications of what
+- [Ejiao Oyster Oral Liquid](drug) What is the use
+- [Compound Cantharidin Capsules](drug) OK Indications of what Acridine
+- [Cefpodoxime proxetil capsules](drug) OK what is the benefit Is it
+- [Shengxue Ning Tablets](drug) OK What to do Ah
+- [Gecko Dingchuan Pills](drug) OK Indications What
+- [Dan Bie Capsules](drug) What's the use Yeah
+- [Compound Cantharidin Capsules](drug) Cure Ah
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) Indications of what Acridine
+- [Colloidal Pectin Bismuth Capsules](drug) OK Indications what
+- [Nucleus loose knot tablets](drug) OK What's the benefit Acridine
+- [Stone tea](drug) What to do Yeah
+- [Pain Relief Tablets](drug) Used to Is it
+- [Tibolone tablets](drug) OK What to heal what
+- [Compound Cantharidin Capsules](drug) OK What to heal Is it
+- [Sparfloxacin Tablets](drug) OK Used to
+- [Oxymetazoline Hydrochloride Spray](drug) OK What are the benefits Ok
+- [Cervical cancer film](drug) use
+- [Hassinide solution](drug) OK What is the use What
+- [Nucleus loose knot tablets](drug) want Yeah
+- [Yunnan Baiyao Tincture](drug) Acridine
+- [Stone tea](drug) use Yeah
+- [Nabumetone Capsules](drug) OK What is the use What
+- [Dydrogesterone tablets](drug) OK what is the benefit Is it
+- [Dydrogesterone tablets](drug) OK need what
+- [Tripterygium Glycoside Tablets](drug) What's the benefit What
+- [Clindamycin Hydrochloride Capsules](drug) OK want Ah
+- [Acyclovir eye drops](drug) OK What's the benefit Ok
+- [Tibolone tablets](drug) OK Cure What
+- [Acyclovir eye drops](drug) OK usefulness what
+- [Gecko Dingchuan Pills](drug) Indications Ah
+- [Cangyi nose drops](drug) OK Indications Is it
+- [Clindamycin Hydrochloride Capsules](drug) OK What to treat Yeah
+- [Colloidal Pectin Bismuth Capsules](drug) OK Cure
+- [Pain Relief Tablets](drug) OK Indications of what what
+- [Cangyi nose drops](drug) OK What are the benefits Ok
+- [Gecko Dingchuan Pills](drug) OK What to heal Ah
+- [Azithromycin enteric-coated tablets](drug) OK Cure Yeah
+- [Salmon calcitonin injection](drug) OK What to do what
+- [Shengxue Ning Tablets](drug) OK What to do Ok
+- [Stone tea](drug) OK what is the benefit
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) What's the benefit Ok
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) What to heal Ok
+- [Tripterygium Glycoside Tablets](drug) What's the use Ah
+- [Tibolone tablets](drug) use Acridine
+- [Gecko Dingchuan Pills](drug) Used to what
+- [Cefdinir Dispersible Tablets](drug) OK What to do What
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) use Is it
+- [Oxymetazoline Hydrochloride Spray](drug) Indications
+- [Salmon calcitonin injection](drug) What are the benefits Is it
+- [Dan Bie Capsules](drug) What to heal Yeah
+- [Lenmoxicillin Hydrochloride Tablets](drug) OK What to treat What
+- [Dydrogesterone tablets](drug) OK Ok
+- [Compound Cantharidin Capsules](drug) want Ok
+- [Recombinant human growth hormone injection](drug) Cure Is it
+- [Tibolone tablets](drug) use Ah
+- [Cervical cancer film](drug) OK use Is it
+- [Clindamycin Hydrochloride Capsules](drug) What's the use Acridine
+- [Gecko Dingchuan Pills](drug) Indications Ok
+- [Acyclovir eye drops](drug) OK What are the benefits Ok
+- [Acetylspiramycin tablets](drug) OK What are the benefits Is it
+- [Ejiao Oyster Oral Liquid](drug) OK Indications Is it
+- [Cervical cancer film](drug) OK Cure Ah
+- [Dan Bie Capsules](drug) OK What to treat Ah
+- [Nabumetone Capsules](drug) Cure What
+- [Sparfloxacin Tablets](drug) OK What to do
+- [Five Vitamin Oral Solution](drug) Cure Yeah
+- [Tripterygium Glycoside Tablets](drug) use Yeah
+- [Dydrogesterone tablets](drug) use Ah
+- [Ejiao Oyster Oral Liquid](drug) OK What to treat Yeah
+- [Acetylspiramycin tablets](drug) What's the benefit Yeah
+- [Clindamycin Hydrochloride Capsules](drug) need Ok
+- [Pain Relief Tablets](drug) OK What to treat what
+- [Pain Relief Tablets](drug) want Acridine
+- [Metronidazole Vitamin B6 Tablets](drug) OK Indications of what what
+- [Stone tea](drug) OK What are the benefits Yeah
+- [Cangyi nose drops](drug) OK Cure Ah
+- [Yunnan Baiyao Tincture](drug) OK What to treat Ok
+- [Oxymetazoline Hydrochloride Spray](drug) OK need what
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) What to heal
+- [Dan Bie Capsules](drug) OK What to do Is it
+- [Ginseng Health Pills](drug) OK need
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) Used to Ok
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) what is the benefit Is it
+- [Acyclovir eye drops](drug) want Ok
+- [Ejiao Oyster Oral Liquid](drug) OK Cure Ah
+- [Compound Cantharidin Capsules](drug) Used to Acridine
+- [Cangyi nose drops](drug) use Yeah
+- [Ejiao Oyster Oral Liquid](drug) Indications of what Yeah
+- [Clindamycin Hydrochloride Capsules](drug) what is the benefit
+- [Yunnan Baiyao Tincture](drug) OK what is the benefit What
+- [Gecko Dingchuan Pills](drug) What's the benefit
+- [Cefdinir Dispersible Tablets](drug) need
+- [Compound Cantharidin Capsules](drug) Indications Is it
+- [Stone tea](drug) What's the benefit Is it
+- [Salmon calcitonin injection](drug) OK What are the benefits Is it
+- [Hassinide solution](drug) OK What to heal Yeah
+- [Yunnan Baiyao Tincture](drug) OK What to heal What
+- [Oxymetazoline Hydrochloride Spray](drug) What to treat what
+- [Cefdinir Dispersible Tablets](drug) What is the use What
+- [Cangyi nose drops](drug) OK need Is it
+- [Lenmoxicillin Hydrochloride Tablets](drug) What's the use what
+- [Cervical cancer film](drug) What's the benefit
+- [Hassinide solution](drug) OK What's the benefit Yeah
+- [Salmon calcitonin injection](drug) OK need Is it
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) usefulness Acridine
+- [Yunnan Baiyao Tincture](drug) what is the benefit
+- [Shengxue Ning Tablets](drug) OK Used to
+- [Ejiao Oyster Oral Liquid](drug) OK What's the use what
+- [Dydrogesterone tablets](drug) OK What to do What
+- [Oxymetazoline Hydrochloride Spray](drug) OK What to do Acridine
+- [Recombinant human growth hormone injection](drug) What's the benefit Ok
+- [Mecobalamin Tablets](drug) Indications of what Is it
+- [Cefpodoxime proxetil capsules](drug) what is the benefit Ah
+- [Ejiao Oyster Oral Liquid](drug) What's the use What
+- [Ejiao Oyster Oral Liquid](drug) What is the use Yeah
+- [Recombinant human growth hormone injection](drug) OK need Ok
+- [Salmon calcitonin injection](drug) want Ok
+- [Compound Cantharidin Capsules](drug) What to do What
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) Cure what
+- [Shengxue Ning Tablets](drug) What to heal What
+- [Cefpodoxime proxetil capsules](drug) OK Cure Acridine
+- [Salmon calcitonin injection](drug) What to do Is it
+- [Gecko Dingchuan Pills](drug) What to treat Ok
+- [Nucleus loose knot tablets](drug) OK What to treat Yeah
+- [Tibolone tablets](drug) OK need Ah
+- [Oxymetazoline Hydrochloride Spray](drug) Cure Ah
+- [Hassinide solution](drug) usefulness Is it
+- [Recombinant human growth hormone injection](drug) need Ah
+- [Recombinant human growth hormone injection](drug) Indications of what Ah
+- [Colloidal Pectin Bismuth Capsules](drug) Used to Ah
+- [Nucleus loose knot tablets](drug) want
+- [Vitamin C injection](drug) OK usefulness
+- [Recombinant human growth hormone injection](drug) What are the benefits Acridine
+- [Cangyi nose drops](drug) What are the benefits what
+- [Mecobalamin Tablets](drug) OK need Ok
+- [Colloidal Pectin Bismuth Capsules](drug) OK What to do what
+- [Clindamycin Hydrochloride Capsules](drug) What to do Ah
+- [Dydrogesterone tablets](drug) OK What's the benefit Yeah
+- [Nabumetone Capsules](drug) Indications what
+- [Oxymetazoline Hydrochloride Spray](drug) What is the use Ok
+- [Compound Cantharidin Capsules](drug) OK what is the benefit what
+- [Nabumetone Capsules](drug) OK What's the benefit what
+- [Azithromycin enteric-coated tablets](drug) what
+- [Ejiao Oyster Oral Liquid](drug) OK What to do
+- [Tripterygium Glycoside Tablets](drug) What to heal Yeah
+- [Acyclovir eye drops](drug) Cure Acridine
+- [Dan Bie Capsules](drug) OK what is the benefit What
+- [Metronidazole Vitamin B6 Tablets](drug) OK What to do Yeah
+- [Azithromycin enteric-coated tablets](drug) Indications What
+- [Vitamin C injection](drug) need What
+- [Pain Relief Tablets](drug) OK What to treat Acridine
+- [Pain Relief Tablets](drug) OK Ah
+- [Recombinant human growth hormone injection](drug) What are the benefits Ah
+- [Dan Bie Capsules](drug) OK What's the use Acridine
+- [Ginseng Health Pills](drug) OK What's the use what
+- [Hassinide solution](drug) OK What is the use Is it
+- [Recombinant human growth hormone injection](drug) What is the use what
+- [Pain Relief Tablets](drug) OK Indications of what Ok
+- [Lenmoxicillin Hydrochloride Tablets](drug) What's the use Yeah
+- [Colloidal Pectin Bismuth Capsules](drug) OK need Ok
+- [Gecko Dingchuan Pills](drug) What's the benefit Acridine
+- [Hassinide solution](drug) OK
+- [Metronidazole Vitamin B6 Tablets](drug) what is the benefit Acridine
+- [Five Vitamin Oral Solution](drug) want Acridine
+- [Ginseng Health Pills](drug) want Is it
+- [Nucleus loose knot tablets](drug) OK need Is it
+- [Acetylspiramycin tablets](drug) Indications of what Ah
+- [Colloidal Pectin Bismuth Capsules](drug) What's the benefit
+- [Lenmoxicillin Hydrochloride Tablets](drug) OK Indications Is it
+- [Ginseng Health Pills](drug) OK use what
+- [Ejiao Oyster Oral Liquid](drug) OK What to heal Ah
+- [Ginseng Health Pills](drug) What to treat Ah
+- [Nabumetone Capsules](drug) OK what is the benefit what
+- [Compound Cantharidin Capsules](drug) What to do Ok
+- [Stone tea](drug) OK What to heal What
+- [Tripterygium Glycoside Tablets](drug) OK Cure Ah
+- [Compound Cantharidin Capsules](drug) What to treat Yeah
+- [Nabumetone Capsules](drug) OK want Is it
+- [Tibolone tablets](drug) What to treat what
+- [Oxymetazoline Hydrochloride Spray](drug) OK What's the benefit what
+- [Metronidazole Vitamin B6 Tablets](drug) OK What's the use what
+- [Sparfloxacin Tablets](drug) What's the benefit what
+- [Acetylspiramycin tablets](drug) OK What is the use Is it
+- [Pain Relief Tablets](drug) What to heal
+- [Salmon calcitonin injection](drug) OK need
+- [Lenmoxicillin Hydrochloride Tablets](drug) OK What's the benefit
+- [Acetylspiramycin tablets](drug) OK Used to Acridine
+- [Pain Relief Tablets](drug) OK Indications of what Yeah
+- [Ejiao Oyster Oral Liquid](drug) OK What to do Ah
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) What's the use Yeah
+- [Cervical cancer film](drug) need Ok
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) OK Cure Is it
+- [Acetylspiramycin tablets](drug) What to treat Ah
+- [Dydrogesterone tablets](drug) OK What is the use
+- [Mecobalamin Tablets](drug) OK Cure Is it
+- [Lenmoxicillin Hydrochloride Tablets](drug) OK What's the benefit Ok
+- [Hassinide solution](drug) What's the benefit Yeah
+- [Shengxue Ning Tablets](drug) OK want Ok
+- [Cefpodoxime proxetil capsules](drug) OK What is the use Ok
+- [Nucleus loose knot tablets](drug) What to heal Acridine
+- [Gecko Dingchuan Pills](drug) OK Used to Acridine
+- [Dan Bie Capsules](drug) What is the use What
+- [Vitamin C injection](drug) What to treat Acridine
+- [Clindamycin Hydrochloride Capsules](drug) OK Cure What
+- [Cangyi nose drops](drug) OK What are the benefits Is it
+- [Azithromycin enteric-coated tablets](drug) OK need Is it
+- [Tripterygium Glycoside Tablets](drug) OK What are the benefits Is it
+- [Acetylspiramycin tablets](drug) What's the use Ah
+- [Tibolone tablets](drug) OK Cure Ah
+- [Five Vitamin Oral Solution](drug) What is the use Ah
+- [Sparfloxacin Tablets](drug) Indications
+- [Pain Relief Tablets](drug) What's the use Is it
+- [Compound Cantharidin Capsules](drug) OK Acridine
+- [Oxymetazoline Hydrochloride Spray](drug) OK need What
+- [Cervical cancer film](drug) What's the benefit Acridine
+- [Gecko Dingchuan Pills](drug) Ok
+- [Shengxue Ning Tablets](drug) OK Cure
+- [Cervical cancer film](drug) OK what is the benefit Ah
+- [Salmon calcitonin injection](drug) OK want
+- [Nucleus loose knot tablets](drug) OK What to treat
+- [Acyclovir eye drops](drug) OK Indications of what Acridine
+- [Nabumetone Capsules](drug) OK What to do Ah
+- [Dan Bie Capsules](drug) OK What's the use Ah
+- [Oxymetazoline Hydrochloride Spray](drug) Ah
+- [Vitamin C injection](drug) OK What are the benefits What
+- [Acyclovir eye drops](drug) OK use what
+- [Compound Cantharidin Capsules](drug) What's the use Yeah
+- [Cefpodoxime proxetil capsules](drug) Indications Acridine
+- [Acetylspiramycin tablets](drug) OK What's the benefit Is it
+- [Salmon calcitonin injection](drug) OK Used to
+- [Yunnan Baiyao Tincture](drug) OK what is the benefit
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) Indications of what What
+- [Nucleus loose knot tablets](drug) OK want Acridine
+- [Acetylspiramycin tablets](drug) What's the use
+- [Salmon calcitonin injection](drug) OK use Acridine
+- [Tibolone tablets](drug) OK What are the benefits Is it
+- [Compound Cantharidin Capsules](drug) What to treat Acridine
+- [Hassinide solution](drug) What is the use Ok
+- [Cangyi nose drops](drug) OK Indications of what Ok
+- [Nabumetone Capsules](drug) usefulness Acridine
+- [Cefpodoxime proxetil capsules](drug) OK what is the benefit What
+- [Hassinide solution](drug) OK Indications of what Yeah
+- [Acyclovir eye drops](drug) OK Cure Yeah
+- [Cefpodoxime proxetil capsules](drug) What to do Acridine
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) Cure
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) need Acridine
+- [Colloidal Pectin Bismuth Capsules](drug) OK what is the benefit Ok
+- [Vitamin C injection](drug) OK Indications of what What
+- [Yunnan Baiyao Tincture](drug) What to heal What
+- [Gecko Dingchuan Pills](drug) What's the benefit what
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) OK want what
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) Cure Ah
+- [Cangyi nose drops](drug) OK What are the benefits Ah
+- [Yunnan Baiyao Tincture](drug) OK What to do Yeah
+- [Sparfloxacin Tablets](drug) OK Cure What
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) Cure Ok
+- [Ginseng Health Pills](drug) OK Indications Yeah
+- [Cefpodoxime proxetil capsules](drug) use what
+- [Colloidal Pectin Bismuth Capsules](drug) OK Used to What
+- [Nucleus loose knot tablets](drug) what is the benefit Ok
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) OK What to treat Ah
+- [Cangyi nose drops](drug) OK What is the use Is it
+- [Compound Cantharidin Capsules](drug) OK usefulness Ok
+- [Acyclovir eye drops](drug) OK What's the use Is it
+- [Oxymetazoline Hydrochloride Spray](drug) OK what is the benefit Acridine
+- [Compound Cantharidin Capsules](drug) What to do Is it
+- [Ejiao Oyster Oral Liquid](drug) Used to what
+- [Nucleus loose knot tablets](drug) What's the use Ok
+- [Ginseng Health Pills](drug) What to do What
+- [Gecko Dingchuan Pills](drug) What to treat Acridine
+- [Nucleus loose knot tablets](drug) OK What to heal Is it
+- [Ejiao Oyster Oral Liquid](drug) What's the use Acridine
+- [Lenmoxicillin Hydrochloride Tablets](drug) OK Cure Acridine
+- [Sparfloxacin Tablets](drug) OK Indications of what Ah
+- [Cefpodoxime proxetil capsules](drug) OK What to heal what
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) OK Cure Ah
+- [Dydrogesterone tablets](drug) OK Used to What
+- [Acyclovir eye drops](drug) OK Used to Ah
+- [Tibolone tablets](drug) What to do Yeah
+- [Yunnan Baiyao Tincture](drug) OK want Ok
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) OK Used to Ok
+- [Cangyi nose drops](drug) What to treat Acridine
+- [Dan Bie Capsules](drug) OK What to treat What
+- [Recombinant human growth hormone injection](drug) OK What to treat Ok
+- [Mecobalamin Tablets](drug) OK What to do What
+- [Acyclovir eye drops](drug) OK use Ah
+- [Ginseng Health Pills](drug) Cure what
+- [Nabumetone Capsules](drug) Cure Is it
+- [Stone tea](drug) OK Used to What
+- [Salmon calcitonin injection](drug) usefulness Ok
+- [Dan Bie Capsules](drug) OK What to do Acridine
+- [Colloidal Pectin Bismuth Capsules](drug) OK use Ok
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) OK use Acridine
+- [Vitamin C injection](drug) Ok
+- [Ginseng Health Pills](drug) OK What to do what
+- [Metronidazole Vitamin B6 Tablets](drug) What is the use Acridine
+- [Cervical cancer film](drug) What are the benefits What
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) OK Cure Is it
+- [Gecko Dingchuan Pills](drug) what is the benefit What
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) OK What to do what
+- [Cefpodoxime proxetil capsules](drug) OK Indications what
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) OK What to heal Is it
+- [Pain Relief Tablets](drug) OK Used to Ok
+- [Hassinide solution](drug) want Is it
+- [Mecobalamin Tablets](drug) OK What to treat Yeah
+- [Cefpodoxime proxetil capsules](drug) What is the use Yeah
+- [Azithromycin enteric-coated tablets](drug) Used to Yeah
+- [Azithromycin enteric-coated tablets](drug) What is the use What
+- [Nucleus loose knot tablets](drug) Used to Acridine
+- [Five Vitamin Oral Solution](drug) What are the benefits Ah
+- [Tripterygium Glycoside Tablets](drug) use Acridine
+- [Sparfloxacin Tablets](drug) OK What to treat Ah
+- [Shengxue Ning Tablets](drug) OK Cure Yeah
+- [Acyclovir eye drops](drug) OK want What
+- [Shengxue Ning Tablets](drug) OK usefulness Ah
+- [Recombinant human growth hormone injection](drug) OK What to do
+- [Five Vitamin Oral Solution](drug) OK What's the use Acridine
+- [Dan Bie Capsules](drug) OK Cure Ok
+- [Pain Relief Tablets](drug) Indications Ah
+- [Mecobalamin Tablets](drug) OK want what
+- [Dan Bie Capsules](drug) use Yeah
+- [Sparfloxacin Tablets](drug) OK What to heal Ok
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) what is the benefit
+- [Metronidazole Vitamin B6 Tablets](drug) What are the benefits Is it
+- [Acyclovir eye drops](drug) What to treat Ok
+- [Dan Bie Capsules](drug) use what
+- [Tripterygium Glycoside Tablets](drug) OK what
+- [Colloidal Pectin Bismuth Capsules](drug) What's the use
+- [Sparfloxacin Tablets](drug) OK What's the use Acridine
+- [Dydrogesterone tablets](drug) OK what is the benefit
+- [Cefdinir Dispersible Tablets](drug) usefulness what
+- [Lenmoxicillin Hydrochloride Tablets](drug) Cure Yeah
+- [Dydrogesterone tablets](drug) What to do Is it
+- [Acyclovir eye drops](drug) what is the benefit What
+- [Sparfloxacin Tablets](drug) Indications what
+- [Clindamycin Hydrochloride Capsules](drug) Cure Is it
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) Indications of what
+- [Stone tea](drug) OK Cure Is it
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) OK want What
+- [Vitamin C injection](drug) OK Used to Yeah
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) need Acridine
+- [Acetylspiramycin tablets](drug) use Ah
+- [Hassinide solution](drug) Cure
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) Cure Ah
+- [Tripterygium Glycoside Tablets](drug) OK use what
+- [Azithromycin enteric-coated tablets](drug) OK What is the use Is it
+- [Clindamycin Hydrochloride Capsules](drug) OK What to treat What
+- [Lenmoxicillin Hydrochloride Tablets](drug) use Ok
+- [Cangyi nose drops](drug) What to do What
+- [Compound Cantharidin Capsules](drug) What to heal Is it
+- [Compound Cantharidin Capsules](drug) OK What to do what
+- [Recombinant human growth hormone injection](drug) OK What to do Ok
+- [Mecobalamin Tablets](drug) What to heal Ok
+- [Lenmoxicillin Hydrochloride Tablets](drug) What to treat what
+- [Dan Bie Capsules](drug) what is the benefit
+- [Hassinide solution](drug) OK Cure Yeah
+- [Clindamycin Hydrochloride Capsules](drug) what
+- [Vitamin C injection](drug) OK What to do Ok
+- [Recombinant bovine basic fibroblast growth factor eye drops](drug) What are the benefits Ah
+- [Tripterygium Glycoside Tablets](drug) OK What to do Yeah
+- [Clindamycin Hydrochloride Capsules](drug) What to treat
+- [Ejiao Oyster Oral Liquid](drug) Ok
+- [Ejiao Oyster Oral Liquid](drug) OK Yeah
+- [Salmon calcitonin injection](drug) OK What to heal
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) What to do what
+- [Gecko Dingchuan Pills](drug) need Acridine
+- [Colloidal Pectin Bismuth Capsules](drug) what is the benefit What
+- [Vitamin C injection](drug) What are the benefits Yeah
+- [Metronidazole Vitamin B6 Tablets](drug) Used to
+- [Sparfloxacin Tablets](drug) OK Used to Yeah
+- [Metronidazole Vitamin B6 Tablets](drug) OK use Is it
+- [Dydrogesterone tablets](drug) OK Indications Ah
+- [Dydrogesterone tablets](drug) OK need Acridine
+- [Ginseng Health Pills](drug) OK What
+- [Nucleus loose knot tablets](drug) What are the benefits Yeah
+- [Yunnan Baiyao Tincture](drug) OK What to treat what
+- [Vitamin C injection](drug) OK Cure What
+- [Nucleus loose knot tablets](drug) OK usefulness Ok
+- [Lenmoxicillin Hydrochloride Tablets](drug) What to do Ok
+- [Recombinant human growth hormone injection](drug) OK usefulness
+- [Tripterygium Glycoside Tablets](drug) OK Ok
+- [Clindamycin Hydrochloride Capsules](drug) OK What to do Ok
+- [Dan Bie Capsules](drug) Indications Acridine
+- [Yunnan Baiyao Tincture](drug) Indications Is it
+- [Stone tea](drug) OK what
+- [Clindamycin Hydrochloride Capsules](drug) What to do
+- [Cefdinir Dispersible Tablets](drug) What to treat Ah
+- [Mecobalamin Tablets](drug) OK What's the benefit Is it
+- [Colloidal Pectin Bismuth Capsules](drug) usefulness Ah
+- [Compound Cantharidin Capsules](drug) want Ah
+- [Gecko Dingchuan Pills](drug) OK what is the benefit
+- [Salmon calcitonin injection](drug) OK Ok
+- [Azithromycin enteric-coated tablets](drug) OK What to heal What
+- [Oxymetazoline Hydrochloride Spray](drug) OK Cure what
+- [Dydrogesterone tablets](drug) OK need
+- [Sparfloxacin Tablets](drug) usefulness Is it
+- [Pain Relief Tablets](drug) OK What to do What
+- [Lenmoxicillin Hydrochloride Tablets](drug) What to treat
+- [Five Vitamin Oral Solution](drug) Used to what
+- [Yunnan Baiyao Tincture](drug) OK use what
+- [Shengxue Ning Tablets](drug) OK want What
+- [Cefdinir Dispersible Tablets](drug) OK need Acridine
+- [Azithromycin enteric-coated tablets](drug) OK usefulness Is it
+- [Colloidal Pectin Bismuth Capsules](drug) what is the benefit
+- [Stone tea](drug) OK use Ok
+- [Nucleus loose knot tablets](drug) Indications Ok
+- [Five Vitamin Oral Solution](drug) OK What are the benefits Yeah
+- [Pain Relief Tablets](drug) What are the benefits Acridine
+- [Colloidal Pectin Bismuth Capsules](drug) OK What's the use Ok
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) What to treat what
+- [Colloidal Pectin Bismuth Capsules](drug) OK Cure Acridine
+- [Cefpodoxime proxetil capsules](drug) OK usefulness Ok
+- [Hassinide solution](drug) Indications of what Ok
+- [Nucleus loose knot tablets](drug) OK what is the benefit Is it
+- [Dydrogesterone tablets](drug) OK want what
+- [Tripterygium Glycoside Tablets](drug) Indications Ah
+- [Dydrogesterone tablets](drug) OK What to do Is it
+- [Yunnan Baiyao Tincture](drug) What's the benefit What
+- [Five Vitamin Oral Solution](drug) Indications
+- [Hassinide solution](drug) OK what is the benefit Ah
+- [Dydrogesterone tablets](drug) What to do Yeah
+- [Acyclovir eye drops](drug) use what
+- [Yunnan Baiyao Tincture](drug) What to do Is it
+- [Mecobalamin Tablets](drug) OK what is the benefit Is it
+- [Azithromycin enteric-coated tablets](drug) OK Used to
+- [Vitamin C injection](drug) OK What's the use Yeah
+- [Metronidazole Vitamin B6 Tablets](drug) What to do Is it
+- [Acyclovir eye drops](drug) Indications of what Acridine
+- [Dan Bie Capsules](drug) OK want what
+- [Salmon calcitonin injection](drug) Cure
+- [Pantoprazole Sodium Enteric-coated Capsules](drug) OK Cure
+- [Cefpodoxime proxetil capsules](drug) OK usefulness Acridine
+- [Colloidal Pectin Bismuth Capsules](drug) Cure Yeah
+- [Lenmoxicillin Hydrochloride Tablets](drug) OK Cure Ok
+- [Shengxue Ning Tablets](drug) OK What are the benefits
+- [Tibolone tablets](drug) OK need
+- [Recombinant human growth hormone injection](drug) OK What is the use Yeah
+- [Recombinant Human Interleukin-2 for Injection (I)](drug) usefulness what
+- [Acyclovir eye drops](drug) What's the use Ah
+- [Azithromycin enteric-coated tablets](drug) Indications of what Is it
+- [Salmon calcitonin injection](drug) What to do Yeah
+- [Vitamin C injection](drug) What to treat Ok
+- [Dydrogesterone tablets](drug) OK What to heal Ok
+- [Hassinide solution](drug) Cure What
+- [Cervical cancer film](drug) OK Used to Acridine
+- [Yunnan Baiyao Tincture](drug) What to do What
+- [Acyclovir eye drops](drug) OK Indications of what What
+- [Yunnan Baiyao Tincture](drug) OK What to do Is it
+- [Recombinant human growth hormone injection](drug) Used to Yeah
+- [Oxymetazoline Hydrochloride Spray](drug) Used to
+- [Dan Bie Capsules](drug) OK What to do Ok
+
+## intent:search_disease_treat_time
+- [Hypersensitivity pneumonia](disease) rule How many years Ah
+- want rule how long [Bacillus pneumoniae pneumonia](disease) Can be good Yeah
+- [Radiation pneumonia](disease) want several years Ah
+- [Alveolar proteinosis](disease) rule How much time Can be good Ah
+- [Adult respiratory distress syndrome](disease) How many years Can be good What
+- [Alveolar proteinosis](disease) rule how many days Ok
+- [Pulmonary embolism](disease) want rule How much time Yeah
+- [Simple pulmonary eosinophilic infiltration](disease) rule How many years Can be good
+- [Pulmonary embolism](disease) How many years
+- [Adult respiratory distress syndrome](disease) rule a couple of hours Can be good Ok
+- [Pulmonary Edema](disease) want rule how many hours What
+- [Pulmonary bullae](disease) want several years Can be good Acridine
+- [Hypersensitivity pneumonia](disease) how many hours Can be good
+- [Carbon disulfide poisoning](disease) want how long Can be good Is it
+- [Bullae](disease) want rule how long Acridine
+- [Carbon disulfide poisoning](disease) want rule a couple of hours Ok
+- [pneumonia](disease) want rule How much time Can be good Ok
+- [SARS](disease) a couple of hours Can be good Yeah
+- [Alveolar proteinosis](disease) want cycle Is it
+- [Pulmonary hemorrhage-nephritis syndrome](disease) want several years Yeah
+- [Pulmonary hemorrhage-nephritis syndrome](disease) want how many days Can be good Ok
+- [Radiation pneumonia](disease) want How much time Yeah
+- want How much time [pertussis](disease) Can be good Is it
+- want a couple of hours [Goodpasture syndrome](disease) Acridine
+- [Cadmium poisoning](disease) rule how many days What
+- cycle [Benzene poisoning](disease) Ok
+- [Septic shock](disease) rule Few days Ah
+- rule How many years [Pulmonary embolism](disease) Acridine
+- [Mercury poisoning](disease) want rule how long Can be good What
+- want rule how long [Cadmium poisoning](disease) Can be good Ah
+- want rule how long [Hypersensitivity pneumonia](disease) Can be good Ah
+- [Pulmonary pseudotumor](disease) want rule several years Is it
+- [Bullae](disease) want rule a couple of hours What
+- [Bacillus pneumoniae pneumonia](disease) want rule How many years Can be good Acridine
+- [Pulmonary Actinomycosis](disease) Few days Can be good Ok
+- rule how long [Radiation pneumonia](disease) Ok
+- a couple of hours [Lung cancer](disease) Yeah
+- [Pulmonary bullae](disease) want rule how many days
+- [Hypersensitivity pneumonia](disease) how many days Ok
+- rule cycle [cold](disease) Can be good Ok
+- [Cadmium poisoning](disease) how long Yeah
+- [Pulmonary pseudotumor](disease) how many hours Can be good Ah
+- [Carbon disulfide poisoning](disease) rule How much time Acridine
+- [Pulmonary bullae](disease) want a couple of hours Ok
+- [Large amounts of amniotic fluid inhalation](disease) want rule how many hours Can be good Acridine
+- [Pneumococcal pneumonia](disease) want how many days
+- [Wheezing bronchitis](disease) want rule How much time Is it
+- [Wheezing bronchitis](disease) want Few days Yeah
+- want rule how many hours [Foreign body in the respiratory tract](disease) Can be good what
+- [Pulmonary pseudotumor](disease) want Few days Can be good what
+- [Respiratory bronchiole-related interstitial lung disease](disease) how many hours What
+- rule how many days [Pulmonary Aspergillosis](disease) Can be good Acridine
+- how long [Emphysema](disease) Can be good what
+- want how long [Alveolar proteinosis](disease) Ah
+- [Respiratory bronchiole-related interstitial lung disease](disease) want rule How much time Can be good what
+- want how long [Lung abscess](disease) Yeah
+- [Pulmonary Cryptococcosis](disease) want rule How many years Can be good Ah
+- want rule Few days [Bacillus pneumoniae pneumonia](disease) Ah
+- [Septic shock](disease) several years Yeah
+- [Lung metastases](disease) want rule how long Can be good Acridine
+- rule Few days [SARS](disease) Can be good what
+- rule Few days [Lung metastases](disease) Can be good Acridine
+- [Pulmonary-pleural amebiasis](disease) want rule how many hours Yeah
+- [Large amounts of amniotic fluid inhalation](disease) want how many hours Ok
+- [Alveolar proteinosis](disease) want rule how long Can be good Acridine
+- [Pulmonary Actinomycosis](disease) rule How much time
+- [pertussis](disease) rule a couple of hours Can be good what
+- [Radiation pneumonia](disease) want a couple of hours Can be good
+- [Pulmonary-pleural amebiasis](disease) Few days Can be good what
+- [Simple pulmonary eosinophilic infiltration](disease) want rule several years Can be good Ah
+- want rule how long [Anaphylactic shock](disease) Can be good Ah
+- [Pulmonary Aspergillosis](disease) want several years Can be good
+- cycle [Large amounts of amniotic fluid inhalation](disease) Can be good Ok
+- [Wheezing bronchitis](disease) rule a couple of hours Can be good Ok
+- [Pulmonary-pleural amebiasis](disease) want Few days Yeah
+- [Bullae](disease) want rule how long Yeah
+- [pertussis](disease) want how many days Can be good Acridine
+- [Lung abscess](disease) How much time Is it
+- [Pulmonary embolism](disease) several years Can be good Ok
+- want how many hours [Anaphylactic shock](disease) Can be good what
+- [Building Sick Syndrome](disease) want Few days what
+- how long [Bullae](disease) Can be good Acridine
+- [Septic shock](disease) want how long Can be good
+- [Emphysema](disease) want how long Can be good Ah
+- [Goodpasture syndrome](disease) rule a couple of hours Can be good Ah
+- [Bacillus pneumoniae pneumonia](disease) want a couple of hours what
+- [Pulmonary Actinomycosis](disease) want rule how many hours Can be good Is it
+- [Emphysema](disease) want how long Can be good
+- [Bacillus pneumoniae pneumonia](disease) want a couple of hours Can be good Ah
+- [Large amounts of amniotic fluid inhalation](disease) want rule several years what
+- [Foreign body in the respiratory tract](disease) How much time Can be good
+- [Adult respiratory distress syndrome](disease) want How many years What
+- [Lung cancer](disease) want several years Is it
+- [Anaphylactic shock](disease) rule a couple of hours Can be good What
+- [Respiratory bronchiole-related interstitial lung disease](disease) want How much time Can be good What
+- [Adult respiratory distress syndrome](disease) rule how long What
+- [Pulmonary Candidiasis](disease) want Few days Can be good
+- [Large amounts of amniotic fluid inhalation](disease) several years Can be good what
+- [Septic shock](disease) want cycle What
+- rule how many days [Wheezing bronchitis](disease) Can be good What
+- how long [Pulmonary Cryptococcosis](disease) Ah
+- [Pulmonary embolism](disease) How much time Is it
+- [Emphysema](disease) rule Few days what
+- [Benzene poisoning](disease) want cycle what
+- [Pulmonary Cryptococcosis](disease) want How many years Can be good
+- [Adult respiratory distress syndrome](disease) Few days Is it
+- [Emphysema](disease) want how many days Can be good Ok
+- [Lung abscess](disease) How many years What
+- [cold](disease) rule How many years Can be good
+- want Few days [Pulmonary hemorrhage-nephritis syndrome](disease) Can be good Ah
+- [Pulmonary Candidiasis](disease) rule how many hours Acridine
+- [Hypersensitivity pneumonia](disease) rule how many hours Can be good Is it
+- [Anaphylactic shock](disease) want How much time Is it
+- [Goodpasture syndrome](disease) rule Few days Can be good
+- [SARS](disease) cycle What
+- [SARS](disease) want how many hours Can be good Ok
+- [Pulmonary Edema](disease) how long Can be good Acridine
+- how long [Pulmonary Edema](disease)
+- [Pulmonary Actinomycosis](disease) How many years
+- [Adult respiratory distress syndrome](disease) want rule how many days Can be good Yeah
+- [Respiratory bronchiole-related interstitial lung disease](disease) want rule how many days Can be good What
+- [Lobar Pneumonia](disease) how long Can be good What
+- [Hypersensitivity pneumonia](disease) want Few days Can be good Ok
+- [Carbon disulfide poisoning](disease) How many years Can be good Acridine
+- want rule a couple of hours [Large amounts of amniotic fluid inhalation](disease) Can be good what
+- How many years [Pulmonary Aspergillosis](disease) Can be good Ah
+- want several years [Adult respiratory distress syndrome](disease) Can be good Is it
+- [Septic shock](disease) want rule how long Is it
+- [Bacillus pneumoniae pneumonia](disease) want rule how long Can be good Ok
+- [Foreign body in the respiratory tract](disease) rule how long Can be good what
+- [Goodpasture syndrome](disease) want Few days Is it
+- [Wheezing bronchitis](disease) several years Can be good Ah
+- [Lobar Pneumonia](disease) want rule how long Ah
+- [Pulmonary Cryptococcosis](disease) want rule how long Can be good Yeah
+- [cold](disease) want rule how many days Can be good Is it
+- want rule several years [cold](disease)
+- [cold](disease) want rule How much time Is it
+- [Lung metastases](disease) want rule how long Yeah
+- rule How many years [Pulmonary hemorrhage-nephritis syndrome](disease) Can be good what
+- want rule how many days [cold](disease) Can be good what
+- [Pulmonary hemorrhage-nephritis syndrome](disease) rule How much time
+- rule How many years [cold](disease) Can be good Ok
+- rule how many hours [Pulmonary Aspergillosis](disease) Acridine
+- rule several years [Lobar Pneumonia](disease) Is it
+- Few days [Pulmonary embolism](disease) Can be good
+- rule how many days [Bullae](disease) Can be good What
+- want How many years [Pulmonary Actinomycosis](disease) Can be good Ok
+- rule how long [Pulmonary hemorrhage-nephritis syndrome](disease) Can be good Ok
+- [Goodpasture syndrome](disease) rule cycle Acridine
+- [Benzene poisoning](disease) rule a couple of hours what
+- How much time [Building Sick Syndrome](disease) Yeah
+- [Large amounts of amniotic fluid inhalation](disease) want Few days Can be good what
+- how long [pneumonia](disease) Can be good Ah
+- [Mercury poisoning](disease) rule cycle Yeah
+- want rule a couple of hours [Adult respiratory distress syndrome](disease) Is it
+- [Alveolar proteinosis](disease) rule Few days what
+- [Adult respiratory distress syndrome](disease) want rule How much time Can be good Ah
+- [Wheezing bronchitis](disease) rule how many hours Acridine
+- want Few days [cold](disease) Yeah
+- [Septic shock](disease) Few days Can be good Is it
+- [Goodpasture syndrome](disease) How much time Can be good Ah
+- [Alveolar proteinosis](disease) rule several years Can be good What
+- [Pulmonary-pleural amebiasis](disease) want how many days Ah
+- [Emphysema](disease) want how long Acridine
+- want rule how many days [Pneumococcal pneumonia](disease) What
+- [Pulmonary Actinomycosis](disease) want how long Can be good Ah
+- [Pulmonary embolism](disease) rule How much time
+- [Foreign body in the respiratory tract](disease) want how long Can be good Ah
+- [Cadmium poisoning](disease) cycle Is it
+- [Pneumococcal pneumonia](disease) want rule cycle Yeah
+- [pertussis](disease) rule a couple of hours Is it
+- [Goodpasture syndrome](disease) rule a couple of hours Can be good Yeah
+- [Pulmonary Actinomycosis](disease) want How many years Is it
+- want How many years [Septic shock](disease) Can be good What
+- how many days [Building Sick Syndrome](disease) Yeah
+- how many hours [Foreign body in the respiratory tract](disease) What
+- [Pulmonary Candidiasis](disease) want rule How much time Ok
+- [Respiratory bronchiole-related interstitial lung disease](disease) How much time Can be good Is it
+- [Alveolar proteinosis](disease) rule how many hours Can be good Ah
+- want rule How much time [Simple pulmonary eosinophilic infiltration](disease) Can be good Yeah
+- [Lung metastases](disease) want how many hours Can be good Yeah
+- cycle [Septic shock](disease) Ah
+- want rule Few days [Cadmium poisoning](disease) Can be good Acridine
+- [Pulmonary Edema](disease) rule how many hours Can be good What
+- [Lung metastases](disease) how many days Can be good Acridine
+- [Septic shock](disease) rule How many years Can be good Yeah
+- [cold](disease) want rule How many years Ah
+- [Pulmonary bullae](disease) how many days Acridine
+- [Alveolar proteinosis](disease) want rule how long Can be good
+- how long [Adult respiratory distress syndrome](disease) Can be good Ah
+- several years [Building Sick Syndrome](disease) Ah
+- [Lung metastases](disease) cycle Ok
+- [SARS](disease) want How much time Can be good
+- a couple of hours [Pulmonary-pleural amebiasis](disease) Yeah
+- [Pulmonary pseudotumor](disease) want how long Can be good Yeah
+- want How many years [Large amounts of amniotic fluid inhalation](disease) Can be good Acridine
+- [Building Sick Syndrome](disease) want rule a couple of hours Ah
+- [Emphysema](disease) want rule How much time Is it
+- [Large amounts of amniotic fluid inhalation](disease) rule how long Acridine
+- rule how many days [Lung metastases](disease) Ah
+- how long [Lung abscess](disease) Is it
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Few days what
+- [Bacillus pneumoniae pneumonia](disease) want Few days Is it
+- rule how many days [Pulmonary-pleural amebiasis](disease) What
+- [Emphysema](disease) want rule how long Can be good what
+- rule how long [Lobar Pneumonia](disease) Can be good What
+- [Pulmonary pseudotumor](disease) want rule How many years What
+- [Pulmonary Actinomycosis](disease) want How many years Can be good Is it
+- want rule How much time [Foreign body in the respiratory tract](disease) Can be good
+- [SARS](disease) rule how long Can be good
+- [Simple pulmonary eosinophilic infiltration](disease) rule how long Acridine
+- rule how long [pertussis](disease)
+- [Pulmonary Cryptococcosis](disease) want rule cycle
+- [Building Sick Syndrome](disease) want rule How much time Can be good Is it
+- [Pulmonary-pleural amebiasis](disease) want how long what
+- [Bacillus pneumoniae pneumonia](disease) want how long
+- [Pulmonary Candidiasis](disease) want rule How many years
+- [Alveolar proteinosis](disease) want How much time Can be good what
+- want how many hours [Goodpasture syndrome](disease) Can be good Ok
+- want rule How much time [Anaphylactic shock](disease) Can be good Is it
+- [Pulmonary bullae](disease) rule How much time
+- [Emphysema](disease) several years Is it
+- [Pulmonary Aspergillosis](disease) want rule several years Can be good Is it
+- [Carbon disulfide poisoning](disease) how many hours Is it
+- [Simple pulmonary eosinophilic infiltration](disease) How many years Can be good Acridine
+- want how long [pneumonia](disease) Can be good Yeah
+- how many hours [Benzene poisoning](disease) Can be good Ah
+- [Pneumococcal pneumonia](disease) a couple of hours Can be good Acridine
+- [Alveolar proteinosis](disease) want several years Ok
+- [Radiation pneumonia](disease) how long Can be good Ok
+- rule How much time [Emphysema](disease) Can be good Yeah
+- [Cadmium poisoning](disease) want how many days Can be good Is it
+- [Benzene poisoning](disease) how long
+- [Benzene poisoning](disease) cycle Ok
+- [Lung cancer](disease) rule several years Ok
+- [pneumonia](disease) want rule how long Can be good Is it
+- rule how many days [Pulmonary pseudotumor](disease) what
+- [Large amounts of amniotic fluid inhalation](disease) want rule How many years Can be good
+- [Alveolar proteinosis](disease) want rule how long Can be good What
+- [Pulmonary-pleural amebiasis](disease) several years Can be good
+- want rule Few days [Alveolar proteinosis](disease) Yeah
+- [Pulmonary Actinomycosis](disease) want how many days what
+- [Lung abscess](disease) want a couple of hours Acridine
+- [pneumonia](disease) how many hours what
+- rule Few days [SARS](disease) what
+- [Pulmonary Edema](disease) rule several years Can be good Acridine
+- want How much time [Alveolar proteinosis](disease) Acridine
+- [Anaphylactic shock](disease) rule a couple of hours what
+- want how many days [Hypersensitivity pneumonia](disease) Ah
+- [Goodpasture syndrome](disease) how long Can be good Ah
+- [Septic shock](disease) want Few days Can be good Ah
+- [Large amounts of amniotic fluid inhalation](disease) rule How many years Yeah
+- rule How much time [Benzene poisoning](disease) Is it
+- [Lung cancer](disease) rule how many days Yeah
+- want how many days [cold](disease) Can be good What
+- want How many years [Hypersensitivity pneumonia](disease) What
+- [cold](disease) want how long Can be good Yeah
+- [Pneumococcal pneumonia](disease) how long Ah
+- How much time [Lobar Pneumonia](disease) Ah
+- [Adult respiratory distress syndrome](disease) want how many days
+- want rule how long [Pulmonary embolism](disease) Can be good Ok
+- [pneumonia](disease) how many days Can be good Ok
+- want rule How much time [Septic shock](disease) Is it
+- [Alveolar proteinosis](disease) want rule several years Acridine
+- [Benzene poisoning](disease) Few days Ok
+- [Pulmonary pseudotumor](disease) several years Acridine
+- [Pneumococcal pneumonia](disease) how long
+- [Alveolar proteinosis](disease) want rule cycle Is it
+- [cold](disease) rule How many years Ok
+- [SARS](disease) rule how many days Ok
+- [Benzene poisoning](disease) want rule How many years Ah
+- [Septic shock](disease) want rule a couple of hours What
+- [Pulmonary-pleural amebiasis](disease) want rule Few days Can be good Ah
+- [Goodpasture syndrome](disease) How much time Ok
+- want rule cycle [Foreign body in the respiratory tract](disease) What
+- [Septic shock](disease) want rule cycle Can be good Acridine
+- want rule a couple of hours [Cadmium poisoning](disease) Can be good Ok
+- [Radiation pneumonia](disease) rule cycle Is it
+- want a couple of hours [pneumonia](disease) Is it
+- [Simple pulmonary eosinophilic infiltration](disease) rule several years Acridine
+- how many hours [Lobar Pneumonia](disease) Can be good Yeah
+- [Pulmonary Cryptococcosis](disease) how many hours Acridine
+- [SARS](disease) want a couple of hours Can be good
+- [Pulmonary Candidiasis](disease) rule several years Can be good Ok
+- [Alveolar proteinosis](disease) How many years Ah
+- [Wheezing bronchitis](disease) want rule How many years Can be good Ah
+- [Bacillus pneumoniae pneumonia](disease) how long Can be good Is it
+- [Alveolar proteinosis](disease) want rule a couple of hours Can be good Acridine
+- [Pulmonary Edema](disease) want How many years Can be good Yeah
+- [Large amounts of amniotic fluid inhalation](disease) want rule Few days Can be good what
+- [SARS](disease) want how many hours
+- want how many days [Lobar Pneumonia](disease) Can be good Ah
+- [Pulmonary Actinomycosis](disease) want how long Can be good Is it
+- [Simple pulmonary eosinophilic infiltration](disease) want a couple of hours Can be good Acridine
+- [Pulmonary bullae](disease) want How much time
+- [cold](disease) want how long what
+- [Benzene poisoning](disease) How much time Can be good Ah
+- want rule how many hours [Septic shock](disease) Acridine
+- [Pulmonary Cryptococcosis](disease) want rule a couple of hours Ok
+- How much time [Alveolar proteinosis](disease) Acridine
+- [Pulmonary Candidiasis](disease) rule How many years Ah
+- [Foreign body in the respiratory tract](disease) want rule how long Can be good Ok
+- [Adult respiratory distress syndrome](disease) want how long What
+- want how long [Pulmonary embolism](disease) Can be good
+- rule how many days [Adult respiratory distress syndrome](disease) Can be good
+- rule how many hours [Alveolar proteinosis](disease)
+- [Radiation pneumonia](disease) rule Few days Can be good Is it
+- [Septic shock](disease) want rule how many days Ok
+- [Respiratory bronchiole-related interstitial lung disease](disease) how many days Ok
+- [Emphysema](disease) want rule how many days Can be good Ok
+- [Anaphylactic shock](disease) want Few days Can be good Ok
+- [Pulmonary pseudotumor](disease) rule how long Acridine
+- [pneumonia](disease) cycle Acridine
+- want rule How many years [Goodpasture syndrome](disease) Can be good Is it
+- [Wheezing bronchitis](disease) rule cycle What
+- [Bacillus pneumoniae pneumonia](disease) rule how long what
+- [Simple pulmonary eosinophilic infiltration](disease) want Few days Can be good Ah
+- [Cadmium poisoning](disease) want rule How much time Can be good Is it
+- [Respiratory bronchiole-related interstitial lung disease](disease) want rule How many years Acridine
+- want rule a couple of hours [Bullae](disease) Can be good
+- [Respiratory bronchiole-related interstitial lung disease](disease) want How much time
+- [Respiratory bronchiole-related interstitial lung disease](disease) want rule How much time
+- rule a couple of hours [Pulmonary pseudotumor](disease) what
+- [Septic shock](disease) how many days What
+- [Benzene poisoning](disease) How much time Ok
+- [Carbon disulfide poisoning](disease) rule how long Can be good
+- [Alveolar proteinosis](disease) want how long Can be good Ah
+- [Pulmonary Aspergillosis](disease) want rule How many years Can be good what
+- [Building Sick Syndrome](disease) want rule how many days Can be good What
+- [Pulmonary Aspergillosis](disease) how many days Ah
+- want a couple of hours [Pulmonary Cryptococcosis](disease) Can be good
+- [Pulmonary Candidiasis](disease) want rule how long Can be good Yeah
+- [Pulmonary Aspergillosis](disease) how long
+- [Lung abscess](disease) want rule how long Can be good What
+- [Pulmonary embolism](disease) How many years Ok
+- want a couple of hours [Adult respiratory distress syndrome](disease)
+- [Carbon disulfide poisoning](disease) want Few days what
+- rule how long [Radiation pneumonia](disease) Can be good Is it
+- [Pneumococcal pneumonia](disease) How many years Yeah
+- a couple of hours [Lung cancer](disease) Can be good what
+- rule How much time [Building Sick Syndrome](disease) Can be good Ah
+- [Pulmonary embolism](disease) want rule How many years Can be good Ok
+- [Carbon disulfide poisoning](disease) want How much time Ok
+- [Carbon disulfide poisoning](disease) how long Ok
+- want rule how many hours [Bacillus pneumoniae pneumonia](disease) Can be good
+- [Lung abscess](disease) want how many days Acridine
+- [Simple pulmonary eosinophilic infiltration](disease) want rule how many days Can be good Acridine
+- [Lung cancer](disease) rule how many days Can be good Yeah
+- want how many days [Bacillus pneumoniae pneumonia](disease) Can be good Is it
+- [Adult respiratory distress syndrome](disease) How much time what
+- [Lobar Pneumonia](disease) how many hours Ok
+- [Wheezing bronchitis](disease) how long Can be good Ok
+- [Cadmium poisoning](disease) rule how long Can be good what
+- [Simple pulmonary eosinophilic infiltration](disease) How many years Can be good Ah
+- [Building Sick Syndrome](disease) want rule how many hours Can be good Ah
+- [Pulmonary Edema](disease) want rule how many days what
+- [Emphysema](disease) How many years Can be good
+- [Respiratory bronchiole-related interstitial lung disease](disease) how long What
+- [Lung metastases](disease) How much time Yeah
+- rule How many years [Adult respiratory distress syndrome](disease) Can be good Acridine
+- [Simple pulmonary eosinophilic infiltration](disease) want how long What
+- rule Few days [Building Sick Syndrome](disease) Can be good Ah
+- how many hours [Pulmonary pseudotumor](disease) Can be good Yeah
+- [SARS](disease) rule cycle Yeah
+- [Pulmonary Actinomycosis](disease) rule how long Can be good
+- [Wheezing bronchitis](disease) want rule cycle Can be good Ok
+- [Bullae](disease) rule several years Can be good Ok
+- [Goodpasture syndrome](disease) want rule cycle Ok
+- [Pulmonary-pleural amebiasis](disease) want How much time Is it
+- [Pulmonary pseudotumor](disease) rule how many days Can be good Yeah
+- rule how many days [Adult respiratory distress syndrome](disease) Can be good Acridine
+- [Simple pulmonary eosinophilic infiltration](disease) how long Acridine
+- [Pulmonary bullae](disease) rule how long Acridine
+- [Lung abscess](disease) How many years what
+- [Goodpasture syndrome](disease) how long Can be good Is it
+- [Bacillus pneumoniae pneumonia](disease) want several years Is it
+- [Cadmium poisoning](disease) want How much time Can be good Ok
+- How much time [Emphysema](disease) Can be good what
+- several years [Pneumococcal pneumonia](disease) What
+- [Pulmonary Aspergillosis](disease) rule How many years Can be good What
+- [Pneumococcal pneumonia](disease) several years what
+- [Alveolar proteinosis](disease) want rule how many days Acridine
+- [Emphysema](disease) cycle Can be good Is it
+- want a couple of hours [Large amounts of amniotic fluid inhalation](disease) Can be good What
+- want rule how long [Pulmonary pseudotumor](disease) what
+- [SARS](disease) Few days Can be good Ah
+- want how long [Goodpasture syndrome](disease)
+- [Radiation pneumonia](disease) how long Can be good Acridine
+- want Few days [Lobar Pneumonia](disease) Can be good Is it
+- a couple of hours [Bacillus pneumoniae pneumonia](disease) Acridine
+- [Pulmonary bullae](disease) want How much time Can be good Is it
+- [Lung cancer](disease) several years Can be good what
+- [Benzene poisoning](disease) Few days Can be good Is it
+- [Pulmonary-pleural amebiasis](disease) rule How many years Can be good Ah
+- several years [Lung cancer](disease) Ok
+- [Pulmonary Candidiasis](disease) how many hours Yeah
+- [Pulmonary Edema](disease) cycle
+- [Goodpasture syndrome](disease) how long
+- [Benzene poisoning](disease) a couple of hours Ah
+- [Septic shock](disease) rule Few days Can be good What
+- [Goodpasture syndrome](disease) want rule how many hours Is it
+- want rule How much time [Bacillus pneumoniae pneumonia](disease) what
+- [Pulmonary Actinomycosis](disease) rule how long Can be good Is it
+- How much time [Mercury poisoning](disease) Ah
+- [Carbon disulfide poisoning](disease) rule cycle Can be good What
+- want rule Few days [Simple pulmonary eosinophilic infiltration](disease) Can be good
+- want rule cycle [Pulmonary pseudotumor](disease) Can be good Yeah
+- How many years [Mercury poisoning](disease) Can be good Yeah
+- [cold](disease) want rule how many hours Acridine
+- [Septic shock](disease) how long Can be good Ah
+- [Foreign body in the respiratory tract](disease) want how many days Can be good Acridine
+- several years [Alveolar proteinosis](disease) What
+- [Anaphylactic shock](disease) rule how long Yeah
+- a couple of hours [Pulmonary hemorrhage-nephritis syndrome](disease) Can be good what
+- [Foreign body in the respiratory tract](disease) want Few days Can be good
+- rule several years [Pulmonary pseudotumor](disease) Can be good Ah
+- [Respiratory bronchiole-related interstitial lung disease](disease) want rule a couple of hours Can be good Ok
+- rule how long [Pulmonary embolism](disease) Ah
+- rule Few days [Cadmium poisoning](disease) Can be good Acridine
+- [Radiation pneumonia](disease) How many years Can be good Ok
+- [pertussis](disease) How much time Can be good
+- [Pulmonary Aspergillosis](disease) want rule How much time Can be good Yeah
+- [Wheezing bronchitis](disease) how long Acridine
+- cycle [Adult respiratory distress syndrome](disease) Can be good Is it
+- [pertussis](disease) cycle Yeah
+- [Large amounts of amniotic fluid inhalation](disease) want a couple of hours Ah
+- [Foreign body in the respiratory tract](disease) want how many days Can be good Is it
+- [Building Sick Syndrome](disease) rule How many years Can be good Ah
+- [cold](disease) want how many hours Can be good Acridine
+- [SARS](disease) rule how many hours What
+- [Pulmonary embolism](disease) rule how long what
+- [Pulmonary pseudotumor](disease) How many years
+- [Pulmonary hemorrhage-nephritis syndrome](disease) want cycle What
+- Few days [Lobar Pneumonia](disease)
+- [Cadmium poisoning](disease) want rule Few days Can be good Ok
+- want rule how long [Pulmonary-pleural amebiasis](disease) Can be good Acridine
+- several years [Pulmonary-pleural amebiasis](disease) Is it
+- [Lung cancer](disease) rule how long Ok
+- [cold](disease) cycle Can be good Ok
+- [Wheezing bronchitis](disease) want How many years Acridine
+- [Pulmonary-pleural amebiasis](disease) how many days Can be good What
+- rule how long [Alveolar proteinosis](disease) what
+- Few days [Emphysema](disease) Yeah
+- [Goodpasture syndrome](disease) want How many years What
+- How much time [pertussis](disease) What
+- [Pulmonary embolism](disease) want rule how many days Can be good Ok
+- how many days [Lung cancer](disease) Can be good Yeah
+- [Goodpasture syndrome](disease) want cycle Is it
+- want how long [Adult respiratory distress syndrome](disease) Ok
+- [cold](disease) want How much time Can be good Ok
+- want rule cycle [SARS](disease) Can be good Ah
+- want how long [Pulmonary Aspergillosis](disease) Can be good Ah
+- several years [Pulmonary pseudotumor](disease) Can be good what
+- [Goodpasture syndrome](disease) how many days
+- [Pulmonary embolism](disease) a couple of hours What
+- [Lung cancer](disease) rule how long what
+- [Adult respiratory distress syndrome](disease) a couple of hours Ah
+- [Benzene poisoning](disease) cycle Can be good Ok
+- [Pulmonary Aspergillosis](disease) how many days Yeah
+- want rule several years [Anaphylactic shock](disease) Ah
+- [Pulmonary bullae](disease) want how many days Yeah
+- [Radiation pneumonia](disease) rule how long Can be good What
+- how long [Mercury poisoning](disease) Is it
+- [Pulmonary Edema](disease) Few days Can be good Ok
+- want rule How many years [Pulmonary Aspergillosis](disease) Acridine
+- [Pulmonary Cryptococcosis](disease) want how many days Can be good
+- [Pneumococcal pneumonia](disease) want how many days Acridine
+- [Lung cancer](disease) how many hours What
+- [Goodpasture syndrome](disease) Few days Can be good What
+- Few days [Pulmonary embolism](disease) what
+- [Cadmium poisoning](disease) how long Can be good What
+- [Simple pulmonary eosinophilic infiltration](disease) rule How many years Can be good Acridine
+- want rule How much time [Pneumococcal pneumonia](disease) Can be good Yeah
+- want rule Few days [Cadmium poisoning](disease) Can be good Ah
+- [Bacillus pneumoniae pneumonia](disease) want rule a couple of hours
+- want rule how long [Goodpasture syndrome](disease) Ok
+- [Wheezing bronchitis](disease) want rule a couple of hours Yeah
+- [Pulmonary hemorrhage-nephritis syndrome](disease) rule how long Can be good what
+- how long [pneumonia](disease) Ok
+- [Pulmonary Aspergillosis](disease) rule How many years Ah
+- [Simple pulmonary eosinophilic infiltration](disease) how long Yeah
+- [Pulmonary hemorrhage-nephritis syndrome](disease) rule Few days Yeah
+- want how many hours [Pulmonary bullae](disease) Can be good Yeah
+- want several years [Mercury poisoning](disease) Can be good What
+- [Benzene poisoning](disease) several years Can be good Ah
+- [Pulmonary embolism](disease) rule how many days Can be good what
+- [Pulmonary Cryptococcosis](disease) how many days Yeah
+- [Cadmium poisoning](disease) rule How much time Ok
+- [Lung metastases](disease) rule how long Is it
+- [pneumonia](disease) want rule cycle Ah
+- [Radiation pneumonia](disease) how many hours Can be good Is it
+- [Emphysema](disease) want how many hours Yeah
+- [Alveolar proteinosis](disease) rule how many days Can be good Acridine
+- want rule how many hours [Pneumococcal pneumonia](disease) Can be good What
+- [Septic shock](disease) how long What
+- [Emphysema](disease) how long What
+- [Radiation pneumonia](disease) want rule how many days Ok
+- [Lung abscess](disease) want rule Few days Can be good Ok
+- [Respiratory bronchiole-related interstitial lung disease](disease) rule Few days
+- how long [Pulmonary Actinomycosis](disease) Ok
+- want rule how many days [Hypersensitivity pneumonia](disease) Can be good Ok
+- How much time [Pulmonary pseudotumor](disease) Can be good Ok
+- [Pneumococcal pneumonia](disease) rule how many days What
+- [Lobar Pneumonia](disease) want rule how many days Can be good Ok
+- [Benzene poisoning](disease) want rule How many years Can be good Is it
+- [Adult respiratory distress syndrome](disease) rule how long
+- a couple of hours [Pulmonary bullae](disease) Can be good Acridine
+- [Pulmonary Edema](disease) want rule a couple of hours Can be good Yeah
+- several years [Carbon disulfide poisoning](disease) Can be good Is it
+- [Adult respiratory distress syndrome](disease) rule how long Can be good Acridine
+- [Pulmonary Edema](disease) how long Can be good
+- [Benzene poisoning](disease) rule several years
+- [Goodpasture syndrome](disease) a couple of hours Acridine
+- [Hypersensitivity pneumonia](disease) want Few days Can be good
+- [Simple pulmonary eosinophilic infiltration](disease) How much time Can be good Is it
+- rule How much time [cold](disease) Can be good Ah
+- want how many days [Pulmonary Aspergillosis](disease) Ah
+- [Pulmonary hemorrhage-nephritis syndrome](disease) want rule a couple of hours Is it
+- want rule a couple of hours [Respiratory bronchiole-related interstitial lung disease](disease) Can be good Yeah
+- want rule cycle [Alveolar proteinosis](disease) Can be good Yeah
+- [Benzene poisoning](disease) want rule how long Can be good Acridine
+- [Respiratory bronchiole-related interstitial lung disease](disease) want rule a couple of hours Can be good what
+- want rule cycle [cold](disease) Can be good Is it
+- [Pulmonary Candidiasis](disease) want Few days Can be good Ah
+- Few days [Pulmonary-pleural amebiasis](disease) Can be good
+- How many years [Septic shock](disease) Can be good Ah
+- [Pulmonary Actinomycosis](disease) want rule a couple of hours Acridine
+- [Foreign body in the respiratory tract](disease) want how many days Ok
+- [cold](disease) rule Few days Yeah
+- [Lung cancer](disease) want rule How many years Can be good Ah
+- [Pulmonary Cryptococcosis](disease) how long Can be good
+- want rule several years [Septic shock](disease) Can be good
+- [Bullae](disease) several years Is it
+- rule how many hours [Pulmonary Aspergillosis](disease) Can be good what
+- [Adult respiratory distress syndrome](disease) rule several years Can be good Yeah
+- rule how long [Lung abscess](disease) Is it
+- [Pulmonary embolism](disease) want rule how long Can be good
+- [cold](disease) want how many hours Acridine
+- want a couple of hours [Pulmonary embolism](disease) Ah
+- [Pulmonary bullae](disease) want rule how many hours what
+- [Bacillus pneumoniae pneumonia](disease) want rule how long Can be good Yeah
+- how many days [Pulmonary Candidiasis](disease) Can be good Yeah
+- [Mercury poisoning](disease) want how long
+- [Goodpasture syndrome](disease) How many years What
+- rule How many years [Simple pulmonary eosinophilic infiltration](disease) Can be good Ok
+- want rule Few days [Foreign body in the respiratory tract](disease) Ah
+- want rule how long [Foreign body in the respiratory tract](disease)
+- [Bullae](disease) several years Can be good what
+- [Pulmonary Aspergillosis](disease) want several years Can be good Ah
+- [Pulmonary bullae](disease) want rule how long What
+- rule a couple of hours [Respiratory bronchiole-related interstitial lung disease](disease) Is it
+- want rule how many hours [pneumonia](disease) What
+- [Simple pulmonary eosinophilic infiltration](disease) a couple of hours Can be good what
+- want how many days [Pneumococcal pneumonia](disease) Yeah
+- [Pulmonary Edema](disease) want how many hours Ah
+- rule a couple of hours [Alveolar proteinosis](disease) Can be good
+- cycle [Cadmium poisoning](disease) Can be good Ok
+- [Lung metastases](disease) want cycle What
+- [Pulmonary Aspergillosis](disease) want rule Few days Is it
+- want how many days [Pneumococcal pneumonia](disease) Can be good Ok
+- [Pulmonary Edema](disease) How many years Can be good Ok
+- rule How much time [Anaphylactic shock](disease) Can be good what
+- [Carbon disulfide poisoning](disease) rule how many hours
+- [Benzene poisoning](disease) rule cycle Can be good Yeah
+- [Bullae](disease) want rule how many days what
+- [Mercury poisoning](disease) rule How many years Can be good what
+- Few days [Mercury poisoning](disease) Can be good what
+- rule how many hours [Large amounts of amniotic fluid inhalation](disease) What
+- [SARS](disease) want rule a couple of hours Ok
+- cycle [Pneumococcal pneumonia](disease) Can be good Acridine
+- [Goodpasture syndrome](disease) want rule how many hours Ok
+- [Pulmonary Aspergillosis](disease) rule how many days Can be good Is it
+- [Pulmonary hemorrhage-nephritis syndrome](disease) want rule how many days Can be good Ok
+- [Lung abscess](disease) want how long Ah
+- [SARS](disease) how many days Ah
+- want rule several years [Carbon disulfide poisoning](disease) what
+- want rule several years [cold](disease) Ok
+- want cycle [Simple pulmonary eosinophilic infiltration](disease) Can be good Ah
+- [Lobar Pneumonia](disease) several years Can be good Is it
+- [Foreign body in the respiratory tract](disease) want cycle Can be good Ok
+- [Wheezing bronchitis](disease) How much time Can be good what
+- [Pulmonary Cryptococcosis](disease) several years Is it
+- [Building Sick Syndrome](disease) want rule how long What
+- [Hypersensitivity pneumonia](disease) want rule How many years Can be good Acridine
+- want rule how long [Pulmonary bullae](disease) Can be good what
+- [Carbon disulfide poisoning](disease) want cycle what
+- [Pulmonary Cryptococcosis](disease) how many hours Can be good Acridine
+- Few days [Pneumococcal pneumonia](disease) Can be good Ah
+- [Bacillus pneumoniae pneumonia](disease) how many days
+- [Lung metastases](disease) want rule how long Can be good Ok
+- want rule How many years [Wheezing bronchitis](disease)
+- [Emphysema](disease) How many years Can be good Yeah
+- [Pulmonary pseudotumor](disease) want rule Few days Yeah
+- want rule How much time [Simple pulmonary eosinophilic infiltration](disease)
+- [Respiratory bronchiole-related interstitial lung disease](disease) want rule Few days what
+- [Large amounts of amniotic fluid inhalation](disease) want rule How much time Can be good Is it
+- [Pulmonary Candidiasis](disease) rule cycle Ok
+- a couple of hours [Lung metastases](disease)
+- a couple of hours [Mercury poisoning](disease) Can be good What
+- several years [Radiation pneumonia](disease) What
+- [Lung abscess](disease) want rule how many hours
+- [Alveolar proteinosis](disease) several years Can be good Is it
+- [Pulmonary-pleural amebiasis](disease) want rule a couple of hours Acridine
+- want rule How much time [Pulmonary Candidiasis](disease) Can be good Ah
+- How much time [Wheezing bronchitis](disease) Can be good Acridine
+- [Septic shock](disease) rule How much time Can be good Ok
+- [Large amounts of amniotic fluid inhalation](disease) several years Can be good Yeah
+- [Wheezing bronchitis](disease) want rule Few days Acridine
+- [Cadmium poisoning](disease) want rule Few days Can be good what
+- [Pulmonary Candidiasis](disease) how long Can be good Yeah
+- [Cadmium poisoning](disease) want several years Can be good Yeah
+- rule several years [Pulmonary Edema](disease)
+- [Anaphylactic shock](disease) want rule how long Can be good Ok
+- [Lung cancer](disease) rule how many days Can be good Ah
+- want rule how long [Cadmium poisoning](disease)
+- [Building Sick Syndrome](disease) want rule several years Can be good Ok
+- [Pulmonary Aspergillosis](disease) want a couple of hours Ah
+- [Lobar Pneumonia](disease) want rule cycle Acridine
+- [Pulmonary Candidiasis](disease) How many years Can be good
+- [Lobar Pneumonia](disease) rule how long Ah
+- [Pulmonary Candidiasis](disease) rule how long Can be good Ok
+- [Carbon disulfide poisoning](disease) how many hours Can be good Is it
+- rule how long [Lung metastases](disease) Is it
+- [Alveolar proteinosis](disease) want rule how many days Can be good
+- [Wheezing bronchitis](disease) rule How many years Can be good Ah
+- [Pulmonary embolism](disease) want How much time Is it
+- [Simple pulmonary eosinophilic infiltration](disease) want a couple of hours Can be good Ah
+- [Emphysema](disease) want rule how long Can be good Yeah
+- want how many days [Pulmonary Edema](disease) Acridine
+- [Alveolar proteinosis](disease) want how many days Can be good Ok
+- [Septic shock](disease) want rule cycle Can be good Is it
+- [Pulmonary Aspergillosis](disease) want rule How many years Can be good Acridine
+- [Foreign body in the respiratory tract](disease) rule how many hours Can be good Acridine
+- [Pulmonary pseudotumor](disease) cycle Yeah
+- [Emphysema](disease) how long Is it
+- rule How much time [Pulmonary-pleural amebiasis](disease) Ok
+- [Cadmium poisoning](disease) rule Few days what
+- [Pulmonary Cryptococcosis](disease) how many hours Can be good Is it
+- how many hours [Adult respiratory distress syndrome](disease)
+- [SARS](disease) rule how many hours Can be good What
+- rule several years [Pulmonary pseudotumor](disease) Can be good what
+- [Pulmonary embolism](disease) how long Can be good Is it
+- [pertussis](disease) want Few days What
+- [Pneumococcal pneumonia](disease) want rule How much time Ah
+- [Large amounts of amniotic fluid inhalation](disease) rule how many hours Can be good Is it
+- [Cadmium poisoning](disease) a couple of hours Can be good Ok
+- [Alveolar proteinosis](disease) want How much time Can be good Ah
+- rule How many years [Pneumococcal pneumonia](disease) Can be good what
+- rule how long [Pulmonary Candidiasis](disease) Can be good
+- rule how many days [Adult respiratory distress syndrome](disease) Can be good Is it
+- want how many days [Goodpasture syndrome](disease) Ok
+- want how many days [Foreign body in the respiratory tract](disease) Can be good What
+- rule several years [Pulmonary-pleural amebiasis](disease) Can be good Acridine
+- [Alveolar proteinosis](disease) want rule Few days Can be good
+- [Pulmonary Candidiasis](disease) how many days Ah
+- [Pulmonary-pleural amebiasis](disease) want how long Can be good Ah
+- want rule How many years [Bullae](disease) What
+- [Wheezing bronchitis](disease) rule How much time Is it
+- [Lung cancer](disease) rule how long Ah
+- [Hypersensitivity pneumonia](disease) Few days Can be good what
+- [Respiratory bronchiole-related interstitial lung disease](disease) cycle Ah
+- [Alveolar proteinosis](disease) how many hours Yeah
+- How many years [Carbon disulfide poisoning](disease) What
+- [Emphysema](disease) rule several years Ah
+- [Pneumococcal pneumonia](disease) want several years Ah
+- [cold](disease) how long Ah
+- [Pulmonary embolism](disease) rule a couple of hours Is it
+- [Pulmonary Actinomycosis](disease) rule cycle Can be good Ok
+- [Large amounts of amniotic fluid inhalation](disease) How many years Acridine
+- [Bullae](disease) want rule cycle Can be good Yeah
+- Few days [Septic shock](disease) Yeah
+- rule how many days [SARS](disease) Can be good Is it
+- [Pulmonary hemorrhage-nephritis syndrome](disease) want rule several years Acridine
+- rule a couple of hours [Alveolar proteinosis](disease) Ah
+- how many hours [Lung cancer](disease) Can be good Yeah
+- [Pulmonary Aspergillosis](disease) want Few days Can be good What
+- want rule how many days [Lung abscess](disease) Yeah
+- a couple of hours [Lung abscess](disease) Acridine
+- rule cycle [pertussis](disease) Is it
+- [Pulmonary Aspergillosis](disease) want rule How many years
+- [Alveolar proteinosis](disease) a couple of hours
+- want how many hours [SARS](disease) Is it
+- [Pulmonary bullae](disease) rule how long what
+- rule how long [SARS](disease) Can be good
+- [Mercury poisoning](disease) want how many days Can be good Ok
+- [Pulmonary Aspergillosis](disease) want Few days
+- [Pneumococcal pneumonia](disease) rule How much time
+- rule how long [Building Sick Syndrome](disease) Can be good Ah
+- [Goodpasture syndrome](disease) want How much time
+- [Goodpasture syndrome](disease) want rule how many hours Can be good Acridine
+- want a couple of hours [Bullae](disease) Ah
+- [Large amounts of amniotic fluid inhalation](disease) want how many days Can be good Ah
+- [Alveolar proteinosis](disease) rule Few days Can be good
+- [Lobar Pneumonia](disease) want cycle Can be good
+- [Benzene poisoning](disease) want rule a couple of hours Yeah
+- how many hours [Lobar Pneumonia](disease) Yeah
+- [SARS](disease) how many hours what
+- [Pulmonary Edema](disease) rule How many years Can be good what
+- [Septic shock](disease) want rule How many years Ok
+- [Respiratory bronchiole-related interstitial lung disease](disease) want How much time Can be good Acridine
+- [Pneumococcal pneumonia](disease) want rule Few days what
+- [Lobar Pneumonia](disease) want cycle Can be good Yeah
+- [Carbon disulfide poisoning](disease) rule how many days Acridine
+- [Lung metastases](disease) want rule how many days Acridine
+- a couple of hours [Pulmonary hemorrhage-nephritis syndrome](disease) Ah
+- How much time [Pulmonary Cryptococcosis](disease) Ah
+- want rule cycle [pertussis](disease) Can be good what
+- want how long [SARS](disease) Yeah
+- [Lobar Pneumonia](disease) cycle Can be good Acridine
+- [Bacillus pneumoniae pneumonia](disease) rule a couple of hours Ah
+- [SARS](disease) want how many hours Can be good What
+- [Mercury poisoning](disease) want rule cycle Is it
+- want How much time [Lung abscess](disease) Can be good What
+- [Pneumococcal pneumonia](disease) want rule How many years Can be good What
+- [SARS](disease) want how many days Acridine
+- want how long [Wheezing bronchitis](disease)
+- How much time [Lung metastases](disease) What
+- want cycle [Alveolar proteinosis](disease) Acridine
+- [Pulmonary pseudotumor](disease) want how many days what
+- [Anaphylactic shock](disease) cycle Can be good Ah
+- [Alveolar proteinosis](disease) rule How much time Can be good Yeah
+- want How much time [Pneumococcal pneumonia](disease) Can be good what
+- [pertussis](disease) want rule how long Can be good Ah
+- want rule how long [Septic shock](disease) Ok
+- [Pulmonary pseudotumor](disease) rule how many hours Can be good
+- want rule Few days [Pulmonary Aspergillosis](disease) Can be good Ah
+- [Pneumococcal pneumonia](disease) want How many years Ah
+- [Alveolar proteinosis](disease) rule Few days Yeah
+- how many days [Pulmonary Actinomycosis](disease) Can be good Acridine
+- want rule cycle [Building Sick Syndrome](disease) Acridine
+- [Bullae](disease) want rule Few days Can be good Acridine
+- [Goodpasture syndrome](disease) How much time What
+- [Lung cancer](disease) want rule how many hours Can be good Acridine
+- [Pulmonary pseudotumor](disease) want cycle what
+- [Building Sick Syndrome](disease) want how many hours Can be good Ok
+- Few days [Lung abscess](disease) Can be good What
+- [Simple pulmonary eosinophilic infiltration](disease) want how long Ok
+- [SARS](disease) want rule Few days Acridine
+- [Lung metastases](disease) want Few days Can be good
+- [Benzene poisoning](disease) rule how long What
+- [Pneumococcal pneumonia](disease) want how long Ah
+- [Septic shock](disease) Few days Ah
+- [Carbon disulfide poisoning](disease) want How many years Acridine
+- [Pulmonary Edema](disease) want rule how long Acridine
+- [Bacillus pneumoniae pneumonia](disease) rule How much time Is it
+- a couple of hours [SARS](disease) Can be good Acridine
+- want how many days [Pulmonary Edema](disease) Is it
+- [Carbon disulfide poisoning](disease) how many hours Can be good
+- How many years [SARS](disease) Can be good What
+- rule how many hours [Mercury poisoning](disease) Can be good Ok
+- [Pulmonary Edema](disease) how many days Can be good Ok
+- want several years [Bullae](disease) what
+- [Cadmium poisoning](disease) rule how many days Can be good
+- [Pulmonary bullae](disease) want rule a couple of hours Can be good What
+- rule Few days [Simple pulmonary eosinophilic infiltration](disease) Can be good Ok
+- [Septic shock](disease) rule Few days Can be good Yeah
+- How many years [Bacillus pneumoniae pneumonia](disease) Can be good Yeah
+- [pertussis](disease) how many hours What
+- [Pulmonary embolism](disease) rule how long Can be good
+- [Alveolar proteinosis](disease) a couple of hours Can be good
+- [Alveolar proteinosis](disease) how many hours What
+- rule several years [Septic shock](disease) Can be good Ok
+- [Foreign body in the respiratory tract](disease) How many years Can be good What
+- [Alveolar proteinosis](disease) want how long Can be good Yeah
+- [Bullae](disease) want How much time Can be good Ah
+- [Pulmonary Edema](disease) want rule several years Can be good Is it
+- [Pulmonary-pleural amebiasis](disease) want cycle
+- [Alveolar proteinosis](disease) want rule a couple of hours Can be good What
+- [Pulmonary Aspergillosis](disease) want How much time Can be good Ah
+- [Hypersensitivity pneumonia](disease) want How many years Is it
+- how many days [Benzene poisoning](disease) Can be good Acridine
+- [Emphysema](disease) How much time Can be good what
+- [Carbon disulfide poisoning](disease) rule how long What
+- rule cycle [Pulmonary-pleural amebiasis](disease) Can be good
+- rule cycle [pertussis](disease) Can be good
+- [Benzene poisoning](disease) want rule Few days
+- [Adult respiratory distress syndrome](disease) How many years Yeah
+- [Hypersensitivity pneumonia](disease) want how long Can be good Ok
+- [Pulmonary-pleural amebiasis](disease) want how long Is it
+- rule a couple of hours [Large amounts of amniotic fluid inhalation](disease) Can be good Ok
+- [Emphysema](disease) want how long What
+- [Bullae](disease) rule how long Can be good What
+- [cold](disease) rule How many years Can be good Acridine
+- want how many days [Pulmonary pseudotumor](disease) Can be good Yeah
+- rule how long [Respiratory bronchiole-related interstitial lung disease](disease) Can be good Ah
+- [Respiratory bronchiole-related interstitial lung disease](disease) want rule How many years Is it
+- [Bacillus pneumoniae pneumonia](disease) want rule how many hours Can be good
+- [SARS](disease) want How many years Ok
+- [Pneumococcal pneumonia](disease) want how many hours Can be good what
+- rule how many hours [SARS](disease) Is it
+- [Anaphylactic shock](disease) want how many hours what
+- [Large amounts of amniotic fluid inhalation](disease) How many years Can be good Yeah
+- [Septic shock](disease) want a couple of hours Can be good what
+- want rule a couple of hours [Pulmonary Aspergillosis](disease) Can be good Ok
+- [Carbon disulfide poisoning](disease) how long Can be good Acridine
+- [Wheezing bronchitis](disease) want a couple of hours What
+- [Pneumococcal pneumonia](disease) Few days Can be good what
+- [Alveolar proteinosis](disease) how long Can be good What
+- [Alveolar proteinosis](disease) rule how long Can be good Ah
+- [Bullae](disease) how many hours
+- [Pulmonary Edema](disease) rule Few days Is it
+- [Anaphylactic shock](disease) how many days
+- [Bacillus pneumoniae pneumonia](disease) Few days Is it
+- [SARS](disease) rule how many days
+- want rule a couple of hours [Carbon disulfide poisoning](disease)
+- [Pulmonary bullae](disease) want cycle Ah
+- [Lung metastases](disease) want rule how many days Can be good
+- how many hours [Pulmonary hemorrhage-nephritis syndrome](disease) Can be good Is it
+- [Cadmium poisoning](disease) want How many years Can be good Ok
+- [Pulmonary Candidiasis](disease) rule how many hours Can be good Yeah
+- [Pulmonary pseudotumor](disease) How much time Yeah
+- [Pulmonary Aspergillosis](disease) a couple of hours Can be good Is it
+- [Lobar Pneumonia](disease) Few days Can be good Is it
+- [Foreign body in the respiratory tract](disease) want rule how long what
+- [Bullae](disease) rule cycle Can be good Yeah
+- [Septic shock](disease) want rule Few days What
+- [Wheezing bronchitis](disease) want rule how many days Can be good Yeah
+- [Lung abscess](disease) How much time Ok
+- a couple of hours [Pulmonary hemorrhage-nephritis syndrome](disease) Can be good Ah
+- [Anaphylactic shock](disease) rule Few days Ah
+- a couple of hours [Septic shock](disease) Yeah
+- [Pneumococcal pneumonia](disease) several years Can be good Acridine
+- [Alveolar proteinosis](disease) want How much time Can be good
+- [Large amounts of amniotic fluid inhalation](disease) how long what
+- [Pneumococcal pneumonia](disease) want rule cycle Can be good
+- want rule Few days [Large amounts of amniotic fluid inhalation](disease) Acridine
+- [Pulmonary embolism](disease) want rule how long Ah
+- [Pulmonary pseudotumor](disease) want how many days Can be good Is it
+- [Pulmonary pseudotumor](disease) rule How much time Can be good Acridine
+- Few days [Hypersensitivity pneumonia](disease) Can be good Is it
+- [Benzene poisoning](disease) How much time Can be good what
+- [Anaphylactic shock](disease) rule how long Ah
+- want a couple of hours [Mercury poisoning](disease) Acridine
+- how many days [SARS](disease) Can be good
+- [Wheezing bronchitis](disease) a couple of hours Can be good what
+- [Bacillus pneumoniae pneumonia](disease) several years Ok
+- want a couple of hours [Foreign body in the respiratory tract](disease) Can be good Ah
+- [Pulmonary-pleural amebiasis](disease) want how many days Can be good what
+- [Pulmonary embolism](disease) want a couple of hours Is it
+- [Lung abscess](disease) want rule a couple of hours Yeah
+- [Pulmonary bullae](disease) want rule How many years Is it
+- want cycle [Anaphylactic shock](disease) Can be good What
+- [Pulmonary bullae](disease) rule How much time Ah
+- [Pulmonary pseudotumor](disease) want rule cycle what
+- [Bacillus pneumoniae pneumonia](disease) want rule How much time Can be good
+- [Pulmonary-pleural amebiasis](disease) Few days Can be good Yeah
+- how many hours [Lobar Pneumonia](disease) Acridine
+- want rule How many years [Hypersensitivity pneumonia](disease) Can be good Acridine
+- [Large amounts of amniotic fluid inhalation](disease) want how many days What
+- [Benzene poisoning](disease) want rule Few days Can be good Acridine
+- [Alveolar proteinosis](disease) want how long Can be good Acridine
+- rule How much time [Pulmonary Candidiasis](disease) Can be good Acridine
+- [Hypersensitivity pneumonia](disease) how long Ok
+- rule how long [Alveolar proteinosis](disease) Is it
+- [cold](disease) want how many days Can be good Ok
+- [Simple pulmonary eosinophilic infiltration](disease) rule cycle Can be good Acridine
+- [Pulmonary Actinomycosis](disease) want how many days Can be good Yeah
+- [Benzene poisoning](disease) several years
+- [Pulmonary-pleural amebiasis](disease) rule how many hours Ok
+- how many hours [Foreign body in the respiratory tract](disease) Can be good
+- [Benzene poisoning](disease) want How much time Ah
+- a couple of hours [Bacillus pneumoniae pneumonia](disease) Can be good Yeah
+- How many years [Adult respiratory distress syndrome](disease) What
+- [Alveolar proteinosis](disease) rule how long what
+- want how many hours [Pneumococcal pneumonia](disease) Is it
+- [Radiation pneumonia](disease) want rule How many years what
+- [Hypersensitivity pneumonia](disease) want rule How much time What
+- [Pulmonary pseudotumor](disease) rule How many years Can be good Acridine
+- [pneumonia](disease) want cycle Can be good Acridine
+- How many years [Alveolar proteinosis](disease)
+- [Bullae](disease) cycle what
+- [Lung metastases](disease) want rule how many hours What
+- [Bacillus pneumoniae pneumonia](disease) want how many days Yeah
+- [Alveolar proteinosis](disease) want rule cycle Can be good Yeah
+- [Lung cancer](disease) rule How much time Yeah
+- [Pulmonary Aspergillosis](disease) want How much time What
+- rule Few days [Anaphylactic shock](disease)
+- [Cadmium poisoning](disease) rule several years
+- rule how many days [Cadmium poisoning](disease) What
+- want rule how long [Pulmonary bullae](disease)
+- want how many hours [Wheezing bronchitis](disease) Ah
+- [Respiratory bronchiole-related interstitial lung disease](disease) want rule how many hours Can be good What
+- [Goodpasture syndrome](disease) want rule several years Acridine
+- [Lung abscess](disease) a couple of hours what
+- [Radiation pneumonia](disease) rule Few days Can be good Acridine
+- [Pulmonary embolism](disease) want rule a couple of hours Is it
+- [Pulmonary Aspergillosis](disease) rule how many hours Can be good
+- [Cadmium poisoning](disease) want rule cycle Ok
+- [cold](disease) How many years Can be good Ok
+- [Pulmonary Actinomycosis](disease) want rule a couple of hours Can be good Acridine
+- want how many hours [Pulmonary Candidiasis](disease)
+- [Carbon disulfide poisoning](disease) want a couple of hours Yeah
+- rule how many hours [Carbon disulfide poisoning](disease) Can be good Acridine
+- [Pulmonary Actinomycosis](disease) rule how many days Yeah
+- [Lung abscess](disease) want How much time Acridine
+- [Alveolar proteinosis](disease) rule Few days Can be good Acridine
+- [Pulmonary-pleural amebiasis](disease) want cycle Can be good Yeah
+- want rule how many hours [Pulmonary Edema](disease) Can be good what
+- [Alveolar proteinosis](disease) want How many years What
+- [Respiratory bronchiole-related interstitial lung disease](disease) rule how long Can be good Is it
+- several years [Anaphylactic shock](disease) Is it
+- How many years [Pulmonary Actinomycosis](disease) Can be good Ok
+- [Benzene poisoning](disease) want rule How much time what
+- [Alveolar proteinosis](disease) want rule how many hours Can be good what
+- rule how many hours [Cadmium poisoning](disease) Can be good Yeah
+- [Lung abscess](disease) want how long Can be good Yeah
+- want How much time [Mercury poisoning](disease) Acridine
+- [Bullae](disease) want rule How many years Yeah
+- [Pneumococcal pneumonia](disease) rule how many days Can be good Yeah
+- [SARS](disease) want How many years Can be good what
+- [SARS](disease) how many days what
+- [Pulmonary hemorrhage-nephritis syndrome](disease) rule How many years Can be good
+- want several years [Carbon disulfide poisoning](disease)
+- want rule How many years [Hypersensitivity pneumonia](disease) Acridine
+- a couple of hours [Bullae](disease) what
+- want how long [pneumonia](disease) Can be good Ok
+- [Pulmonary pseudotumor](disease) how long Is it
+- [Bacillus pneumoniae pneumonia](disease) rule cycle Acridine
+- rule how many hours [Hypersensitivity pneumonia](disease) Is it
+- want how many hours [Respiratory bronchiole-related interstitial lung disease](disease) Can be good what
+- [Bullae](disease) want Few days Yeah
+- [Pulmonary bullae](disease) want how many days what
+- [Alveolar proteinosis](disease) want cycle Can be good what
+- [pneumonia](disease) rule several years Ok
+- [Pulmonary pseudotumor](disease) want rule a couple of hours Ah
+- rule how long [Pulmonary Cryptococcosis](disease) Is it
+- [Lung abscess](disease) rule How many years
+- [Lung metastases](disease) rule how long Acridine
+- [cold](disease) want rule cycle Can be good Is it
+- want How much time [Cadmium poisoning](disease) what
+- [Foreign body in the respiratory tract](disease) cycle Can be good Is it
+- several years [Radiation pneumonia](disease) Can be good Ok
+- want rule Few days [Benzene poisoning](disease) Yeah
+- [Pulmonary-pleural amebiasis](disease) How many years Yeah
+- [Hypersensitivity pneumonia](disease) want Few days
+- [Radiation pneumonia](disease) want rule cycle
+- want how long [Pulmonary Actinomycosis](disease) Acridine
+- [Bullae](disease) rule how many hours Can be good What
+- [Carbon disulfide poisoning](disease) rule how many hours Ok
+- want rule Few days [Bullae](disease)
+- [Pulmonary-pleural amebiasis](disease) want rule several years What
+- want how long [Bacillus pneumoniae pneumonia](disease) Yeah
+- [Benzene poisoning](disease) several years Ah
+- [Lung metastases](disease) want how many hours Is it
+- [Alveolar proteinosis](disease) want rule how long Can be good what
+- [Lung metastases](disease) want rule how many hours Is it
+- how many hours [Benzene poisoning](disease) Can be good
+- a couple of hours [Large amounts of amniotic fluid inhalation](disease) Ah
+- [Benzene poisoning](disease) rule how many days Is it
+- [Lung metastases](disease) how long Can be good what
+- [Pulmonary pseudotumor](disease) a couple of hours Ok
+- [Respiratory bronchiole-related interstitial lung disease](disease) want rule several years Ok
+- [Goodpasture syndrome](disease) rule how long Yeah
+- [Pneumococcal pneumonia](disease) want rule several years
+- [Carbon disulfide poisoning](disease) rule How many years Can be good
+- how many hours [pertussis](disease) Can be good Ok
+- How much time [Large amounts of amniotic fluid inhalation](disease) Can be good What
+- [Carbon disulfide poisoning](disease) how many hours Can be good what
+- [Radiation pneumonia](disease) want how long Can be good Acridine
+- [Benzene poisoning](disease) want rule how many hours Can be good Yeah
+- rule how long [Pulmonary embolism](disease) Is it
+- [Alveolar proteinosis](disease) want rule how many days Ah
+- [Anaphylactic shock](disease) rule a couple of hours Can be good Yeah
+- [Pulmonary pseudotumor](disease) cycle Can be good Yeah
+- [Pulmonary pseudotumor](disease) want rule cycle Can be good Yeah
+- [pneumonia](disease) want How many years Can be good what
+- [Large amounts of amniotic fluid inhalation](disease) how long
+- [Building Sick Syndrome](disease) want rule Few days what
+- [Emphysema](disease) a couple of hours Can be good Ok
+- want how many days [Bacillus pneumoniae pneumonia](disease) Can be good
+- [Pulmonary hemorrhage-nephritis syndrome](disease) want rule cycle Can be good what
+- want rule how many days [pneumonia](disease) Can be good Acridine
+- [Pulmonary Actinomycosis](disease) want rule a couple of hours
+- [Respiratory bronchiole-related interstitial lung disease](disease) want How many years Can be good Ah
+- [Pulmonary pseudotumor](disease) want rule how long Ok
+- want how many hours [Alveolar proteinosis](disease) Can be good Ok
+- [Large amounts of amniotic fluid inhalation](disease) want rule cycle Can be good Ok
+- [Pulmonary pseudotumor](disease) rule how long what
+- [Simple pulmonary eosinophilic infiltration](disease) want rule a couple of hours Can be good Is it
+- [cold](disease) want rule cycle What
+- [Adult respiratory distress syndrome](disease) how many days Can be good Ok
+- [Pulmonary Candidiasis](disease) cycle Ok
+- [Pneumococcal pneumonia](disease) want How many years what
+- [Pulmonary bullae](disease) want rule How much time What
+- [Foreign body in the respiratory tract](disease) want how long what
+- [Building Sick Syndrome](disease) want rule How much time Ok
+- Few days [Alveolar proteinosis](disease) Can be good What
+- [Pulmonary Edema](disease) want rule cycle Yeah
+- rule how many hours [Adult respiratory distress syndrome](disease) Can be good Acridine
+- [Hypersensitivity pneumonia](disease) want rule Few days Can be good Yeah
+- [SARS](disease) rule How much time Ok
+- want rule how long [Bacillus pneumoniae pneumonia](disease) Can be good Is it
+- several years [Lung cancer](disease) Can be good What
+- [Pulmonary Edema](disease) rule cycle
+- [Alveolar proteinosis](disease) want how many days Can be good what
+- rule cycle [Cadmium poisoning](disease) Ah
+- [pneumonia](disease) rule how many days Can be good
+- [Pulmonary Edema](disease) want several years What
+- want how many hours [Hypersensitivity pneumonia](disease) Yeah
+- [Alveolar proteinosis](disease) rule several years Is it
+
+## intent:search_easy_get
+- Easy to get infected [Anaphylactic shock](disease) What
+- Easy to get infected [Emphysema](disease) Ah
+- who [Pneumococcal pneumonia](disease) Acridine
+- Easy to get infected [Bullae](disease) Ah
+- Easy to get infected [Wheezing bronchitis](disease) what
+- Prone group [Mercury poisoning](disease) What
+- who [Pulmonary-pleural amebiasis](disease) Yeah
+- who [pneumonia](disease) Is it
+- who [Hypersensitivity pneumonia](disease) Acridine
+- Susceptible population [Bullae](disease)
+- who [cold](disease) Ah
+- Which people [Pulmonary Edema](disease) Yeah
+- Easy to get infected [Bacillus pneumoniae pneumonia](disease)
+- who [Pneumococcal pneumonia](disease) What
+- Which people [Pulmonary Candidiasis](disease) Is it
+- Easy to get infected [Building Sick Syndrome](disease)
+- Easy to get infected [SARS](disease)
+- Which people [Hypersensitivity pneumonia](disease) Is it
+- Prone group [Adult respiratory distress syndrome](disease) Is it
+- Susceptible population [Pulmonary Actinomycosis](disease) what
+- Susceptible population [Pulmonary Cryptococcosis](disease) Yeah
+- who [Pulmonary-pleural amebiasis](disease) Acridine
+- Prone group [Large amounts of amniotic fluid inhalation](disease) What
+- Easy to get infected [Pulmonary-pleural amebiasis](disease) What
+- Which people [Pulmonary Edema](disease) What
+- Easy to get infected [Pulmonary bullae](disease) Acridine
+- Susceptible population [Pulmonary embolism](disease) Is it
+- who [Pulmonary-pleural amebiasis](disease) Ok
+- Which people [cold](disease) Yeah
+- Which people [SARS](disease) Acridine
+- Susceptible population [Respiratory bronchiole-related interstitial lung disease](disease) Is it
+- who [Building Sick Syndrome](disease) Is it
+- Which people [Pulmonary-pleural amebiasis](disease) What
+- Which people [Radiation pneumonia](disease) Is it
+- Easy to get infected [Alveolar proteinosis](disease) Acridine
+- Which people [cold](disease) Acridine
+- Easy to get infected [cold](disease) Acridine
+- Which people [Radiation pneumonia](disease) What
+- Susceptible population [Bacillus pneumoniae pneumonia](disease) Is it
+- Easy to get infected [Bacillus pneumoniae pneumonia](disease) what
+- Which people [Respiratory bronchiole-related interstitial lung disease](disease)
+- Which people [cold](disease)
+- Which people [Mercury poisoning](disease) what
+- Which people [Emphysema](disease) Acridine
+- Prone group [Lobar Pneumonia](disease) What
+- Which people [Pulmonary hemorrhage-nephritis syndrome](disease) What
+- Prone group [Septic shock](disease) Yeah
+- Susceptible population [Large amounts of amniotic fluid inhalation](disease) Is it
+- who [Pulmonary embolism](disease) Ah
+- Easy to get infected [Hypersensitivity pneumonia](disease) Yeah
+- Easy to get infected [Pulmonary embolism](disease)
+- Prone group [Pulmonary Candidiasis](disease) What
+- who [Emphysema](disease) Yeah
+- Easy to get infected [Bullae](disease) Yeah
+- Which people [Adult respiratory distress syndrome](disease) Ah
+- Easy to get infected [Pulmonary Actinomycosis](disease) Ah
+- Which people [Bacillus pneumoniae pneumonia](disease) What
+- who [Lobar Pneumonia](disease) what
+- Which people [Bullae](disease) what
+- Easy to get infected [Wheezing bronchitis](disease) Acridine
+- who [Pulmonary Cryptococcosis](disease) Is it
+- Which people [Adult respiratory distress syndrome](disease)
+- Easy to get infected [Pulmonary hemorrhage-nephritis syndrome](disease) Ok
+- Easy to get infected [Bacillus pneumoniae pneumonia](disease) Acridine
+- Prone group [Respiratory bronchiole-related interstitial lung disease](disease) Ok
+- Which people [Alveolar proteinosis](disease) Acridine
+- who [Septic shock](disease)
+- Susceptible population [Pulmonary Candidiasis](disease) Ah
+- Easy to get infected [Pulmonary embolism](disease) Acridine
+- Susceptible population [Alveolar proteinosis](disease) Ah
+- who [Lung metastases](disease) Yeah
+- Prone group [Pulmonary Edema](disease) Is it
+- Easy to get infected [Respiratory bronchiole-related interstitial lung disease](disease) Acridine
+- Susceptible population [Lung cancer](disease) what
+- who [Wheezing bronchitis](disease) Yeah
+- Which people [Simple pulmonary eosinophilic infiltration](disease) Acridine
+- Prone group [Alveolar proteinosis](disease) Is it
+- Prone group [Lung metastases](disease) Acridine
+- Easy to get infected [Anaphylactic shock](disease) Ah
+- Easy to get infected [Pneumococcal pneumonia](disease) what
+- Susceptible population [Pulmonary Candidiasis](disease) what
+- Prone group [Goodpasture syndrome](disease) What
+- Which people [pertussis](disease) Acridine
+- Susceptible population [Bullae](disease) Yeah
+- Susceptible population [Emphysema](disease) Ok
+- Prone group [Pulmonary Aspergillosis](disease) Acridine
+- Easy to get infected [Radiation pneumonia](disease)
+- Prone group [Pulmonary hemorrhage-nephritis syndrome](disease) What
+- Easy to get infected [Cadmium poisoning](disease) what
+- who [Large amounts of amniotic fluid inhalation](disease) What
+- Prone group [Building Sick Syndrome](disease) what
+- Susceptible population [Wheezing bronchitis](disease) Acridine
+- who [pertussis](disease) Acridine
+- who [Pulmonary hemorrhage-nephritis syndrome](disease) What
+- Prone group [Pulmonary Cryptococcosis](disease) Is it
+- who [Lung metastases](disease) what
+- who [Building Sick Syndrome](disease)
+- Susceptible population [Bacillus pneumoniae pneumonia](disease) what
+- Which people [Wheezing bronchitis](disease) Ah
+- Susceptible population [Lung abscess](disease) Acridine
+- Easy to get infected [cold](disease) Is it
+- Prone group [Wheezing bronchitis](disease) Yeah
+- who [Adult respiratory distress syndrome](disease) Ah
+- Which people [Emphysema](disease) what
+- who [Radiation pneumonia](disease) Yeah
+- Which people [Alveolar proteinosis](disease) Ok
+- who [Pulmonary Cryptococcosis](disease)
+- Susceptible population [Anaphylactic shock](disease) Ok
+- Which people [Anaphylactic shock](disease) Yeah
+- Which people [Pulmonary pseudotumor](disease) Ah
+- Prone group [Benzene poisoning](disease) Acridine
+- Which people [Pulmonary embolism](disease) Ok
+- who [Pulmonary pseudotumor](disease) Ok
+- who [Cadmium poisoning](disease) Is it
+- Which people [Large amounts of amniotic fluid inhalation](disease) What
+- Easy to get infected [Benzene poisoning](disease) Is it
+- Prone group [Emphysema](disease) Ah
+- Susceptible population [Anaphylactic shock](disease) Yeah
+- Susceptible population [pneumonia](disease) What
+- Prone group [cold](disease) Ok
+- Which people [Goodpasture syndrome](disease) Ok
+- who [pertussis](disease) What
+- Which people [Radiation pneumonia](disease)
+- Prone group [Pulmonary pseudotumor](disease) Ah
+- Susceptible population [Cadmium poisoning](disease) what
+- Which people [Pneumococcal pneumonia](disease) what
+- who [Pneumococcal pneumonia](disease)
+- who [Benzene poisoning](disease) what
+- Which people [Wheezing bronchitis](disease) Yeah
+- Easy to get infected [Mercury poisoning](disease) Is it
+- Which people [pertussis](disease) Ok
+- Easy to get infected [Pulmonary pseudotumor](disease) Is it
+- Susceptible population [Alveolar proteinosis](disease) Is it
+- Easy to get infected [Adult respiratory distress syndrome](disease) Yeah
+- Easy to get infected [Lobar Pneumonia](disease) Yeah
+- who [Goodpasture syndrome](disease) what
+- Easy to get infected [Alveolar proteinosis](disease) Ok
+- Prone group [Pulmonary hemorrhage-nephritis syndrome](disease)
+- Easy to get infected [Large amounts of amniotic fluid inhalation](disease) Ok
+- Easy to get infected [Respiratory bronchiole-related interstitial lung disease](disease) Is it
+- who [Lung abscess](disease) Acridine
+- who [Alveolar proteinosis](disease) Ah
+- Easy to get infected [Pulmonary pseudotumor](disease) What
+- Prone group [Pulmonary Aspergillosis](disease) Ok
+- Easy to get infected [Bacillus pneumoniae pneumonia](disease) Ok
+- Susceptible population [Pulmonary Edema](disease) Is it
+- Easy to get infected [pertussis](disease) Yeah
+- Easy to get infected [Mercury poisoning](disease) Ah
+- Easy to get infected [Pulmonary Edema](disease) Is it
+- Susceptible population [Radiation pneumonia](disease) Is it
+- who [Building Sick Syndrome](disease) Ah
+- Susceptible population [pertussis](disease) Ok
+- Easy to get infected [Lung metastases](disease) What
+- Prone group [Pulmonary Actinomycosis](disease) Is it
+- Easy to get infected [Septic shock](disease) Ah
+- who [Radiation pneumonia](disease) Ah
+- Which people [Pulmonary hemorrhage-nephritis syndrome](disease) Yeah
+- Susceptible population [Alveolar proteinosis](disease) Yeah
+- Susceptible population [Septic shock](disease) what
+- who [Bullae](disease) Ah
+- who [Lung metastases](disease) Acridine
+- Which people [Alveolar proteinosis](disease)
+- who [Carbon disulfide poisoning](disease)
+- Susceptible population [Pulmonary embolism](disease) What
+- who [Pulmonary embolism](disease) What
+- Susceptible population [Radiation pneumonia](disease) what
+- Prone group [Anaphylactic shock](disease)
+- Prone group [Hypersensitivity pneumonia](disease) Acridine
+- Susceptible population [Simple pulmonary eosinophilic infiltration](disease) what
+- who [Pulmonary pseudotumor](disease) What
+- Which people [Adult respiratory distress syndrome](disease) What
+- Prone group [SARS](disease) Ah
+- Prone group [Pneumococcal pneumonia](disease) what
+- Susceptible population [Pulmonary-pleural amebiasis](disease) Is it
+- Which people [cold](disease) what
+- Prone group [Goodpasture syndrome](disease) Acridine
+- Easy to get infected [SARS](disease) Ah
+- Which people [Building Sick Syndrome](disease) Is it
+- Easy to get infected [Goodpasture syndrome](disease) What
+- Susceptible population [Lung cancer](disease) Ok
+- who [Pulmonary embolism](disease) Ok
+- Prone group [Simple pulmonary eosinophilic infiltration](disease) Ok
+- Which people [Foreign body in the respiratory tract](disease) Is it
+- Susceptible population [Pulmonary-pleural amebiasis](disease) Ok
+- Prone group [Pulmonary Actinomycosis](disease) Yeah
+- who [Large amounts of amniotic fluid inhalation](disease) Is it
+- Susceptible population [Lobar Pneumonia](disease) what
+- Susceptible population [Pulmonary embolism](disease) what
+- Easy to get infected [Anaphylactic shock](disease) what
+- Susceptible population [Lung cancer](disease) Acridine
+- who [Wheezing bronchitis](disease)
+- Susceptible population [Lung metastases](disease) Is it
+- Which people [Pulmonary Aspergillosis](disease)
+- Easy to get infected [pneumonia](disease) Ok
+- Susceptible population [Simple pulmonary eosinophilic infiltration](disease) Yeah
+- Easy to get infected [Benzene poisoning](disease) Ah
+- Easy to get infected [Septic shock](disease) what
+- Which people [Foreign body in the respiratory tract](disease) Yeah
+- Susceptible population [cold](disease)
+- Prone group [Lung cancer](disease) Yeah
+- Which people [Pulmonary hemorrhage-nephritis syndrome](disease)
+- who [Foreign body in the respiratory tract](disease) what
+- Which people [Carbon disulfide poisoning](disease)
+- who [Respiratory bronchiole-related interstitial lung disease](disease) Ok
+- who [Pulmonary hemorrhage-nephritis syndrome](disease) Yeah
+- Prone group [Lung abscess](disease) Ah
+- Easy to get infected [Pulmonary pseudotumor](disease) Ok
+- Easy to get infected [Mercury poisoning](disease)
+- Susceptible population [Wheezing bronchitis](disease) Is it
+- Which people [Lobar Pneumonia](disease) Yeah
+- Easy to get infected [cold](disease) Yeah
+- who [Pulmonary hemorrhage-nephritis syndrome](disease) Acridine
+- Susceptible population [Pneumococcal pneumonia](disease) what
+- Which people [Cadmium poisoning](disease) What
+- Susceptible population [Bullae](disease) Ah
+- Easy to get infected [Pulmonary-pleural amebiasis](disease) what
+- Prone group [Building Sick Syndrome](disease) Yeah
+- Prone group [Pulmonary Actinomycosis](disease) Ah
+- Prone group [Simple pulmonary eosinophilic infiltration](disease) Yeah
+- Prone group [Carbon disulfide poisoning](disease) Yeah
+- Easy to get infected [Hypersensitivity pneumonia](disease) Ah
+- Which people [pertussis](disease) what
+- Prone group [Respiratory bronchiole-related interstitial lung disease](disease)
+- Easy to get infected [Emphysema](disease) what
+- Prone group [Alveolar proteinosis](disease) Acridine
+- Which people [Simple pulmonary eosinophilic infiltration](disease) Is it
+- Which people [Mercury poisoning](disease) Is it
+- Easy to get infected [pertussis](disease) What
+- who [Pulmonary-pleural amebiasis](disease) Ah
+- Prone group [Foreign body in the respiratory tract](disease) What
+- Prone group [pneumonia](disease) Yeah
+- Prone group [pertussis](disease) what
+- Which people [Large amounts of amniotic fluid inhalation](disease) Acridine
+- Which people [Alveolar proteinosis](disease) Yeah
+- Susceptible population [Carbon disulfide poisoning](disease) Ah
+- Prone group [Emphysema](disease) what
+- Which people [Radiation pneumonia](disease) Acridine
+- Easy to get infected [Pulmonary Aspergillosis](disease) Is it
+- Prone group [Lung abscess](disease) Yeah
+- Which people [pertussis](disease) Ah
+- Susceptible population [Lung abscess](disease) Is it
+- Prone group [cold](disease) Is it
+- who [SARS](disease) Is it
+- Which people [Foreign body in the respiratory tract](disease) What
+- Which people [Septic shock](disease) What
+- Susceptible population [Pulmonary Edema](disease) Ok
+- who [Carbon disulfide poisoning](disease) Ah
+- Susceptible population [Pulmonary Aspergillosis](disease) Ah
+- Susceptible population [Large amounts of amniotic fluid inhalation](disease) What
+- who [Pulmonary Cryptococcosis](disease) Acridine
+- Prone group [Large amounts of amniotic fluid inhalation](disease) what
+- who [Lung cancer](disease) What
+- Which people [Adult respiratory distress syndrome](disease) Yeah
+- Susceptible population [Radiation pneumonia](disease) What
+- Susceptible population [Pulmonary Candidiasis](disease) Is it
+- Susceptible population [Pulmonary hemorrhage-nephritis syndrome](disease) Is it
+- Easy to get infected [Alveolar proteinosis](disease) Yeah
+- Easy to get infected [Carbon disulfide poisoning](disease) Ah
+- who [Large amounts of amniotic fluid inhalation](disease) Acridine
+- Prone group [Pulmonary pseudotumor](disease) Acridine
+- Easy to get infected [pneumonia](disease)
+- Easy to get infected [Pulmonary embolism](disease) Is it
+- Easy to get infected [Large amounts of amniotic fluid inhalation](disease) Yeah
+- Prone group [SARS](disease) What
+- Which people [Bacillus pneumoniae pneumonia](disease)
+- who [Bacillus pneumoniae pneumonia](disease) what
+- Prone group [Benzene poisoning](disease) Is it
+- Easy to get infected [Pulmonary Actinomycosis](disease) Yeah
+- Which people [Anaphylactic shock](disease) What
+- Which people [Carbon disulfide poisoning](disease) Yeah
+- who [Septic shock](disease) Ah
+- Which people [Pulmonary embolism](disease) Acridine
+- who [Pulmonary bullae](disease) what
+- Susceptible population [Lobar Pneumonia](disease) Ah
+- Easy to get infected [Respiratory bronchiole-related interstitial lung disease](disease)
+- Which people [Bullae](disease) Is it
+- Susceptible population [Benzene poisoning](disease) What
+- Susceptible population [Hypersensitivity pneumonia](disease) Ok
+- Prone group [cold](disease)
+- who [Pulmonary hemorrhage-nephritis syndrome](disease)
+- Easy to get infected [Simple pulmonary eosinophilic infiltration](disease) What
+- Easy to get infected [Pulmonary Cryptococcosis](disease) Ok
+- Prone group [Alveolar proteinosis](disease) Yeah
+- Easy to get infected [cold](disease) Ok
+- Easy to get infected [Pulmonary Edema](disease)
+- who [Emphysema](disease) what
+- Easy to get infected [Pulmonary Candidiasis](disease) What
+- Which people [Pulmonary Actinomycosis](disease) Is it
+- who [Pulmonary bullae](disease) Yeah
+- Prone group [Pulmonary Cryptococcosis](disease) Yeah
+- who [Pulmonary Cryptococcosis](disease) Yeah
+- Prone group [Bacillus pneumoniae pneumonia](disease)
+- Which people [Pulmonary Edema](disease) Ok
+- Prone group [Bullae](disease)
+- Susceptible population [Wheezing bronchitis](disease) Ah
+- Which people [Pulmonary Edema](disease) Acridine
+- Prone group [Bacillus pneumoniae pneumonia](disease) Is it
+- Prone group [Lung metastases](disease) Yeah
+- Easy to get infected [Lung abscess](disease) What
+- Which people [cold](disease) What
+- Which people [Lung metastases](disease) Yeah
+- who [Pneumococcal pneumonia](disease) Yeah
+- Which people [Bullae](disease) What
+- Which people [Lung abscess](disease) what
+- who [Goodpasture syndrome](disease) Yeah
+- who [Pulmonary Cryptococcosis](disease) what
+- Prone group [Mercury poisoning](disease) what
+- Prone group [Lobar Pneumonia](disease) what
+- Easy to get infected [Wheezing bronchitis](disease) Ah
+- Prone group [Alveolar proteinosis](disease) What
+- Which people [Pulmonary-pleural amebiasis](disease) Is it
+- Easy to get infected [Lung cancer](disease)
+- Prone group [Pulmonary embolism](disease) Is it
+- Susceptible population [Pulmonary-pleural amebiasis](disease) what
+- Prone group [Pulmonary Edema](disease) Yeah
+- Easy to get infected [Pneumococcal pneumonia](disease)
+- Susceptible population [Pulmonary pseudotumor](disease) what
+- Prone group [Bacillus pneumoniae pneumonia](disease) Ah
+- Which people [Alveolar proteinosis](disease) What
+- Susceptible population [Pulmonary embolism](disease) Yeah
+- Prone group [Bullae](disease) What
+- Prone group [Benzene poisoning](disease) what
+- Easy to get infected [Pulmonary Candidiasis](disease)
+- Which people [Emphysema](disease) Yeah
+- Prone group [Pulmonary Candidiasis](disease) Acridine
+- who [pertussis](disease) Is it
+- Susceptible population [pneumonia](disease)
+- Susceptible population [Emphysema](disease) Acridine
+- Which people [Pulmonary Candidiasis](disease) Ah
+- Easy to get infected [Large amounts of amniotic fluid inhalation](disease) Ah
+- Susceptible population [Lung cancer](disease)
+- who [Simple pulmonary eosinophilic infiltration](disease) Yeah
+- Which people [Building Sick Syndrome](disease)
+- who [Anaphylactic shock](disease) Ok
+- who [Pulmonary bullae](disease)
+- Which people [Pulmonary pseudotumor](disease) Is it
+- Susceptible population [Building Sick Syndrome](disease) What
+- Easy to get infected [Pulmonary-pleural amebiasis](disease) Yeah
+- who [Lobar Pneumonia](disease) Acridine
+- Prone group [Pulmonary bullae](disease) Is it
+- who [Wheezing bronchitis](disease) Ok
+- Susceptible population [Hypersensitivity pneumonia](disease) what
+- who [Respiratory bronchiole-related interstitial lung disease](disease)
+- who [Respiratory bronchiole-related interstitial lung disease](disease) Ah
+- Which people [Wheezing bronchitis](disease) Is it
+- Easy to get infected [Pulmonary hemorrhage-nephritis syndrome](disease) Is it
+- Which people [Pneumococcal pneumonia](disease) Acridine
+- who [Pulmonary bullae](disease) Ah
+- Susceptible population [Lung cancer](disease) Ah
+- Which people [SARS](disease) Ah
+- Susceptible population [Bullae](disease) Acridine
+- who [SARS](disease) Yeah
+- who [Pulmonary Candidiasis](disease) Yeah
+- who [Hypersensitivity pneumonia](disease) Ah
+- Susceptible population [Adult respiratory distress syndrome](disease) Yeah
+- Prone group [Pulmonary Aspergillosis](disease) Ah
+- Susceptible population [Pulmonary bullae](disease) Ah
+- Easy to get infected [Benzene poisoning](disease) what
+- Susceptible population [Lobar Pneumonia](disease) Yeah
+- who [cold](disease)
+- Susceptible population [pneumonia](disease) Yeah
+- Which people [Pulmonary Cryptococcosis](disease) what
+- Prone group [Pulmonary bullae](disease) Ah
+- Prone group [Bullae](disease) Ah
+- who [Emphysema](disease) Ah
+- who [Lung metastases](disease) What
+- Which people [Pulmonary Cryptococcosis](disease)
+- who [Foreign body in the respiratory tract](disease) What
+- Susceptible population [Septic shock](disease) What
+- Which people [Lobar Pneumonia](disease) Ah
+- Prone group [Pulmonary Aspergillosis](disease)
+- Easy to get infected [Alveolar proteinosis](disease)
+- Easy to get infected [Building Sick Syndrome](disease) Acridine
+- who [Bullae](disease) Is it
+- Which people [Carbon disulfide poisoning](disease) Ok
+- Easy to get infected [Large amounts of amniotic fluid inhalation](disease)
+- who [SARS](disease) Ah
+- who [Adult respiratory distress syndrome](disease) Yeah
+- who [Pneumococcal pneumonia](disease) what
+- Easy to get infected [Bacillus pneumoniae pneumonia](disease) Yeah
+- Easy to get infected [Alveolar proteinosis](disease) Is it
+- Prone group [cold](disease) Ah
+- Which people [Benzene poisoning](disease) Ok
+- Easy to get infected [Goodpasture syndrome](disease) Ok
+- Prone group [cold](disease) What
+- Which people [Carbon disulfide poisoning](disease) What
+- who [Lobar Pneumonia](disease) Ok
+- who [Hypersensitivity pneumonia](disease) Is it
+- Prone group [Pulmonary bullae](disease) Acridine
+- Easy to get infected [Pulmonary hemorrhage-nephritis syndrome](disease) Yeah
+- Which people [Septic shock](disease) Acridine
+- who [Lung abscess](disease) Ok
+- Which people [Pulmonary pseudotumor](disease) Yeah
+- Which people [Pulmonary bullae](disease) What
+- Susceptible population [Simple pulmonary eosinophilic infiltration](disease) Acridine
+- Prone group [Benzene poisoning](disease) What
+- Prone group [Adult respiratory distress syndrome](disease) Ah
+- Which people [Bacillus pneumoniae pneumonia](disease) Yeah
+- who [Pulmonary Aspergillosis](disease) Yeah
+- Susceptible population [Hypersensitivity pneumonia](disease) Is it
+- who [Cadmium poisoning](disease) Ok
+- who [Large amounts of amniotic fluid inhalation](disease) what
+- who [Cadmium poisoning](disease)
+- Prone group [Pulmonary Edema](disease) Ok
+- Easy to get infected [Lung abscess](disease)
+- Susceptible population [Pneumococcal pneumonia](disease) Ah
+- Prone group [pneumonia](disease)
+- Susceptible population [pertussis](disease) Acridine
+- Susceptible population [Anaphylactic shock](disease) what
+- Which people [Cadmium poisoning](disease) what
+- Easy to get infected [Simple pulmonary eosinophilic infiltration](disease) Acridine
+- Prone group [Radiation pneumonia](disease) Is it
+- Easy to get infected [Carbon disulfide poisoning](disease) Is it
+- Which people [Pulmonary embolism](disease) Yeah
+- Susceptible population [Adult respiratory distress syndrome](disease) what
+- who [Pulmonary Candidiasis](disease) what
+- Prone group [Goodpasture syndrome](disease) Is it
+- Prone group [Lung cancer](disease) What
+- Susceptible population [Benzene poisoning](disease) Is it
+- Prone group [Septic shock](disease) Acridine
+- who [Bullae](disease)
+- who [pertussis](disease) Yeah
+- Susceptible population [Anaphylactic shock](disease) Ah
+- Easy to get infected [Goodpasture syndrome](disease) Yeah
+- Prone group [pneumonia](disease) Acridine
+- Easy to get infected [Hypersensitivity pneumonia](disease) Acridine
+- Which people [pneumonia](disease) Acridine
+- who [Lobar Pneumonia](disease) What
+- who [Goodpasture syndrome](disease) Ah
+- Easy to get infected [Adult respiratory distress syndrome](disease) what
+- who [Alveolar proteinosis](disease)
+- who [Emphysema](disease) What
+- who [cold](disease) what
+- Susceptible population [Pneumococcal pneumonia](disease) Is it
+- Prone group [Septic shock](disease) Ok
+- Susceptible population [Foreign body in the respiratory tract](disease)
+- Which people [Pulmonary embolism](disease) what
+- Easy to get infected [Carbon disulfide poisoning](disease) Ok
+- Easy to get infected [Wheezing bronchitis](disease) Yeah
+- Susceptible population [Pneumococcal pneumonia](disease)
+- Which people [Mercury poisoning](disease) Yeah
+- Easy to get infected [Radiation pneumonia](disease) Ok
+- Susceptible population [Goodpasture syndrome](disease) What
+- Prone group [Bacillus pneumoniae pneumonia](disease) Ok
+- Which people [Mercury poisoning](disease) Ah
+- who [cold](disease) Yeah
+- Susceptible population [Bacillus pneumoniae pneumonia](disease) Yeah
+- Which people [Radiation pneumonia](disease) what
+- Which people [Wheezing bronchitis](disease)
+- Easy to get infected [Pneumococcal pneumonia](disease) Ok
+- Easy to get infected [Pulmonary embolism](disease) Yeah
+- Prone group [Mercury poisoning](disease) Is it
+- who [Alveolar proteinosis](disease) what
+- Susceptible population [pertussis](disease) Yeah
+- Easy to get infected [Pneumococcal pneumonia](disease) Yeah
+- Prone group [Lobar Pneumonia](disease) Ah
+- Prone group [pertussis](disease) Ok
+- Easy to get infected [Wheezing bronchitis](disease) What
+- who [Emphysema](disease) Ok
+- Prone group [Goodpasture syndrome](disease) Ok
+- who [Carbon disulfide poisoning](disease) Yeah
+- Easy to get infected [Radiation pneumonia](disease) Yeah
+- who [Carbon disulfide poisoning](disease) what
+- who [Anaphylactic shock](disease) Is it
+- Which people [Lung metastases](disease) What
+- Susceptible population [Respiratory bronchiole-related interstitial lung disease](disease) Yeah
+- who [Pulmonary Actinomycosis](disease)
+- who [Cadmium poisoning](disease) What
+- Prone group [pneumonia](disease) What
+- who [Goodpasture syndrome](disease) What
+- Easy to get infected [Lobar Pneumonia](disease) Ok
+- Easy to get infected [Carbon disulfide poisoning](disease) What
+- Prone group [Alveolar proteinosis](disease) what
+- Which people [Lung metastases](disease) Ok
+- Easy to get infected [Emphysema](disease) Acridine
+- Prone group [Building Sick Syndrome](disease) Ok
+- who [Pulmonary pseudotumor](disease) Acridine
+- who [Anaphylactic shock](disease) Yeah
+- Easy to get infected [Lung abscess](disease) what
+- Which people [Radiation pneumonia](disease) Ok
+- Which people [Pulmonary hemorrhage-nephritis syndrome](disease) Is it
+- Which people [Pulmonary Edema](disease) Ah
+- Prone group [Pneumococcal pneumonia](disease) What
+- Easy to get infected [Building Sick Syndrome](disease) Is it
+- who [Lung cancer](disease) Yeah
+- Prone group [Emphysema](disease)
+- Susceptible population [Lung metastases](disease) Ah
+- Which people [Benzene poisoning](disease) Ah
+- Prone group [pneumonia](disease) what
+- Easy to get infected [Pulmonary Actinomycosis](disease)
+- Which people [Building Sick Syndrome](disease) what
+- Which people [Lung abscess](disease) Yeah
+- who [Lung cancer](disease) what
+- Easy to get infected [Pulmonary Candidiasis](disease) Is it
+- Susceptible population [Radiation pneumonia](disease) Ah
+- Susceptible population [Lung metastases](disease) Yeah
+- Prone group [Pulmonary Edema](disease) what
+- who [SARS](disease) Ok
+- Susceptible population [Benzene poisoning](disease)
+- who [SARS](disease) Acridine
+- Susceptible population [Pulmonary-pleural amebiasis](disease)
+- Easy to get infected [Pulmonary embolism](disease) Ok
+- Prone group [Foreign body in the respiratory tract](disease) what
+- Which people [Foreign body in the respiratory tract](disease) Ok
+- who [cold](disease) Is it
+- Easy to get infected [pneumonia](disease) what
+- Easy to get infected [Foreign body in the respiratory tract](disease) Is it
+- Prone group [Goodpasture syndrome](disease)
+- Prone group [Radiation pneumonia](disease) What
+- who [pertussis](disease)
+- Which people [Lung metastases](disease) Ah
+- Susceptible population [Cadmium poisoning](disease) Ah
+- Prone group [Benzene poisoning](disease) Yeah
+- Susceptible population [Lobar Pneumonia](disease) Is it
+- Susceptible population [Pulmonary Cryptococcosis](disease)
+- Susceptible population [Foreign body in the respiratory tract](disease) What
+- Susceptible population [Pulmonary pseudotumor](disease) Is it
+- who [Large amounts of amniotic fluid inhalation](disease) Yeah
+- Prone group [Foreign body in the respiratory tract](disease)
+- Prone group [Pulmonary bullae](disease) what
+- Which people [Emphysema](disease) What
+- Easy to get infected [Carbon disulfide poisoning](disease)
+- Easy to get infected [Anaphylactic shock](disease) Ok
+- Which people [Lung metastases](disease) Acridine
+- Susceptible population [Bullae](disease) Is it
+- Susceptible population [Bacillus pneumoniae pneumonia](disease) What
+- Prone group [Foreign body in the respiratory tract](disease) Ok
+- Susceptible population [Respiratory bronchiole-related interstitial lung disease](disease) What
+- Susceptible population [Wheezing bronchitis](disease) What
+- who [SARS](disease)
+- who [Pulmonary Actinomycosis](disease) Ok
+- Prone group [Mercury poisoning](disease) Ah
+- Susceptible population [Bullae](disease) What
+- Easy to get infected [Cadmium poisoning](disease) Ok
+- Easy to get infected [Anaphylactic shock](disease)
+- Easy to get infected [cold](disease) Ah
+- who [Pulmonary Aspergillosis](disease) Acridine
+- who [Pulmonary Candidiasis](disease) Ok
+- Prone group [Septic shock](disease) what
+- Susceptible population [Pulmonary Edema](disease) Ah
+- who [Pulmonary Aspergillosis](disease) Ah
+- Which people [Building Sick Syndrome](disease) What
+- Which people [Large amounts of amniotic fluid inhalation](disease) Ah
+- who [Lobar Pneumonia](disease) Is it
+- who [Lung cancer](disease) Is it
+- who [Respiratory bronchiole-related interstitial lung disease](disease) What
+- Prone group [Pulmonary Actinomycosis](disease) what
+- Easy to get infected [Anaphylactic shock](disease) Acridine
+- who [Simple pulmonary eosinophilic infiltration](disease)
+- Susceptible population [Foreign body in the respiratory tract](disease) Acridine
+- Easy to get infected [Pneumococcal pneumonia](disease) Ah
+- Easy to get infected [Mercury poisoning](disease) Ok
+- Easy to get infected [Goodpasture syndrome](disease) Acridine
+- Which people [Pulmonary embolism](disease) Is it
+- Susceptible population [Pulmonary Candidiasis](disease) Yeah
+- Which people [Respiratory bronchiole-related interstitial lung disease](disease) What
+- Prone group [Hypersensitivity pneumonia](disease)
+- Prone group [Foreign body in the respiratory tract](disease) Is it
+- Prone group [Benzene poisoning](disease) Ah
+- Susceptible population [Emphysema](disease) what
+- Prone group [Anaphylactic shock](disease) what
+- Which people [Mercury poisoning](disease) Ok
+- Prone group [Pulmonary Edema](disease)
+- Susceptible population [Cadmium poisoning](disease) Yeah
+- Easy to get infected [Pulmonary Cryptococcosis](disease) Acridine
+- Which people [Alveolar proteinosis](disease) Is it
+- Prone group [Pulmonary pseudotumor](disease)
+- Easy to get infected [Pulmonary Actinomycosis](disease) Is it
+- Susceptible population [Benzene poisoning](disease) Ah
+- Prone group [Alveolar proteinosis](disease) Ok
+- Which people [SARS](disease) What
+- Easy to get infected [cold](disease) what
+- Easy to get infected [Mercury poisoning](disease) Acridine
+- who [Emphysema](disease)
+- Easy to get infected [SARS](disease) Is it
+- who [Pulmonary Aspergillosis](disease) What
+- Prone group [Pulmonary embolism](disease) Ok
+- Susceptible population [Wheezing bronchitis](disease)
+- Which people [Lobar Pneumonia](disease) Ok
+- Susceptible population [Pneumococcal pneumonia](disease) Ok
+- Prone group [Cadmium poisoning](disease) Ok
+- Prone group [Simple pulmonary eosinophilic infiltration](disease) Ah
+- Prone group [Respiratory bronchiole-related interstitial lung disease](disease) what
+- Susceptible population [Adult respiratory distress syndrome](disease) Is it
+- Which people [Large amounts of amniotic fluid inhalation](disease) what
+- Which people [Bacillus pneumoniae pneumonia](disease) Ok
+- Prone group [Carbon disulfide poisoning](disease) Ok
+- Easy to get infected [Pulmonary hemorrhage-nephritis syndrome](disease) what
+- Easy to get infected [Cadmium poisoning](disease) Ah
+- Which people [Pulmonary Aspergillosis](disease) Is it
+- who [Respiratory bronchiole-related interstitial lung disease](disease) what
+- Susceptible population [Large amounts of amniotic fluid inhalation](disease) Ok
+- who [Radiation pneumonia](disease) what
+- who [Anaphylactic shock](disease) What
+- Prone group [Pulmonary hemorrhage-nephritis syndrome](disease) Ok
+- Susceptible population [Anaphylactic shock](disease)
+- who [Foreign body in the respiratory tract](disease) Yeah
+- Easy to get infected [Large amounts of amniotic fluid inhalation](disease) what
+- who [Pulmonary Edema](disease)
+- Which people [Goodpasture syndrome](disease)
+- Prone group [pertussis](disease) Acridine
+- Easy to get infected [Large amounts of amniotic fluid inhalation](disease) Is it
+- Which people [Goodpasture syndrome](disease) Acridine
+- Easy to get infected [Lobar Pneumonia](disease) Is it
+- Prone group [Pulmonary Actinomycosis](disease) Ok
+- Which people [Wheezing bronchitis](disease) what
+- Susceptible population [Septic shock](disease) Ok
+- who [Pulmonary Aspergillosis](disease)
+- Easy to get infected [Mercury poisoning](disease) what
+- who [Radiation pneumonia](disease) What
+- Prone group [Anaphylactic shock](disease) Is it
+- who [Pulmonary Candidiasis](disease) Acridine
+- Which people [Pulmonary Aspergillosis](disease) Ok
+- Prone group [Carbon disulfide poisoning](disease) Ah
+- Susceptible population [Lung metastases](disease) Acridine
+- Prone group [Respiratory bronchiole-related interstitial lung disease](disease) Acridine
+- Prone group [Bullae](disease) Is it
+- Susceptible population [Septic shock](disease) Acridine
+- who [Foreign body in the respiratory tract](disease) Acridine
+- Susceptible population [Benzene poisoning](disease) what
+- Prone group [Emphysema](disease) Yeah
+- Prone group [Adult respiratory distress syndrome](disease) Ok
+- Which people [Pulmonary Aspergillosis](disease) what
+- Susceptible population [Pulmonary bullae](disease) Ok
+- Prone group [Pulmonary pseudotumor](disease) Ok
+- who [Pulmonary Candidiasis](disease) Ah
+- Easy to get infected [Mercury poisoning](disease) What
+- Which people [cold](disease) Is it
+- Susceptible population [SARS](disease)
+- Easy to get infected [Building Sick Syndrome](disease) Yeah
+- Prone group [Mercury poisoning](disease) Acridine
+- Susceptible population [Pulmonary Cryptococcosis](disease) Is it
+- Easy to get infected [Pulmonary Actinomycosis](disease) What
+- who [Adult respiratory distress syndrome](disease) Acridine
+- Susceptible population [Pulmonary Edema](disease) What
+- who [Pulmonary-pleural amebiasis](disease) What
+- Which people [Respiratory bronchiole-related interstitial lung disease](disease) Ah
+- Which people [pneumonia](disease) Ok
+- Susceptible population [Pulmonary Actinomycosis](disease) Yeah
+- Prone group [Bacillus pneumoniae pneumonia](disease) Yeah
+- Easy to get infected [Pulmonary Edema](disease) What
+- Prone group [Pulmonary Candidiasis](disease) Ah
+- Easy to get infected [Pulmonary Aspergillosis](disease) Yeah
+- Prone group [Pulmonary pseudotumor](disease) What
+- Susceptible population [Carbon disulfide poisoning](disease) What
+- Susceptible population [Pulmonary hemorrhage-nephritis syndrome](disease) Ok
+- Which people [Septic shock](disease) Ah
+- Prone group [Mercury poisoning](disease) Ok
+- Prone group [Lung metastases](disease)
+- Easy to get infected [Lung metastases](disease) Yeah
+- Susceptible population [Pulmonary Candidiasis](disease)
+- Prone group [Septic shock](disease) Ah
+- Prone group [Pulmonary embolism](disease) Yeah
+- Easy to get infected [Lung cancer](disease) Is it
+- Susceptible population [SARS](disease) Is it
+- who [Pulmonary Actinomycosis](disease) what
+- Susceptible population [pertussis](disease) what
+- who [Bullae](disease) Ok
+- Prone group [Carbon disulfide poisoning](disease) what
+- Prone group [cold](disease) what
+- Easy to get infected [Simple pulmonary eosinophilic infiltration](disease) Ah
+- Which people [Pulmonary Edema](disease)
+- Prone group [Anaphylactic shock](disease) Ok
+- who [Wheezing bronchitis](disease) Ah
+- Easy to get infected [pertussis](disease) Ok
+- Susceptible population [Respiratory bronchiole-related interstitial lung disease](disease) Acridine
+- Prone group [Carbon disulfide poisoning](disease) Is it
+- Which people [Cadmium poisoning](disease)
+- Susceptible population [Lung metastases](disease) what
+- Susceptible population [Radiation pneumonia](disease) Yeah
+- Prone group [Mercury poisoning](disease)
+- Easy to get infected [Lung cancer](disease) what
+- Which people [Benzene poisoning](disease) Yeah
+- who [Septic shock](disease) What
+- who [Respiratory bronchiole-related interstitial lung disease](disease) Is it
+- Susceptible population [Lung abscess](disease) What
+- who [Mercury poisoning](disease) What
+- Susceptible population [Hypersensitivity pneumonia](disease) Yeah
+- Which people [Pulmonary-pleural amebiasis](disease) Ok
+- Prone group [Pulmonary Candidiasis](disease)
+- Which people [Foreign body in the respiratory tract](disease) what
+- Susceptible population [Lung abscess](disease)
+- who [Lung cancer](disease) Ok
+- Easy to get infected [Pulmonary Edema](disease) Ok
+- Susceptible population [Pulmonary Actinomycosis](disease) Is it
+- Easy to get infected [Anaphylactic shock](disease) Is it
+- Which people [Emphysema](disease)
+- Prone group [Lobar Pneumonia](disease) Is it
+- Prone group [Pulmonary pseudotumor](disease) Yeah
+- Prone group [Septic shock](disease) Is it
+- Easy to get infected [Pulmonary Edema](disease) what
+- Susceptible population [Carbon disulfide poisoning](disease) what
+- who [Pulmonary Actinomycosis](disease) Ah
+- Easy to get infected [Simple pulmonary eosinophilic infiltration](disease) what
+- who [Building Sick Syndrome](disease) what
+- Susceptible population [Lung abscess](disease) what
+- Prone group [Radiation pneumonia](disease) Ok
+- Easy to get infected [Pulmonary-pleural amebiasis](disease) Acridine
+- Susceptible population [Pulmonary pseudotumor](disease)
+- Susceptible population [Radiation pneumonia](disease)
+- Easy to get infected [Radiation pneumonia](disease) Is it
+- who [Alveolar proteinosis](disease) Is it
+- Easy to get infected [Hypersensitivity pneumonia](disease) Ok
+- Which people [Adult respiratory distress syndrome](disease) Is it
+- Which people [pertussis](disease) Is it
+- Easy to get infected [Respiratory bronchiole-related interstitial lung disease](disease) Ah
+- Susceptible population [pertussis](disease) What
+- Susceptible population [Pulmonary Aspergillosis](disease)
+- Prone group [Pulmonary pseudotumor](disease) Is it
+- Susceptible population [Pulmonary hemorrhage-nephritis syndrome](disease) Ah
+- Easy to get infected [pneumonia](disease) Yeah
+- who [Pulmonary pseudotumor](disease) Is it
+- Easy to get infected [Lung metastases](disease) what
+- Easy to get infected [Bullae](disease) what
+- Easy to get infected [Pulmonary Aspergillosis](disease) What
+- Susceptible population [Lung cancer](disease) Yeah
+- Which people [Bullae](disease)
+- Susceptible population [Lung abscess](disease) Ok
+- Which people [Carbon disulfide poisoning](disease) what
+- who [Adult respiratory distress syndrome](disease)
+- who [Building Sick Syndrome](disease) What
+- Which people [Goodpasture syndrome](disease) Is it
+- Which people [Emphysema](disease) Ok
+- Prone group [Bullae](disease) what
+- Prone group [Pulmonary embolism](disease)
+- Easy to get infected [Septic shock](disease) Yeah
+- who [Large amounts of amniotic fluid inhalation](disease)
+- Which people [pneumonia](disease) Is it
+- Prone group [Pulmonary Edema](disease) Ah
+- Susceptible population [SARS](disease) Acridine
+- who [Bacillus pneumoniae pneumonia](disease) Is it
+- Which people [Pulmonary-pleural amebiasis](disease) Acridine
+- who [Building Sick Syndrome](disease) Yeah
+- Prone group [Foreign body in the respiratory tract](disease) Yeah
+- Which people [Anaphylactic shock](disease) Ok
+- who [Pulmonary Candidiasis](disease) Is it
+- Susceptible population [Respiratory bronchiole-related interstitial lung disease](disease) Ah
+- who [Foreign body in the respiratory tract](disease) Ah
+- Prone group [Building Sick Syndrome](disease) Is it
+- Prone group [Lung abscess](disease) Ok
+- who [Large amounts of amniotic fluid inhalation](disease) Ok
+- Susceptible population [Pulmonary Aspergillosis](disease) Is it
+- Prone group [Pulmonary Aspergillosis](disease) Is it
+- Susceptible population [Lobar Pneumonia](disease) Ok
+- Which people [Lung abscess](disease)
+- who [Foreign body in the respiratory tract](disease) Is it
+- Prone group [Mercury poisoning](disease) Yeah
+- Which people [Simple pulmonary eosinophilic infiltration](disease) Ah
+- Which people [Pulmonary Actinomycosis](disease) What
+- Prone group [Adult respiratory distress syndrome](disease)
+- who [Lung cancer](disease) Acridine
+- Which people [Pulmonary Cryptococcosis](disease) What
+- Easy to get infected [Pulmonary hemorrhage-nephritis syndrome](disease) Acridine
+- who [Pneumococcal pneumonia](disease) Ok
+- who [Lung cancer](disease)
+- who [Pulmonary pseudotumor](disease) Ah
+- who [Bacillus pneumoniae pneumonia](disease)
+- Which people [Hypersensitivity pneumonia](disease) Ok
+- Which people [pertussis](disease) What
+- Prone group [Adult respiratory distress syndrome](disease) Acridine
+- Prone group [Carbon disulfide poisoning](disease) What
+- Prone group [Radiation pneumonia](disease) Yeah
+- Which people [Lung metastases](disease) Is it
+- Which people [Lung cancer](disease)
+- Which people [Lung cancer](disease) Ok
+- Susceptible population [Anaphylactic shock](disease) Is it
+- Easy to get infected [Anaphylactic shock](disease) Yeah
+- Easy to get infected [Goodpasture syndrome](disease) Ah
+- Easy to get infected [Radiation pneumonia](disease) What
+- who [Pulmonary embolism](disease)
+- Susceptible population [Lung cancer](disease) What
+- Which people [Bacillus pneumoniae pneumonia](disease) Acridine
+- Prone group [Simple pulmonary eosinophilic infiltration](disease) What
+- who [Goodpasture syndrome](disease) Is it
+- who [Pulmonary hemorrhage-nephritis syndrome](disease) Is it
+- who [Adult respiratory distress syndrome](disease) what
+- Which people [Pulmonary embolism](disease)
+- Susceptible population [cold](disease) what
+- Prone group [Wheezing bronchitis](disease)
+- Which people [Septic shock](disease) Ok
+- who [Benzene poisoning](disease) Ok
+- Susceptible population [Goodpasture syndrome](disease) Ok
+- Susceptible population [Pulmonary hemorrhage-nephritis syndrome](disease)
+- Susceptible population [Simple pulmonary eosinophilic infiltration](disease) Is it
+- Easy to get infected [Hypersensitivity pneumonia](disease) what
+- who [Mercury poisoning](disease) Acridine
+- who [Lung abscess](disease) what
+- Easy to get infected [Respiratory bronchiole-related interstitial lung disease](disease) Yeah
+- Easy to get infected [Bacillus pneumoniae pneumonia](disease) Ah
+- Prone group [pertussis](disease) Is it
+- Easy to get infected [Radiation pneumonia](disease) what
+- Easy to get infected [pertussis](disease)
+- Prone group [Pulmonary-pleural amebiasis](disease) Ah
+- Prone group [cold](disease) Acridine
+- Susceptible population [Radiation pneumonia](disease) Acridine
+- Easy to get infected [cold](disease) What
+- who [Mercury poisoning](disease) Is it
+- Which people [Anaphylactic shock](disease) Ah
+- Susceptible population [Lobar Pneumonia](disease)
+- Easy to get infected [Lung metastases](disease)
+- Which people [Lobar Pneumonia](disease) Is it
+- Easy to get infected [Pulmonary pseudotumor](disease) Ah
+- who [Simple pulmonary eosinophilic infiltration](disease) What
+- Which people [Cadmium poisoning](disease) Is it
+- Easy to get infected [SARS](disease) Ok
+- who [Large amounts of amniotic fluid inhalation](disease) Ah
+- who [Bacillus pneumoniae pneumonia](disease) Ah
+- Prone group [Carbon disulfide poisoning](disease) Acridine
+- Susceptible population [Alveolar proteinosis](disease) Acridine
+- Prone group [Respiratory bronchiole-related interstitial lung disease](disease) Is it
+- who [Radiation pneumonia](disease) Ok
+- Which people [Respiratory bronchiole-related interstitial lung disease](disease) Is it
+- Prone group [Pulmonary Cryptococcosis](disease) what
+- Which people [Pulmonary Candidiasis](disease) what
+- Easy to get infected [Foreign body in the respiratory tract](disease) Ah
+- Susceptible population [Simple pulmonary eosinophilic infiltration](disease) Ok
+- Easy to get infected [Pulmonary bullae](disease)
+- who [Pulmonary Aspergillosis](disease) Is it
+- Which people [Lung abscess](disease) Ah
+- Prone group [Pulmonary bullae](disease) Yeah
+- Prone group [Benzene poisoning](disease) Ok
+- Susceptible population [Emphysema](disease) Is it
+- Which people [Benzene poisoning](disease) what
+- Susceptible population [Bacillus pneumoniae pneumonia](disease)
+- Susceptible population [Pulmonary Aspergillosis](disease) What
+- Prone group [Adult respiratory distress syndrome](disease) what
+- Prone group [Lung abscess](disease) Is it
+- who [Pulmonary Edema](disease) Acridine
+- Susceptible population [Pulmonary bullae](disease) what
+- who [Hypersensitivity pneumonia](disease) what
+- Which people [Pulmonary bullae](disease) Is it
+- Prone group [Septic shock](disease) What
+- Which people [Carbon disulfide poisoning](disease) Is it
+- Susceptible population [Adult respiratory distress syndrome](disease) Acridine
+- Easy to get infected [Pulmonary Aspergillosis](disease) Ah
+- Easy to get infected [Pneumococcal pneumonia](disease) What
+- Prone group [Pulmonary Actinomycosis](disease) What
+- Easy to get infected [Carbon disulfide poisoning](disease) Acridine
+- who [Pulmonary Actinomycosis](disease) What
+- Susceptible population [Alveolar proteinosis](disease) Ok
+- Susceptible population [Mercury poisoning](disease) What
+- Prone group [Large amounts of amniotic fluid inhalation](disease) Yeah
+- who [Wheezing bronchitis](disease) Is it
+- Easy to get infected [Lung cancer](disease) What
+- Easy to get infected [Mercury poisoning](disease) Yeah
+- Which people [Pulmonary-pleural amebiasis](disease) what
+- Susceptible population [pertussis](disease) Ah
+- Susceptible population [Pulmonary Aspergillosis](disease) Ok
+- Which people [Emphysema](disease) Ah
+- Easy to get infected [Lung metastases](disease) Is it
+- Susceptible population [Respiratory bronchiole-related interstitial lung disease](disease)
+- Susceptible population [Emphysema](disease) Ah
+- Prone group [Hypersensitivity pneumonia](disease) Ok
+- Susceptible population [Adult respiratory distress syndrome](disease)
+- who [Mercury poisoning](disease) Ok
+- Easy to get infected [cold](disease)
+- who [Lung abscess](disease)
+- Susceptible population [Building Sick Syndrome](disease) Ok
+- Prone group [SARS](disease) Yeah
+- who [Septic shock](disease) Yeah
+- Prone group [Pulmonary hemorrhage-nephritis syndrome](disease) what
+- who [pneumonia](disease) Ah
+- Which people [Hypersensitivity pneumonia](disease) What
+- who [Simple pulmonary eosinophilic infiltration](disease) Acridine
+- Prone group [Hypersensitivity pneumonia](disease) Is it
+- Susceptible population [Goodpasture syndrome](disease)
+- Easy to get infected [Simple pulmonary eosinophilic infiltration](disease) Ok
+- who [cold](disease) Acridine
+- Prone group [Cadmium poisoning](disease)
+- Susceptible population [Pulmonary embolism](disease)
+- Susceptible population [Large amounts of amniotic fluid inhalation](disease) what
+- Prone group [Pulmonary Actinomycosis](disease)
+- who [Pulmonary bullae](disease) Ok
+- Susceptible population [Pulmonary Cryptococcosis](disease) what
+- Which people [Septic shock](disease) Is it
+- Susceptible population [Alveolar proteinosis](disease)
+- Easy to get infected [pertussis](disease) Is it
+- Prone group [Hypersensitivity pneumonia](disease) what
+- Easy to get infected [Foreign body in the respiratory tract](disease) What
+- Which people [Cadmium poisoning](disease) Ok
+- Which people [Cadmium poisoning](disease) Yeah
+- Easy to get infected [pneumonia](disease) Acridine
+- Prone group [Anaphylactic shock](disease) What
+- who [Respiratory bronchiole-related interstitial lung disease](disease) Acridine
+- Susceptible population [Septic shock](disease)
+- Susceptible population [Emphysema](disease) Yeah
+- Prone group [Pneumococcal pneumonia](disease) Yeah
+- Prone group [pertussis](disease)
+- who [Pulmonary hemorrhage-nephritis syndrome](disease) Ah
+- Prone group [Benzene poisoning](disease)
+- Which people [Pneumococcal pneumonia](disease) Is it
+- Prone group [Lung cancer](disease) Is it
+- Susceptible population [Pneumococcal pneumonia](disease) Yeah
+- who [Bullae](disease) what
+- who [Adult respiratory distress syndrome](disease) Ok
+- Easy to get infected [Emphysema](disease) Is it
+- Susceptible population [Pulmonary bullae](disease)
+- Susceptible population [Building Sick Syndrome](disease) Yeah
+- who [Mercury poisoning](disease) what
+- Which people [Pneumococcal pneumonia](disease) Ah
+- who [Pulmonary embolism](disease) Acridine
+- Which people [Pulmonary hemorrhage-nephritis syndrome](disease) Ah
+- Which people [Goodpasture syndrome](disease) what
+- who [Benzene poisoning](disease) What
+- who [Hypersensitivity pneumonia](disease) Yeah
+- who [pneumonia](disease) What
+- Which people [Wheezing bronchitis](disease) Acridine
+- Easy to get infected [Pulmonary Cryptococcosis](disease) Ah
+- Susceptible population [Hypersensitivity pneumonia](disease) Ah
+- Which people [Pulmonary Cryptococcosis](disease) Yeah
+- Susceptible population [Pulmonary Edema](disease) Yeah
+- Prone group [Lobar Pneumonia](disease) Yeah
+- who [pertussis](disease) Ah
+- Prone group [Pulmonary hemorrhage-nephritis syndrome](disease) Acridine
+- Prone group [Emphysema](disease) Ok
+- Which people [Large amounts of amniotic fluid inhalation](disease) Is it
+- Susceptible population [Foreign body in the respiratory tract](disease) Is it
+- Easy to get infected [Lung cancer](disease) Ok
+- who [Pulmonary-pleural amebiasis](disease) Is it
+- Prone group [SARS](disease)
+- Prone group [Simple pulmonary eosinophilic infiltration](disease) Is it
+- Easy to get infected [Pulmonary-pleural amebiasis](disease) Ok
+- who [Bullae](disease) Yeah
+- Susceptible population [Pulmonary Aspergillosis](disease) what
+- Susceptible population [Radiation pneumonia](disease) Ok
+- Which people [Lung cancer](disease) Is it
+- Susceptible population [Pulmonary Edema](disease) Acridine
+- who [Benzene poisoning](disease)
+- Which people [Pulmonary Aspergillosis](disease) Ah
+- who [Lung metastases](disease) Ok
+- Easy to get infected [Pulmonary Edema](disease) Acridine
+- Prone group [Wheezing bronchitis](disease) Is it
+- who [Hypersensitivity pneumonia](disease)
+- Prone group [Cadmium poisoning](disease) Yeah
+- who [Anaphylactic shock](disease) what
+- Easy to get infected [Pulmonary hemorrhage-nephritis syndrome](disease)
+- Which people [Pulmonary hemorrhage-nephritis syndrome](disease) Acridine
+- Prone group [Bullae](disease) Yeah
+- Easy to get infected [Adult respiratory distress syndrome](disease) What
+- Susceptible population [Pulmonary hemorrhage-nephritis syndrome](disease) Acridine
+- Easy to get infected [SARS](disease) what
+- Prone group [Pulmonary Candidiasis](disease) Is it
+- Prone group [Bacillus pneumoniae pneumonia](disease) Acridine
+- Which people [Pulmonary-pleural amebiasis](disease) Ah
+- Susceptible population [Bullae](disease) Ok
+- Susceptible population [Lobar Pneumonia](disease) What
+- Which people [Lobar Pneumonia](disease) what
+- Prone group [Building Sick Syndrome](disease) Acridine
+- who [Septic shock](disease) Is it
+- Easy to get infected [Adult respiratory distress syndrome](disease) Acridine
+- Which people [SARS](disease)
+- Susceptible population [Building Sick Syndrome](disease) Acridine
+- who [Septic shock](disease) Ok
+- Which people [Pulmonary Candidiasis](disease) Acridine
+- Which people [Mercury poisoning](disease) What
+- Prone group [Anaphylactic shock](disease) Ah
+- who [cold](disease) What
+- Susceptible population [Foreign body in the respiratory tract](disease) Yeah
+- Susceptible population [Anaphylactic shock](disease) What
+- who [Cadmium poisoning](disease) what
+- Susceptible population [Pneumococcal pneumonia](disease) Acridine
+- Easy to get infected [Building Sick Syndrome](disease) Ok
+- Susceptible population [pneumonia](disease) Acridine
+- Easy to get infected [Pulmonary Cryptococcosis](disease)
+- Prone group [Pulmonary bullae](disease) What
+- Prone group [Pulmonary-pleural amebiasis](disease) what
+- who [Anaphylactic shock](disease) Acridine
+- Susceptible population [Pulmonary bullae](disease) What
+- Susceptible population [Alveolar proteinosis](disease) what
+- Prone group [Radiation pneumonia](disease) what
+- who [Wheezing bronchitis](disease) Acridine
+- who [Pulmonary Actinomycosis](disease) Is it
+- who [Radiation pneumonia](disease) Is it
+- Which people [Pulmonary Actinomycosis](disease) Acridine
+- Which people [Goodpasture syndrome](disease) What
+- who [Cadmium poisoning](disease) Yeah
+- Which people [Lung cancer](disease) Acridine
+- Which people [Lobar Pneumonia](disease) Acridine
+- Prone group [Pulmonary Candidiasis](disease) Ok
+- Susceptible population [Mercury poisoning](disease) Ah
+- who [Bacillus pneumoniae pneumonia](disease) Acridine
+- Which people [Lung abscess](disease) Is it
+- Easy to get infected [Pulmonary Cryptococcosis](disease) Yeah
+- Susceptible population [Pulmonary Candidiasis](disease) Acridine
+- Easy to get infected [Lung abscess](disease) Acridine
+- Prone group [Pulmonary-pleural amebiasis](disease) Is it
+- Susceptible population [pertussis](disease)
+- Prone group [Foreign body in the respiratory tract](disease) Acridine
+- who [Goodpasture syndrome](disease) Acridine
+- Susceptible population [Goodpasture syndrome](disease) Yeah
+- Prone group [Pulmonary Edema](disease) What
+- Susceptible population [Mercury poisoning](disease) Is it
+- Easy to get infected [Building Sick Syndrome](disease) what
+- Prone group [Carbon disulfide poisoning](disease)
+- Easy to get infected [Pulmonary embolism](disease) What
+- Which people [Pneumococcal pneumonia](disease) Yeah
+- Which people [Pulmonary Candidiasis](disease) Yeah
+- Susceptible population [Alveolar proteinosis](disease) What
+- Which people [Pulmonary hemorrhage-nephritis syndrome](disease) Ok
+- who [Simple pulmonary eosinophilic infiltration](disease) Is it
+
+## intent:search_disease_dept
+- [Mercury poisoning](disease) What subject Ah
+- [Lung abscess](disease) What subject What
+- [cold](disease) Department Acridine
+- [Large amounts of amniotic fluid inhalation](disease) What subject Yeah
+- [Hypersensitivity pneumonia](disease) Department Yeah
+- [Alveolar proteinosis](disease) Department
+- [pertussis](disease) belong Acridine
+- [Large amounts of amniotic fluid inhalation](disease) What subject Ok
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What family belongs to Acridine
+- [Mercury poisoning](disease) belong what
+- [Benzene poisoning](disease) belong Acridine
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What family belongs to what
+- [Pulmonary Candidiasis](disease) Department what
+- [Anaphylactic shock](disease) belong Acridine
+- [Pulmonary Actinomycosis](disease) Department Yeah
+- [Lobar Pneumonia](disease) What family belongs to Ok
+- [Pulmonary Actinomycosis](disease) belong Acridine
+- [Lung metastases](disease) belong Ah
+- [Pulmonary bullae](disease) Department Is it
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What family belongs to Ok
+- [Respiratory bronchiole-related interstitial lung disease](disease) belong Ah
+- [Adult respiratory distress syndrome](disease) belong Ok
+- [Hypersensitivity pneumonia](disease) What subject
+- [Bullae](disease) Department Acridine
+- [Lung metastases](disease) What subject What
+- [Pulmonary Edema](disease) belong Yeah
+- [Lung cancer](disease) What subject Ah
+- [Simple pulmonary eosinophilic infiltration](disease) What family belongs to Ok
+- [Mercury poisoning](disease) Department Yeah
+- [Building Sick Syndrome](disease) belong Acridine
+- [Pulmonary Edema](disease) What family belongs to Yeah
+- [Bullae](disease) What family belongs to What
+- [Large amounts of amniotic fluid inhalation](disease) What family belongs to Ah
+- [Alveolar proteinosis](disease) belong what
+- [Pulmonary Edema](disease) Department
+- [Alveolar proteinosis](disease) What subject What
+- [Septic shock](disease) What family belongs to What
+- [pertussis](disease) What subject Ah
+- [pneumonia](disease) belong
+- [Alveolar proteinosis](disease) What subject Yeah
+- [SARS](disease) What family belongs to What
+- [Emphysema](disease) What family belongs to Ok
+- [Cadmium poisoning](disease) belong Acridine
+- [Septic shock](disease) Department
+- [Lobar Pneumonia](disease) What subject
+- [Pulmonary-pleural amebiasis](disease) Department what
+- [Pulmonary Candidiasis](disease) What subject Acridine
+- [Septic shock](disease) What subject What
+- [Pulmonary-pleural amebiasis](disease) Department Yeah
+- [Bacillus pneumoniae pneumonia](disease) What family belongs to
+- [Alveolar proteinosis](disease) belong Yeah
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Department
+- [Benzene poisoning](disease) What subject what
+- [Building Sick Syndrome](disease) What subject Ah
+- [Bullae](disease) What subject Ah
+- [Bacillus pneumoniae pneumonia](disease) Department what
+- [Lobar Pneumonia](disease) What subject Ah
+- [Pulmonary-pleural amebiasis](disease) What family belongs to Ok
+- [Large amounts of amniotic fluid inhalation](disease) Department Acridine
+- [Simple pulmonary eosinophilic infiltration](disease) What family belongs to What
+- [cold](disease) belong What
+- [Pneumococcal pneumonia](disease) What family belongs to
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What family belongs to
+- [Pulmonary-pleural amebiasis](disease) belong Acridine
+- [Goodpasture syndrome](disease) What family belongs to
+- [Alveolar proteinosis](disease) What family belongs to Acridine
+- [Pulmonary Edema](disease) belong What
+- [Simple pulmonary eosinophilic infiltration](disease) What subject Is it
+- [cold](disease) belong Ok
+- [Goodpasture syndrome](disease) belong Ok
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Department Ah
+- [Large amounts of amniotic fluid inhalation](disease) Department Is it
+- [Pulmonary Actinomycosis](disease) What family belongs to
+- [Lung abscess](disease) What subject Is it
+- [Bacillus pneumoniae pneumonia](disease) belong What
+- [Anaphylactic shock](disease) Department Ok
+- [Goodpasture syndrome](disease) Department
+- [Respiratory bronchiole-related interstitial lung disease](disease) Department what
+- [Pulmonary Actinomycosis](disease) Department Ok
+- [Cadmium poisoning](disease) Department
+- [Pneumococcal pneumonia](disease) Department What
+- [Goodpasture syndrome](disease) belong
+- [Pulmonary Aspergillosis](disease) Department Yeah
+- [Mercury poisoning](disease) What family belongs to
+- [Wheezing bronchitis](disease) Department What
+- [Lung metastases](disease) Department Ah
+- [Pulmonary Edema](disease) What subject Is it
+- [Pulmonary Candidiasis](disease) Department Ok
+- [Lung metastases](disease) What family belongs to What
+- [Carbon disulfide poisoning](disease) Department Ah
+- [Emphysema](disease) What subject What
+- [Anaphylactic shock](disease) belong Ok
+- [Adult respiratory distress syndrome](disease) Department what
+- [cold](disease) Department Ok
+- [Benzene poisoning](disease) Department Acridine
+- [Lobar Pneumonia](disease) belong Ah
+- [Lung abscess](disease) Department Ok
+- [Foreign body in the respiratory tract](disease) Department What
+- [Respiratory bronchiole-related interstitial lung disease](disease) Department What
+- [Foreign body in the respiratory tract](disease) Department Acridine
+- [Pulmonary-pleural amebiasis](disease) What subject what
+- [Pulmonary-pleural amebiasis](disease) What family belongs to Yeah
+- [Simple pulmonary eosinophilic infiltration](disease) What subject Ah
+- [cold](disease) belong Ah
+- [Emphysema](disease) belong Is it
+- [Lobar Pneumonia](disease) Department Acridine
+- [cold](disease) What subject what
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What subject Ah
+- [Pneumococcal pneumonia](disease) Department Is it
+- [Emphysema](disease) belong Ok
+- [Pneumococcal pneumonia](disease) Department Ah
+- [Bullae](disease) Department Ah
+- [SARS](disease) What family belongs to Ah
+- [Lung metastases](disease) What family belongs to Yeah
+- [Bullae](disease) What subject Acridine
+- [Adult respiratory distress syndrome](disease) Department Ah
+- [Pulmonary Cryptococcosis](disease) What subject Acridine
+- [Pulmonary hemorrhage-nephritis syndrome](disease) belong
+- [Carbon disulfide poisoning](disease) belong Acridine
+- [Hypersensitivity pneumonia](disease) Department Is it
+- [Goodpasture syndrome](disease) What family belongs to Ok
+- [Pulmonary Cryptococcosis](disease) Department Ah
+- [Anaphylactic shock](disease) What family belongs to what
+- [Lung abscess](disease) Department What
+- [Pulmonary embolism](disease) What subject Ah
+- [Foreign body in the respiratory tract](disease) What family belongs to Ok
+- [SARS](disease) Department Acridine
+- [Lung abscess](disease) What subject Ok
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What subject what
+- [Carbon disulfide poisoning](disease) What family belongs to
+- [Alveolar proteinosis](disease) Department Yeah
+- [Pulmonary bullae](disease) belong Yeah
+- [Alveolar proteinosis](disease) Department Acridine
+- [Hypersensitivity pneumonia](disease) belong What
+- [Foreign body in the respiratory tract](disease) What family belongs to Ah
+- [SARS](disease) What family belongs to Acridine
+- [Simple pulmonary eosinophilic infiltration](disease) belong Acridine
+- [Hypersensitivity pneumonia](disease) What subject What
+- [Pulmonary Aspergillosis](disease) What subject Ah
+- [Simple pulmonary eosinophilic infiltration](disease) What family belongs to what
+- [Carbon disulfide poisoning](disease) What family belongs to Ok
+- [Wheezing bronchitis](disease) belong Is it
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Department Acridine
+- [Carbon disulfide poisoning](disease) What subject what
+- [Simple pulmonary eosinophilic infiltration](disease) What subject what
+- [Lung cancer](disease) What family belongs to What
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Department What
+- [Goodpasture syndrome](disease) belong Is it
+- [Pulmonary Cryptococcosis](disease) What subject
+- [Anaphylactic shock](disease) What family belongs to What
+- [Pulmonary bullae](disease) What subject Yeah
+- [Mercury poisoning](disease) Department Ok
+- [cold](disease) What family belongs to Acridine
+- [SARS](disease) belong what
+- [Alveolar proteinosis](disease) What family belongs to Is it
+- [Radiation pneumonia](disease) belong What
+- [Building Sick Syndrome](disease) belong Ah
+- [Lobar Pneumonia](disease) belong what
+- [Lobar Pneumonia](disease) What subject Yeah
+- [Pulmonary pseudotumor](disease) What family belongs to Is it
+- [Foreign body in the respiratory tract](disease) What subject Is it
+- [Pulmonary Aspergillosis](disease) Department Ok
+- [Lung cancer](disease) What subject Acridine
+- [Pulmonary Aspergillosis](disease) Department Ah
+- [Adult respiratory distress syndrome](disease) belong Acridine
+- [Pneumococcal pneumonia](disease) belong What
+- [SARS](disease) Department Yeah
+- [Pulmonary Candidiasis](disease) belong what
+- [Wheezing bronchitis](disease) Department what
+- [Alveolar proteinosis](disease) What subject Is it
+- [Cadmium poisoning](disease) What subject Acridine
+- [Benzene poisoning](disease) belong what
+- [Lung metastases](disease) Department Ok
+- [Lung metastases](disease) belong Ok
+- [Mercury poisoning](disease) Department what
+- [Pulmonary Edema](disease) What family belongs to What
+- [Pulmonary bullae](disease) What family belongs to Is it
+- [Goodpasture syndrome](disease) What family belongs to Is it
+- [Emphysema](disease) What subject
+- [Lung cancer](disease) What family belongs to Ok
+- [Foreign body in the respiratory tract](disease) What family belongs to
+- [Benzene poisoning](disease) Department Ah
+- [Pulmonary Candidiasis](disease) belong What
+- [Pulmonary Cryptococcosis](disease) belong what
+- [Pulmonary embolism](disease) What family belongs to Acridine
+- [Pulmonary Cryptococcosis](disease) Department Yeah
+- [Emphysema](disease) What subject Ok
+- [Benzene poisoning](disease) belong Ok
+- [Hypersensitivity pneumonia](disease) What subject Acridine
+- [Wheezing bronchitis](disease) belong Acridine
+- [SARS](disease) What family belongs to what
+- [Lobar Pneumonia](disease) Department Yeah
+- [Adult respiratory distress syndrome](disease) What family belongs to Yeah
+- [Septic shock](disease) Department Ok
+- [Emphysema](disease) belong What
+- [Lung abscess](disease) belong What
+- [Pulmonary Edema](disease) Department Is it
+- [SARS](disease) Department
+- [Septic shock](disease) What family belongs to Ok
+- [Pneumococcal pneumonia](disease) What subject What
+- [Respiratory bronchiole-related interstitial lung disease](disease) What family belongs to Acridine
+- [Pulmonary pseudotumor](disease) belong Is it
+- [Anaphylactic shock](disease) belong what
+- [Wheezing bronchitis](disease) Department Yeah
+- [Lung abscess](disease) belong Acridine
+- [Pulmonary Cryptococcosis](disease) What subject Ah
+- [pertussis](disease) Department Is it
+- [Wheezing bronchitis](disease) What family belongs to Ok
+- [Pulmonary Edema](disease) Department Yeah
+- [Building Sick Syndrome](disease) belong Is it
+- [Anaphylactic shock](disease) What subject What
+- [Pulmonary Edema](disease) belong Ok
+- [Adult respiratory distress syndrome](disease) What family belongs to Ah
+- [Bacillus pneumoniae pneumonia](disease) What subject What
+- [Simple pulmonary eosinophilic infiltration](disease) Department Is it
+- [Pulmonary pseudotumor](disease) belong Yeah
+- [SARS](disease) belong Acridine
+- [Wheezing bronchitis](disease) What family belongs to Ah
+- [Pulmonary Edema](disease) Department What
+- [Emphysema](disease) What family belongs to What
+- [Lung metastases](disease) belong what
+- [Adult respiratory distress syndrome](disease) belong Is it
+- [Radiation pneumonia](disease) belong Acridine
+- [Lobar Pneumonia](disease) belong Yeah
+- [Alveolar proteinosis](disease) What family belongs to Ok
+- [Pulmonary Actinomycosis](disease) What family belongs to Is it
+- [Pulmonary Candidiasis](disease) What subject
+- [Respiratory bronchiole-related interstitial lung disease](disease) Department Ah
+- [Anaphylactic shock](disease) belong
+- [Pulmonary Actinomycosis](disease) What family belongs to What
+- [pertussis](disease) belong what
+- [Pulmonary hemorrhage-nephritis syndrome](disease) belong Ah
+- [Bacillus pneumoniae pneumonia](disease) What family belongs to What
+- [Goodpasture syndrome](disease) What subject What
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Department Ok
+- [Pulmonary-pleural amebiasis](disease) What subject Acridine
+- [Anaphylactic shock](disease) What subject Ok
+- [Mercury poisoning](disease) What family belongs to What
+- [Pulmonary embolism](disease) What family belongs to What
+- [Anaphylactic shock](disease) What subject Is it
+- [SARS](disease) belong Ah
+- [Lung metastases](disease) What subject Ah
+- [Lung metastases](disease) What family belongs to Is it
+- [Bullae](disease) What subject Is it
+- [Pulmonary Aspergillosis](disease) What subject what
+- [Foreign body in the respiratory tract](disease) What family belongs to what
+- [Pulmonary Edema](disease) What subject
+- [Pulmonary-pleural amebiasis](disease) Department What
+- [Septic shock](disease) Department Acridine
+- [Pneumococcal pneumonia](disease) Department Acridine
+- [Cadmium poisoning](disease) belong Ah
+- [Pulmonary bullae](disease) What subject Ah
+- [SARS](disease) What family belongs to Yeah
+- [Goodpasture syndrome](disease) What subject
+- [Benzene poisoning](disease) What subject Yeah
+- [Respiratory bronchiole-related interstitial lung disease](disease) What subject what
+- [Bullae](disease) What subject
+- [pneumonia](disease) What subject
+- [Large amounts of amniotic fluid inhalation](disease) belong Yeah
+- [Hypersensitivity pneumonia](disease) belong
+- [Building Sick Syndrome](disease) What subject Acridine
+- [Hypersensitivity pneumonia](disease) belong Ah
+- [Benzene poisoning](disease) What subject Ok
+- [Respiratory bronchiole-related interstitial lung disease](disease) belong Is it
+- [pneumonia](disease) What subject What
+- [Pulmonary Candidiasis](disease) What family belongs to Acridine
+- [Bullae](disease) What family belongs to
+- [Pulmonary Actinomycosis](disease) What subject Ah
+- [Foreign body in the respiratory tract](disease) belong Is it
+- [Lung abscess](disease) belong Ok
+- [pneumonia](disease) What subject Ah
+- [Large amounts of amniotic fluid inhalation](disease) What subject what
+- [Simple pulmonary eosinophilic infiltration](disease) belong Ah
+- [Pulmonary-pleural amebiasis](disease) What family belongs to Is it
+- [Goodpasture syndrome](disease) belong what
+- [SARS](disease) belong Is it
+- [Foreign body in the respiratory tract](disease) Department Ok
+- [Simple pulmonary eosinophilic infiltration](disease) What subject Acridine
+- [Hypersensitivity pneumonia](disease) What subject Ah
+- [Pulmonary Cryptococcosis](disease) belong Is it
+- [Lung abscess](disease) What family belongs to What
+- [Foreign body in the respiratory tract](disease) belong Ah
+- [pertussis](disease) belong Ah
+- [Pulmonary embolism](disease) belong Is it
+- [Pneumococcal pneumonia](disease) What family belongs to What
+- [Cadmium poisoning](disease) Department Ah
+- [Septic shock](disease) What subject Is it
+- [Anaphylactic shock](disease) What subject Acridine
+- [Lung abscess](disease) belong Yeah
+- [pertussis](disease) Department Acridine
+- [Carbon disulfide poisoning](disease) What subject Is it
+- [Pulmonary-pleural amebiasis](disease) What subject Ok
+- [Pulmonary pseudotumor](disease) What subject Ah
+- [Bullae](disease) belong What
+- [Alveolar proteinosis](disease) Department Ah
+- [pneumonia](disease) What subject Is it
+- [Emphysema](disease) Department Acridine
+- [Carbon disulfide poisoning](disease) What family belongs to What
+- [Pulmonary pseudotumor](disease) Department Yeah
+- [Adult respiratory distress syndrome](disease) What subject What
+- [Goodpasture syndrome](disease) Department what
+- [Building Sick Syndrome](disease) Department Ah
+- [Pulmonary Cryptococcosis](disease) What family belongs to Yeah
+- [Pulmonary Cryptococcosis](disease) belong What
+- [Lung cancer](disease) belong what
+- [Foreign body in the respiratory tract](disease) What subject Yeah
+- [Anaphylactic shock](disease) Department Yeah
+- [Lung cancer](disease) belong Ah
+- [Wheezing bronchitis](disease) What family belongs to What
+- [SARS](disease) belong What
+- [Pulmonary bullae](disease) belong what
+- [Bullae](disease) belong
+- [Pulmonary hemorrhage-nephritis syndrome](disease) belong Ok
+- [SARS](disease) What family belongs to
+- [Pulmonary pseudotumor](disease) What subject Is it
+- [Wheezing bronchitis](disease) belong Ah
+- [pertussis](disease) Department what
+- [Lung cancer](disease) Department Ah
+- [Benzene poisoning](disease) Department Yeah
+- [Hypersensitivity pneumonia](disease) What family belongs to Yeah
+- [cold](disease) belong
+- [Pulmonary Cryptococcosis](disease) What subject Yeah
+- [Pulmonary Aspergillosis](disease) What family belongs to Yeah
+- [Wheezing bronchitis](disease) What subject Yeah
+- [Emphysema](disease) What subject Is it
+- [cold](disease) Department what
+- [Adult respiratory distress syndrome](disease) Department Yeah
+- [Radiation pneumonia](disease) What family belongs to Ah
+- [Radiation pneumonia](disease) What family belongs to What
+- [Lung metastases](disease) What subject
+- [Lung metastases](disease) What subject Is it
+- [Pulmonary Edema](disease) What family belongs to
+- [Emphysema](disease) What family belongs to Ah
+- [Pulmonary hemorrhage-nephritis syndrome](disease) belong What
+- [Pulmonary Actinomycosis](disease) What subject what
+- [Benzene poisoning](disease) What family belongs to Acridine
+- [Septic shock](disease) Department What
+- [Lung cancer](disease) belong Is it
+- [Lung abscess](disease) belong Is it
+- [Bacillus pneumoniae pneumonia](disease) belong Yeah
+- [Pulmonary-pleural amebiasis](disease) belong Is it
+- [Hypersensitivity pneumonia](disease) What subject Is it
+- [Pneumococcal pneumonia](disease) Department what
+- [Pulmonary Cryptococcosis](disease) Department Is it
+- [Bacillus pneumoniae pneumonia](disease) What subject Acridine
+- [Goodpasture syndrome](disease) Department Is it
+- [Goodpasture syndrome](disease) belong Yeah
+- [Wheezing bronchitis](disease) What family belongs to Acridine
+- [Pulmonary bullae](disease) belong Is it
+- [Pulmonary pseudotumor](disease) Department Acridine
+- [pertussis](disease) belong Is it
+- [Respiratory bronchiole-related interstitial lung disease](disease) Department Is it
+- [Pneumococcal pneumonia](disease) belong Yeah
+- [Hypersensitivity pneumonia](disease) What family belongs to
+- [Pulmonary-pleural amebiasis](disease) belong What
+- [Pulmonary embolism](disease) What family belongs to Is it
+- [pneumonia](disease) What family belongs to Is it
+- [pertussis](disease) What family belongs to what
+- [Adult respiratory distress syndrome](disease) What subject Yeah
+- [Alveolar proteinosis](disease) What family belongs to Yeah
+- [Bacillus pneumoniae pneumonia](disease) What subject what
+- [Lobar Pneumonia](disease) Department
+- [Wheezing bronchitis](disease) What subject what
+- [Pulmonary embolism](disease) Department Acridine
+- [Carbon disulfide poisoning](disease) Department Is it
+- [Pulmonary pseudotumor](disease) Department what
+- [Pulmonary Edema](disease) What subject Ok
+- [Pneumococcal pneumonia](disease) What subject Yeah
+- [pertussis](disease) What family belongs to Acridine
+- [Benzene poisoning](disease) What family belongs to Ah
+- [Mercury poisoning](disease) belong Is it
+- [Bullae](disease) What subject What
+- [Building Sick Syndrome](disease) Department What
+- [pertussis](disease) What subject
+- [Simple pulmonary eosinophilic infiltration](disease) Department Ok
+- [Emphysema](disease) What subject Acridine
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What family belongs to Yeah
+- [Adult respiratory distress syndrome](disease) What family belongs to What
+- [Respiratory bronchiole-related interstitial lung disease](disease) What family belongs to Yeah
+- [cold](disease) What family belongs to Ah
+- [Foreign body in the respiratory tract](disease) What subject Ah
+- [Goodpasture syndrome](disease) Department Yeah
+- [Emphysema](disease) What subject Yeah
+- [Pulmonary Actinomycosis](disease) belong
+- [pneumonia](disease) Department what
+- [Alveolar proteinosis](disease) What subject what
+- [Foreign body in the respiratory tract](disease) belong
+- [Pneumococcal pneumonia](disease) belong Ok
+- [Lobar Pneumonia](disease) What family belongs to
+- [Lung cancer](disease) What subject What
+- [Anaphylactic shock](disease) Department Is it
+- [pertussis](disease) What family belongs to What
+- [cold](disease) Department What
+- [Hypersensitivity pneumonia](disease) What family belongs to What
+- [pneumonia](disease) belong Yeah
+- [Bacillus pneumoniae pneumonia](disease) Department
+- [Bullae](disease) belong what
+- [Lung abscess](disease) What family belongs to Ok
+- [Lung cancer](disease) belong Ok
+- [Cadmium poisoning](disease) What family belongs to Yeah
+- [Large amounts of amniotic fluid inhalation](disease) What family belongs to
+- [Pulmonary Candidiasis](disease) What subject Ah
+- [Bullae](disease) What subject Ok
+- [Septic shock](disease) What subject Ok
+- [Lung cancer](disease) What family belongs to Acridine
+- [Mercury poisoning](disease) belong
+- [pertussis](disease) What family belongs to
+- [Pulmonary Candidiasis](disease) What subject Yeah
+- [Large amounts of amniotic fluid inhalation](disease) What subject
+- [Pulmonary bullae](disease) What family belongs to
+- [pertussis](disease) Department
+- [Bullae](disease) belong Is it
+- [Simple pulmonary eosinophilic infiltration](disease) belong Is it
+- [Goodpasture syndrome](disease) What subject Is it
+- [Respiratory bronchiole-related interstitial lung disease](disease) Department Ok
+- [Emphysema](disease) Department Yeah
+- [Pulmonary Candidiasis](disease) belong
+- [Lung abscess](disease) What family belongs to Ah
+- [Large amounts of amniotic fluid inhalation](disease) What family belongs to Ok
+- [Pulmonary Actinomycosis](disease) belong what
+- [Pulmonary Actinomycosis](disease) What subject
+- [Lung abscess](disease) What family belongs to Acridine
+- [Lung metastases](disease) What subject Acridine
+- [Building Sick Syndrome](disease) What subject Is it
+- [Septic shock](disease) belong What
+- [Large amounts of amniotic fluid inhalation](disease) What subject Ah
+- [Lung abscess](disease) What subject what
+- [SARS](disease) What family belongs to Is it
+- [Pulmonary Actinomycosis](disease) Department Is it
+- [Building Sick Syndrome](disease) Department Ok
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What subject Is it
+- [Radiation pneumonia](disease) What subject Is it
+- [Pulmonary bullae](disease) What subject What
+- [Anaphylactic shock](disease) What subject what
+- [Building Sick Syndrome](disease) What subject What
+- [Foreign body in the respiratory tract](disease) What subject Acridine
+- [Wheezing bronchitis](disease) Department Ah
+- [Septic shock](disease) belong Is it
+- [Septic shock](disease) Department Ah
+- [Wheezing bronchitis](disease) belong
+- [Pneumococcal pneumonia](disease) What subject
+- [Radiation pneumonia](disease) Department
+- [Cadmium poisoning](disease) belong
+- [Pulmonary Candidiasis](disease) What family belongs to Ah
+- [Anaphylactic shock](disease) What subject
+- [Cadmium poisoning](disease) Department Ok
+- [Lobar Pneumonia](disease) What family belongs to What
+- [Pulmonary pseudotumor](disease) What family belongs to what
+- [Benzene poisoning](disease) belong What
+- [Wheezing bronchitis](disease) What family belongs to
+- [Pulmonary Actinomycosis](disease) What family belongs to Ah
+- [Pulmonary Aspergillosis](disease) What subject Yeah
+- [Building Sick Syndrome](disease) What family belongs to Acridine
+- [Alveolar proteinosis](disease) What family belongs to What
+- [Mercury poisoning](disease) What family belongs to Ok
+- [Pulmonary Cryptococcosis](disease) Department Acridine
+- [Goodpasture syndrome](disease) What family belongs to Yeah
+- [Pulmonary-pleural amebiasis](disease) What subject Is it
+- [Building Sick Syndrome](disease) belong what
+- [Hypersensitivity pneumonia](disease) What subject Yeah
+- [Lobar Pneumonia](disease) belong Ok
+- [Alveolar proteinosis](disease) Department What
+- [Cadmium poisoning](disease) What family belongs to What
+- [cold](disease) Department Is it
+- [Pulmonary-pleural amebiasis](disease) What family belongs to Ah
+- [Pulmonary Aspergillosis](disease) belong Ok
+- [Pulmonary pseudotumor](disease) What family belongs to Yeah
+- [Pulmonary Actinomycosis](disease) What subject Yeah
+- [Septic shock](disease) Department what
+- [Lobar Pneumonia](disease) What subject what
+- [Pneumococcal pneumonia](disease) What family belongs to Ah
+- [Emphysema](disease) Department Ok
+- [Cadmium poisoning](disease) Department Yeah
+- [pneumonia](disease) belong what
+- [Pulmonary Aspergillosis](disease) What subject
+- [Pulmonary pseudotumor](disease) What subject
+- [Wheezing bronchitis](disease) What family belongs to Is it
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Department Yeah
+- [Lung metastases](disease) belong
+- [Large amounts of amniotic fluid inhalation](disease) What subject Acridine
+- [Lobar Pneumonia](disease) What family belongs to Is it
+- [Lung cancer](disease) belong What
+- [Pulmonary Edema](disease) Department what
+- [Carbon disulfide poisoning](disease) belong Ah
+- [Emphysema](disease) Department Is it
+- [Pulmonary embolism](disease) What subject what
+- [Hypersensitivity pneumonia](disease) Department Ah
+- [Pneumococcal pneumonia](disease) What subject Is it
+- [Anaphylactic shock](disease) What family belongs to Yeah
+- [Radiation pneumonia](disease) What family belongs to Acridine
+- [Pulmonary pseudotumor](disease) What family belongs to
+- [Septic shock](disease) What subject Ah
+- [Pulmonary Edema](disease) What subject What
+- [Bullae](disease) What family belongs to Yeah
+- [Septic shock](disease) What subject
+- [Foreign body in the respiratory tract](disease) What subject What
+- [Goodpasture syndrome](disease) What family belongs to What
+- [Carbon disulfide poisoning](disease) What family belongs to Yeah
+- [Respiratory bronchiole-related interstitial lung disease](disease) What family belongs to Ah
+- [Cadmium poisoning](disease) What family belongs to Is it
+- [Respiratory bronchiole-related interstitial lung disease](disease) What subject
+- [Pulmonary pseudotumor](disease) What subject what
+- [Pulmonary pseudotumor](disease) Department Ok
+- [Lung abscess](disease) belong
+- [Mercury poisoning](disease) What family belongs to Is it
+- [pneumonia](disease) Department
+- [Anaphylactic shock](disease) What family belongs to Is it
+- [Mercury poisoning](disease) belong Acridine
+- [Simple pulmonary eosinophilic infiltration](disease) Department Yeah
+- [Pulmonary embolism](disease) What subject Is it
+- [Pulmonary embolism](disease) Department Ok
+- [Adult respiratory distress syndrome](disease) What family belongs to
+- [Pulmonary Aspergillosis](disease) belong Acridine
+- [Mercury poisoning](disease) belong Ah
+- [Anaphylactic shock](disease) What subject Yeah
+- [Radiation pneumonia](disease) What subject Acridine
+- [Pulmonary Cryptococcosis](disease) Department What
+- [Lung metastases](disease) What family belongs to Acridine
+- [Pulmonary Edema](disease) Department Acridine
+- [pneumonia](disease) What family belongs to Yeah
+- [Goodpasture syndrome](disease) What family belongs to Ah
+- [Hypersensitivity pneumonia](disease) belong Ok
+- [pneumonia](disease) What subject Yeah
+- [Lung cancer](disease) Department Acridine
+- [Lung cancer](disease) belong
+- [Lung metastases](disease) belong Is it
+- [SARS](disease) What subject
+- [Simple pulmonary eosinophilic infiltration](disease) belong Ok
+- [Hypersensitivity pneumonia](disease) What family belongs to Ah
+- [Benzene poisoning](disease) Department what
+- [Cadmium poisoning](disease) What subject Yeah
+- [Pulmonary Aspergillosis](disease) Department
+- [Pulmonary Actinomycosis](disease) What subject Ok
+- [Benzene poisoning](disease) What family belongs to Is it
+- [Mercury poisoning](disease) belong Ok
+- [Goodpasture syndrome](disease) What subject what
+- [Benzene poisoning](disease) What subject Ah
+- [Alveolar proteinosis](disease) belong Is it
+- [Respiratory bronchiole-related interstitial lung disease](disease) What subject What
+- [Carbon disulfide poisoning](disease) belong What
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What family belongs to Is it
+- [Septic shock](disease) belong what
+- [Pulmonary-pleural amebiasis](disease) belong what
+- [Foreign body in the respiratory tract](disease) Department Yeah
+- [Lung abscess](disease) Department Acridine
+- [Cadmium poisoning](disease) What subject Is it
+- [Pulmonary hemorrhage-nephritis syndrome](disease) belong what
+- [Pneumococcal pneumonia](disease) What subject Acridine
+- [Pulmonary Candidiasis](disease) What family belongs to Yeah
+- [Pneumococcal pneumonia](disease) What subject Ah
+- [Anaphylactic shock](disease) Department
+- [Pulmonary Candidiasis](disease) Department Ah
+- [Carbon disulfide poisoning](disease) Department Acridine
+- [Radiation pneumonia](disease) belong Is it
+- [Carbon disulfide poisoning](disease) What subject
+- [Respiratory bronchiole-related interstitial lung disease](disease) What subject Acridine
+- [pertussis](disease) Department Ok
+- [Adult respiratory distress syndrome](disease) What family belongs to Acridine
+- [Bacillus pneumoniae pneumonia](disease) What subject Ok
+- [Pulmonary Aspergillosis](disease) What family belongs to Is it
+- [Pulmonary Edema](disease) What family belongs to what
+- [Foreign body in the respiratory tract](disease) What family belongs to Yeah
+- [Cadmium poisoning](disease) What family belongs to Acridine
+- [Simple pulmonary eosinophilic infiltration](disease) What subject
+- [Bacillus pneumoniae pneumonia](disease) What family belongs to Is it
+- [Pulmonary Cryptococcosis](disease) belong Yeah
+- [Mercury poisoning](disease) What subject what
+- [Pulmonary Aspergillosis](disease) belong
+- [Respiratory bronchiole-related interstitial lung disease](disease) What subject Yeah
+- [Foreign body in the respiratory tract](disease) Department
+- [Pulmonary bullae](disease) What family belongs to Acridine
+- [Lung cancer](disease) What subject Is it
+- [Foreign body in the respiratory tract](disease) belong Ok
+- [Bacillus pneumoniae pneumonia](disease) What family belongs to Acridine
+- [Simple pulmonary eosinophilic infiltration](disease) Department what
+- [Bullae](disease) What family belongs to what
+- [Pulmonary pseudotumor](disease) Department Is it
+- [Bacillus pneumoniae pneumonia](disease) Department What
+- [Pulmonary bullae](disease) Department Yeah
+- [Mercury poisoning](disease) Department What
+- [Goodpasture syndrome](disease) belong What
+- [Pulmonary Candidiasis](disease) belong Yeah
+- [Pulmonary pseudotumor](disease) Department What
+- [cold](disease) belong Acridine
+- [Pulmonary Actinomycosis](disease) Department Ah
+- [SARS](disease) belong Yeah
+- [Bullae](disease) belong Yeah
+- [Lung metastases](disease) belong Yeah
+- [Pulmonary Aspergillosis](disease) Department what
+- [Pulmonary Edema](disease) What family belongs to Ah
+- [pneumonia](disease) What subject Acridine
+- [Respiratory bronchiole-related interstitial lung disease](disease) What family belongs to
+- [Respiratory bronchiole-related interstitial lung disease](disease) What family belongs to Is it
+- [Radiation pneumonia](disease) Department Is it
+- [Foreign body in the respiratory tract](disease) Department Ah
+- [Bullae](disease) Department what
+- [Emphysema](disease) Department What
+- [Building Sick Syndrome](disease) What family belongs to Ok
+- [Large amounts of amniotic fluid inhalation](disease) belong Is it
+- [Pulmonary bullae](disease) What subject Ok
+- [Cadmium poisoning](disease) Department Acridine
+- [SARS](disease) Department what
+- [Septic shock](disease) belong Ok
+- [Lung metastases](disease) Department what
+- [Emphysema](disease) belong Acridine
+- [SARS](disease) What subject what
+- [Lung abscess](disease) What subject Acridine
+- [Cadmium poisoning](disease) What family belongs to Ok
+- [pertussis](disease) What subject Yeah
+- [Building Sick Syndrome](disease) What family belongs to What
+- [Pulmonary Edema](disease) Department Ok
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What subject
+- [Adult respiratory distress syndrome](disease) belong What
+- [Bacillus pneumoniae pneumonia](disease) Department Acridine
+- [Simple pulmonary eosinophilic infiltration](disease) What subject What
+- [Respiratory bronchiole-related interstitial lung disease](disease) Department Yeah
+- [Pulmonary-pleural amebiasis](disease) Department Acridine
+- [Respiratory bronchiole-related interstitial lung disease](disease) belong
+- [Alveolar proteinosis](disease) Department Is it
+- [Radiation pneumonia](disease) What subject what
+- [Pneumococcal pneumonia](disease) Department Yeah
+- [Pulmonary pseudotumor](disease) belong what
+- [Building Sick Syndrome](disease) What subject Yeah
+- [Alveolar proteinosis](disease) What subject
+- [Lobar Pneumonia](disease) What family belongs to Ah
+- [Pulmonary Aspergillosis](disease) What family belongs to Ok
+- [Pulmonary Candidiasis](disease) belong Acridine
+- [Pulmonary pseudotumor](disease) What subject Acridine
+- [Lobar Pneumonia](disease) What family belongs to what
+- [Goodpasture syndrome](disease) What subject Ok
+- [pneumonia](disease) Department What
+- [Lung cancer](disease) What family belongs to what
+- [Simple pulmonary eosinophilic infiltration](disease) belong Yeah
+- [Pulmonary Actinomycosis](disease) belong Yeah
+- [Radiation pneumonia](disease) What family belongs to
+- [Anaphylactic shock](disease) What subject Ah
+- [Pulmonary Aspergillosis](disease) belong Ah
+- [Lung abscess](disease) belong Ah
+- [Anaphylactic shock](disease) What family belongs to Ok
+- [Pulmonary Cryptococcosis](disease) What family belongs to Ah
+- [Emphysema](disease) What subject Ah
+- [Radiation pneumonia](disease) Department Yeah
+- [Adult respiratory distress syndrome](disease) What subject
+- [Pulmonary embolism](disease) belong
+- [Benzene poisoning](disease) Department Is it
+- [Pulmonary bullae](disease) Department What
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Department what
+- [Pulmonary Cryptococcosis](disease) What subject Ok
+- [Carbon disulfide poisoning](disease) What subject Ok
+- [Bullae](disease) What family belongs to Is it
+- [Pulmonary pseudotumor](disease) belong Ok
+- [SARS](disease) Department Is it
+- [Septic shock](disease) What subject Yeah
+- [Goodpasture syndrome](disease) What subject Yeah
+- [Alveolar proteinosis](disease) What family belongs to
+- [Bacillus pneumoniae pneumonia](disease) What family belongs to what
+- [Lung metastases](disease) What subject Ok
+- [Adult respiratory distress syndrome](disease) belong
+- [Benzene poisoning](disease) belong
+- [Septic shock](disease) Department Yeah
+- [Radiation pneumonia](disease) What subject What
+- [SARS](disease) What subject Ah
+- [Bullae](disease) Department Yeah
+- [Pulmonary Cryptococcosis](disease) belong Ah
+- [Pulmonary Candidiasis](disease) Department Is it
+- [Respiratory bronchiole-related interstitial lung disease](disease) What subject Ah
+- [Goodpasture syndrome](disease) belong Ah
+- [Pulmonary-pleural amebiasis](disease) Department Ah
+- [Emphysema](disease) What family belongs to what
+- [Pulmonary bullae](disease) belong
+- [Pulmonary bullae](disease) What family belongs to Ok
+- [Pulmonary bullae](disease) What family belongs to what
+- [Respiratory bronchiole-related interstitial lung disease](disease) belong what
+- [Pulmonary Candidiasis](disease) What family belongs to what
+- [Radiation pneumonia](disease) What family belongs to Is it
+- [Cadmium poisoning](disease) Department Is it
+- [pneumonia](disease) What subject what
+- [Carbon disulfide poisoning](disease) What family belongs to Acridine
+- [Mercury poisoning](disease) What subject Is it
+- [Pulmonary Candidiasis](disease) What subject Ok
+- [Large amounts of amniotic fluid inhalation](disease) What family belongs to Is it
+- [Pulmonary Actinomycosis](disease) What family belongs to Acridine
+- [Pulmonary bullae](disease) What subject Acridine
+- [Adult respiratory distress syndrome](disease) belong Ah
+- [Septic shock](disease) Department Is it
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What subject What
+- [Alveolar proteinosis](disease) belong
+- [pertussis](disease) belong Yeah
+- [Lung cancer](disease) What family belongs to Is it
+- [Lung metastases](disease) Department
+- [Radiation pneumonia](disease) What subject Yeah
+- [Carbon disulfide poisoning](disease) belong Is it
+- [Goodpasture syndrome](disease) What family belongs to Acridine
+- [Building Sick Syndrome](disease) What subject
+- [Pulmonary Candidiasis](disease) What family belongs to Ok
+- [pneumonia](disease) What family belongs to what
+- [Carbon disulfide poisoning](disease) belong
+- [Mercury poisoning](disease) What family belongs to what
+- [Respiratory bronchiole-related interstitial lung disease](disease) What subject Is it
+- [cold](disease) What subject Acridine
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What subject Yeah
+- [Pulmonary hemorrhage-nephritis syndrome](disease) belong Is it
+- [pneumonia](disease) belong Acridine
+- [Pulmonary Aspergillosis](disease) Department What
+- [Adult respiratory distress syndrome](disease) Department Ok
+- [Lung abscess](disease) What family belongs to
+- [pneumonia](disease) Department Is it
+- [Pulmonary embolism](disease) What subject Ok
+- [Lung abscess](disease) What family belongs to what
+- [Lung cancer](disease) belong Yeah
+- [Hypersensitivity pneumonia](disease) What family belongs to Acridine
+- [Carbon disulfide poisoning](disease) belong Yeah
+- [Pneumococcal pneumonia](disease) belong
+- [Lung metastases](disease) What family belongs to Ok
+- [Pulmonary Aspergillosis](disease) What subject What
+- [Emphysema](disease) What subject what
+- [Hypersensitivity pneumonia](disease) What family belongs to Is it
+- [pneumonia](disease) What family belongs to Acridine
+- [Pulmonary hemorrhage-nephritis syndrome](disease) Department Is it
+- [Pulmonary embolism](disease) Department Yeah
+- [Radiation pneumonia](disease) What family belongs to Ok
+- [cold](disease) What subject
+- [Anaphylactic shock](disease) belong Ah
+- [Bacillus pneumoniae pneumonia](disease) What family belongs to Yeah
+- [Benzene poisoning](disease) What subject Is it
+- [Adult respiratory distress syndrome](disease) What family belongs to Is it
+- [Lung metastases](disease) Department Is it
+- [Hypersensitivity pneumonia](disease) belong Yeah
+- [Pulmonary Cryptococcosis](disease) What family belongs to Acridine
+- [Pulmonary-pleural amebiasis](disease) Department
+- [Pulmonary Actinomycosis](disease) What subject Is it
+- [Foreign body in the respiratory tract](disease) What subject what
+- [Alveolar proteinosis](disease) belong Ok
+- [Adult respiratory distress syndrome](disease) belong Yeah
+- [Pulmonary Actinomycosis](disease) What family belongs to Ok
+- [Pulmonary Candidiasis](disease) What subject what
+- [pneumonia](disease) Department Acridine
+- [Pulmonary pseudotumor](disease) belong Acridine
+- [Large amounts of amniotic fluid inhalation](disease) belong Ah
+- [Building Sick Syndrome](disease) belong What
+- [Pulmonary bullae](disease) Department
+- [Septic shock](disease) What subject what
+- [Adult respiratory distress syndrome](disease) Department Is it
+- [Pulmonary embolism](disease) belong Ah
+- [Pulmonary-pleural amebiasis](disease) belong Ah
+- [Septic shock](disease) What family belongs to
+- [Septic shock](disease) What family belongs to Yeah
+- [cold](disease) What family belongs to What
+- [Pulmonary Cryptococcosis](disease) What subject what
+- [cold](disease) Department Ah
+- [Benzene poisoning](disease) What family belongs to What
+- [Alveolar proteinosis](disease) belong What
+- [Carbon disulfide poisoning](disease) What family belongs to what
+- [Cadmium poisoning](disease) What subject What
+- [Pulmonary pseudotumor](disease) What family belongs to Acridine
+- [Building Sick Syndrome](disease) What family belongs to
+- [Pulmonary embolism](disease) What family belongs to
+- [pertussis](disease) What family belongs to Yeah
+- [Pulmonary Cryptococcosis](disease) belong Ok
+- [Bacillus pneumoniae pneumonia](disease) Department Ah
+- [Pulmonary Candidiasis](disease) belong Ah
+- [Pulmonary bullae](disease) Department Acridine
+- [Lung metastases](disease) What family belongs to what
+- [SARS](disease) Department Ok
+- [Wheezing bronchitis](disease) belong Ok
+- [Bacillus pneumoniae pneumonia](disease) belong
+- [Bacillus pneumoniae pneumonia](disease) belong Acridine
+- [Large amounts of amniotic fluid inhalation](disease) What family belongs to Yeah
+- [Pulmonary pseudotumor](disease) What subject What
+- [Septic shock](disease) What family belongs to Is it
+- [Septic shock](disease) What subject Acridine
+- [Goodpasture syndrome](disease) What subject Acridine
+- [Carbon disulfide poisoning](disease) What subject Ah
+- [Pulmonary embolism](disease) What subject Yeah
+- [Lung abscess](disease) Department Is it
+- [Pulmonary Cryptococcosis](disease) belong
+- [Simple pulmonary eosinophilic infiltration](disease) What family belongs to Ah
+- [Pulmonary embolism](disease) What family belongs to what
+- [Pulmonary embolism](disease) What family belongs to Ok
+- [Emphysema](disease) belong
+- [pneumonia](disease) belong Ok
+- [Foreign body in the respiratory tract](disease) What family belongs to What
+- [Foreign body in the respiratory tract](disease) belong what
+- [Carbon disulfide poisoning](disease) Department What
+- [Lung metastases](disease) What family belongs to
+- [Lung metastases](disease) Department Acridine
+- [Foreign body in the respiratory tract](disease) What subject
+- [Bullae](disease) What subject what
+- [Respiratory bronchiole-related interstitial lung disease](disease) belong Ok
+- [SARS](disease) What subject Ok
+- [Hypersensitivity pneumonia](disease) Department Acridine
+- [Pulmonary Candidiasis](disease) Department What
+- [Bullae](disease) Department Ok
+- [Cadmium poisoning](disease) belong what
+- [Pulmonary-pleural amebiasis](disease) What family belongs to What
+- [Benzene poisoning](disease) Department What
+- [pertussis](disease) belong Ok
+- [Simple pulmonary eosinophilic infiltration](disease) What family belongs to Yeah
+- [Mercury poisoning](disease) Department Acridine
+- [Pulmonary Cryptococcosis](disease) Department what
+- [Lobar Pneumonia](disease) belong Is it
+- [Pulmonary Edema](disease) What subject what
+- [Septic shock](disease) belong
+- [Cadmium poisoning](disease) belong Yeah
+- [SARS](disease) Department Ah
+- [cold](disease) What family belongs to
+- [Radiation pneumonia](disease) belong Yeah
+- [Pulmonary embolism](disease) Department What
+- [Respiratory bronchiole-related interstitial lung disease](disease) What family belongs to Ok
+- [Pulmonary Cryptococcosis](disease) What family belongs to Is it
+- [Pulmonary bullae](disease) What family belongs to Ah
+- [Adult respiratory distress syndrome](disease) belong what
+- [Pulmonary Candidiasis](disease) Department Acridine
+- [Pulmonary-pleural amebiasis](disease) belong Ok
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What subject Acridine
+- [Building Sick Syndrome](disease) belong Ok
+- [Pulmonary Edema](disease) What family belongs to Acridine
+- [Pulmonary pseudotumor](disease) What family belongs to Ok
+- [Lobar Pneumonia](disease) What subject Is it
+- [Radiation pneumonia](disease) belong Ah
+- [Pulmonary Edema](disease) belong Is it
+- [cold](disease) What subject Is it
+- [SARS](disease) belong Ok
+- [Benzene poisoning](disease) What subject What
+- [Lung abscess](disease) Department what
+- [Wheezing bronchitis](disease) Department Acridine
+- [Pulmonary Edema](disease) belong what
+- [Mercury poisoning](disease) Department
+- [Building Sick Syndrome](disease) What subject Ok
+- [Hypersensitivity pneumonia](disease) What family belongs to what
+- [Wheezing bronchitis](disease) What subject
+- [Bacillus pneumoniae pneumonia](disease) Department Is it
+- [Pulmonary Candidiasis](disease) What family belongs to
+- [Lung abscess](disease) belong what
+- [Radiation pneumonia](disease) Department What
+- [Anaphylactic shock](disease) belong What
+- [Large amounts of amniotic fluid inhalation](disease) belong
+- [Cadmium poisoning](disease) Department What
+- [Pneumococcal pneumonia](disease) belong Is it
+- [cold](disease) belong Is it
+- [Lung abscess](disease) Department
+- [Mercury poisoning](disease) What subject What
+- [Pulmonary embolism](disease) belong Ok
+- [pneumonia](disease) Department Ok
+- [Pulmonary Aspergillosis](disease) Department Acridine
+- [Pulmonary Cryptococcosis](disease) What subject What
+- [Pulmonary Edema](disease) What subject Acridine
+- [Bullae](disease) What family belongs to Ok
+- [Pulmonary Actinomycosis](disease) Department What
+- [Building Sick Syndrome](disease) What family belongs to Yeah
+- [Pulmonary Edema](disease) belong
+- [Cadmium poisoning](disease) Department what
+- [Large amounts of amniotic fluid inhalation](disease) Department
+- [Pulmonary Aspergillosis](disease) What family belongs to what
+- [Building Sick Syndrome](disease) What family belongs to what
+- [Large amounts of amniotic fluid inhalation](disease) What subject What
+- [Pulmonary Candidiasis](disease) What family belongs to What
+- [Pulmonary pseudotumor](disease) belong What
+- [Emphysema](disease) Department
+- [Radiation pneumonia](disease) belong
+- [Emphysema](disease) Department what
+- [Radiation pneumonia](disease) Department Ah
+- [Wheezing bronchitis](disease) belong What
+- [Pulmonary pseudotumor](disease) What family belongs to What
+- [Radiation pneumonia](disease) belong Ok
+- [Septic shock](disease) belong Yeah
+- [Simple pulmonary eosinophilic infiltration](disease) Department
+- [Carbon disulfide poisoning](disease) What subject What
+- [Pulmonary Aspergillosis](disease) What subject Ok
+- [Pulmonary embolism](disease) What subject
+- [Pulmonary embolism](disease) belong What
+- [cold](disease) What family belongs to what
+- [Bacillus pneumoniae pneumonia](disease) Department Yeah
+- [Lung cancer](disease) Department What
+- [Respiratory bronchiole-related interstitial lung disease](disease) belong What
+- [Lung cancer](disease) What subject Yeah
+- [Lobar Pneumonia](disease) belong Acridine
+- [Emphysema](disease) belong Ah
+- [Bullae](disease) What family belongs to Ah
+- [Wheezing bronchitis](disease) What family belongs to what
+- [Mercury poisoning](disease) What family belongs to Acridine
+- [Alveolar proteinosis](disease) What family belongs to Ah
+- [pertussis](disease) belong
+- [Pulmonary Actinomycosis](disease) What family belongs to what
+- [Emphysema](disease) What family belongs to Yeah
+- [Building Sick Syndrome](disease) What family belongs to Ah
+- [Pulmonary-pleural amebiasis](disease) What family belongs to what
+- [Anaphylactic shock](disease) Department What
+- [pneumonia](disease) Department Ah
+- [Pneumococcal pneumonia](disease) Department Ok
+- [Lung abscess](disease) Department Ah
+- [Anaphylactic shock](disease) What family belongs to Acridine
+- [Hypersensitivity pneumonia](disease) Department what
+- [Benzene poisoning](disease) What subject Acridine
+- [Septic shock](disease) What family belongs to what
+- [Benzene poisoning](disease) belong Yeah
+- [cold](disease) What subject Yeah
+- [Lung metastases](disease) belong Acridine
+- [Pulmonary Aspergillosis](disease) belong Is it
+- [Pulmonary embolism](disease) What family belongs to Ah
+- [SARS](disease) What subject Acridine
+- [Cadmium poisoning](disease) What family belongs to Ah
+- [Wheezing bronchitis](disease) What subject Acridine
+- [Pulmonary embolism](disease) Department Is it
+- [Pulmonary bullae](disease) What family belongs to What
+- [Pulmonary pseudotumor](disease) belong Ah
+- [Pulmonary Actinomycosis](disease) Department what
+- [Lung metastases](disease) Department Yeah
+- [Pulmonary Candidiasis](disease) belong Is it
+- [Lung cancer](disease) Department Yeah
+- [Lung cancer](disease) What subject what
+- [Pneumococcal pneumonia](disease) What family belongs to Acridine
+- [Wheezing bronchitis](disease) belong what
+- [Emphysema](disease) belong Yeah
+- [Benzene poisoning](disease) What family belongs to Yeah
+- [Pulmonary hemorrhage-nephritis syndrome](disease) What family belongs to Ah
+- [Hypersensitivity pneumonia](disease) What subject Ok
+- [Pneumococcal pneumonia](disease) What subject what
+- [Building Sick Syndrome](disease) Department what
+- [Pulmonary bullae](disease) Department Ah
+- [pertussis](disease) What subject what
+- [Septic shock](disease) What family belongs to Ah
+- [Respiratory bronchiole-related interstitial lung disease](disease) Department Acridine
+- [pertussis](disease) belong What
+- [Radiation pneumonia](disease) What subject
+- [Pulmonary Cryptococcosis](disease) What family belongs to
+- [Adult respiratory distress syndrome](disease) What subject what
+- [Large amounts of amniotic fluid inhalation](disease) Department Yeah
+- [Benzene poisoning](disease) Department
+- [Bacillus pneumoniae pneumonia](disease) What subject
+- [Cadmium poisoning](disease) belong What
+- [Lung cancer](disease) What family belongs to Ah
+- [cold](disease) Department
+- [Simple pulmonary eosinophilic infiltration](disease) What family belongs to Acridine
+- [Bullae](disease) What subject Yeah
+- [Emphysema](disease) What family belongs to
+- [Pulmonary pseudotumor](disease) What subject Ok
+- [Hypersensitivity pneumonia](disease) belong Is it
+- [Pulmonary Candidiasis](disease) What subject What
+- [Lobar Pneumonia](disease) belong What
+- [Pulmonary pseudotumor](disease) What family belongs to Ah
+- [Pulmonary Candidiasis](disease) Department Yeah
+- [Pulmonary Actinomycosis](disease) belong Ah
+- [Building Sick Syndrome](disease) What subject what
+- [Anaphylactic shock](disease) What family belongs to Ah
+- [Pulmonary embolism](disease) Department
+- [Bullae](disease) belong Acridine
+- [Pulmonary bullae](disease) belong Ah
+- [Building Sick Syndrome](disease) Department Yeah
+- [Wheezing bronchitis](disease) Department Ok
+- [Pulmonary Actinomycosis](disease) What subject Acridine
+- [Hypersensitivity pneumonia](disease) What family belongs to Ok
+- [Foreign body in the respiratory tract](disease) Department Is it
+- [Adult respiratory distress syndrome](disease) Department Acridine
+- [Pulmonary Aspergillosis](disease) What family belongs to Ah
+- [Bacillus pneumoniae pneumonia](disease) belong Ok
+- [Bullae](disease) Department What
+- [Pulmonary embolism](disease) Department Ah
+- [Pneumococcal pneumonia](disease) What family belongs to Is it
+- [Pulmonary-pleural amebiasis](disease) belong
+- [Cadmium poisoning](disease) What subject Ah
+- [Lung metastases](disease) What subject what
+- [Bacillus pneumoniae pneumonia](disease) belong what
+- [Lung cancer](disease) Department Is it
+- [Pulmonary-pleural amebiasis](disease) What subject What
+- [Wheezing bronchitis](disease) What family belongs to Yeah
+- [Pneumococcal pneumonia](disease) belong what
+- [Emphysema](disease) belong what
+- [Pulmonary Aspergillosis](disease) What family belongs to
+- [Lung cancer](disease) Department what
+- [Septic shock](disease) What family belongs to Acridine
+- [Bacillus pneumoniae pneumonia](disease) What family belongs to Ah
+- [Large amounts of amniotic fluid inhalation](disease) What family belongs to What
+- [Benzene poisoning](disease) What family belongs to
+- [Large amounts of amniotic fluid inhalation](disease) Department What
+- [Respiratory bronchiole-related interstitial lung disease](disease) What family belongs to what
+- [Cadmium poisoning](disease) belong Ok
+- [Radiation pneumonia](disease) What family belongs to what
+- [Wheezing bronchitis](disease) What subject Is it
+- [Carbon disulfide poisoning](disease) What subject Acridine
+- [Goodpasture syndrome](disease) Department Ok
+- [Foreign body in the respiratory tract](disease) What family belongs to Acridine
+- [Hypersensitivity pneumonia](disease) What subject what
+- [pneumonia](disease) belong Is it
+- [Foreign body in the respiratory tract](disease) belong What
+- [Pulmonary Candidiasis](disease) What subject Is it
+- [Carbon disulfide poisoning](disease) What family belongs to Ah
+- [Large amounts of amniotic fluid inhalation](disease) What family belongs to what
+- [Wheezing bronchitis](disease) belong Yeah
+- [Respiratory bronchiole-related interstitial lung disease](disease) What subject Ok
+- [Mercury poisoning](disease) What subject
+- [Pulmonary bullae](disease) belong Ok
+- [Simple pulmonary eosinophilic infiltration](disease) What family belongs to Is it
+- [Pulmonary Cryptococcosis](disease) What family belongs to what
+- [Lobar Pneumonia](disease) Department what
+- [Bacillus pneumoniae pneumonia](disease) belong Ah
+- [cold](disease) What family belongs to Ok
+- [Emphysema](disease) What family belongs to Acridine
+- [Simple pulmonary eosinophilic infiltration](disease) belong What
+- [Wheezing bronchitis](disease) What subject What
