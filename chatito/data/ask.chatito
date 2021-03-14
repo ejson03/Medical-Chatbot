@@ -191,10 +191,8 @@ import ./common.chatito
     How to cure
     Treatment method
     therapy
-    Kiji
     How to do
     What to do
-    Kiji
 
 ~[treat_prob_qwd]
     How likely is it to be cured
@@ -204,7 +202,6 @@ import ./common.chatito
     A few percent
     proportion
     possibility
-    Noji
     Curable
     Can be cured
     Can be treated
