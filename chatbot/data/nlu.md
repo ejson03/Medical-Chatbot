@@ -9,8 +9,20 @@
 - ssup
 - sup
 - whats up
-
+- hello there
+- good morning
+- good evening
+- moin
+- let's go
+- hey dude
+- goodmorning
+- goodevening
+- good afternoon
 ## intent:goodbye
+- cu
+- good by
+- cee you later
+- bye bye
 - bye
 - goodbye
 - see you around
