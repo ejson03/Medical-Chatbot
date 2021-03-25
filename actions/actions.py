@@ -1,8 +1,8 @@
 from pymongo import MongoClient
+
 from modules.utils import *
 from modules.diagnose import encode_symptom, create_illness_vector, get_diagnosis
 from modules.config import * 
-import dateparser as ddp
 import os, requests, base64, uuid, random
 from os import environ
 from sys import getsizeof
@@ -26,12 +26,14 @@ try:
             user=NEO4J_USERNAME,
             password= NEO4J_PASSWORD)
 except Exception as e:
+    import sys
     sys.exit(-1)
 
 
 def retrieve_disease_name(name):
     names = []
     name = '.*' + '.*'.join(list(name)) + '.*'
+    import re
     pattern = re.compile(name)
     for i in disease_names:
         candidate = pattern.search(i)
@@ -224,7 +226,7 @@ class ActionSearchSymptom(Action):
         
         possible_diseases = retrieve_disease_name(disease)
         if disease == pre_disease or len(possible_diseases) == 1:
-            a = [x['s.name'] for x in graph.run("MATCH (p:Disease{name: {disease}})-[r:has_symptom]->\
+            retmsg = [x['s.name'] for x in graph.run("MATCH (p:Disease{name: {disease}})-[r:has_symptom]->\
                                                 (s:Symptom) RETURN s.name", disease=disease).data()]
             dispatcher.utter_message(retmsg)
         elif len(possible_diseases) > 1:
