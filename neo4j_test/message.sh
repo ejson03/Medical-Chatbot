@@ -4,5 +4,5 @@ curl --request POST \
   --data '{
       
 "sender_id": "dddd",
-  "message": "Make me laugh"
+  "message": "Bored"
 }'
