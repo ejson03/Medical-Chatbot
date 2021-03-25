@@ -1,0 +1,10 @@
+pymongo
+python-dotenv
+py2neo
+neo4j
+spacy
+pandas
+matplotlib
+numpy
+scikit-learn
+rasa==1.10.14
