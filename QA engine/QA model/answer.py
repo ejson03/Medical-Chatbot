@@ -1,4 +1,3 @@
-import ktrain
 from ktrain import text
 INDEXDIR = './index'
 

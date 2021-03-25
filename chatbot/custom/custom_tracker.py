@@ -1,24 +1,16 @@
+import json, logging, pickle, typing
+from typing import Iterator, Optional, Text, Iterable, Union, Dict
 import itertools
-import json
-import logging
-import os
-import pickle
 import traceback
-import typing
 from time import sleep
-from typing import Dict, Iterable, Iterator, Optional, Text, Union
-
 from rasa.core.brokers.event_channel import EventChannel
+from rasa.core.trackers import ActionExecuted, DialogueStateTracker, EventVerbosity
+from rasa.core.tracker_store import TrackerStore
 from rasa.core.domain import Domain
 from rasa.core.events import SessionStarted
-from rasa.core.tracker_store import TrackerStore
-from rasa.core.trackers import (ActionExecuted, DialogueStateTracker,
-                                EventVerbosity)
-from rasa.utils.common import class_from_module_path
-
-# from datetime import datetime
-# from termcolor import colored
-# import inspect
+from datetime import datetime
+from termcolor import colored
+import inspect
 
 
 class GridTrackerStore(TrackerStore):
@@ -26,7 +18,7 @@ class GridTrackerStore(TrackerStore):
     def __init__(
         self,
         domain,
-        host = os.environ.get("MONGO_URL") or "mongodb://192.168.99.100:27017",
+        host = os.environ.get(MONGO_URL) or "mongodb://mongodb:27017",
         db = "rasa",
         username = None,
         password = None,
@@ -34,8 +26,8 @@ class GridTrackerStore(TrackerStore):
         collection="conversations",
         event_broker=None,
     ):
-        from pymongo import MongoClient
         from pymongo.database import Database
+        from pymongo import MongoClient
 
         self.client = MongoClient(
             host,
@@ -47,9 +39,7 @@ class GridTrackerStore(TrackerStore):
 
         self.db = Database(self.client, db)
         self.collection = collection
-        # self.today = datetime.today().replace(hour=0, minute=0, second=0, microsecond=0)
         super().__init__(domain, event_broker)
-
         self._ensure_indices()
 
     @property
@@ -69,46 +59,34 @@ class GridTrackerStore(TrackerStore):
         if self.event_broker:
             self.stream_events(tracker)
 
-        _id = self.conversations.update_one(
-            {"sender_id":tracker.sender_id}, #, "col":"1"}, 
-            {"$set": self._current_tracker_state_without_events(tracker)}, 
-            upsert=True
+        additional_events = self._additional_events(tracker)
+
+        self.conversations.update_one(
+            {"sender_id": tracker.sender_id},
+            {
+                "$set": self._current_tracker_state_without_events(tracker),
+                "$push": {
+                    "events": {"$each": [e.as_dict() for e in additional_events]}
+                },
+            },
+            upsert=True,
         )
-        print(tracker.current_state(EventVerbosity.ALL))
-        print("#"*50)
-        print(tracker.current_state(EventVerbosity.AFTER_RESTART))
 
-        # additional_events = self._additional_events(tracker)
-        # printable = [e.as_dict() for e in additional_events]
-        # status = self.conversations.update_one(
-        #     {"sender_id": tracker.sender_id, "col": self.today},
-        #     {
-        #         "$set": {"col" : self.today},
-        #         "$push": {
-        #             "events": {"$each": printable}
-        #         },
-        #     },
-        #     upsert=True
-        # )
-        # additional_events = self._additional_events(tracker)
+    def _additional_events(self, tracker: DialogueStateTracker) -> Iterator:
+        """Return events from the tracker which aren't currently stored.
 
-        # self.conversations.update_one(
-        #     {"sender_id": tracker.sender_id},
-        #     {
-        #         "$set": self._current_tracker_state_without_events(tracker),
-        #         "$push": {
-        #             "events": {"$each": [e.as_dict() for e in additional_events]}
-        #         },
-        #     },
-        #     upsert=True,
-        # )
+        Args:
+            tracker: Tracker to inspect.
 
-    def _additional_events(self, tracker):
+        Returns:
+            List of serialised events that aren't currently stored.
 
-        stored = self.conversations.find_one( {"sender_id": tracker.sender_id, "col": self.today}) or {}
-        # stored = self.conversations.find_one({"sender_id": tracker.sender_id}) or {}
+        """
+
+        stored = self.conversations.find_one({"sender_id": tracker.sender_id}) or {}
+        all_events = self._events_from_serialized_tracker(stored)
         number_events_since_last_session = len(
-            self._events_since_last_session_start(stored)
+            self._events_since_last_session_start(all_events)
         )
 
         return itertools.islice(
@@ -116,22 +94,43 @@ class GridTrackerStore(TrackerStore):
         )
 
     @staticmethod
-    def _events_since_last_session_start(serialised_tracker):
-        events = []
-        for event in reversed(serialised_tracker.get("events", [])):
-            events.append(event)
+    def _events_from_serialized_tracker(serialised: Dict) -> List[Dict]:
+        return serialised.get("events", [])
+
+    @staticmethod
+    def _events_since_last_session_start(events: List[Dict]) -> List[Dict]:
+        """Retrieve events since and including the latest `SessionStart` event.
+
+        Args:
+            events: All events for a conversation ID.
+
+        Returns:
+            List of serialised events since and including the latest `SessionStarted`
+            event. Returns all events if no such event is found.
+
+        """
+
+        events_after_session_start = []
+        for event in reversed(events):
+            events_after_session_start.append(event)
             if event["event"] == SessionStarted.type_name:
                 break
-        return list(reversed(events))
 
-    def retrieve(self, sender_id):
- 
-        stored = self.conversations.find_one({"sender_id": sender_id}) #, "col": self.today})
-        # stored = self.conversations.find_one({"sender_id": sender_id, "col": "1"})
+        return list(reversed(events_after_session_start))
+
+    def retrieve(self, sender_id: Text) -> Optional[DialogueStateTracker]:
+        """
+        Args:
+            sender_id: the message owner ID
+
+        Returns:
+            `DialogueStateTracker`
+        """
+        stored = self.conversations.find_one({"sender_id": sender_id})
 
         # look for conversations which have used an `int` sender_id in the past
         # and update them.
-        if stored is None and sender_id.isdigit():
+        if not stored and sender_id.isdigit():
             from pymongo import ReturnDocument
 
             stored = self.conversations.find_one_and_update(
@@ -140,21 +139,17 @@ class GridTrackerStore(TrackerStore):
                 return_document=ReturnDocument.AFTER,
             )
 
-        # if stored is None:
-        #     stored = self.conversations.find_one({"sender_id": sender_id, "col": "1"})
+        if not stored:
+            return
 
-        if stored is not None:
-            if self.domain:
-                max_event_history = 100
-            # events = self._events_since_last_session_start(stored)
-                return DialogueStateTracker.from_dict(sender_id, stored.get("events"), self.domain.slots, max_event_history)
-        else:
-            return None
+        events = self._events_from_serialized_tracker(stored)
+        if not self.load_events_from_previous_conversation_sessions:
+            events = self._events_since_last_session_start(events)
 
-    def keys(self):
+        return DialogueStateTracker.from_dict(sender_id, events, self.domain.slots)
+
+    def keys(self) -> Iterable[Text]:
         """Returns sender_ids of the Mongo Tracker Store"""
         return [c["sender_id"] for c in self.conversations.find()]
-         
     
-
 

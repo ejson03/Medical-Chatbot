@@ -11549,16 +11549,12 @@
 - ^(Qm)(\w+)$
 
 ## lookup:disease
-lookup/disease.txt
+data/lookup/disease.txt
 
 ## lookup:department
-lookup/department.txt
+data/lookup/department.txt
 
 ## lookup:symptoms
-lookup/symptoms.txt
+data/lookup/symptoms.txt
 
-## lookup:food
-lookup/food.txt
 
-## lookup:drug
-lookup/drug.txt

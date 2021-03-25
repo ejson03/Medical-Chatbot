@@ -129,7 +129,7 @@ class MedicalGraph:
                 count += 1
                 print(rel_type, count, all)
             except Exception as e:
-                print(e)
+                print("Exception : ", e)
         return
 
     def test_graph(self):
@@ -139,6 +139,6 @@ class MedicalGraph:
 
 if __name__ == '__main__':
     handler = MedicalGraph()
-    # handler.create_graphnodes()
-    # handler.create_graphrels()
-    handler.test_graph()
+    handler.create_graphnodes()
+    handler.create_graphrels()
+    # handler.test_graph()
