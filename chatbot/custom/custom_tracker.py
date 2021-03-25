@@ -1,5 +1,8 @@
-import json, logging, pickle, typing
-from typing import Iterator, Optional, Text, Iterable, Union, Dict
+import json
+import logging
+import pickle
+import typing
+from typing import Iterator, Optional, Text, Iterable, Union, Dict, List
 import itertools
 import traceback
 from time import sleep
@@ -11,19 +14,21 @@ from rasa.core.events import SessionStarted
 from datetime import datetime
 from termcolor import colored
 import inspect
+import os
+from . import Tracker4J
 
 
 class GridTrackerStore(TrackerStore):
-
     def __init__(
         self,
         domain,
-        host = os.environ.get(MONGO_URL) or "mongodb://mongodb:27017",
-        db = "rasa",
-        username = None,
-        password = None,
-        auth_source = "admin",
+        host=os.environ.get("MONGO_URL") or "mongodb://mongodb:27017",
+        db="rasa",
+        username=None,
+        password=None,
+        auth_source="admin",
         collection="conversations",
+        neo4j_url="bolt://localhost:7687",
         event_broker=None,
     ):
         from pymongo.database import Database
@@ -36,6 +41,8 @@ class GridTrackerStore(TrackerStore):
             authSource=auth_source,
             connect=False,
         )
+
+        self.Tracker4J = Tracker4J.Tracker4J(neo4j_url)
 
         self.db = Database(self.client, db)
         self.collection = collection
@@ -60,7 +67,8 @@ class GridTrackerStore(TrackerStore):
             self.stream_events(tracker)
 
         additional_events = self._additional_events(tracker)
-
+        sender_id = tracker.sender_id
+        events = tracker.current_state(EventVerbosity.ALL)["events"]
         self.conversations.update_one(
             {"sender_id": tracker.sender_id},
             {
@@ -71,6 +79,11 @@ class GridTrackerStore(TrackerStore):
             },
             upsert=True,
         )
+
+        try:
+            self.Tracker4J.CreateNodeFromEvents(events, sender_id)
+        except:
+            pass
 
     def _additional_events(self, tracker: DialogueStateTracker) -> Iterator:
         """Return events from the tracker which aren't currently stored.
@@ -151,5 +164,3 @@ class GridTrackerStore(TrackerStore):
     def keys(self) -> Iterable[Text]:
         """Returns sender_ids of the Mongo Tracker Store"""
         return [c["sender_id"] for c in self.conversations.find()]
-    
-
