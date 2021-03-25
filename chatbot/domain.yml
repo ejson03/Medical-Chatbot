@@ -21,6 +21,12 @@ intents:
 - ask_temperature
 - ask_weather
 - describe_symptoms
+- search_disease_dept
+- search_easy_get
+- search_prevention
+- search_cause
+- search_symptom
+- search_treat
 - handleinsult
 - telljoke
 - tellquote
@@ -113,6 +119,7 @@ entities:
 - username
 - time
 - query
+- disease
 slots:
   age:
     type: unfeaturized
@@ -551,6 +558,10 @@ actions:
 - action_session_start
 - action_restart
 - action_diagnose_symptoms
+- action_search_treat
+- action_search_symptom
+- action_search_cause
+- action_search_disease_dept
 - action_get_joke
 - action_get_quote
 - action_get_song

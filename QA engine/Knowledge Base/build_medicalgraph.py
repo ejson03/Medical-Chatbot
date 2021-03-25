@@ -5,8 +5,6 @@ from py2neo import Graph,Node
 
 class MedicalGraph:
     def __init__(self):
-#        cur_dir = '/'.join(os.path.abspath(__file__).split('/')[:-1])
-#        self.data_path = os.path.join(cur_dir, 'data/medical.json')
 
         self.g = Graph(
             host="192.168.99.100",  
@@ -134,29 +132,13 @@ class MedicalGraph:
                 print(e)
         return
 
-    # def export_data(self):
-    #     Departments, Symptoms, Diseases, Cause, Acompany, Prevent, Lasttime, Cureway, Cureprob, Easyget, Desc, Getprob, Getway, disease_infos, rels_department, rels_symptom, rels_acompany, rels_category = self.read_nodes()
-    #     f_department = open('dict/department.txt', 'w+')
-    #     f_symptom = open('dict/symptoms.txt', 'w+')
-    #     f_disease = open('dict/disease.txt', 'w+')
-
-
-    #     f_department.write('\n'.join(list(Departments)))
-    #     f_symptom.write('\n'.join(list(Symptoms)))
-    #     f_disease.write('\n'.join(list(Diseases)))
-
-
-    #     f_department.close()
-    #     f_symptom.close()
-    #     f_disease.close()
-
-
-    #     return
-
-
+    def test_graph(self):
+        disease="pneumonia"
+        result = self.g.run("match (a:Disease{name: disease})-[:belongs_to]->(s:Department) return s.name", disease=disease)
+        print(result)
 
 if __name__ == '__main__':
     handler = MedicalGraph()
-    handler.create_graphnodes()
-    handler.create_graphrels()
-#    handler.export_data()
+    # handler.create_graphnodes()
+    # handler.create_graphrels()
+    handler.test_graph()

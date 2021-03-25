@@ -8,19 +8,6 @@ nlp = spacy.load('en_core_web_md')
 diagnosis_df = pd.read_pickle("assets/pickle/diagnosis_data.pkl")
 symptoms_df = pd.read_pickle("assets/pickle/symptoms.pkl")
 
-# # logging config
-# for handler in logging.root.handlers[:]:
-#     logging.root.removeHandler(handler)
-
-# logging.basicConfig(
-#     filename='logging.log',
-#     filemode='a',
-#     format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
-#     datefmt='%H:%M:%S',
-#     level=logging.DEBUG
-# )
-
-
 def encode_symptom(symptom):
     '''
     Convert symptom string to vector using spacy
@@ -28,10 +15,7 @@ def encode_symptom(symptom):
     :param symptom:
     :return: 256-D vector
     '''
-
-    # logging.info(f"Encoding symptom {symptom}")
     encoded_symptom = nlp(symptom).vector.tolist()
-
     return encoded_symptom
 
 
@@ -55,9 +39,6 @@ def create_illness_vector(encoded_symptoms):
         symptoms_df.loc[symptoms_df['similarity'] > threshold, 'symptom_flagged'] = 1
 
         number_of_symptoms_flagged = len(symptoms_df.loc[symptoms_df['similarity'] > threshold, 'symptom_flagged'])
-
-        # logging.info(f"Flagged {number_of_symptoms_flagged} potential symptom matches")
-
     return list(symptoms_df['symptom_flagged'])
 
 
@@ -91,8 +72,7 @@ def get_diagnosis(illness_vector):
             .sort_values(by='similarity', ascending=False)[['illness', 'similarity']]
             .head(1)
         )
-        # logging.info(f"Unable to find a diagnosis, the closest match was {closest_match['illness'].iloc[0]} "
-        #              f"at {closest_match['similarity'].iloc[0]}")
+       
         diagnosis_string = "Unfortunately I am unable to diagnose you based on the symptoms you provided"
 
     return diagnosis_string
