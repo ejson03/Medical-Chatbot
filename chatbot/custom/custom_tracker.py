@@ -42,8 +42,10 @@ class GridTrackerStore(TrackerStore):
             connect=False,
         )
 
-        self.Tracker4J = Tracker4J.Tracker4J(neo4j_url)
-
+        try:
+            self.Tracker4J = Tracker4J.Tracker4J(neo4j_url)
+        except:
+            self.Tracker4J = None
         self.db = Database(self.client, db)
         self.collection = collection
         super().__init__(domain, event_broker)
@@ -81,7 +83,8 @@ class GridTrackerStore(TrackerStore):
         )
 
         try:
-            self.Tracker4J.CreateNodeFromEvents(events, sender_id)
+            if self.Tracker4J is not None:
+                self.Tracker4J.CreateNodeFromEvents(events, sender_id)
         except:
             pass
 
