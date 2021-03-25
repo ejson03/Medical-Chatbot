@@ -13,13 +13,13 @@ services:
         image: mongo
         ports:
             - "27017:27017"
-        # command: mongod --replSet neomongo
+        command: mongod --replSet neomongo
 
-    # mongo_connector:
-    #     build: ./mongo_connector
-    #     links:
-    #         - mongo
-    #         - neo4j
-    #     environment:
-    #         - MONGO_HOST=mongo
-    #         - NEO4J_HOST=neo4j
+    mongo_connector:
+        build: ./mongo_connector
+        links:
+            - mongo
+            - neo4j
+        environment:
+            - MONGO_HOST=mongo
+            - NEO4J_HOST=neo4j
