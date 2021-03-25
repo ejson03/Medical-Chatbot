@@ -2,8 +2,8 @@
 action_endpoint:
   url: "http://localhost:5055/webhook"
 
-tracker_store:
-  type: custom.neo4j_tracker.NeoTrackerStore
+# tracker_store:
+#   type: custom.neo4j_tracker.NeoTrackerStore
 # tracker_store:
 #   type: mongod
 #   url: mongodb://mongodb:27017
@@ -12,10 +12,11 @@ tracker_store:
  
  
  # custom rasa tracker to tackle bson 16mb document limit
-# tracker_store:
-#   type: custom.custom_tracker.GridTrackerStore
-#   url: mongodb://192.168.99.100:27017
-#   db: rasa
+tracker_store:
+  type: custom.custom_tracker.GridTrackerStore
+  url: mongodb://localhost:27017
+  db: rasa
+  neo4j_url: bolt://localhost:7687
 
 #  event_broker:
 #    type: "pika"
