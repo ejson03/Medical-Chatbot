@@ -3,7 +3,7 @@
    - utter_greet
 * search_treat{"disease": "pertussis"}
    - action_search_treat
-* bye
+* goodbye
    - utter_goodbye
 
 ## story_2_search_symptom_simple
@@ -11,7 +11,7 @@
    - utter_greet
 * search_symptom{"disease": "pertussis"}
    - action_search_symptom
-* bye
+* goodbye
    - utter_goodbye
 
 ## story_11_search_disease_dept_simple
@@ -19,7 +19,7 @@
    - utter_greet
 * search_disease_dept{"disease": "pertussis"}
    - action_search_disease_dept
-* bye
+* goodbye
    - utter_goodbye
 
 ## story_14
