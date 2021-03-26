@@ -31,13 +31,12 @@ class Tracker4J:
 
     def _get_latest(self, tx: Transaction, sender_id: str):
         matcher = NodeMatcher(tx)
-        query = (
-            matcher.match(sender_id)
+        latest = (
+            matcher.match("chat", sender_id=sender_id)
             .order_by("_.created_at desc")
             .limit(1)
-            ._query_and_parameters()[0]
+            .first()
         )
-        latest = tx.evaluate(query)
         return latest
 
     def _AddConstraint(self, sender_id: str):
@@ -54,20 +53,22 @@ class Tracker4J:
         sender_id = str(sender_id)
         tx = self.graph.begin()
 
-        # Dict to kwaargs
-        parent = self._get_latest(tx, sender_id)
+        user = Node("user", sender_id=sender_id)
+        new_elem = Node("chat", **msg, created_at=DateTime.now(), sender_id=sender_id)
 
-        if parent == None:
+        previous = self._get_latest(tx, sender_id)
+        tx.merge(user, "user", "sender_id")
+        tx.create(new_elem)
+        tx.create(
+            Relationship(previous or user, "MSG", new_elem, since=new_elem["timestamp"])
+        )
+        tx.create(Relationship(user, "TO", new_elem, since=new_elem["timestamp"]))
+
+        tx.commit()
+
+        if previous is None:
             self._AddConstraint(sender_id)
 
-        new_elem = Node(sender_id, **msg, created_at=DateTime.now())
 
-        tx.create(new_elem)
-        new_elem = (
-            new_elem
-            if (parent == None)
-            else Relationship(parent, "TO", new_elem, since=new_elem["timestamp"])
-        )
-        tx.create(new_elem)
-        tx.commit()
-        tx.finish()
+# graph = Tracker4J("bolt://192.168.96.41:7687")
+# graph.CreateNodeFromEvents(ex,"ddd")
