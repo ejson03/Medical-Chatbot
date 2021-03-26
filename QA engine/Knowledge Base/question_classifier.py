@@ -54,50 +54,40 @@ class QuestionClassifier:
             question_type = 'symptom_disease'
             question_types.append(question_type)
 
-        # 原因
         if self.check_words(self.cause_qwds, question2) and ('disease' in types):
             question_type = 'disease_cause'
             question_types.append(question_type)
-        # 并发症
+
         if self.check_words(self.acompany_qwds, question2) and ('disease' in types):
             question_type = 'disease_acompany'
             question_types.append(question_type)
 
-
-        #　症状防御
         if self.check_words(self.prevent_qwds, question2) and 'disease' in types:
             question_type = 'disease_prevent'
             question_types.append(question_type)
 
-        # 疾病医疗周期
         if self.check_words(self.lasttime_qwds, question2) and 'disease' in types:
             question_type = 'disease_lasttime'
             question_types.append(question_type)
 
-        # 疾病治疗方式
         if self.check_words(self.cureway_qwds, question2) and 'disease' in types:
             question_type = 'disease_cureway'
             question_types.append(question_type)
 
-        # 疾病治愈可能性
         if self.check_words(self.cureprob_qwds, question2) and 'disease' in types:
             question_type = 'disease_cureprob'
             question_types.append(question_type)
 
-        # 疾病易感染人群
         if self.check_words(self.easyget_qwds, question2) and 'disease' in types :
             question_type = 'disease_easyget'
             question_types.append(question_type)
 
-        # 若没有查到相关的外部查询信息，那么则将该疾病的描述信息返回
         if question_types == [] and 'disease' in types:
             question_types = ['disease_desc']
 
-        # 若没有查到相关的外部查询信息，那么则将该疾病的描述信息返回
         if question_types == [] and 'symptom' in types:
             question_types = ['symptom_disease']
 
-        # 将多个分类结果进行合并处理，组装成一个字典
         data['question_types'] = question_types
 
         return data
