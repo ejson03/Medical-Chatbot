@@ -191,17 +191,17 @@ class ActionSearchTreat(Action):
             a = graph.run("match (a:Disease{name: {disease}}) return a", disease=disease).data()[0]['a']
             if "intro" in a:
                 intro = a['intro']
-                template = "{0}的简介：{1}"
+                template = "{0}Introduction: {1}"
                 retmsg = template.format(disease, intro)
             else:
-                retmsg = disease + "暂无简介"
+                retmsg = disease + "No introduction"
             dispatcher.utter_message(retmsg)
             if "treat" in a:
                 treat = a['treat']
-                template = "{0}的治疗方式有：{1}"
+                template = "{0}The treatment methods are: {1}"
                 retmsg = template.format(disease, "、".join(treat))
             else:
-                retmsg = disease + "暂无常见治疗方式"
+                retmsg = disease + "No common treatment"
             dispatcher.utter_message(retmsg)
         elif len(possible_diseases) > 1:
             buttons = []
@@ -235,7 +235,7 @@ class ActionSearchSymptom(Action):
                 buttons.append(make_button(d, '/search_symptom{{"disease":"{0}", "sure":"{1}"}}'.format(d, d)))
             dispatcher.utter_button_message("Please click to select the disease you want to inquire, if there is nothing you want, please ignore this message", buttons)
         else:
-            dispatcher.utter_message("Nothing in the knowledge base {0} 相关的症状记录".format(disease))
+            dispatcher.utter_message("Nothing in the knowledge base {0} Related symptom records".format(disease))
 
         return []
 
@@ -257,10 +257,10 @@ class ActionSearchCause(Action):
             a = graph.run("match (a:Disease{name: {disease}}) return a.cause", disease=disease).data()[0]['a.cause']
             if "treat" in a:
                 treat = a['treat']
-                template = "{0}的治疗方式有：{1}"
+                template = "{0}The treatment methods are:{1}"
                 retmsg = template.format(disease, "、".join(treat))
             else:
-                retmsg = disease + "暂无该疾病的病因的记录"
+                retmsg = disease + "No record of the cause of the disease"
             dispatcher.utter_message(retmsg)
         elif len(possible_diseases) > 1:
             buttons = []
@@ -268,7 +268,7 @@ class ActionSearchCause(Action):
                 buttons.append(make_button(d, '/search_cause{{"disease":"{0}", "sure":"{1}"}}'.format(d, d)))
             dispatcher.utter_button_message("Please click to select the disease you want to inquire, if there is nothing you want, please ignore this message", buttons)
         else:
-            dispatcher.utter_message("Nothing in the knowledge base {0} 相关的原因记录".format(disease))
+            dispatcher.utter_message("Nothing in the knowledge base {0} Related cause records".format(disease))
         return []
 
 
