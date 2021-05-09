@@ -20,8 +20,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-logging.getLogger("py2neo.batch").setLevel(logging.WARNING)
-logging.getLogger("py2neo.cypher").setLevel(logging.WARNING)
 
 class GridTrackerStore(TrackerStore):
     def __init__(
@@ -94,9 +92,12 @@ class GridTrackerStore(TrackerStore):
         )
 
         try:
+            print("D"*50)
             if self.Tracker4J is not None:
                 self.Tracker4J.CreateNodeFromEvents(events, sender_id)
-        except:
+                print("yes")
+        except Exception as e:
+            print(e)
             pass
 
     def _additional_events(self, tracker: DialogueStateTracker) -> Iterator:

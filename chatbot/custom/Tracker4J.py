@@ -1,7 +1,10 @@
 from py2neo import Graph, Node, NodeMatcher, matching, Schema, Relationship, Transaction
 from neotime import DateTime
 from typing import List, Iterable, Iterator
+import pytz
+asia = pytz.timezone('Asia/Kolkata')
 
+# logging.getLogger("py2neo").setLevel(logging.WARNING)
 
 class Tracker4J:
     def __init__(self, profile=None, **args):
@@ -54,8 +57,11 @@ class Tracker4J:
         tx = self.graph.begin()
 
         user = Node("user", sender_id=sender_id)
-        new_elem = Node("chat", **msg, created_at=DateTime.now(), sender_id=sender_id)
-
+        print("0"*50)
+        print(user)
+        new_elem = Node("chat", **msg, created_at=DateTime.now(asia), sender_id=sender_id)
+        print("L"*50)
+        print(new_elem["timestamp"])
         previous = self._get_latest(tx, sender_id)
         tx.merge(user, "user", "sender_id")
         tx.create(new_elem)
