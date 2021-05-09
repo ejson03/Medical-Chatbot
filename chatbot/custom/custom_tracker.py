@@ -15,11 +15,13 @@ from datetime import datetime
 from termcolor import colored
 import inspect
 import os
-import Tracker4J
+from . import Tracker4J
 from dotenv import load_dotenv
 
 load_dotenv()
 
+logging.getLogger("py2neo.batch").setLevel(logging.WARNING)
+logging.getLogger("py2neo.cypher").setLevel(logging.WARNING)
 
 class GridTrackerStore(TrackerStore):
     def __init__(

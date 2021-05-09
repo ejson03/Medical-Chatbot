@@ -45,7 +45,7 @@ def treatment(disease):
         return result
     except:
         print("disease not found")
-        retun {}
+        return {}
    
 def symptom(disease):
     try:
@@ -55,7 +55,7 @@ def symptom(disease):
         return a
     except:
         print("disease not found")
-        retun {}
+        return {}
   
 def cause(disease):
     try:
@@ -63,7 +63,7 @@ def cause(disease):
         return result
     except:
         print("disease not found")
-        retun {}
+        return {}
 
 def department(disease):
     try:
@@ -72,7 +72,7 @@ def department(disease):
         return result
     except:
         print("disease not found")
-        retun {}
+        return {}
     
   
   

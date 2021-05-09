@@ -7,7 +7,7 @@ tracker_store:
   type: custom.custom_tracker.GridTrackerStore
   url: mongodb://localhost:27017
   db: rasa
-  neo4j_url: bolt://localhost:7687
+  neo4j_host: localhost
 
 # tracker_store:
 #   type: mongod
