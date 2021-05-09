@@ -5,5 +5,5 @@ dist/
 package-lock.json
 rasa/
 experimental/
-GoogleNews-vectors-negative300.bin.gz
 index/
+venv/

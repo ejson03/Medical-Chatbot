@@ -1,8 +1,8 @@
 from pymongo import MongoClient
-
 from modules.utils import *
 from modules.diagnose import encode_symptom, create_illness_vector, get_diagnosis
 from modules.config import * 
+from modules.query import *
 import os, requests, base64, uuid, random
 from os import environ
 from sys import getsizeof
@@ -16,31 +16,6 @@ from py2neo import Graph,Node,Relationship
 import pandas as pd
 
 client = MongoClient(MONGODB_STRING)
-disease_file = './assets/disease.txt'
-disease_names = [i.strip() for i in open(disease_file, 'r', encoding='UTF-8').readlines()]
-
-try:
-    graph = Graph(
-            host=NEO4J_STRING,
-            http_port=7474,
-            user=NEO4J_USERNAME,
-            password= NEO4J_PASSWORD)
-except Exception as e:
-    import sys
-    sys.exit(-1)
-
-
-def retrieve_disease_name(name):
-    names = []
-    name = '.*' + '.*'.join(list(name)) + '.*'
-    import re
-    pattern = re.compile(name)
-    for i in disease_names:
-        candidate = pattern.search(i)
-        if candidate:
-            names.append(candidate.group())
-    return names
-
 
 def make_button(title, payload):
     return {'title': title, 'payload': payload}
@@ -182,35 +157,30 @@ class ActionSearchTreat(Action):
             dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]):
+
         disease = tracker.get_slot("disease")
         pre_disease = tracker.get_slot("sure")
-        print("pre_disease::::" + str(pre_disease))
-        
-        possible_diseases = retrieve_disease_name(disease)
+        print("$"*50)
+        print(disease, pre_disease)
+        possible_diseases = get_disease(disease)
         if disease == pre_disease or len(possible_diseases) == 1:
-            a = graph.run("match (a:Disease{name: {disease}}) return a", disease=disease).data()[0]['a']
-            if "intro" in a:
-                intro = a['intro']
-                template = "{0}的简介：{1}"
-                retmsg = template.format(disease, intro)
+            final_disease = treatment(disease)
+            print("#"*50)
+            print("Stage 2 ", disease,pre_disease)
+            if final_disease:
+                dispatcher.utter_message(final_disease["prevent"])
             else:
-                retmsg = disease + "暂无简介"
-            dispatcher.utter_message(retmsg)
-            if "treat" in a:
-                treat = a['treat']
-                template = "{0}的治疗方式有：{1}"
-                retmsg = template.format(disease, "、".join(treat))
-            else:
-                retmsg = disease + "暂无常见治疗方式"
-            dispatcher.utter_message(retmsg)
+                dispatcher.utter_message("Nothing in the knowledge base {0}".format(disease))
         elif len(possible_diseases) > 1:
+            print("%"*50)
+            print("Stage 1 ", disease,pre_disease)
             buttons = []
             for d in possible_diseases:
                 buttons.append(make_button(d, '/search_treat{{"disease":"{0}", "sure":"{1}"}}'.format(d, d)))
             dispatcher.utter_button_message("Please click to select the disease you want to inquire, if there is nothing you want, please ignore this message", buttons)
         else:
             dispatcher.utter_message("Nothing in the knowledge base {0}".format(disease))
-        return []
+        return [SlotSet('disease', None), SlotSet('sure', None)]
 
 class ActionSearchSymptom(Action):
     def name(self) -> Text:
@@ -222,24 +192,27 @@ class ActionSearchSymptom(Action):
             domain: Dict[Text, Any]):
         disease = tracker.get_slot("disease")
         pre_disease = tracker.get_slot("sure")
-        print("pre_disease::::" + str(pre_disease))
-        
-        possible_diseases = retrieve_disease_name(disease)
+
+        possible_diseases = get_disease(disease)
         if disease == pre_disease or len(possible_diseases) == 1:
-            retmsg = [x['s.name'] for x in graph.run("MATCH (p:Disease{name: {disease}})-[r:has_symptom]->\
-                                                (s:Symptom) RETURN s.name", disease=disease).data()]
-            dispatcher.utter_message(retmsg)
+            final_disease = symptom(disease)
+            print("#"*50)
+            print("Stage 2 ", disease,pre_disease)
+            if final_disease:
+                dispatcher.utter_message(final_disease)
+            else:
+                dispatcher.utter_message("Nothing in the knowledge base {0}".format(disease))
         elif len(possible_diseases) > 1:
+            print("#"*50)
+            print("Stage 1 ", disease,pre_disease)
             buttons = []
             for d in possible_diseases:
                 buttons.append(make_button(d, '/search_symptom{{"disease":"{0}", "sure":"{1}"}}'.format(d, d)))
             dispatcher.utter_button_message("Please click to select the disease you want to inquire, if there is nothing you want, please ignore this message", buttons)
         else:
-            dispatcher.utter_message("Nothing in the knowledge base {0} 相关的症状记录".format(disease))
-
-        return []
-
-
+            dispatcher.utter_message("Nothing in the knowledge base {0}".format(disease))
+        return [SlotSet('disease', None), SlotSet('sure', None)]
+        
 class ActionSearchCause(Action):
     def name(self) -> Text:
         return "action_search_cause"
@@ -250,27 +223,26 @@ class ActionSearchCause(Action):
             domain: Dict[Text, Any]):
         disease = tracker.get_slot("disease")
         pre_disease = tracker.get_slot("sure")
-        print("pre_disease::::" + str(pre_disease))
-        
-        possible_diseases = retrieve_disease_name(disease)
+
+        possible_diseases = get_disease(disease)
         if disease == pre_disease or len(possible_diseases) == 1:
-            a = graph.run("match (a:Disease{name: {disease}}) return a.cause", disease=disease).data()[0]['a.cause']
-            if "treat" in a:
-                treat = a['treat']
-                template = "{0}的治疗方式有：{1}"
-                retmsg = template.format(disease, "、".join(treat))
+            final_disease = cause(disease)
+            print("#"*50)
+            print("Stage 2 ", disease,pre_disease)
+            if final_disease:
+                dispatcher.utter_message(final_disease)
             else:
-                retmsg = disease + "暂无该疾病的病因的记录"
-            dispatcher.utter_message(retmsg)
+                dispatcher.utter_message("Nothing in the knowledge base {0}".format(disease))
         elif len(possible_diseases) > 1:
+            print("#"*50)
+            print("Stage 1 ", disease,pre_disease)
             buttons = []
             for d in possible_diseases:
                 buttons.append(make_button(d, '/search_cause{{"disease":"{0}", "sure":"{1}"}}'.format(d, d)))
             dispatcher.utter_button_message("Please click to select the disease you want to inquire, if there is nothing you want, please ignore this message", buttons)
         else:
-            dispatcher.utter_message("Nothing in the knowledge base {0} 相关的原因记录".format(disease))
-        return []
-
+            dispatcher.utter_message("Nothing in the knowledge base {0}".format(disease))
+        return [SlotSet('disease', None), SlotSet('sure', None)]
 
 class ActionSearchDiseaseDept(Action):
     def name(self) -> Text:
@@ -280,24 +252,28 @@ class ActionSearchDiseaseDept(Action):
             dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]):
+
         disease = tracker.get_slot("disease")
         pre_disease = tracker.get_slot("sure")
-        print("pre_disease::::" + str(pre_disease))
-        
-        possible_diseases = retrieve_disease_name(disease)
+        possible_diseases = get_disease(disease)
         if disease == pre_disease or len(possible_diseases) == 1:
-            result = graph.run("match (a:Disease{name: {disease}})-[:belongs_to]->(s:Department) return s.name",
-                          disease=disease).data()[0]['s.name']
-            template = f"{disease} belongs {result}"
-            dispatcher.utter_message(text = template)
-
+            print("#"*50)
+            print("Stage 2 ", disease,pre_disease)
+            final_disease = department(disease)
+            if final_disease:
+                dispatcher.utter_message(final_disease)
+            else:
+                dispatcher.utter_message("Nothing in the knowledge base {0}".format(disease))
         elif len(possible_diseases) > 1:
+            print("#"*50)
+            print("Stage 1 ", disease,pre_disease)
             buttons = []
             for d in possible_diseases:
                 buttons.append(make_button(d, '/search_disease_dept{{"disease":"{0}", "sure":"{1}"}}'.format(d, d)))
-            dispatcher.utter_button_message("Please click to select the disease you want to inquire,if there is nothing you want, please ignore this message", buttons)
+            dispatcher.utter_button_message("Please click to select the disease you want to inquire, if there is nothing you want, please ignore this message", buttons)
         else:
-            dispatcher.utter_message("Nothing in the knowledge base {0} Disease-related department records".format(disease))
-        return []
+            dispatcher.utter_message("Nothing in the knowledge base {0}".format(disease))
+        return [SlotSet('disease', None), SlotSet('sure', None)]
+
 
 

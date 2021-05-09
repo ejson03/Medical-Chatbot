@@ -3,7 +3,7 @@ import { MongoClient } from 'mongodb';
 import fetch from 'node-fetch';
 import * as config from '../config';
 
-export const RASARequest = async (message: unknown, sender: string = 'vortex', metadata?: string) => {
+export const RASARequest = async (message: unknown, sender: string = 'elvis', metadata?: string) => {
    let data: any;
    if (metadata) {
       data = { message: message, sender: sender, metadata: metadata };

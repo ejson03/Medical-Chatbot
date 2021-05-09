@@ -26,7 +26,7 @@ FOREACH (s IN d.symptoms | MERGE (symptom:Symptom { name: s })
 MERGE (treatment)-[:TREATS]->(disease)
 MERGE (description)-[:DESCRIBES]->(disease)
 """
-url = "bolt://192.168.99.100:7687"
+url = "bolt://localhost:7687"
 data = "./disease.json"
 
 driver = GraphDatabase.driver(url, encrypted=False)

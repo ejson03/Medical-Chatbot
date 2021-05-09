@@ -3,7 +3,7 @@ import { rasaService } from '../services';
 
 export const rasa = async (req: Request, res: Response) => {
    try {
-      const sender = 'vortex';
+      const sender = 'elvis';
       const message = req.body.message;
       const rasa = await rasaService.RASARequest(message, sender);
       return res.status(200).json(rasa);
@@ -20,12 +20,12 @@ export const rasaHistory = async (req: Request, res: Response) => {
       if (data.length != 0) {
          return res.render('history.ejs', {
             doc: data,
-            name: 'vortex'
+            name: 'elvis'
          });
       } else {
          return res.render('history.ejs', {
             doc: [],
-            name: 'vortex'
+            name: 'elvis'
          });
       }
    } catch (err) {

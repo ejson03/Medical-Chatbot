@@ -11556,5 +11556,3 @@ data/lookup/department.txt
 
 ## lookup:symptoms
 data/lookup/symptoms.txt
-
-
