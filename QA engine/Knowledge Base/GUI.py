@@ -12,7 +12,7 @@ class ChatBotGraph:
         self.searcher = AnswerSearcher()
 
     def chat_main(self, sent):
-        answer = "yo"
+        answer = "Hello There!"
         res_classify = self.classifier.classify(sent)
         # {'args': {'fever': ['symptom']}, 'question_types': ['symptom_disease']}
         if not res_classify:
@@ -35,7 +35,7 @@ def main():
     txtMsg.delete('0.0', END)
     
     text2 = handler.chat_main(text) + '\n '
-    strMsg2 = 'XiaoMar:' + time.strftime("%Y-%m-%d %H:%M:%S",
+    strMsg2 = 'Medical Analytica:' + time.strftime("%Y-%m-%d %H:%M:%S",
                                   time.localtime()) + '\n'
     txtMsgList.insert(END, strMsg2, 'greencolor')
     txtMsgList.insert(END, text2)    
@@ -46,18 +46,18 @@ def main():
 
 
   t = Tk()
-  t.title('XiaoMar')
+  t.title('Medical Analytica')
 
   frmLT = Frame(width=500, height=320, bg='white')
   frmLC = Frame(width=500, height=150, bg='white')
   frmLB = Frame(width=500, height=30)
   frmRT = Frame(width=200, height=500)
 
-  #创建控件
+
   txtMsgList = Text(frmLT)
   txtMsgList.tag_config('greencolor', foreground='#008C00')#创建tag
-  txtMsg = Text(frmLC);
-  #发送消息事件
+  txtMsg = Text(frmLC)
+
   btnSend = Button(frmLB, text='Send', width = 8, command=sendMsg)
   btnCancel = Button(frmLB, text='Cancel', width = 8, command=cancelMsg)
   imgInfo = PhotoImage(file = "smile doctor.gif")

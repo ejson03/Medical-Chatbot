@@ -162,6 +162,13 @@ class ActionSearchTreat(Action):
         pre_disease = tracker.get_slot("sure")
         print("$"*50)
         print(disease, pre_disease)
+        if not disease:
+            entities = tracker.latest_message['entities']
+            for entity in entities:
+                if entity['entity'] == "disease":
+                    disease = entity['value']
+            print("A"*50)
+            print(disease, pre_disease)
         possible_diseases = get_disease(disease)
         if disease == pre_disease or len(possible_diseases) == 1:
             final_disease = treatment(disease)
@@ -192,7 +199,13 @@ class ActionSearchSymptom(Action):
             domain: Dict[Text, Any]):
         disease = tracker.get_slot("disease")
         pre_disease = tracker.get_slot("sure")
-
+        if not disease:
+            entities = tracker.latest_message['entities']
+            for entity in entities:
+                if entity['entity'] == "disease":
+                    disease = entity['value']
+            print("A"*50)
+            print(disease, pre_disease)
         possible_diseases = get_disease(disease)
         if disease == pre_disease or len(possible_diseases) == 1:
             final_disease = symptom(disease)
@@ -223,7 +236,13 @@ class ActionSearchCause(Action):
             domain: Dict[Text, Any]):
         disease = tracker.get_slot("disease")
         pre_disease = tracker.get_slot("sure")
-
+        if not disease:
+            entities = tracker.latest_message['entities']
+            for entity in entities:
+                if entity['entity'] == "disease":
+                    disease = entity['value']
+            print("A"*50)
+            print(disease, pre_disease)
         possible_diseases = get_disease(disease)
         if disease == pre_disease or len(possible_diseases) == 1:
             final_disease = cause(disease)
@@ -255,6 +274,13 @@ class ActionSearchDiseaseDept(Action):
 
         disease = tracker.get_slot("disease")
         pre_disease = tracker.get_slot("sure")
+        if not disease:
+            entities = tracker.latest_message['entities']
+            for entity in entities:
+                if entity['entity'] == "disease":
+                    disease = entity['value']
+            print("A"*50)
+            print(disease, pre_disease)
         possible_diseases = get_disease(disease)
         if disease == pre_disease or len(possible_diseases) == 1:
             print("#"*50)

@@ -3,16 +3,16 @@ action_endpoint:
   url: "http://localhost:5055/webhook"
 
 # custom rasa tracker to tackle bson 16mb document limit
-# tracker_store:
-#   type: custom.custom_tracker.GridTrackerStore
-#   url: mongodb://localhost:27017
-#   db: rasa
-#   neo4j_url: bolt://localhost:7687
-
 tracker_store:
-  type: mongod
+  type: custom.custom_tracker.GridTrackerStore
   url: mongodb://localhost:27017
   db: rasa
+  neo4j_url: bolt://localhost:7687
+
+# tracker_store:
+#   type: mongod
+#   url: mongodb://localhost:27017
+#   db: rasa
 
 #  event_broker:
 #    type: "pika"

@@ -4,7 +4,7 @@ from question_classifier import *
 from question_parser import *
 from answer_search import *
 
-'''问答类'''
+
 class ChatBotGraph:
     def __init__(self):
         self.classifier = QuestionClassifier()
@@ -12,7 +12,7 @@ class ChatBotGraph:
         self.searcher = AnswerSearcher()
 
     def chat_main(self, sent):
-        answer = "Hello, I am XiaoMar Medical Assistant, I hope I can help you. If I don't answer it, I suggest you consult a professional doctor. I wish you a great body!"
+        answer = "Hello, I am Medical Analtyica Assistant, I hope I can help you. If I don't answer it, I suggest you consult a professional doctor. I wish you a great body!"
         res_classify = self.classifier.classify(sent)
         if not res_classify:
             return answer
@@ -28,5 +28,5 @@ if __name__ == '__main__':
     while 1:
         question = input('User:')
         answer = handler.chat_main(question)
-        print('XiaoMar:', answer)
+        print('Medical Analtyica:', answer)
 

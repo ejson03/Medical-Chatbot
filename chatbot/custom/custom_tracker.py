@@ -15,20 +15,26 @@ from datetime import datetime
 from termcolor import colored
 import inspect
 import os
-from . import Tracker4J
+import Tracker4J
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 class GridTrackerStore(TrackerStore):
     def __init__(
         self,
         domain,
-        host=os.environ.get("MONGO_URL") or "mongodb://localhost:27017",
+        host=os.getenv("MONGO_URL") or "mongodb://localhost:27017",
         db="rasa",
         username=None,
         password=None,
         auth_source="admin",
         collection="conversations",
-        neo4j_url="bolt://localhost:7687",
+        neo4j_host=os.getenv("NEO4J_URL") or "localhost",  
+        neo4j_http_port=int(os.getenv("NEO4J_PORT") or 7687),  
+        neo4j_user=os.getenv("NEO4J_USER") or None,  
+        neo4j_password=os.getenv("NEO4J_PASSWORD") or None,
         event_broker=None,
     ):
         from pymongo.database import Database
@@ -43,7 +49,10 @@ class GridTrackerStore(TrackerStore):
         )
 
         try:
-            self.Tracker4J = Tracker4J.Tracker4J(neo4j_url)
+            self.Tracker4J = Tracker4J.Tracker4J(host=neo4j_host,  
+            port=neo4j_http_port,  
+            user=neo4j_user,  
+            password=neo4j_password)
         except:
             self.Tracker4J = None
         self.db = Database(self.client, db)
@@ -90,13 +99,10 @@ class GridTrackerStore(TrackerStore):
 
     def _additional_events(self, tracker: DialogueStateTracker) -> Iterator:
         """Return events from the tracker which aren't currently stored.
-
         Args:
             tracker: Tracker to inspect.
-
         Returns:
             List of serialised events that aren't currently stored.
-
         """
 
         stored = self.conversations.find_one({"sender_id": tracker.sender_id}) or {}
@@ -116,14 +122,11 @@ class GridTrackerStore(TrackerStore):
     @staticmethod
     def _events_since_last_session_start(events: List[Dict]) -> List[Dict]:
         """Retrieve events since and including the latest `SessionStart` event.
-
         Args:
             events: All events for a conversation ID.
-
         Returns:
             List of serialised events since and including the latest `SessionStarted`
             event. Returns all events if no such event is found.
-
         """
 
         events_after_session_start = []
@@ -138,7 +141,6 @@ class GridTrackerStore(TrackerStore):
         """
         Args:
             sender_id: the message owner ID
-
         Returns:
             `DialogueStateTracker`
         """
