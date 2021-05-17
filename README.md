@@ -114,5 +114,5 @@ docker container inspect <container-id>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 [MIT License Link](https://github.com/ejson03/Medical-Analytica/blob/master/LICENSE)
-To run the program
+
 
