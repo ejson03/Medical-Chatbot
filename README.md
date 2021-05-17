@@ -15,7 +15,7 @@ There is a wave of emotional unstabiltiy among people who are on a downward spir
 
 This project as a chatbot is a part of our complete project 
 
-[Medical Analytica](https://github.com/ejson03/Medical-Analyticae)
+[Medical Analytica](https://github.com/ejson03/Medical-Analytica)
 
 # Installation
 
