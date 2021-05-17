@@ -1,0 +1,105 @@
+version: "3.7"
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    # environment:
+    #   MONGO_INITDB_ROOT_USERNAME: "${MONGO_USER}"
+    #   MONGO_INITDB_ROOT_PASSWORD: "${MONGO_PASS}"
+    ports:
+      - "27017:27017"
+    command: mongod
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongo mongodb:27017/test --quiet
+      interval: 10s
+      timeout: 10s
+      retries: 5
+      start_period: 40s
+    restart: always
+
+
+  neo4j:
+    image: neo4j
+    container_name: neo4j
+    ports: 
+        - "7474:7474"
+        - "7373:7373"
+        - "7687:7687"
+    environment:
+        - NEO4J_AUTH=none
+    volumes:
+      - neo4j_data:/data 
+      - neo4j_logs:/logs 
+      - neo4j_import:/var/lib
+      - neo4j_plugins:/plugins 
+    healthcheck:
+      test: wget http://neo4j:7474/browser -O -
+      interval: 1s
+      timeout: 1s
+      retries: 25 
+    restart: always
+
+  server:
+    container_name: rasa-server
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Dockerfile.rasa
+      target: chatbot
+    volumes:
+      - ./chatbot:/app
+    ports:
+      - 5005:5005
+    depends_on:
+      - action
+
+  action:
+    container_name: rasa-action-server
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Dockerfile.rasa
+      target: action
+    ports:
+      - "5055:5055"
+    depends_on: 
+      - neo4j
+      - mongodb
+      - build_medicalgraph
+
+  main:
+    container_name: main
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Dockerfile.node
+      target: app-backend
+    command: npm run deploy
+    ports:
+      - 5000:5000
+    depends_on:
+      - server
+    restart: always
+ 
+  build_medicalgraph:
+    env_file:
+      - .env
+    build:
+      context: ./QA-engine/Knowledge-Base
+      dockerfile: Dockerfile
+    environment:
+      NEO4J_URL: "neo4j"
+    depends_on: 
+      neo4j:
+        condition: service_healthy
+
+ 
+volumes:
+  neo4j_data: {}
+  neo4j_logs: {}
+  neo4j_import: {}
+  neo4j_plugins: {}
+
